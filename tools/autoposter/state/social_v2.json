@@ -584,6 +584,36 @@
         }
       },
       "updated_at": "2026-10-04T13:32:59.185598+00:00"
+    },
+    "c708416debaa": {
+      "title": "Полуприцепы SAT в лизинг от 7,1% годовых",
+      "created_at": "2026-10-04T16:11:12.733693+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "B6bWizjaCuw",
+          "url": "https://www.youtube.com/shorts/B6bWizjaCuw",
+          "updated_at": "2026-10-04T16:11:12.733714+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac27aa16ae9cbb01a5050bc",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-04T16:13:00.608134+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac27b0d8f73649f4610f6b0",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-04T16:14:02.572176+00:00"
+        }
+      },
+      "updated_at": "2026-10-04T16:14:02.572173+00:00"
     }
   }
 }

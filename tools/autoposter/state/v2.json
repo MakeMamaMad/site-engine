@@ -20,7 +20,8 @@
     "2612fbfa4b06",
     "5c7c9aa83ff0",
     "4a6c47ad4af7",
-    "e8c4ba27835a"
+    "e8c4ba27835a",
+    "c708416debaa"
   ],
   "renders": [
     {
@@ -161,6 +162,13 @@
       "slug": "zavod-tverskoy-ekskavator-prazdnuet-83-letie-e8c4ba27",
       "title": "«Тверской экскаватор» отмечает 83-летие",
       "created_at": "2026-10-04T13:32:59.186697+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "c708416debaa",
+      "slug": "polupritsepy-zavoda-spetsavtoethnika-v-lizing-ot-7-1-godovyh-c708416d",
+      "title": "Полуприцепы SAT в лизинг от 7,1% годовых",
+      "created_at": "2026-10-04T16:14:02.573240+00:00",
       "format": "social-v2"
     }
   ]
