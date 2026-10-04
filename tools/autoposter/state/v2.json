@@ -19,7 +19,8 @@
     "37a67f56e81c",
     "2612fbfa4b06",
     "5c7c9aa83ff0",
-    "4a6c47ad4af7"
+    "4a6c47ad4af7",
+    "e8c4ba27835a"
   ],
   "renders": [
     {
@@ -153,6 +154,13 @@
       "slug": "bendix-bowling-green-plant-poluchil-nagradu-za-bezopasnost-4a6c47ad",
       "title": "Завод Bendix в Кентукки получил награду за безопасность труда",
       "created_at": "2026-10-03T16:14:32.819732+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "e8c4ba27835a",
+      "slug": "zavod-tverskoy-ekskavator-prazdnuet-83-letie-e8c4ba27",
+      "title": "«Тверской экскаватор» отмечает 83-летие",
+      "created_at": "2026-10-04T13:32:59.186697+00:00",
       "format": "social-v2"
     }
   ]
