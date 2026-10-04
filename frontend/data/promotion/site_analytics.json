@@ -1,28 +1,28 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-03T20:01:24+00:00",
+  "updated_at": "2026-10-04T20:16:05+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 164,
-    "users": 158,
+    "visits": 167,
+    "users": 159,
     "sources": [
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 109,
-        "users": 106,
-        "bounce_rate": 69.7,
-        "page_depth": 1.25
+        "visits": 106,
+        "users": 102,
+        "bounce_rate": 66.0,
+        "page_depth": 1.26
       },
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 28,
-        "users": 28,
-        "bounce_rate": 35.7,
-        "page_depth": 1.11
+        "visits": 34,
+        "users": 33,
+        "bounce_rate": 32.4,
+        "page_depth": 1.18
       },
       {
         "id": "social",
@@ -73,22 +73,16 @@
       }
     },
     "search": {
-      "date_from": "2026-09-24",
-      "date_to": "2026-09-30",
-      "shows": 122,
-      "clicks": 6,
+      "date_from": "2026-09-25",
+      "date_to": "2026-10-01",
+      "shows": 147,
+      "clicks": 7,
       "top_queries": [
         {
           "query": "приказ минтранса 212 от 12.05.2026",
-          "shows": 8,
+          "shows": 6,
           "clicks": 0,
-          "position": 12.5
-        },
-        {
-          "query": "приказ минтранса россии от 12 мая 2026 года № 212",
-          "shows": 4,
-          "clicks": 0,
-          "position": 12.8
+          "position": 12.3
         },
         {
           "query": "как рассчитать нагрузку на ось грузового автомобиля с полуприцепом калькулятор",
@@ -103,10 +97,10 @@
           "position": 13.3
         },
         {
-          "query": "когель тотал ру",
-          "shows": 2,
+          "query": "расчет нагрузок на оси автопоезда калькулятор",
+          "shows": 3,
           "clicks": 0,
-          "position": 12.0
+          "position": 10.0
         },
         {
           "query": "нагрузка на ось тягача киров - ярославль федеральная трасса",
@@ -119,6 +113,12 @@
           "shows": 2,
           "clicks": 0,
           "position": 3.5
+        },
+        {
+          "query": "приказ минтранса россии от 12 мая 2026 года № 212",
+          "shows": 2,
+          "clicks": 0,
+          "position": 12.0
         },
         {
           "query": "приказ минтранса россии от 12.05.2026 №212",
@@ -154,12 +154,12 @@
       {
         "code": "NO_SITEMAPS",
         "severity": "POSSIBLE_PROBLEM",
-        "since": "2026-10-03T20:01:04.123+03:00"
+        "since": "2026-10-04T19:41:00.623+03:00"
       },
       {
         "code": "BIG_FAVICON_ABSENT",
         "severity": "RECOMMENDATION",
-        "since": "2026-10-03T20:25:39.445+03:00"
+        "since": "2026-10-04T20:19:03.633+03:00"
       },
       {
         "code": "NOT_IN_SPRAV",
