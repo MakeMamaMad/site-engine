@@ -524,9 +524,9 @@
       "slug": "zavod-tverskoy-ekskavator-prazdnuet-83-letie-e8c4ba27"
     },
     "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/": {
-      "digest_id": "2026-10-05:am",
-      "message_id": 1540,
-      "sent_at": "2026-10-05T07:09:58+00:00",
+      "digest_id": "2026-10-05:pm",
+      "message_id": 1543,
+      "sent_at": "2026-10-05T15:05:17+00:00",
       "title": "Broughton Transport Solutions расширяет флот холодильных сетей с помощью KRONE",
       "slug": "broughton-transport-solutions-rasshiryaet-flot-holodilnyh-setey-s-pomosc-3d530d1f"
     },
@@ -543,6 +543,20 @@
       "sent_at": "2026-10-05T07:09:58+00:00",
       "title": "XPO достигла рубежа в 300 сервис-центров",
       "slug": "xpo-dostigla-rubezha-v-300-servis-tsentrov-13aec8f9"
+    },
+    "https://comautotrans.moscow/tpost/blcn4jt071-statya-v-zhurnale-comvex-revyu": {
+      "digest_id": "2026-10-05:pm",
+      "message_id": 1543,
+      "sent_at": "2026-10-05T15:05:17+00:00",
+      "title": "Статья в журнале «COMVEX ревю»",
+      "slug": "statya-v-zhurnale-comvex-revyu-6adb7fe2"
+    },
+    "https://www.globaltrailermag.com/vale-ulrich-sauer/": {
+      "digest_id": "2026-10-05:pm",
+      "message_id": 1543,
+      "sent_at": "2026-10-05T15:05:17+00:00",
+      "title": "Вале Ульрих Зауэр",
+      "slug": "vale-ulrih-zauer-7e8e80cc"
     }
   },
   "digests": {
@@ -693,6 +707,17 @@
         "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/",
         "https://www.globaltrailermag.com/ceva-logistics-triples-north-american-footprint/",
         "https://www.globaltrailermag.com/xpo-reaches-300-service-centre-milestone/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-05:pm": {
+      "message_id": 1543,
+      "sent_at": "2026-10-05T15:05:17+00:00",
+      "slot": "pm",
+      "items": [
+        "https://comautotrans.moscow/tpost/blcn4jt071-statya-v-zhurnale-comvex-revyu",
+        "https://www.globaltrailermag.com/vale-ulrich-sauer/",
+        "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/"
       ],
       "visual": "visual"
     }
