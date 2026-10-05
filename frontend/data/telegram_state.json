@@ -513,6 +513,27 @@
       "sent_at": "2026-10-02T12:57:15+00:00",
       "title": "Завод «Тверской экскаватор» празднует 83-летие",
       "slug": "zavod-tverskoy-ekskavator-prazdnuet-83-letie-e8c4ba27"
+    },
+    "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/": {
+      "digest_id": "2026-10-05:am",
+      "message_id": 1540,
+      "sent_at": "2026-10-05T07:09:58+00:00",
+      "title": "Broughton Transport Solutions расширяет флот холодильных сетей с помощью KRONE",
+      "slug": "broughton-transport-solutions-rasshiryaet-flot-holodilnyh-setey-s-pomosc-3d530d1f"
+    },
+    "https://www.globaltrailermag.com/ceva-logistics-triples-north-american-footprint/": {
+      "digest_id": "2026-10-05:am",
+      "message_id": 1540,
+      "sent_at": "2026-10-05T07:09:58+00:00",
+      "title": "CEVA Logistics утроила североамериканский след",
+      "slug": "ceva-logistics-utroila-severoamerikanskiy-sled-a4cd4fc9"
+    },
+    "https://www.globaltrailermag.com/xpo-reaches-300-service-centre-milestone/": {
+      "digest_id": "2026-10-05:am",
+      "message_id": 1540,
+      "sent_at": "2026-10-05T07:09:58+00:00",
+      "title": "XPO достигла рубежа в 300 сервис-центров",
+      "slug": "xpo-dostigla-rubezha-v-300-servis-tsentrov-13aec8f9"
     }
   },
   "digests": {
@@ -652,6 +673,17 @@
         "https://www.globaltrailermag.com/dhl-express-names-hong-kong-macau-chief/",
         "https://www.globaltrailermag.com/kogel-reflects-on-e-trailer-innovation-award-win/",
         "https://truckmix.ru/news/zavod-tverskoi-ekskavator-prazdnyet-83-letie"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-05:am": {
+      "message_id": 1540,
+      "sent_at": "2026-10-05T07:09:58+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/",
+        "https://www.globaltrailermag.com/ceva-logistics-triples-north-american-footprint/",
+        "https://www.globaltrailermag.com/xpo-reaches-300-service-centre-milestone/"
       ],
       "visual": "visual"
     }
