@@ -104,19 +104,22 @@
     "https://spec-avtoportal.ru/tools/stoimost-reysa/": {
       "at": "2026-10-05T07:58:51+00:00",
       "task_id": "9a703880-c092-11f1-83a3-db32b2b0e403"
+    },
+    "https://spec-avtoportal.ru/tools/": {
+      "at": "2026-10-05T08:36:52+00:00",
+      "task_id": "e9d1c6f0-c097-11f1-b518-8103174f3502"
     }
   },
   "last_run": {
-    "at": "2026-10-05T07:58:51+00:00",
+    "at": "2026-10-05T08:36:52+00:00",
     "sent": [
-      "https://spec-avtoportal.ru/tools/skolko-pallet-v-furu/",
-      "https://spec-avtoportal.ru/tools/stoimost-reysa/"
+      "https://spec-avtoportal.ru/tools/"
     ],
     "failed": [],
     "left": 0,
     "quota": {
       "daily": 150,
-      "remainder_before": 148
+      "remainder_before": 146
     },
     "sitemaps_added": [],
     "sitemaps": []
