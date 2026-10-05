@@ -88,14 +88,23 @@
     "https://spec-avtoportal.ru/knowledge/pereregistraciya-polupricepa/": {
       "at": "2026-10-02T07:14:58+00:00",
       "task_id": "f98bc370-be30-11f1-b4d6-87c8463f27c2"
+    },
+    "https://spec-avtoportal.ru/knowledge/vynesennaya-os-polupricepa/": {
+      "at": "2026-10-05T07:12:45+00:00",
+      "task_id": "29a771f1-c08c-11f1-83a3-db32b2b0e403"
     }
   },
   "last_run": {
-    "at": "2026-10-05T07:02:22+00:00",
-    "sent": [],
+    "at": "2026-10-05T07:12:45+00:00",
+    "sent": [
+      "https://spec-avtoportal.ru/knowledge/vynesennaya-os-polupricepa/"
+    ],
     "failed": [],
     "left": 0,
-    "quota": null,
+    "quota": {
+      "daily": 150,
+      "remainder_before": 150
+    },
     "sitemaps_added": [],
     "sitemaps": []
   }
