@@ -2458,3 +2458,10 @@ button { color: inherit; }
 .sat-banner__price strong{color:var(--ink)}
 .sat-banner__button{display:flex;justify-content:center;margin-top:12px;padding:12px 14px;border-radius:10px;background:var(--orange);color:#fff;font-weight:800;text-decoration:none;font-size:14px}
 .sat-banner__button:hover{background:var(--orange-dark)}
+
+/* Calculators block in the news sidebar */
+.tools-block__list{display:grid;gap:8px}
+.tools-block__item{display:block;padding:10px 12px;border:1px solid var(--line);border-radius:12px;text-decoration:none;color:var(--ink);background:var(--paper)}
+.tools-block__item:hover{border-color:var(--orange)}
+.tools-block__item strong{display:block;font-size:15px}
+.tools-block__item span{display:block;font-size:12px;color:var(--muted);margin-top:2px}
