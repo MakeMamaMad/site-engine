@@ -29,7 +29,11 @@
         const item = items[index];
         const slug = item && String(item.slug || "").trim();
         if (slug) {
-          window.location.replace("/news/" + encodeURIComponent(slug) + "/");
+          // Keep utm_* tags so Metrika still credits the original channel.
+          const keep = new URLSearchParams();
+          params.forEach((v, k) => { if (k.startsWith("utm_")) keep.set(k, v); });
+          const qs = keep.toString();
+          window.location.replace("/news/" + encodeURIComponent(slug) + "/" + (qs ? "?" + qs : ""));
           return;
         }
       } catch (_) {}
