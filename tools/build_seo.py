@@ -40,6 +40,7 @@ from load_distribution_calculator import PAGE_PATH as DIST_CALC_PATH, render_dis
 from fine_calculator import PAGE_PATH as FINE_CALC_PATH, render_fine_calculator_page
 from pallet_calculator import PAGE_PATH as PALLET_CALC_PATH, render_pallet_calculator_page
 from trip_cost_calculator import PAGE_PATH as TRIP_CALC_PATH, render_trip_cost_page
+from tools_hub import PAGE_PATH as TOOLS_HUB_PATH, TOOLS as TOOLS_LIST, render_tools_hub
 
 FRONTEND = ROOT / "frontend"
 NEWS_JSON = FRONTEND / "data" / "news.json"
@@ -690,14 +691,7 @@ SIDEBAR_BANNER = {
 }
 
 
-TOOLS_SIDEBAR = [
-    ("/tools/nagruzka-na-os/", "Нагрузка на ось", "проверка по ПП № 2060"),
-    ("/tools/raspredelenie-gruza-po-osyam/", "Распределение груза", "куда поставить груз без перегруза"),
-    ("/tools/shtraf-za-peregruz/", "Штраф за перегруз", "сумма по статье 12.21.1"),
-    ("/tools/skolko-pallet-v-furu/", "Сколько паллет в фуру", "еврофура, рефрижератор, контейнер"),
-    ("/tools/stoimost-reysa/", "Стоимость рейса", "топливо, «Платон», водитель"),
-    ("/tools/rezhim-truda-i-otdyha/", "Режим труда и отдыха", "перерывы и отдых водителя"),
-]
+TOOLS_SIDEBAR = [(href, name, question) for href, name, _text, question in TOOLS_LIST]
 
 
 def tools_sidebar_html() -> str:
@@ -710,6 +704,7 @@ def tools_sidebar_html() -> str:
         '<section class="sidebar-block tools-block">'
         '<p class="sidebar-eyebrow">Бесплатные калькуляторы</p>'
         f'<div class="tools-block__list">{links}</div>'
+        '<a class="text-link" href="/tools/" style="display:inline-block;margin-top:10px">Все калькуляторы →</a>'
         "</section>"
     )
 
@@ -1071,7 +1066,7 @@ def render_page(item: dict[str, Any], items: list[dict[str, Any]], knowledge_art
         <a href="/" class="nav-link nav-link-active">Новости</a>
         <a href="/brands/" class="nav-link">Бренды</a>
         <a href="/knowledge.html" class="nav-link">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link">Калькулятор</a>
+        <a href="/tools/" class="nav-link">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
@@ -1290,7 +1285,7 @@ def render_brand_page(
         <a href="/" class="nav-link">Новости</a>
         <a href="/brands/" class="nav-link nav-link-active">Бренды</a>
         <a href="/knowledge.html" class="nav-link">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link">Калькулятор</a>
+        <a href="/tools/" class="nav-link">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
@@ -1425,7 +1420,7 @@ def render_brand_directory(brand_counts: dict[str, int]) -> str:
         <a href="/" class="nav-link">Новости</a>
         <a href="/brands/" class="nav-link nav-link-active">Бренды</a>
         <a href="/knowledge.html" class="nav-link">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link">Калькулятор</a>
+        <a href="/tools/" class="nav-link">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
@@ -1555,7 +1550,7 @@ def render_topic_page(
         <a href="/" class="nav-link">Новости</a>
         <a href="/brands/" class="nav-link">Бренды</a>
         <a href="/knowledge.html" class="nav-link">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link">Калькулятор</a>
+        <a href="/tools/" class="nav-link">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
@@ -1776,7 +1771,7 @@ def render_knowledge_article(item: dict[str, Any], updated_at: str, news_items: 
         <a href="/" class="nav-link">Новости</a>
         <a href="/brands/" class="nav-link">Бренды</a>
         <a href="/knowledge.html" class="nav-link nav-link-active">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link">Калькулятор</a>
+        <a href="/tools/" class="nav-link">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
@@ -2061,7 +2056,7 @@ def render_regulation_page(item: dict[str, Any], verified_at: str, knowledge_art
         <a href="/" class="nav-link">Новости</a>
         <a href="/brands/" class="nav-link">Бренды</a>
         <a href="/knowledge.html" class="nav-link nav-link-active">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link">Калькулятор</a>
+        <a href="/tools/" class="nav-link">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
@@ -2225,7 +2220,7 @@ def render_regulations_index(regulations: dict[str, Any]) -> str:
         <a href="/" class="nav-link">Новости</a>
         <a href="/brands/" class="nav-link">Бренды</a>
         <a href="/knowledge.html" class="nav-link nav-link-active">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link">Калькулятор</a>
+        <a href="/tools/" class="nav-link">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
@@ -2440,6 +2435,7 @@ def build_homepage(items: list[dict[str, Any]]) -> None:
     page = replace_home_block(page, "SEO_NEWS_LIST", cards)
     page = replace_home_block(page, "SEO_TOP_TAGS", top_tags)
     page = replace_home_block(page, "SEO_HOME_GUIDES", home_guides_html(load_regulations()))
+    page = replace_home_block(page, "SEO_HOME_TOOLS", tools_sidebar_html())
     page = replace_home_block(page, "SEO_NEWS_COUNT", str(len(items)))
     latest = display_date(get_field(items[0], "published_at", "date", "pub_date")) if items else "—"
     page = replace_home_block(page, "SEO_LATEST_DATE", html.escape(latest))
@@ -2548,6 +2544,7 @@ def write_sitemap(
         (f"{BASE_URL}/law.html", ""),
         (f"{BASE_URL}/guides.html", ""),
         (f"{BASE_URL}/about.html", ""),
+        (f"{BASE_URL}{TOOLS_HUB_PATH}", ""),
         (f"{BASE_URL}{AXLE_CALC_PATH}", ""),
         (f"{BASE_URL}{RTO_CALC_PATH}", ""),
         (f"{BASE_URL}{DIST_CALC_PATH}", ""),
@@ -2798,6 +2795,17 @@ def main() -> None:
             telegram_cta_html(
                 "Экономика грузоперевозок",
                 "Тарифы, «Платон», топливо и нормы для перевозчиков — коротко в нашем Telegram-канале.",
+            ),
+        ),
+        encoding="utf-8",
+    )
+
+    (FRONTEND / "tools" / "index.html").write_text(
+        render_tools_hub(
+            BASE_URL,
+            telegram_cta_html(
+                "Новые калькуляторы и нормы",
+                "Сообщаем о новых инструментах и изменениях в правилах для перевозчиков в нашем Telegram-канале.",
             ),
         ),
         encoding="utf-8",
