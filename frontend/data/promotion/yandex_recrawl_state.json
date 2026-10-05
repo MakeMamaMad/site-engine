@@ -111,16 +111,11 @@
     }
   },
   "last_run": {
-    "at": "2026-10-05T08:36:52+00:00",
-    "sent": [
-      "https://spec-avtoportal.ru/tools/"
-    ],
+    "at": "2026-10-05T14:52:28+00:00",
+    "sent": [],
     "failed": [],
     "left": 0,
-    "quota": {
-      "daily": 150,
-      "remainder_before": 146
-    },
+    "quota": null,
     "sitemaps_added": [],
     "sitemaps": []
   }
