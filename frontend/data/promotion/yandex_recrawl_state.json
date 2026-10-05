@@ -96,18 +96,27 @@
     "https://spec-avtoportal.ru/tools/shtraf-za-peregruz/": {
       "at": "2026-10-05T07:46:49+00:00",
       "task_id": "ebc20260-c090-11f1-b518-8103174f3502"
+    },
+    "https://spec-avtoportal.ru/tools/skolko-pallet-v-furu/": {
+      "at": "2026-10-05T07:58:50+00:00",
+      "task_id": "99f933c0-c092-11f1-83a3-db32b2b0e403"
+    },
+    "https://spec-avtoportal.ru/tools/stoimost-reysa/": {
+      "at": "2026-10-05T07:58:51+00:00",
+      "task_id": "9a703880-c092-11f1-83a3-db32b2b0e403"
     }
   },
   "last_run": {
-    "at": "2026-10-05T07:46:49+00:00",
+    "at": "2026-10-05T07:58:51+00:00",
     "sent": [
-      "https://spec-avtoportal.ru/tools/shtraf-za-peregruz/"
+      "https://spec-avtoportal.ru/tools/skolko-pallet-v-furu/",
+      "https://spec-avtoportal.ru/tools/stoimost-reysa/"
     ],
     "failed": [],
     "left": 0,
     "quota": {
       "daily": 150,
-      "remainder_before": 149
+      "remainder_before": 148
     },
     "sitemaps_added": [],
     "sitemaps": []
