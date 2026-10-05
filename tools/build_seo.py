@@ -38,6 +38,7 @@ from axle_calculator import PAGE_PATH as AXLE_CALC_PATH, render_axle_calculator_
 from rto_calculator import PAGE_PATH as RTO_CALC_PATH, render_rto_calculator_page
 from load_distribution_calculator import PAGE_PATH as DIST_CALC_PATH, render_distribution_calculator_page
 from fine_calculator import PAGE_PATH as FINE_CALC_PATH, render_fine_calculator_page
+from pallet_calculator import PAGE_PATH as PALLET_CALC_PATH, render_pallet_calculator_page
 
 FRONTEND = ROOT / "frontend"
 NEWS_JSON = FRONTEND / "data" / "news.json"
@@ -692,6 +693,7 @@ TOOLS_SIDEBAR = [
     ("/tools/nagruzka-na-os/", "Нагрузка на ось", "проверка по ПП № 2060"),
     ("/tools/raspredelenie-gruza-po-osyam/", "Распределение груза", "куда поставить груз без перегруза"),
     ("/tools/shtraf-za-peregruz/", "Штраф за перегруз", "сумма по статье 12.21.1"),
+    ("/tools/skolko-pallet-v-furu/", "Сколько паллет в фуру", "еврофура, рефрижератор, контейнер"),
     ("/tools/rezhim-truda-i-otdyha/", "Режим труда и отдыха", "перерывы и отдых водителя"),
 ]
 
@@ -2548,6 +2550,7 @@ def write_sitemap(
         (f"{BASE_URL}{RTO_CALC_PATH}", ""),
         (f"{BASE_URL}{DIST_CALC_PATH}", ""),
         (f"{BASE_URL}{FINE_CALC_PATH}", ""),
+        (f"{BASE_URL}{PALLET_CALC_PATH}", ""),
     ]
     rows = []
     for url, lastmod in static_pages:
@@ -2766,6 +2769,19 @@ def main() -> None:
             telegram_cta_html(
                 "Нормы и штрафы для перевозчиков",
                 "Нагрузки на оси, габариты и штрафы 2026 года — коротко в нашем Telegram-канале.",
+            ),
+        ),
+        encoding="utf-8",
+    )
+
+    pallet_dir = FRONTEND / PALLET_CALC_PATH.strip("/")
+    pallet_dir.mkdir(parents=True, exist_ok=True)
+    (pallet_dir / "index.html").write_text(
+        render_pallet_calculator_page(
+            BASE_URL,
+            telegram_cta_html(
+                "Практика для перевозчиков",
+                "Загрузка, нагрузки на оси, нормы и штрафы — коротко в нашем Telegram-канале.",
             ),
         ),
         encoding="utf-8",
