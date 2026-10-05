@@ -416,6 +416,7 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
             <li><a href="/knowledge/specrazreshenie-tyazhelovesnoe-ts/">Спецразрешение на тяжеловесный транспорт</a></li>
             <li><a href="/tools/raspredelenie-gruza-po-osyam/">Калькулятор распределения груза по осям тягача и полуприцепа</a></li>
             <li><a href="/knowledge/nagruzka-na-osi-evrofury/">Нагрузка на оси еврофуры и семиосного автопоезда</a></li>
+            <li><a href="/knowledge/vynesennaya-os-polupricepa/">Вынесенная ось полуприцепа: сколько даёт по нагрузке</a></li>
             <li><a href="/tools/rezhim-truda-i-otdyha/">Калькулятор режима труда и отдыха водителя</a></li>
             <li><a href="/regulations/mintrans-212-2026/">Новые правила безопасности перевозок с 1 сентября 2026</a></li>
           </ul>

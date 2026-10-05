@@ -22,3 +22,4 @@ https://spec-avtoportal.ru/knowledge/tehosmotr-polupricepa/
 https://spec-avtoportal.ru/tools/raspredelenie-gruza-po-osyam/
 https://spec-avtoportal.ru/knowledge/nagruzka-na-osi-evrofury/
 https://spec-avtoportal.ru/knowledge/pereregistraciya-polupricepa/
+https://spec-avtoportal.ru/knowledge/vynesennaya-os-polupricepa/
