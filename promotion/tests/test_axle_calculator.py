@@ -69,3 +69,14 @@ class AxleCalculatorTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class EmbedTest(unittest.TestCase):
+    def test_embed_page_and_snippet(self):
+        import axle_calculator as ac
+        page = ac.render_axle_embed_page("https://spec-avtoportal.ru")
+        self.assertIn('id="calc-groups"', page)
+        self.assertIn("noindex", page)
+        snippet = ac.embed_snippet("https://spec-avtoportal.ru")
+        self.assertIn('src="https://spec-avtoportal.ru/embed/nagruzka-na-os/"', snippet)
+        self.assertIn('<a href="https://spec-avtoportal.ru/tools/nagruzka-na-os/">', snippet)

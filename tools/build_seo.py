@@ -34,7 +34,7 @@ if str(TOOLS) not in sys.path:
     sys.path.insert(0, str(TOOLS))
 
 from telegram_visual import render_social_card
-from axle_calculator import PAGE_PATH as AXLE_CALC_PATH, render_axle_calculator_page
+from axle_calculator import EMBED_PATH as AXLE_EMBED_PATH, PAGE_PATH as AXLE_CALC_PATH, render_axle_calculator_page, render_axle_embed_page
 from rto_calculator import PAGE_PATH as RTO_CALC_PATH, render_rto_calculator_page
 from load_distribution_calculator import PAGE_PATH as DIST_CALC_PATH, render_distribution_calculator_page
 from fine_calculator import PAGE_PATH as FINE_CALC_PATH, render_fine_calculator_page
@@ -2800,6 +2800,9 @@ def main() -> None:
         encoding="utf-8",
     )
 
+    embed_dir = FRONTEND / AXLE_EMBED_PATH.strip("/")
+    embed_dir.mkdir(parents=True, exist_ok=True)
+    (embed_dir / "index.html").write_text(render_axle_embed_page(BASE_URL), encoding="utf-8")
     (FRONTEND / "tools" / "index.html").write_text(
         render_tools_hub(
             BASE_URL,

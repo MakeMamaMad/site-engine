@@ -261,6 +261,81 @@ def _limits_table_html() -> str:
     )
 
 
+EMBED_PATH = "/embed/nagruzka-na-os/"
+
+
+def _calc_card_html(presets_html: str) -> str:
+    return f"""        <section class="calc-card" id="calculator">
+          <p class="section-kicker">Расчёт</p>
+          <h2>Ваш автомобиль или автопоезд</h2>
+          <div class="calc-row">
+            <label class="calc-field">Дорога рассчитана на
+              <select id="calc-road"><option value="6">6 т на ось</option><option value="10" selected>10 т на ось</option><option value="11.5">11,5 т на ось</option></select>
+            </label>
+            <label class="calc-field">Транспортное средство
+              <select id="calc-kind"><option value="train">Автопоезд (седельный или прицепной)</option><option value="truck">Одиночный автомобиль</option></select>
+            </label>
+          </div>
+          <p class="calc-note">Типовая схема — затем поправьте нагрузки на свои:</p>
+          <div class="calc-presets">{presets_html}</div>
+          <div id="calc-groups" style="margin-top:14px"></div>
+          <button type="button" class="calc-add" id="calc-add">+ Добавить ось или группу осей</button>
+          <div class="calc-summary" style="margin-top:18px">
+            <div><span>Всего осей</span><strong id="sum-axles">—</strong></div>
+            <div><span>Фактическая масса</span><strong id="sum-mass">—</strong></div>
+            <div><span>Допустимая масса</span><strong id="sum-limit">—</strong></div>
+          </div>
+          <div class="calc-verdict" id="calc-verdict" aria-live="polite">Заполните данные.</div>
+          <p class="calc-note">Не знаете нагрузки по осям? Посчитайте их по массе и положению груза в <a href="/tools/raspredelenie-gruza-po-osyam/">калькуляторе распределения груза</a>.</p>
+          <p class="calc-note">Для сдвоенных и строенных осей вводите нагрузку на всю группу, для группы из 4+ осей — тоже на всю группу. Если на дороге стоит знак ограничения массы или нагрузки, действует значение на знаке. Весной на региональных дорогах вводятся временные ограничения.</p>
+        </section>
+"""
+
+
+def embed_snippet(base_url: str) -> str:
+    """Code other sites paste: the calculator in an iframe plus a plain text link."""
+    return (
+        f'<iframe src="{base_url}{EMBED_PATH}" title="Калькулятор нагрузки на ось" '
+        'style="width:100%;max-width:760px;height:1250px;border:0" loading="lazy"></iframe>\n'
+        f'<p style="font:13px/1.4 sans-serif">Калькулятор нагрузки на ось — '
+        f'<a href="{base_url}{PAGE_PATH}">СпецАвтоПортал</a></p>'
+    )
+
+
+def render_axle_embed_page(base_url: str) -> str:
+    """Bare calculator for iframes on other sites."""
+    data = {
+        "roads": ROAD_CLASSES,
+        "limits": AXLE_LIMITS,
+        "mass": {k: {str(n): v for n, v in table.items()} for k, table in MASS_LIMITS.items()},
+        "presets": PRESETS,
+    }
+    data_json = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+    presets_html = "".join(
+        f'<button type="button" data-preset="{html.escape(p["id"], quote=True)}">{html.escape(p["name"])}</button>' for p in PRESETS
+    )
+    card = _calc_card_html(presets_html).replace('href="/', f'target="_blank" rel="noopener" href="{base_url}/')
+    return f"""<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Калькулятор нагрузки на ось — СпецАвтоПортал</title>
+  <meta name="robots" content="noindex,follow" />
+  <link rel="canonical" href="{base_url}{PAGE_PATH}" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
+  <style>{_page_css()} body{{background:transparent;margin:0}} .calc-card{{margin:0}} .embed-credit{{margin:10px 4px;font-size:13px;color:var(--muted)}}</style>
+</head>
+<body>
+{card}
+<p class="embed-credit">Нормы по ПП № 2060 · <a href="{base_url}{PAGE_PATH}" target="_blank" rel="noopener">Калькулятор СпецАвтоПортала</a> · <a href="{base_url}/tools/" target="_blank" rel="noopener">другие калькуляторы</a></p>
+<script type="application/json" id="axle-data">{data_json}</script>
+<script>{_page_js()}</script>
+</body>
+</html>
+"""
+
+
 def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
     canonical = base_url + PAGE_PATH
     title = "Калькулятор нагрузки на ось автопоезда 2026 — онлайн-проверка по ПП № 2060"
@@ -356,30 +431,7 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
 
     <section class="container regulation-layout">
       <article class="regulation-main">
-        <section class="calc-card" id="calculator">
-          <p class="section-kicker">Расчёт</p>
-          <h2>Ваш автомобиль или автопоезд</h2>
-          <div class="calc-row">
-            <label class="calc-field">Дорога рассчитана на
-              <select id="calc-road"><option value="6">6 т на ось</option><option value="10" selected>10 т на ось</option><option value="11.5">11,5 т на ось</option></select>
-            </label>
-            <label class="calc-field">Транспортное средство
-              <select id="calc-kind"><option value="train">Автопоезд (седельный или прицепной)</option><option value="truck">Одиночный автомобиль</option></select>
-            </label>
-          </div>
-          <p class="calc-note">Типовая схема — затем поправьте нагрузки на свои:</p>
-          <div class="calc-presets">{presets_html}</div>
-          <div id="calc-groups" style="margin-top:14px"></div>
-          <button type="button" class="calc-add" id="calc-add">+ Добавить ось или группу осей</button>
-          <div class="calc-summary" style="margin-top:18px">
-            <div><span>Всего осей</span><strong id="sum-axles">—</strong></div>
-            <div><span>Фактическая масса</span><strong id="sum-mass">—</strong></div>
-            <div><span>Допустимая масса</span><strong id="sum-limit">—</strong></div>
-          </div>
-          <div class="calc-verdict" id="calc-verdict" aria-live="polite">Заполните данные.</div>
-          <p class="calc-note">Не знаете нагрузки по осям? Посчитайте их по массе и положению груза в <a href="/tools/raspredelenie-gruza-po-osyam/">калькуляторе распределения груза</a>.</p>
-          <p class="calc-note">Для сдвоенных и строенных осей вводите нагрузку на всю группу, для группы из 4+ осей — тоже на всю группу. Если на дороге стоит знак ограничения массы или нагрузки, действует значение на знаке. Весной на региональных дорогах вводятся временные ограничения.</p>
-        </section>
+{_calc_card_html(presets_html)}
 
         <section class="regulation-section">
           <p class="section-kicker">Как пользоваться</p>
@@ -399,6 +451,13 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
         </section>
 
         {telegram_cta}
+
+        <section class="regulation-section">
+          <p class="section-kicker">Для сайтов и блогов</p>
+          <h2>Поставить калькулятор к себе на сайт</h2>
+          <p>Калькулятор можно бесплатно разместить на сайте автопарка, дилера, автошколы или транспортного форума. Скопируйте код и вставьте его в страницу — нормы будут обновляться автоматически.</p>
+          <textarea readonly onclick="this.select()" style="width:100%;min-height:96px;font:13px/1.4 monospace;padding:10px;border:1px solid var(--line);border-radius:10px">{html.escape(embed_snippet(base_url))}</textarea>
+        </section>
 
         <section class="regulation-section regulation-faq">
           <p class="section-kicker">Вопросы и ответы</p>
