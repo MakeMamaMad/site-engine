@@ -45,11 +45,29 @@ PRESETS = [
     },
     {
         "id": "6x4-4",
-        "name": "7 осей: тягач 6×4 + 4 оси",
+        "name": "7 осей: тягач 3 оси + полуприцеп 4 оси",
         "tractor": {"rear": "double", "rearSpacing": 1.35, "wheelbase": 3.9, "fifth": 0.5, "front0": 5.3, "rear0": 4.0},
         "trailer": {"group": "multi", "count": 4, "spacing": 1.36, "tyres": "single", "kingpinToBogie": 7.2,
                     "kingpinFromFront": 1.2, "body": 12.0, "kingpin0": 3.0, "bogie0": 6.4},
         "cargo": [{"mass": 25, "start": 0, "length": 12}],
+    },
+    {
+        # Single truck: cargo rests on the chassis between the front axle and
+        # the rear bogie; a loader crane (КМУ) is part of the empty weight.
+        "id": "truck-6x4-kmu",
+        "name": "Бортовой 6×4 с КМУ (КАМАЗ)",
+        "kind": "truck",
+        "tractor": {"rear": "double", "rearSpacing": 1.32, "wheelbase": 4.35, "fifth": 0, "front0": 6.0, "rear0": 6.5,
+                    "bodyFromFront": 2.4, "truckBody": 6.1},
+        "cargo": [{"mass": 7, "start": 0, "length": 6.1}],
+    },
+    {
+        "id": "truck-6x4-dump",
+        "name": "Самосвал 6×4",
+        "kind": "truck",
+        "tractor": {"rear": "double", "rearSpacing": 1.32, "wheelbase": 4.35, "fifth": 0, "front0": 5.4, "rear0": 5.0,
+                    "bodyFromFront": 1.0, "truckBody": 5.1},
+        "cargo": [{"mass": 13, "start": 0, "length": 5.1}],
     },
 ]
 
@@ -72,8 +90,15 @@ function cargoCentre(cargo){
 
 // Loads on front axle, tractor rear axle/bogie, kingpin and trailer bogie.
 // x — cargo centre measured from the front wall of the body.
+// cfg.kind === 'truck': a single truck, the body starts bodyFromFront metres
+// behind the front axle; the wheelbase runs to the rear axle (bogie centre).
 function axleLoads(cfg, mass, x){
   const t = cfg.tractor, s = cfg.trailer;
+  if (cfg.kind === 'truck'){
+    const p = t.bodyFromFront + x, W = t.wheelbase;
+    const front = t.front0 + mass * (W - p) / W, rear = t.rear0 + mass * p / W;
+    return {front, rear, kingpin: 0, bogie: 0, total: front + rear};
+  }
   const fromKingpin = x - s.kingpinFromFront;
   const L = s.kingpinToBogie;
   const kingpinCargo = mass * (L - fromKingpin) / L;
@@ -89,16 +114,17 @@ function limitsFor(cfg, LIMITS, road){
   return {
     front: groupLimit(LIMITS, 'single', 'single', 0, 1, road),
     rear: groupLimit(LIMITS, t.rear, 'dual', t.rearSpacing, 2, road),
-    bogie: groupLimit(LIMITS, s.group, s.tyres, s.spacing, s.count, road),
+    bogie: cfg.kind === 'truck' ? Infinity : groupLimit(LIMITS, s.group, s.tyres, s.spacing, s.count, road),
   };
 }
 
 function axleCount(cfg){
+  if (cfg.kind === 'truck') return 1 + (cfg.tractor.rear === 'single' ? 1 : 2);
   return 1 + (cfg.tractor.rear === 'single' ? 1 : 2) + (cfg.trailer.group === 'double' ? 2 : cfg.trailer.group === 'triple' ? 3 : cfg.trailer.count);
 }
 
-function massLimit(MASS, axles){
-  const table = MASS.train; const keys = Object.keys(table).map(Number).sort((a,b) => a-b);
+function massLimit(MASS, axles, kind){
+  const table = MASS[kind === 'truck' ? 'truck' : 'train']; const keys = Object.keys(table).map(Number).sort((a,b) => a-b);
   if (axles < keys[0]) return NaN;
   return table[keys.filter(k => k <= axles).pop()];
 }
@@ -107,7 +133,7 @@ function massLimit(MASS, axles){
 // group is within its limit; best = position with the largest smallest margin.
 function safeRange(cfg, LIMITS, road, mass){
   const lim = limitsFor(cfg, LIMITS, road);
-  const body = cfg.trailer.body, step = 0.05;
+  const body = cfg.kind === 'truck' ? cfg.tractor.truckBody : cfg.trailer.body, step = 0.05;
   let from = null, to = null, best = null, bestMargin = -Infinity;
   for (let i = 0; i <= Math.round(body / step); i++){
     const x = i * step;
@@ -144,6 +170,12 @@ FAQ = [
         "но снижает нагрузку на каждую ось.",
     ),
     (
+        "Как распределится груз на грузовике с КМУ?",
+        "Кран-манипулятор стоит за кабиной и уже нагружает переднюю ось и тележку — его масса входит в массу пустого автомобиля. "
+        "Груз в кузове делится между передней осью и задней тележкой по правилу рычага: если центр груза за задней тележкой, "
+        "тележка перегружается, а передняя ось разгружается. Выберите в калькуляторе «Грузовик» и укажите, где начинается кузов.",
+    ),
+    (
         "Где взять размеры для расчёта?",
         "Колёсную базу, вынос седла и нагрузки на оси без груза смотрите в документах производителя или взвесьте пустой автопоезд по осям. "
         "Расстояние от шкворня до центра тележки и до передней стенки можно измерить рулеткой.",
@@ -170,7 +202,7 @@ def _page_js() -> str:
   const num = v => { const x = parseFloat(String(v).replace(',', '.')); return isFinite(x) ? x : NaN; };
   const fmt = n => (Math.round(n*100)/100).toLocaleString('ru-RU');
   const cargoEl = $('#dist-cargo');
-  const F = ['wheelbase','fifth','front0','rear0','rearSpacing','spacing','count','kingpinToBogie','kingpinFromFront','body','kingpin0','bogie0'];
+  const F = ['wheelbase','fifth','front0','rear0','rearSpacing','bodyFromFront','truckBody','spacing','count','kingpinToBogie','kingpinFromFront','body','kingpin0','bogie0'];
   function cargoRow(c){
     const el = document.createElement('div'); el.className = 'dist-cargo';
     el.innerHTML = '<label class="calc-field">Масса груза, т<input data-k="mass" inputmode="decimal"></label>' +
@@ -183,15 +215,18 @@ def _page_js() -> str:
     cargoEl.appendChild(el);
   }
   function load(p){
-    $('#t-rear').value = p.tractor.rear; $('#s-group').value = p.trailer.group; $('#s-tyres').value = p.trailer.tyres;
-    F.forEach(k => { const el = $('#f-'+k); if (!el) return; const v = k in p.tractor ? p.tractor[k] : p.trailer[k]; el.value = String(v).replace('.', ','); });
+    $('#d-kind').value = p.kind || 'train';
+    $('#t-rear').value = p.tractor.rear;
+    if (p.trailer) { $('#s-group').value = p.trailer.group; $('#s-tyres').value = p.trailer.tyres; }
+    F.forEach(k => { const el = $('#f-'+k); if (!el) return; const v = k in p.tractor ? p.tractor[k] : (p.trailer || {})[k]; if (v !== undefined) el.value = String(v).replace('.', ','); });
     cargoEl.innerHTML = ''; p.cargo.forEach(cargoRow); calc();
   }
   function read(){
     const v = k => num($('#f-'+k).value);
     const rear = $('#t-rear').value, group = $('#s-group').value;
     return {
-      tractor: {rear, rearSpacing: v('rearSpacing'), wheelbase: v('wheelbase'), fifth: v('fifth'), front0: v('front0'), rear0: v('rear0')},
+      kind: $('#d-kind').value,
+      tractor: {rear, rearSpacing: v('rearSpacing'), wheelbase: v('wheelbase'), fifth: v('fifth'), front0: v('front0'), rear0: v('rear0'), bodyFromFront: v('bodyFromFront'), truckBody: v('truckBody')},
       trailer: {group, count: group === 'multi' ? Math.max(4, Math.round(v('count')) || 4) : (group === 'double' ? 2 : 3), spacing: v('spacing'), tyres: $('#s-tyres').value,
         kingpinToBogie: v('kingpinToBogie'), kingpinFromFront: v('kingpinFromFront'), body: v('body'), kingpin0: v('kingpin0'), bogie0: v('bogie0')},
       cargo: [...cargoEl.querySelectorAll('.dist-cargo')].map(el => ({mass: num(el.querySelector('[data-k=mass]').value), start: num(el.querySelector('[data-k=start]').value), length: num(el.querySelector('[data-k=length]').value)})),
@@ -206,21 +241,32 @@ def _page_js() -> str:
   function calc(){
     $('#f-rearSpacing').closest('label').style.display = $('#t-rear').value === 'single' ? 'none' : '';
     $('#f-count').closest('label').style.display = $('#s-group').value === 'multi' ? '' : 'none';
+    const truck = $('#d-kind').value === 'truck';
+    document.querySelectorAll('[data-only=train]').forEach(e => e.style.display = truck ? 'none' : '');
+    document.querySelectorAll('[data-only=truck]').forEach(e => e.style.display = truck ? '' : 'none');
+    $('#f-fifth').closest('label').style.display = truck ? 'none' : '';
+    $('#f-bodyFromFront').closest('label').style.display = truck ? '' : 'none';
+    $('#f-truckBody').closest('label').style.display = truck ? '' : 'none';
     const cfg = read(); const road = D.roads.indexOf(num($('#calc-road').value));
     const out = $('#dist-result'), verdict = $('#calc-verdict'), range = $('#dist-range');
-    const vals = [cfg.tractor.wheelbase, cfg.tractor.fifth, cfg.tractor.front0, cfg.tractor.rear0, cfg.trailer.kingpinToBogie, cfg.trailer.kingpinFromFront, cfg.trailer.body, cfg.trailer.kingpin0, cfg.trailer.bogie0];
+    const vals = truck
+      ? [cfg.tractor.wheelbase, cfg.tractor.front0, cfg.tractor.rear0, cfg.tractor.bodyFromFront, cfg.tractor.truckBody]
+      : [cfg.tractor.wheelbase, cfg.tractor.fifth, cfg.tractor.front0, cfg.tractor.rear0, cfg.trailer.kingpinToBogie, cfg.trailer.kingpinFromFront, cfg.trailer.body, cfg.trailer.kingpin0, cfg.trailer.bogie0];
     const cargoOk = cfg.cargo.length && cfg.cargo.every(c => isFinite(c.mass) && isFinite(c.start) && isFinite(c.length));
     if (vals.some(v => !isFinite(v)) || !cargoOk) { out.innerHTML = ''; range.textContent = ''; verdict.className = 'calc-verdict'; verdict.textContent = 'Заполните все поля.'; return; }
-    const outside = cfg.cargo.some(c => c.start < 0 || c.start + c.length > cfg.trailer.body + 1e-9);
+    const bodyLen = truck ? cfg.tractor.truckBody : cfg.trailer.body;
+    const outside = cfg.cargo.some(c => c.start < 0 || c.start + c.length > bodyLen + 1e-9);
     const {mass, centre} = cargoCentre(cfg.cargo);
     const l = axleLoads(cfg, mass, centre), lim = limitsFor(cfg, D.limits, road);
-    const axles = axleCount(cfg), mLim = massLimit(D.mass, axles);
+    const axles = axleCount(cfg), mLim = massLimit(D.mass, axles, cfg.kind);
+    const who = truck ? 'автомобиля' : 'тягача';
     out.innerHTML = '<table class="calc-table"><thead><tr><th>Ось</th><th>Нагрузка</th><th>Допустимо</th><th></th></tr></thead><tbody>' +
-      cell('Передняя ось тягача', l.front, lim.front) +
-      cell(cfg.tractor.rear === 'single' ? 'Задняя ось тягача' : 'Задняя тележка тягача (2 оси)', l.rear, lim.rear) +
-      cell('Тележка полуприцепа (' + cfg.trailer.count + ' ' + (cfg.trailer.count === 4 ? 'оси' : cfg.trailer.count > 4 ? 'осей' : 'оси') + ')', l.bogie, lim.bogie) +
-      cell('Автопоезд целиком (' + axles + ' осей)', l.total, mLim) +
-      '</tbody></table><p class="calc-note">Нагрузка на седло (шкворень): ' + fmt(l.kingpin) + ' т. Центр груза — ' + fmt(centre) + ' м от передней стенки, масса груза ' + fmt(mass) + ' т.</p>';
+      cell('Передняя ось ' + who, l.front, lim.front) +
+      cell(cfg.tractor.rear === 'single' ? 'Задняя ось ' + who : 'Задняя тележка ' + who + ' (2 оси)', l.rear, lim.rear) +
+      (truck ? '' : cell('Тележка полуприцепа (' + cfg.trailer.count + ' ' + (cfg.trailer.count > 4 ? 'осей' : 'оси') + ')', l.bogie, lim.bogie)) +
+      cell((truck ? 'Автомобиль целиком (' : 'Автопоезд целиком (') + axles + (axles > 4 ? ' осей)' : ' оси)'), l.total, mLim) +
+      '</tbody></table><p class="calc-note">' + (truck ? '' : 'Нагрузка на седло (шкворень): ' + fmt(l.kingpin) + ' т. ') + 'Центр груза — ' + fmt(centre) + ' м от передней стенки кузова, масса груза ' + fmt(mass) + ' т.' +
+      (truck && l.front < 0.2 * l.total ? ' <b>На переднюю ось приходится меньше 20 % массы</b> — управляемость ухудшается, сдвиньте груз вперёд.' : '') + '</p>';
     const over = [l.front > lim.front, l.rear > lim.rear, l.bogie > lim.bogie].filter(Boolean).length;
     const massBad = isFinite(mLim) && l.total > mLim + 1e-9;
     if (outside) { verdict.className = 'calc-verdict bad'; verdict.textContent = 'Груз выходит за пределы кузова — проверьте начало и длину.'; }
@@ -233,6 +279,18 @@ def _page_js() -> str:
   }
   function drawScheme(cfg, centre, r){
     const svg = $('#dist-scheme'); const s = cfg.trailer, t = cfg.tractor;
+    if (cfg.kind === 'truck'){
+      const W = 720, pad = 20, total = 1.2 + Math.max(t.wheelbase + 1.5, t.bodyFromFront + t.truckBody) + 0.3, k = (W - 2*pad) / total;
+      const frontX = pad + 1.2 * k, rearX = frontX + t.wheelbase * k, bodyX = frontX + t.bodyFromFront * k, cx = bodyX + centre * k;
+      let g = '<rect x="'+pad+'" y="30" width="'+(2.2*k)+'" height="56" rx="6" fill="var(--ink)" opacity=".85"/>';
+      g += '<rect x="'+pad+'" y="82" width="'+(Math.max(rearX + 0.9*k, bodyX + t.truckBody*k) - pad)+'" height="6" fill="var(--ink)" opacity=".85"/>';
+      g += '<rect x="'+bodyX+'" y="40" width="'+(t.truckBody*k)+'" height="38" rx="3" fill="none" stroke="var(--ink)" stroke-width="2"/>';
+      if (r.from !== null) g += '<rect x="'+(bodyX + r.from*k)+'" y="40" width="'+Math.max(2,(r.to - r.from)*k)+'" height="38" fill="#1d7a3a" opacity=".18"/>';
+      [frontX, rearX].forEach(x => g += '<circle cx="'+x+'" cy="98" r="11" fill="var(--ink)"/>');
+      g += '<line x1="'+cx+'" y1="22" x2="'+cx+'" y2="80" stroke="#ff6b00" stroke-width="3"/><text x="'+cx+'" y="18" text-anchor="middle" font-size="12" fill="#ff6b00" font-weight="700">центр груза</text>';
+      g += '<text x="'+frontX+'" y="126" text-anchor="middle" font-size="11" fill="currentColor">перед. ось</text><text x="'+rearX+'" y="126" text-anchor="middle" font-size="11" fill="currentColor">задняя ось / тележка</text>';
+      svg.innerHTML = g; return;
+    }
     const W = 720, pad = 20, total = t.wheelbase + 1.5 + s.body; const k = (W - 2*pad) / total;
     const rearX = pad + (1.2 + t.wheelbase) * k, fifthX = rearX - t.fifth * k, frontX = pad + 1.2 * k;
     const bodyX = fifthX - s.kingpinFromFront * k, bogieX = fifthX + s.kingpinToBogie * k;
@@ -250,6 +308,7 @@ def _page_js() -> str:
   document.querySelectorAll('[data-preset]').forEach(b => b.addEventListener('click', () => load(D.presets.find(p => p.id === b.dataset.preset))));
   $('#dist-add').addEventListener('click', () => { cargoRow({mass: 5, start: 0, length: 2.4}); calc(); });
   document.querySelectorAll('#dist-form input, #dist-form select').forEach(el => { el.addEventListener('input', calc); el.addEventListener('change', calc); });
+  $('#f-bodyFromFront').value = '2,4'; $('#f-truckBody').value = '6,1';
   load(D.presets[0]);
 })();
 """
@@ -263,8 +322,8 @@ def render_distribution_calculator_page(base_url: str, telegram_cta: str) -> str
     canonical = base_url + PAGE_PATH
     title = "Расчёт нагрузки на оси тягача и полуприцепа — калькулятор распределения груза"
     description = (
-        "Бесплатный калькулятор: как распределится груз по осям тягача и полуприцепа, где разместить центр груза, "
-        "чтобы не было перегруза. Еврофура, тягач 6×4, семиосный автопоезд; нормы по ПП № 2060."
+        "Бесплатный калькулятор: как распределится груз по осям тягача и полуприцепа или грузовика с КМУ, где разместить груз без перегруза. "
+        "Еврофура, семиосный автопоезд, самосвал; нормы по ПП № 2060."
     )[:200]
     data = {
         "roads": ROAD_CLASSES,
@@ -305,6 +364,8 @@ def render_distribution_calculator_page(base_url: str, telegram_cta: str) -> str
     ).replace("</", "<\\/")
     tractor_fields = "".join(_field(k, l) for k, l in (
         ("wheelbase", "Колёсная база, м"),
+        ("bodyFromFront", "Кузов начинается за передней осью, м"),
+        ("truckBody", "Длина кузова, м"),
         ("fifth", "Седло впереди задней оси, м"),
         ("rearSpacing", "Между осями тележки, м"),
         ("front0", "Пустой: на переднюю ось, т"),
@@ -381,11 +442,16 @@ def render_distribution_calculator_page(base_url: str, telegram_cta: str) -> str
           <p class="calc-note">Типовая схема — затем замените размеры и массы на данные своей техники:</p>
           <div class="calc-presets">{presets_html}</div>
 
-          <p class="dist-sub">Тягач</p>
+          <div class="calc-row" style="margin-top:14px"><label class="calc-field">Что считаем
+            <select id="d-kind"><option value="train">Тягач с полуприцепом</option><option value="truck">Грузовик: бортовой, с КМУ, самосвал</option></select></label></div>
+
+          <p class="dist-sub"><span data-only="train">Тягач</span><span data-only="truck">Автомобиль</span></p>
           <div class="calc-row"><label class="calc-field">Задние оси
             <select id="t-rear"><option value="single">Одна ось (4×2)</option><option value="double">Две оси (6×4, 6×2)</option></select></label></div>
           <div class="dist-grid">{tractor_fields}</div>
 
+          <p class="calc-note" data-only="truck">Колёсная база — от передней оси до задней оси или до центра задней тележки. Массу пустого автомобиля указывайте вместе с краном-манипулятором и кузовом.</p>
+          <div data-only="train">
           <p class="dist-sub">Полуприцеп</p>
           <div class="calc-row">
             <label class="calc-field">Тележка
@@ -394,6 +460,7 @@ def render_distribution_calculator_page(base_url: str, telegram_cta: str) -> str
               <select id="s-tyres"><option value="single">Односкатные</option><option value="dual">Двускатные</option></select></label>
           </div>
           <div class="dist-grid">{trailer_fields}</div>
+          </div>
 
           <p class="dist-sub">Груз</p>
           <div id="dist-cargo"></div>
