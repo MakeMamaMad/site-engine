@@ -21,7 +21,8 @@
     "5c7c9aa83ff0",
     "4a6c47ad4af7",
     "e8c4ba27835a",
-    "c708416debaa"
+    "c708416debaa",
+    "guide:shtraf-za-peregruz"
   ],
   "renders": [
     {
@@ -169,6 +170,13 @@
       "slug": "polupritsepy-zavoda-spetsavtoethnika-v-lizing-ot-7-1-godovyh-c708416d",
       "title": "Полуприцепы SAT в лизинг от 7,1% годовых",
       "created_at": "2026-10-04T16:14:02.573240+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:shtraf-za-peregruz",
+      "slug": "",
+      "title": "Перегруз 5 тонн — штраф 300 000 рублей",
+      "created_at": "2026-10-05T14:34:22.299450+00:00",
       "format": "social-v2"
     }
   ]
