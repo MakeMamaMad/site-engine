@@ -17,7 +17,9 @@ class GuideShortsTest(unittest.TestCase):
         data = json.loads((ROOT / "frontend" / "data" / "knowledge_articles.json").read_text(encoding="utf-8"))
         items = data["items"] if isinstance(data, dict) else data
         pages = {f"https://spec-avtoportal.ru/knowledge/{a['slug']}/" for a in items}
-        pages |= {"https://spec-avtoportal.ru/tools/nagruzka-na-os/", "https://spec-avtoportal.ru/tools/rezhim-truda-i-otdyha/"}
+        sys.path.insert(0, str(ROOT / "tools"))
+        from tools_hub import TOOLS
+        pages |= {"https://spec-avtoportal.ru" + href for href, *_ in TOOLS}
         ids = [e["id"] for e in self.config["episodes"]]
         self.assertEqual(len(ids), len(set(ids)))
         for episode in self.config["episodes"]:
