@@ -26,3 +26,4 @@ https://spec-avtoportal.ru/knowledge/vynesennaya-os-polupricepa/
 https://spec-avtoportal.ru/tools/shtraf-za-peregruz/
 https://spec-avtoportal.ru/tools/skolko-pallet-v-furu/
 https://spec-avtoportal.ru/tools/stoimost-reysa/
+https://spec-avtoportal.ru/tools/

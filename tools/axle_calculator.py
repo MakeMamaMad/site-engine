@@ -336,7 +336,7 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
         <a href="/" class="nav-link">Новости</a>
         <a href="/brands/" class="nav-link">Бренды</a>
         <a href="/knowledge.html" class="nav-link">База знаний</a>
-        <a href="/tools/nagruzka-na-os/" class="nav-link nav-link-active">Калькулятор</a>
+        <a href="/tools/" class="nav-link nav-link-active">Калькуляторы</a>
       </nav>
       <div class="header-socials" aria-label="Социальные сети">
         <a href="https://t.me/specavtoportal" class="header-social-link header-social-link--telegram" target="_blank" rel="noopener" aria-label="Telegram"><span class="social-full">Telegram</span><span class="social-short">TG</span></a>
