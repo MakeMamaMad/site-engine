@@ -58,6 +58,20 @@ class DistributionTest(unittest.TestCase):
         self.assertLessEqual(best["rear"], 10)
         self.assertLessEqual(best["bogie"], 21)
 
+    def test_truck_mode(self):
+        truck = {"kind": "truck", "tractor": {"rear": "double", "rearSpacing": 1.32, "wheelbase": 4, "front0": 6, "rear0": 6,
+                                               "bodyFromFront": 2, "truckBody": 6}, "trailer": {}}
+        # 8 t centred 2 m behind the body start = 4 m from the front axle = right over the bogie
+        l = run("axleLoads(cfg, 8, 2)", truck)
+        self.assertAlmostEqual(l["front"], 6)
+        self.assertAlmostEqual(l["rear"], 14)
+        self.assertEqual(run("[axleCount(cfg), massLimit(M2, axleCount(cfg), 'truck')]".replace("M2", "{truck:{'2':18,'3':25,'4':32,'5':38}}"), truck), [3, 25])
+        lim = run("limitsFor(cfg, L, 1)", truck)
+        self.assertEqual(lim["rear"], 16)
+        r = run("safeRange(cfg, L, 1, 8)", truck)
+        self.assertIsNotNone(r["from"])
+        self.assertLessEqual(r["to"], 6)
+
     def test_cargo_centre(self):
         c = run("cargoCentre([{mass: 10, start: 0, length: 2}, {mass: 10, start: 8, length: 2}])", EURO)
         self.assertAlmostEqual(c["centre"], 5)
@@ -71,6 +85,7 @@ class PageTest(unittest.TestCase):
         self.assertIn('id="dist-data"', page)
         for p in dist.PRESETS:
             self.assertIn(p["name"], page)
+        self.assertIn('id="d-kind"', page)
 
 
 if __name__ == "__main__":
