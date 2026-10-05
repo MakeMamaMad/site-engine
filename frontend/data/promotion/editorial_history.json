@@ -259,6 +259,29 @@
       "status": "email_sent",
       "sent_at": "2026-10-04T12:14:46+00:00",
       "gmail_message_id": "1a106d68d45907ca"
+    },
+    {
+      "target_id": "truckmix-publishing",
+      "target_name": "TRUCKmix.ru",
+      "item_key": "knowledge:kak-vybrat-polupricep",
+      "title": "Как выбрать полуприцеп под задачу: практическая схема",
+      "source_url": "https://spec-avtoportal.ru/knowledge/kak-vybrat-polupricep/?utm_source=truckmix-publishing&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kak-vybrat-polupricep",
+      "result_url": "https://truckmix.ru/publication/update/30605",
+      "submitted_at": "2026-10-05T14:29:31+00:00",
+      "status": "verified_in_author_cabinet"
+    },
+    {
+      "target_id": "spetstehnika-novosti-editorial",
+      "target_name": "Вестник Спецтехники",
+      "slug": "rezhim-truda-i-otdyha-voditelya",
+      "title": "Режим труда и отдыха водителя в 2026 году: нормы приказа Минтранса № 160 и тахограф",
+      "site_url": "https://spec-avtoportal.ru/knowledge/rezhim-truda-i-otdyha-voditelya/?utm_source=spetstehnika-novosti-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=rezhim-truda-i-otdyha-voditelya",
+      "contact": "redakciya@spetstehnika-novosti.ru",
+      "item_key": "knowledge:rezhim-truda-i-otdyha-voditelya",
+      "created_at": "2026-10-05T14:29:31+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-05T14:29:32+00:00",
+      "gmail_message_id": "1a10c784bba3b454"
     }
   ]
 }
