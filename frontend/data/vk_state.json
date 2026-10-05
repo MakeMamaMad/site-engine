@@ -444,9 +444,9 @@
       "slug": "xpo-dostigla-rubezha-v-300-servis-tsentrov-13aec8f9"
     },
     "https://www.globaltrailermag.com/vale-ulrich-sauer/": {
-      "digest_id": "2026-10-05:am",
-      "post_id": 47,
-      "sent_at": "2026-10-05T07:00:39+00:00",
+      "digest_id": "2026-10-05:pm",
+      "post_id": 49,
+      "sent_at": "2026-10-05T15:13:01+00:00",
       "title": "Вале Ульрих Зауэр",
       "slug": "vale-ulrih-zauer-7e8e80cc"
     },
@@ -456,6 +456,20 @@
       "sent_at": "2026-10-05T07:00:39+00:00",
       "title": "Broughton Transport Solutions расширяет флот холодильных сетей с помощью KRONE",
       "slug": "broughton-transport-solutions-rasshiryaet-flot-holodilnyh-setey-s-pomosc-3d530d1f"
+    },
+    "https://www.globaltrailermag.com/ceva-logistics-triples-north-american-footprint/": {
+      "digest_id": "2026-10-05:pm",
+      "post_id": 49,
+      "sent_at": "2026-10-05T15:13:01+00:00",
+      "title": "CEVA Logistics утроила североамериканский след",
+      "slug": "ceva-logistics-utroila-severoamerikanskiy-sled-a4cd4fc9"
+    },
+    "https://comautotrans.moscow/tpost/blcn4jt071-statya-v-zhurnale-comvex-revyu": {
+      "digest_id": "2026-10-05:pm",
+      "post_id": 49,
+      "sent_at": "2026-10-05T15:13:01+00:00",
+      "title": "Статья в журнале «COMVEX ревю»",
+      "slug": "statya-v-zhurnale-comvex-revyu-6adb7fe2"
     }
   },
   "digests": {
@@ -607,6 +621,17 @@
         "https://www.globaltrailermag.com/xpo-reaches-300-service-centre-milestone/",
         "https://www.globaltrailermag.com/vale-ulrich-sauer/",
         "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/"
+      ]
+    },
+    "2026-10-05:pm": {
+      "post_id": 49,
+      "sent_at": "2026-10-05T15:13:01+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/ceva-logistics-triples-north-american-footprint/",
+        "https://comautotrans.moscow/tpost/blcn4jt071-statya-v-zhurnale-comvex-revyu",
+        "https://www.globaltrailermag.com/vale-ulrich-sauer/"
       ]
     }
   }
