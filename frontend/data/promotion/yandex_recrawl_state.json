@@ -92,18 +92,22 @@
     "https://spec-avtoportal.ru/knowledge/vynesennaya-os-polupricepa/": {
       "at": "2026-10-05T07:12:45+00:00",
       "task_id": "29a771f1-c08c-11f1-83a3-db32b2b0e403"
+    },
+    "https://spec-avtoportal.ru/tools/shtraf-za-peregruz/": {
+      "at": "2026-10-05T07:46:49+00:00",
+      "task_id": "ebc20260-c090-11f1-b518-8103174f3502"
     }
   },
   "last_run": {
-    "at": "2026-10-05T07:12:45+00:00",
+    "at": "2026-10-05T07:46:49+00:00",
     "sent": [
-      "https://spec-avtoportal.ru/knowledge/vynesennaya-os-polupricepa/"
+      "https://spec-avtoportal.ru/tools/shtraf-za-peregruz/"
     ],
     "failed": [],
     "left": 0,
     "quota": {
       "daily": 150,
-      "remainder_before": 150
+      "remainder_before": 149
     },
     "sitemaps_added": [],
     "sitemaps": []
