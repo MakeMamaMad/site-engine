@@ -37,6 +37,7 @@ from telegram_visual import render_social_card
 from axle_calculator import PAGE_PATH as AXLE_CALC_PATH, render_axle_calculator_page
 from rto_calculator import PAGE_PATH as RTO_CALC_PATH, render_rto_calculator_page
 from load_distribution_calculator import PAGE_PATH as DIST_CALC_PATH, render_distribution_calculator_page
+from fine_calculator import PAGE_PATH as FINE_CALC_PATH, render_fine_calculator_page
 
 FRONTEND = ROOT / "frontend"
 NEWS_JSON = FRONTEND / "data" / "news.json"
@@ -687,6 +688,28 @@ SIDEBAR_BANNER = {
 }
 
 
+TOOLS_SIDEBAR = [
+    ("/tools/nagruzka-na-os/", "Нагрузка на ось", "проверка по ПП № 2060"),
+    ("/tools/raspredelenie-gruza-po-osyam/", "Распределение груза", "куда поставить груз без перегруза"),
+    ("/tools/shtraf-za-peregruz/", "Штраф за перегруз", "сумма по статье 12.21.1"),
+    ("/tools/rezhim-truda-i-otdyha/", "Режим труда и отдыха", "перерывы и отдых водителя"),
+]
+
+
+def tools_sidebar_html() -> str:
+    """Free calculators block in the news sidebar: news readers rarely found them."""
+    links = "".join(
+        f'<a class="tools-block__item" href="{href}"><strong>{html.escape(name)}</strong><span>{html.escape(hint)}</span></a>'
+        for href, name, hint in TOOLS_SIDEBAR
+    )
+    return (
+        '<section class="sidebar-block tools-block">'
+        '<p class="sidebar-eyebrow">Бесплатные калькуляторы</p>'
+        f'<div class="tools-block__list">{links}</div>'
+        "</section>"
+    )
+
+
 def sat_sidebar_banner_html() -> str:
     """Partner banner in the news sidebar (SAT545 tipper semi-trailer)."""
     b = SIDEBAR_BANNER
@@ -1020,7 +1043,7 @@ def render_page(item: dict[str, Any], items: list[dict[str, Any]], knowledge_art
   <meta name="twitter:description" content="{description}" />
   <meta name="twitter:image" content="{image}" />
   <meta name="theme-color" content="#111417" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{json_ld(item)}</script>
   <script data-goatcounter="https://specavtoportal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -1088,6 +1111,7 @@ def render_page(item: dict[str, Any], items: list[dict[str, Any]], knowledge_art
 
       <aside class="article-sidebar">
         {sat_sidebar_banner_html()}
+        {tools_sidebar_html()}
         <section class="sidebar-block article-random-news">
           <p class="sidebar-eyebrow">Ещё новости</p>
           <div class="article-random-list">{related_html}</div>
@@ -1238,7 +1262,7 @@ def render_brand_page(
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
   <meta name="theme-color" content="#111417" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <script data-goatcounter="https://specavtoportal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -1375,7 +1399,7 @@ def render_brand_directory(brand_counts: dict[str, int]) -> str:
   <meta property="og:title" content="Производители и бренды — СпецАвтоПортал" />
   <meta property="og:description" content="Архив новостей о производителях грузовой и прицепной техники." />
   <meta property="og:url" content="{BASE_URL}/brands/" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
 </head>
@@ -1503,7 +1527,7 @@ def render_topic_page(
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
   <meta name="theme-color" content="#111417" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <script data-goatcounter="https://specavtoportal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -1732,7 +1756,7 @@ def render_knowledge_article(item: dict[str, Any], updated_at: str, news_items: 
   <meta property="og:title" content="{title}" />
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
 </head>
@@ -2017,7 +2041,7 @@ def render_regulation_page(item: dict[str, Any], verified_at: str, knowledge_art
   <meta property="og:title" content="{page_title}" />
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>{faq_schema_tag}
 </head>
@@ -2181,7 +2205,7 @@ def render_regulations_index(regulations: dict[str, Any]) -> str:
   <meta property="og:title" content="Нормативы и ГОСТы — СпецАвтоПортал" />
   <meta property="og:description" content="Действующие нормативы для прицепов, полуприцепов, крепления грузов и безопасной эксплуатации." />
   <meta property="og:url" content="{BASE_URL}/law.html" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
 </head>
@@ -2523,6 +2547,7 @@ def write_sitemap(
         (f"{BASE_URL}{AXLE_CALC_PATH}", ""),
         (f"{BASE_URL}{RTO_CALC_PATH}", ""),
         (f"{BASE_URL}{DIST_CALC_PATH}", ""),
+        (f"{BASE_URL}{FINE_CALC_PATH}", ""),
     ]
     rows = []
     for url, lastmod in static_pages:
@@ -2728,6 +2753,19 @@ def main() -> None:
             telegram_cta_html(
                 "Разборы норм для перевозчиков",
                 "Нагрузки на оси, габариты, штрафы и новые правила 2026 года — коротко в нашем Telegram-канале.",
+            ),
+        ),
+        encoding="utf-8",
+    )
+
+    fine_dir = FRONTEND / FINE_CALC_PATH.strip("/")
+    fine_dir.mkdir(parents=True, exist_ok=True)
+    (fine_dir / "index.html").write_text(
+        render_fine_calculator_page(
+            BASE_URL,
+            telegram_cta_html(
+                "Нормы и штрафы для перевозчиков",
+                "Нагрузки на оси, габариты и штрафы 2026 года — коротко в нашем Telegram-канале.",
             ),
         ),
         encoding="utf-8",

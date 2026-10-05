@@ -319,7 +319,7 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
   <meta property="og:title" content="{html.escape(title, quote=True)}" />
   <meta property="og:description" content="{html.escape(description, quote=True)}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=30" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <style>{_page_css()}</style>
@@ -412,6 +412,7 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
           <ul>
             <li><a href="/knowledge/nagruzka-na-os/">Нагрузка на ось: как проверить автопоезд перед рейсом</a></li>
             <li><a href="/knowledge/gabarity-i-massy/">Габариты и массы автопоезда: основные пределы</a></li>
+            <li><a href="/tools/shtraf-za-peregruz/">Калькулятор штрафа за перегруз</a></li>
             <li><a href="/knowledge/shtraf-za-peregruz/">Штраф за перегруз в 2026 году: суммы по статье 12.21.1 КоАП</a></li>
             <li><a href="/knowledge/specrazreshenie-tyazhelovesnoe-ts/">Спецразрешение на тяжеловесный транспорт</a></li>
             <li><a href="/tools/raspredelenie-gruza-po-osyam/">Калькулятор распределения груза по осям тягача и полуприцепа</a></li>
