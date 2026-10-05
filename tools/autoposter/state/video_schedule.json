@@ -44,7 +44,8 @@
       "pm": "published"
     },
     "2026-10-05": {
-      "pm": "published"
+      "pm": "published",
+      "am": "published"
     }
   }
 }

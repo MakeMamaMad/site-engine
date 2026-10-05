@@ -22,7 +22,8 @@
     "4a6c47ad4af7",
     "e8c4ba27835a",
     "c708416debaa",
-    "guide:shtraf-za-peregruz"
+    "guide:shtraf-za-peregruz",
+    "3d530d1f0209"
   ],
   "renders": [
     {
@@ -177,6 +178,13 @@
       "slug": "",
       "title": "Перегруз 5 тонн — штраф 300 000 рублей",
       "created_at": "2026-10-05T14:34:22.299450+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "3d530d1f0209",
+      "slug": "broughton-transport-solutions-rasshiryaet-flot-holodilnyh-setey-s-pomosc-3d530d1f",
+      "title": "Broughton расширяет холодильный парк с KRONE",
+      "created_at": "2026-10-05T16:26:25.166503+00:00",
       "format": "social-v2"
     }
   ]
