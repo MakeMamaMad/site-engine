@@ -45,6 +45,62 @@ sources:
       - прицепы
       - полуприцепы
 
+  # ===== Российские производители и отраслевые новости (добавлено 06.10.2026) =====
+  - id: sdelanounas-machinery
+    enabled: true
+    kind: rss
+    title: "Сделано у нас — российское производство техники"
+    url: "https://sdelanounas.ru/index/rss/"
+    include_keywords: ["грузов", "тягач", "полуприцеп", "прицеп", "спецтехн", "самосвал", "камаз", "«урал", "автозавод", "маз", "нефаз", "тонар", "автокран", "манипулятор", "шасси", "коммунальн", "автобус", "мусоровоз", "бетоносмесит", "автоцистерн"]
+    tags:
+      - российское производство
+      - грузовики
+      - спецтехника
+
+  - id: tonar-news
+    enabled: true
+    kind: html_news
+    title: "ТОНАР — новости завода"
+    url: "https://tonar.info/news/"
+    limit: 8
+    tags:
+      - тонар
+      - российское производство
+      - полуприцепы
+
+  - id: uralaz-news
+    enabled: true
+    kind: html_news
+    title: "АЗ «Урал» — новости"
+    url: "https://uralaz.ru/media/news/"
+    limit: 8
+    tags:
+      - урал
+      - российское производство
+      - грузовики
+
+  - id: nefaz-news
+    enabled: true
+    kind: html_news
+    title: "НЕФАЗ — новости"
+    url: "https://nefaz.ru/news/"
+    limit: 8
+    tags:
+      - нефаз
+      - российское производство
+      - прицепы
+
+  - id: maz-news
+    enabled: true
+    kind: html_news
+    title: "МАЗ — новости"
+    url: "https://maz.by/media/news/"
+    limit: 8
+    tags:
+      - маз
+      - грузовики
+      - полуприцепы
+
   - id: satpricep-news
     enabled: true
     kind: html_news

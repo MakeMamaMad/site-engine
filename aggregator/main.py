@@ -170,6 +170,38 @@ def _html_date(soup: BeautifulSoup) -> Optional[str]:
                     return dt.isoformat()
                 except Exception:
                     pass
+    return _text_date(soup)
+
+
+RU_MONTHS = {
+    "января": 1, "февраля": 2, "марта": 3, "апреля": 4, "мая": 5, "июня": 6,
+    "июля": 7, "августа": 8, "сентября": 9, "октября": 10, "ноября": 11, "декабря": 12,
+}
+
+
+def _text_date(soup: BeautifulSoup) -> Optional[str]:
+    """Fallback for manufacturer sites without date metadata: the first
+    «30.09.2026» or «30 сентября 2026» in the article area (not in the page
+    footer, where copyright years live)."""
+    node = None
+    for selector in ("article", ".news-detail", ".detail_text", ".news", ".content", "main"):
+        node = soup.select_one(selector)
+        if node:
+            break
+    text = " ".join((node or soup).stripped_strings)[:4000]
+    now = datetime.now(timezone.utc)
+    found = []
+    for d, mth, y in re.findall(r"\b(\d{1,2})\.(\d{1,2})\.(20\d{2})\b", text):
+        found.append((int(y), int(mth), int(d)))
+    for d, word, y in re.findall(r"\b(\d{1,2})\s+(" + "|".join(RU_MONTHS) + r")\s+(20\d{2})", text.lower()):
+        found.append((int(y), RU_MONTHS[word], int(d)))
+    for y, mth, d in found:
+        try:
+            dt = datetime(y, mth, d, 9, 0, tzinfo=timezone.utc)
+        except ValueError:
+            continue
+        if dt <= now:
+            return dt.isoformat()
     return None
 
 
@@ -334,9 +366,14 @@ def collect(sources_cfg: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         else:
             log("ERR", f"{name}: entries empty")
         got = 0
+        # General-industry feeds: keep only items about commercial vehicles.
+        include = [str(k).lower() for k in (src.get("include_keywords") or []) if k]
         for e in entries:
             try:
-                items.append(normalize(e, name, src.get("tags") or []))
+                item = normalize(e, name, src.get("tags") or [])
+                if include and not any(k in (item["title"] + " " + item["summary"]).lower() for k in include):
+                    continue
+                items.append(item)
                 got += 1
             except Exception as ex:
                 log("ERR", f"{name}: normalize error: {ex}")
