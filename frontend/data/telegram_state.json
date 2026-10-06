@@ -356,6 +356,33 @@
       "slug": "lider-po-logistike-21b-ec9c9008",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/178658/": {
+      "message_id": 1546,
+      "sent_at": "2026-10-06T05:39:32+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/na-marshruty-makeevki-vyshli-novye-avtobusy-855fb495/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=na-marshruty-makeevki-vyshli-novye-avtobusy-855fb495",
+      "title": "На маршруты Макеевки вышли новые автобусы",
+      "slug": "na-marshruty-makeevki-vyshli-novye-avtobusy-855fb495",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://maz.by/media/news/2026/10/05/maz-podpisal-soglasheniye-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-trolleybusnyy-zavod-i-ooo-tret-maz-uttz": {
+      "message_id": 1547,
+      "sent_at": "2026-10-06T05:39:32+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/maz-podpisal-soglashenie-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-troll-0806e8fd/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=maz-podpisal-soglashenie-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-troll-0806e8fd",
+      "title": "МАЗ ПОДПИСАЛ СОГЛАШЕНИЕ О СОТРУДНИЧЕСТВЕ С АО «УФИМСКИЙ ТРАМВАЙНО-ТРОЛЛЕЙБУСНЫЙ ЗАВОД» И ООО «ТРЭТ «МАЗ-УТТЗ»",
+      "slug": "maz-podpisal-soglashenie-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-troll-0806e8fd",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/178643/": {
+      "message_id": 1548,
+      "sent_at": "2026-10-06T05:39:33+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/v-rossii-vozobnovili-proizvodstvo-spetstehniki-s-kranom-manipulyatorom-i-18f577ba/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=v-rossii-vozobnovili-proizvodstvo-spetstehniki-s-kranom-manipulyatorom-i-18f577ba",
+      "title": "В России возобновили производство спецтехники с краном-манипулятором ИФ 300",
+      "slug": "v-rossii-vozobnovili-proizvodstvo-spetstehniki-s-kranom-manipulyatorom-i-18f577ba",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
