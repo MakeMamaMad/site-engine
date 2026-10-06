@@ -24,7 +24,8 @@
     "c708416debaa",
     "guide:shtraf-za-peregruz",
     "3d530d1f0209",
-    "7e8e80cccdb8"
+    "7e8e80cccdb8",
+    "ec9c90085696"
   ],
   "renders": [
     {
@@ -193,6 +194,13 @@
       "slug": "vale-ulrih-zauer-7e8e80cc",
       "title": "Умер бывший руководитель SAF-Holland Ульрих Отто Зауэр",
       "created_at": "2026-10-05T22:15:41.090653+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "ec9c90085696",
+      "slug": "lider-po-logistike-21b-ec9c9008",
+      "title": "C.H. Robinson покупает RXO за $5,8 млрд",
+      "created_at": "2026-10-06T06:15:59.422902+00:00",
       "format": "social-v2"
     }
   ]
