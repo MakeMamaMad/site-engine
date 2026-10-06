@@ -126,6 +126,11 @@ def suitable(row: dict[str, Any], now: datetime) -> tuple[bool, float]:
     if not title or not slug:
         return False, 0.0
 
+    # Never send «Сделано у нас» its own news back.
+    link = str(row.get("link") or row.get("url") or row.get("source_url") or "")
+    if "sdelanounas.ru" in link or "sdelanounas.ru" in str(row.get("domain") or ""):
+        return False, 0.0
+
     text = haystack(row)
     if any(marker in text for marker in FUTURE_MARKERS):
         return False, 0.0
@@ -137,7 +142,7 @@ def suitable(row: dict[str, Any], now: datetime) -> tuple[bool, float]:
         return False, 0.0
 
     published = parse_dt(row.get("published_at") or row.get("date"))
-    if published and now - published > timedelta(days=5):
+    if not published or now - published > timedelta(days=5):
         return False, 0.0
 
     score = 0.0
