@@ -500,6 +500,7 @@ def render_distribution_calculator_page(base_url: str, telegram_cta: str) -> str
             <li><a href="/tools/nagruzka-na-os/">Калькулятор нагрузки на ось — если нагрузки по осям уже известны</a></li>
             <li><a href="/knowledge/nagruzka-na-osi-evrofury/">Нагрузка на оси еврофуры и семиосного автопоезда</a></li>
             <li><a href="/knowledge/shtraf-za-peregruz/">Штраф за перегруз в 2026 году</a></li>
+            <li><a href="/knowledge/shtraf-apvgk-kak-obzhalovat/">Штраф с рамки АПВГК: как обжаловать</a></li>
             <li><a href="/tools/skolko-pallet-v-furu/">Сколько паллет поместится в фуру</a></li>
             <li><a href="/knowledge/kreplenie-gruzov/">Крепление грузов в полуприцепе</a></li>
             <li><a href="/knowledge/specrazreshenie-tyazhelovesnoe-ts/">Спецразрешение на тяжеловесный транспорт</a></li>
