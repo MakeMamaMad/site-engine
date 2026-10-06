@@ -338,6 +338,24 @@
       "slug": "statya-v-zhurnale-comvex-revyu-6adb7fe2",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/royal-mail-orders-100-custom-montracon-box-vans/": {
+      "message_id": 1544,
+      "sent_at": "2026-10-06T05:33:22+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/royal-mail-zakazala-100-furgonov-montracon-15152efe/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=royal-mail-zakazala-100-furgonov-montracon-15152efe",
+      "title": "Royal Mail заказала 100 фургонов Montracon",
+      "slug": "royal-mail-zakazala-100-furgonov-montracon-15152efe",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/": {
+      "message_id": 1545,
+      "sent_at": "2026-10-06T05:33:23+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/lider-po-logistike-21b-ec9c9008/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=lider-po-logistike-21b-ec9c9008",
+      "title": "Лидер по логистике €21B",
+      "slug": "lider-po-logistike-21b-ec9c9008",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
