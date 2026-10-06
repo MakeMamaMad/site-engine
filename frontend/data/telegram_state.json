@@ -602,6 +602,27 @@
       "sent_at": "2026-10-05T15:05:17+00:00",
       "title": "Вале Ульрих Зауэр",
       "slug": "vale-ulrih-zauer-7e8e80cc"
+    },
+    "https://sdelanounas.ru/blogs/178658/": {
+      "digest_id": "2026-10-06:am",
+      "message_id": 1549,
+      "sent_at": "2026-10-06T11:13:47+00:00",
+      "title": "На маршруты Макеевки вышли новые автобусы",
+      "slug": "na-marshruty-makeevki-vyshli-novye-avtobusy-855fb495"
+    },
+    "https://www.globaltrailermag.com/royal-mail-orders-100-custom-montracon-box-vans/": {
+      "digest_id": "2026-10-06:am",
+      "message_id": 1549,
+      "sent_at": "2026-10-06T11:13:47+00:00",
+      "title": "Royal Mail заказала 100 фургонов Montracon",
+      "slug": "royal-mail-zakazala-100-furgonov-montracon-15152efe"
+    },
+    "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/": {
+      "digest_id": "2026-10-06:am",
+      "message_id": 1549,
+      "sent_at": "2026-10-06T11:13:47+00:00",
+      "title": "Лидер по логистике €21B",
+      "slug": "lider-po-logistike-21b-ec9c9008"
     }
   },
   "digests": {
@@ -763,6 +784,17 @@
         "https://comautotrans.moscow/tpost/blcn4jt071-statya-v-zhurnale-comvex-revyu",
         "https://www.globaltrailermag.com/vale-ulrich-sauer/",
         "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-06:am": {
+      "message_id": 1549,
+      "sent_at": "2026-10-06T11:13:47+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/178658/",
+        "https://www.globaltrailermag.com/royal-mail-orders-100-custom-montracon-box-vans/",
+        "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/"
       ],
       "visual": "visual"
     }
