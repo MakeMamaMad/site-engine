@@ -526,11 +526,25 @@
       "slug": "lider-po-logistike-21b-ec9c9008"
     },
     "https://sdelanounas.ru/blogs/178643/": {
-      "digest_id": "2026-10-06:am",
-      "post_id": 55,
-      "sent_at": "2026-10-06T11:11:26+00:00",
+      "digest_id": "2026-10-06:pm",
+      "post_id": 56,
+      "sent_at": "2026-10-06T13:34:16+00:00",
       "title": "В России возобновили производство спецтехники с краном-манипулятором ИФ 300",
       "slug": "v-rossii-vozobnovili-proizvodstvo-spetstehniki-s-kranom-manipulyatorom-i-18f577ba"
+    },
+    "https://maz.by/media/news/2026/10/05/maz-podpisal-soglasheniye-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-trolleybusnyy-zavod-i-ooo-tret-maz-uttz": {
+      "digest_id": "2026-10-06:pm",
+      "post_id": 56,
+      "sent_at": "2026-10-06T13:34:16+00:00",
+      "title": "МАЗ подписал соглашение о сотрудничестве с АО «уфимский трамвайно-троллейбусный завод» и ООО «трэт «маз-уттз»",
+      "slug": "maz-podpisal-soglashenie-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-troll-0806e8fd"
+    },
+    "https://sdelanounas.ru/blogs/178658/": {
+      "digest_id": "2026-10-06:pm",
+      "post_id": 56,
+      "sent_at": "2026-10-06T13:34:16+00:00",
+      "title": "На маршруты Макеевки вышли новые автобусы",
+      "slug": "na-marshruty-makeevki-vyshli-novye-avtobusy-855fb495"
     }
   },
   "digests": {
@@ -703,6 +717,17 @@
       "items": [
         "https://www.globaltrailermag.com/royal-mail-orders-100-custom-montracon-box-vans/",
         "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/",
+        "https://sdelanounas.ru/blogs/178643/"
+      ]
+    },
+    "2026-10-06:pm": {
+      "post_id": 56,
+      "sent_at": "2026-10-06T13:34:16+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://maz.by/media/news/2026/10/05/maz-podpisal-soglasheniye-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-trolleybusnyy-zavod-i-ooo-tret-maz-uttz",
+        "https://sdelanounas.ru/blogs/178658/",
         "https://sdelanounas.ru/blogs/178643/"
       ]
     }
