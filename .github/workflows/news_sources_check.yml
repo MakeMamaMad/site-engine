@@ -1,0 +1,32 @@
+name: News — Check candidate sources
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r aggregator/requirements.txt
+      - run: python tools/check_news_sources.py source_check.json
+      - name: Push report to source-check branch
+        run: |
+          git config user.name "specavto-autoposter"
+          git config user.email "actions@users.noreply.github.com"
+          cp source_check.json /tmp/source_check.json
+          git checkout --orphan source-check
+          git rm -rq --cached .
+          cp /tmp/source_check.json source_check.json
+          git add source_check.json
+          git commit -qm "source check"
+          git push -f origin source-check
