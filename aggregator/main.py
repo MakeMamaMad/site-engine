@@ -287,7 +287,7 @@ def fetch_html_news(src: Dict[str, Any]) -> List[Dict[str, Any]]:
             image = _detail_image(soup, page_url)
             items.append({
                 "source": name,
-                "title": title,
+                "title": tidy_caps_title(title),
                 "link": page_url,
                 "summary": summary,
                 "content": "",
@@ -302,6 +302,43 @@ def fetch_html_news(src: Dict[str, Any]) -> List[Dict[str, Any]]:
 
     log("OK", f"{name}: +{len(items)} html-news")
     return items
+
+
+KEEP_UPPER = {"МАЗ", "МАЗА", "МАЗЕ", "МАЗУ", "МАЗОМ", "КАМАЗ", "ГАЗ", "АО", "ООО", "ОАО", "ПАО", "РФ", "США", "СНГ", "ЕАЭС", "ТТЗ", "ПТО", "СПГ", "КПГ"}
+
+
+def tidy_caps_title(title: str) -> str:
+    """«МАЗ ПОСТАВИТ АВТОМОБИЛИ…» → «МАЗ поставит автомобили…» (some press sites shout)."""
+    letters = [c for c in title if c.isalpha()]
+    if not letters or sum(c.isupper() for c in letters) / len(letters) < 0.95:
+        return title
+    words = []
+    for i, word in enumerate(title.split(" ")):
+        core = word.strip("«»\"'.,:;!?()—-")
+        if core.upper() in KEEP_UPPER:
+            words.append(word)
+        else:
+            low = word.lower()
+            words.append(low[:1].upper() + low[1:] if i == 0 else low)
+    return " ".join(words)
+
+
+def drop_excluded(items: List[Dict[str, Any]], sources_cfg: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Per-source exclude_keywords (corporate HR/PR posts of manufacturers) —
+    applied to fresh and already saved items, so noise is removed retroactively."""
+    rules = {
+        str(src.get("title") or src.get("name") or ""): [str(k).lower() for k in (src.get("exclude_keywords") or []) if k]
+        for src in sources_cfg or []
+    }
+    out = []
+    for it in items:
+        source = it.get("source")
+        name = source.get("name") if isinstance(source, dict) else source
+        words = rules.get(str(name or ""))
+        if words and any(w in str(it.get("title") or "").lower() for w in words):
+            continue
+        out.append(it)
+    return out
 
 
 def normalize(entry, src_name: str, src_tags: Optional[List[str]] = None) -> Dict[str, Any]:
@@ -505,6 +542,10 @@ def main() -> None:
     log("INFO", f"existing in file: {len(existing)}")
     preserve_stable_identity(fresh, existing)
     merged = dedup_by_link(fresh + existing)
+    before = len(merged)
+    merged = drop_excluded(merged, sources)
+    if before != len(merged):
+        log("INFO", f"dropped by exclude_keywords: {before - len(merged)}")
     merged = sort_by_date(merged)
     new_count = len(merged) - len(existing)
     log("INFO", f"new items this run: {new_count}")
