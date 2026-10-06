@@ -256,6 +256,7 @@ def render_fine_calculator_page(base_url: str, telegram_cta: str) -> str:
             <li><a href="/tools/nagruzka-na-os/">Калькулятор нагрузки на ось</a></li>
             <li><a href="/tools/raspredelenie-gruza-po-osyam/">Калькулятор распределения груза по осям</a></li>
             <li><a href="/knowledge/shtraf-za-peregruz/">Штраф за перегруз: все части статьи 12.21.1</a></li>
+            <li><a href="/knowledge/shtraf-apvgk-kak-obzhalovat/">Штраф с рамки АПВГК: как обжаловать</a></li>
             <li><a href="/knowledge/specrazreshenie-tyazhelovesnoe-ts/">Спецразрешение на тяжеловесный транспорт</a></li>
           </ul>
         </section>
