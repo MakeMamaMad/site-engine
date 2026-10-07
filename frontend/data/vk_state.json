@@ -551,9 +551,9 @@
       "slug": "royal-mail-zakazala-100-furgonov-montracon-15152efe"
     },
     "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/": {
-      "digest_id": "2026-10-06:am",
-      "post_id": 55,
-      "sent_at": "2026-10-06T11:11:26+00:00",
+      "digest_id": "2026-10-07:pm",
+      "post_id": 62,
+      "sent_at": "2026-10-07T13:49:09+00:00",
       "title": "Лидер по логистике €21B",
       "slug": "lider-po-logistike-21b-ec9c9008"
     },
@@ -593,11 +593,18 @@
       "slug": "v-kursk-postupili-22-novyh-avtobusov-bolshogo-klassa-ae5ee396"
     },
     "https://www.globaltrailermag.com/hub-group-overhauls-board/": {
-      "digest_id": "2026-10-07:am",
-      "post_id": 60,
-      "sent_at": "2026-10-07T10:13:47+00:00",
+      "digest_id": "2026-10-07:pm",
+      "post_id": 62,
+      "sent_at": "2026-10-07T13:49:09+00:00",
       "title": "Совет директоров Hub Group",
       "slug": "sovet-direktorov-hub-group-6cb07326"
+    },
+    "https://truckmix.ru/news/kompaniya-gryzovaya-mehanika-na-konkyrse-100-lychshih-tovarov-rossii": {
+      "digest_id": "2026-10-07:pm",
+      "post_id": 62,
+      "sent_at": "2026-10-07T13:49:09+00:00",
+      "title": "Компания «Грузовая Механика» на конкурсе «100 лучших товаров России»",
+      "slug": "kompaniya-gruzovaya-mehanika-na-konkurse-100-luchshih-tovarov-rossii-d69132b2"
     }
   },
   "digests": {
@@ -793,6 +800,17 @@
         "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html",
         "https://sdelanounas.ru/blogs/178679/",
         "https://www.globaltrailermag.com/hub-group-overhauls-board/"
+      ]
+    },
+    "2026-10-07:pm": {
+      "post_id": 62,
+      "sent_at": "2026-10-07T13:49:09+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://truckmix.ru/news/kompaniya-gryzovaya-mehanika-na-konkyrse-100-lychshih-tovarov-rossii",
+        "https://www.globaltrailermag.com/hub-group-overhauls-board/",
+        "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/"
       ]
     }
   }
