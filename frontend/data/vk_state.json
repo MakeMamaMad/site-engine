@@ -569,6 +569,27 @@
       "sent_at": "2026-10-06T13:34:16+00:00",
       "title": "На маршруты Макеевки вышли новые автобусы",
       "slug": "na-marshruty-makeevki-vyshli-novye-avtobusy-855fb495"
+    },
+    "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html": {
+      "digest_id": "2026-10-07:am",
+      "post_id": 60,
+      "sent_at": "2026-10-07T10:13:47+00:00",
+      "title": "Китайские бренды заняли 48% сделок по лизингу грузовых автомобилей",
+      "slug": "kitayskie-brendy-zanyali-48-sdelok-po-lizingu-gruzovyh-avtomobiley-5f24ca88"
+    },
+    "https://sdelanounas.ru/blogs/178679/": {
+      "digest_id": "2026-10-07:am",
+      "post_id": 60,
+      "sent_at": "2026-10-07T10:13:47+00:00",
+      "title": "В Курск поступили 22 новых автобусов большого класса",
+      "slug": "v-kursk-postupili-22-novyh-avtobusov-bolshogo-klassa-ae5ee396"
+    },
+    "https://www.globaltrailermag.com/hub-group-overhauls-board/": {
+      "digest_id": "2026-10-07:am",
+      "post_id": 60,
+      "sent_at": "2026-10-07T10:13:47+00:00",
+      "title": "Совет директоров Hub Group",
+      "slug": "sovet-direktorov-hub-group-6cb07326"
     }
   },
   "digests": {
@@ -753,6 +774,17 @@
         "https://maz.by/media/news/2026/10/05/maz-podpisal-soglasheniye-o-sotrudnichestve-s-ao-ufimskiy-tramvayno-trolleybusnyy-zavod-i-ooo-tret-maz-uttz",
         "https://sdelanounas.ru/blogs/178658/",
         "https://sdelanounas.ru/blogs/178643/"
+      ]
+    },
+    "2026-10-07:am": {
+      "post_id": 60,
+      "sent_at": "2026-10-07T10:13:47+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html",
+        "https://sdelanounas.ru/blogs/178679/",
+        "https://www.globaltrailermag.com/hub-group-overhauls-board/"
       ]
     }
   }
