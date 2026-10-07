@@ -734,6 +734,36 @@
         }
       },
       "updated_at": "2026-10-06T06:15:59.421514+00:00"
+    },
+    "5f24ca88f5a0": {
+      "title": "Китайские бренды заняли 48% сделок по лизингу грузовых автомобилей",
+      "created_at": "2026-10-07T08:10:01.711728+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "xsgVtpRyJFQ",
+          "url": "https://www.youtube.com/shorts/xsgVtpRyJFQ",
+          "updated_at": "2026-10-07T08:10:01.711749+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac5fe5b41e5366c7495ae66",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-07T08:11:46.759102+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac5fec330841236c2abe485",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-07T08:12:19.035776+00:00"
+        }
+      },
+      "updated_at": "2026-10-07T08:12:19.035773+00:00"
     }
   }
 }
