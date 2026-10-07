@@ -675,16 +675,16 @@
       "slug": "v-rossii-vozobnovili-proizvodstvo-spetstehniki-s-kranom-manipulyatorom-i-18f577ba"
     },
     "https://www.globaltrailermag.com/hub-group-overhauls-board/": {
-      "digest_id": "2026-10-07:am",
-      "message_id": 1557,
-      "sent_at": "2026-10-07T10:18:44+00:00",
+      "digest_id": "2026-10-07:pm",
+      "message_id": 1558,
+      "sent_at": "2026-10-07T13:40:57+00:00",
       "title": "Совет директоров Hub Group",
       "slug": "sovet-direktorov-hub-group-6cb07326"
     },
     "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html": {
-      "digest_id": "2026-10-07:am",
-      "message_id": 1557,
-      "sent_at": "2026-10-07T10:18:44+00:00",
+      "digest_id": "2026-10-07:pm",
+      "message_id": 1558,
+      "sent_at": "2026-10-07T13:40:57+00:00",
       "title": "Китайские бренды заняли 48% сделок по лизингу грузовых автомобилей",
       "slug": "kitayskie-brendy-zanyali-48-sdelok-po-lizingu-gruzovyh-avtomobiley-5f24ca88"
     },
@@ -694,6 +694,13 @@
       "sent_at": "2026-10-07T10:18:44+00:00",
       "title": "В Курск поступили 22 новых автобусов большого класса",
       "slug": "v-kursk-postupili-22-novyh-avtobusov-bolshogo-klassa-ae5ee396"
+    },
+    "https://truckmix.ru/news/kompaniya-gryzovaya-mehanika-na-konkyrse-100-lychshih-tovarov-rossii": {
+      "digest_id": "2026-10-07:pm",
+      "message_id": 1558,
+      "sent_at": "2026-10-07T13:40:57+00:00",
+      "title": "Компания «Грузовая Механика» на конкурсе «100 лучших товаров России»",
+      "slug": "kompaniya-gruzovaya-mehanika-na-konkurse-100-luchshih-tovarov-rossii-d69132b2"
     }
   },
   "digests": {
@@ -888,6 +895,17 @@
         "https://www.globaltrailermag.com/hub-group-overhauls-board/",
         "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html",
         "https://sdelanounas.ru/blogs/178679/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-07:pm": {
+      "message_id": 1558,
+      "sent_at": "2026-10-07T13:40:57+00:00",
+      "slot": "pm",
+      "items": [
+        "https://truckmix.ru/news/kompaniya-gryzovaya-mehanika-na-konkyrse-100-lychshih-tovarov-rossii",
+        "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html",
+        "https://www.globaltrailermag.com/hub-group-overhauls-board/"
       ],
       "visual": "visual"
     }
