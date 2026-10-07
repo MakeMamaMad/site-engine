@@ -1,60 +1,52 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-06T21:45:51+00:00",
+  "updated_at": "2026-10-07T22:06:58+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 124,
-    "users": 118,
+    "visits": 140,
+    "users": 126,
     "sources": [
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 69,
-        "users": 66,
-        "bounce_rate": 59.4,
-        "page_depth": 1.35
+        "visits": 67,
+        "users": 62,
+        "bounce_rate": 58.2,
+        "page_depth": 1.31
       },
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 43,
-        "users": 41,
-        "bounce_rate": 20.9,
-        "page_depth": 1.14
-      },
-      {
-        "id": "social",
-        "name": "Переходы из социальных сетей",
-        "visits": 7,
-        "users": 7,
-        "bounce_rate": 100.0,
-        "page_depth": 1.0
+        "visits": 54,
+        "users": 48,
+        "bounce_rate": 16.7,
+        "page_depth": 1.2
       },
       {
         "id": "ad",
         "name": "Переходы по рекламе",
-        "visits": 3,
-        "users": 3,
-        "bounce_rate": 66.7,
+        "visits": 8,
+        "users": 8,
+        "bounce_rate": 62.5,
+        "page_depth": 1.0
+      },
+      {
+        "id": "social",
+        "name": "Переходы из социальных сетей",
+        "visits": 6,
+        "users": 6,
+        "bounce_rate": 83.3,
         "page_depth": 1.0
       },
       {
         "id": "internal",
         "name": "Внутренние переходы",
-        "visits": 1,
-        "users": 1,
-        "bounce_rate": 0.0,
-        "page_depth": 3.0
-      },
-      {
-        "id": "referral",
-        "name": "Переходы по ссылкам на сайтах",
-        "visits": 1,
-        "users": 1,
-        "bounce_rate": 0.0,
-        "page_depth": 3.0
+        "visits": 5,
+        "users": 5,
+        "bounce_rate": 60.0,
+        "page_depth": 1.4
       }
     ]
   },
@@ -62,8 +54,8 @@
     "status": "ok",
     "host": "https://spec-avtoportal.ru",
     "index": {
-      "searchable_pages": 55,
-      "excluded_pages": 94,
+      "searchable_pages": 48,
+      "excluded_pages": 147,
       "sqi": 0,
       "problems": {
         "fatal": 0,
@@ -73,10 +65,10 @@
       }
     },
     "search": {
-      "date_from": "2026-09-28",
-      "date_to": "2026-10-04",
-      "shows": 534,
-      "clicks": 35,
+      "date_from": "2026-09-29",
+      "date_to": "2026-10-05",
+      "shows": 504,
+      "clicks": 34,
       "top_queries": [
         {
           "query": "как рассчитать нагрузку на ось грузового автомобиля калькулятор",
@@ -86,9 +78,9 @@
         },
         {
           "query": "приказ минтранса 212 от 12.05.2026",
-          "shows": 22,
+          "shows": 18,
           "clicks": 0,
-          "position": 10.6
+          "position": 10.2
         },
         {
           "query": "как рассчитать нагрузку на ось грузового автомобиля с полуприцепом калькулятор",
@@ -103,22 +95,10 @@
           "position": 9.0
         },
         {
-          "query": "приказ минтранса 212 от 12 мая 2026 года",
-          "shows": 8,
-          "clicks": 0,
-          "position": 11.5
-        },
-        {
           "query": "как распределить груз по осям полуприцепа схема",
           "shows": 7,
           "clicks": 0,
           "position": 10.9
-        },
-        {
-          "query": "приказ минтранса россии от 12 мая 2026 года № 212",
-          "shows": 7,
-          "clicks": 0,
-          "position": 11.0
         },
         {
           "query": "как правильно распределить груз в полуприцепе по осям схема",
@@ -133,10 +113,22 @@
           "position": 8.0
         },
         {
-          "query": "приказ минтранса от 12.05.2026 212",
+          "query": "приказ минтранса россии от 12 мая 2026 года № 212",
           "shows": 5,
           "clicks": 0,
-          "position": 11.2
+          "position": 10.6
+        },
+        {
+          "query": "приказ минтранса россии от 12.05.2026 № 212",
+          "shows": 5,
+          "clicks": 0,
+          "position": 10.6
+        },
+        {
+          "query": "развесовка груза на тягаче по осям",
+          "shows": 5,
+          "clicks": 0,
+          "position": 9.4
         }
       ]
     },
@@ -154,12 +146,12 @@
       {
         "code": "NO_SITEMAPS",
         "severity": "POSSIBLE_PROBLEM",
-        "since": "2026-10-06T19:45:11.961+03:00"
+        "since": "2026-10-07T20:02:44.622+03:00"
       },
       {
         "code": "BIG_FAVICON_ABSENT",
         "severity": "RECOMMENDATION",
-        "since": "2026-10-06T20:23:17.627+03:00"
+        "since": "2026-10-07T20:27:11.977+03:00"
       },
       {
         "code": "NOT_IN_SPRAV",
