@@ -26,7 +26,8 @@
     "3d530d1f0209",
     "7e8e80cccdb8",
     "ec9c90085696",
-    "5f24ca88f5a0"
+    "5f24ca88f5a0",
+    "6cb073268ee6"
   ],
   "renders": [
     {
@@ -209,6 +210,13 @@
       "slug": "kitayskie-brendy-zanyali-48-sdelok-po-lizingu-gruzovyh-avtomobiley-5f24ca88",
       "title": "Китайские бренды заняли 48% сделок по лизингу грузовых автомобилей",
       "created_at": "2026-10-07T08:12:19.037011+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "6cb073268ee6",
+      "slug": "sovet-direktorov-hub-group-6cb07326",
+      "title": "Совет директоров Hub Group",
+      "created_at": "2026-10-07T16:14:21.914253+00:00",
       "format": "social-v2"
     }
   ]
