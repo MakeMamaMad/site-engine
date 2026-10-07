@@ -4,5 +4,5 @@
   "status": "queue_exhausted",
   "attempts": [],
   "detail": "No unused automatic catalog targets remain.",
-  "updated_at": "2026-10-07T13:10:10+00:00"
+  "updated_at": "2026-10-07T14:29:47+00:00"
 }
