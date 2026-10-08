@@ -755,6 +755,27 @@
       "sent_at": "2026-10-07T13:40:57+00:00",
       "title": "Компания «Грузовая Механика» на конкурсе «100 лучших товаров России»",
       "slug": "kompaniya-gruzovaya-mehanika-na-konkurse-100-luchshih-tovarov-rossii-d69132b2"
+    },
+    "http://gruzovoy.ru/news/industry/3387_tri_filtra_dlya_perevozchika_kapital_nalogi_effektivnost.html": {
+      "digest_id": "2026-10-08:am",
+      "message_id": 1565,
+      "sent_at": "2026-10-08T10:24:17+00:00",
+      "title": "Три фильтра для перевозчика: капитал, налоги, эффективность",
+      "slug": "tri-filtra-dlya-perevozchika-kapital-nalogi-effektivnost-328af93d"
+    },
+    "https://maz.by/media/news/2026/10/08/maz-sportavto-yedet-na-bakhu-velikaya-step-2026": {
+      "digest_id": "2026-10-08:am",
+      "message_id": 1565,
+      "sent_at": "2026-10-08T10:24:17+00:00",
+      "title": "«маз-спортавто» едет на баху «великая степь» – 2026",
+      "slug": "maz-sportavto-edet-na-bahu-velikaya-step-2026-19efe2fe"
+    },
+    "https://www.globaltrailermag.com/tii-group-launches-historic-pfedelbach-project/": {
+      "digest_id": "2026-10-08:am",
+      "message_id": 1565,
+      "sent_at": "2026-10-08T10:24:17+00:00",
+      "title": "TII Group запускает исторический проект Pfedelbach",
+      "slug": "tii-group-zapuskaet-istoricheskiy-proekt-pfedelbach-a5fd43ad"
     }
   },
   "digests": {
@@ -960,6 +981,17 @@
         "https://truckmix.ru/news/kompaniya-gryzovaya-mehanika-na-konkyrse-100-lychshih-tovarov-rossii",
         "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html",
         "https://www.globaltrailermag.com/hub-group-overhauls-board/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-08:am": {
+      "message_id": 1565,
+      "sent_at": "2026-10-08T10:24:17+00:00",
+      "slot": "am",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3387_tri_filtra_dlya_perevozchika_kapital_nalogi_effektivnost.html",
+        "https://maz.by/media/news/2026/10/08/maz-sportavto-yedet-na-bakhu-velikaya-step-2026",
+        "https://www.globaltrailermag.com/tii-group-launches-historic-pfedelbach-project/"
       ],
       "visual": "visual"
     }
