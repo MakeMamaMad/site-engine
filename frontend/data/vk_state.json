@@ -629,6 +629,27 @@
       "sent_at": "2026-10-07T13:49:09+00:00",
       "title": "Компания «Грузовая Механика» на конкурсе «100 лучших товаров России»",
       "slug": "kompaniya-gruzovaya-mehanika-na-konkurse-100-luchshih-tovarov-rossii-d69132b2"
+    },
+    "https://maz.by/media/news/2026/10/08/maz-sportavto-yedet-na-bakhu-velikaya-step-2026": {
+      "digest_id": "2026-10-08:am",
+      "post_id": 66,
+      "sent_at": "2026-10-08T10:24:07+00:00",
+      "title": "«маз-спортавто» едет на баху «великая степь» – 2026",
+      "slug": "maz-sportavto-edet-na-bahu-velikaya-step-2026-19efe2fe"
+    },
+    "http://gruzovoy.ru/news/industry/3387_tri_filtra_dlya_perevozchika_kapital_nalogi_effektivnost.html": {
+      "digest_id": "2026-10-08:am",
+      "post_id": 66,
+      "sent_at": "2026-10-08T10:24:07+00:00",
+      "title": "Три фильтра для перевозчика: капитал, налоги, эффективность",
+      "slug": "tri-filtra-dlya-perevozchika-kapital-nalogi-effektivnost-328af93d"
+    },
+    "https://www.globaltrailermag.com/trailer-market-edges-towards-recovery-in-brazil/": {
+      "digest_id": "2026-10-08:am",
+      "post_id": 66,
+      "sent_at": "2026-10-08T10:24:07+00:00",
+      "title": "Рынок трейлеров приближается к восстановлению в Бразилии",
+      "slug": "rynok-treylerov-priblizhaetsya-k-vosstanovleniyu-v-brazilii-231a07d1"
     }
   },
   "digests": {
@@ -835,6 +856,17 @@
         "https://truckmix.ru/news/kompaniya-gryzovaya-mehanika-na-konkyrse-100-lychshih-tovarov-rossii",
         "https://www.globaltrailermag.com/hub-group-overhauls-board/",
         "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/"
+      ]
+    },
+    "2026-10-08:am": {
+      "post_id": 66,
+      "sent_at": "2026-10-08T10:24:07+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://maz.by/media/news/2026/10/08/maz-sportavto-yedet-na-bakhu-velikaya-step-2026",
+        "http://gruzovoy.ru/news/industry/3387_tri_filtra_dlya_perevozchika_kapital_nalogi_effektivnost.html",
+        "https://www.globaltrailermag.com/trailer-market-edges-towards-recovery-in-brazil/"
       ]
     }
   }
