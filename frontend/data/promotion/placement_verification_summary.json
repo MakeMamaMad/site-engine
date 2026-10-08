@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T15:47:19+00:00",
+  "updated_at": "2026-10-08T10:25:21+00:00",
   "created": 0,
-  "checked": 1,
-  "changed": 1,
+  "checked": 0,
+  "changed": 0,
   "states": {
     "still_pending": 2
   },
