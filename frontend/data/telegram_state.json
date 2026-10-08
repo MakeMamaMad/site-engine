@@ -500,6 +500,33 @@
       "slug": "maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/178719/": {
+      "message_id": 1570,
+      "sent_at": "2026-10-08T15:54:23+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/v-krym-postupil-21-novyy-avtobus-bolshogo-klassa-liaz-ccd75e47/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=v-krym-postupil-21-novyy-avtobus-bolshogo-klassa-liaz-ccd75e47",
+      "title": "В Крым поступил 21 новый автобус большого класса ЛиАЗ",
+      "slug": "v-krym-postupil-21-novyy-avtobus-bolshogo-klassa-liaz-ccd75e47",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/178720/": {
+      "message_id": 1571,
+      "sent_at": "2026-10-08T15:54:24+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/v-nizhegorodskuyu-oblast-postupili-25-novyh-avtobusov-v-ramkah-natsproek-c308b5db/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=v-nizhegorodskuyu-oblast-postupili-25-novyh-avtobusov-v-ramkah-natsproek-c308b5db",
+      "title": "В Нижегородскую область поступили 25 новых автобусов в рамках нацпроекта «Инфраструктура для жизни»",
+      "slug": "v-nizhegorodskuyu-oblast-postupili-25-novyh-avtobusov-v-ramkah-natsproek-c308b5db",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/178714/": {
+      "message_id": 1572,
+      "sent_at": "2026-10-08T15:54:25+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/rossiyskie-dvigateli-dlya-220-tonnyh-samosvalov-vypuskayutsya-seriyno-99092dfc/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=rossiyskie-dvigateli-dlya-220-tonnyh-samosvalov-vypuskayutsya-seriyno-99092dfc",
+      "title": "Российские двигатели для 220-тонных самосвалов выпускаются серийно",
+      "slug": "rossiyskie-dvigateli-dlya-220-tonnyh-samosvalov-vypuskayutsya-seriyno-99092dfc",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
