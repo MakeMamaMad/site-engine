@@ -473,6 +473,33 @@
       "slug": "maz-sportavto-edet-na-bahu-velikaya-step-2026-19efe2fe",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3393_v_byryatii_nachali_sborky_tyajelih_gryzovikov_novoi_marki.html": {
+      "message_id": 1567,
+      "sent_at": "2026-10-08T13:54:15+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da",
+      "title": "В Бурятии начали сборку тяжелых грузовиков новой марки",
+      "slug": "v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/178717/": {
+      "message_id": 1568,
+      "sent_at": "2026-10-08T13:54:16+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/podpisan-kontrakt-mezhdu-pao-kamaz-i-maliyskoy-kompaniey-na-postavku-avt-e161d80e/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=podpisan-kontrakt-mezhdu-pao-kamaz-i-maliyskoy-kompaniey-na-postavku-avt-e161d80e",
+      "title": "Подписан контракт между ПАО «КАМАЗ» и малийской компанией на поставку автомобилей",
+      "slug": "podpisan-kontrakt-mezhdu-pao-kamaz-i-maliyskoy-kompaniey-na-postavku-avt-e161d80e",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3392_maz_mojet_nachat_ystanavlivat_kabini_kamaz_na_svoi_gryzoviki.html": {
+      "message_id": 1569,
+      "sent_at": "2026-10-08T13:54:17+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae",
+      "title": "МАЗ может начать устанавливать кабины КАМАЗ на свои грузовики",
+      "slug": "maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
