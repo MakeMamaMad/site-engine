@@ -28,7 +28,8 @@
     "ec9c90085696",
     "5f24ca88f5a0",
     "6cb073268ee6",
-    "231a07d10eff"
+    "231a07d10eff",
+    "sat:aluminum-vs-steel"
   ],
   "renders": [
     {
@@ -225,6 +226,13 @@
       "slug": "rynok-treylerov-priblizhaetsya-k-vosstanovleniyu-v-brazilii-231a07d1",
       "title": "Рынок трейлеров Бразилии приближается к восстановлению",
       "created_at": "2026-10-08T10:32:21.056838+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "sat:aluminum-vs-steel",
+      "slug": "",
+      "title": "Алюминиевый кузов или стальной: что выгоднее",
+      "created_at": "2026-10-08T16:11:24.613067+00:00",
       "format": "social-v2"
     }
   ]
