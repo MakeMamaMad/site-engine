@@ -776,6 +776,27 @@
       "sent_at": "2026-10-08T10:24:17+00:00",
       "title": "TII Group запускает исторический проект Pfedelbach",
       "slug": "tii-group-zapuskaet-istoricheskiy-proekt-pfedelbach-a5fd43ad"
+    },
+    "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html": {
+      "digest_id": "2026-10-08:pm",
+      "message_id": 1566,
+      "sent_at": "2026-10-08T13:49:03+00:00",
+      "title": "Как дилеру и дистрибьютору развивать бизнес в условиях падающего рынка",
+      "slug": "kak-dileru-i-distribyutoru-razvivat-biznes-v-usloviyah-padayuschego-rynk-537e7604"
+    },
+    "https://trailertechnician.com/2026/10/kodiak-ai-targets-year-end-driverless-long-haul/?utm_source=rss&utm_medium=rss&utm_campaign=kodiak-ai-targets-year-end-driverless-long-haul": {
+      "digest_id": "2026-10-08:pm",
+      "message_id": 1566,
+      "sent_at": "2026-10-08T13:49:03+00:00",
+      "title": "Kodiak AI нацелен на долгосрочную перспективу без водителя",
+      "slug": "kodiak-ai-natselen-na-dolgosrochnuyu-perspektivu-bez-voditelya-1beee15b"
+    },
+    "https://www.globaltrailermag.com/trailer-market-edges-towards-recovery-in-brazil/": {
+      "digest_id": "2026-10-08:pm",
+      "message_id": 1566,
+      "sent_at": "2026-10-08T13:49:03+00:00",
+      "title": "Рынок трейлеров приближается к восстановлению в Бразилии",
+      "slug": "rynok-treylerov-priblizhaetsya-k-vosstanovleniyu-v-brazilii-231a07d1"
     }
   },
   "digests": {
@@ -992,6 +1013,17 @@
         "http://gruzovoy.ru/news/industry/3387_tri_filtra_dlya_perevozchika_kapital_nalogi_effektivnost.html",
         "https://maz.by/media/news/2026/10/08/maz-sportavto-yedet-na-bakhu-velikaya-step-2026",
         "https://www.globaltrailermag.com/tii-group-launches-historic-pfedelbach-project/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-08:pm": {
+      "message_id": 1566,
+      "sent_at": "2026-10-08T13:49:03+00:00",
+      "slot": "pm",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html",
+        "https://trailertechnician.com/2026/10/kodiak-ai-targets-year-end-driverless-long-haul/?utm_source=rss&utm_medium=rss&utm_campaign=kodiak-ai-targets-year-end-driverless-long-haul",
+        "https://www.globaltrailermag.com/trailer-market-edges-towards-recovery-in-brazil/"
       ],
       "visual": "visual"
     }
