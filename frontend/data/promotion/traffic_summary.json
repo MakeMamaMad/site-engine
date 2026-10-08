@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T22:06:52+00:00",
+  "updated_at": "2026-10-08T22:14:33+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -9,21 +9,21 @@
       "source": "dzen",
       "medium": "social",
       "campaign": "dzen_articles",
-      "visits": 7,
-      "users": 7,
+      "visits": 5,
+      "users": 5,
       "bounce_rate": 100.0,
       "page_depth": 1.0,
       "avg_visit_duration_seconds": 0
     },
     {
-      "source": "sdelanounas",
+      "source": "lognews-press",
       "medium": "editorial",
-      "campaign": "industry_promotion",
+      "campaign": "industry_editorial",
       "visits": 1,
       "users": 1,
       "bounce_rate": 0.0,
-      "page_depth": 3.0,
-      "avg_visit_duration_seconds": 23
+      "page_depth": 2.0,
+      "avg_visit_duration_seconds": 1752
     },
     {
       "source": "vk",
@@ -37,8 +37,8 @@
     }
   ],
   "totals": {
-    "visits": 9,
-    "users": 9
+    "visits": 7,
+    "users": 7
   },
   "sampled": false,
   "sample_share": 1.0

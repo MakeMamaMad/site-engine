@@ -1,28 +1,28 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-07T22:06:58+00:00",
+  "updated_at": "2026-10-08T22:14:38+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 140,
-    "users": 126,
+    "visits": 126,
+    "users": 111,
     "sources": [
-      {
-        "id": "direct",
-        "name": "Прямые заходы",
-        "visits": 67,
-        "users": 62,
-        "bounce_rate": 58.2,
-        "page_depth": 1.31
-      },
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 54,
+        "visits": 56,
         "users": 48,
-        "bounce_rate": 16.7,
+        "bounce_rate": 16.1,
         "page_depth": 1.2
+      },
+      {
+        "id": "direct",
+        "name": "Прямые заходы",
+        "visits": 53,
+        "users": 49,
+        "bounce_rate": 50.9,
+        "page_depth": 1.36
       },
       {
         "id": "ad",
@@ -33,20 +33,20 @@
         "page_depth": 1.0
       },
       {
-        "id": "social",
-        "name": "Переходы из социальных сетей",
-        "visits": 6,
-        "users": 6,
-        "bounce_rate": 83.3,
-        "page_depth": 1.0
-      },
-      {
         "id": "internal",
         "name": "Внутренние переходы",
-        "visits": 5,
-        "users": 5,
-        "bounce_rate": 60.0,
-        "page_depth": 1.4
+        "visits": 7,
+        "users": 7,
+        "bounce_rate": 57.1,
+        "page_depth": 1.29
+      },
+      {
+        "id": "social",
+        "name": "Переходы из социальных сетей",
+        "visits": 2,
+        "users": 2,
+        "bounce_rate": 50.0,
+        "page_depth": 1.0
       }
     ]
   },
@@ -65,10 +65,10 @@
       }
     },
     "search": {
-      "date_from": "2026-09-29",
-      "date_to": "2026-10-05",
-      "shows": 504,
-      "clicks": 34,
+      "date_from": "2026-09-30",
+      "date_to": "2026-10-06",
+      "shows": 481,
+      "clicks": 32,
       "top_queries": [
         {
           "query": "как рассчитать нагрузку на ось грузового автомобиля калькулятор",
@@ -84,7 +84,7 @@
         },
         {
           "query": "как рассчитать нагрузку на ось грузового автомобиля с полуприцепом калькулятор",
-          "shows": 15,
+          "shows": 14,
           "clicks": 1,
           "position": 7.5
         },
@@ -146,12 +146,12 @@
       {
         "code": "NO_SITEMAPS",
         "severity": "POSSIBLE_PROBLEM",
-        "since": "2026-10-07T20:02:44.622+03:00"
+        "since": "2026-10-07T23:09:02.314+03:00"
       },
       {
         "code": "BIG_FAVICON_ABSENT",
         "severity": "RECOMMENDATION",
-        "since": "2026-10-07T20:27:11.977+03:00"
+        "since": "2026-10-08T20:26:38.883+03:00"
       },
       {
         "code": "NOT_IN_SPRAV",
