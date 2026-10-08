@@ -794,6 +794,36 @@
         }
       },
       "updated_at": "2026-10-07T16:14:21.912996+00:00"
+    },
+    "231a07d10eff": {
+      "title": "Рынок трейлеров Бразилии приближается к восстановлению",
+      "created_at": "2026-10-08T10:28:52.727208+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "_JjM2sGl6TM",
+          "url": "https://www.youtube.com/shorts/_JjM2sGl6TM",
+          "updated_at": "2026-10-08T10:28:52.727228+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac770659ecf6ac87a0b4d44",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-08T10:30:52.425816+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac770dd2e5678988bf5c39e",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-08T10:32:21.055371+00:00"
+        }
+      },
+      "updated_at": "2026-10-08T10:32:21.055369+00:00"
     }
   }
 }
