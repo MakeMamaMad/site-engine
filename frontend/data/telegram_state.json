@@ -869,6 +869,27 @@
       "sent_at": "2026-10-08T13:49:03+00:00",
       "title": "Рынок трейлеров приближается к восстановлению в Бразилии",
       "slug": "rynok-treylerov-priblizhaetsya-k-vosstanovleniyu-v-brazilii-231a07d1"
+    },
+    "https://sdelanounas.ru/blogs/178717/": {
+      "digest_id": "2026-10-09:am",
+      "message_id": 1575,
+      "sent_at": "2026-10-09T10:22:55+00:00",
+      "title": "Подписан контракт между ПАО «КАМАЗ» и малийской компанией на поставку автомобилей",
+      "slug": "podpisan-kontrakt-mezhdu-pao-kamaz-i-maliyskoy-kompaniey-na-postavku-avt-e161d80e"
+    },
+    "https://sdelanounas.ru/blogs/178714/": {
+      "digest_id": "2026-10-09:am",
+      "message_id": 1575,
+      "sent_at": "2026-10-09T10:22:55+00:00",
+      "title": "Российские двигатели для 220-тонных самосвалов выпускаются серийно",
+      "slug": "rossiyskie-dvigateli-dlya-220-tonnyh-samosvalov-vypuskayutsya-seriyno-99092dfc"
+    },
+    "http://gruzovoy.ru/news/industry/3392_maz_mojet_nachat_ystanavlivat_kabini_kamaz_na_svoi_gryzoviki.html": {
+      "digest_id": "2026-10-09:am",
+      "message_id": 1575,
+      "sent_at": "2026-10-09T10:22:55+00:00",
+      "title": "МАЗ может начать устанавливать кабины КАМАЗ на свои грузовики",
+      "slug": "maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae"
     }
   },
   "digests": {
@@ -1096,6 +1117,17 @@
         "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html",
         "https://trailertechnician.com/2026/10/kodiak-ai-targets-year-end-driverless-long-haul/?utm_source=rss&utm_medium=rss&utm_campaign=kodiak-ai-targets-year-end-driverless-long-haul",
         "https://www.globaltrailermag.com/trailer-market-edges-towards-recovery-in-brazil/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-09:am": {
+      "message_id": 1575,
+      "sent_at": "2026-10-09T10:22:55+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/178717/",
+        "https://sdelanounas.ru/blogs/178714/",
+        "http://gruzovoy.ru/news/industry/3392_maz_mojet_nachat_ystanavlivat_kabini_kamaz_na_svoi_gryzoviki.html"
       ],
       "visual": "visual"
     }
