@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T15:52:33+00:00",
+  "updated_at": "2026-10-09T13:33:55+00:00",
   "entries": [
     {
       "placement_id": "directory:pdfcatalog",
@@ -71,9 +71,9 @@
         14,
         30
       ],
-      "check_index": 3,
-      "next_check_at": "2026-10-08T18:03:39+00:00",
-      "last_checked_at": "2026-10-02T09:38:10+00:00",
+      "check_index": 4,
+      "next_check_at": "2026-10-24T18:03:39+00:00",
+      "last_checked_at": "2026-10-09T13:33:55+00:00",
       "checks": [
         {
           "checked_at": "2026-09-26T11:15:31+00:00",
@@ -89,6 +89,12 @@
         },
         {
           "checked_at": "2026-10-02T09:38:10+00:00",
+          "outcome": "not_found",
+          "url": null,
+          "detail": "Публичный адрес размещения пока неизвестен."
+        },
+        {
+          "checked_at": "2026-10-09T13:33:55+00:00",
           "outcome": "not_found",
           "url": null,
           "detail": "Публичный адрес размещения пока неизвестен."
