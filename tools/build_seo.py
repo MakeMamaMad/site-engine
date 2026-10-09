@@ -40,6 +40,7 @@ from load_distribution_calculator import PAGE_PATH as DIST_CALC_PATH, render_dis
 from fine_calculator import PAGE_PATH as FINE_CALC_PATH, render_fine_calculator_page
 from pallet_calculator import PAGE_PATH as PALLET_CALC_PATH, render_pallet_calculator_page
 from trip_cost_calculator import PAGE_PATH as TRIP_CALC_PATH, render_trip_cost_page
+from fuel_calculator import PAGE_PATH as FUEL_CALC_PATH, render_fuel_calculator_page
 from tools_hub import PAGE_PATH as TOOLS_HUB_PATH, TOOLS as TOOLS_LIST, render_tools_hub
 
 FRONTEND = ROOT / "frontend"
@@ -67,6 +68,7 @@ SOCIAL_URLS = [
 BRAND_ALTERNATE_NAMES = ["SpecAvtoPortal", "Spec Avto Portal", "СпецАвто Портал"]
 METRIKA_ID = 106240080
 METRIKA_SCRIPT_TAG = '<script defer src="/metrika.js"></script>'
+NOSCRIPT_PIXEL_RE = re.compile(r"[ \t]*<noscript>\s*<div>\s*<img src=\"https://mc\.yandex\.ru/watch/106240080\"[^>]*>\s*</div>\s*</noscript>\n?", re.IGNORECASE)
 METRIKA_NOSCRIPT = (
     '<noscript><div><img src="https://mc.yandex.ru/watch/106240080" '
     'style="position:absolute; left:-9999px;" alt="" /></div></noscript>'
@@ -1044,7 +1046,7 @@ def render_page(item: dict[str, Any], items: list[dict[str, Any]], knowledge_art
   <meta name="twitter:description" content="{description}" />
   <meta name="twitter:image" content="{image}" />
   <meta name="theme-color" content="#111417" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{json_ld(item)}</script>
   <script data-goatcounter="https://specavtoportal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -1263,7 +1265,7 @@ def render_brand_page(
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
   <meta name="theme-color" content="#111417" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <script data-goatcounter="https://specavtoportal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -1400,7 +1402,7 @@ def render_brand_directory(brand_counts: dict[str, int]) -> str:
   <meta property="og:title" content="Производители и бренды — СпецАвтоПортал" />
   <meta property="og:description" content="Архив новостей о производителях грузовой и прицепной техники." />
   <meta property="og:url" content="{BASE_URL}/brands/" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
 </head>
@@ -1528,7 +1530,7 @@ def render_topic_page(
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
   <meta name="theme-color" content="#111417" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <script data-goatcounter="https://specavtoportal.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -1757,7 +1759,7 @@ def render_knowledge_article(item: dict[str, Any], updated_at: str, news_items: 
   <meta property="og:title" content="{title}" />
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
 </head>
@@ -1849,6 +1851,24 @@ def regulation_url(item: dict[str, Any]) -> str:
 
 
 TELEGRAM_CHANNEL_URL = "https://t.me/specavtoportal"
+
+
+TG_INLINE_HTML = (
+    '<p class="tg-inline"><span class="tg-inline__icon" aria-hidden="true">✈</span>'
+    '<span>Новые калькуляторы, нормы и штрафы для перевозчиков — в Telegram. '
+    f'<a href="{TELEGRAM_CHANNEL_URL}" target="_blank" rel="noopener">Подписаться на канал ↗</a></span></p>'
+)
+
+
+def add_inline_telegram(page: str) -> str:
+    """Insert TG_INLINE_HTML before the first calculator note (once)."""
+    if 'class="tg-inline"' in page:
+        return page
+    marker = '<p class="calc-note">'
+    idx = page.find(marker)
+    if idx < 0:
+        return page
+    return page[:idx] + TG_INLINE_HTML + "\n          " + page[idx:]
 
 
 def telegram_cta_html(title: str, text: str) -> str:
@@ -2042,7 +2062,7 @@ def render_regulation_page(item: dict[str, Any], verified_at: str, knowledge_art
   <meta property="og:title" content="{page_title}" />
   <meta property="og:description" content="{description}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>{faq_schema_tag}
 </head>
@@ -2206,7 +2226,7 @@ def render_regulations_index(regulations: dict[str, Any]) -> str:
   <meta property="og:title" content="Нормативы и ГОСТы — СпецАвтоПортал" />
   <meta property="og:description" content="Действующие нормативы для прицепов, полуприцепов, крепления грузов и безопасной эксплуатации." />
   <meta property="og:url" content="{BASE_URL}/law.html" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
 </head>
@@ -2553,6 +2573,7 @@ def write_sitemap(
         (f"{BASE_URL}{FINE_CALC_PATH}", ""),
         (f"{BASE_URL}{PALLET_CALC_PATH}", ""),
         (f"{BASE_URL}{TRIP_CALC_PATH}", ""),
+        (f"{BASE_URL}{FUEL_CALC_PATH}", ""),
     ]
     rows = []
     for url, lastmod in static_pages:
@@ -2644,14 +2665,9 @@ def inject_metrika_into_pages() -> int:
         original = text
         if METRIKA_SCRIPT_TAG not in text and "</head>" in text:
             text = text.replace("</head>", f"  {METRIKA_SCRIPT_TAG}\n</head>", 1)
-        if "mc.yandex.ru/watch/106240080" not in text:
-            text = re.sub(
-                r"(<body\b[^>]*>)",
-                lambda match: match.group(1) + "\n  " + METRIKA_NOSCRIPT,
-                text,
-                count=1,
-                flags=re.IGNORECASE,
-            )
+        # No <noscript> pixel: real readers run JS, while the pixel counted
+        # script-less crawlers as 0-second visits (mostly on /article.html).
+        text = NOSCRIPT_PIXEL_RE.sub("", text)
         if text != original:
             path.write_text(text, encoding="utf-8")
             changed += 1
@@ -2801,6 +2817,25 @@ def main() -> None:
         ),
         encoding="utf-8",
     )
+
+    fuel_dir = FRONTEND / FUEL_CALC_PATH.strip("/")
+    fuel_dir.mkdir(parents=True, exist_ok=True)
+    (fuel_dir / "index.html").write_text(
+        render_fuel_calculator_page(
+            BASE_URL,
+            telegram_cta_html(
+                "Экономика грузоперевозок",
+                "Топливо, «Платон», тарифы и нормы для перевозчиков — коротко в нашем Telegram-канале.",
+            ),
+        ),
+        encoding="utf-8",
+    )
+
+    # A short Telegram invitation right under each calculator's result, where
+    # the reader looks after the calculation (the big block sits further down).
+    for calc_path in (AXLE_CALC_PATH, RTO_CALC_PATH, DIST_CALC_PATH, FINE_CALC_PATH, PALLET_CALC_PATH, TRIP_CALC_PATH, FUEL_CALC_PATH):
+        calc_file = FRONTEND / calc_path.strip("/") / "index.html"
+        calc_file.write_text(add_inline_telegram(calc_file.read_text(encoding="utf-8")), encoding="utf-8")
 
     embed_dir = FRONTEND / AXLE_EMBED_PATH.strip("/")
     embed_dir.mkdir(parents=True, exist_ok=True)
