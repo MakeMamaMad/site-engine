@@ -116,14 +116,23 @@
     "https://spec-avtoportal.ru/knowledge/shtraf-apvgk-kak-obzhalovat/": {
       "at": "2026-10-06T11:14:53+00:00",
       "task_id": "27450620-c177-11f1-b4d6-87c8463f27c2"
+    },
+    "https://spec-avtoportal.ru/tools/rashod-topliva/": {
+      "at": "2026-10-09T05:28:57+00:00",
+      "task_id": "530f83c0-c3a2-11f1-a81a-df27cbeb2a3a"
     }
   },
   "last_run": {
-    "at": "2026-10-08T13:39:23+00:00",
-    "sent": [],
+    "at": "2026-10-09T05:28:57+00:00",
+    "sent": [
+      "https://spec-avtoportal.ru/tools/rashod-topliva/"
+    ],
     "failed": [],
     "left": 0,
-    "quota": null,
+    "quota": {
+      "daily": 150,
+      "remainder_before": 150
+    },
     "sitemaps_added": [],
     "sitemaps": []
   }
