@@ -170,7 +170,7 @@ def render_fine_calculator_page(base_url: str, telegram_cta: str) -> str:
   <meta property="og:title" content="{html.escape(title, quote=True)}" />
   <meta property="og:description" content="{html.escape(description, quote=True)}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=29" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <style>{_dist_css()}</style>

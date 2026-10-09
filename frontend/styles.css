@@ -2465,3 +2465,32 @@ button { color: inherit; }
 .tools-block__item:hover{border-color:var(--orange)}
 .tools-block__item strong{display:block;font-size:15px}
 .tools-block__item span{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+
+/* One-line Telegram invitation under calculator results */
+.tg-inline {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #e9f5fd;
+  color: #1c2a33;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.tg-inline__icon {
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #229ed9;
+  color: #fff;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.tg-inline a { color: #1b7fb5; font-weight: 700; white-space: nowrap; }
+
+.dist-range:empty { display: none !important; }

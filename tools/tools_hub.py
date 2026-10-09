@@ -13,6 +13,7 @@ TOOLS = [
     ("/tools/shtraf-za-peregruz/", "Штраф за перегруз", "Процент превышения массы, нагрузки на ось или габаритов и сумма штрафа собственнику по статье 12.21.1 КоАП.", "Сколько будет штраф?"),
     ("/tools/skolko-pallet-v-furu/", "Сколько паллет в фуру", "Европаллеты, финские и американские паллеты в еврофуре, рефрижераторе и контейнере: расстановка, ярусы, грузоподъёмность.", "Сколько войдёт паллет?"),
     ("/tools/stoimost-reysa/", "Стоимость рейса", "Топливо, «Платон», платные дороги, водитель и содержание машины — себестоимость километра и цена с наценкой.", "Во сколько обойдётся рейс?"),
+    ("/tools/rashod-topliva/", "Расход топлива", "Литры и деньги на рейс с учётом массы груза, порожнего пробега и зимней надбавки; запас хода и заправки в пути.", "Сколько топлива нужно на рейс?"),
     ("/tools/rezhim-truda-i-otdyha/", "Режим труда и отдыха", "График рейса по приказу Минтранса № 160: перерывы по 45 минут, ежедневный и еженедельный отдых, время прибытия.", "Когда приедет водитель?"),
 ]
 
@@ -58,7 +59,7 @@ def render_tools_hub(base_url: str, telegram_cta: str) -> str:
   <meta property="og:title" content="{html.escape(title, quote=True)}" />
   <meta property="og:description" content="{html.escape(description, quote=True)}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
 </head>

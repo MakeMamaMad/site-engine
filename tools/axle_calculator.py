@@ -323,7 +323,7 @@ def render_axle_embed_page(base_url: str) -> str:
   <title>Калькулятор нагрузки на ось — СпецАвтоПортал</title>
   <meta name="robots" content="noindex,follow" />
   <link rel="canonical" href="{base_url}{PAGE_PATH}" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <style>{_page_css()} body{{background:transparent;margin:0}} .calc-card{{margin:0}} .embed-credit{{margin:10px 4px;font-size:13px;color:var(--muted)}}</style>
 </head>
 <body>
@@ -394,7 +394,7 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
   <meta property="og:title" content="{html.escape(title, quote=True)}" />
   <meta property="og:description" content="{html.escape(description, quote=True)}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <style>{_page_css()}</style>

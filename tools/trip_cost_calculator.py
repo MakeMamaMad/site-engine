@@ -151,7 +151,7 @@ def render_trip_cost_page(base_url: str, telegram_cta: str) -> str:
   <meta property="og:title" content="{html.escape(title, quote=True)}" />
   <meta property="og:description" content="{html.escape(description, quote=True)}" />
   <meta property="og:url" content="{canonical}" />
-  <link rel="stylesheet" href="/styles.css?v=30" />
+  <link rel="stylesheet" href="/styles.css?v=31" />
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">{schema}</script>
   <style>{_dist_css()}</style>
@@ -202,7 +202,7 @@ def render_trip_cost_page(base_url: str, telegram_cta: str) -> str:
           <div id="t-result" class="calc-scroll" style="margin-top:16px"></div>
           <div class="calc-verdict" id="calc-verdict" aria-live="polite">Заполните данные.</div>
           <div class="dist-range" id="t-price"></div>
-          <p class="calc-note">Значения по умолчанию — пример для магистрального тягача, замените их своими. Цена топлива меняется — подставьте актуальную. Дни в пути оцениваются по норме 9 часов за рулём в сутки; подробный график — в <a href="/tools/rezhim-truda-i-otdyha/">калькуляторе режима труда и отдыха</a>.</p>
+          <p class="calc-note">Значения по умолчанию — пример для магистрального тягача, замените их своими. Цена топлива меняется — подставьте актуальную. Расход для своей загрузки и пробега порожняком посчитает <a href="/tools/rashod-topliva/">калькулятор расхода топлива</a>. Дни в пути оцениваются по норме 9 часов за рулём в сутки; подробный график — в <a href="/tools/rezhim-truda-i-otdyha/">калькуляторе режима труда и отдыха</a>.</p>
         </section>
 
         <section class="regulation-section">
@@ -224,6 +224,7 @@ def render_trip_cost_page(base_url: str, telegram_cta: str) -> str:
           <h2>Другие калькуляторы</h2>
           <ul>
             <li><a href="/knowledge/platon-2026/">«Платон» в 2026 году: тариф, кто платит, штрафы</a></li>
+            <li><a href="/tools/rashod-topliva/">Расход топлива на рейс</a></li>
             <li><a href="/tools/rezhim-truda-i-otdyha/">Режим труда и отдыха водителя</a></li>
             <li><a href="/tools/skolko-pallet-v-furu/">Сколько паллет в фуру</a></li>
             <li><a href="/tools/raspredelenie-gruza-po-osyam/">Распределение груза по осям</a></li>
