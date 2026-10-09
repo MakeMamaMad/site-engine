@@ -29,7 +29,8 @@
     "5f24ca88f5a0",
     "6cb073268ee6",
     "231a07d10eff",
-    "sat:aluminum-vs-steel"
+    "sat:aluminum-vs-steel",
+    "ad3641aeb1b3"
   ],
   "renders": [
     {
@@ -233,6 +234,13 @@
       "slug": "",
       "title": "Алюминиевый кузов или стальной: что выгоднее",
       "created_at": "2026-10-08T16:11:24.613067+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "ad3641aeb1b3",
+      "slug": "maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae",
+      "title": "МАЗ может начать устанавливать кабины КАМАЗ",
+      "created_at": "2026-10-09T08:13:51.161630+00:00",
       "format": "social-v2"
     }
   ]

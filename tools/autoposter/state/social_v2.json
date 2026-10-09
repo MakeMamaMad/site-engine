@@ -854,6 +854,36 @@
         }
       },
       "updated_at": "2026-10-08T16:11:24.612054+00:00"
+    },
+    "ad3641aeb1b3": {
+      "title": "МАЗ может начать устанавливать кабины КАМАЗ",
+      "created_at": "2026-10-09T08:11:30.404380+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "3Z5DtU0MFbE",
+          "url": "https://www.youtube.com/shorts/3Z5DtU0MFbE",
+          "updated_at": "2026-10-09T08:11:30.404400+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac8a1b3f07e682de6abbd01",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-09T08:13:19.386008+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac8a2209db755aaaacd9b7c",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-09T08:13:51.160224+00:00"
+        }
+      },
+      "updated_at": "2026-10-09T08:13:51.160221+00:00"
     }
   }
 }

@@ -1,10 +1,6 @@
 {
   "schema": 1,
   "days": {
-    "2026-09-25": {
-      "am": "published",
-      "pm": "published"
-    },
     "2026-09-26": {
       "am": "published",
       "pm": "published"
@@ -55,6 +51,9 @@
     "2026-10-08": {
       "am": "published",
       "pm": "published"
+    },
+    "2026-10-09": {
+      "am": "published"
     }
   }
 }
