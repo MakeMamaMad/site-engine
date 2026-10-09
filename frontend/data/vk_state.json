@@ -780,6 +780,27 @@
       "sent_at": "2026-10-09T10:24:16+00:00",
       "title": "Константин чернецкий назначен на должность директора ОАО «осиповичский завод автомобильных агрегатов»",
       "slug": "konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichski-c74c433a"
+    },
+    "https://sdelanounas.ru/blogs/178714/": {
+      "digest_id": "2026-10-09:pm",
+      "post_id": 80,
+      "sent_at": "2026-10-09T13:40:42+00:00",
+      "title": "Российские двигатели для 220-тонных самосвалов выпускаются серийно",
+      "slug": "rossiyskie-dvigateli-dlya-220-tonnyh-samosvalov-vypuskayutsya-seriyno-99092dfc"
+    },
+    "https://sdelanounas.ru/blogs/178720/": {
+      "digest_id": "2026-10-09:pm",
+      "post_id": 80,
+      "sent_at": "2026-10-09T13:40:42+00:00",
+      "title": "В Нижегородскую область поступили 25 новых автобусов в рамках нацпроекта «Инфраструктура для жизни»",
+      "slug": "v-nizhegorodskuyu-oblast-postupili-25-novyh-avtobusov-v-ramkah-natsproek-c308b5db"
+    },
+    "https://www.globaltrailermag.com/tii-group-launches-historic-pfedelbach-project/": {
+      "digest_id": "2026-10-09:pm",
+      "post_id": 80,
+      "sent_at": "2026-10-09T13:40:42+00:00",
+      "title": "TII Group запускает исторический проект Pfedelbach",
+      "slug": "tii-group-zapuskaet-istoricheskiy-proekt-pfedelbach-a5fd43ad"
     }
   },
   "digests": {
@@ -1019,6 +1040,17 @@
         "http://gruzovoy.ru/news/industry/3392_maz_mojet_nachat_ystanavlivat_kabini_kamaz_na_svoi_gryzoviki.html",
         "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html",
         "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov"
+      ]
+    },
+    "2026-10-09:pm": {
+      "post_id": 80,
+      "sent_at": "2026-10-09T13:40:42+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/178714/",
+        "https://sdelanounas.ru/blogs/178720/",
+        "https://www.globaltrailermag.com/tii-group-launches-historic-pfedelbach-project/"
       ]
     }
   }
