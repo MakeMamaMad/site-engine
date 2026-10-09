@@ -1,51 +1,51 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T22:14:38+00:00",
+  "updated_at": "2026-10-09T21:47:57+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 126,
-    "users": 111,
+    "visits": 134,
+    "users": 115,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 56,
-        "users": 48,
-        "bounce_rate": 16.1,
-        "page_depth": 1.2
+        "visits": 66,
+        "users": 55,
+        "bounce_rate": 13.6,
+        "page_depth": 1.18
       },
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 53,
-        "users": 49,
-        "bounce_rate": 50.9,
+        "visits": 47,
+        "users": 43,
+        "bounce_rate": 48.9,
         "page_depth": 1.36
-      },
-      {
-        "id": "ad",
-        "name": "Переходы по рекламе",
-        "visits": 8,
-        "users": 8,
-        "bounce_rate": 62.5,
-        "page_depth": 1.0
       },
       {
         "id": "internal",
         "name": "Внутренние переходы",
-        "visits": 7,
-        "users": 7,
-        "bounce_rate": 57.1,
-        "page_depth": 1.29
+        "visits": 9,
+        "users": 8,
+        "bounce_rate": 55.6,
+        "page_depth": 1.22
+      },
+      {
+        "id": "ad",
+        "name": "Переходы по рекламе",
+        "visits": 9,
+        "users": 9,
+        "bounce_rate": 55.6,
+        "page_depth": 1.0
       },
       {
         "id": "social",
         "name": "Переходы из социальных сетей",
-        "visits": 2,
-        "users": 2,
-        "bounce_rate": 50.0,
+        "visits": 3,
+        "users": 3,
+        "bounce_rate": 33.3,
         "page_depth": 1.0
       }
     ]
@@ -60,75 +60,75 @@
       "problems": {
         "fatal": 0,
         "critical": 0,
-        "possible": 3,
+        "possible": 2,
         "recommendation": 3
       }
     },
     "search": {
-      "date_from": "2026-09-30",
-      "date_to": "2026-10-06",
-      "shows": 481,
-      "clicks": 32,
+      "date_from": "2026-10-01",
+      "date_to": "2026-10-07",
+      "shows": 1106,
+      "clicks": 58,
       "top_queries": [
         {
           "query": "как рассчитать нагрузку на ось грузового автомобиля калькулятор",
-          "shows": 22,
+          "shows": 29,
+          "clicks": 1,
+          "position": 7.9
+        },
+        {
+          "query": "разработка схем укладки грузов в кузове транспортного средства, расчет осевых нагрузок",
+          "shows": 24,
           "clicks": 0,
-          "position": 7.8
+          "position": 11.1
         },
         {
           "query": "приказ минтранса 212 от 12.05.2026",
-          "shows": 18,
+          "shows": 21,
+          "clicks": 0,
+          "position": 10.6
+        },
+        {
+          "query": "как рассчитать нагрузку на ось грузового автомобиля с полуприцепом калькулятор",
+          "shows": 15,
+          "clicks": 1,
+          "position": 7.8
+        },
+        {
+          "query": "как правильно распределить груз в полуприцепе по осям схема",
+          "shows": 10,
+          "clicks": 0,
+          "position": 10.7
+        },
+        {
+          "query": "как распределить груз по осям полуприцепа схема",
+          "shows": 10,
+          "clicks": 0,
+          "position": 11.4
+        },
+        {
+          "query": "калькулятор расчета нагрузки на ось для автосамосвалов",
+          "shows": 9,
+          "clicks": 0,
+          "position": 8.8
+        },
+        {
+          "query": "приказ минтранса россии от 12 мая 2026 года № 212",
+          "shows": 8,
           "clicks": 0,
           "position": 10.2
         },
         {
-          "query": "как рассчитать нагрузку на ось грузового автомобиля с полуприцепом калькулятор",
-          "shows": 14,
-          "clicks": 1,
-          "position": 7.5
-        },
-        {
-          "query": "калькулятор расчета нагрузки на ось для автосамосвалов",
+          "query": "приказ минтранса россии от 12.05.2026 № 212",
           "shows": 8,
-          "clicks": 0,
-          "position": 9.0
-        },
-        {
-          "query": "как распределить груз по осям полуприцепа схема",
-          "shows": 7,
           "clicks": 0,
           "position": 10.9
         },
         {
-          "query": "как правильно распределить груз в полуприцепе по осям схема",
-          "shows": 6,
+          "query": "распределение груза по осям на фуре калькулятор",
+          "shows": 7,
           "clicks": 0,
-          "position": 11.5
-        },
-        {
-          "query": "расчет нагрузок на оси автопоезда калькулятор",
-          "shows": 5,
-          "clicks": 1,
-          "position": 8.0
-        },
-        {
-          "query": "приказ минтранса россии от 12 мая 2026 года № 212",
-          "shows": 5,
-          "clicks": 0,
-          "position": 10.6
-        },
-        {
-          "query": "приказ минтранса россии от 12.05.2026 № 212",
-          "shows": 5,
-          "clicks": 0,
-          "position": 10.6
-        },
-        {
-          "query": "развесовка груза на тягаче по осям",
-          "shows": 5,
-          "clicks": 0,
-          "position": 9.4
+          "position": 5.3
         }
       ]
     },
@@ -142,11 +142,6 @@
         "code": "DUPLICATE_PAGES",
         "severity": "POSSIBLE_PROBLEM",
         "since": "2026-09-30T07:41:45.354+03:00"
-      },
-      {
-        "code": "NO_SITEMAPS",
-        "severity": "POSSIBLE_PROBLEM",
-        "since": "2026-10-07T23:09:02.314+03:00"
       },
       {
         "code": "BIG_FAVICON_ABSENT",

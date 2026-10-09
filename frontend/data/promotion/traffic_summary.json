@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-08T22:14:33+00:00",
+  "updated_at": "2026-10-09T21:47:50+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -9,8 +9,8 @@
       "source": "dzen",
       "medium": "social",
       "campaign": "dzen_articles",
-      "visits": 5,
-      "users": 5,
+      "visits": 1,
+      "users": 1,
       "bounce_rate": 100.0,
       "page_depth": 1.0,
       "avg_visit_duration_seconds": 0
@@ -37,8 +37,8 @@
     }
   ],
   "totals": {
-    "visits": 7,
-    "users": 7
+    "visits": 3,
+    "users": 3
   },
   "sampled": false,
   "sample_share": 1.0
