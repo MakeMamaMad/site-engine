@@ -452,12 +452,6 @@ def render_axle_calculator_page(base_url: str, telegram_cta: str) -> str:
 
         {telegram_cta}
 
-        <section class="regulation-section">
-          <p class="section-kicker">Для сайтов и блогов</p>
-          <h2>Поставить калькулятор к себе на сайт</h2>
-          <p>Калькулятор можно бесплатно разместить на сайте автопарка, дилера, автошколы или транспортного форума. Скопируйте код и вставьте его в страницу — нормы будут обновляться автоматически.</p>
-          <textarea readonly onclick="this.select()" style="width:100%;min-height:96px;font:13px/1.4 monospace;padding:10px;border:1px solid var(--line);border-radius:10px">{html.escape(embed_snippet(base_url))}</textarea>
-        </section>
 
         <section class="regulation-section regulation-faq">
           <p class="section-kicker">Вопросы и ответы</p>
