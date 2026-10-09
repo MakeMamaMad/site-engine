@@ -30,7 +30,8 @@
     "6cb073268ee6",
     "231a07d10eff",
     "sat:aluminum-vs-steel",
-    "ad3641aeb1b3"
+    "ad3641aeb1b3",
+    "8469e5da8eb2"
   ],
   "renders": [
     {
@@ -241,6 +242,13 @@
       "slug": "maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae",
       "title": "МАЗ может начать устанавливать кабины КАМАЗ",
       "created_at": "2026-10-09T08:13:51.161630+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "8469e5da8eb2",
+      "slug": "v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da",
+      "title": "В Бурятии собрали первый грузовик марки «БАТРАК»",
+      "created_at": "2026-10-09T16:14:13.525553+00:00",
       "format": "social-v2"
     }
   ]
