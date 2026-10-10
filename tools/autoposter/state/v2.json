@@ -31,7 +31,8 @@
     "231a07d10eff",
     "sat:aluminum-vs-steel",
     "ad3641aeb1b3",
-    "8469e5da8eb2"
+    "8469e5da8eb2",
+    "e161d80eaa56"
   ],
   "renders": [
     {
@@ -249,6 +250,13 @@
       "slug": "v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da",
       "title": "В Бурятии собрали первый грузовик марки «БАТРАК»",
       "created_at": "2026-10-09T16:14:13.525553+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "e161d80eaa56",
+      "slug": "podpisan-kontrakt-mezhdu-pao-kamaz-i-maliyskoy-kompaniey-na-postavku-avt-e161d80e",
+      "title": "КАМАЗ подписал контракт на поставку техники в Мали",
+      "created_at": "2026-10-10T08:13:42.213866+00:00",
       "format": "social-v2"
     }
   ]

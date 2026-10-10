@@ -914,6 +914,36 @@
         }
       },
       "updated_at": "2026-10-09T16:14:13.524058+00:00"
+    },
+    "e161d80eaa56": {
+      "title": "КАМАЗ подписал контракт на поставку техники в Мали",
+      "created_at": "2026-10-10T08:10:49.882145+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "itegzdUojL0",
+          "url": "https://www.youtube.com/shorts/itegzdUojL0",
+          "updated_at": "2026-10-10T08:10:49.882166+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac9f30bf91f772d458702e8",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-10T08:12:39.394618+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ac9f378f91f772d45871411",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-10T08:13:42.212255+00:00"
+        }
+      },
+      "updated_at": "2026-10-10T08:13:42.212252+00:00"
     }
   }
 }
