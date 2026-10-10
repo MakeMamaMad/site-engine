@@ -747,9 +747,9 @@
       "slug": "kodiak-ai-natselen-na-dolgosrochnuyu-perspektivu-bez-voditelya-1beee15b"
     },
     "https://sdelanounas.ru/blogs/178717/": {
-      "digest_id": "2026-10-08:pm",
-      "post_id": 70,
-      "sent_at": "2026-10-08T13:56:58+00:00",
+      "digest_id": "2026-10-10:am",
+      "post_id": 81,
+      "sent_at": "2026-10-10T09:44:44+00:00",
       "title": "Подписан контракт между ПАО «КАМАЗ» и малийской компанией на поставку автомобилей",
       "slug": "podpisan-kontrakt-mezhdu-pao-kamaz-i-maliyskoy-kompaniey-na-postavku-avt-e161d80e"
     },
@@ -801,6 +801,20 @@
       "sent_at": "2026-10-09T13:40:42+00:00",
       "title": "TII Group запускает исторический проект Pfedelbach",
       "slug": "tii-group-zapuskaet-istoricheskiy-proekt-pfedelbach-a5fd43ad"
+    },
+    "https://trailertechnician.com/2026/10/autonomous-freight-delivery-between-dallas-laredo/?utm_source=rss&utm_medium=rss&utm_campaign=autonomous-freight-delivery-between-dallas-laredo": {
+      "digest_id": "2026-10-10:am",
+      "post_id": 81,
+      "sent_at": "2026-10-10T09:44:44+00:00",
+      "title": "Автономная доставка грузов между Далласом и Ларедо",
+      "slug": "avtonomnaya-dostavka-gruzov-mezhdu-dallasom-i-laredo-393f5130"
+    },
+    "https://sdelanounas.ru/blogs/178719/": {
+      "digest_id": "2026-10-10:am",
+      "post_id": 81,
+      "sent_at": "2026-10-10T09:44:44+00:00",
+      "title": "В Крым поступил 21 новый автобус большого класса ЛиАЗ",
+      "slug": "v-krym-postupil-21-novyy-avtobus-bolshogo-klassa-liaz-ccd75e47"
     }
   },
   "digests": {
@@ -1051,6 +1065,17 @@
         "https://sdelanounas.ru/blogs/178714/",
         "https://sdelanounas.ru/blogs/178720/",
         "https://www.globaltrailermag.com/tii-group-launches-historic-pfedelbach-project/"
+      ]
+    },
+    "2026-10-10:am": {
+      "post_id": 81,
+      "sent_at": "2026-10-10T09:44:44+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://trailertechnician.com/2026/10/autonomous-freight-delivery-between-dallas-laredo/?utm_source=rss&utm_medium=rss&utm_campaign=autonomous-freight-delivery-between-dallas-laredo",
+        "https://sdelanounas.ru/blogs/178719/",
+        "https://sdelanounas.ru/blogs/178717/"
       ]
     }
   }
