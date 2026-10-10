@@ -850,9 +850,9 @@
       "slug": "tii-group-zapuskaet-istoricheskiy-proekt-pfedelbach-a5fd43ad"
     },
     "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html": {
-      "digest_id": "2026-10-08:pm",
-      "message_id": 1566,
-      "sent_at": "2026-10-08T13:49:03+00:00",
+      "digest_id": "2026-10-10:pm",
+      "message_id": 1578,
+      "sent_at": "2026-10-10T12:48:42+00:00",
       "title": "Как дилеру и дистрибьютору развивать бизнес в условиях падающего рынка",
       "slug": "kak-dileru-i-distribyutoru-razvivat-biznes-v-usloviyah-padayuschego-rynk-537e7604"
     },
@@ -892,9 +892,9 @@
       "slug": "maz-mozhet-nachat-ustanavlivat-kabiny-kamaz-na-svoi-gruzoviki-ad3641ae"
     },
     "https://sdelanounas.ru/blogs/178720/": {
-      "digest_id": "2026-10-10:am",
-      "message_id": 1577,
-      "sent_at": "2026-10-10T09:44:34+00:00",
+      "digest_id": "2026-10-10:pm",
+      "message_id": 1578,
+      "sent_at": "2026-10-10T12:48:42+00:00",
       "title": "В Нижегородскую область поступили 25 новых автобусов в рамках нацпроекта «Инфраструктура для жизни»",
       "slug": "v-nizhegorodskuyu-oblast-postupili-25-novyh-avtobusov-v-ramkah-natsproek-c308b5db"
     },
@@ -906,9 +906,9 @@
       "slug": "avtonomnaya-dostavka-gruzov-mezhdu-dallasom-i-laredo-393f5130"
     },
     "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov": {
-      "digest_id": "2026-10-09:pm",
-      "message_id": 1576,
-      "sent_at": "2026-10-09T13:33:17+00:00",
+      "digest_id": "2026-10-10:pm",
+      "message_id": 1578,
+      "sent_at": "2026-10-10T12:48:42+00:00",
       "title": "Константин чернецкий назначен на должность директора ОАО «осиповичский завод автомобильных агрегатов»",
       "slug": "konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichski-c74c433a"
     },
@@ -1185,6 +1185,17 @@
         "https://sdelanounas.ru/blogs/178719/",
         "http://gruzovoy.ru/news/industry/3393_v_byryatii_nachali_sborky_tyajelih_gryzovikov_novoi_marki.html",
         "https://sdelanounas.ru/blogs/178720/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-10:pm": {
+      "message_id": 1578,
+      "sent_at": "2026-10-10T12:48:42+00:00",
+      "slot": "pm",
+      "items": [
+        "https://sdelanounas.ru/blogs/178720/",
+        "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov",
+        "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html"
       ],
       "visual": "visual"
     }
