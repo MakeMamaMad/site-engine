@@ -775,9 +775,9 @@
       "slug": "kak-dileru-i-distribyutoru-razvivat-biznes-v-usloviyah-padayuschego-rynk-537e7604"
     },
     "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov": {
-      "digest_id": "2026-10-09:am",
-      "post_id": 79,
-      "sent_at": "2026-10-09T10:24:16+00:00",
+      "digest_id": "2026-10-10:pm",
+      "post_id": 82,
+      "sent_at": "2026-10-10T12:59:09+00:00",
       "title": "Константин чернецкий назначен на должность директора ОАО «осиповичский завод автомобильных агрегатов»",
       "slug": "konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichski-c74c433a"
     },
@@ -789,9 +789,9 @@
       "slug": "rossiyskie-dvigateli-dlya-220-tonnyh-samosvalov-vypuskayutsya-seriyno-99092dfc"
     },
     "https://sdelanounas.ru/blogs/178720/": {
-      "digest_id": "2026-10-09:pm",
-      "post_id": 80,
-      "sent_at": "2026-10-09T13:40:42+00:00",
+      "digest_id": "2026-10-10:pm",
+      "post_id": 82,
+      "sent_at": "2026-10-10T12:59:09+00:00",
       "title": "В Нижегородскую область поступили 25 новых автобусов в рамках нацпроекта «Инфраструктура для жизни»",
       "slug": "v-nizhegorodskuyu-oblast-postupili-25-novyh-avtobusov-v-ramkah-natsproek-c308b5db"
     },
@@ -810,9 +810,9 @@
       "slug": "avtonomnaya-dostavka-gruzov-mezhdu-dallasom-i-laredo-393f5130"
     },
     "https://sdelanounas.ru/blogs/178719/": {
-      "digest_id": "2026-10-10:am",
-      "post_id": 81,
-      "sent_at": "2026-10-10T09:44:44+00:00",
+      "digest_id": "2026-10-10:pm",
+      "post_id": 82,
+      "sent_at": "2026-10-10T12:59:09+00:00",
       "title": "В Крым поступил 21 новый автобус большого класса ЛиАЗ",
       "slug": "v-krym-postupil-21-novyy-avtobus-bolshogo-klassa-liaz-ccd75e47"
     }
@@ -1076,6 +1076,17 @@
         "https://trailertechnician.com/2026/10/autonomous-freight-delivery-between-dallas-laredo/?utm_source=rss&utm_medium=rss&utm_campaign=autonomous-freight-delivery-between-dallas-laredo",
         "https://sdelanounas.ru/blogs/178719/",
         "https://sdelanounas.ru/blogs/178717/"
+      ]
+    },
+    "2026-10-10:pm": {
+      "post_id": 82,
+      "sent_at": "2026-10-10T12:59:09+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/178719/",
+        "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov",
+        "https://sdelanounas.ru/blogs/178720/"
       ]
     }
   }
