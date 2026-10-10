@@ -944,6 +944,36 @@
         }
       },
       "updated_at": "2026-10-10T08:13:42.212252+00:00"
+    },
+    "19efe2fea515": {
+      "title": "МАЗ-Спортавто выступит на бахе «Великая степь» — 2026",
+      "created_at": "2026-10-10T16:10:59.066733+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "7vZR2iX5W4w",
+          "url": "https://www.youtube.com/shorts/7vZR2iX5W4w",
+          "updated_at": "2026-10-10T16:10:59.066776+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aca6394bba9419ccb0a2977",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-10T16:12:46.844515+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aca63ffed92ed8fa5d4bc03",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-10T16:13:48.952258+00:00"
+        }
+      },
+      "updated_at": "2026-10-10T16:13:48.952256+00:00"
     }
   }
 }
