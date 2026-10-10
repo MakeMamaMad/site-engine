@@ -345,6 +345,19 @@
       "status": "email_sent",
       "sent_at": "2026-10-09T13:42:12+00:00",
       "gmail_message_id": "1a120e66360bfc72"
+    },
+    {
+      "target_id": "rzdpartner-auto",
+      "target_name": "РЖД-Партнёр — новости автомобильных грузоперевозок",
+      "slug": "rezhim-truda-i-otdyha-voditelya",
+      "title": "Режим труда и отдыха водителя в 2026 году: нормы приказа Минтранса № 160 и тахограф",
+      "site_url": "https://spec-avtoportal.ru/knowledge/rezhim-truda-i-otdyha-voditelya/?utm_source=rzdpartner-auto&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=rezhim-truda-i-otdyha-voditelya",
+      "contact": "rzdp@rzd-partner.ru",
+      "item_key": "knowledge:rezhim-truda-i-otdyha-voditelya",
+      "created_at": "2026-10-10T09:46:05+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-10T09:46:06+00:00",
+      "gmail_message_id": "1a12534993058361"
     }
   ]
 }
