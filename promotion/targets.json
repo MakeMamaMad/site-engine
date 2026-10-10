@@ -401,14 +401,14 @@
       "platform": "publisher",
       "name": "РЖД-Партнёр — новости автомобильных грузоперевозок",
       "url": "https://www.rzd-partner.ru/",
-      "contact": "rzdp@rzd-partner.ru",
+      "contact": "",
       "audience_hint": "грузоперевозки автоперевозки логистика транспорт нормативы",
-      "policy": "editorial_email",
-      "status": "priority_candidate",
+      "policy": "editorial_manual_contact",
+      "status": "paused",
       "login_required": false,
-      "automation": "email_submission",
+      "automation": "manual_verify_contact",
       "content_filter": "Практические материалы для перевозчиков: нормы, штрафы, калькуляторы; редакционная подача.",
-      "notes": "Адрес опубликован на https://www.rzd-partner.ru/about/contacts/ (главный редактор) (проверено 06.10.2026)."
+      "notes": "Адрес опубликован на https://www.rzd-partner.ru/about/contacts/ (главный редактор) (проверено 06.10.2026). Все известные email вернулись как недоставляемые: rzdp@rzd-partner.ru. Автоматические письма приостановлены."
     },
     {
       "id": "dortransport-editorial",
