@@ -1,28 +1,28 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-10T20:37:10+00:00",
+  "updated_at": "2026-10-11T21:01:15+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 139,
-    "users": 118,
+    "visits": 94,
+    "users": 76,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 70,
-        "users": 57,
-        "bounce_rate": 12.9,
+        "visits": 53,
+        "users": 42,
+        "bounce_rate": 11.3,
         "page_depth": 1.19
       },
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 48,
-        "users": 44,
-        "bounce_rate": 50.0,
-        "page_depth": 1.35
+        "visits": 23,
+        "users": 20,
+        "bounce_rate": 52.2,
+        "page_depth": 1.26
       },
       {
         "id": "internal",
@@ -35,9 +35,9 @@
       {
         "id": "ad",
         "name": "Переходы по рекламе",
-        "visits": 9,
-        "users": 9,
-        "bounce_rate": 55.6,
+        "visits": 6,
+        "users": 6,
+        "bounce_rate": 50.0,
         "page_depth": 1.0
       },
       {
@@ -51,114 +51,10 @@
     ]
   },
   "webmaster": {
-    "status": "ok",
+    "status": "error",
     "host": "https://spec-avtoportal.ru",
-    "index": {
-      "searchable_pages": 48,
-      "excluded_pages": 147,
-      "sqi": 0,
-      "problems": {
-        "fatal": 0,
-        "critical": 0,
-        "possible": 2,
-        "recommendation": 3
-      }
-    },
-    "search": {
-      "date_from": "2026-10-01",
-      "date_to": "2026-10-07",
-      "shows": 1106,
-      "clicks": 58,
-      "top_queries": [
-        {
-          "query": "как рассчитать нагрузку на ось грузового автомобиля калькулятор",
-          "shows": 37,
-          "clicks": 1,
-          "position": 7.4
-        },
-        {
-          "query": "приказ минтранса 212 от 12.05.2026",
-          "shows": 28,
-          "clicks": 0,
-          "position": 11.0
-        },
-        {
-          "query": "разработка схем укладки грузов в кузове транспортного средства, расчет осевых нагрузок",
-          "shows": 24,
-          "clicks": 0,
-          "position": 11.1
-        },
-        {
-          "query": "как рассчитать нагрузку на ось грузового автомобиля с полуприцепом калькулятор",
-          "shows": 20,
-          "clicks": 1,
-          "position": 7.6
-        },
-        {
-          "query": "как распределить груз по осям полуприцепа схема",
-          "shows": 13,
-          "clicks": 0,
-          "position": 11.7
-        },
-        {
-          "query": "как правильно распределить груз в полуприцепе по осям схема",
-          "shows": 12,
-          "clicks": 0,
-          "position": 10.7
-        },
-        {
-          "query": "калькулятор расчета нагрузки на ось для автосамосвалов",
-          "shows": 10,
-          "clicks": 0,
-          "position": 8.5
-        },
-        {
-          "query": "калькулятор нагрузки на ось грузового автомобиля",
-          "shows": 8,
-          "clicks": 0,
-          "position": 9.4
-        },
-        {
-          "query": "приказ минтранса россии от 12 мая 2026 года № 212",
-          "shows": 8,
-          "clicks": 0,
-          "position": 10.2
-        },
-        {
-          "query": "приказ минтранса россии от 12.05.2026 № 212",
-          "shows": 8,
-          "clicks": 0,
-          "position": 10.9
-        }
-      ]
-    },
-    "diagnostics": [
-      {
-        "code": "DOCUMENTS_MISSING_DESCRIPTION",
-        "severity": "POSSIBLE_PROBLEM",
-        "since": "2026-09-30T07:41:45.354+03:00"
-      },
-      {
-        "code": "DUPLICATE_PAGES",
-        "severity": "POSSIBLE_PROBLEM",
-        "since": "2026-09-30T07:41:45.354+03:00"
-      },
-      {
-        "code": "BIG_FAVICON_ABSENT",
-        "severity": "RECOMMENDATION",
-        "since": "2026-10-08T20:26:38.883+03:00"
-      },
-      {
-        "code": "NOT_IN_SPRAV",
-        "severity": "RECOMMENDATION",
-        "since": "2026-09-30T07:41:45.354+03:00"
-      },
-      {
-        "code": "NO_REGIONS",
-        "severity": "RECOMMENDATION",
-        "since": "2026-09-30T07:41:45.354+03:00"
-      }
-    ],
+    "step": "user",
+    "detail": "Вебмастер (user): URLError",
     "token_secret": "YANDEX_WEBMASTER_OAUTH_TOKEN"
   }
 }
