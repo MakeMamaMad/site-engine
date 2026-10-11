@@ -429,14 +429,14 @@
       "platform": "publisher",
       "name": "Ассоциация «Грузавтотранс»",
       "url": "https://sro-auto.ru/",
-      "contact": "gruzavtotrans@sro-auto.ru",
+      "contact": "",
       "audience_hint": "грузоперевозчики нормативы Платон штрафы весогабаритный контроль",
-      "policy": "editorial_email",
-      "status": "candidate",
+      "policy": "editorial_manual_contact",
+      "status": "paused",
       "login_required": false,
-      "automation": "email_submission",
+      "automation": "manual_verify_contact",
       "content_filter": "Практические материалы для перевозчиков: нормы, штрафы, калькуляторы; редакционная подача.",
-      "notes": "Адрес опубликован на https://sro-auto.ru/ (блок контактов) (проверено 06.10.2026)."
+      "notes": "Адрес опубликован на https://sro-auto.ru/ (блок контактов) (проверено 06.10.2026). Все известные email вернулись как недоставляемые: gruzavtotrans@sro-auto.ru. Автоматические письма приостановлены."
     },
     {
       "id": "naprus-assoc",
