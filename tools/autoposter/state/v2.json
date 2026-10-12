@@ -35,7 +35,8 @@
     "e161d80eaa56",
     "19efe2fea515",
     "99092dfc63c1",
-    "c74c433af1f0"
+    "c74c433af1f0",
+    "b08534ab1129"
   ],
   "renders": [
     {
@@ -281,6 +282,13 @@
       "slug": "konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichski-c74c433a",
       "title": "Константин Чернецкий назначен директором Осиповичского завода автомобильных агрегатов",
       "created_at": "2026-10-11T16:14:26.780478+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "b08534ab1129",
+      "slug": "rhenus-rasshiryaet-logisticheskie-operatsii-v-kambodzhe-b08534ab",
+      "title": "Rhenus расширяет логистические операции в Камбодже",
+      "created_at": "2026-10-12T08:14:39.751731+00:00",
       "format": "social-v2"
     }
   ]
