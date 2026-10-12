@@ -36,7 +36,8 @@
     "19efe2fea515",
     "99092dfc63c1",
     "c74c433af1f0",
-    "b08534ab1129"
+    "b08534ab1129",
+    "guide:nagruzka-na-os-calculator"
   ],
   "renders": [
     {
@@ -289,6 +290,13 @@
       "slug": "rhenus-rasshiryaet-logisticheskie-operatsii-v-kambodzhe-b08534ab",
       "title": "Rhenus расширяет логистические операции в Камбодже",
       "created_at": "2026-10-12T08:14:39.751731+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:nagruzka-na-os-calculator",
+      "slug": "",
+      "title": "Как проверить нагрузку на оси до весов",
+      "created_at": "2026-10-12T16:12:01.012292+00:00",
       "format": "social-v2"
     }
   ]
