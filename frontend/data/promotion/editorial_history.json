@@ -411,6 +411,21 @@
       "status": "email_sent",
       "sent_at": "2026-10-12T10:38:40+00:00",
       "gmail_message_id": "1a12fb16fd271136"
+    },
+    {
+      "target_id": "sdelanounas",
+      "target_name": "Сделано у нас",
+      "item_key": "news:8469e5da8eb2",
+      "title": "В Бурятии начали сборку тяжелых грузовиков новой марки",
+      "source_url": "https://spec-avtoportal.ru/news/v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da/?utm_source=sdelanounas&utm_medium=editorial&utm_campaign=industry_promotion&utm_content=v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da",
+      "result_url": "https://sdelanounas.ru/yandexmaps/addPoint/?id=178798",
+      "category_id": "149",
+      "submitted_at": "2026-10-12T19:05:33+00:00",
+      "status": "published",
+      "last_public_check_at": "2026-10-12T19:05:33+00:00",
+      "public_status": "published",
+      "public_url": "https://sdelanounas.ru/blogs/178798/",
+      "published_at": "2026-10-12T19:05:36+00:00"
     }
   ]
 }
