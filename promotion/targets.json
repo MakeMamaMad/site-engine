@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "updated_at": "2026-09-28",
+  "updated_at": "2026-10-12",
   "targets": [
     {
       "id": "sdelanounas",
@@ -479,6 +479,106 @@
       "automation": "email_submission",
       "content_filter": "Практические материалы для перевозчиков: нормы, штрафы, калькуляторы; редакционная подача.",
       "notes": "Адрес опубликован на https://logistics360.ru/contacts/ (выпускающий редактор) (проверено 06.10.2026)."
+    },
+    {
+      "id": "infotrans-by",
+      "platform": "publisher",
+      "name": "INFOTRANS.by — транспорт и логистика Беларуси",
+      "url": "https://infotrans.by/",
+      "contact": "info@infotrans.by",
+      "audience_hint": "перевозчики логистика Беларусь полуприцепы нагрузки на оси нормы РБ РФ",
+      "policy": "editorial_email",
+      "status": "priority_candidate",
+      "login_required": false,
+      "automation": "email_submission",
+      "content_filter": "Практические материалы для перевозчиков: нормы, штрафы, калькуляторы; редакционная подача.",
+      "notes": "Редакционный адрес на сайте; пресс-релизы в партнёрских пакетах платные — предлагать редакционный повод (проверено 12.10.2026)."
+    },
+    {
+      "id": "trans-ru",
+      "platform": "publisher",
+      "name": "Trans.ru — портал перевозок",
+      "url": "https://trans.ru/news",
+      "contact": "info@trans.ru",
+      "audience_hint": "грузоперевозки перевозчики логистика автотранспорт нормы штрафы",
+      "policy": "editorial_email",
+      "status": "candidate",
+      "login_required": false,
+      "automation": "email_submission",
+      "content_filter": "Практические материалы для перевозчиков: нормы, штрафы, калькуляторы; редакционная подача.",
+      "notes": "Адрес на https://trans.ru/contact («Редакция, размещение новостей») (проверено 12.10.2026)."
+    },
+    {
+      "id": "tks-ru",
+      "platform": "publisher",
+      "name": "TKS.ru — ВЭД и транспорт",
+      "url": "https://www.tks.ru/",
+      "contact": "editor@tks.ru",
+      "audience_hint": "ВЭД логистика международные перевозки нормы ГосЛог",
+      "policy": "editorial_email",
+      "status": "candidate",
+      "login_required": false,
+      "automation": "email_submission",
+      "content_filter": "Практические материалы для перевозчиков: нормы, штрафы, калькуляторы; редакционная подача.",
+      "notes": "Адрес редакции на сайте (проверено 12.10.2026)."
+    },
+    {
+      "id": "neg-by",
+      "platform": "publisher",
+      "name": "«Экономическая газета» (Беларусь), рубрика «Транспорт»",
+      "url": "https://neg.by/novosti/kategorija/transport/",
+      "contact": "info@neg.by",
+      "audience_hint": "бизнес Беларусь транспорт перевозчики",
+      "policy": "editorial_email",
+      "status": "candidate",
+      "login_required": false,
+      "automation": "email_submission",
+      "content_filter": "Практические материалы для перевозчиков: нормы, штрафы, калькуляторы; редакционная подача.",
+      "notes": "Адрес на https://neg.by/kontakty/ (проверено 12.10.2026)."
+    },
+    {
+      "id": "tg-dalnoboy-mafia",
+      "platform": "telegram",
+      "name": "ДАЛЬНОБОЙ_МАФИЯ",
+      "url": "https://t.me/dalnoboy_mafia",
+      "contact": "@maksadminx",
+      "audience_hint": "водители-дальнобойщики, ~18 тыс. подписчиков",
+      "policy": "manual_review",
+      "status": "candidate",
+      "notes": "Контакт админа из описания канала (по tgstat) (найдено 12.10.2026)."
+    },
+    {
+      "id": "tg-logistved",
+      "platform": "telegram",
+      "name": "ЛОГИСТ",
+      "url": "https://t.me/logistved",
+      "contact": "@sagtarlog",
+      "audience_hint": "логисты и перевозчики, ~18 тыс. подписчиков",
+      "policy": "manual_review",
+      "status": "candidate",
+      "notes": "Контакт из описания канала; есть бот @Logibo_bot (найдено 12.10.2026)."
+    },
+    {
+      "id": "tg-biglogist",
+      "platform": "telegram",
+      "name": "Большая логистика",
+      "url": "https://t.me/biglogist",
+      "contact": "@BellaMambetova",
+      "audience_hint": "логистика, ~5 тыс. подписчиков",
+      "policy": "manual_review",
+      "status": "candidate",
+      "notes": "Предложить новость через контакт из описания (найдено 12.10.2026)."
+    },
+    {
+      "id": "tg-reiszr",
+      "platform": "telegram",
+      "name": "«Рейс» (журнал «За рулём» для автопарков)",
+      "url": "https://t.me/reiszr",
+      "contact": "",
+      "audience_hint": "владельцы автопарков, ~1,6 тыс. подписчиков",
+      "policy": "manual_review",
+      "status": "candidate",
+      "notes": "Аудитория точно наша; контакт редакции искать на https://reis.zr.ru/ (найдено 12.10.2026)."
     }
   ]
 }
