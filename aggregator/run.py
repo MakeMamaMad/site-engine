@@ -70,6 +70,18 @@ def save(items: list[dict[str, Any]], output: Path, meta_output: Path) -> None:
     )
 
 
+def stamp_undated_new(fresh: list[dict[str, Any]], existing_keys: set[str], now: datetime | None = None) -> int:
+    stamp = (now or datetime.now(timezone.utc)).replace(microsecond=0).isoformat()
+    count = 0
+    for item in fresh:
+        key = collector.item_key(item)
+        if key and key not in existing_keys and not item.get("published_at"):
+            item["published_at"] = stamp
+            item["published_at_estimated"] = True
+            count += 1
+    return count
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Collect SpecAvtoPortal news and apply editorial rules.")
     parser.add_argument("--sources", type=Path, default=DEFAULT_SOURCES)
@@ -108,8 +120,15 @@ def main() -> None:
         if collector.item_key(item) and collector.item_key(item) not in existing_keys
     )
 
+    # Some factory sites (Тонар, Урал) show no date on the page. An item that
+    # appears on such a listing for the first time is new, so its publication
+    # time is taken as the moment we first saw it; otherwise it would never
+    # count as fresh news (and «Сделано у нас» requires a recent date).
+    stamped = stamp_undated_new(fresh, existing_keys)
+
     merged = collector.dedup_by_link(fresh + existing)
     before_rules = len(merged)
+    merged = collector.drop_excluded(merged, sources)
     merged = apply_rules(merged, rules)
     excluded = before_rules - len(merged)
     merged = collector.sort_by_date(merged)[:max_items]
@@ -120,6 +139,7 @@ def main() -> None:
     collector.log("INFO", f"new collected items: {new_count}")
     collector.log("INFO", f"editorial rules excluded: {excluded}")
     collector.log("INFO", f"missing summaries backfilled: {summaries_filled}")
+    collector.log("INFO", f"undated new items stamped with first-seen time: {stamped}")
     collector.log("INFO", f"merged total (<= {max_items}): {len(merged)}")
     collector.stats(merged)
 
