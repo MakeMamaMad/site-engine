@@ -37,7 +37,8 @@
     "99092dfc63c1",
     "c74c433af1f0",
     "b08534ab1129",
-    "guide:nagruzka-na-os-calculator"
+    "guide:nagruzka-na-os-calculator",
+    "531392987996"
   ],
   "renders": [
     {
@@ -297,6 +298,13 @@
       "slug": "",
       "title": "Как проверить нагрузку на оси до весов",
       "created_at": "2026-10-12T16:12:01.012292+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "531392987996",
+      "slug": "novaya-ekosistema-vystavki-kommercheskogo-transporta-i-tehnologiy-comvex-53139298",
+      "title": "Новая экосистема выставки коммерческого транспорта и технологий COMvex",
+      "created_at": "2026-10-12T22:39:14.642326+00:00",
       "format": "social-v2"
     }
   ]

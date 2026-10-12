@@ -1094,6 +1094,36 @@
         }
       },
       "updated_at": "2026-10-12T16:12:01.010682+00:00"
+    },
+    "531392987996": {
+      "title": "Новая экосистема выставки коммерческого транспорта и технологий COMvex",
+      "created_at": "2026-10-12T22:36:26.740356+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "4QWGyPPkOJ4",
+          "url": "https://www.youtube.com/shorts/4QWGyPPkOJ4",
+          "updated_at": "2026-10-12T22:36:26.740376+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6acd60eb9f22b96ae7e5e099",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-12T22:38:16.605443+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6acd6159aec88be081e6bdbf",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-12T22:39:14.640708+00:00"
+        }
+      },
+      "updated_at": "2026-10-12T22:39:14.640705+00:00"
     }
   }
 }
