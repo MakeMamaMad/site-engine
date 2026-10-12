@@ -14,13 +14,13 @@
       "иностранные",
       "производители"
     ],
-    "original_title": "Rhenus expands Cambodia logistics operations",
-    "original_summary": "Rhenus Logistics has relocated its Cambodia head office to a larger facility in Phnom Penh as it targets further growth. Rhenus Logistics has moved into GIA Tower on Koh Pich (Diamond Island), situated in Phnom Penh’s central business district. The investment is reported to follow a series of successful project deliveries in Cambodia, including government […] The post Rhenus expands Cambodia logistics operations appeared first on Global Trailer .",
+    "id": "b08534ab1129",
+    "slug": "rhenus-rasshiryaet-logisticheskie-operatsii-v-kambodzhe-b08534ab",
     "translation_status": "ru",
     "translation_source_lang": "en",
     "translation_updated_at": "2026-10-12T05:59:34.441408+00:00",
-    "id": "b08534ab1129",
-    "slug": "rhenus-rasshiryaet-logisticheskie-operatsii-v-kambodzhe-b08534ab"
+    "original_title": "Rhenus expands Cambodia logistics operations",
+    "original_summary": "Rhenus Logistics has relocated its Cambodia head office to a larger facility in Phnom Penh as it targets further growth. Rhenus Logistics has moved into GIA Tower on Koh Pich (Diamond Island), situated in Phnom Penh’s central business district. The investment is reported to follow a series of successful project deliveries in Cambodia, including government […] The post Rhenus expands Cambodia logistics operations appeared first on Global Trailer ."
   },
   {
     "source": "МАЗ — новости",
@@ -619,24 +619,6 @@
     "slug": "maz-postavit-avtomobili-skoroy-meditsinskoy-pomoschi-v-nikaragua-3e6963b5"
   },
   {
-    "source": "МАЗ — новости",
-    "title": "На МАЗЕ состоялось чествование молодых специалистов",
-    "link": "https://maz.by/media/news/2026/10/02/na-maze-sostoyalos-chestvovaniye-molodykh-spetsialistov",
-    "summary": "Клянусь способствовать процветанию Минского автомобильного завода и Республики Беларусь!\n1 октября начинающие автозаводцы в торжественной обстановке получили",
-    "content": "",
-    "image": null,
-    "published_at": "2026-10-02T09:00:00+00:00",
-    "domain": "maz.by",
-    "tags": [
-      "маз",
-      "грузовики",
-      "полуприцепы"
-    ],
-    "partner": false,
-    "id": "b3ce9494b942",
-    "slug": "na-maze-sostoyalos-chestvovanie-molodyh-spetsialistov-b3ce9494"
-  },
-  {
     "source": "Грузовой Ру — грузовые автомобили, прицепы и полуприцепы",
     "title": "Как сделать сервис эффективным: главное с конференции «Реальный сервис 2026»",
     "link": "http://gruzovoy.ru/news/industry/3385_kak_sdelat_servis_effektivnim_glavnoe_s_konferencii_realnii_servis_2026.html",
@@ -716,43 +698,6 @@
   },
   {
     "source": "МАЗ — новости",
-    "title": "Минский автомобильный завод посетила правительственная делегация тверской области",
-    "link": "https://maz.by/media/news/2026/10/01/minskiy-avtomobilnyy-zavod-posetila-pravitelstvennaya-delegatsiya-tverskoy-oblasti",
-    "summary": "В рамках выставки «ИННОПРОМ. Беларусь» Минский автомобильный завод посетила правительственная делегация Тверской области во главе с Губернатором",
-    "content": "",
-    "image": null,
-    "published_at": "2026-10-01T09:00:00+00:00",
-    "domain": "maz.by",
-    "tags": [
-      "маз",
-      "грузовики",
-      "полуприцепы"
-    ],
-    "partner": false,
-    "id": "3fac7b169116",
-    "slug": "minskiy-avtomobilnyy-zavod-posetila-pravitelstvennaya-delegatsiya-tversk-3fac7b16",
-    "category": "Выставки"
-  },
-  {
-    "source": "МАЗ — новости",
-    "title": "МАЗ посетила делегация из татарстана",
-    "link": "https://maz.by/media/news/2026/10/01/maz-posetila-delegatsiya-iz-tatarstana",
-    "summary": "«Минский автомобильный завод – ключевой партнер Татарстана в части поставки городского транспорта». Об этом заявил заместитель Премьер‑министра",
-    "content": "",
-    "image": null,
-    "published_at": "2026-10-01T09:00:00+00:00",
-    "domain": "maz.by",
-    "tags": [
-      "маз",
-      "грузовики",
-      "полуприцепы"
-    ],
-    "partner": false,
-    "id": "e0f23557f933",
-    "slug": "maz-posetila-delegatsiya-iz-tatarstana-e0f23557"
-  },
-  {
-    "source": "МАЗ — новости",
     "title": "Итоги первого для работы экспозиции МАЗА на выставке «иннопром. беларусь»",
     "link": "https://maz.by/media/news/2026/10/01/itogi-pervogo-dlya-raboty-ekspozitsii-maza-na-vystavke-innoprom-belarus",
     "summary": "Первый день работы экспозиции МАЗа на выставке «ИННОПРОМ. Беларусь» выдался динамичным и результативным — с важными встречами",
@@ -769,24 +714,6 @@
     "id": "587204208728",
     "slug": "itogi-pervogo-dlya-raboty-ekspozitsii-maza-na-vystavke-innoprom-belarus-58720420",
     "category": "Выставки"
-  },
-  {
-    "source": "НЕФАЗ — новости",
-    "title": "«НЕФАЗ»: праздник мастерства и преемственности",
-    "link": "https://nefaz.ru/news/nefaz-prazdnik-masterstva-i-preemstvennosti",
-    "summary": "25 сентября в Доме молодежи коллектив ПАО «НЕФАЗ» отметил профессиональный праздник День машиностроителя.",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-b3f30785_ffb1_47b7_a5d7_3d821db88757&amp;v=ee2be912-bf30-4c2f-832e-dc045dda295f",
-    "published_at": "2026-10-01T08:52:00+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "0fa2fc00d6db",
-    "slug": "nefaz-prazdnik-masterstva-i-preemstvennosti-0fa2fc00"
   },
   {
     "source": "TRUCKMIX — новости спецтехники и грузового транспорта",
@@ -1016,24 +943,6 @@
     "category": "Выставки"
   },
   {
-    "source": "МАЗ — новости",
-    "title": "С производственной площадкой МАЗ познакомилась делегация из никарагуа",
-    "link": "https://maz.by/media/news/2026/09/30/s-proizvodstvennoy-ploshchadkoy-maz-poznakomilas-delegatsiya-iz-nikaragua",
-    "summary": "Минский автомобильный завод посетила делегация Никарагуа во главе с вице-министром транспорта и инфраструктуры Феликсом Гранадосом.\nГости остались",
-    "content": "",
-    "image": null,
-    "published_at": "2026-09-30T09:00:00+00:00",
-    "domain": "maz.by",
-    "tags": [
-      "маз",
-      "грузовики",
-      "полуприцепы"
-    ],
-    "partner": false,
-    "id": "5b010d1b2dde",
-    "slug": "s-proizvodstvennoy-ploschadkoy-maz-poznakomilas-delegatsiya-iz-nikaragua-5b010d1b"
-  },
-  {
     "source": "Global Trailer — новости индустрии полуприцепов",
     "title": "Stoughton представляет рефрижераторный контейнер",
     "link": "https://www.globaltrailermag.com/stoughton-unveils-reefer-container/",
@@ -1141,24 +1050,6 @@
     "slug": "eek-predlozhila-vvesti-antidempingovye-poshliny-na-gruzovye-shiny-iz-tai-f4d58e1f"
   },
   {
-    "source": "НЕФАЗ — новости",
-    "title": "Награды для лучших",
-    "link": "https://nefaz.ru/news/nagrady-dlya-luchshih",
-    "summary": "24 сентября, в преддверии профессионального праздника Дня машиностроителя, в конференц зале ПАО «НЕФАЗ» состоялось торжественное мероприятие, посвященное",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-5622e76c_2422_4fce_ae97_66deda234270&amp;v=b12fddb5-8e59-49dd-b78b-1865521fbbb6",
-    "published_at": "2026-09-28T09:04:17.513000+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "df78912dd39b",
-    "slug": "nagrady-dlya-luchshih-df78912d"
-  },
-  {
     "source": "TRUCKMIX — новости спецтехники и грузового транспорта",
     "title": "В Самарской области начались приемочные испытания модернизированного трактора БТЗ 254К.20",
     "link": "https://truckmix.ru/news/v-samarskoi-oblasti-nachalis-priemochnie-ispitaniya-modernizirovannogo-traktora-btz-254k-20",
@@ -1224,24 +1115,6 @@
     "original_summary": "TIP Trailer Services and Dutch electric refrigerated trailer specialist, THT New Cool, are set to deepen their collaboration. Under the new arrangement, effective 1 October 2026, TIP Trailer Services will assume a greater operational role as THT New Cool founder, Twan Heetkamp, gradually steps back from day-to-day activities. The companies said the intensified partnership will […] The post TIP expands THT New Cool partnership appeared first on Global Trailer ."
   },
   {
-    "source": "НЕФАЗ — новости",
-    "title": "50 тополей - к 50-летию «НЕФАЗа»",
-    "link": "https://nefaz.ru/news/50-topoley-k-50-letiyu-nefaza",
-    "summary": "В честь предстоящего 50 летия ПАО «НЕФАЗ», которое предприятие отметит 2027 году, на заводской территории прошла торжественная акция.",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-355e8c09_9d94_4052_927d_c7cc9377b315&amp;v=d5e61cb9-f457-4256-8645-369be9249ad1",
-    "published_at": "2026-09-25T08:52:00+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "bfab0a6581d5",
-    "slug": "50-topoley-k-50-letiyu-nefaza-bfab0a65"
-  },
-  {
     "source": "TRUCKMIX — новости спецтехники и грузового транспорта",
     "title": "«Джак Автомобиль» представил на Comtrans новые мусоровоз и самосвал на шасси JAC",
     "link": "https://truckmix.ru/news/djak-avtomobil-predstavil-na-comtrans-novie-mysorovoz-i-samosval-na-shassi-jac",
@@ -1295,24 +1168,6 @@
     ],
     "id": "ccf600328eba",
     "slug": "chmzap-pokazal-nizkoramnyy-polupritsep-s-samoustanavlivayuschimisya-osya-ccf60032"
-  },
-  {
-    "source": "НЕФАЗ — новости",
-    "title": "Дмитрий Михайлов - лучший наставник",
-    "link": "https://nefaz.ru/news/dmitriy-mihaylov-luchshiy-nastavnik",
-    "summary": "В ПАО «НЕФАЗ» впервые прошел конкурс «Лучший наставник», приуроченный ко Дню машиностроителя.",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-1c4326cf_f384_4cf6_8399_1483a9c497d7&amp;v=39d942b4-1bb8-49d7-96ad-36f099539b37",
-    "published_at": "2026-09-24T08:46:00+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "3b6f7fcc05c4",
-    "slug": "dmitriy-mihaylov-luchshiy-nastavnik-3b6f7fcc"
   },
   {
     "source": "Грузовой Ру — грузовые автомобили, прицепы и полуприцепы",
@@ -1392,24 +1247,6 @@
     ],
     "id": "f9985dadb358",
     "slug": "kamaz-planiruet-nachat-seriynyy-vypusk-turisticheskih-avtobusov-v-2027-g-f9985dad"
-  },
-  {
-    "source": "НЕФАЗ — новости",
-    "title": "Праздник в честь 45-летия цеха № 35",
-    "link": "https://nefaz.ru/news/prazdnik-v-chest-45-letiya-tseha-35",
-    "summary": "18 сентября в столовой КВА коллектив цеха сварки и сборки вахтовых автобусов № 35 собрался вместе, чтобы отметить важную веху 45 летие со дня основания",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-894c4a88_62f2_42db_a22a_15b7f9132af8&amp;v=93c2c252-f739-4f02-9716-71da5fe54065",
-    "published_at": "2026-09-23T08:37:00+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "c68968abc80e",
-    "slug": "prazdnik-v-chest-45-letiya-tseha-35-c68968ab"
   },
   {
     "source": "TRUCKMIX — новости спецтехники и грузового транспорта",
@@ -1732,24 +1569,6 @@
     "category": "Рынок"
   },
   {
-    "source": "НЕФАЗ — новости",
-    "title": "Лариса Нуруллина - лучший повар",
-    "link": "https://nefaz.ru/news/larisa-nurullina-luchshiy-povar",
-    "summary": "10 сентября в столовой ПАО «НЕФАЗ» прошел конкурс профессионального мастерства среди поваров. В этом году состязание впервые вошло в официальную программу",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-ff6db3a7_43c2_44b9_8abb_ca2c2327580f&amp;v=c6b6f22e-5bcd-4ab0-8c94-36c15bd41112",
-    "published_at": "2026-09-18T04:59:00+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "b35d7b00f298",
-    "slug": "larisa-nurullina-luchshiy-povar-b35d7b00"
-  },
-  {
     "source": "Global Trailer — новости индустрии полуприцепов",
     "title": "Превращение перебоев в грузовые возможности: МегаТранс",
     "link": "https://www.globaltrailermag.com/turning-disruption-into-freight-opportunity-megatrans/",
@@ -1862,24 +1681,6 @@
     "category": "Выставки"
   },
   {
-    "source": "НЕФАЗ — новости",
-    "title": "Алексей Алетдинов – лучший инженер-программист",
-    "link": "https://nefaz.ru/news/aleksey-aletdinov-luchshiy-inzhener-programmist",
-    "summary": "Лучшего инженера программиста ПАО «НЕФАЗ» определили на конкурсе профессионального мастерства.",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-95f469c0_0099_4f22_b25c_e39580c4253c&amp;v=14ee3b63-b32a-4239-9f65-c16368ef5f32",
-    "published_at": "2026-09-16T05:51:33.470000+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "4efbd8776acc",
-    "slug": "aleksey-aletdinov-luchshiy-inzhener-programmist-4efbd877"
-  },
-  {
     "source": "TRUCKMIX — новости спецтехники и грузового транспорта",
     "title": "Моторное масло MIRAX MX9 признано победителем в программе «Контрольная закупка»",
     "link": "https://truckmix.ru/news/motornoe-maslo-mirax-mx9-priznano-pobeditelem-v-programme-kontrolnaya-zakypka",
@@ -1928,24 +1729,6 @@
     "id": "260179192fd1",
     "slug": "carrier-predstavlyaet-holodilnuyu-tsepochku-innovatsiy-v-iaa-26017919",
     "category": "Выставки"
-  },
-  {
-    "source": "НЕФАЗ — новости",
-    "title": "Артур Гилметдинов - лучший слесарь МСР",
-    "link": "https://nefaz.ru/news/artur-gilmetdinov-luchshiy-slesar-msr",
-    "summary": "9 сентября в ПАО «НЕФАЗ» 11 профессионалов из различных цехов завода сошлись в состязании за звание лучшего слесаря механосборочных работ.",
-    "content": "",
-    "image": "https://nefaz.ru/api/images?key=news-cover-draft-b349e543_4729_48b4_8702_e80adcb0adc3&amp;v=0cf5fab4-5b5d-417e-af04-32129d94d450",
-    "published_at": "2026-09-15T03:59:00+00:00",
-    "domain": "nefaz.ru",
-    "tags": [
-      "нефаз",
-      "российское производство",
-      "прицепы"
-    ],
-    "partner": false,
-    "id": "faa4b4288b47",
-    "slug": "artur-gilmetdinov-luchshiy-slesar-msr-faa4b428"
   },
   {
     "source": "source",
@@ -6567,6 +6350,30 @@
     "slug": "kruto-begat-a907fda1"
   },
   {
+    "source": "KRONE Trailer — новости производителя",
+    "title": "Bartelina Haulage набирает обороты с инвестициями в трейлер Krone",
+    "link": "https://www.krone-trailer.com/en/news/detail-1/bartelina-haulage-picks-up-pace-with-krone-trailer-investment/",
+    "summary": "Компания Bartelina Haulage продолжила расширение своего флота с поставкой двух новых контейнеровозов для раздвижных скелетных контейнеровозов KRONE Box Liner FS10, доведя общий парк прицепов KRONE до шести единиц.",
+    "content": "Bartelina Haulage has continued its fleet expansion with the delivery of two new KRONE Box Liner FS10 sliding skeletal container carriers, bringing its total fleet of KRONE trailers to six units.\n The investment supports the company’s continued growth in the UK container haulage sector and provides the flexibility required to meet a broad range of customer requirements.\n Based in Peterborough, Bartelina Haulage is a family-owned business run by husband-and-wife team, Elina Zbaczyniak and Bartosz Zbaczyniak. Operating a fleet of six trucks and six trailers, the company provides container haulage services across the UK, primarily serving traffic through the ports of Felixstowe and London Gateway.\n Explaining the decision to invest in KRONE equipment, Elina says: “As the business continues to grow, we wanted trailers that could offer the flexibility and reliability needed for container work across different operations. The KRONE Box Liners have proved to be a strong fit for our requirements.”\n The sliding, extendable chassis design of the trailers enables Bartelina Haulage to transport a wide range of container sizes, from 20ft through to 45ft, providing greater operational flexibility and improved utilisation across the fleet.\n “The versatility of the trailers is a major advantage for us,” adds Elina. “Being able to quickly adapt to different container sizes helps maximise efficiency and allows us to respond more effectively to customer requirements.”\n A key factor behind the investment was the durability and build quality of the trailers.\n “KRONE is a good-quality trailer,” says Elina. “The chassis is heavier and more durable than many other trailers on the market, and they have proved to be very reliable in operation.”\n Built with robust steel construction, welded cross members and double longitudinal beams, the trailers are designed to withstand the demands of intensive container haulage work. They also benefit from KRONE’s 10-year warranty against rust penetration, supporting long-term reliability and helping to reduce whole-life operating costs.\n Bartelina Haulage continues to expand its operations, providing container haulage services for customers across the UK logistics sector.",
+    "image": "https://www.krone-trailer.com/fileadmin/_processed_/7/f/csm_2110626_-_Bartelina_Haulage_picks_up_pace_with_Krone_trailer_investment1_6ee641dd99.jpg",
+    "published_at": "2026-06-04T12:51:05+00:00",
+    "domain": "www.krone-trailer.com",
+    "tags": [
+      "полуприцепы",
+      "прицепы",
+      "иностранные",
+      "производители",
+      "krone"
+    ],
+    "original_title": "Bartelina Haulage picks up pace with Krone trailer investment",
+    "original_summary": "Bartelina Haulage has continued its fleet expansion with the delivery of two new KRONE Box Liner FS10 sliding skeletal container carriers, bringing its total fleet of KRONE trailers to six units.",
+    "translation_status": "ru",
+    "translation_source_lang": "de",
+    "translation_updated_at": "2026-10-12T06:28:11.663369+00:00",
+    "id": "5a04c10b4da3",
+    "slug": "bartelina-haulage-nabiraet-oboroty-s-investitsiyami-v-treyler-krone-5a04c10b"
+  },
+  {
     "source": "source",
     "title": "Гусеничный экскаватор UMG E225C признан «Экскаватором года» в конкурсе «Инновации в строительной технике в России»",
     "link": "https://truckmix.ru/news/gysenichnii-ekskavator-umg-e225c-priznan-ekskavatorom-goda-v-konkyrse-innovacii-v-stroitelnoi-tehnike-v-rossii",
@@ -7837,6 +7644,30 @@
     "original_title": "JOST at Transpotec 2026",
     "original_summary": "JOST will showcase its portfolio featuring the product brands JOST, Hyva, TRIDEC, and ROCKINGER at Transpotec 2026.\n The post JOST at Transpotec 2026 appeared first on Trailer Technician .",
     "category": "Выставки"
+  },
+  {
+    "source": "KRONE Trailer — новости производителя",
+    "title": "Opex Logistics укрепляет флот за счет инвестиций",
+    "link": "https://www.krone-trailer.com/en/news/detail-1/opex-logistics-strengthens-fleet-with-continued-investment/",
+    "summary": "Opex Logistics укрепила свой парк и операционные возможности благодаря постоянным инвестициям в прицепы KRONE, парк прицепов включает в себя плоские кровати Profi Liner HD, контейнеровозы FS10 и шторники Profi Liner.",
+    "content": "Opex Logistics has reinforced its fleet and operational capability with continued investment in KRONE trailers, the trailer fleet includes Profi Liner HD flatbeds, FS10 skeletal container carriers, and Profi Liner curtainsiders.\n The Bristol-based operator has worked with KRONE Trailer UK for almost eight years, building a strong supplier relationship as part of its ongoing fleet development, replacement and expansion strategy.\n Opex Logistics provides specialist transport and freight-handling services across the UK and Europe, supporting sectors including aerospace, engineering and other high-value industries. Its work frequently involves non-standard, time-critical and varied loads, requiring a flexible fleet capable of handling everything from containerised freight to palletised goods and abnormal cargo.\n While KRONE originally supplied Profi Liner curtainsider trailers to Opex, the relationship has evolved in recent years to include a broader mix of equipment. In recent times, KRONE has delivered three FS10 skeletal trailers, some Profi Liner HD Flats and more than 30 Profi Liner curtainsiders, enabling Opex to further diversify its fleet and expand the scope of logistics services it can offer customers.\n The KRONE FS10 skeletal trailers provide a versatile solution for container transport, with extendable chassis configurations allowing operators to accommodate a range of container lengths. This flexibility supports efficient handling of different container sizes while maintaining strength and stability for demanding operations.\n Alongside this, the Profi Liner curtainsiders offer enhanced load security and operational versatility. Equipped with KRONE’s Multi Lock side rave system, which features strapping points at 10cm intervals along the trailer length, the Profi Liners allow a multitude of strapping options, enabling a variety of loads to be secured at any point along the trailer bed.\n Meanwhile, the KRONE Profi Liner HD flatbed trailers, originally introduced into the fleet, remain a key part of Opex’s operation. Designed for heavy-duty and general haulage applications, they feature a reinforced chassis construction and high-capacity axle set-up to support operation at UK maximum weights, while allowing flexibility in load configuration.\n Load restraint on the flatbeds can also accommodate a wide range of cargo types including steel products, palletised goods and irregular loads.\n Across all trailer types, durability is enhanced through KRONE’s cathodic dip coating process, providing long-term corrosion protection and underpinning the manufacturer’s 10-year warranty against corrosion perforation.\n “We first introduced KRONE trailers into the fleet nearly eight years ago,” says Opex Director, Peter Scrivin, “and they have performed consistently over that time. They are reliable, versatile trailers and well suited to the varied and demanding work we undertake.\n “As our operation has grown, the ability to expand the fleet with different trailer types, from flatbeds to curtainsiders and container carriers, has been important in giving us the flexibility to meet our customers’ needs. We have also had good support from KRONE Trailer UK, both at the point of purchase and in service, which is an important factor when making continued investment decisions.”\n According to Opex Logistics, the latest additions reflect its ongoing focus on fleet flexibility, load security and operational efficiency, enabling the business to provide a broader, more responsive logistics service to its customers across multiple sectors.",
+    "image": "https://www.krone-trailer.com/fileadmin/_processed_/0/7/csm_2090426_-_Opex_Logistics_strengthens_fleet_with_continued_investment_in_Krone_trailers1_613cae79c9.jpg",
+    "published_at": "2026-04-30T09:51:57+00:00",
+    "domain": "www.krone-trailer.com",
+    "tags": [
+      "полуприцепы",
+      "прицепы",
+      "иностранные",
+      "производители",
+      "krone"
+    ],
+    "original_title": "Opex Logistics strengthens fleet with continued investment",
+    "original_summary": "Opex Logistics has reinforced its fleet and operational capability with continued investment in KRONE trailers, the trailer fleet includes Profi Liner HD flatbeds, FS10 skeletal container carriers, and Profi Liner curtainsiders.",
+    "translation_status": "ru",
+    "translation_source_lang": "de",
+    "translation_updated_at": "2026-10-12T06:28:14.139490+00:00",
+    "id": "e9ec31622a2d",
+    "slug": "opex-logistics-ukreplyaet-flot-za-schet-investitsiy-e9ec3162"
   },
   {
     "source": "source",
@@ -14981,6 +14812,30 @@
     "id": "1bc80a2d5f07",
     "slug": "raskryta-data-rossiyskogo-debyuta-sedana-belgee-1bc80a2d",
     "category": "Новые модели"
+  },
+  {
+    "source": "KRONE Trailer — новости производителя",
+    "title": "Vicovanu Transport расширяет парк контейнеровозов",
+    "link": "https://www.krone-trailer.com/en/news/detail-1/vicovanu-transport-expands-fleet-with-more-container-carriers/",
+    "summary": "Vicovanu Transport расширила свою пропускную способность контейнерных перевозок с поставкой 15 новых раздвижных прицепов шасси KRONE Box Liner, доведя парк Krone до 90, а еще 15 заказали. Основанная в 2013 году, Vicovanu является семейным бизнесом, который предоставляет широкий спектр услуг автомобильных перевозок по всей Великобритании. Работая на стратегически расположенной базе в Турроке, Эссекс, компания также предлагает широкий спектр мультимодальных логистических решений, включая автомобильные, морские и воздушные перевозки.",
+    "content": "Vicovanu Transport has expanded its container transport capacity with the delivery of 15 new KRONE Box Liner sliding chassis trailers—bringing the company’s Krone fleet total to 90, with a further 15 on order.\n Founded in 2013, Vicovanu is a family-run business that provides a diverse range of road haulage services across the UK. Operating from a strategically located base in Thurrock, Essex, the company also offers a wide array of multimodal logistics solutions, including road, ocean, and air freight.\n “The KRONE Box Liner continues to be our premium trailer of choice,” says Sergiu Vicovanu, Managing Director of Vicovanu Transport Ltd. “Its versatility, build quality, and reliability are unmatched for our kind of high-intensity container work. We operate across the UK and Europe and these trailers give us the flexibility and confidence to meet every logistical challenge.”\n The KRONE Box Liner was developed in close collaboration with the KRONE UK sales team to ensure compatibility with UK and Irish operational needs. The chassis offers fast and easy adjustment to accommodate all standard container sizes, including 1 x 40', 1 x 45', 2 x 20', or a 30' container, making it ideal for both domestic and international intermodal transport.\n Its robust build features double T-longitudinal beams with welded cross members, along with an extractable rear bumper compliant with EC regulations. The trailer also includes a reinforced parking brake system on all three axles, providing enhanced safety.\n Each chassis is equipped with KRONE Smart Tyre Monitoring, compliant with ECE R141 regulations, which tracks tyre pressure and temperature in real time.\n Additionally, the KRONE Telematics KSC ProPlus Dry 2 system provides live error messages and full diagnostic data, including braking system status, trailer coupling information, mileage for maintenance scheduling, and GPS location—accessible through various WLAN applications.\n All steel components are shot blasted, primed with CDC coating, and finished with a durable powder coat, providing long-lasting protection against corrosion. Accordingly, Krone backs the chassis with a 10-year rust-through warranty.\n Operating 24/7, Vicovanu is FORS-accredited and specialises in container transport, providing full and part load haulage across the UK. Their services include imports and exports, express delivery, lift assist, and global distribution by road, rail, ocean, and air—supported by a professional team and a strong focus on customer care at all major UK ports.",
+    "image": "https://www.krone-trailer.com/fileadmin/media/news/2025/2020925_-_Vicovanu_Transport_expands_fleet_with_more_container_carriers_from_Krone1.jpg",
+    "published_at": "2025-09-03T11:18:35+00:00",
+    "domain": "www.krone-trailer.com",
+    "tags": [
+      "полуприцепы",
+      "прицепы",
+      "иностранные",
+      "производители",
+      "krone"
+    ],
+    "original_title": "Vicovanu Transport expands fleet with more container carriers",
+    "original_summary": "Vicovanu Transport has expanded its container transport capacity with the delivery of 15 new KRONE Box Liner sliding chassis trailers—bringing the company’s Krone fleet total to 90, with a further 15 on order. Founded in 2013, Vicovanu is a family-run business that provides a diverse range of road haulage services across the UK. Operating from a strategically located base in Thurrock, Essex, the company also offers a wide array of multimodal logistics solutions, including road, ocean, and air freight.",
+    "translation_status": "ru",
+    "translation_source_lang": "de",
+    "translation_updated_at": "2026-10-12T06:28:19.045627+00:00",
+    "id": "23cb06147d1b",
+    "slug": "vicovanu-transport-rasshiryaet-park-konteynerovozov-23cb0614"
   },
   {
     "source": "KRONE Trailer — новости производителя",
@@ -26571,42 +26426,6 @@
   },
   {
     "source": "ТОНАР — новости завода",
-    "title": "Помним. Чтим. Продолжаем...",
-    "link": "https://tonar.info/news/pomnim-ctim-prodolzaem",
-    "summary": "Помним. Чтим. Продолжаем...",
-    "content": "",
-    "image": "https://tonar.info/images/tonar_video.png",
-    "published_at": null,
-    "domain": "tonar.info",
-    "tags": [
-      "тонар",
-      "российское производство",
-      "полуприцепы"
-    ],
-    "partner": false,
-    "id": "977365967603",
-    "slug": "pomnim-chtim-prodolzhaem-97736596"
-  },
-  {
-    "source": "ТОНАР — новости завода",
-    "title": "С Днём машиностроителя, дорогие коллеги и партнёры!",
-    "link": "https://tonar.info/news/s-dnem-masinostroitelia-dorogie-kollegi-i-partnery",
-    "summary": "С Днём машиностроителя, дорогие коллеги и партнёры!",
-    "content": "",
-    "image": "https://tonar.info/images/tonar_video.png",
-    "published_at": null,
-    "domain": "tonar.info",
-    "tags": [
-      "тонар",
-      "российское производство",
-      "полуприцепы"
-    ],
-    "partner": false,
-    "id": "2ecd6b0da404",
-    "slug": "s-dnem-mashinostroitelya-dorogie-kollegi-i-partnery-2ecd6b0d"
-  },
-  {
-    "source": "ТОНАР — новости завода",
     "title": "«Тонар» и «МазКомТранс» приглашают на выставку «Дело спецтехники»",
     "link": "https://tonar.info/news/tonar-i-mazkomtrans-priglasaiut-na-vystavku-delo-spectexniki",
     "summary": "«Тонар» и «МазКомТранс» приглашают на выставку «Дело спецтехники»",
@@ -26660,24 +26479,6 @@
     "partner": false,
     "id": "f83704b1b5df",
     "slug": "comtrans-2026-resheniya-kotorye-ekonomyat-vashi-dengi-f83704b1"
-  },
-  {
-    "source": "ТОНАР — новости завода",
-    "title": "Гордимся нашими профессионалами!",
-    "link": "https://tonar.info/news/gordimsia-nasimi-professionalami",
-    "summary": "Гордимся нашими профессионалами!",
-    "content": "",
-    "image": "https://tonar.info/images/tonar_video.png",
-    "published_at": null,
-    "domain": "tonar.info",
-    "tags": [
-      "тонар",
-      "российское производство",
-      "полуприцепы"
-    ],
-    "partner": false,
-    "id": "d8af1db4ddd2",
-    "slug": "gordimsya-nashimi-professionalami-d8af1db4"
   },
   {
     "source": "АЗ «Урал» — новости",
@@ -26959,23 +26760,5 @@
     "partner": false,
     "id": "7575d969674e",
     "slug": "kak-pravilno-vybrat-shtornyy-polupritsep-kriterii-podbora-i-osobennosti-7575d969"
-  },
-  {
-    "source": "АЗ «Урал» — новости",
-    "title": "С днём выпуска первого уральского автомобиля",
-    "link": "https://uralaz.ru/media/news/s-dnyem-vypuska-pervogo-uralskogo-avtomobilya/",
-    "summary": "С днём выпуска первого уральского автомобиля. Узнайте о последних новостях автомобильного завода «УРАЛ» (Миасс) и ближайших партнёрах компании. Подробнее на официальном сайте производителя грузовых автомобилей.",
-    "content": "",
-    "image": "https://uralaz.ru/upload/resize_cache/webp/iblock/4ce/jzxfqv3az8r4xvb154vn76qn63vtscuh/news_photo_2026_07_07.webp",
-    "published_at": null,
-    "domain": "uralaz.ru",
-    "tags": [
-      "урал",
-      "российское производство",
-      "грузовики"
-    ],
-    "partner": false,
-    "id": "3f67c616d7e4",
-    "slug": "s-dnem-vypuska-pervogo-uralskogo-avtomobilya-3f67c616"
   }
 ]
