@@ -831,6 +831,27 @@
       "sent_at": "2026-10-10T12:59:09+00:00",
       "title": "В Крым поступил 21 новый автобус большого класса ЛиАЗ",
       "slug": "v-krym-postupil-21-novyy-avtobus-bolshogo-klassa-liaz-ccd75e47"
+    },
+    "https://comautotrans.moscow/tpost/l9l5ur9jo1-analiticheskii-tsentr-sigma-expo-group-z": {
+      "digest_id": "2026-10-13:pm",
+      "post_id": 85,
+      "sent_at": "2026-10-13T14:31:23+00:00",
+      "title": "Аналитический Центр Sigma Expo Group запустил собственный сайт",
+      "slug": "analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-08159c46"
+    },
+    "http://gruzovoy.ru/news/news_partners/3391_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html": {
+      "digest_id": "2026-10-13:pm",
+      "post_id": 85,
+      "sent_at": "2026-10-13T14:31:23+00:00",
+      "title": "Новая экосистема выставки коммерческого транспорта и технологий COMvex",
+      "slug": "novaya-ekosistema-vystavki-kommercheskogo-transporta-i-tehnologiy-comvex-53139298"
+    },
+    "https://www.globaltrailermag.com/rhenus-expands-cambodia-logistics-operations/": {
+      "digest_id": "2026-10-13:pm",
+      "post_id": 85,
+      "sent_at": "2026-10-13T14:31:23+00:00",
+      "title": "Rhenus расширяет логистические операции в Камбодже",
+      "slug": "rhenus-rasshiryaet-logisticheskie-operatsii-v-kambodzhe-b08534ab"
     }
   },
   "digests": {
@@ -1103,6 +1124,17 @@
         "https://sdelanounas.ru/blogs/178719/",
         "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov",
         "https://sdelanounas.ru/blogs/178720/"
+      ]
+    },
+    "2026-10-13:pm": {
+      "post_id": 85,
+      "sent_at": "2026-10-13T14:31:23+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://comautotrans.moscow/tpost/l9l5ur9jo1-analiticheskii-tsentr-sigma-expo-group-z",
+        "http://gruzovoy.ru/news/news_partners/3391_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html",
+        "https://www.globaltrailermag.com/rhenus-expands-cambodia-logistics-operations/"
       ]
     }
   }
