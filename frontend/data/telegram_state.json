@@ -572,6 +572,33 @@
       "slug": "analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-08159c46",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3397_prodaji_novih_lcv_v_rossii_v_sentyabre_snizilis_na_116.html": {
+      "message_id": 1583,
+      "sent_at": "2026-10-13T16:30:09+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/prodazhi-novyh-lcv-v-rossii-v-sentyabre-snizilis-na-11-6-96df90c9/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=prodazhi-novyh-lcv-v-rossii-v-sentyabre-snizilis-na-11-6-96df90c9",
+      "title": "Продажи новых LCV в России в сентябре снизились на 11,6%",
+      "slug": "prodazhi-novyh-lcv-v-rossii-v-sentyabre-snizilis-na-11-6-96df90c9",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3396_prodaji_novih_srednetonnajnih_gryzovikov_v_sentyabre_virosli_na_65.html": {
+      "message_id": 1584,
+      "sent_at": "2026-10-13T16:30:10+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/prodazhi-novyh-srednetonnazhnyh-gruzovikov-v-sentyabre-vyrosli-na-6-5-cd6bea58/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=prodazhi-novyh-srednetonnazhnyh-gruzovikov-v-sentyabre-vyrosli-na-6-5-cd6bea58",
+      "title": "Продажи новых среднетоннажных грузовиков в сентябре выросли на 6,5%",
+      "slug": "prodazhi-novyh-srednetonnazhnyh-gruzovikov-v-sentyabre-vyrosli-na-6-5-cd6bea58",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3395_prodaji_novih_krypnotonnajnih_gryzovikov_v_sentyabre_sokratilis.html": {
+      "message_id": 1585,
+      "sent_at": "2026-10-13T16:30:11+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/prodazhi-novyh-krupnotonnazhnyh-gruzovikov-v-sentyabre-sokratilis-f36981e3/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=prodazhi-novyh-krupnotonnazhnyh-gruzovikov-v-sentyabre-sokratilis-f36981e3",
+      "title": "Продажи новых крупнотоннажных грузовиков в сентябре сократились",
+      "slug": "prodazhi-novyh-krupnotonnazhnyh-gruzovikov-v-sentyabre-sokratilis-f36981e3",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
