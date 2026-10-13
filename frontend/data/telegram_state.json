@@ -952,6 +952,27 @@
       "sent_at": "2026-10-10T09:44:34+00:00",
       "title": "В Бурятии начали сборку тяжелых грузовиков новой марки",
       "slug": "v-buryatii-nachali-sborku-tyazhelyh-gruzovikov-novoy-marki-8469e5da"
+    },
+    "https://www.globaltrailermag.com/rhenus-expands-cambodia-logistics-operations/": {
+      "digest_id": "2026-10-13:pm",
+      "message_id": 1582,
+      "sent_at": "2026-10-13T14:31:59+00:00",
+      "title": "Rhenus расширяет логистические операции в Камбодже",
+      "slug": "rhenus-rasshiryaet-logisticheskie-operatsii-v-kambodzhe-b08534ab"
+    },
+    "http://gruzovoy.ru/news/news_partners/3391_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html": {
+      "digest_id": "2026-10-13:pm",
+      "message_id": 1582,
+      "sent_at": "2026-10-13T14:31:59+00:00",
+      "title": "Новая экосистема выставки коммерческого транспорта и технологий COMvex",
+      "slug": "novaya-ekosistema-vystavki-kommercheskogo-transporta-i-tehnologiy-comvex-53139298"
+    },
+    "https://comautotrans.moscow/tpost/l9l5ur9jo1-analiticheskii-tsentr-sigma-expo-group-z": {
+      "digest_id": "2026-10-13:pm",
+      "message_id": 1582,
+      "sent_at": "2026-10-13T14:31:59+00:00",
+      "title": "Аналитический Центр Sigma Expo Group запустил собственный сайт",
+      "slug": "analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-08159c46"
     }
   },
   "digests": {
@@ -1223,6 +1244,17 @@
         "https://sdelanounas.ru/blogs/178720/",
         "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov",
         "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-13:pm": {
+      "message_id": 1582,
+      "sent_at": "2026-10-13T14:31:59+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/rhenus-expands-cambodia-logistics-operations/",
+        "http://gruzovoy.ru/news/news_partners/3391_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html",
+        "https://comautotrans.moscow/tpost/l9l5ur9jo1-analiticheskii-tsentr-sigma-expo-group-z"
       ],
       "visual": "visual"
     }
