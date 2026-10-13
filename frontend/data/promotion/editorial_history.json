@@ -438,6 +438,19 @@
       "status": "verified_in_author_cabinet",
       "last_public_check_at": "2026-10-13T14:28:13+00:00",
       "public_status": "pending"
+    },
+    {
+      "target_id": "logistics360-editorial",
+      "target_name": "Журнал «Логистика 360»",
+      "slug": "rezhim-truda-i-otdyha-voditelya",
+      "title": "Режим труда и отдыха водителя в 2026 году: нормы приказа Минтранса № 160 и тахограф",
+      "site_url": "https://spec-avtoportal.ru/knowledge/rezhim-truda-i-otdyha-voditelya/?utm_source=logistics360-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=rezhim-truda-i-otdyha-voditelya",
+      "contact": "a.miroshkina@logistics360.ru",
+      "item_key": "knowledge:rezhim-truda-i-otdyha-voditelya",
+      "created_at": "2026-10-13T14:29:00+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-13T14:29:01+00:00",
+      "gmail_message_id": "1a135aab2d147c47"
     }
   ]
 }
