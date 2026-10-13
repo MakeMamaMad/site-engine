@@ -1,20 +1,10 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T23:40:18+00:00",
+  "updated_at": "2026-10-13T21:54:41+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
   "sources": [
-    {
-      "source": "dzen",
-      "medium": "social",
-      "campaign": "dzen_articles",
-      "visits": 1,
-      "users": 1,
-      "bounce_rate": 100.0,
-      "page_depth": 1.0,
-      "avg_visit_duration_seconds": 0
-    },
     {
       "source": "lognews-press",
       "medium": "editorial",
@@ -37,8 +27,8 @@
     }
   ],
   "totals": {
-    "visits": 3,
-    "users": 3
+    "visits": 2,
+    "users": 2
   },
   "sampled": false,
   "sample_share": 1.0

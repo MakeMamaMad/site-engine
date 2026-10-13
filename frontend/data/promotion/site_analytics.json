@@ -1,50 +1,50 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-12T23:40:50+00:00",
+  "updated_at": "2026-10-13T21:55:14+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 72,
-    "users": 59,
+    "visits": 45,
+    "users": 38,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 43,
-        "users": 35,
-        "bounce_rate": 7.0,
-        "page_depth": 1.21
+        "visits": 31,
+        "users": 27,
+        "bounce_rate": 6.5,
+        "page_depth": 1.13
       },
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 13,
-        "users": 11,
-        "bounce_rate": 61.5,
-        "page_depth": 1.08
+        "visits": 7,
+        "users": 6,
+        "bounce_rate": 71.4,
+        "page_depth": 1.14
       },
       {
         "id": "internal",
         "name": "Внутренние переходы",
-        "visits": 8,
-        "users": 7,
-        "bounce_rate": 62.5,
+        "visits": 5,
+        "users": 4,
+        "bounce_rate": 40.0,
+        "page_depth": 1.2
+      },
+      {
+        "id": "social",
+        "name": "Переходы из социальных сетей",
+        "visits": 1,
+        "users": 1,
+        "bounce_rate": 0.0,
         "page_depth": 1.0
       },
       {
         "id": "ad",
         "name": "Переходы по рекламе",
-        "visits": 6,
-        "users": 6,
-        "bounce_rate": 50.0,
-        "page_depth": 1.0
-      },
-      {
-        "id": "social",
-        "name": "Переходы из социальных сетей",
-        "visits": 2,
-        "users": 2,
+        "visits": 1,
+        "users": 1,
         "bounce_rate": 0.0,
         "page_depth": 1.0
       }
