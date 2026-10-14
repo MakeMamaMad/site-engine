@@ -908,6 +908,27 @@
       "sent_at": "2026-10-13T14:31:23+00:00",
       "title": "Rhenus расширяет логистические операции в Камбодже",
       "slug": "rhenus-rasshiryaet-logisticheskie-operatsii-v-kambodzhe-b08534ab"
+    },
+    "https://www.globaltrailermag.com/imf-warns-middle-east-tensions-threaten-fuel-costs/": {
+      "digest_id": "2026-10-14:am",
+      "post_id": 93,
+      "sent_at": "2026-10-14T11:16:33+00:00",
+      "title": "МВФ предупреждает, что напряженность на Ближнем Востоке угрожает расходам на топливо",
+      "slug": "mvf-preduprezhdaet-chto-napryazhennost-na-blizhnem-vostoke-ugrozhaet-ras-ee4ae7a6"
+    },
+    "https://www.globaltrailermag.com/leadership-change-at-cargobull-north-america/": {
+      "digest_id": "2026-10-14:am",
+      "post_id": 93,
+      "sent_at": "2026-10-14T11:16:33+00:00",
+      "title": "Смена руководства в Cargobull North America",
+      "slug": "smena-rukovodstva-v-cargobull-north-america-7e20b02c"
+    },
+    "https://www.globaltrailermag.com/neom-ceva-to-strengthen-europe-gcc-freight-corridor/": {
+      "digest_id": "2026-10-14:am",
+      "post_id": 93,
+      "sent_at": "2026-10-14T11:16:33+00:00",
+      "title": "NEOM и CEVA укрепляют грузовой коридор Европа-ССАГПЗ",
+      "slug": "neom-i-ceva-ukreplyayut-gruzovoy-koridor-evropa-ssagpz-6945bccb"
     }
   },
   "digests": {
@@ -1191,6 +1212,17 @@
         "https://comautotrans.moscow/tpost/l9l5ur9jo1-analiticheskii-tsentr-sigma-expo-group-z",
         "http://gruzovoy.ru/news/news_partners/3391_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html",
         "https://www.globaltrailermag.com/rhenus-expands-cambodia-logistics-operations/"
+      ]
+    },
+    "2026-10-14:am": {
+      "post_id": 93,
+      "sent_at": "2026-10-14T11:16:33+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/imf-warns-middle-east-tensions-threaten-fuel-costs/",
+        "https://www.globaltrailermag.com/leadership-change-at-cargobull-north-america/",
+        "https://www.globaltrailermag.com/neom-ceva-to-strengthen-europe-gcc-freight-corridor/"
       ]
     }
   }
