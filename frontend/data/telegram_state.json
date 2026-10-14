@@ -626,6 +626,33 @@
       "slug": "neom-i-ceva-ukreplyayut-gruzovoy-koridor-evropa-ssagpz-6945bccb",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html": {
+      "message_id": 1589,
+      "sent_at": "2026-10-14T11:19:51+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/direktor-nemo-raskryl-formulu-pravilnogo-elektrogruzovika-dbc295c4/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=direktor-nemo-raskryl-formulu-pravilnogo-elektrogruzovika-dbc295c4",
+      "title": "Директор NEMO раскрыл формулу правильного электрогрузовика",
+      "slug": "direktor-nemo-raskryl-formulu-pravilnogo-elektrogruzovika-dbc295c4",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/": {
+      "message_id": 1590,
+      "sent_at": "2026-10-14T11:19:52+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026-164289eb/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=ural-motorsport-poboretsya-za-titul-tsar-gory-2026-164289eb",
+      "title": "URAL MOTORSPORT поборется за титул «Царь горы — 2026»",
+      "slug": "ural-motorsport-poboretsya-za-titul-tsar-gory-2026-164289eb",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3398_analiticheskii_centr_sigma_expo_group_zapystil_sobstvennii_sait.html": {
+      "message_id": 1591,
+      "sent_at": "2026-10-14T11:19:53+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-a7374286/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-a7374286",
+      "title": "Аналитический Центр Sigma Expo Group запустил собственный сайт",
+      "slug": "analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-a7374286",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
