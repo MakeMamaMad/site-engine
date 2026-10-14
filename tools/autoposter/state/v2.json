@@ -40,7 +40,8 @@
     "guide:nagruzka-na-os-calculator",
     "531392987996",
     "0b7070373daf",
-    "cd6bea585e5a"
+    "cd6bea585e5a",
+    "8c7ab0dac7d0"
   ],
   "renders": [
     {
@@ -321,6 +322,13 @@
       "slug": "prodazhi-novyh-srednetonnazhnyh-gruzovikov-v-sentyabre-vyrosli-na-6-5-cd6bea58",
       "title": "Продажи новых среднетоннажных грузовиков в сентябре выросли на 6,5%",
       "created_at": "2026-10-14T08:14:57.106052+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "8c7ab0dac7d0",
+      "slug": "po-itogam-2026-goda-rynok-gruzovikov-mozhet-sokratitsya-na-1518-8c7ab0da",
+      "title": "Рынок грузовиков может сократиться на 15–18% по итогам 2026 года",
+      "created_at": "2026-10-14T16:14:47.287168+00:00",
       "format": "social-v2"
     }
   ]
