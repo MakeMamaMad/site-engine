@@ -1054,6 +1054,27 @@
       "sent_at": "2026-10-13T14:31:59+00:00",
       "title": "Аналитический Центр Sigma Expo Group запустил собственный сайт",
       "slug": "analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-08159c46"
+    },
+    "https://www.globaltrailermag.com/broshuis-wins-danish-defence-trailer-order/": {
+      "digest_id": "2026-10-14:am",
+      "message_id": 1592,
+      "sent_at": "2026-10-14T11:20:19+00:00",
+      "title": "Broshuis выиграл датский оборонный трейлер",
+      "slug": "broshuis-vyigral-datskiy-oboronnyy-treyler-8315c7ab"
+    },
+    "https://www.globaltrailermag.com/neom-ceva-to-strengthen-europe-gcc-freight-corridor/": {
+      "digest_id": "2026-10-14:am",
+      "message_id": 1592,
+      "sent_at": "2026-10-14T11:20:19+00:00",
+      "title": "NEOM и CEVA укрепляют грузовой коридор Европа-ССАГПЗ",
+      "slug": "neom-i-ceva-ukreplyayut-gruzovoy-koridor-evropa-ssagpz-6945bccb"
+    },
+    "https://www.globaltrailermag.com/imf-warns-middle-east-tensions-threaten-fuel-costs/": {
+      "digest_id": "2026-10-14:am",
+      "message_id": 1592,
+      "sent_at": "2026-10-14T11:20:19+00:00",
+      "title": "МВФ предупреждает, что напряженность на Ближнем Востоке угрожает расходам на топливо",
+      "slug": "mvf-preduprezhdaet-chto-napryazhennost-na-blizhnem-vostoke-ugrozhaet-ras-ee4ae7a6"
     }
   },
   "digests": {
@@ -1336,6 +1357,17 @@
         "https://www.globaltrailermag.com/rhenus-expands-cambodia-logistics-operations/",
         "http://gruzovoy.ru/news/news_partners/3391_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html",
         "https://comautotrans.moscow/tpost/l9l5ur9jo1-analiticheskii-tsentr-sigma-expo-group-z"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-14:am": {
+      "message_id": 1592,
+      "sent_at": "2026-10-14T11:20:19+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/broshuis-wins-danish-defence-trailer-order/",
+        "https://www.globaltrailermag.com/neom-ceva-to-strengthen-europe-gcc-freight-corridor/",
+        "https://www.globaltrailermag.com/imf-warns-middle-east-tensions-threaten-fuel-costs/"
       ],
       "visual": "visual"
     }
