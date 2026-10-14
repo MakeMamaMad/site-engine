@@ -1102,6 +1102,27 @@
       "sent_at": "2026-10-14T11:20:19+00:00",
       "title": "МВФ предупреждает, что напряженность на Ближнем Востоке угрожает расходам на топливо",
       "slug": "mvf-preduprezhdaet-chto-napryazhennost-na-blizhnem-vostoke-ugrozhaet-ras-ee4ae7a6"
+    },
+    "https://nefaz.ru/news/25-novyh-avtobusov-nefaz-dlya-ufy-i-neftekamska": {
+      "digest_id": "2026-10-14:pm",
+      "message_id": 1596,
+      "sent_at": "2026-10-14T12:11:50+00:00",
+      "title": "25 новых автобусов НЕФАЗ для Уфы и Нефтекамска",
+      "slug": "25-novyh-avtobusov-nefaz-dlya-ufy-i-neftekamska-b297181b"
+    },
+    "http://gruzovoy.ru/news/industry/3398_analiticheskii_centr_sigma_expo_group_zapystil_sobstvennii_sait.html": {
+      "digest_id": "2026-10-14:pm",
+      "message_id": 1596,
+      "sent_at": "2026-10-14T12:11:50+00:00",
+      "title": "Аналитический Центр Sigma Expo Group запустил собственный сайт",
+      "slug": "analiticheskiy-tsentr-sigma-expo-group-zapustil-sobstvennyy-sayt-a7374286"
+    },
+    "http://gruzovoy.ru/news/industry/3399_po_itogam_2026_goda_rinok_gryzovikov_mojet_sokratitsya_na_15_18.html": {
+      "digest_id": "2026-10-14:pm",
+      "message_id": 1596,
+      "sent_at": "2026-10-14T12:11:50+00:00",
+      "title": "По итогам 2026 года рынок грузовиков может сократиться на 15–18%",
+      "slug": "po-itogam-2026-goda-rynok-gruzovikov-mozhet-sokratitsya-na-1518-8c7ab0da"
     }
   },
   "digests": {
@@ -1395,6 +1416,17 @@
         "https://www.globaltrailermag.com/broshuis-wins-danish-defence-trailer-order/",
         "https://www.globaltrailermag.com/neom-ceva-to-strengthen-europe-gcc-freight-corridor/",
         "https://www.globaltrailermag.com/imf-warns-middle-east-tensions-threaten-fuel-costs/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-14:pm": {
+      "message_id": 1596,
+      "sent_at": "2026-10-14T12:11:50+00:00",
+      "slot": "pm",
+      "items": [
+        "https://nefaz.ru/news/25-novyh-avtobusov-nefaz-dlya-ufy-i-neftekamska",
+        "http://gruzovoy.ru/news/industry/3398_analiticheskii_centr_sigma_expo_group_zapystil_sobstvennii_sait.html",
+        "http://gruzovoy.ru/news/industry/3399_po_itogam_2026_goda_rinok_gryzovikov_mojet_sokratitsya_na_15_18.html"
       ],
       "visual": "visual"
     }
