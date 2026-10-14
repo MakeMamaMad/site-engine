@@ -1154,6 +1154,36 @@
         }
       },
       "updated_at": "2026-10-13T06:42:39.678828+00:00"
+    },
+    "cd6bea585e5a": {
+      "title": "Продажи новых среднетоннажных грузовиков в сентябре выросли на 6,5%",
+      "created_at": "2026-10-14T08:11:38.686606+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "4jLGD6wnFYw",
+          "url": "https://www.youtube.com/shorts/4jLGD6wnFYw",
+          "updated_at": "2026-10-14T08:11:38.686627+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6acf393b1f3f10bcb7ba70a4",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-14T08:13:54.161966+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6acf39c3b610c3011fa86703",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-14T08:14:57.104433+00:00"
+        }
+      },
+      "updated_at": "2026-10-14T08:14:57.104430+00:00"
     }
   }
 }
