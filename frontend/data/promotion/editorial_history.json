@@ -451,6 +451,19 @@
       "status": "email_sent",
       "sent_at": "2026-10-13T14:29:01+00:00",
       "gmail_message_id": "1a135aab2d147c47"
+    },
+    {
+      "target_id": "naprus-assoc",
+      "target_name": "Национальная ассоциация перевозчиков (НАП)",
+      "slug": "rezhim-truda-i-otdyha-voditelya",
+      "title": "Режим труда и отдыха водителя в 2026 году: нормы приказа Минтранса № 160 и тахограф",
+      "site_url": "https://spec-avtoportal.ru/knowledge/rezhim-truda-i-otdyha-voditelya/?utm_source=naprus-assoc&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=rezhim-truda-i-otdyha-voditelya",
+      "contact": "info@naprus.ru",
+      "item_key": "knowledge:rezhim-truda-i-otdyha-voditelya",
+      "created_at": "2026-10-14T11:18:25+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-14T11:18:26+00:00",
+      "gmail_message_id": "1a13a229364b6d01"
     }
   ]
 }
