@@ -961,6 +961,27 @@
       "sent_at": "2026-10-14T11:16:33+00:00",
       "title": "NEOM и CEVA укрепляют грузовой коридор Европа-ССАГПЗ",
       "slug": "neom-i-ceva-ukreplyayut-gruzovoy-koridor-evropa-ssagpz-6945bccb"
+    },
+    "http://gruzovoy.ru/news/industry/3399_po_itogam_2026_goda_rinok_gryzovikov_mojet_sokratitsya_na_15_18.html": {
+      "digest_id": "2026-10-14:pm",
+      "post_id": 98,
+      "sent_at": "2026-10-14T12:17:39+00:00",
+      "title": "По итогам 2026 года рынок грузовиков может сократиться на 15–18%",
+      "slug": "po-itogam-2026-goda-rynok-gruzovikov-mozhet-sokratitsya-na-1518-8c7ab0da"
+    },
+    "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html": {
+      "digest_id": "2026-10-14:pm",
+      "post_id": 98,
+      "sent_at": "2026-10-14T12:17:39+00:00",
+      "title": "Директор NEMO раскрыл формулу правильного электрогрузовика",
+      "slug": "direktor-nemo-raskryl-formulu-pravilnogo-elektrogruzovika-dbc295c4"
+    },
+    "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/": {
+      "digest_id": "2026-10-14:pm",
+      "post_id": 98,
+      "sent_at": "2026-10-14T12:17:39+00:00",
+      "title": "URAL MOTORSPORT поборется за титул «Царь горы — 2026»",
+      "slug": "ural-motorsport-poboretsya-za-titul-tsar-gory-2026-164289eb"
     }
   },
   "digests": {
@@ -1255,6 +1276,17 @@
         "https://www.globaltrailermag.com/imf-warns-middle-east-tensions-threaten-fuel-costs/",
         "https://www.globaltrailermag.com/leadership-change-at-cargobull-north-america/",
         "https://www.globaltrailermag.com/neom-ceva-to-strengthen-europe-gcc-freight-corridor/"
+      ]
+    },
+    "2026-10-14:pm": {
+      "post_id": 98,
+      "sent_at": "2026-10-14T12:17:39+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3399_po_itogam_2026_goda_rinok_gryzovikov_mojet_sokratitsya_na_15_18.html",
+        "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html",
+        "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/"
       ]
     }
   }
