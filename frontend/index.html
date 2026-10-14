@@ -16,6 +16,16 @@
   <link rel="stylesheet" href="styles/news-feed.css?v=1" />
   <link rel="stylesheet" href="styles/home-columns.css?v=6" />
   <link rel="stylesheet" href="styles/mobile-readability.css?v=1" />
+  <style>
+.sat-drive-promo{margin:22px 0 0;border-radius:22px;background:#111514;color:#fff;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;padding:28px 32px}
+.sat-drive-promo__eyebrow{margin:0 0 8px;color:#d3e200;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.sat-drive-promo h3{font-size:clamp(23px,2.5vw,35px);line-height:1.12;margin:0 0 10px;letter-spacing:-.035em;color:#fff}
+.sat-drive-promo__text{margin:0;color:#d1d5d2;font-size:15px;line-height:1.5;max-width:650px}
+.sat-drive-promo__button{background:#d3e200;color:#101310;text-decoration:none;border-radius:12px;padding:16px 22px;display:inline-flex;align-items:center;justify-content:center;font-size:14px;font-weight:800;white-space:nowrap;min-height:50px}
+.sat-drive-promo__button:hover{background:#e4f000}
+.sat-drive-promo__button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:720px){.sat-drive-promo{grid-template-columns:1fr;padding:24px 22px;gap:18px}.sat-drive-promo__button{width:100%}}
+</style>
   <link rel="icon" href="/spec_avtoportal_favicon.ico" type="image/x-icon" />
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[
@@ -104,6 +114,17 @@
           <div id="featured-secondary" class="featured-secondary"><!-- SEO_FEATURED_SECONDARY_START --><!-- SEO_FEATURED_SECONDARY_END --></div>
         </div>
       </div>
+    </section>
+
+    <section class="container" aria-label="Промо SAT Test Drive">
+        <aside class="sat-drive-promo" aria-label="Спецпроект SAT Test Drive">
+          <div>
+            <p class="sat-drive-promo__eyebrow">Спецпроект · SAT Test Drive</p>
+            <h3>Попробуйте SAT-500 и SAT-545 в деле</h3>
+            <p class="sat-drive-promo__text">Выберите полуприцеп и комплектацию, запишитесь на тест-драйв и отслеживайте своё место в электронной очереди.</p>
+          </div>
+          <a class="sat-drive-promo__button" href="https://pricepvtest.online/?utm_source=spec-avtoportal&amp;utm_medium=promo&amp;utm_campaign=sat_test_drive" target="_blank" rel="noopener noreferrer">Записаться на тест-драйв ↗</a>
+        </aside>
     </section>
 
     <section class="home-guides" aria-labelledby="home-guides-title">
