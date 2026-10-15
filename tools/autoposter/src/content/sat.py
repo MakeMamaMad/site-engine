@@ -15,6 +15,9 @@ from ..ai.storyboard import Scene, Storyboard
 REPO_ROOT = Path(__file__).resolve().parents[4]
 CONFIG_PATH = REPO_ROOT / "promotion" / "config" / "sat_shorts.json"
 PHOTOS_PATH = REPO_ROOT / "promotion" / "config" / "sat_photos.json"
+# SAT Test Drive promo (pricepvtest.online): same partner format, its own
+# episodes, repeated in a cycle on Tuesday and Thursday evenings.
+TESTDRIVE_PATH = REPO_ROOT / "promotion" / "config" / "sat_testdrive_shorts.json"
 KEY_PREFIX = "sat:"
 
 
@@ -23,19 +26,31 @@ def load_config(path: Path | None = None) -> dict[str, Any]:
 
 
 def episode_key(episode: dict[str, Any]) -> str:
-    return KEY_PREFIX + str(episode["id"])
+    return str(episode.get("_key") or KEY_PREFIX + str(episode["id"]))
 
 
 def pick_episode(config: dict[str, Any], used: list[str]) -> dict[str, Any] | None:
-    """First episode not yet published, or None when the catalog is exhausted.
+    """Next episode, or None (the slot then falls back to a news short).
 
-    Published keys are skipped by the social publisher, so episodes are never
-    repeated: when this returns None the slot falls back to a news short.
+    Normal catalogs: the first episode not yet published — never repeated.
+    "cycle": true catalogs go round again, each round with its own key
+    («testdrive:<id>#2»), so the publisher does not skip a repeat; "active":
+    false switches the series off.
     """
+    if config.get("active") is False:
+        return None
+    episodes = [e for e in config.get("episodes", []) if isinstance(e, dict) and e.get("id")]
+    prefix = str(config.get("key_prefix") or KEY_PREFIX)
+    if config.get("cycle") and episodes:
+        count = sum(1 for key in used if str(key).startswith(prefix))
+        episode = dict(episodes[count % len(episodes)])
+        episode["_key"] = f"{prefix}{episode['id']}#{count // len(episodes) + 1}"
+        return episode
     done = set(used)
-    for episode in config.get("episodes", []):
-        if isinstance(episode, dict) and episode.get("id") and episode_key(episode) not in done:
-            return episode
+    for episode in episodes:
+        key = prefix + str(episode["id"])
+        if key not in done:
+            return dict(episode, _key=key)
     return None
 
 
@@ -52,7 +67,7 @@ def episode_photos(config: dict[str, Any], episode: dict[str, Any], manifest: di
     if episode.get("photos"):
         return [str(x) for x in episode["photos"]]
     manifest = _photo_manifest() if manifest is None else manifest
-    own = manifest.get(str(episode.get("url") or ""))
+    own = manifest.get(str(episode.get("photo_url") or episode.get("url") or ""))
     if own:
         return own
     mixed = [photos[0] for photos in manifest.values() if photos]
@@ -65,7 +80,7 @@ def _tagged(url: str, utm: str) -> str:
 
 def build_storyboard(config: dict[str, Any], episode: dict[str, Any]) -> Storyboard:
     utm = str(config.get("utm") or "")
-    url = _tagged(str(episode.get("url") or "https://satpricep.by/"), utm)
+    url = _tagged(str(episode.get("url") or config.get("url") or "https://satpricep.by/"), utm)
     domain = str(config.get("partner_domain") or "satpricep.by")
     photos = episode_photos(config, episode)
     title = str(episode["title"]).strip()
@@ -84,19 +99,22 @@ def build_storyboard(config: dict[str, Any], episode: dict[str, Any]) -> Storybo
         ))
     scenes.append(Scene(
         id="cta-partner",
-        seconds=4.5,
+        seconds=float(config.get("cta_seconds") or 4.5),
         overlay=domain,
-        narration="Цены и комплектации — на сайте производителя, ссылка в описании. Подписывайтесь на СпецАвтоПортал.",
+        narration=str(config.get("cta_narration") or "Цены и комплектации — на сайте производителя, ссылка в описании. Подписывайтесь на СпецАвтоПортал."),
         visual_prompt="",
         highlight_words=[],
         source_image_url=str(photos[0]),
+        cta_lead=[str(x) for x in (config.get("cta_lead") or [])][:2],
     ))
 
     body = "\n".join(f"— {s.overlay}" for s in scenes[:-1])
+    link_line = str(config.get("link_line") or "Цены и комплектации у производителя: {url}").format(url=url)
+    disclaimer = str(config.get("disclaimer") or "Реклама. Партнёрский материал о полуприцепах SAT.")
     description = (
         f"{title}\n\n{body}\n\n"
-        f"Цены и комплектации у производителя: {url}\n\n"
-        "Реклама. Партнёрский материал о полуприцепах SAT.\n\n"
+        f"{link_line}\n\n"
+        f"{disclaimer}\n\n"
         + " ".join(hashtags)
     )
     return Storyboard(

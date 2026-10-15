@@ -8,7 +8,7 @@ on:
         required: false
         default: "manual"
       content:
-        description: "Что снимать: news, sat (партнёрский ролик SAT) или guide (полезный ролик по статье)"
+        description: "Что снимать: news, sat (партнёрский ролик SAT), testdrive (запись на тест-драйв SAT) или guide (полезный ролик по статье)"
         required: false
         default: "news"
   schedule:
@@ -171,8 +171,13 @@ jobs:
           # Weekly series on the evening slot: Monday — a useful short from our
           # articles/calculators, Thursday — partner short about SAT trailers.
           WEEKDAY="$(TZ=Europe/Moscow date +%u)"
-          if [ "$REQUESTED_CONTENT" = "sat" ] || [ "$REQUESTED_CONTENT" = "guide" ]; then
+          # Tuesday and Thursday evenings — SAT Test Drive promo (when its
+          # config is "active"; otherwise the Thursday slot keeps the SAT catalog short).
+          TESTDRIVE_ACTIVE="$(python -c "import json;print(json.load(open('promotion/config/sat_testdrive_shorts.json')).get('active', False))")"
+          if [ "$REQUESTED_CONTENT" = "sat" ] || [ "$REQUESTED_CONTENT" = "guide" ] || [ "$REQUESTED_CONTENT" = "testdrive" ]; then
             export V2_CONTENT="$REQUESTED_CONTENT"
+          elif [ "$VIDEO_SLOT" = "pm" ] && { [ "$WEEKDAY" = "2" ] || [ "$WEEKDAY" = "4" ]; } && [ "$TESTDRIVE_ACTIVE" = "True" ]; then
+            export V2_CONTENT=testdrive
           elif [ "$VIDEO_SLOT" = "pm" ] && [ "$WEEKDAY" = "4" ]; then
             export V2_CONTENT=sat
           elif [ "$VIDEO_SLOT" = "pm" ] && [ "$WEEKDAY" = "1" ]; then
