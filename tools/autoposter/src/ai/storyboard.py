@@ -16,6 +16,9 @@ class Scene:
     visual_prompt: str
     highlight_words: list[str] = field(default_factory=list)
     source_image_url: str = ""
+    # Ending card only: two short lines above the partner domain
+    # (default: «ЦЕНЫ И КОМПЛЕКТАЦИИ / — У ПРОИЗВОДИТЕЛЯ»).
+    cta_lead: list[str] = field(default_factory=list)
 
 
 @dataclass

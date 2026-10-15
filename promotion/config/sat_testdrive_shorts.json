@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "about": "SAT Test Drive promo shorts (pricepvtest.online). Tuesday and Thursday 18:30 MSK, repeated in a cycle. Facts only from the booking site (models, axles, masses, volumes, sign-up steps). Switch on with \"active\": true once the booking form accepts real requests.",
+  "active": false,
+  "cycle": true,
+  "key_prefix": "testdrive:",
+  "url": "https://pricepvtest.online/",
+  "partner_domain": "pricepvtest.online",
+  "utm": "utm_source=spec-avtoportal&utm_medium=video&utm_campaign=sat_test_drive",
+  "default_photo": "https://spec-avtoportal.ru/assets/partners/sat545.jpg",
+  "cta_lead": [
+    "ЗАПИСЬ НА ТЕСТ-ДРАЙВ",
+    "— ПО ССЫЛКЕ"
+  ],
+  "cta_seconds": 5,
+  "cta_narration": "Записаться на тест-драйв можно по ссылке в описании. Подписывайтесь на СпецАвтоПортал.",
+  "link_line": "Записаться на тест-драйв SAT: {url}",
+  "disclaimer": "Реклама. Спецпроект SAT Test Drive.",
+  "hashtags": [
+    "#SAT",
+    "#тестдрайв",
+    "#полуприцеп",
+    "#самосвал",
+    "#грузоперевозки",
+    "#СпецАвтоПортал"
+  ],
+  "episodes": [
+    {
+      "id": "intro",
+      "title": "Тест-драйв полуприцепов SAT: запись открыта",
+      "photo_url": "https://satpricep.by/catalog/polupritsepy/polupritsepy-samosvalnye/polupritsep-samosvalnyy-alyuminievyy-sat545-3-osi/",
+      "scenes": [
+        {
+          "overlay": "ТЕСТ-ДРАЙВ ПОЛУПРИЦЕПОВ SAT",
+          "narration": "Самосвальный полуприцеп лучше один раз испытать в деле, чем выбирать по картинкам. Открыта запись на тест-драйв SAT."
+        },
+        {
+          "overlay": "SAT-500 ИЛИ SAT-545",
+          "narration": "На выбор две модели: алюминиевый SAT-500 и SAT-545 для сыпучих грузов."
+        },
+        {
+          "overlay": "3 ИЛИ 4 ОСИ — НА ВЫБОР",
+          "narration": "Модель и количество осей выбираете сами — три или четыре."
+        },
+        {
+          "overlay": "ЗАПИСЬ ЗА ТРИ ШАГА",
+          "narration": "Выберите модель, заполните короткую анкету и получите свой номер в очереди."
+        }
+      ]
+    },
+    {
+      "id": "sat500",
+      "title": "SAT-500: алюминиевый самосвал — запишитесь на тест-драйв",
+      "photo_url": "https://satpricep.by/catalog/polupritsepy/polupritsepy-zernovozy/polupritsep-samosvalnyy-alyuminievyy-sat500/",
+      "scenes": [
+        {
+          "overlay": "SAT-500: АЛЮМИНИЕВЫЙ САМОСВАЛ",
+          "narration": "SAT-500 — алюминиевый самосвальный полуприцеп. Его можно попробовать на тест-драйве."
+        },
+        {
+          "overlay": "КУЗОВ 43–49 М³",
+          "narration": "Объём кузова — от сорока трёх до сорока девяти кубометров."
+        },
+        {
+          "overlay": "МАССА ОТ 7 900 КГ",
+          "narration": "Снаряжённая масса — от семи тысяч девятисот килограммов, полная — до сорока пяти тонн."
+        },
+        {
+          "overlay": "ПРОВЕРЬТЕ В ДЕЛЕ",
+          "narration": "Как он покажет себя в работе — лучше проверить самому, до покупки."
+        }
+      ]
+    },
+    {
+      "id": "sat545",
+      "title": "SAT-545 для сыпучих грузов — тест-драйв",
+      "photo_url": "https://satpricep.by/catalog/polupritsepy/polupritsepy-samosvalnye/polupritsep-samosvalnyy-alyuminievyy-sat545-3-osi/",
+      "scenes": [
+        {
+          "overlay": "SAT-545 ДЛЯ СЫПУЧИХ ГРУЗОВ",
+          "narration": "SAT-545 — самосвальный полуприцеп для сыпучих грузов. Он тоже есть на тест-драйве."
+        },
+        {
+          "overlay": "КУЗОВ 45 М³",
+          "narration": "Объём кузова — сорок пять кубометров."
+        },
+        {
+          "overlay": "7 980 КГ СНАРЯЖЁННАЯ",
+          "narration": "Снаряжённая масса трёхосной версии — семь тысяч девятьсот восемьдесят килограммов."
+        },
+        {
+          "overlay": "ПОЛНАЯ МАССА 50 300 КГ",
+          "narration": "Полная масса по данным производителя — пятьдесят тысяч триста килограммов."
+        }
+      ]
+    },
+    {
+      "id": "queue",
+      "title": "Электронная очередь на тест-драйв SAT",
+      "photo_url": "https://satpricep.by/catalog/polupritsepy/polupritsepy-zernovozy/polupritsep-samosvalnyy-alyuminievyy-sat500/",
+      "scenes": [
+        {
+          "overlay": "ЗАПИСЬ ОНЛАЙН, БЕЗ ЗВОНКОВ",
+          "narration": "Записаться на тест-драйв SAT можно онлайн — без звонков."
+        },
+        {
+          "overlay": "ВЫБРАЛИ МОДЕЛЬ И ОСИ",
+          "narration": "Выбираете модель — SAT-500 или SAT-545 — и количество осей."
+        },
+        {
+          "overlay": "НОМЕР В ОЧЕРЕДИ",
+          "narration": "После анкеты получаете свой номер в электронной очереди."
+        },
+        {
+          "overlay": "СВОЁ МЕСТО — ПО ССЫЛКЕ",
+          "narration": "Своё место в очереди видно по персональной ссылке."
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "title": "Зачем брать полуприцеп на тест-драйв",
+      "photo_url": "https://satpricep.by/catalog/polupritsepy/polupritsepy-samosvalnye/polupritsep-samosvalnyy-alyuminievyy-sat545-3-osi/",
+      "scenes": [
+        {
+          "overlay": "ЗАЧЕМ ТЕСТ-ДРАЙВ ПОЛУПРИЦЕПА?",
+          "narration": "Полуприцеп покупают на годы. Ошибка в выборе стоит дороже, чем один день испытаний."
+        },
+        {
+          "overlay": "СРАВНИТЬ ДВЕ МОДЕЛИ",
+          "narration": "На тест-драйве SAT можно сравнить две модели: SAT-500 и SAT-545."
+        },
+        {
+          "overlay": "ПОДОБРАТЬ ЧИСЛО ОСЕЙ",
+          "narration": "И понять, сколько осей нужно именно вам — три или четыре."
+        },
+        {
+          "overlay": "РЕШИТЬ ДО ПОКУПКИ",
+          "narration": "Всё это — до покупки, а не после."
+        }
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "SAT-500 или SAT-545: что выбрать",
+      "photo_url": "https://satpricep.by/catalog/polupritsepy/polupritsepy-zernovozy/polupritsep-samosvalnyy-alyuminievyy-sat500/",
+      "scenes": [
+        {
+          "overlay": "SAT-500 ИЛИ SAT-545?",
+          "narration": "SAT-500 или SAT-545 — какой самосвальный полуприцеп выбрать?"
+        },
+        {
+          "overlay": "SAT-500: 43–49 М³",
+          "narration": "У алюминиевого SAT-500 кузов от сорока трёх до сорока девяти кубометров."
+        },
+        {
+          "overlay": "SAT-545: 45 М³",
+          "narration": "У SAT-545 кузов сорок пять кубометров, полная масса по данным производителя — пятьдесят тысяч триста килограммов."
+        },
+        {
+          "overlay": "СРАВНИТЕ САМИ",
+          "narration": "Лучший способ выбрать — попробовать обе модели на тест-драйве."
+        }
+      ]
+    }
+  ]
+}

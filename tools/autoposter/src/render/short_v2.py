@@ -123,7 +123,7 @@ def _gradient_overlay(width: int, height: int) -> Image.Image:
 SITE_DOMAIN = "spec-avtoportal.ru"
 
 
-def _draw_cta(draw: ImageDraw.ImageDraw, *, partner_domain: str = "", explainer: bool = False) -> None:
+def _draw_cta(draw: ImageDraw.ImageDraw, *, partner_domain: str = "", explainer: bool = False, lead: list[str] | None = None) -> None:
     """Big ending card: where to read the full story and a subscribe nudge.
 
     Partner episodes (SAT) point to the partner site instead of ours."""
@@ -138,7 +138,9 @@ def _draw_cta(draw: ImageDraw.ImageDraw, *, partner_domain: str = "", explainer:
 
     y = 640
     domain = partner_domain or SITE_DOMAIN
-    if partner_domain:
+    if lead and len(lead) >= 2:
+        lead = (str(lead[0]), str(lead[1]))
+    elif partner_domain:
         lead = ("ЦЕНЫ И КОМПЛЕКТАЦИИ", "— У ПРОИЗВОДИТЕЛЯ")
     elif explainer:
         lead = ("ПОЛНЫЙ РАЗБОР", "— НА САЙТЕ")
@@ -218,6 +220,7 @@ def render_scene_frame(
             draw,
             partner_domain=scene.overlay if scene.id == "cta-partner" else "",
             explainer=format_name.lower() == "explainer",
+            lead=list(getattr(scene, "cta_lead", []) or []),
         )
         image.convert("RGB").save(output, "PNG", optimize=True)
         return output

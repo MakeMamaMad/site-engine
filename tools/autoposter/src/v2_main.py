@@ -367,18 +367,18 @@ def main() -> int:
     state = load_state()
     item, board = None, None
     series = os.getenv("V2_CONTENT", "news").strip().lower()
-    if series in {"sat", "guide"}:
+    if series in {"sat", "guide", "testdrive"}:
         from .content import guides, sat
 
-        module = sat if series == "sat" else guides
-        config = module.load_config()
+        module = guides if series == "guide" else sat
+        config = module.load_config(sat.TESTDRIVE_PATH) if series == "testdrive" else module.load_config()
         episode = module.pick_episode(config, [str(x) for x in state.get("used", [])])
         if episode is None:
             print(f"[{series}] all episodes are published — add new ones to promotion/config; making a news short")
         else:
             item = {"id": module.episode_key(episode), "slug": "", "title": episode["title"]}
             board = module.build_storyboard(config, episode)
-            if series == "sat":
+            if series in {"sat", "testdrive"}:
                 # Real product photos only: AI images would invent a trailer that doesn't exist.
                 os.environ["AI_IMAGES"] = "0"
             print(f"[{series}] episode {episode['id']}: {episode['title']}")
