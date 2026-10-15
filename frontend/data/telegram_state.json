@@ -716,6 +716,24 @@
       "slug": "forvia-hella-privlekla-300-mln-evro-za-schet-vypuska-obligatsiy-921180cd",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/178833/": {
+      "message_id": 1601,
+      "sent_at": "2026-10-15T11:18:53+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/zavod-tonar-vypustil-krupnuyu-partiyu-rossiyskih-polupritsepov-dlya-komp-bc12ac26/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=zavod-tonar-vypustil-krupnuyu-partiyu-rossiyskih-polupritsepov-dlya-komp-bc12ac26",
+      "title": "Завод «Тонар» выпустил крупную партию российских полуприцепов для компании R Group",
+      "slug": "zavod-tonar-vypustil-krupnuyu-partiyu-rossiyskih-polupritsepov-dlya-komp-bc12ac26",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026": {
+      "message_id": 1602,
+      "sent_at": "2026-10-15T11:18:54+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/elektrobus-pokoleniya-a5-na-forume-obschestvennyy-transport-2026-505afb81/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=elektrobus-pokoleniya-a5-na-forume-obschestvennyy-transport-2026-505afb81",
+      "title": "Электробус поколения А5 на форуме «Общественный транспорт-2026»",
+      "slug": "elektrobus-pokoleniya-a5-na-forume-obschestvennyy-transport-2026-505afb81",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
