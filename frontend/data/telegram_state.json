@@ -1177,6 +1177,27 @@
       "sent_at": "2026-10-14T12:11:50+00:00",
       "title": "По итогам 2026 года рынок грузовиков может сократиться на 15–18%",
       "slug": "po-itogam-2026-goda-rynok-gruzovikov-mozhet-sokratitsya-na-1518-8c7ab0da"
+    },
+    "http://gruzovoy.ru/news/industry/3396_prodaji_novih_srednetonnajnih_gryzovikov_v_sentyabre_virosli_na_65.html": {
+      "digest_id": "2026-10-15:am",
+      "message_id": 1603,
+      "sent_at": "2026-10-15T11:19:32+00:00",
+      "title": "Продажи новых среднетоннажных грузовиков в сентябре выросли на 6,5%",
+      "slug": "prodazhi-novyh-srednetonnazhnyh-gruzovikov-v-sentyabre-vyrosli-na-6-5-cd6bea58"
+    },
+    "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html": {
+      "digest_id": "2026-10-15:am",
+      "message_id": 1603,
+      "sent_at": "2026-10-15T11:19:32+00:00",
+      "title": "Директор NEMO раскрыл формулу правильного электрогрузовика",
+      "slug": "direktor-nemo-raskryl-formulu-pravilnogo-elektrogruzovika-dbc295c4"
+    },
+    "https://sdelanounas.ru/blogs/178821/": {
+      "digest_id": "2026-10-15:am",
+      "message_id": 1603,
+      "sent_at": "2026-10-15T11:19:32+00:00",
+      "title": "В автопарки Уфы и Нефтекамска поступили новые автобусы НЕФАЗ",
+      "slug": "v-avtoparki-ufy-i-neftekamska-postupili-novye-avtobusy-nefaz-2c4b5ebf"
     }
   },
   "digests": {
@@ -1481,6 +1502,17 @@
         "https://nefaz.ru/news/25-novyh-avtobusov-nefaz-dlya-ufy-i-neftekamska",
         "http://gruzovoy.ru/news/industry/3398_analiticheskii_centr_sigma_expo_group_zapystil_sobstvennii_sait.html",
         "http://gruzovoy.ru/news/industry/3399_po_itogam_2026_goda_rinok_gryzovikov_mojet_sokratitsya_na_15_18.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-15:am": {
+      "message_id": 1603,
+      "sent_at": "2026-10-15T11:19:32+00:00",
+      "slot": "am",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3396_prodaji_novih_srednetonnajnih_gryzovikov_v_sentyabre_virosli_na_65.html",
+        "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html",
+        "https://sdelanounas.ru/blogs/178821/"
       ],
       "visual": "visual"
     }
