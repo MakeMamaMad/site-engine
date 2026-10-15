@@ -42,7 +42,8 @@
     "0b7070373daf",
     "cd6bea585e5a",
     "8c7ab0dac7d0",
-    "2c4b5ebf4bc1"
+    "2c4b5ebf4bc1",
+    "sat:sat500-extended-axle"
   ],
   "renders": [
     {
@@ -337,6 +338,13 @@
       "slug": "v-avtoparki-ufy-i-neftekamska-postupili-novye-avtobusy-nefaz-2c4b5ebf",
       "title": "25 новых автобусов НЕФАЗ передали автопаркам Уфы и Нефтекамска",
       "created_at": "2026-10-15T08:15:19.008779+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "sat:sat500-extended-axle",
+      "slug": "",
+      "title": "Зачем полуприцепу вынесенная ось",
+      "created_at": "2026-10-15T16:58:22.243534+00:00",
       "format": "social-v2"
     }
   ]

@@ -1244,6 +1244,36 @@
         }
       },
       "updated_at": "2026-10-15T08:15:19.007357+00:00"
+    },
+    "sat:sat500-extended-axle": {
+      "title": "Зачем полуприцепу вынесенная ось",
+      "created_at": "2026-10-15T16:55:29.824586+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "58K4s4abDBM",
+          "url": "https://www.youtube.com/shorts/58K4s4abDBM",
+          "updated_at": "2026-10-15T16:55:29.824604+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad10582e30d190e5e5f924c",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-15T16:57:19.342305+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad105f07208706296a08e76",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-15T16:58:22.241353+00:00"
+        }
+      },
+      "updated_at": "2026-10-15T16:58:22.241350+00:00"
     }
   }
 }
