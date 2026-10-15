@@ -1225,6 +1225,27 @@
       "sent_at": "2026-10-15T11:19:32+00:00",
       "title": "В автопарки Уфы и Нефтекамска поступили новые автобусы НЕФАЗ",
       "slug": "v-avtoparki-ufy-i-neftekamska-postupili-novye-avtobusy-nefaz-2c4b5ebf"
+    },
+    "https://www.globaltrailermag.com/peru-advances-e780m-port-development/": {
+      "digest_id": "2026-10-15:pm",
+      "message_id": 1607,
+      "sent_at": "2026-10-15T16:53:34+00:00",
+      "title": "Перу продвигает развитие порта стоимостью 780 млн евро",
+      "slug": "peru-prodvigaet-razvitie-porta-stoimostyu-780-mln-evro-f1c5eb6e"
+    },
+    "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/": {
+      "digest_id": "2026-10-15:pm",
+      "message_id": 1607,
+      "sent_at": "2026-10-15T16:53:34+00:00",
+      "title": "URAL MOTORSPORT поборется за титул «Царь горы — 2026»",
+      "slug": "ural-motorsport-poboretsya-za-titul-tsar-gory-2026-164289eb"
+    },
+    "https://www.globaltrailermag.com/qube-bolsters-mining-logistics-footprint-in-australia/": {
+      "digest_id": "2026-10-15:pm",
+      "message_id": 1607,
+      "sent_at": "2026-10-15T16:53:34+00:00",
+      "title": "Qube усиливает логистическое присутствие в Австралии",
+      "slug": "qube-usilivaet-logisticheskoe-prisutstvie-v-avstralii-2a4cab83"
     }
   },
   "digests": {
@@ -1540,6 +1561,17 @@
         "http://gruzovoy.ru/news/industry/3396_prodaji_novih_srednetonnajnih_gryzovikov_v_sentyabre_virosli_na_65.html",
         "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html",
         "https://sdelanounas.ru/blogs/178821/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-15:pm": {
+      "message_id": 1607,
+      "sent_at": "2026-10-15T16:53:34+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/peru-advances-e780m-port-development/",
+        "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/",
+        "https://www.globaltrailermag.com/qube-bolsters-mining-logistics-footprint-in-australia/"
       ],
       "visual": "visual"
     }
