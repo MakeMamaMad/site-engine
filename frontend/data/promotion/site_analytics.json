@@ -1,11 +1,70 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-14T20:49:46+00:00",
+  "updated_at": "2026-10-15T20:26:32+00:00",
   "counter_id": "106240080",
   "metrika": {
-    "status": "error",
+    "status": "ok",
     "period_days": 7,
-    "detail": "Метрика: HTTPError 429"
+    "visits": 115,
+    "users": 91,
+    "sources": [
+      {
+        "id": "organic",
+        "name": "Переходы из поисковых систем",
+        "visits": 66,
+        "users": 54,
+        "bounce_rate": 7.6,
+        "page_depth": 1.11
+      },
+      {
+        "id": "direct",
+        "name": "Прямые заходы",
+        "visits": 18,
+        "users": 17,
+        "bounce_rate": 66.7,
+        "page_depth": 1.11
+      },
+      {
+        "id": "internal",
+        "name": "Внутренние переходы",
+        "visits": 12,
+        "users": 6,
+        "bounce_rate": 33.3,
+        "page_depth": 1.42
+      },
+      {
+        "id": "ad",
+        "name": "Переходы по рекламе",
+        "visits": 10,
+        "users": 10,
+        "bounce_rate": 60.0,
+        "page_depth": 1.0
+      },
+      {
+        "id": "referral",
+        "name": "Переходы по ссылкам на сайтах",
+        "visits": 6,
+        "users": 6,
+        "bounce_rate": 50.0,
+        "page_depth": 1.0
+      },
+      {
+        "id": "messenger",
+        "name": "Переходы из мессенджеров",
+        "visits": 2,
+        "users": 1,
+        "bounce_rate": 50.0,
+        "page_depth": 1.0
+      },
+      {
+        "id": "social",
+        "name": "Переходы из социальных сетей",
+        "visits": 1,
+        "users": 1,
+        "bounce_rate": 0.0,
+        "page_depth": 1.0
+      }
+    ]
   },
   "webmaster": {
     "status": "error",

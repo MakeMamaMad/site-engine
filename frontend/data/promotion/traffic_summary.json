@@ -1,13 +1,65 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-14T20:49:14+00:00",
+  "updated_at": "2026-10-15T20:26:00+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
-  "status": "error",
-  "sources": [],
+  "status": "ok",
+  "sources": [
+    {
+      "source": "sdelanounas",
+      "medium": "editorial",
+      "campaign": "industry_promotion",
+      "visits": 6,
+      "users": 6,
+      "bounce_rate": 50.0,
+      "page_depth": 1.0,
+      "avg_visit_duration_seconds": 10
+    },
+    {
+      "source": "logistics360-editorial",
+      "medium": "editorial",
+      "campaign": "industry_editorial",
+      "visits": 2,
+      "users": 2,
+      "bounce_rate": 50.0,
+      "page_depth": 1.0,
+      "avg_visit_duration_seconds": 8
+    },
+    {
+      "source": "telegram",
+      "medium": "social",
+      "campaign": "news",
+      "visits": 2,
+      "users": 1,
+      "bounce_rate": 50.0,
+      "page_depth": 1.0,
+      "avg_visit_duration_seconds": 8
+    },
+    {
+      "source": "infotrans-by",
+      "medium": "editorial",
+      "campaign": "industry_editorial",
+      "visits": 1,
+      "users": 1,
+      "bounce_rate": 100.0,
+      "page_depth": 1.0,
+      "avg_visit_duration_seconds": 0
+    },
+    {
+      "source": "lognews-press",
+      "medium": "editorial",
+      "campaign": "industry_editorial",
+      "visits": 1,
+      "users": 1,
+      "bounce_rate": 0.0,
+      "page_depth": 2.0,
+      "avg_visit_duration_seconds": 1752
+    }
+  ],
   "totals": {
-    "visits": 0,
-    "users": 0
+    "visits": 12,
+    "users": 11
   },
-  "detail": "Не удалось получить отчёт Метрики: HTTPError"
+  "sampled": false,
+  "sample_share": 1.0
 }
