@@ -1030,6 +1030,27 @@
       "sent_at": "2026-10-14T12:17:39+00:00",
       "title": "URAL MOTORSPORT поборется за титул «Царь горы — 2026»",
       "slug": "ural-motorsport-poboretsya-za-titul-tsar-gory-2026-164289eb"
+    },
+    "https://sdelanounas.ru/blogs/178833/": {
+      "digest_id": "2026-10-15:am",
+      "post_id": 105,
+      "sent_at": "2026-10-15T11:19:31+00:00",
+      "title": "Завод «Тонар» выпустил крупную партию российских полуприцепов для компании R Group",
+      "slug": "zavod-tonar-vypustil-krupnuyu-partiyu-rossiyskih-polupritsepov-dlya-komp-bc12ac26"
+    },
+    "http://gruzovoy.ru/news/industry/3397_prodaji_novih_lcv_v_rossii_v_sentyabre_snizilis_na_116.html": {
+      "digest_id": "2026-10-15:am",
+      "post_id": 105,
+      "sent_at": "2026-10-15T11:19:31+00:00",
+      "title": "Продажи новых LCV в России в сентябре снизились на 11,6%",
+      "slug": "prodazhi-novyh-lcv-v-rossii-v-sentyabre-snizilis-na-11-6-96df90c9"
+    },
+    "https://www.globaltrailermag.com/forvia-hella-raises-e300m-through-bond-issue/": {
+      "digest_id": "2026-10-15:am",
+      "post_id": 105,
+      "sent_at": "2026-10-15T11:19:31+00:00",
+      "title": "FORVIA HELLA привлекла 300 млн евро за счет выпуска облигаций",
+      "slug": "forvia-hella-privlekla-300-mln-evro-za-schet-vypuska-obligatsiy-921180cd"
     }
   },
   "digests": {
@@ -1335,6 +1356,17 @@
         "http://gruzovoy.ru/news/industry/3399_po_itogam_2026_goda_rinok_gryzovikov_mojet_sokratitsya_na_15_18.html",
         "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html",
         "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/"
+      ]
+    },
+    "2026-10-15:am": {
+      "post_id": 105,
+      "sent_at": "2026-10-15T11:19:31+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/178833/",
+        "http://gruzovoy.ru/news/industry/3397_prodaji_novih_lcv_v_rossii_v_sentyabre_snizilis_na_116.html",
+        "https://www.globaltrailermag.com/forvia-hella-raises-e300m-through-bond-issue/"
       ]
     }
   }
