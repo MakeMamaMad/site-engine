@@ -1067,6 +1067,27 @@
       "sent_at": "2026-10-15T11:19:31+00:00",
       "title": "FORVIA HELLA привлекла 300 млн евро за счет выпуска облигаций",
       "slug": "forvia-hella-privlekla-300-mln-evro-za-schet-vypuska-obligatsiy-921180cd"
+    },
+    "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026": {
+      "digest_id": "2026-10-15:pm",
+      "post_id": 108,
+      "sent_at": "2026-10-15T16:53:36+00:00",
+      "title": "Электробус поколения А5 на форуме «Общественный транспорт-2026»",
+      "slug": "elektrobus-pokoleniya-a5-na-forume-obschestvennyy-transport-2026-505afb81"
+    },
+    "https://tonar.info/news/partnerstvo-v-deistvii-tonar-i-rusbiznesavto-proveli-klientskii-den-v-iufo": {
+      "digest_id": "2026-10-15:pm",
+      "post_id": 108,
+      "sent_at": "2026-10-15T16:53:36+00:00",
+      "title": "Партнёрство в действии: «Тонар» и «Русбизнесавто» провели клиентский день в ЮФО",
+      "slug": "partnerstvo-v-deystvii-tonar-i-rusbiznesavto-proveli-klientskiy-den-v-yu-47530631"
+    },
+    "https://www.globaltrailermag.com/qube-bolsters-mining-logistics-footprint-in-australia/": {
+      "digest_id": "2026-10-15:pm",
+      "post_id": 108,
+      "sent_at": "2026-10-15T16:53:36+00:00",
+      "title": "Qube усиливает логистическое присутствие в Австралии",
+      "slug": "qube-usilivaet-logisticheskoe-prisutstvie-v-avstralii-2a4cab83"
     }
   },
   "digests": {
@@ -1383,6 +1404,17 @@
         "https://sdelanounas.ru/blogs/178833/",
         "http://gruzovoy.ru/news/industry/3397_prodaji_novih_lcv_v_rossii_v_sentyabre_snizilis_na_116.html",
         "https://www.globaltrailermag.com/forvia-hella-raises-e300m-through-bond-issue/"
+      ]
+    },
+    "2026-10-15:pm": {
+      "post_id": 108,
+      "sent_at": "2026-10-15T16:53:36+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026",
+        "https://tonar.info/news/partnerstvo-v-deistvii-tonar-i-rusbiznesavto-proveli-klientskii-den-v-iufo",
+        "https://www.globaltrailermag.com/qube-bolsters-mining-logistics-footprint-in-australia/"
       ]
     }
   }
