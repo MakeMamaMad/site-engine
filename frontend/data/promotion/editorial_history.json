@@ -464,6 +464,28 @@
       "status": "email_sent",
       "sent_at": "2026-10-14T11:18:26+00:00",
       "gmail_message_id": "1a13a229364b6d01"
+    },
+    {
+      "target_id": "mexzona",
+      "target_name": "MEXZONA.RU",
+      "slug": "kak-vybrat-polupricep",
+      "title": "Как выбрать полуприцеп под задачу: практическая схема",
+      "site_url": "https://spec-avtoportal.ru/knowledge/kak-vybrat-polupricep/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kak-vybrat-polupricep",
+      "created_at": "2026-10-15T11:22:23+00:00",
+      "status": "manual_fallback"
+    },
+    {
+      "target_id": "neg-by",
+      "target_name": "«Экономическая газета» (Беларусь), рубрика «Транспорт»",
+      "slug": "rezhim-truda-i-otdyha-voditelya",
+      "title": "Режим труда и отдыха водителя в 2026 году: нормы приказа Минтранса № 160 и тахограф",
+      "site_url": "https://spec-avtoportal.ru/knowledge/rezhim-truda-i-otdyha-voditelya/?utm_source=neg-by&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=rezhim-truda-i-otdyha-voditelya",
+      "contact": "info@neg.by",
+      "item_key": "knowledge:rezhim-truda-i-otdyha-voditelya",
+      "created_at": "2026-10-15T11:22:23+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-15T11:22:24+00:00",
+      "gmail_message_id": "1a13f4c8fb2d6c59"
     }
   ]
 }
