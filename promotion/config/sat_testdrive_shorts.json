@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "about": "SAT Test Drive promo shorts (pricepvtest.online). Tuesday and Thursday 18:30 MSK, repeated in a cycle. Facts only from the booking site (models, axles, masses, volumes, sign-up steps). Switch on with \"active\": true once the booking form accepts real requests.",
-  "active": false,
+  "active": true,
   "cycle": true,
   "key_prefix": "testdrive:",
   "url": "https://pricepvtest.online/",
