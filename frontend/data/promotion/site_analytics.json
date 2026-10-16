@@ -1,51 +1,51 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-15T20:26:32+00:00",
+  "updated_at": "2026-10-16T20:00:30+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 115,
-    "users": 91,
+    "visits": 108,
+    "users": 87,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 66,
-        "users": 54,
-        "bounce_rate": 7.6,
-        "page_depth": 1.11
+        "visits": 55,
+        "users": 45,
+        "bounce_rate": 9.1,
+        "page_depth": 1.09
       },
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 18,
-        "users": 17,
-        "bounce_rate": 66.7,
-        "page_depth": 1.11
-      },
-      {
-        "id": "internal",
-        "name": "Внутренние переходы",
-        "visits": 12,
-        "users": 6,
-        "bounce_rate": 33.3,
-        "page_depth": 1.42
+        "visits": 20,
+        "users": 19,
+        "bounce_rate": 65.0,
+        "page_depth": 1.1
       },
       {
         "id": "ad",
         "name": "Переходы по рекламе",
-        "visits": 10,
-        "users": 10,
-        "bounce_rate": 60.0,
+        "visits": 13,
+        "users": 13,
+        "bounce_rate": 53.8,
         "page_depth": 1.0
+      },
+      {
+        "id": "internal",
+        "name": "Внутренние переходы",
+        "visits": 11,
+        "users": 6,
+        "bounce_rate": 36.4,
+        "page_depth": 1.45
       },
       {
         "id": "referral",
         "name": "Переходы по ссылкам на сайтах",
-        "visits": 6,
-        "users": 6,
-        "bounce_rate": 50.0,
+        "visits": 7,
+        "users": 7,
+        "bounce_rate": 57.1,
         "page_depth": 1.0
       },
       {
@@ -54,14 +54,6 @@
         "visits": 2,
         "users": 1,
         "bounce_rate": 50.0,
-        "page_depth": 1.0
-      },
-      {
-        "id": "social",
-        "name": "Переходы из социальных сетей",
-        "visits": 1,
-        "users": 1,
-        "bounce_rate": 0.0,
         "page_depth": 1.0
       }
     ]

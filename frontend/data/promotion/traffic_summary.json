@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-15T20:26:00+00:00",
+  "updated_at": "2026-10-16T19:59:58+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -9,11 +9,11 @@
       "source": "sdelanounas",
       "medium": "editorial",
       "campaign": "industry_promotion",
-      "visits": 6,
-      "users": 6,
-      "bounce_rate": 50.0,
+      "visits": 7,
+      "users": 7,
+      "bounce_rate": 57.1,
       "page_depth": 1.0,
-      "avg_visit_duration_seconds": 10
+      "avg_visit_duration_seconds": 9
     },
     {
       "source": "logistics360-editorial",
@@ -44,16 +44,6 @@
       "bounce_rate": 100.0,
       "page_depth": 1.0,
       "avg_visit_duration_seconds": 0
-    },
-    {
-      "source": "lognews-press",
-      "medium": "editorial",
-      "campaign": "industry_editorial",
-      "visits": 1,
-      "users": 1,
-      "bounce_rate": 0.0,
-      "page_depth": 2.0,
-      "avg_visit_duration_seconds": 1752
     }
   ],
   "totals": {
