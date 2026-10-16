@@ -1128,6 +1128,27 @@
       "sent_at": "2026-10-15T16:53:36+00:00",
       "title": "Qube усиливает логистическое присутствие в Австралии",
       "slug": "qube-usilivaet-logisticheskoe-prisutstvie-v-avstralii-2a4cab83"
+    },
+    "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html": {
+      "digest_id": "2026-10-16:am",
+      "post_id": 114,
+      "sent_at": "2026-10-16T11:14:26+00:00",
+      "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
+      "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c"
+    },
+    "https://sdelanounas.ru/blogs/178821/": {
+      "digest_id": "2026-10-16:am",
+      "post_id": 114,
+      "sent_at": "2026-10-16T11:14:26+00:00",
+      "title": "В автопарки Уфы и Нефтекамска поступили новые автобусы НЕФАЗ",
+      "slug": "v-avtoparki-ufy-i-neftekamska-postupili-novye-avtobusy-nefaz-2c4b5ebf"
+    },
+    "https://sdelanounas.ru/blogs/178851/": {
+      "digest_id": "2026-10-16:am",
+      "post_id": 114,
+      "sent_at": "2026-10-16T11:14:26+00:00",
+      "title": "В Челнах запустили выпуск деталей для раздаточных коробок и мостов КАМАЗа",
+      "slug": "v-chelnah-zapustili-vypusk-detaley-dlya-razdatochnyh-korobok-i-mostov-ka-c1bba7fd"
     }
   },
   "digests": {
@@ -1455,6 +1476,17 @@
         "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026",
         "https://tonar.info/news/partnerstvo-v-deistvii-tonar-i-rusbiznesavto-proveli-klientskii-den-v-iufo",
         "https://www.globaltrailermag.com/qube-bolsters-mining-logistics-footprint-in-australia/"
+      ]
+    },
+    "2026-10-16:am": {
+      "post_id": 114,
+      "sent_at": "2026-10-16T11:14:26+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html",
+        "https://sdelanounas.ru/blogs/178821/",
+        "https://sdelanounas.ru/blogs/178851/"
       ]
     }
   }
