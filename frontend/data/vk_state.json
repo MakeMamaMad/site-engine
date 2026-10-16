@@ -1165,6 +1165,27 @@
       "sent_at": "2026-10-16T11:14:26+00:00",
       "title": "В Челнах запустили выпуск деталей для раздаточных коробок и мостов КАМАЗа",
       "slug": "v-chelnah-zapustili-vypusk-detaley-dlya-razdatochnyh-korobok-i-mostov-ka-c1bba7fd"
+    },
+    "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html": {
+      "digest_id": "2026-10-16:pm",
+      "post_id": 117,
+      "sent_at": "2026-10-16T19:40:10+00:00",
+      "title": "В Татарстане запустили производство компонентов для грузовиков КАМАЗ",
+      "slug": "v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5"
+    },
+    "https://www.globaltrailermag.com/dp-world-appoints-asia-pacific-ceo/": {
+      "digest_id": "2026-10-16:pm",
+      "post_id": 117,
+      "sent_at": "2026-10-16T19:40:10+00:00",
+      "title": "DP World назначил генерального директора Азиатско-Тихоокеанского региона",
+      "slug": "dp-world-naznachil-generalnogo-direktora-aziatsko-tihookeanskogo-regiona-9b33eac5"
+    },
+    "https://sdelanounas.ru/blogs/178853/": {
+      "digest_id": "2026-10-16:pm",
+      "post_id": 117,
+      "sent_at": "2026-10-16T19:40:10+00:00",
+      "title": "Тверьстроймаш выпустил свой первый полуприцеп с двойным раздвижением грузовой платформы",
+      "slug": "tverstroymash-vypustil-svoy-pervyy-polupritsep-s-dvoynym-razdvizheniem-g-2a06f2ef"
     }
   },
   "digests": {
@@ -1503,6 +1524,17 @@
         "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html",
         "https://sdelanounas.ru/blogs/178821/",
         "https://sdelanounas.ru/blogs/178851/"
+      ]
+    },
+    "2026-10-16:pm": {
+      "post_id": 117,
+      "sent_at": "2026-10-16T19:40:10+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
+        "https://www.globaltrailermag.com/dp-world-appoints-asia-pacific-ceo/",
+        "https://sdelanounas.ru/blogs/178853/"
       ]
     }
   }
