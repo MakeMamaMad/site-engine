@@ -498,6 +498,7 @@ def render_distribution_calculator_page(base_url: str, telegram_cta: str) -> str
           <h2>Что почитать</h2>
           <ul>
             <li><a href="/tools/nagruzka-na-os/">Калькулятор нагрузки на ось — если нагрузки по осям уже известны</a></li>
+            <li><a href="/knowledge/kak-razmestit-gruz-v-evrofure/">Как разместить груз в еврофуре: схемы для 20, 23 и 25 т</a></li>
             <li><a href="/knowledge/nagruzka-na-osi-evrofury/">Нагрузка на оси еврофуры и семиосного автопоезда</a></li>
             <li><a href="/knowledge/shtraf-za-peregruz/">Штраф за перегруз в 2026 году</a></li>
             <li><a href="/knowledge/shtraf-apvgk-kak-obzhalovat/">Штраф с рамки АПВГК: как обжаловать</a></li>

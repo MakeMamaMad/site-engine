@@ -290,6 +290,7 @@ def render_pallet_calculator_page(base_url: str, telegram_cta: str) -> str:
           <p class="section-kicker">По теме</p>
           <h2>Что почитать</h2>
           <ul>
+            <li><a href="/knowledge/kak-razmestit-gruz-v-evrofure/">Как разместить паллеты в еврофуре без перегруза осей</a></li>
             <li><a href="/tools/raspredelenie-gruza-po-osyam/">Калькулятор распределения груза по осям</a></li>
             <li><a href="/knowledge/kreplenie-gruzov/">Крепление грузов в полуприцепе: чек-лист</a></li>
             <li><a href="/knowledge/nagruzka-na-osi-evrofury/">Нагрузка на оси еврофуры</a></li>
