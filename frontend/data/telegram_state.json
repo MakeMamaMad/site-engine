@@ -1282,20 +1282,30 @@
       "sent_at": "2026-10-15T16:53:34+00:00",
       "title": "Qube усиливает логистическое присутствие в Австралии",
       "slug": "qube-usilivaet-logisticheskoe-prisutstvie-v-avstralii-2a4cab83"
+    },
+    "https://tonar.info/news/partnerstvo-v-deistvii-tonar-i-rusbiznesavto-proveli-klientskii-den-v-iufo": {
+      "digest_id": "2026-10-16:am",
+      "message_id": 1612,
+      "sent_at": "2026-10-16T11:14:17+00:00",
+      "title": "Партнёрство в действии: «Тонар» и «Русбизнесавто» провели клиентский день в ЮФО",
+      "slug": "partnerstvo-v-deystvii-tonar-i-rusbiznesavto-proveli-klientskiy-den-v-yu-47530631"
+    },
+    "https://sdelanounas.ru/blogs/178853/": {
+      "digest_id": "2026-10-16:am",
+      "message_id": 1612,
+      "sent_at": "2026-10-16T11:14:17+00:00",
+      "title": "Тверьстроймаш выпустил свой первый полуприцеп с двойным раздвижением грузовой платформы",
+      "slug": "tverstroymash-vypustil-svoy-pervyy-polupritsep-s-dvoynym-razdvizheniem-g-2a06f2ef"
+    },
+    "https://www.globaltrailermag.com/forvia-hella-raises-e300m-through-bond-issue/": {
+      "digest_id": "2026-10-16:am",
+      "message_id": 1612,
+      "sent_at": "2026-10-16T11:14:17+00:00",
+      "title": "FORVIA HELLA привлекла 300 млн евро за счет выпуска облигаций",
+      "slug": "forvia-hella-privlekla-300-mln-evro-za-schet-vypuska-obligatsiy-921180cd"
     }
   },
   "digests": {
-    "2026-09-24:am": {
-      "message_id": 1479,
-      "sent_at": "2026-09-24T08:18:18+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/jost-names-new-apac-ceo/",
-        "http://gruzovoy.ru/news/industry/3376_kamaz_planiryet_nachat_seriinii_vipysk_tyristicheskih_avtobysov_v_2027_gody.html",
-        "https://truckmix.ru/news/umg-sdm-predstavit-prodykciu-bryanskih-predpriyatii-gryppi-na-vistavke-innoprom-belarys"
-      ],
-      "visual": "visual"
-    },
     "2026-09-24:pm": {
       "message_id": 1482,
       "sent_at": "2026-09-24T12:02:06+00:00",
@@ -1608,6 +1618,17 @@
         "https://www.globaltrailermag.com/peru-advances-e780m-port-development/",
         "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/",
         "https://www.globaltrailermag.com/qube-bolsters-mining-logistics-footprint-in-australia/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-16:am": {
+      "message_id": 1612,
+      "sent_at": "2026-10-16T11:14:17+00:00",
+      "slot": "am",
+      "items": [
+        "https://tonar.info/news/partnerstvo-v-deistvii-tonar-i-rusbiznesavto-proveli-klientskii-den-v-iufo",
+        "https://sdelanounas.ru/blogs/178853/",
+        "https://www.globaltrailermag.com/forvia-hella-raises-e300m-through-bond-issue/"
       ],
       "visual": "visual"
     }
