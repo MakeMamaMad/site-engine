@@ -1303,19 +1303,30 @@
       "sent_at": "2026-10-16T11:14:17+00:00",
       "title": "FORVIA HELLA привлекла 300 млн евро за счет выпуска облигаций",
       "slug": "forvia-hella-privlekla-300-mln-evro-za-schet-vypuska-obligatsiy-921180cd"
+    },
+    "https://sdelanounas.ru/blogs/178851/": {
+      "digest_id": "2026-10-16:pm",
+      "message_id": 1613,
+      "sent_at": "2026-10-16T19:39:36+00:00",
+      "title": "В Челнах запустили выпуск деталей для раздаточных коробок и мостов КАМАЗа",
+      "slug": "v-chelnah-zapustili-vypusk-detaley-dlya-razdatochnyh-korobok-i-mostov-ka-c1bba7fd"
+    },
+    "https://www.globaltrailermag.com/dp-world-appoints-asia-pacific-ceo/": {
+      "digest_id": "2026-10-16:pm",
+      "message_id": 1613,
+      "sent_at": "2026-10-16T19:39:36+00:00",
+      "title": "DP World назначил генерального директора Азиатско-Тихоокеанского региона",
+      "slug": "dp-world-naznachil-generalnogo-direktora-aziatsko-tihookeanskogo-regiona-9b33eac5"
+    },
+    "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026": {
+      "digest_id": "2026-10-16:pm",
+      "message_id": 1613,
+      "sent_at": "2026-10-16T19:39:36+00:00",
+      "title": "Электробус поколения А5 на форуме «Общественный транспорт-2026»",
+      "slug": "elektrobus-pokoleniya-a5-na-forume-obschestvennyy-transport-2026-505afb81"
     }
   },
   "digests": {
-    "2026-09-24:pm": {
-      "message_id": 1482,
-      "sent_at": "2026-09-24T12:02:06+00:00",
-      "slot": "pm",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3379_chmzap_pokazal_nizkoramnii_polypricep_s_samoystanavlivaushimisya_osyami.html",
-        "http://gruzovoy.ru/news/industry/3378_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html"
-      ],
-      "visual": "visual"
-    },
     "2026-09-25:am": {
       "message_id": 1487,
       "sent_at": "2026-09-25T08:34:21+00:00",
@@ -1629,6 +1640,17 @@
         "https://tonar.info/news/partnerstvo-v-deistvii-tonar-i-rusbiznesavto-proveli-klientskii-den-v-iufo",
         "https://sdelanounas.ru/blogs/178853/",
         "https://www.globaltrailermag.com/forvia-hella-raises-e300m-through-bond-issue/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-16:pm": {
+      "message_id": 1613,
+      "sent_at": "2026-10-16T19:39:36+00:00",
+      "slot": "pm",
+      "items": [
+        "https://sdelanounas.ru/blogs/178851/",
+        "https://www.globaltrailermag.com/dp-world-appoints-asia-pacific-ceo/",
+        "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026"
       ],
       "visual": "visual"
     }
