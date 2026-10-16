@@ -1304,6 +1304,36 @@
         }
       },
       "updated_at": "2026-10-16T05:28:34.423641+00:00"
+    },
+    "2a06f2efb0b3": {
+      "title": "Тверьстроймаш выпустил свой первый полуприцеп с двойным раздвижением грузовой платформы",
+      "created_at": "2026-10-16T08:09:20.364228+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "Ge5TdkNLuBs",
+          "url": "https://www.youtube.com/shorts/Ge5TdkNLuBs",
+          "updated_at": "2026-10-16T08:09:20.364250+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad1dbb1e991a49db3d44922",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-16T08:11:08.758439+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6ad1dc1de991a49db3d466c2",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-16T08:13:22.270010+00:00"
+        }
+      },
+      "updated_at": "2026-10-16T08:13:22.270007+00:00"
     }
   }
 }
