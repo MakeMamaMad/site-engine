@@ -499,6 +499,21 @@
       "status": "email_sent",
       "sent_at": "2026-10-16T11:15:55+00:00",
       "gmail_message_id": "1a1446cfd994c5ae"
+    },
+    {
+      "target_id": "sdelanounas",
+      "target_name": "Сделано у нас",
+      "item_key": "news:3b9766d5b5f6",
+      "title": "В Татарстане запустили производство компонентов для грузовиков КАМАЗ",
+      "source_url": "https://spec-avtoportal.ru/news/v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5/?utm_source=sdelanounas&utm_medium=editorial&utm_campaign=industry_promotion&utm_content=v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5",
+      "result_url": "https://sdelanounas.ru/yandexmaps/addPoint/?id=178887",
+      "category_id": "149",
+      "submitted_at": "2026-10-16T13:59:24+00:00",
+      "status": "published",
+      "last_public_check_at": "2026-10-16T13:59:25+00:00",
+      "public_status": "published",
+      "public_url": "https://sdelanounas.ru/blogs/178887/",
+      "published_at": "2026-10-16T13:59:27+00:00"
     }
   ]
 }
