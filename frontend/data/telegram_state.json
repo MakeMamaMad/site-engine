@@ -1342,31 +1342,28 @@
       "slug": "v-naberezhnyh-chelnah-sostoyalas-peredacha-40-avtotsistern-kamaz-v-adres-1ce130a3"
     },
     "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html": {
-      "digest_id": "2026-10-17:am",
-      "message_id": 1616,
-      "sent_at": "2026-10-17T10:33:17+00:00",
+      "digest_id": "2026-10-17:pm",
+      "message_id": 1618,
+      "sent_at": "2026-10-17T18:44:42+00:00",
       "title": "В Татарстане запустили производство компонентов для грузовиков КАМАЗ",
       "slug": "v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5"
     },
     "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html": {
-      "digest_id": "2026-10-17:am",
-      "message_id": 1616,
-      "sent_at": "2026-10-17T10:33:17+00:00",
+      "digest_id": "2026-10-17:pm",
+      "message_id": 1618,
+      "sent_at": "2026-10-17T18:44:42+00:00",
       "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
       "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c"
+    },
+    "https://www.globaltrailermag.com/kogel-opens-poland-subsidiary/": {
+      "digest_id": "2026-10-17:pm",
+      "message_id": 1618,
+      "sent_at": "2026-10-17T18:44:42+00:00",
+      "title": "Kögel открывает польскую дочернюю компанию",
+      "slug": "kgel-otkryvaet-polskuyu-dochernyuyu-kompaniyu-4adbcd7b"
     }
   },
   "digests": {
-    "2026-09-25:pm": {
-      "message_id": 1491,
-      "sent_at": "2026-09-25T12:02:50+00:00",
-      "slot": "pm",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3380_dongfeng_pokazal_tri_vodorodnih_gryzovika.html",
-        "https://truckmix.ru/news/djak-avtomobil-predstavil-na-comtrans-novie-mysorovoz-i-samosval-na-shassi-jac"
-      ],
-      "visual": "visual"
-    },
     "2026-09-28:am": {
       "message_id": 1495,
       "sent_at": "2026-09-28T09:20:30+00:00",
@@ -1681,6 +1678,17 @@
       "slot": "am",
       "items": [
         "https://sdelanounas.ru/blogs/178882/",
+        "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
+        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-17:pm": {
+      "message_id": 1618,
+      "sent_at": "2026-10-17T18:44:42+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/kogel-opens-poland-subsidiary/",
         "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
         "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
       ],
