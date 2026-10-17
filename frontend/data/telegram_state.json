@@ -1333,18 +1333,30 @@
       "sent_at": "2026-10-16T19:39:36+00:00",
       "title": "Электробус поколения А5 на форуме «Общественный транспорт-2026»",
       "slug": "elektrobus-pokoleniya-a5-na-forume-obschestvennyy-transport-2026-505afb81"
+    },
+    "https://sdelanounas.ru/blogs/178882/": {
+      "digest_id": "2026-10-17:am",
+      "message_id": 1616,
+      "sent_at": "2026-10-17T10:33:17+00:00",
+      "title": "В Набережных Челнах состоялась передача 40 автоцистерн КАМАЗ в адрес ПАО «НК «Роснефть»",
+      "slug": "v-naberezhnyh-chelnah-sostoyalas-peredacha-40-avtotsistern-kamaz-v-adres-1ce130a3"
+    },
+    "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html": {
+      "digest_id": "2026-10-17:am",
+      "message_id": 1616,
+      "sent_at": "2026-10-17T10:33:17+00:00",
+      "title": "В Татарстане запустили производство компонентов для грузовиков КАМАЗ",
+      "slug": "v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5"
+    },
+    "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html": {
+      "digest_id": "2026-10-17:am",
+      "message_id": 1616,
+      "sent_at": "2026-10-17T10:33:17+00:00",
+      "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
+      "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c"
     }
   },
   "digests": {
-    "2026-09-25:am": {
-      "message_id": 1487,
-      "sent_at": "2026-09-25T08:34:21+00:00",
-      "slot": "am",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3377_magistralnii_tyagach_valdai_45_lng_na_sjijennom_gaze_vishel_na_rinok.html"
-      ],
-      "visual": "visual"
-    },
     "2026-09-25:pm": {
       "message_id": 1491,
       "sent_at": "2026-09-25T12:02:50+00:00",
@@ -1660,6 +1672,17 @@
         "https://sdelanounas.ru/blogs/178851/",
         "https://www.globaltrailermag.com/dp-world-appoints-asia-pacific-ceo/",
         "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-17:am": {
+      "message_id": 1616,
+      "sent_at": "2026-10-17T10:33:17+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/178882/",
+        "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
+        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
       ],
       "visual": "visual"
     }
