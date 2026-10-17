@@ -1154,9 +1154,9 @@
       "slug": "qube-usilivaet-logisticheskoe-prisutstvie-v-avstralii-2a4cab83"
     },
     "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html": {
-      "digest_id": "2026-10-16:am",
-      "post_id": 114,
-      "sent_at": "2026-10-16T11:14:26+00:00",
+      "digest_id": "2026-10-17:am",
+      "post_id": 119,
+      "sent_at": "2026-10-17T10:32:19+00:00",
       "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
       "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c"
     },
@@ -1194,6 +1194,20 @@
       "sent_at": "2026-10-16T19:40:10+00:00",
       "title": "Тверьстроймаш выпустил свой первый полуприцеп с двойным раздвижением грузовой платформы",
       "slug": "tverstroymash-vypustil-svoy-pervyy-polupritsep-s-dvoynym-razdvizheniem-g-2a06f2ef"
+    },
+    "https://sdelanounas.ru/blogs/178882/": {
+      "digest_id": "2026-10-17:am",
+      "post_id": 119,
+      "sent_at": "2026-10-17T10:32:19+00:00",
+      "title": "В Набережных Челнах состоялась передача 40 автоцистерн КАМАЗ в адрес ПАО «НК «Роснефть»",
+      "slug": "v-naberezhnyh-chelnah-sostoyalas-peredacha-40-avtotsistern-kamaz-v-adres-1ce130a3"
+    },
+    "https://www.globaltrailermag.com/kogel-opens-poland-subsidiary/": {
+      "digest_id": "2026-10-17:am",
+      "post_id": 119,
+      "sent_at": "2026-10-17T10:32:19+00:00",
+      "title": "Kögel открывает польскую дочернюю компанию",
+      "slug": "kgel-otkryvaet-polskuyu-dochernyuyu-kompaniyu-4adbcd7b"
     }
   },
   "digests": {
@@ -1543,6 +1557,17 @@
         "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
         "https://www.globaltrailermag.com/dp-world-appoints-asia-pacific-ceo/",
         "https://sdelanounas.ru/blogs/178853/"
+      ]
+    },
+    "2026-10-17:am": {
+      "post_id": 119,
+      "sent_at": "2026-10-17T10:32:19+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/178882/",
+        "https://www.globaltrailermag.com/kogel-opens-poland-subsidiary/",
+        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
       ]
     }
   }
