@@ -1154,9 +1154,9 @@
       "slug": "qube-usilivaet-logisticheskoe-prisutstvie-v-avstralii-2a4cab83"
     },
     "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html": {
-      "digest_id": "2026-10-17:am",
-      "post_id": 119,
-      "sent_at": "2026-10-17T10:32:19+00:00",
+      "digest_id": "2026-10-17:pm",
+      "post_id": 120,
+      "sent_at": "2026-10-17T17:54:51+00:00",
       "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
       "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c"
     },
@@ -1175,9 +1175,9 @@
       "slug": "v-chelnah-zapustili-vypusk-detaley-dlya-razdatochnyh-korobok-i-mostov-ka-c1bba7fd"
     },
     "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html": {
-      "digest_id": "2026-10-16:pm",
-      "post_id": 117,
-      "sent_at": "2026-10-16T19:40:10+00:00",
+      "digest_id": "2026-10-17:pm",
+      "post_id": 120,
+      "sent_at": "2026-10-17T17:54:51+00:00",
       "title": "В Татарстане запустили производство компонентов для грузовиков КАМАЗ",
       "slug": "v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5"
     },
@@ -1196,9 +1196,9 @@
       "slug": "tverstroymash-vypustil-svoy-pervyy-polupritsep-s-dvoynym-razdvizheniem-g-2a06f2ef"
     },
     "https://sdelanounas.ru/blogs/178882/": {
-      "digest_id": "2026-10-17:am",
-      "post_id": 119,
-      "sent_at": "2026-10-17T10:32:19+00:00",
+      "digest_id": "2026-10-17:pm",
+      "post_id": 120,
+      "sent_at": "2026-10-17T17:54:51+00:00",
       "title": "В Набережных Челнах состоялась передача 40 автоцистерн КАМАЗ в адрес ПАО «НК «Роснефть»",
       "slug": "v-naberezhnyh-chelnah-sostoyalas-peredacha-40-avtotsistern-kamaz-v-adres-1ce130a3"
     },
@@ -1567,6 +1567,17 @@
       "items": [
         "https://sdelanounas.ru/blogs/178882/",
         "https://www.globaltrailermag.com/kogel-opens-poland-subsidiary/",
+        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
+      ]
+    },
+    "2026-10-17:pm": {
+      "post_id": 120,
+      "sent_at": "2026-10-17T17:54:51+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/178882/",
+        "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
         "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
       ]
     }
