@@ -1364,6 +1364,36 @@
         }
       },
       "updated_at": "2026-10-16T16:14:47.119817+00:00"
+    },
+    "3b9766d5b5f6": {
+      "title": "В Татарстане запустили производство компонентов для грузовиков КАМАЗ",
+      "created_at": "2026-10-17T08:10:51.380655+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "PSQBsc-hAj4",
+          "url": "https://www.youtube.com/shorts/PSQBsc-hAj4",
+          "updated_at": "2026-10-17T08:10:51.380675+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad32d8c769b4579346aa8dc",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-17T08:12:40.161051+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6ad32df80a208cb3230fbb36",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-17T08:14:54.320385+00:00"
+        }
+      },
+      "updated_at": "2026-10-17T08:14:54.320382+00:00"
     }
   }
 }

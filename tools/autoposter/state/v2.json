@@ -46,7 +46,8 @@
     "sat:sat500-extended-axle",
     "testdrive:intro#1",
     "2a06f2efb0b3",
-    "8b65436c68b3"
+    "8b65436c68b3",
+    "3b9766d5b5f6"
   ],
   "renders": [
     {
@@ -369,6 +370,13 @@
       "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c",
       "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
       "created_at": "2026-10-16T16:14:47.121555+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "3b9766d5b5f6",
+      "slug": "v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5",
+      "title": "В Татарстане запустили производство компонентов для грузовиков КАМАЗ",
+      "created_at": "2026-10-17T08:14:54.322341+00:00",
       "format": "social-v2"
     }
   ]
