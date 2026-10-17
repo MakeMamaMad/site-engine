@@ -1394,6 +1394,36 @@
         }
       },
       "updated_at": "2026-10-17T08:14:54.320382+00:00"
+    },
+    "1ce130a36077": {
+      "title": "40 автоцистерн КАМАЗ передали «Роснефти»",
+      "created_at": "2026-10-17T15:29:49.558907+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "nIRlin7lMVk",
+          "url": "https://www.youtube.com/shorts/nIRlin7lMVk",
+          "updated_at": "2026-10-17T15:29:49.558956+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6ad3946e0a208cb32328a085",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-17T15:32:05.578224+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad394f6ae173d6e00c22b79",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-17T15:33:03.485901+00:00"
+        }
+      },
+      "updated_at": "2026-10-17T15:33:03.485898+00:00"
     }
   }
 }
