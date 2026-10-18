@@ -1344,9 +1344,9 @@
       "slug": "elektrobus-pokoleniya-a5-na-forume-obschestvennyy-transport-2026-505afb81"
     },
     "https://sdelanounas.ru/blogs/178882/": {
-      "digest_id": "2026-10-17:am",
-      "message_id": 1616,
-      "sent_at": "2026-10-17T10:33:17+00:00",
+      "digest_id": "2026-10-18:am",
+      "message_id": 1620,
+      "sent_at": "2026-10-18T10:53:55+00:00",
       "title": "В Набережных Челнах состоялась передача 40 автоцистерн КАМАЗ в адрес ПАО «НК «Роснефть»",
       "slug": "v-naberezhnyh-chelnah-sostoyalas-peredacha-40-avtotsistern-kamaz-v-adres-1ce130a3"
     },
@@ -1358,9 +1358,9 @@
       "slug": "v-tatarstane-zapustili-proizvodstvo-komponentov-dlya-gruzovikov-kamaz-3b9766d5"
     },
     "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html": {
-      "digest_id": "2026-10-17:pm",
-      "message_id": 1618,
-      "sent_at": "2026-10-17T18:44:42+00:00",
+      "digest_id": "2026-10-18:am",
+      "message_id": 1620,
+      "sent_at": "2026-10-18T10:53:55+00:00",
       "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
       "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c"
     },
@@ -1370,20 +1370,16 @@
       "sent_at": "2026-10-17T18:44:42+00:00",
       "title": "Kögel открывает польскую дочернюю компанию",
       "slug": "kgel-otkryvaet-polskuyu-dochernyuyu-kompaniyu-4adbcd7b"
+    },
+    "https://sdelanounas.ru/blogs/178895/": {
+      "digest_id": "2026-10-18:am",
+      "message_id": 1620,
+      "sent_at": "2026-10-18T10:53:55+00:00",
+      "title": "Завод «ТоМеЗ» показал новую дорожную машину на шасси КАМАЗ-6595 для зимней и летней уборки",
+      "slug": "zavod-tomez-pokazal-novuyu-dorozhnuyu-mashinu-na-shassi-kamaz-6595-dlya-5f764cc5"
     }
   },
   "digests": {
-    "2026-09-28:am": {
-      "message_id": 1495,
-      "sent_at": "2026-09-28T09:20:30+00:00",
-      "slot": "am",
-      "items": [
-        "https://truckmix.ru/news/v-samarskoi-oblasti-nachalis-priemochnie-ispitaniya-modernizirovannogo-traktora-btz-254k-20",
-        "https://www.globaltrailermag.com/krone-and-aerodyne-to-commercialise-aerodynamic-trailer-system/",
-        "https://www.globaltrailermag.com/tip-expands-tht-new-cool-partnership/"
-      ],
-      "visual": "visual"
-    },
     "2026-09-28:pm": {
       "message_id": 1501,
       "sent_at": "2026-09-28T14:16:27+00:00",
@@ -1700,6 +1696,17 @@
         "https://www.globaltrailermag.com/kogel-opens-poland-subsidiary/",
         "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
         "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-18:am": {
+      "message_id": 1620,
+      "sent_at": "2026-10-18T10:53:55+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/178895/",
+        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html",
+        "https://sdelanounas.ru/blogs/178882/"
       ],
       "visual": "visual"
     }
