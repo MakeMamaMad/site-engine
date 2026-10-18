@@ -48,7 +48,8 @@
     "2a06f2efb0b3",
     "8b65436c68b3",
     "3b9766d5b5f6",
-    "1ce130a36077"
+    "1ce130a36077",
+    "5f764cc55fa7"
   ],
   "renders": [
     {
@@ -385,6 +386,13 @@
       "slug": "v-naberezhnyh-chelnah-sostoyalas-peredacha-40-avtotsistern-kamaz-v-adres-1ce130a3",
       "title": "40 автоцистерн КАМАЗ передали «Роснефти»",
       "created_at": "2026-10-17T15:33:03.487769+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "5f764cc55fa7",
+      "slug": "zavod-tomez-pokazal-novuyu-dorozhnuyu-mashinu-na-shassi-kamaz-6595-dlya-5f764cc5",
+      "title": "«ТоМеЗ» представил МКДУ-24 на шасси КАМАЗ-6595",
+      "created_at": "2026-10-18T08:13:40.072391+00:00",
       "format": "social-v2"
     }
   ]
