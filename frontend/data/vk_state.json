@@ -1162,9 +1162,9 @@
       "slug": "qube-usilivaet-logisticheskoe-prisutstvie-v-avstralii-2a4cab83"
     },
     "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html": {
-      "digest_id": "2026-10-17:pm",
-      "post_id": 120,
-      "sent_at": "2026-10-17T17:54:51+00:00",
+      "digest_id": "2026-10-18:am",
+      "post_id": 122,
+      "sent_at": "2026-10-18T10:54:05+00:00",
       "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
       "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c"
     },
@@ -1204,9 +1204,9 @@
       "slug": "tverstroymash-vypustil-svoy-pervyy-polupritsep-s-dvoynym-razdvizheniem-g-2a06f2ef"
     },
     "https://sdelanounas.ru/blogs/178882/": {
-      "digest_id": "2026-10-17:pm",
-      "post_id": 120,
-      "sent_at": "2026-10-17T17:54:51+00:00",
+      "digest_id": "2026-10-18:am",
+      "post_id": 122,
+      "sent_at": "2026-10-18T10:54:05+00:00",
       "title": "В Набережных Челнах состоялась передача 40 автоцистерн КАМАЗ в адрес ПАО «НК «Роснефть»",
       "slug": "v-naberezhnyh-chelnah-sostoyalas-peredacha-40-avtotsistern-kamaz-v-adres-1ce130a3"
     },
@@ -1216,6 +1216,13 @@
       "sent_at": "2026-10-17T10:32:19+00:00",
       "title": "Kögel открывает польскую дочернюю компанию",
       "slug": "kgel-otkryvaet-polskuyu-dochernyuyu-kompaniyu-4adbcd7b"
+    },
+    "https://sdelanounas.ru/blogs/178895/": {
+      "digest_id": "2026-10-18:am",
+      "post_id": 122,
+      "sent_at": "2026-10-18T10:54:05+00:00",
+      "title": "Завод «ТоМеЗ» показал новую дорожную машину на шасси КАМАЗ-6595 для зимней и летней уборки",
+      "slug": "zavod-tomez-pokazal-novuyu-dorozhnuyu-mashinu-na-shassi-kamaz-6595-dlya-5f764cc5"
     }
   },
   "digests": {
@@ -1587,6 +1594,17 @@
         "https://sdelanounas.ru/blogs/178882/",
         "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
         "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
+      ]
+    },
+    "2026-10-18:am": {
+      "post_id": 122,
+      "sent_at": "2026-10-18T10:54:05+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/178895/",
+        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html",
+        "https://sdelanounas.ru/blogs/178882/"
       ]
     }
   }
