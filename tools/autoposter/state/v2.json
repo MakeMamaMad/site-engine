@@ -49,7 +49,8 @@
     "8b65436c68b3",
     "3b9766d5b5f6",
     "1ce130a36077",
-    "5f764cc55fa7"
+    "5f764cc55fa7",
+    "126c3550946b"
   ],
   "renders": [
     {
@@ -393,6 +394,13 @@
       "slug": "zavod-tomez-pokazal-novuyu-dorozhnuyu-mashinu-na-shassi-kamaz-6595-dlya-5f764cc5",
       "title": "«ТоМеЗ» представил МКДУ-24 на шасси КАМАЗ-6595",
       "created_at": "2026-10-18T08:13:40.072391+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "126c3550946b",
+      "slug": "supermarket-na-kolesah-maz-i-maz-kupava-predstavili-novinku-v-sfere-mobi-126c3550",
+      "title": "Супермаркет на колёсах: МАЗ и «МАЗ-Купава» представили новинку",
+      "created_at": "2026-10-18T15:56:15.766140+00:00",
       "format": "social-v2"
     }
   ]
