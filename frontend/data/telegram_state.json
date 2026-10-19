@@ -869,6 +869,33 @@
       "slug": "broughton-transport-dobavlyaet-holodilnye-laynery-krone-v-park-s-kontrol-ce0f2341",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/": {
+      "message_id": 1628,
+      "sent_at": "2026-10-19T16:22:59+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshih-na-bahe-velikaya-c906e531/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=ural-motorsport-finishiroval-v-chisle-shesti-silneyshih-na-bahe-velikaya-c906e531",
+      "title": "URAL MOTORSPORT финишировал в числе шести сильнейших на бахе «Великая степь»",
+      "slug": "ural-motorsport-finishiroval-v-chisle-shesti-silneyshih-na-bahe-velikaya-c906e531",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3403_eksplyataciya_kitaiskih_i_evropeiskih_tyagachei_na_bolshih_probegah_opit_intra_logistiks.html": {
+      "message_id": 1629,
+      "sent_at": "2026-10-19T16:23:00+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/ekspluatatsiya-kitayskih-i-evropeyskih-tyagachey-na-bolshih-probegah-opy-71030c16/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=ekspluatatsiya-kitayskih-i-evropeyskih-tyagachey-na-bolshih-probegah-opy-71030c16",
+      "title": "Эксплуатация китайских и европейских тягачей на больших пробегах. Опыт «Интра Логистикс»",
+      "slug": "ekspluatatsiya-kitayskih-i-evropeyskih-tyagachey-na-bolshih-probegah-opy-71030c16",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/suez-canal-container-traffic-rebounds/": {
+      "message_id": 1630,
+      "sent_at": "2026-10-19T16:23:01+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/konteynernye-perevozki-suetskogo-kanala-vozobnovilis-1d3473d8/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=konteynernye-perevozki-suetskogo-kanala-vozobnovilis-1d3473d8",
+      "title": "Контейнерные перевозки Суэцкого канала возобновились",
+      "slug": "konteynernye-perevozki-suetskogo-kanala-vozobnovilis-1d3473d8",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
