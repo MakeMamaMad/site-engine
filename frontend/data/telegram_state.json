@@ -815,6 +815,33 @@
       "slug": "zavod-tomez-pokazal-novuyu-dorozhnuyu-mashinu-na-shassi-kamaz-6595-dlya-5f764cc5",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/maxiparts-completes-acquisition/": {
+      "message_id": 1621,
+      "sent_at": "2026-10-19T04:24:38+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/maxiparts-zavershila-priobretenie-944dd78a/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=maxiparts-zavershila-priobretenie-944dd78a",
+      "title": "MaxiPARTS завершила приобретение",
+      "slug": "maxiparts-zavershila-priobretenie-944dd78a",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/j-b-hunt-intermodal-volumes-rise/": {
+      "message_id": 1622,
+      "sent_at": "2026-10-19T04:24:39+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/intermodalnye-obemy-j-b-hunt-rastut-8a616fd5/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=intermodalnye-obemy-j-b-hunt-rastut-8a616fd5",
+      "title": "Интермодальные объемы J.B. Hunt растут",
+      "slug": "intermodalnye-obemy-j-b-hunt-rastut-8a616fd5",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/": {
+      "message_id": 1623,
+      "sent_at": "2026-10-19T04:24:40+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/port-los-andzhelesa-ustanovil-rekord-gruzoperevozok-3f668250/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=port-los-andzhelesa-ustanovil-rekord-gruzoperevozok-3f668250",
+      "title": "Порт Лос-Анджелеса установил рекорд грузоперевозок",
+      "slug": "port-los-andzhelesa-ustanovil-rekord-gruzoperevozok-3f668250",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
