@@ -1431,20 +1431,30 @@
       "sent_at": "2026-10-18T10:53:55+00:00",
       "title": "Завод «ТоМеЗ» показал новую дорожную машину на шасси КАМАЗ-6595 для зимней и летней уборки",
       "slug": "zavod-tomez-pokazal-novuyu-dorozhnuyu-mashinu-na-shassi-kamaz-6595-dlya-5f764cc5"
+    },
+    "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/": {
+      "digest_id": "2026-10-19:pm",
+      "message_id": 1627,
+      "sent_at": "2026-10-19T12:55:21+00:00",
+      "title": "Порт Лос-Анджелеса установил рекорд грузоперевозок",
+      "slug": "port-los-andzhelesa-ustanovil-rekord-gruzoperevozok-3f668250"
+    },
+    "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-lizing-ot-7-1-promagrolizing4158/": {
+      "digest_id": "2026-10-19:pm",
+      "message_id": 1627,
+      "sent_at": "2026-10-19T12:55:21+00:00",
+      "title": "Полуприцепы Завода Спецавтоетхника в лизинг от 7,1% годовых",
+      "slug": "polupritsepy-zavoda-spetsavtoethnika-v-lizing-ot-7-1-godovyh-1f72dd4a"
+    },
+    "https://www.globaltrailermag.com/maxiparts-completes-acquisition/": {
+      "digest_id": "2026-10-19:pm",
+      "message_id": 1627,
+      "sent_at": "2026-10-19T12:55:21+00:00",
+      "title": "MaxiPARTS завершила приобретение",
+      "slug": "maxiparts-zavershila-priobretenie-944dd78a"
     }
   },
   "digests": {
-    "2026-09-28:pm": {
-      "message_id": 1501,
-      "sent_at": "2026-09-28T14:16:27+00:00",
-      "slot": "pm",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3382_eek_predlojila_vvesti_antidempingovie_poshlini_na_gryzovie_shini_iz_tailanda_i_vetnama.html",
-        "https://truckmix.ru/news/v-samarskoi-oblasti-nachalis-priemochnie-ispitaniya-modernizirovannogo-traktora-btz-254k-20",
-        "https://www.globaltrailermag.com/krone-and-aerodyne-to-commercialise-aerodynamic-trailer-system/"
-      ],
-      "visual": "visual"
-    },
     "2026-09-29:am": {
       "message_id": 1506,
       "sent_at": "2026-09-29T06:45:17+00:00",
@@ -1761,6 +1771,17 @@
         "https://sdelanounas.ru/blogs/178895/",
         "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html",
         "https://sdelanounas.ru/blogs/178882/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-19:pm": {
+      "message_id": 1627,
+      "sent_at": "2026-10-19T12:55:21+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/",
+        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-lizing-ot-7-1-promagrolizing4158/",
+        "https://www.globaltrailermag.com/maxiparts-completes-acquisition/"
       ],
       "visual": "visual"
     }
