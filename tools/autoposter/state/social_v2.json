@@ -1514,6 +1514,36 @@
         }
       },
       "updated_at": "2026-10-19T15:02:33.546664+00:00"
+    },
+    "guide:skolko-pallet": {
+      "title": "Сколько паллет входит в еврофуру: 33 или 34?",
+      "created_at": "2026-10-19T16:11:15.162109+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "ob6ZO0QrD-I",
+          "url": "https://www.youtube.com/shorts/ob6ZO0QrD-I",
+          "updated_at": "2026-10-19T16:11:15.162129+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad64124458c220bbe96b1b6",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-19T16:13:03.678394+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6ad6419072c094b344ae16b3",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-19T16:15:17.392461+00:00"
+        }
+      },
+      "updated_at": "2026-10-19T16:15:17.392458+00:00"
     }
   }
 }

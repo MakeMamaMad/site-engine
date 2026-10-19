@@ -51,7 +51,8 @@
     "1ce130a36077",
     "5f764cc55fa7",
     "126c3550946b",
-    "ce0f234197ce"
+    "ce0f234197ce",
+    "guide:skolko-pallet"
   ],
   "renders": [
     {
@@ -409,6 +410,13 @@
       "slug": "broughton-transport-dobavlyaet-holodilnye-laynery-krone-v-park-s-kontrol-ce0f2341",
       "title": "Broughton Transport добавила два холодильных полуприцепа KRONE",
       "created_at": "2026-10-19T15:02:33.548071+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:skolko-pallet",
+      "slug": "",
+      "title": "Сколько паллет входит в еврофуру: 33 или 34?",
+      "created_at": "2026-10-19T16:15:17.394450+00:00",
       "format": "social-v2"
     }
   ]
