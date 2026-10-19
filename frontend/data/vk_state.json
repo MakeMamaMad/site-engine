@@ -1247,6 +1247,27 @@
       "sent_at": "2026-10-18T10:54:05+00:00",
       "title": "Завод «ТоМеЗ» показал новую дорожную машину на шасси КАМАЗ-6595 для зимней и летней уборки",
       "slug": "zavod-tomez-pokazal-novuyu-dorozhnuyu-mashinu-na-shassi-kamaz-6595-dlya-5f764cc5"
+    },
+    "https://www.globaltrailermag.com/j-b-hunt-intermodal-volumes-rise/": {
+      "digest_id": "2026-10-19:pm",
+      "post_id": 126,
+      "sent_at": "2026-10-19T12:55:28+00:00",
+      "title": "Интермодальные объемы J.B. Hunt растут",
+      "slug": "intermodalnye-obemy-j-b-hunt-rastut-8a616fd5"
+    },
+    "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/": {
+      "digest_id": "2026-10-19:pm",
+      "post_id": 126,
+      "sent_at": "2026-10-19T12:55:28+00:00",
+      "title": "KazAgroFarm 2026: «Спецавтотехника» представит полуприцепы SAT500 и SAT47K",
+      "slug": "kazagrofarm-2026-spetsavtotehnika-predstavit-polupritsepy-sat500-i-sat47-68cbc709"
+    },
+    "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/": {
+      "digest_id": "2026-10-19:pm",
+      "post_id": 126,
+      "sent_at": "2026-10-19T12:55:28+00:00",
+      "title": "Порт Лос-Анджелеса установил рекорд грузоперевозок",
+      "slug": "port-los-andzhelesa-ustanovil-rekord-gruzoperevozok-3f668250"
     }
   },
   "digests": {
@@ -1629,6 +1650,17 @@
         "https://sdelanounas.ru/blogs/178895/",
         "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html",
         "https://sdelanounas.ru/blogs/178882/"
+      ]
+    },
+    "2026-10-19:pm": {
+      "post_id": 126,
+      "sent_at": "2026-10-19T12:55:28+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/j-b-hunt-intermodal-volumes-rise/",
+        "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
+        "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/"
       ]
     }
   }
