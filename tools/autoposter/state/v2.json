@@ -53,7 +53,8 @@
     "126c3550946b",
     "ce0f234197ce",
     "guide:skolko-pallet",
-    "68cbc70902db"
+    "68cbc70902db",
+    "testdrive:sat500#1"
   ],
   "renders": [
     {
@@ -425,6 +426,13 @@
       "slug": "kazagrofarm-2026-spetsavtotehnika-predstavit-polupritsepy-sat500-i-sat47-68cbc709",
       "title": "KazAgroFarm 2026: SAT500 и SAT47K представят в Астане",
       "created_at": "2026-10-20T08:31:50.121016+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "testdrive:sat500#1",
+      "slug": "",
+      "title": "SAT-500: алюминиевый самосвал — запишитесь на тест-драйв",
+      "created_at": "2026-10-20T14:25:30.837425+00:00",
       "format": "social-v2"
     }
   ]
