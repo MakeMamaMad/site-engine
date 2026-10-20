@@ -1544,6 +1544,36 @@
         }
       },
       "updated_at": "2026-10-19T16:15:17.392458+00:00"
+    },
+    "68cbc70902db": {
+      "title": "KazAgroFarm 2026: SAT500 и SAT47K представят в Астане",
+      "created_at": "2026-10-20T08:29:10.804741+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "1pV_ShhoTIg",
+          "url": "https://www.youtube.com/shorts/1pV_ShhoTIg",
+          "updated_at": "2026-10-20T08:29:10.804762+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad72657ec8e66c06201a19f",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-20T08:30:58.521716+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad726c38c1133338d55d46d",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-20T08:31:50.119081+00:00"
+        }
+      },
+      "updated_at": "2026-10-20T08:31:50.119078+00:00"
     }
   }
 }

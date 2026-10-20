@@ -52,7 +52,8 @@
     "5f764cc55fa7",
     "126c3550946b",
     "ce0f234197ce",
-    "guide:skolko-pallet"
+    "guide:skolko-pallet",
+    "68cbc70902db"
   ],
   "renders": [
     {
@@ -417,6 +418,13 @@
       "slug": "",
       "title": "Сколько паллет входит в еврофуру: 33 или 34?",
       "created_at": "2026-10-19T16:15:17.394450+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "68cbc70902db",
+      "slug": "kazagrofarm-2026-spetsavtotehnika-predstavit-polupritsepy-sat500-i-sat47-68cbc709",
+      "title": "KazAgroFarm 2026: SAT500 и SAT47K представят в Астане",
+      "created_at": "2026-10-20T08:31:50.121016+00:00",
       "format": "social-v2"
     }
   ]
