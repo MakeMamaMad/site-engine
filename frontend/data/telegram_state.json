@@ -1506,20 +1506,30 @@
       "sent_at": "2026-10-19T12:55:21+00:00",
       "title": "MaxiPARTS завершила приобретение",
       "slug": "maxiparts-zavershila-priobretenie-944dd78a"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/broughton-transport-adds-krone-cool-liners-to-temperature-controlled-fleet/": {
+      "digest_id": "2026-10-20:am",
+      "message_id": 1634,
+      "sent_at": "2026-10-20T08:25:25+00:00",
+      "title": "Broughton Transport добавляет холодильные лайнеры KRONE в парк с контролируемой температурой",
+      "slug": "broughton-transport-dobavlyaet-holodilnye-laynery-krone-v-park-s-kontrol-ce0f2341"
+    },
+    "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/": {
+      "digest_id": "2026-10-20:am",
+      "message_id": 1634,
+      "sent_at": "2026-10-20T08:25:25+00:00",
+      "title": "URAL MOTORSPORT финишировал в числе шести сильнейших на бахе «Великая степь»",
+      "slug": "ural-motorsport-finishiroval-v-chisle-shesti-silneyshih-na-bahe-velikaya-c906e531"
+    },
+    "http://gruzovoy.ru/news/industry/3401_sybsidirovat_lizing_iz_ytilsbora_shema_spaseniya_rinka_gryzoperevozok_ot_gendirektora_levsars.html": {
+      "digest_id": "2026-10-20:am",
+      "message_id": 1634,
+      "sent_at": "2026-10-20T08:25:25+00:00",
+      "title": "Субсидировать лизинг из утильсбора: схема спасения рынка грузоперевозок от гендиректора «Левсарс»",
+      "slug": "subsidirovat-lizing-iz-utilsbora-shema-spaseniya-rynka-gruzoperevozok-ot-8a7d82d3"
     }
   },
   "digests": {
-    "2026-09-29:am": {
-      "message_id": 1506,
-      "sent_at": "2026-09-29T06:45:17+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/michelin-wins-dhl-ev-fleet-tyre-contract/",
-        "https://www.globaltrailermag.com/krone-and-aerodyne-to-commercialise-aerodynamic-trailer-system/",
-        "https://truckmix.ru/news/v-samarskoi-oblasti-nachalis-priemochnie-ispitaniya-modernizirovannogo-traktora-btz-254k-20"
-      ],
-      "visual": "visual"
-    },
     "2026-09-29:pm": {
       "message_id": 1514,
       "sent_at": "2026-09-29T13:11:19+00:00",
@@ -1836,6 +1846,17 @@
         "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/",
         "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-lizing-ot-7-1-promagrolizing4158/",
         "https://www.globaltrailermag.com/maxiparts-completes-acquisition/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-20:am": {
+      "message_id": 1634,
+      "sent_at": "2026-10-20T08:25:25+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.krone-trailer.com/en/news/detail-1/broughton-transport-adds-krone-cool-liners-to-temperature-controlled-fleet/",
+        "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/",
+        "http://gruzovoy.ru/news/industry/3401_sybsidirovat_lizing_iz_ytilsbora_shema_spaseniya_rinka_gryzoperevozok_ot_gendirektora_levsars.html"
       ],
       "visual": "visual"
     }
