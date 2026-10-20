@@ -1353,6 +1353,27 @@
       "sent_at": "2026-10-20T08:25:29+00:00",
       "title": "Полуприцепы Завода Спецавтоетхника в лизинг от 7,1% годовых",
       "slug": "polupritsepy-zavoda-spetsavtoethnika-v-lizing-ot-7-1-godovyh-1f72dd4a"
+    },
+    "https://www.globaltrailermag.com/suez-canal-container-traffic-rebounds/": {
+      "digest_id": "2026-10-20:pm",
+      "post_id": 136,
+      "sent_at": "2026-10-20T12:01:27+00:00",
+      "title": "Контейнерные перевозки Суэцкого канала возобновились",
+      "slug": "konteynernye-perevozki-suetskogo-kanala-vozobnovilis-1d3473d8"
+    },
+    "https://www.globaltrailermag.com/maxiparts-completes-acquisition/": {
+      "digest_id": "2026-10-20:pm",
+      "post_id": 136,
+      "sent_at": "2026-10-20T12:01:27+00:00",
+      "title": "MaxiPARTS завершила приобретение",
+      "slug": "maxiparts-zavershila-priobretenie-944dd78a"
+    },
+    "https://www.globaltrailermag.com/port-of-savannah-advances-e2-1b-project/": {
+      "digest_id": "2026-10-20:pm",
+      "post_id": 136,
+      "sent_at": "2026-10-20T12:01:27+00:00",
+      "title": "Порт Саванны продвигает проект стоимостью 2,1 млрд евро",
+      "slug": "port-savanny-prodvigaet-proekt-stoimostyu-2-1-mlrd-evro-2e5b8968"
     }
   },
   "digests": {
@@ -1757,6 +1778,17 @@
         "https://www.globaltrailermag.com/aegis-logistics-to-acquire-tristar/",
         "https://www.krone-trailer.com/en/news/detail-1/broughton-transport-adds-krone-cool-liners-to-temperature-controlled-fleet/",
         "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-lizing-ot-7-1-promagrolizing4158/"
+      ]
+    },
+    "2026-10-20:pm": {
+      "post_id": 136,
+      "sent_at": "2026-10-20T12:01:27+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/suez-canal-container-traffic-rebounds/",
+        "https://www.globaltrailermag.com/maxiparts-completes-acquisition/",
+        "https://www.globaltrailermag.com/port-of-savannah-advances-e2-1b-project/"
       ]
     }
   }
