@@ -1316,6 +1316,27 @@
       "sent_at": "2026-10-19T12:55:28+00:00",
       "title": "Порт Лос-Анджелеса установил рекорд грузоперевозок",
       "slug": "port-los-andzhelesa-ustanovil-rekord-gruzoperevozok-3f668250"
+    },
+    "https://www.globaltrailermag.com/aegis-logistics-to-acquire-tristar/": {
+      "digest_id": "2026-10-20:am",
+      "post_id": 133,
+      "sent_at": "2026-10-20T08:25:29+00:00",
+      "title": "Aegis Logistics приобретает компанию Tristar",
+      "slug": "aegis-logistics-priobretaet-kompaniyu-tristar-fe0a0064"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/broughton-transport-adds-krone-cool-liners-to-temperature-controlled-fleet/": {
+      "digest_id": "2026-10-20:am",
+      "post_id": 133,
+      "sent_at": "2026-10-20T08:25:29+00:00",
+      "title": "Broughton Transport добавляет холодильные лайнеры KRONE в парк с контролируемой температурой",
+      "slug": "broughton-transport-dobavlyaet-holodilnye-laynery-krone-v-park-s-kontrol-ce0f2341"
+    },
+    "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-lizing-ot-7-1-promagrolizing4158/": {
+      "digest_id": "2026-10-20:am",
+      "post_id": 133,
+      "sent_at": "2026-10-20T08:25:29+00:00",
+      "title": "Полуприцепы Завода Спецавтоетхника в лизинг от 7,1% годовых",
+      "slug": "polupritsepy-zavoda-spetsavtoethnika-v-lizing-ot-7-1-godovyh-1f72dd4a"
     }
   },
   "digests": {
@@ -1709,6 +1730,17 @@
         "https://www.globaltrailermag.com/j-b-hunt-intermodal-volumes-rise/",
         "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
         "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/"
+      ]
+    },
+    "2026-10-20:am": {
+      "post_id": 133,
+      "sent_at": "2026-10-20T08:25:29+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/aegis-logistics-to-acquire-tristar/",
+        "https://www.krone-trailer.com/en/news/detail-1/broughton-transport-adds-krone-cool-liners-to-temperature-controlled-fleet/",
+        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-lizing-ot-7-1-promagrolizing4158/"
       ]
     }
   }
