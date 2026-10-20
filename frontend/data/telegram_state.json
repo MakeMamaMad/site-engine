@@ -1527,20 +1527,30 @@
       "sent_at": "2026-10-20T08:25:25+00:00",
       "title": "Субсидировать лизинг из утильсбора: схема спасения рынка грузоперевозок от гендиректора «Левсарс»",
       "slug": "subsidirovat-lizing-iz-utilsbora-shema-spaseniya-rynka-gruzoperevozok-ot-8a7d82d3"
+    },
+    "http://gruzovoy.ru/news/industry/3403_eksplyataciya_kitaiskih_i_evropeiskih_tyagachei_na_bolshih_probegah_opit_intra_logistiks.html": {
+      "digest_id": "2026-10-20:pm",
+      "message_id": 1635,
+      "sent_at": "2026-10-20T17:03:19+00:00",
+      "title": "Эксплуатация китайских и европейских тягачей на больших пробегах. Опыт «Интра Логистикс»",
+      "slug": "ekspluatatsiya-kitayskih-i-evropeyskih-tyagachey-na-bolshih-probegah-opy-71030c16"
+    },
+    "https://www.globaltrailermag.com/j-b-hunt-intermodal-volumes-rise/": {
+      "digest_id": "2026-10-20:pm",
+      "message_id": 1635,
+      "sent_at": "2026-10-20T17:03:19+00:00",
+      "title": "Интермодальные объемы J.B. Hunt растут",
+      "slug": "intermodalnye-obemy-j-b-hunt-rastut-8a616fd5"
+    },
+    "https://www.globaltrailermag.com/port-of-savannah-advances-e2-1b-project/": {
+      "digest_id": "2026-10-20:pm",
+      "message_id": 1635,
+      "sent_at": "2026-10-20T17:03:19+00:00",
+      "title": "Порт Саванны продвигает проект стоимостью 2,1 млрд евро",
+      "slug": "port-savanny-prodvigaet-proekt-stoimostyu-2-1-mlrd-evro-2e5b8968"
     }
   },
   "digests": {
-    "2026-09-29:pm": {
-      "message_id": 1514,
-      "sent_at": "2026-09-29T13:11:19+00:00",
-      "slot": "pm",
-      "items": [
-        "https://truckmix.ru/news/sintec-group-obladatel-prestijnoi-premii-sdelano-v-rossii",
-        "https://truckmix.ru/news/v-samarskoi-oblasti-nachalis-priemochnie-ispitaniya-modernizirovannogo-traktora-btz-254k-20",
-        "http://gruzovoy.ru/news/industry/3382_eek_predlojila_vvesti_antidempingovie_poshlini_na_gryzovie_shini_iz_tailanda_i_vetnama.html"
-      ],
-      "visual": "visual"
-    },
     "2026-09-30:am": {
       "message_id": 1519,
       "sent_at": "2026-09-30T09:31:11+00:00",
@@ -1857,6 +1867,17 @@
         "https://www.krone-trailer.com/en/news/detail-1/broughton-transport-adds-krone-cool-liners-to-temperature-controlled-fleet/",
         "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/",
         "http://gruzovoy.ru/news/industry/3401_sybsidirovat_lizing_iz_ytilsbora_shema_spaseniya_rinka_gryzoperevozok_ot_gendirektora_levsars.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-20:pm": {
+      "message_id": 1635,
+      "sent_at": "2026-10-20T17:03:19+00:00",
+      "slot": "pm",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3403_eksplyataciya_kitaiskih_i_evropeiskih_tyagachei_na_bolshih_probegah_opit_intra_logistiks.html",
+        "https://www.globaltrailermag.com/j-b-hunt-intermodal-volumes-rise/",
+        "https://www.globaltrailermag.com/port-of-savannah-advances-e2-1b-project/"
       ],
       "visual": "visual"
     }
