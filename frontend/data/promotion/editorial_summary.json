@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-19T16:34:50+00:00",
-  "status": "nothing_planned",
+  "updated_at": "2026-10-20T11:57:14+00:00",
+  "status": "no_valid_email_target",
   "target_name": null,
   "title": null,
-  "detail": "Сегодня подходящего нового действия по отраслевым площадкам нет."
+  "detail": "Сегодня не найден новый действующий email-контакт для редакционного предложения."
 }
