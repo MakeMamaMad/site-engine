@@ -1,5 +1,23 @@
 [
   {
+    "source": "НЕФАЗ — новости",
+    "title": "Обновление заводской Аллеи Славы",
+    "link": "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
+    "summary": "На Аллее Славы ПАО «НЕФАЗ» обновлены фотографии работников предприятия.",
+    "content": "",
+    "image": "https://nefaz.ru/api/images?key=news-cover-draft-258a8a19_7676_41d1_9636_42cb24fa997d&amp;v=56be28a6-61a8-4111-aad6-e38872901876",
+    "published_at": "2026-10-21T12:27:42.781000+00:00",
+    "domain": "nefaz.ru",
+    "tags": [
+      "нефаз",
+      "российское производство",
+      "прицепы"
+    ],
+    "partner": false,
+    "id": "cc79e219ebf4",
+    "slug": "obnovlenie-zavodskoy-allei-slavy-cc79e219"
+  },
+  {
     "source": "TRUCKMIX — новости спецтехники и грузового транспорта",
     "title": "UMG запустила новое поколение тяжёлых автогрейдеров АГ-250",
     "link": "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250",
@@ -104,7 +122,7 @@
     "link": "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/",
     "summary": "Автоспортивная команда АЗ «УРАЛ» URAL MOTORSPORT успешно завершила финальный этап Чемпионата России по ралли-рейдам 2026 года – баху «Великая степь».",
     "content": "",
-    "image": "https://uralaz.ru/upload/resize_cache/webp/iblock/df7/4ms1ka9shd5sz47q0la8o12qk1lksl4n/photo_news_2026_10_19-_9_.webp",
+    "image": "https://uralaz.ru/upload/resize_cache/webp/upload/iblock/df7/4ms1ka9shd5sz47q0la8o12qk1lksl4n/photo_news_2026_10_19-_9_.webp",
     "published_at": "2026-10-19T16:21:08+00:00",
     "domain": "uralaz.ru",
     "tags": [
@@ -270,6 +288,29 @@
     "original_title": "Port of Los Angeles sets cargo record",
     "original_summary": "The Port of Los Angeles has recorded the busiest month in its 118-year history as increased container volumes flow through the major US freight gateway. The port processed 1,042,652 TEU in September, more than 20,000 TEU above its previous monthly record set in July 2025. The result also capped the busiest quarter in the port’s […] The post Port of Los Angeles sets cargo record appeared first on Global Trailer .",
     "category": "Уникальные факты"
+  },
+  {
+    "source": "Global Trailer — новости индустрии полуприцепов",
+    "title": "Контейнерные перевозки Суэцкого канала возобновились",
+    "link": "https://www.globaltrailermag.com/suez-canal-container-traffic-rebounds/",
+    "summary": "Контейнерное движение через Суэцкий канал набирает обороты, поскольку основные судоходные линии постепенно восстанавливают услуги через Красное море. Средняя пропускная способность контейнеровозов, проходящих через канал, достигла 753 000 TEU в неделю в течение первых двух недель октября, согласно данным Clarksons Research. Это составляет более половины [...] Контейнерные перевозки по Суэцкому каналу впервые появились на Global Trailer.",
+    "content": "Container traffic through the Suez Canal is gathering momentum as major shipping lines progressively restore services through the Red Sea.\n Average container ship capacity passing through the canal reached 753,000 TEU per week during the first two weeks of October, according to data from Clarksons Research cited by BIMCO. That represents more than half the comparable pre-disruption level of about 1.46 million TEU a week in 2023.\n The recovery follows moves by several major carriers to return selected services to the shorter Suez route.\n Maersk and Hapag-Lloyd announced in September that four additional Gemini Cooperation services, AE5, AE11, AE12 and ME2, would switch from the Cape of Good Hope to the trans-Suez route. The services connect Asian and Indian markets with Northern Europe and the Mediterranean.\n The carriers said the change would provide more efficient transit times, while cautioning that future routings remain dependent on stability in the Red Sea.\n MSC is also progressively restoring Suez transits. In August it announced the partial return of selected East-West services, followed in September by the westbound Indusa service connecting the Indian subcontinent with the US and Mexico.\n Recent figures show the effect of those decisions. Lloyd’s List Intelligence reported that containership traffic through Suez reached 2.19 million TEU during September, an increase of 40 per cent month-on-month, although still well below the 5.9 million TEU recorded in September 2023.\n The recovery remains incomplete. Freightos said on 15 October that all container alliances plus MSC were expected to send some vessels through the Red Sea by the end of October, but warned that renewed regional security risks could reverse the progress.\n For freight and logistics networks, continued restoration of Suez services would reduce reliance on the longer Cape of Good Hope routing and alter transit times and available container-shipping capacity between Asia and Europe.\n In other news, Kögel has opened a subsidiary in Poland. \n The post Suez Canal container traffic rebounds appeared first on Global Trailer .",
+    "image": "https://www.globaltrailermag.com/wp-content/uploads/2025/02/Suez-Canal-AdobeStock-Pumapala.jpg",
+    "published_at": "2026-10-19T03:15:32+00:00",
+    "domain": "www.globaltrailermag.com",
+    "tags": [
+      "полуприцепы",
+      "прицепы",
+      "иностранные",
+      "производители"
+    ],
+    "original_title": "Suez Canal container traffic rebounds",
+    "original_summary": "Container traffic through the Suez Canal is gathering momentum as major shipping lines progressively restore services through the Red Sea. Average container ship capacity passing through the canal reached 753,000 TEU per week during the first two weeks of October, according to data from Clarksons Research cited by BIMCO. That represents more than half the […] The post Suez Canal container traffic rebounds appeared first on Global Trailer .",
+    "translation_status": "ru",
+    "translation_source_lang": "en",
+    "translation_updated_at": "2026-10-21T15:18:11.676561+00:00",
+    "id": "1d3473d8799a",
+    "slug": "konteynernye-perevozki-suetskogo-kanala-vozobnovilis-1d3473d8"
   },
   {
     "source": "Сделано у нас — российское производство техники",
@@ -643,7 +684,7 @@
     "link": "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/",
     "summary": "24–25 октября в Твери команда URAL MOTORSPORT выступит на межрегиональных соревнованиях по трак-триалу и джип-триалу «Царь горы — 2026»",
     "content": "",
-    "image": "https://uralaz.ru/upload/resize_cache/webp/iblock/fd1/6nl90rcvcv4icia5wltqrlu8zofvdg96/TSar-gory_gorizont-2.webp",
+    "image": "https://uralaz.ru/upload/resize_cache/webp/upload/iblock/fd1/6nl90rcvcv4icia5wltqrlu8zofvdg96/TSar-gory_gorizont-2.webp",
     "published_at": "2026-10-14T11:17:57+00:00",
     "domain": "uralaz.ru",
     "tags": [
@@ -26856,7 +26897,7 @@
     "link": "https://uralaz.ru/media/news/uralpozhzashchita-5-let-na-strazhe-bezopasnosti/",
     "summary": "ООО «УралПожЗащита» отмечает свой первый юбилей — 5 лет со дня основания",
     "content": "",
-    "image": "https://uralaz.ru/upload/resize_cache/webp/iblock/ea2/0g7nnwxg4chcaexrar551h5ermqic398/b200K4244.webp",
+    "image": "https://uralaz.ru/upload/resize_cache/webp/upload/iblock/ea2/0g7nnwxg4chcaexrar551h5ermqic398/b200K4244.webp",
     "published_at": "2015-07-17T09:00:00+00:00",
     "domain": "uralaz.ru",
     "tags": [
@@ -27350,7 +27391,7 @@
     "link": "https://uralaz.ru/media/news/ural-motorsport-vystupit-na-bakhe-velikaya-step/",
     "summary": "URAL MOTORSPORT выступит на бахе «Великая степь» — финальном этапе Чемпионата России по ралли-рейдам 2026 года в грузовом зачете",
     "content": "",
-    "image": "https://uralaz.ru/upload/resize_cache/webp/iblock/d53/bm24yotbdrtzpvxd9eikdzczxmn1x32y/news_photo_2026_10_08-_5_.webp",
+    "image": "https://uralaz.ru/upload/resize_cache/webp/upload/iblock/d53/bm24yotbdrtzpvxd9eikdzczxmn1x32y/news_photo_2026_10_08-_5_.webp",
     "published_at": null,
     "domain": "uralaz.ru",
     "tags": [
@@ -27387,7 +27428,7 @@
     "link": "https://uralaz.ru/media/news/uralskiy-rubezh-chetyre-dnya-borby/",
     "summary": "Третий этап чемпионата России по ралли-рейдам — баха «Уральский рубеж», генеральным спонсором которого выступил Автомобильный завод «УРАЛ», завершился в Миассе",
     "content": "",
-    "image": "https://uralaz.ru/upload/resize_cache/webp/iblock/fb3/90qenrr7hj5lj2pubai55iv86yh4la5w/new_photo_2026_09_21-_7_.webp",
+    "image": "https://uralaz.ru/upload/resize_cache/webp/upload/iblock/fb3/90qenrr7hj5lj2pubai55iv86yh4la5w/new_photo_2026_09_21-_7_.webp",
     "published_at": null,
     "domain": "uralaz.ru",
     "tags": [
@@ -27405,7 +27446,7 @@
     "link": "https://uralaz.ru/media/news/avtomobilnyy-zavod-ural-predstavil-novinki-na-vystavke-spetsmashekspo-2026/",
     "summary": "Выставка отечественной специальной и дорожно-строительной техники «СпецМашЭкспо» уже в четвёртый раз состоялась в Копейске в районе аэродрома «Калачёво»",
     "content": "",
-    "image": "https://uralaz.ru/upload/resize_cache/webp/upload/iblock/c5c/p3ix9bm9z3nl8vq7948ds3kqq8mv290f/photo_news_2026_09_10-_5_.webp",
+    "image": "https://uralaz.ru/upload/resize_cache/webp/iblock/c5c/p3ix9bm9z3nl8vq7948ds3kqq8mv290f/photo_news_2026_09_10-_5_.webp",
     "published_at": null,
     "domain": "uralaz.ru",
     "tags": [
