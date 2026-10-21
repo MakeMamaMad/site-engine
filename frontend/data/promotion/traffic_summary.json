@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-20T20:44:48+00:00",
+  "updated_at": "2026-10-21T20:45:09+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -9,46 +9,36 @@
       "source": "sdelanounas",
       "medium": "editorial",
       "campaign": "industry_promotion",
-      "visits": 6,
-      "users": 6,
-      "bounce_rate": 50.0,
+      "visits": 8,
+      "users": 8,
+      "bounce_rate": 37.5,
       "page_depth": 1.0,
-      "avg_visit_duration_seconds": 9
-    },
-    {
-      "source": "logistics360-editorial",
-      "medium": "editorial",
-      "campaign": "industry_editorial",
-      "visits": 2,
-      "users": 2,
-      "bounce_rate": 50.0,
-      "page_depth": 1.0,
-      "avg_visit_duration_seconds": 8
+      "avg_visit_duration_seconds": 15
     },
     {
       "source": "telegram",
       "medium": "social",
       "campaign": "news",
       "visits": 2,
-      "users": 1,
+      "users": 2,
       "bounce_rate": 50.0,
       "page_depth": 1.0,
-      "avg_visit_duration_seconds": 8
+      "avg_visit_duration_seconds": 21
     },
     {
-      "source": "infotrans-by",
+      "source": "logistics360-editorial",
       "medium": "editorial",
       "campaign": "industry_editorial",
       "visits": 1,
       "users": 1,
-      "bounce_rate": 100.0,
+      "bounce_rate": 0.0,
       "page_depth": 1.0,
-      "avg_visit_duration_seconds": 0
+      "avg_visit_duration_seconds": 15
     }
   ],
   "totals": {
     "visits": 11,
-    "users": 10
+    "users": 11
   },
   "sampled": false,
   "sample_share": 1.0

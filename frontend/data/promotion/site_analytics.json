@@ -1,28 +1,36 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-20T20:45:22+00:00",
+  "updated_at": "2026-10-21T20:45:41+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 76,
-    "users": 62,
+    "visits": 81,
+    "users": 69,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 41,
-        "users": 34,
-        "bounce_rate": 9.8,
-        "page_depth": 1.05
+        "visits": 45,
+        "users": 37,
+        "bounce_rate": 13.3,
+        "page_depth": 1.02
       },
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 20,
-        "users": 16,
-        "bounce_rate": 55.0,
-        "page_depth": 1.1
+        "visits": 17,
+        "users": 13,
+        "bounce_rate": 58.8,
+        "page_depth": 1.0
+      },
+      {
+        "id": "referral",
+        "name": "Переходы по ссылкам на сайтах",
+        "visits": 8,
+        "users": 8,
+        "bounce_rate": 50.0,
+        "page_depth": 1.0
       },
       {
         "id": "ad",
@@ -35,25 +43,17 @@
       {
         "id": "internal",
         "name": "Внутренние переходы",
-        "visits": 5,
-        "users": 4,
-        "bounce_rate": 60.0,
-        "page_depth": 1.2
-      },
-      {
-        "id": "referral",
-        "name": "Переходы по ссылкам на сайтах",
-        "visits": 2,
-        "users": 2,
-        "bounce_rate": 100.0,
-        "page_depth": 1.0
+        "visits": 3,
+        "users": 3,
+        "bounce_rate": 66.7,
+        "page_depth": 1.33
       },
       {
         "id": "messenger",
         "name": "Переходы из мессенджеров",
         "visits": 1,
         "users": 1,
-        "bounce_rate": 100.0,
+        "bounce_rate": 0.0,
         "page_depth": 1.0
       }
     ]
