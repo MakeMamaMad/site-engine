@@ -1604,6 +1604,36 @@
         }
       },
       "updated_at": "2026-10-20T14:25:30.835315+00:00"
+    },
+    "5b9ea4c62a0e": {
+      "title": "На ОЭЗ «Алабуга» запустили производство автобусов и фургонов Sollers SF7",
+      "created_at": "2026-10-21T08:10:51.641286+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "o_IGUT6cIYc",
+          "url": "https://www.youtube.com/shorts/o_IGUT6cIYc",
+          "updated_at": "2026-10-21T08:10:51.641304+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad8738c8f60cd81e648c29a",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-21T08:12:39.805133+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad873f8b8dc5f69a38995be",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-21T08:13:36.954561+00:00"
+        }
+      },
+      "updated_at": "2026-10-21T08:13:36.954558+00:00"
     }
   }
 }

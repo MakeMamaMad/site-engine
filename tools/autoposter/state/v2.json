@@ -54,7 +54,8 @@
     "ce0f234197ce",
     "guide:skolko-pallet",
     "68cbc70902db",
-    "testdrive:sat500#1"
+    "testdrive:sat500#1",
+    "5b9ea4c62a0e"
   ],
   "renders": [
     {
@@ -433,6 +434,13 @@
       "slug": "",
       "title": "SAT-500: алюминиевый самосвал — запишитесь на тест-драйв",
       "created_at": "2026-10-20T14:25:30.837425+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "5b9ea4c62a0e",
+      "slug": "na-oez-alabuga-zapustili-proizvodstvo-avtobusov-i-furgonov-sollers-sf7-5b9ea4c6",
+      "title": "На ОЭЗ «Алабуга» запустили производство автобусов и фургонов Sollers SF7",
+      "created_at": "2026-10-21T08:13:36.956566+00:00",
       "format": "social-v2"
     }
   ]
