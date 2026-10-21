@@ -565,6 +565,21 @@
       "status": "verified_in_author_cabinet",
       "last_public_check_at": "2026-10-21T14:08:55+00:00",
       "public_status": "pending"
+    },
+    {
+      "target_id": "sdelanounas",
+      "target_name": "Сделано у нас",
+      "item_key": "news:d6f8d2c51e7a",
+      "title": "UMG запустила новое поколение тяжёлых автогрейдеров АГ-250",
+      "source_url": "https://spec-avtoportal.ru/news/umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5/?utm_source=sdelanounas&utm_medium=editorial&utm_campaign=industry_promotion&utm_content=umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5",
+      "result_url": "https://sdelanounas.ru/yandexmaps/addPoint/?id=178973",
+      "category_id": "149",
+      "submitted_at": "2026-10-21T14:31:02+00:00",
+      "status": "published",
+      "last_public_check_at": "2026-10-21T14:31:02+00:00",
+      "public_status": "published",
+      "public_url": "https://sdelanounas.ru/blogs/178973/",
+      "published_at": "2026-10-21T14:31:04+00:00"
     }
   ]
 }
