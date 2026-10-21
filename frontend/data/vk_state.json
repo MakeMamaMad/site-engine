@@ -1390,6 +1390,27 @@
       "sent_at": "2026-10-20T12:01:27+00:00",
       "title": "Порт Саванны продвигает проект стоимостью 2,1 млрд евро",
       "slug": "port-savanny-prodvigaet-proekt-stoimostyu-2-1-mlrd-evro-2e5b8968"
+    },
+    "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250": {
+      "digest_id": "2026-10-21:am",
+      "post_id": 139,
+      "sent_at": "2026-10-21T11:39:58+00:00",
+      "title": "UMG запустила новое поколение тяжёлых автогрейдеров АГ-250",
+      "slug": "umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5"
+    },
+    "http://gruzovoy.ru/news/industry/3403_eksplyataciya_kitaiskih_i_evropeiskih_tyagachei_na_bolshih_probegah_opit_intra_logistiks.html": {
+      "digest_id": "2026-10-21:am",
+      "post_id": 139,
+      "sent_at": "2026-10-21T11:39:58+00:00",
+      "title": "Эксплуатация китайских и европейских тягачей на больших пробегах. Опыт «Интра Логистикс»",
+      "slug": "ekspluatatsiya-kitayskih-i-evropeyskih-tyagachey-na-bolshih-probegah-opy-71030c16"
+    },
+    "https://sdelanounas.ru/blogs/178948/": {
+      "digest_id": "2026-10-21:am",
+      "post_id": 139,
+      "sent_at": "2026-10-21T11:39:58+00:00",
+      "title": "На ОЭЗ «Алабуга» запустили производство автобусов и фургонов Sollers SF7",
+      "slug": "na-oez-alabuga-zapustili-proizvodstvo-avtobusov-i-furgonov-sollers-sf7-5b9ea4c6"
     }
   },
   "digests": {
@@ -1805,6 +1826,17 @@
         "https://www.globaltrailermag.com/suez-canal-container-traffic-rebounds/",
         "https://www.globaltrailermag.com/maxiparts-completes-acquisition/",
         "https://www.globaltrailermag.com/port-of-savannah-advances-e2-1b-project/"
+      ]
+    },
+    "2026-10-21:am": {
+      "post_id": 139,
+      "sent_at": "2026-10-21T11:39:58+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250",
+        "http://gruzovoy.ru/news/industry/3403_eksplyataciya_kitaiskih_i_evropeiskih_tyagachei_na_bolshih_probegah_opit_intra_logistiks.html",
+        "https://sdelanounas.ru/blogs/178948/"
       ]
     }
   }
