@@ -1634,6 +1634,36 @@
         }
       },
       "updated_at": "2026-10-21T08:13:36.954558+00:00"
+    },
+    "d6f8d2c51e7a": {
+      "title": "UMG выпустила новое поколение тяжёлых автогрейдеров АГ-250",
+      "created_at": "2026-10-21T17:10:30.411117+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "MHCNk2jPT94",
+          "url": "https://www.youtube.com/shorts/MHCNk2jPT94",
+          "updated_at": "2026-10-21T17:10:30.411138+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad8f207df7c066e7e6db8ea",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-21T17:12:20.199081+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad8f275219119c5b61e117f",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-21T17:13:23.443444+00:00"
+        }
+      },
+      "updated_at": "2026-10-21T17:13:23.443442+00:00"
     }
   }
 }
