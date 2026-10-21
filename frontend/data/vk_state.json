@@ -1400,9 +1400,9 @@
       "slug": "port-savanny-prodvigaet-proekt-stoimostyu-2-1-mlrd-evro-2e5b8968"
     },
     "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250": {
-      "digest_id": "2026-10-21:am",
-      "post_id": 139,
-      "sent_at": "2026-10-21T11:39:58+00:00",
+      "digest_id": "2026-10-21:pm",
+      "post_id": 141,
+      "sent_at": "2026-10-21T12:16:32+00:00",
       "title": "UMG запустила новое поколение тяжёлых автогрейдеров АГ-250",
       "slug": "umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5"
     },
@@ -1419,6 +1419,20 @@
       "sent_at": "2026-10-21T11:39:58+00:00",
       "title": "На ОЭЗ «Алабуга» запустили производство автобусов и фургонов Sollers SF7",
       "slug": "na-oez-alabuga-zapustili-proizvodstvo-avtobusov-i-furgonov-sollers-sf7-5b9ea4c6"
+    },
+    "http://gruzovoy.ru/news/industry/3401_sybsidirovat_lizing_iz_ytilsbora_shema_spaseniya_rinka_gryzoperevozok_ot_gendirektora_levsars.html": {
+      "digest_id": "2026-10-21:pm",
+      "post_id": 141,
+      "sent_at": "2026-10-21T12:16:32+00:00",
+      "title": "Субсидировать лизинг из утильсбора: схема спасения рынка грузоперевозок от гендиректора «Левсарс»",
+      "slug": "subsidirovat-lizing-iz-utilsbora-shema-spaseniya-rynka-gruzoperevozok-ot-8a7d82d3"
+    },
+    "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/": {
+      "digest_id": "2026-10-21:pm",
+      "post_id": 141,
+      "sent_at": "2026-10-21T12:16:32+00:00",
+      "title": "URAL MOTORSPORT финишировал в числе шести сильнейших на бахе «Великая степь»",
+      "slug": "ural-motorsport-finishiroval-v-chisle-shesti-silneyshih-na-bahe-velikaya-c906e531"
     }
   },
   "digests": {
@@ -1845,6 +1859,17 @@
         "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250",
         "http://gruzovoy.ru/news/industry/3403_eksplyataciya_kitaiskih_i_evropeiskih_tyagachei_na_bolshih_probegah_opit_intra_logistiks.html",
         "https://sdelanounas.ru/blogs/178948/"
+      ]
+    },
+    "2026-10-21:pm": {
+      "post_id": 141,
+      "sent_at": "2026-10-21T12:16:32+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3401_sybsidirovat_lizing_iz_ytilsbora_shema_spaseniya_rinka_gryzoperevozok_ot_gendirektora_levsars.html",
+        "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/",
+        "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250"
       ]
     }
   }
