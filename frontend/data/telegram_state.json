@@ -1566,20 +1566,30 @@
       "sent_at": "2026-10-20T17:03:19+00:00",
       "title": "Порт Саванны продвигает проект стоимостью 2,1 млрд евро",
       "slug": "port-savanny-prodvigaet-proekt-stoimostyu-2-1-mlrd-evro-2e5b8968"
+    },
+    "https://www.globaltrailermag.com/aegis-logistics-to-acquire-tristar/": {
+      "digest_id": "2026-10-21:am",
+      "message_id": 1638,
+      "sent_at": "2026-10-21T11:39:50+00:00",
+      "title": "Aegis Logistics приобретает компанию Tristar",
+      "slug": "aegis-logistics-priobretaet-kompaniyu-tristar-fe0a0064"
+    },
+    "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/": {
+      "digest_id": "2026-10-21:am",
+      "message_id": 1638,
+      "sent_at": "2026-10-21T11:39:50+00:00",
+      "title": "KazAgroFarm 2026: «Спецавтотехника» представит полуприцепы SAT500 и SAT47K",
+      "slug": "kazagrofarm-2026-spetsavtotehnika-predstavit-polupritsepy-sat500-i-sat47-68cbc709"
+    },
+    "https://sdelanounas.ru/blogs/178948/": {
+      "digest_id": "2026-10-21:am",
+      "message_id": 1638,
+      "sent_at": "2026-10-21T11:39:50+00:00",
+      "title": "На ОЭЗ «Алабуга» запустили производство автобусов и фургонов Sollers SF7",
+      "slug": "na-oez-alabuga-zapustili-proizvodstvo-avtobusov-i-furgonov-sollers-sf7-5b9ea4c6"
     }
   },
   "digests": {
-    "2026-09-30:am": {
-      "message_id": 1519,
-      "sent_at": "2026-09-30T09:31:11+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/stoughton-unveils-reefer-container/",
-        "https://www.globaltrailermag.com/romac-logistics-bolsters-fleet-with-100-reefers/",
-        "https://www.globaltrailermag.com/michelin-wins-dhl-ev-fleet-tyre-contract/"
-      ],
-      "visual": "visual"
-    },
     "2026-09-30:pm": {
       "message_id": 1520,
       "sent_at": "2026-09-30T12:51:45+00:00",
@@ -1896,6 +1906,17 @@
         "http://gruzovoy.ru/news/industry/3403_eksplyataciya_kitaiskih_i_evropeiskih_tyagachei_na_bolshih_probegah_opit_intra_logistiks.html",
         "https://www.globaltrailermag.com/j-b-hunt-intermodal-volumes-rise/",
         "https://www.globaltrailermag.com/port-of-savannah-advances-e2-1b-project/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-21:am": {
+      "message_id": 1638,
+      "sent_at": "2026-10-21T11:39:50+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/aegis-logistics-to-acquire-tristar/",
+        "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
+        "https://sdelanounas.ru/blogs/178948/"
       ],
       "visual": "visual"
     }
