@@ -1424,9 +1424,9 @@
       "slug": "port-savanny-prodvigaet-proekt-stoimostyu-2-1-mlrd-evro-2e5b8968"
     },
     "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250": {
-      "digest_id": "2026-10-21:pm",
-      "post_id": 141,
-      "sent_at": "2026-10-21T12:16:32+00:00",
+      "digest_id": "2026-10-22:pm",
+      "post_id": 146,
+      "sent_at": "2026-10-22T12:18:06+00:00",
       "title": "UMG запустила новое поколение тяжёлых автогрейдеров АГ-250",
       "slug": "umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5"
     },
@@ -1466,16 +1466,16 @@
       "slug": "kuehne-nagel-perevel-8-mlrd-na-q3-2026-bd896506"
     },
     "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy": {
-      "digest_id": "2026-10-22:am",
-      "post_id": 144,
-      "sent_at": "2026-10-22T11:39:35+00:00",
+      "digest_id": "2026-10-22:pm",
+      "post_id": 146,
+      "sent_at": "2026-10-22T12:18:06+00:00",
       "title": "Обновление заводской Аллеи Славы",
       "slug": "obnovlenie-zavodskoy-allei-slavy-cc79e219"
     },
     "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026": {
-      "digest_id": "2026-10-22:am",
-      "post_id": 144,
-      "sent_at": "2026-10-22T11:39:35+00:00",
+      "digest_id": "2026-10-22:pm",
+      "post_id": 146,
+      "sent_at": "2026-10-22T12:18:06+00:00",
       "title": "Выставка MOTOR на выставке AAPEX 2026",
       "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9"
     }
@@ -1926,6 +1926,17 @@
         "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/",
         "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
         "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026"
+      ]
+    },
+    "2026-10-22:pm": {
+      "post_id": 146,
+      "sent_at": "2026-10-22T12:18:06+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026",
+        "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250",
+        "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy"
       ]
     }
   }
