@@ -1449,6 +1449,27 @@
       "sent_at": "2026-10-21T12:16:32+00:00",
       "title": "URAL MOTORSPORT финишировал в числе шести сильнейших на бахе «Великая степь»",
       "slug": "ural-motorsport-finishiroval-v-chisle-shesti-silneyshih-na-bahe-velikaya-c906e531"
+    },
+    "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/": {
+      "digest_id": "2026-10-22:am",
+      "post_id": 144,
+      "sent_at": "2026-10-22T11:39:35+00:00",
+      "title": "Kuehne+ Нагель перевел €8 млрд на Q3 2026",
+      "slug": "kuehne-nagel-perevel-8-mlrd-na-q3-2026-bd896506"
+    },
+    "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy": {
+      "digest_id": "2026-10-22:am",
+      "post_id": 144,
+      "sent_at": "2026-10-22T11:39:35+00:00",
+      "title": "Обновление заводской Аллеи Славы",
+      "slug": "obnovlenie-zavodskoy-allei-slavy-cc79e219"
+    },
+    "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026": {
+      "digest_id": "2026-10-22:am",
+      "post_id": 144,
+      "sent_at": "2026-10-22T11:39:35+00:00",
+      "title": "Выставка MOTOR на выставке AAPEX 2026",
+      "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9"
     }
   },
   "digests": {
@@ -1886,6 +1907,17 @@
         "http://gruzovoy.ru/news/industry/3401_sybsidirovat_lizing_iz_ytilsbora_shema_spaseniya_rinka_gryzoperevozok_ot_gendirektora_levsars.html",
         "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/",
         "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250"
+      ]
+    },
+    "2026-10-22:am": {
+      "post_id": 144,
+      "sent_at": "2026-10-22T11:39:35+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/",
+        "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
+        "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026"
       ]
     }
   }
