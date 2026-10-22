@@ -1609,16 +1609,16 @@
       "slug": "kazagrofarm-2026-spetsavtotehnika-predstavit-polupritsepy-sat500-i-sat47-68cbc709"
     },
     "https://sdelanounas.ru/blogs/178948/": {
-      "digest_id": "2026-10-21:am",
-      "message_id": 1638,
-      "sent_at": "2026-10-21T11:39:50+00:00",
+      "digest_id": "2026-10-22:pm",
+      "message_id": 1644,
+      "sent_at": "2026-10-22T12:11:36+00:00",
       "title": "На ОЭЗ «Алабуга» запустили производство автобусов и фургонов Sollers SF7",
       "slug": "na-oez-alabuga-zapustili-proizvodstvo-avtobusov-i-furgonov-sollers-sf7-5b9ea4c6"
     },
     "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250": {
-      "digest_id": "2026-10-21:pm",
-      "message_id": 1639,
-      "sent_at": "2026-10-21T12:08:20+00:00",
+      "digest_id": "2026-10-22:pm",
+      "message_id": 1644,
+      "sent_at": "2026-10-22T12:11:36+00:00",
       "title": "UMG запустила новое поколение тяжёлых автогрейдеров АГ-250",
       "slug": "umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5"
     },
@@ -1630,9 +1630,9 @@
       "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9"
     },
     "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy": {
-      "digest_id": "2026-10-22:am",
-      "message_id": 1643,
-      "sent_at": "2026-10-22T11:39:37+00:00",
+      "digest_id": "2026-10-22:pm",
+      "message_id": 1644,
+      "sent_at": "2026-10-22T12:11:36+00:00",
       "title": "Обновление заводской Аллеи Славы",
       "slug": "obnovlenie-zavodskoy-allei-slavy-cc79e219"
     },
@@ -1645,17 +1645,6 @@
     }
   },
   "digests": {
-    "2026-10-02:am": {
-      "message_id": 1531,
-      "sent_at": "2026-10-02T07:15:35+00:00",
-      "slot": "am",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3384_stavka_na_servis_effektivnost_i_ludei_chto_obsyjdali_na_konferencii_realnii_komtrans_2026.html",
-        "https://www.globaltrailermag.com/wielton-revenue-jumps-19-per-cent-across-europe/",
-        "http://gruzovoy.ru/news/industry/3381_ot_prodaj_k_lokalizacii_chto_jdyot_kitaiskie_gryzoviki_na_rossiiskom_rinke.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-02:pm": {
       "message_id": 1534,
       "sent_at": "2026-10-02T12:57:15+00:00",
@@ -1972,6 +1961,17 @@
         "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026",
         "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
         "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-22:pm": {
+      "message_id": 1644,
+      "sent_at": "2026-10-22T12:11:36+00:00",
+      "slot": "pm",
+      "items": [
+        "https://sdelanounas.ru/blogs/178948/",
+        "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
+        "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250"
       ],
       "visual": "visual"
     }
