@@ -1621,20 +1621,30 @@
       "sent_at": "2026-10-21T12:08:20+00:00",
       "title": "UMG запустила новое поколение тяжёлых автогрейдеров АГ-250",
       "slug": "umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5"
+    },
+    "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026": {
+      "digest_id": "2026-10-22:am",
+      "message_id": 1643,
+      "sent_at": "2026-10-22T11:39:37+00:00",
+      "title": "Выставка MOTOR на выставке AAPEX 2026",
+      "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9"
+    },
+    "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy": {
+      "digest_id": "2026-10-22:am",
+      "message_id": 1643,
+      "sent_at": "2026-10-22T11:39:37+00:00",
+      "title": "Обновление заводской Аллеи Славы",
+      "slug": "obnovlenie-zavodskoy-allei-slavy-cc79e219"
+    },
+    "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/": {
+      "digest_id": "2026-10-22:am",
+      "message_id": 1643,
+      "sent_at": "2026-10-22T11:39:37+00:00",
+      "title": "Kuehne+ Нагель перевел €8 млрд на Q3 2026",
+      "slug": "kuehne-nagel-perevel-8-mlrd-na-q3-2026-bd896506"
     }
   },
   "digests": {
-    "2026-10-01:pm": {
-      "message_id": 1529,
-      "sent_at": "2026-10-01T12:59:46+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/double-deck-innovation-to-maximise-capacity-and-flexibility/",
-        "https://trailertechnician.com/2026/09/bendix-bowling-green-plant-earns-safety-award/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-bowling-green-plant-earns-safety-award",
-        "https://www.globaltrailermag.com/schmitz-cargobull-delivers-e2-25b-revenue-growth/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-02:am": {
       "message_id": 1531,
       "sent_at": "2026-10-02T07:15:35+00:00",
@@ -1951,6 +1961,17 @@
         "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250",
         "https://www.globaltrailermag.com/aegis-logistics-to-acquire-tristar/",
         "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-22:am": {
+      "message_id": 1643,
+      "sent_at": "2026-10-22T11:39:37+00:00",
+      "slot": "am",
+      "items": [
+        "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026",
+        "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
+        "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/"
       ],
       "visual": "visual"
     }
