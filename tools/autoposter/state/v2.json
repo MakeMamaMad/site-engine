@@ -56,7 +56,8 @@
     "68cbc70902db",
     "testdrive:sat500#1",
     "5b9ea4c62a0e",
-    "d6f8d2c51e7a"
+    "d6f8d2c51e7a",
+    "a53b0bb97ad3"
   ],
   "renders": [
     {
@@ -449,6 +450,13 @@
       "slug": "umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5",
       "title": "UMG выпустила новое поколение тяжёлых автогрейдеров АГ-250",
       "created_at": "2026-10-21T17:13:23.445806+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "a53b0bb97ad3",
+      "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9",
+      "title": "MOTOR представит решения на AAPEX 2026",
+      "created_at": "2026-10-22T08:16:04.975314+00:00",
       "format": "social-v2"
     }
   ]

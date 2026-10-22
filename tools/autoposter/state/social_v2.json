@@ -1664,6 +1664,36 @@
         }
       },
       "updated_at": "2026-10-21T17:13:23.443442+00:00"
+    },
+    "a53b0bb97ad3": {
+      "title": "MOTOR представит решения на AAPEX 2026",
+      "created_at": "2026-10-22T08:12:01.492716+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "Eok8rPOB4ms",
+          "url": "https://www.youtube.com/shorts/Eok8rPOB4ms",
+          "updated_at": "2026-10-22T08:12:01.492739+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ad9c552c0efd57f50730568",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-22T08:13:50.447092+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6ad9c5bf79fee8e4440f4b29",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-22T08:16:04.973445+00:00"
+        }
+      },
+      "updated_at": "2026-10-22T08:16:04.973438+00:00"
     }
   }
 }
