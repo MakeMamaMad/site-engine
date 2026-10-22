@@ -1,10 +1,11 @@
 {
   "schema": 1,
   "date_moscow": "2026-10-22",
-  "sent_at": "2026-10-22T11:39:14+00:00",
-  "task_count": 3,
+  "sent_at": "2026-10-22T15:49:40+00:00",
+  "task_count": 4,
   "action_ids": [
     "editorial:mexzona:gabarity-i-massy",
+    "editorial:mexzona:kak-razmestit-gruz-v-evrofure",
     "editorial:mexzona:kak-vybrat-polupricep",
     "editorial:mexzona:tehnicheskoe-obsluzhivanie-polupricepa"
   ]
