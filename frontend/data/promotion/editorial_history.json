@@ -580,6 +580,15 @@
       "public_status": "published",
       "public_url": "https://sdelanounas.ru/blogs/178973/",
       "published_at": "2026-10-21T14:31:04+00:00"
+    },
+    {
+      "target_id": "mexzona",
+      "target_name": "MEXZONA.RU",
+      "slug": "kak-razmestit-gruz-v-evrofure",
+      "title": "Как разместить груз в еврофуре: схемы для 20, 23 и 25 тонн",
+      "site_url": "https://spec-avtoportal.ru/knowledge/kak-razmestit-gruz-v-evrofure/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kak-razmestit-gruz-v-evrofure",
+      "created_at": "2026-10-22T11:53:54+00:00",
+      "status": "manual_fallback"
     }
   ]
 }
