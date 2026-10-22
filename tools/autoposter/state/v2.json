@@ -57,7 +57,8 @@
     "testdrive:sat500#1",
     "5b9ea4c62a0e",
     "d6f8d2c51e7a",
-    "a53b0bb97ad3"
+    "a53b0bb97ad3",
+    "sat:sat118-grain"
   ],
   "renders": [
     {
@@ -457,6 +458,13 @@
       "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9",
       "title": "MOTOR представит решения на AAPEX 2026",
       "created_at": "2026-10-22T08:16:04.975314+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "sat:sat118-grain",
+      "slug": "",
+      "title": "SAT118: стальной зерновоз на 50 кубов",
+      "created_at": "2026-10-22T16:15:53.750248+00:00",
       "format": "social-v2"
     }
   ]
