@@ -1669,20 +1669,30 @@
       "sent_at": "2026-10-22T11:39:37+00:00",
       "title": "Kuehne+ Нагель перевел €8 млрд на Q3 2026",
       "slug": "kuehne-nagel-perevel-8-mlrd-na-q3-2026-bd896506"
+    },
+    "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg": {
+      "digest_id": "2026-10-23:am",
+      "message_id": 1648,
+      "sent_at": "2026-10-23T11:29:04+00:00",
+      "title": "«Синотех Машинери» начала поставки в Россию модернизированных бульдозеров HBXG",
+      "slug": "sinoteh-mashineri-nachala-postavki-v-rossiyu-modernizirovannyh-buldozero-8fdbb486"
+    },
+    "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/": {
+      "digest_id": "2026-10-23:am",
+      "message_id": 1648,
+      "sent_at": "2026-10-23T11:29:04+00:00",
+      "title": "DSV восстанавливается после сбоя Schenker",
+      "slug": "dsv-vosstanavlivaetsya-posle-sboya-schenker-c2637ff8"
+    },
+    "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/": {
+      "digest_id": "2026-10-23:am",
+      "message_id": 1648,
+      "sent_at": "2026-10-23T11:29:04+00:00",
+      "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
+      "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0"
     }
   },
   "digests": {
-    "2026-10-02:pm": {
-      "message_id": 1534,
-      "sent_at": "2026-10-02T12:57:15+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/dhl-express-names-hong-kong-macau-chief/",
-        "https://www.globaltrailermag.com/kogel-reflects-on-e-trailer-innovation-award-win/",
-        "https://truckmix.ru/news/zavod-tverskoi-ekskavator-prazdnyet-83-letie"
-      ],
-      "visual": "visual"
-    },
     "2026-10-05:am": {
       "message_id": 1540,
       "sent_at": "2026-10-05T07:09:58+00:00",
@@ -1999,6 +2009,17 @@
         "https://sdelanounas.ru/blogs/178948/",
         "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
         "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-23:am": {
+      "message_id": 1648,
+      "sent_at": "2026-10-23T11:29:04+00:00",
+      "slot": "am",
+      "items": [
+        "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg",
+        "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
+        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
       ],
       "visual": "visual"
     }
