@@ -1497,9 +1497,9 @@
       "slug": "obnovlenie-zavodskoy-allei-slavy-cc79e219"
     },
     "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026": {
-      "digest_id": "2026-10-22:pm",
-      "post_id": 146,
-      "sent_at": "2026-10-22T12:18:06+00:00",
+      "digest_id": "2026-10-23:pm",
+      "post_id": 151,
+      "sent_at": "2026-10-23T16:57:36+00:00",
       "title": "Выставка MOTOR на выставке AAPEX 2026",
       "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9"
     },
@@ -1511,16 +1511,16 @@
       "slug": "dsv-vosstanavlivaetsya-posle-sboya-schenker-c2637ff8"
     },
     "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg": {
-      "digest_id": "2026-10-23:am",
-      "post_id": 149,
-      "sent_at": "2026-10-23T11:29:07+00:00",
+      "digest_id": "2026-10-23:pm",
+      "post_id": 151,
+      "sent_at": "2026-10-23T16:57:36+00:00",
       "title": "«Синотех Машинери» начала поставки в Россию модернизированных бульдозеров HBXG",
       "slug": "sinoteh-mashineri-nachala-postavki-v-rossiyu-modernizirovannyh-buldozero-8fdbb486"
     },
     "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/": {
-      "digest_id": "2026-10-23:am",
-      "post_id": 149,
-      "sent_at": "2026-10-23T11:29:07+00:00",
+      "digest_id": "2026-10-23:pm",
+      "post_id": 151,
+      "sent_at": "2026-10-23T16:57:36+00:00",
       "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
       "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0"
     }
@@ -1993,6 +1993,17 @@
         "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
         "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg",
         "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
+      ]
+    },
+    "2026-10-23:pm": {
+      "post_id": 151,
+      "sent_at": "2026-10-23T16:57:36+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/",
+        "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg",
+        "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026"
       ]
     }
   }
