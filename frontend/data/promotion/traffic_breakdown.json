@@ -1,33 +1,33 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-22T20:40:41+00:00",
+  "updated_at": "2026-10-23T20:33:29+00:00",
   "counter_id": "106240080",
   "last_7_days": {
     "sources": {
       "rows": [
         {
           "key": "Search engine traffic / Yandex",
-          "visits": 39,
-          "users": 30,
-          "bounce": 10.3,
-          "depth": 1.1,
-          "duration_s": 57
-        },
-        {
-          "key": "Direct traffic / —",
-          "visits": 17,
-          "users": 13,
-          "bounce": 58.8,
-          "depth": 1.0,
-          "duration_s": 10
+          "visits": 34,
+          "users": 27,
+          "bounce": 8.8,
+          "depth": 1.12,
+          "duration_s": 63
         },
         {
           "key": "Search engine traffic / Google",
-          "visits": 12,
-          "users": 12,
+          "visits": 18,
+          "users": 17,
           "bounce": 16.7,
+          "depth": 1.06,
+          "duration_s": 15
+        },
+        {
+          "key": "Direct traffic / —",
+          "visits": 14,
+          "users": 11,
+          "bounce": 57.1,
           "depth": 1.0,
-          "duration_s": 16
+          "duration_s": 11
         },
         {
           "key": "Link traffic / sdelanounas.ru",
@@ -79,11 +79,11 @@
         }
       ],
       "totals": [
-        89.0,
+        87.0,
         76.0,
-        30.34,
-        1.06,
-        45.15
+        28.74,
+        1.07,
+        46.1
       ]
     },
     "referrers": {
@@ -126,14 +126,6 @@
     "search_phrases": {
       "rows": [
         {
-          "key": "приказ минтранса №212 от 12.05.2026",
-          "visits": 2,
-          "users": 1,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 16
-        },
-        {
           "key": "Калькулятор нагрузки на ось автокрана",
           "visits": 1,
           "users": 1,
@@ -172,14 +164,6 @@
           "bounce": 0.0,
           "depth": 1.0,
           "duration_s": 15
-        },
-        {
-          "key": "как рассчитать нагрузку на ось грузового автомобиля с полуприцепом калькулятор",
-          "visits": 1,
-          "users": 1,
-          "bounce": 100.0,
-          "depth": 1.0,
-          "duration_s": 0
         },
         {
           "key": "какие документы нужны для полуприцепа",
@@ -246,20 +230,20 @@
           "duration_s": 24
         },
         {
-          "key": "онлайн калькулятор распределения груза в фуре",
-          "visits": 1,
-          "users": 1,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 17
-        },
-        {
           "key": "приказ минтранса 212 от 12.05.2026",
           "visits": 1,
           "users": 1,
           "bounce": 0.0,
           "depth": 1.0,
           "duration_s": 15
+        },
+        {
+          "key": "приказ минтранса №212 от 12.05.2026",
+          "visits": 1,
+          "users": 1,
+          "bounce": 0.0,
+          "depth": 1.0,
+          "duration_s": 16
         },
         {
           "key": "пришел штраф юрлицу платон за повторное нарушение 5000 а не 10000 форум",
@@ -318,39 +302,39 @@
           "duration_s": 15
         },
         {
-          "key": "расчет нагрузки по осьям",
+          "key": "расчет нагрузок на оси автопоезда калькулятор",
           "visits": 1,
           "users": 1,
           "bounce": 0.0,
           "depth": 1.0,
-          "duration_s": 27
+          "duration_s": 24
         }
       ],
       "totals": [
-        27.0,
-        25.0,
-        7.41,
-        1.15,
-        75.81
+        23.0,
+        22.0,
+        4.35,
+        1.17,
+        86.39
       ]
     },
     "landing": {
       "rows": [
         {
           "key": "/tools/raspredelenie-gruza-po-osyam/",
-          "visits": 29,
-          "users": 18,
-          "bounce": 24.1,
-          "depth": 1.03,
+          "visits": 26,
+          "users": 16,
+          "bounce": 26.9,
+          "depth": 1.04,
           "duration_s": 15
         },
         {
           "key": "/tools/nagruzka-na-os/",
-          "visits": 12,
-          "users": 12,
-          "bounce": 16.7,
-          "depth": 1.08,
-          "duration_s": 19
+          "visits": 11,
+          "users": 11,
+          "bounce": 9.1,
+          "depth": 1.09,
+          "duration_s": 20
         },
         {
           "key": "/news/umg-zapustila-novoe-pokolenie-tyazhelyh-avtogreyderov-ag-250-d6f8d2c5/",
@@ -367,6 +351,14 @@
           "bounce": 20.0,
           "depth": 1.4,
           "duration_s": 323
+        },
+        {
+          "key": "/tools/skolko-pallet-v-furu/",
+          "visits": 4,
+          "users": 4,
+          "bounce": 50.0,
+          "depth": 1.0,
+          "duration_s": 10
         },
         {
           "key": "/knowledge/registraciya-polupricepa/",
@@ -387,18 +379,18 @@
         {
           "key": "/regulations/mintrans-212-2026/",
           "visits": 3,
-          "users": 2,
+          "users": 3,
           "bounce": 0.0,
           "depth": 1.0,
-          "duration_s": 16
+          "duration_s": 15
         },
         {
-          "key": "/tools/skolko-pallet-v-furu/",
+          "key": "/tools/rezhim-truda-i-otdyha/",
           "visits": 3,
           "users": 3,
-          "bounce": 66.7,
+          "bounce": 0.0,
           "depth": 1.0,
-          "duration_s": 5
+          "duration_s": 19
         },
         {
           "key": "/",
@@ -425,20 +417,12 @@
           "duration_s": 2
         },
         {
-          "key": "/tools/rashod-topliva/",
-          "visits": 2,
-          "users": 2,
+          "key": "/brands/krone/page/8/",
+          "visits": 1,
+          "users": 1,
           "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 19
-        },
-        {
-          "key": "/tools/rezhim-truda-i-otdyha/",
-          "visits": 2,
-          "users": 2,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 21
+          "depth": 2.0,
+          "duration_s": 17
         },
         {
           "key": "/brands/satpricep/",
@@ -457,20 +441,20 @@
           "duration_s": 14
         },
         {
-          "key": "/knowledge/rezhim-truda-i-otdyha-voditelya/",
-          "visits": 1,
-          "users": 1,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 16
-        },
-        {
           "key": "/knowledge/tehnicheskoe-obsluzhivanie-polupricepa/",
           "visits": 1,
           "users": 1,
           "bounce": 100.0,
           "depth": 1.0,
           "duration_s": 0
+        },
+        {
+          "key": "/knowledge/vynesennaya-os-polupricepa/",
+          "visits": 1,
+          "users": 1,
+          "bounce": 0.0,
+          "depth": 1.0,
+          "duration_s": 15
         },
         {
           "key": "/news/anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c/",
@@ -553,31 +537,39 @@
           "duration_s": 0
         },
         {
-          "key": "/regulations/gost-r-70473-2022/",
+          "key": "/tools/rashod-topliva/",
           "visits": 1,
           "users": 1,
-          "bounce": 100.0,
+          "bounce": 0.0,
           "depth": 1.0,
-          "duration_s": 0
+          "duration_s": 16
+        },
+        {
+          "key": "/tools/stoimost-reysa/",
+          "visits": 1,
+          "users": 1,
+          "bounce": 0.0,
+          "depth": 1.0,
+          "duration_s": 16
         }
       ],
       "totals": [
-        89.0,
+        87.0,
         76.0,
-        30.34,
-        1.06,
-        45.15
+        28.74,
+        1.07,
+        46.1
       ]
     },
     "cities": {
       "rows": [
         {
           "key": "Russia / —",
-          "visits": 21,
+          "visits": 20,
           "users": 19,
-          "bounce": 33.3,
-          "depth": 1.14,
-          "duration_s": 88
+          "bounce": 35.0,
+          "depth": 1.15,
+          "duration_s": 92
         },
         {
           "key": "Russia / Krasnodar",
@@ -588,12 +580,20 @@
           "duration_s": 11
         },
         {
+          "key": "Russia / Chelyabinsk",
+          "visits": 4,
+          "users": 4,
+          "bounce": 0.0,
+          "depth": 1.0,
+          "duration_s": 17
+        },
+        {
           "key": "Russia / Novosibirsk",
           "visits": 4,
           "users": 3,
           "bounce": 0.0,
           "depth": 1.0,
-          "duration_s": 20
+          "duration_s": 21
         },
         {
           "key": "Belarus / Minsk",
@@ -604,28 +604,20 @@
           "duration_s": 20
         },
         {
-          "key": "Kazakhstan / —",
-          "visits": 3,
-          "users": 2,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 20
-        },
-        {
-          "key": "Russia / Bryansk",
-          "visits": 3,
-          "users": 2,
-          "bounce": 33.3,
-          "depth": 1.0,
-          "duration_s": 11
-        },
-        {
-          "key": "Russia / Chelyabinsk",
+          "key": "Russia / Moscow",
           "visits": 3,
           "users": 3,
           "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 15
+          "depth": 1.33,
+          "duration_s": 23
+        },
+        {
+          "key": "Russia / Saint Petersburg",
+          "visits": 3,
+          "users": 3,
+          "bounce": 0.0,
+          "depth": 1.33,
+          "duration_s": 19
         },
         {
           "key": "Singapore / —",
@@ -644,6 +636,14 @@
           "duration_s": 14
         },
         {
+          "key": "Kazakhstan / —",
+          "visits": 2,
+          "users": 2,
+          "bounce": 0.0,
+          "depth": 1.0,
+          "duration_s": 22
+        },
+        {
           "key": "Kazakhstan / Almaty",
           "visits": 2,
           "users": 2,
@@ -658,6 +658,14 @@
           "bounce": 50.0,
           "depth": 1.5,
           "duration_s": 619
+        },
+        {
+          "key": "Russia / Bryansk",
+          "visits": 2,
+          "users": 2,
+          "bounce": 50.0,
+          "depth": 1.0,
+          "duration_s": 8
         },
         {
           "key": "Russia / Buzuluk",
@@ -682,22 +690,6 @@
           "bounce": 50.0,
           "depth": 1.0,
           "duration_s": 8
-        },
-        {
-          "key": "Russia / Moscow",
-          "visits": 2,
-          "users": 2,
-          "bounce": 0.0,
-          "depth": 1.5,
-          "duration_s": 26
-        },
-        {
-          "key": "Russia / Saint Petersburg",
-          "visits": 2,
-          "users": 2,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 20
         },
         {
           "key": "Russia / Tyumen",
@@ -732,22 +724,6 @@
           "duration_s": 0
         },
         {
-          "key": "Kazakhstan / Astana",
-          "visits": 1,
-          "users": 1,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 27
-        },
-        {
-          "key": "Kazakhstan / Chimkent",
-          "visits": 1,
-          "users": 1,
-          "bounce": 100.0,
-          "depth": 1.0,
-          "duration_s": 0
-        },
-        {
           "key": "Kazakhstan / Pavlodar",
           "visits": 1,
           "users": 1,
@@ -770,76 +746,92 @@
           "bounce": 0.0,
           "depth": 1.0,
           "duration_s": 16
+        },
+        {
+          "key": "Russia / Chita",
+          "visits": 1,
+          "users": 1,
+          "bounce": 0.0,
+          "depth": 1.0,
+          "duration_s": 15
+        },
+        {
+          "key": "Russia / Fryazino",
+          "visits": 1,
+          "users": 1,
+          "bounce": 100.0,
+          "depth": 1.0,
+          "duration_s": 0
         }
       ],
       "totals": [
-        86.0,
-        73.0,
-        29.07,
-        1.06,
-        46.55
+        85.0,
+        74.0,
+        28.24,
+        1.07,
+        47.01
       ]
     },
     "devices": {
       "rows": [
         {
           "key": "PC",
-          "visits": 58,
-          "users": 49,
-          "bounce": 32.8,
-          "depth": 1.02,
+          "visits": 57,
+          "users": 50,
+          "bounce": 31.6,
+          "depth": 1.04,
           "duration_s": 34
         },
         {
           "key": "Smartphones",
-          "visits": 31,
-          "users": 27,
-          "bounce": 25.8,
+          "visits": 30,
+          "users": 26,
+          "bounce": 23.3,
           "depth": 1.13,
-          "duration_s": 66
+          "duration_s": 68
         }
       ],
       "totals": [
-        89.0,
+        87.0,
         76.0,
-        30.34,
-        1.06,
-        45.15
+        28.74,
+        1.07,
+        46.1
       ]
     },
     "browsers": {
       "rows": [
         {
           "key": "Google Chrome",
-          "visits": 30,
-          "users": 29,
-          "bounce": 50.0,
-          "depth": 1.03,
-          "duration_s": 52
+          "visits": 33,
+          "users": 32,
+          "bounce": 42.4,
+          "depth": 1.06,
+          "duration_s": 49
         },
         {
           "key": "Yandex Browser",
-          "visits": 20,
-          "users": 13,
-          "bounce": 5.0,
-          "depth": 1.05,
+          "visits": 17,
+          "users": 11,
+          "bounce": 5.9,
+          "depth": 1.06,
           "duration_s": 18
         },
         {
           "key": "Chrome Mobile",
-          "visits": 14,
+          "visits": 15,
           "users": 14,
-          "bounce": 28.6,
-          "depth": 1.21,
-          "duration_s": 125
+          "bounce": 26.7,
+          "depth": 1.2,
+          "duration_s": 117
         },
         {
           "key": "Яндекс Старт: мобильное приложение",
-          "visits": 7,
+          "visits": 6,
           "users": 3,
-          "bounce": 14.3,
+          "bounce": 16.7,
           "depth": 1.0,
-          "duration_s": 20
+          "duration_s": 21
         },
         {
           "key": "Firefox",
@@ -858,20 +850,20 @@
           "duration_s": 18
         },
         {
-          "key": "YandexBrowserCorp",
-          "visits": 3,
-          "users": 2,
-          "bounce": 0.0,
-          "depth": 1.0,
-          "duration_s": 16
-        },
-        {
           "key": "Edge",
           "visits": 2,
           "users": 2,
           "bounce": 0.0,
           "depth": 1.0,
           "duration_s": 15
+        },
+        {
+          "key": "YandexBrowserCorp",
+          "visits": 2,
+          "users": 2,
+          "bounce": 0.0,
+          "depth": 1.0,
+          "duration_s": 16
         },
         {
           "key": "Opera Mobile",
@@ -888,14 +880,6 @@
           "bounce": 0.0,
           "depth": 1.0,
           "duration_s": 17
-        },
-        {
-          "key": "MIUI",
-          "visits": 1,
-          "users": 1,
-          "bounce": 100.0,
-          "depth": 1.0,
-          "duration_s": 0
         },
         {
           "key": "HeadlessChrome",
@@ -915,49 +899,49 @@
         }
       ],
       "totals": [
-        89.0,
+        87.0,
         76.0,
-        30.34,
-        1.06,
-        45.15
+        28.74,
+        1.07,
+        46.1
       ]
     },
     "new_vs_returning": {
       "rows": [
         {
           "key": "New users",
-          "visits": 67,
-          "users": 67,
-          "bounce": 34.3,
-          "depth": 1.06,
-          "duration_s": 36
+          "visits": 68,
+          "users": 68,
+          "bounce": 29.4,
+          "depth": 1.07,
+          "duration_s": 37
         },
         {
           "key": "Returning users",
-          "visits": 22,
+          "visits": 19,
           "users": 11,
-          "bounce": 18.2,
+          "bounce": 26.3,
           "depth": 1.05,
-          "duration_s": 72
+          "duration_s": 80
         }
       ],
       "totals": [
-        89.0,
+        87.0,
         76.0,
-        30.34,
-        1.06,
-        45.15
+        28.74,
+        1.07,
+        46.1
       ]
     },
     "direct_landing": {
       "rows": [
         {
           "key": "/tools/raspredelenie-gruza-po-osyam/",
-          "visits": 10,
-          "users": 6,
+          "visits": 8,
+          "users": 5,
           "bounce": 50.0,
           "depth": 1.0,
-          "duration_s": 12
+          "duration_s": 13
         },
         {
           "key": "/",
@@ -1006,33 +990,25 @@
           "bounce": 0.0,
           "depth": 1.0,
           "duration_s": 26
-        },
-        {
-          "key": "/regulations/gost-r-70473-2022/",
-          "visits": 1,
-          "users": 1,
-          "bounce": 100.0,
-          "depth": 1.0,
-          "duration_s": 0
         }
       ],
       "totals": [
-        17.0,
-        13.0,
-        58.82,
+        14.0,
+        11.0,
+        57.14,
         1.0,
-        9.71
+        10.71
       ]
     },
     "direct_cities": {
       "rows": [
         {
           "key": "Kazakhstan / —",
-          "visits": 3,
+          "visits": 2,
           "users": 2,
           "bounce": 0.0,
           "depth": 1.0,
-          "duration_s": 20
+          "duration_s": 22
         },
         {
           "key": "China / Hong Kong",
@@ -1049,14 +1025,6 @@
           "bounce": 100.0,
           "depth": 1.0,
           "duration_s": 1
-        },
-        {
-          "key": "Kazakhstan / Chimkent",
-          "visits": 1,
-          "users": 1,
-          "bounce": 100.0,
-          "depth": 1.0,
-          "duration_s": 0
         },
         {
           "key": "Kazakhstan / Pavlodar",
@@ -1140,23 +1108,15 @@
         }
       ],
       "totals": [
-        16.0,
-        12.0,
-        56.25,
+        14.0,
+        11.0,
+        57.14,
         1.0,
-        10.31
+        10.71
       ]
     },
     "direct_browsers": {
       "rows": [
-        {
-          "key": "Яндекс Старт: мобильное приложение",
-          "visits": 6,
-          "users": 2,
-          "bounce": 16.7,
-          "depth": 1.0,
-          "duration_s": 20
-        },
         {
           "key": "Google Chrome",
           "visits": 5,
@@ -1164,6 +1124,14 @@
           "bounce": 80.0,
           "depth": 1.0,
           "duration_s": 5
+        },
+        {
+          "key": "Яндекс Старт: мобильное приложение",
+          "visits": 5,
+          "users": 2,
+          "bounce": 20.0,
+          "depth": 1.0,
+          "duration_s": 21
         },
         {
           "key": "Firefox",
@@ -1182,48 +1150,24 @@
           "duration_s": 0
         },
         {
-          "key": "Chrome Mobile",
-          "visits": 1,
-          "users": 1,
-          "bounce": 100.0,
-          "depth": 1.0,
-          "duration_s": 0
-        },
-        {
           "key": "Samsung Internet",
           "visits": 1,
           "users": 1,
           "bounce": 0.0,
           "depth": 1.0,
           "duration_s": 17
-        },
-        {
-          "key": "MIUI",
-          "visits": 1,
-          "users": 1,
-          "bounce": 100.0,
-          "depth": 1.0,
-          "duration_s": 0
         }
       ],
       "totals": [
-        17.0,
-        13.0,
-        58.82,
+        14.0,
+        11.0,
+        57.14,
         1.0,
-        9.71
+        10.71
       ]
     },
     "direct_devices": {
       "rows": [
-        {
-          "key": "Smartphones",
-          "visits": 10,
-          "users": 6,
-          "bounce": 40.0,
-          "depth": 1.0,
-          "duration_s": 14
-        },
         {
           "key": "PC",
           "visits": 7,
@@ -1231,41 +1175,49 @@
           "bounce": 85.7,
           "depth": 1.0,
           "duration_s": 4
+        },
+        {
+          "key": "Smartphones",
+          "visits": 7,
+          "users": 4,
+          "bounce": 28.6,
+          "depth": 1.0,
+          "duration_s": 18
         }
       ],
       "totals": [
-        17.0,
-        13.0,
-        58.82,
+        14.0,
+        11.0,
+        57.14,
         1.0,
-        9.71
+        10.71
       ]
     },
     "direct_new_vs_returning": {
       "rows": [
         {
           "key": "New users",
-          "visits": 11,
-          "users": 11,
-          "bounce": 72.7,
+          "visits": 9,
+          "users": 9,
+          "bounce": 66.7,
           "depth": 1.0,
-          "duration_s": 7
+          "duration_s": 8
         },
         {
           "key": "Returning users",
-          "visits": 6,
+          "visits": 5,
           "users": 2,
-          "bounce": 33.3,
+          "bounce": 40.0,
           "depth": 1.0,
           "duration_s": 15
         }
       ],
       "totals": [
-        17.0,
-        13.0,
-        58.82,
+        14.0,
+        11.0,
+        57.14,
         1.0,
-        9.71
+        10.71
       ]
     }
   },
@@ -1290,11 +1242,11 @@
         },
         {
           "key": "Search engine traffic / Google",
-          "visits": 43,
-          "users": 36,
-          "bounce": 18.6,
+          "visits": 51,
+          "users": 43,
+          "bounce": 17.6,
           "depth": 1.12,
-          "duration_s": 36
+          "duration_s": 33
         },
         {
           "key": "Internal traffic / spec-avtoportal.ru",
@@ -1386,11 +1338,11 @@
         }
       ],
       "totals": [
-        545.0,
-        456.0,
-        44.22,
-        1.27,
-        53.58
+        553.0,
+        463.0,
+        43.76,
+        1.26,
+        53.02
       ]
     },
     "referrers": {
@@ -1694,11 +1646,11 @@
         },
         {
           "key": "/tools/raspredelenie-gruza-po-osyam/",
-          "visits": 78,
-          "users": 46,
-          "bounce": 20.5,
-          "depth": 1.08,
-          "duration_s": 63
+          "visits": 80,
+          "users": 47,
+          "bounce": 21.2,
+          "depth": 1.07,
+          "duration_s": 62
         },
         {
           "key": "/tools/nagruzka-na-os/",
@@ -1742,19 +1694,19 @@
         },
         {
           "key": "/regulations/mintrans-212-2026/",
-          "visits": 10,
-          "users": 7,
-          "bounce": 20.0,
+          "visits": 11,
+          "users": 8,
+          "bounce": 18.2,
           "depth": 1.0,
           "duration_s": 13
         },
         {
           "key": "/tools/rezhim-truda-i-otdyha/",
-          "visits": 9,
-          "users": 9,
-          "bounce": 11.1,
-          "depth": 1.22,
-          "duration_s": 52
+          "visits": 10,
+          "users": 10,
+          "bounce": 10.0,
+          "depth": 1.2,
+          "duration_s": 48
         },
         {
           "key": "/news/stellar-motor-rus-predstavil-na-comtrans-novyy-foton-r-6x2-sozdannyy-vme-94802e11/",
@@ -1789,6 +1741,14 @@
           "duration_s": 10
         },
         {
+          "key": "/tools/skolko-pallet-v-furu/",
+          "visits": 5,
+          "users": 5,
+          "bounce": 40.0,
+          "depth": 1.0,
+          "duration_s": 12
+        },
+        {
           "key": "/knowledge/platon-2026/",
           "visits": 4,
           "users": 4,
@@ -1803,14 +1763,6 @@
           "bounce": 75.0,
           "depth": 1.0,
           "duration_s": 2
-        },
-        {
-          "key": "/tools/skolko-pallet-v-furu/",
-          "visits": 4,
-          "users": 4,
-          "bounce": 50.0,
-          "depth": 1.0,
-          "duration_s": 9
         },
         {
           "key": "/knowledge/tehnicheskoe-obsluzhivanie-polupricepa/",
@@ -1918,11 +1870,11 @@
         }
       ],
       "totals": [
-        545.0,
-        456.0,
-        44.22,
-        1.27,
-        53.58
+        553.0,
+        463.0,
+        43.76,
+        1.26,
+        53.02
       ]
     },
     "cities": {
@@ -1937,11 +1889,11 @@
         },
         {
           "key": "Russia / —",
-          "visits": 98,
-          "users": 90,
-          "bounce": 45.9,
+          "visits": 100,
+          "users": 92,
+          "bounce": 46.0,
           "depth": 1.12,
-          "duration_s": 78
+          "duration_s": 77
         },
         {
           "key": "Lithuania / Vilnius",
@@ -1961,18 +1913,18 @@
         },
         {
           "key": "Russia / Moscow",
-          "visits": 21,
-          "users": 20,
-          "bounce": 33.3,
+          "visits": 22,
+          "users": 21,
+          "bounce": 31.8,
           "depth": 1.14,
           "duration_s": 18
         },
         {
           "key": "Russia / Saint Petersburg",
-          "visits": 15,
-          "users": 15,
-          "bounce": 33.3,
-          "depth": 1.0,
+          "visits": 16,
+          "users": 16,
+          "bounce": 31.2,
+          "depth": 1.06,
           "duration_s": 12
         },
         {
@@ -2008,6 +1960,14 @@
           "duration_s": 44
         },
         {
+          "key": "Russia / Novosibirsk",
+          "visits": 8,
+          "users": 7,
+          "bounce": 12.5,
+          "depth": 1.0,
+          "duration_s": 20
+        },
+        {
           "key": "Russia / Ussuriysk",
           "visits": 8,
           "users": 1,
@@ -2024,12 +1984,12 @@
           "duration_s": 50
         },
         {
-          "key": "Russia / Novosibirsk",
+          "key": "Russia / Chelyabinsk",
           "visits": 7,
           "users": 6,
           "bounce": 14.3,
-          "depth": 1.0,
-          "duration_s": 20
+          "depth": 1.43,
+          "duration_s": 83
         },
         {
           "key": "Belarus / Bobruisk",
@@ -2054,14 +2014,6 @@
           "bounce": 33.3,
           "depth": 1.0,
           "duration_s": 10
-        },
-        {
-          "key": "Russia / Chelyabinsk",
-          "visits": 6,
-          "users": 5,
-          "bounce": 16.7,
-          "depth": 1.5,
-          "duration_s": 94
         },
         {
           "key": "France / —",
@@ -2129,30 +2081,30 @@
         }
       ],
       "totals": [
-        541.0,
-        453.0,
-        44.18,
+        549.0,
+        460.0,
+        43.72,
         1.27,
-        53.92
+        53.36
       ]
     },
     "devices": {
       "rows": [
         {
           "key": "PC",
-          "visits": 422,
-          "users": 358,
-          "bounce": 51.2,
+          "visits": 426,
+          "users": 362,
+          "bounce": 50.7,
           "depth": 1.29,
           "duration_s": 39
         },
         {
           "key": "Smartphones",
-          "visits": 122,
-          "users": 97,
-          "bounce": 20.5,
+          "visits": 126,
+          "users": 100,
+          "bounce": 20.6,
           "depth": 1.17,
-          "duration_s": 105
+          "duration_s": 102
         },
         {
           "key": "Tablets",
@@ -2164,20 +2116,20 @@
         }
       ],
       "totals": [
-        545.0,
-        456.0,
-        44.22,
-        1.27,
-        53.58
+        553.0,
+        463.0,
+        43.76,
+        1.26,
+        53.02
       ]
     },
     "browsers": {
       "rows": [
         {
           "key": "Google Chrome",
-          "visits": 300,
-          "users": 272,
-          "bounce": 59.7,
+          "visits": 304,
+          "users": 276,
+          "bounce": 58.9,
           "depth": 1.29,
           "duration_s": 27
         },
@@ -2191,11 +2143,11 @@
         },
         {
           "key": "Chrome Mobile",
-          "visits": 38,
-          "users": 35,
-          "bounce": 26.3,
-          "depth": 1.16,
-          "duration_s": 72
+          "visits": 42,
+          "users": 38,
+          "bounce": 26.2,
+          "depth": 1.14,
+          "duration_s": 66
         },
         {
           "key": "Mobile Safari",
@@ -2295,38 +2247,38 @@
         }
       ],
       "totals": [
-        540.0,
-        451.0,
-        44.63,
+        548.0,
+        458.0,
+        44.16,
         1.27,
-        53.94
+        53.37
       ]
     },
     "new_vs_returning": {
       "rows": [
         {
           "key": "New users",
-          "visits": 465,
-          "users": 456,
-          "bounce": 48.8,
+          "visits": 472,
+          "users": 463,
+          "bounce": 48.1,
           "depth": 1.17,
           "duration_s": 36
         },
         {
           "key": "Returning users",
-          "visits": 80,
-          "users": 25,
-          "bounce": 17.5,
-          "depth": 1.85,
-          "duration_s": 155
+          "visits": 81,
+          "users": 26,
+          "bounce": 18.5,
+          "depth": 1.84,
+          "duration_s": 154
         }
       ],
       "totals": [
-        545.0,
-        456.0,
-        44.22,
-        1.27,
-        53.58
+        553.0,
+        463.0,
+        43.76,
+        1.26,
+        53.02
       ]
     },
     "direct_landing": {
@@ -3586,14 +3538,22 @@
         "bounce": 0.0,
         "depth": 1.5,
         "duration_s": 283
+      },
+      {
+        "key": "2026-10-23 / Search engine traffic",
+        "visits": 8,
+        "users": 7,
+        "bounce": 12.5,
+        "depth": 1.12,
+        "duration_s": 15
       }
     ],
     "totals": [
-      545.0,
-      456.0,
-      44.22,
-      1.27,
-      53.58
+      553.0,
+      463.0,
+      43.76,
+      1.26,
+      53.02
     ]
   }
 }
