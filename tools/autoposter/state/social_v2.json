@@ -1724,6 +1724,36 @@
         }
       },
       "updated_at": "2026-10-22T16:15:53.746925+00:00"
+    },
+    "b3f27ea02949": {
+      "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
+      "created_at": "2026-10-23T08:12:03.729169+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "Vg7rCSkUvv0",
+          "url": "https://www.youtube.com/shorts/Vg7rCSkUvv0",
+          "updated_at": "2026-10-23T08:12:03.729191+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6adb16d4965e70f0b5faeb77",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-23T08:13:51.734621+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6adb17401e4eba0473766444",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-23T08:14:53.697167+00:00"
+        }
+      },
+      "updated_at": "2026-10-23T08:14:53.697165+00:00"
     }
   }
 }

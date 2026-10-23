@@ -58,7 +58,8 @@
     "5b9ea4c62a0e",
     "d6f8d2c51e7a",
     "a53b0bb97ad3",
-    "sat:sat118-grain"
+    "sat:sat118-grain",
+    "b3f27ea02949"
   ],
   "renders": [
     {
@@ -465,6 +466,13 @@
       "slug": "",
       "title": "SAT118: стальной зерновоз на 50 кубов",
       "created_at": "2026-10-22T16:15:53.750248+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "b3f27ea02949",
+      "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0",
+      "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
+      "created_at": "2026-10-23T08:14:53.699403+00:00",
       "format": "social-v2"
     }
   ]
