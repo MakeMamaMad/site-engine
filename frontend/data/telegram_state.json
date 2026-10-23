@@ -1629,9 +1629,9 @@
       "slug": "aegis-logistics-priobretaet-kompaniyu-tristar-fe0a0064"
     },
     "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/": {
-      "digest_id": "2026-10-21:pm",
-      "message_id": 1639,
-      "sent_at": "2026-10-21T12:08:20+00:00",
+      "digest_id": "2026-10-23:pm",
+      "message_id": 1649,
+      "sent_at": "2026-10-23T16:57:38+00:00",
       "title": "KazAgroFarm 2026: «Спецавтотехника» представит полуприцепы SAT500 и SAT47K",
       "slug": "kazagrofarm-2026-spetsavtotehnika-predstavit-polupritsepy-sat500-i-sat47-68cbc709"
     },
@@ -1664,9 +1664,9 @@
       "slug": "obnovlenie-zavodskoy-allei-slavy-cc79e219"
     },
     "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/": {
-      "digest_id": "2026-10-22:am",
-      "message_id": 1643,
-      "sent_at": "2026-10-22T11:39:37+00:00",
+      "digest_id": "2026-10-23:pm",
+      "message_id": 1649,
+      "sent_at": "2026-10-23T16:57:38+00:00",
       "title": "Kuehne+ Нагель перевел €8 млрд на Q3 2026",
       "slug": "kuehne-nagel-perevel-8-mlrd-na-q3-2026-bd896506"
     },
@@ -1685,25 +1685,14 @@
       "slug": "dsv-vosstanavlivaetsya-posle-sboya-schenker-c2637ff8"
     },
     "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/": {
-      "digest_id": "2026-10-23:am",
-      "message_id": 1648,
-      "sent_at": "2026-10-23T11:29:04+00:00",
+      "digest_id": "2026-10-23:pm",
+      "message_id": 1649,
+      "sent_at": "2026-10-23T16:57:38+00:00",
       "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
       "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0"
     }
   },
   "digests": {
-    "2026-10-05:am": {
-      "message_id": 1540,
-      "sent_at": "2026-10-05T07:09:58+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/",
-        "https://www.globaltrailermag.com/ceva-logistics-triples-north-american-footprint/",
-        "https://www.globaltrailermag.com/xpo-reaches-300-service-centre-milestone/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-05:pm": {
       "message_id": 1543,
       "sent_at": "2026-10-05T15:05:17+00:00",
@@ -2020,6 +2009,17 @@
         "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg",
         "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
         "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-23:pm": {
+      "message_id": 1649,
+      "sent_at": "2026-10-23T16:57:38+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/",
+        "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
+        "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/"
       ],
       "visual": "visual"
     }
