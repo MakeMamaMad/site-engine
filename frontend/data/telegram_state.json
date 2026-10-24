@@ -1647,9 +1647,9 @@
       "slug": "aegis-logistics-priobretaet-kompaniyu-tristar-fe0a0064"
     },
     "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/": {
-      "digest_id": "2026-10-23:pm",
-      "message_id": 1649,
-      "sent_at": "2026-10-23T16:57:38+00:00",
+      "digest_id": "2026-10-24:pm",
+      "message_id": 1653,
+      "sent_at": "2026-10-24T18:56:29+00:00",
       "title": "KazAgroFarm 2026: «Спецавтотехника» представит полуприцепы SAT500 и SAT47K",
       "slug": "kazagrofarm-2026-spetsavtotehnika-predstavit-polupritsepy-sat500-i-sat47-68cbc709"
     },
@@ -1696,16 +1696,16 @@
       "slug": "sinoteh-mashineri-nachala-postavki-v-rossiyu-modernizirovannyh-buldozero-8fdbb486"
     },
     "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/": {
-      "digest_id": "2026-10-23:am",
-      "message_id": 1648,
-      "sent_at": "2026-10-23T11:29:04+00:00",
+      "digest_id": "2026-10-24:pm",
+      "message_id": 1653,
+      "sent_at": "2026-10-24T18:56:29+00:00",
       "title": "DSV восстанавливается после сбоя Schenker",
       "slug": "dsv-vosstanavlivaetsya-posle-sboya-schenker-c2637ff8"
     },
     "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/": {
-      "digest_id": "2026-10-24:am",
-      "message_id": 1652,
-      "sent_at": "2026-10-24T10:47:57+00:00",
+      "digest_id": "2026-10-24:pm",
+      "message_id": 1653,
+      "sent_at": "2026-10-24T18:56:29+00:00",
       "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
       "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0"
     },
@@ -1725,17 +1725,6 @@
     }
   },
   "digests": {
-    "2026-10-06:am": {
-      "message_id": 1549,
-      "sent_at": "2026-10-06T11:13:47+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/178658/",
-        "https://www.globaltrailermag.com/royal-mail-orders-100-custom-montracon-box-vans/",
-        "https://www.globaltrailermag.com/e21b-logistics-leader-emerges/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-06:pm": {
       "message_id": 1552,
       "sent_at": "2026-10-06T13:29:22+00:00",
@@ -2051,6 +2040,17 @@
       "items": [
         "https://sdelanounas.ru/blogs/179011/",
         "https://sdelanounas.ru/blogs/179030/",
+        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-24:pm": {
+      "message_id": 1653,
+      "sent_at": "2026-10-24T18:56:29+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
+        "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
         "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
       ],
       "visual": "visual"
