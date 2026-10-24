@@ -1703,25 +1703,28 @@
       "slug": "dsv-vosstanavlivaetsya-posle-sboya-schenker-c2637ff8"
     },
     "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/": {
-      "digest_id": "2026-10-23:pm",
-      "message_id": 1649,
-      "sent_at": "2026-10-23T16:57:38+00:00",
+      "digest_id": "2026-10-24:am",
+      "message_id": 1652,
+      "sent_at": "2026-10-24T10:47:57+00:00",
       "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
       "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0"
+    },
+    "https://sdelanounas.ru/blogs/179011/": {
+      "digest_id": "2026-10-24:am",
+      "message_id": 1652,
+      "sent_at": "2026-10-24T10:47:57+00:00",
+      "title": "СТТ поставили 63 автобуса «Вектор NEXT» для обновления транспортной системы Каракола",
+      "slug": "stt-postavili-63-avtobusa-vektor-next-dlya-obnovleniya-transportnoy-sist-fa457dc9"
+    },
+    "https://sdelanounas.ru/blogs/179030/": {
+      "digest_id": "2026-10-24:am",
+      "message_id": 1652,
+      "sent_at": "2026-10-24T10:47:57+00:00",
+      "title": "12600 кВт для БАМа и Транссиба: Собран первый магистральный грузовой электровоз нового поколения",
+      "slug": "12600-kvt-dlya-bama-i-transsiba-sobran-pervyy-magistralnyy-gruzovoy-elek-1fee27ef"
     }
   },
   "digests": {
-    "2026-10-05:pm": {
-      "message_id": 1543,
-      "sent_at": "2026-10-05T15:05:17+00:00",
-      "slot": "pm",
-      "items": [
-        "https://comautotrans.moscow/tpost/blcn4jt071-statya-v-zhurnale-comvex-revyu",
-        "https://www.globaltrailermag.com/vale-ulrich-sauer/",
-        "https://www.globaltrailermag.com/broughton-expands-cold-chain-fleet-with-krone/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-06:am": {
       "message_id": 1549,
       "sent_at": "2026-10-06T11:13:47+00:00",
@@ -2038,6 +2041,17 @@
         "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/",
         "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
         "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-24:am": {
+      "message_id": 1652,
+      "sent_at": "2026-10-24T10:47:57+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/179011/",
+        "https://sdelanounas.ru/blogs/179030/",
+        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
       ],
       "visual": "visual"
     }
