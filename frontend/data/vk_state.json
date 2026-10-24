@@ -1520,9 +1520,9 @@
       "slug": "vystavka-motor-na-vystavke-aapex-2026-a53b0bb9"
     },
     "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/": {
-      "digest_id": "2026-10-23:am",
-      "post_id": 149,
-      "sent_at": "2026-10-23T11:29:07+00:00",
+      "digest_id": "2026-10-24:pm",
+      "post_id": 155,
+      "sent_at": "2026-10-24T18:57:09+00:00",
       "title": "DSV восстанавливается после сбоя Schenker",
       "slug": "dsv-vosstanavlivaetsya-posle-sboya-schenker-c2637ff8"
     },
@@ -1541,16 +1541,16 @@
       "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0"
     },
     "https://sdelanounas.ru/blogs/179030/": {
-      "digest_id": "2026-10-24:am",
-      "post_id": 152,
-      "sent_at": "2026-10-24T10:48:03+00:00",
+      "digest_id": "2026-10-24:pm",
+      "post_id": 155,
+      "sent_at": "2026-10-24T18:57:09+00:00",
       "title": "12600 кВт для БАМа и Транссиба: Собран первый магистральный грузовой электровоз нового поколения",
       "slug": "12600-kvt-dlya-bama-i-transsiba-sobran-pervyy-magistralnyy-gruzovoy-elek-1fee27ef"
     },
     "https://sdelanounas.ru/blogs/179011/": {
-      "digest_id": "2026-10-24:am",
-      "post_id": 152,
-      "sent_at": "2026-10-24T10:48:03+00:00",
+      "digest_id": "2026-10-24:pm",
+      "post_id": 155,
+      "sent_at": "2026-10-24T18:57:09+00:00",
       "title": "СТТ поставили 63 автобуса «Вектор NEXT» для обновления транспортной системы Каракола",
       "slug": "stt-postavili-63-avtobusa-vektor-next-dlya-obnovleniya-transportnoy-sist-fa457dc9"
     }
@@ -2045,6 +2045,17 @@
         "https://sdelanounas.ru/blogs/179030/",
         "https://sdelanounas.ru/blogs/179011/",
         "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
+      ]
+    },
+    "2026-10-24:pm": {
+      "post_id": 155,
+      "sent_at": "2026-10-24T18:57:09+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
+        "https://sdelanounas.ru/blogs/179030/",
+        "https://sdelanounas.ru/blogs/179011/"
       ]
     }
   }
