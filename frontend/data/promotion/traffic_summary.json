@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-23T20:32:53+00:00",
+  "updated_at": "2026-10-24T19:35:54+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -9,11 +9,11 @@
       "source": "sdelanounas",
       "medium": "editorial",
       "campaign": "industry_promotion",
-      "visits": 8,
-      "users": 8,
-      "bounce_rate": 37.5,
+      "visits": 7,
+      "users": 7,
+      "bounce_rate": 28.6,
       "page_depth": 1.0,
-      "avg_visit_duration_seconds": 15
+      "avg_visit_duration_seconds": 17
     },
     {
       "source": "telegram",
@@ -27,8 +27,8 @@
     }
   ],
   "totals": {
-    "visits": 9,
-    "users": 9
+    "visits": 8,
+    "users": 8
   },
   "sampled": false,
   "sample_share": 1.0
