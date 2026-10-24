@@ -1784,6 +1784,36 @@
         }
       },
       "updated_at": "2026-10-23T16:14:16.647585+00:00"
+    },
+    "8fdbb4864d64": {
+      "title": "«Синотех Машинери» начала поставки модернизированных бульдозеров HBXG",
+      "created_at": "2026-10-24T08:10:51.891324+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "w1YCBu2a_o4",
+          "url": "https://www.youtube.com/shorts/w1YCBu2a_o4",
+          "updated_at": "2026-10-24T08:10:51.891351+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6adc680c6887a2efc1a6d516",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-24T08:13:04.976289+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6adc68916887a2efc1a6e98a",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-24T08:14:06.777747+00:00"
+        }
+      },
+      "updated_at": "2026-10-24T08:14:06.777744+00:00"
     }
   }
 }
