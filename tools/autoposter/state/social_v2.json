@@ -1816,7 +1816,7 @@
       "updated_at": "2026-10-24T08:14:06.777744+00:00"
     },
     "1fee27efd13c": {
-      "title": "Первый электровоз 2ЭС9 собран для БАМа и Транссиба",
+      "title": "Собран первый электровоз 2ЭС9 мощностью 12 600 кВт",
       "created_at": "2026-10-24T15:53:45.527462+00:00",
       "platforms": {
         "youtube": {
@@ -1830,16 +1830,16 @@
           "platform": "tiktok",
           "status": "error",
           "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-24T18:09:44.920625+00:00"
+          "updated_at": "2026-10-24T18:51:04.711963+00:00"
         },
         "instagram": {
           "platform": "instagram",
           "status": "error",
           "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-24T18:09:44.998942+00:00"
+          "updated_at": "2026-10-24T18:51:04.851905+00:00"
         }
       },
-      "updated_at": "2026-10-24T18:09:44.998940+00:00"
+      "updated_at": "2026-10-24T18:51:04.851903+00:00"
     }
   }
 }
