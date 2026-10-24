@@ -1518,11 +1518,25 @@
       "slug": "sinoteh-mashineri-nachala-postavki-v-rossiyu-modernizirovannyh-buldozero-8fdbb486"
     },
     "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/": {
-      "digest_id": "2026-10-23:pm",
-      "post_id": 151,
-      "sent_at": "2026-10-23T16:57:36+00:00",
+      "digest_id": "2026-10-24:am",
+      "post_id": 152,
+      "sent_at": "2026-10-24T10:48:03+00:00",
       "title": "Hyundai Translead увеличит инвестиции в Иллинойс до 536 млн евро",
       "slug": "hyundai-translead-uvelichit-investitsii-v-illinoys-do-536-mln-evro-b3f27ea0"
+    },
+    "https://sdelanounas.ru/blogs/179030/": {
+      "digest_id": "2026-10-24:am",
+      "post_id": 152,
+      "sent_at": "2026-10-24T10:48:03+00:00",
+      "title": "12600 кВт для БАМа и Транссиба: Собран первый магистральный грузовой электровоз нового поколения",
+      "slug": "12600-kvt-dlya-bama-i-transsiba-sobran-pervyy-magistralnyy-gruzovoy-elek-1fee27ef"
+    },
+    "https://sdelanounas.ru/blogs/179011/": {
+      "digest_id": "2026-10-24:am",
+      "post_id": 152,
+      "sent_at": "2026-10-24T10:48:03+00:00",
+      "title": "СТТ поставили 63 автобуса «Вектор NEXT» для обновления транспортной системы Каракола",
+      "slug": "stt-postavili-63-avtobusa-vektor-next-dlya-obnovleniya-transportnoy-sist-fa457dc9"
     }
   },
   "digests": {
@@ -2004,6 +2018,17 @@
         "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/",
         "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg",
         "https://trailertechnician.com/2026/10/motor-exhibit-aapex-2026/?utm_source=rss&utm_medium=rss&utm_campaign=motor-exhibit-aapex-2026"
+      ]
+    },
+    "2026-10-24:am": {
+      "post_id": 152,
+      "sent_at": "2026-10-24T10:48:03+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179030/",
+        "https://sdelanounas.ru/blogs/179011/",
+        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
       ]
     }
   }
