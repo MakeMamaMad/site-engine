@@ -1830,16 +1830,16 @@
           "platform": "tiktok",
           "status": "error",
           "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-25T08:10:50.757789+00:00"
+          "updated_at": "2026-10-25T11:16:49.384556+00:00"
         },
         "instagram": {
           "platform": "instagram",
           "status": "error",
           "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-25T08:10:50.925358+00:00"
+          "updated_at": "2026-10-25T11:16:49.420320+00:00"
         }
       },
-      "updated_at": "2026-10-25T08:10:50.925356+00:00"
+      "updated_at": "2026-10-25T11:16:49.420317+00:00"
     }
   }
 }
