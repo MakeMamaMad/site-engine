@@ -1840,6 +1840,32 @@
         }
       },
       "updated_at": "2026-10-26T08:12:32.501063+00:00"
+    },
+    "d0c8b4d31e7e": {
+      "title": "Продажи прицепов сократились на 18,6%",
+      "created_at": "2026-10-26T14:34:57.842823+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "NVQFPg0wWRo",
+          "url": "https://www.youtube.com/shorts/NVQFPg0wWRo",
+          "updated_at": "2026-10-26T14:34:57.842843+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "error",
+          "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
+          "updated_at": "2026-10-26T14:34:57.977492+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "error",
+          "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
+          "updated_at": "2026-10-26T14:34:58.016483+00:00"
+        }
+      },
+      "updated_at": "2026-10-26T14:34:58.016480+00:00"
     }
   }
 }
