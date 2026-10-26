@@ -1553,6 +1553,27 @@
       "sent_at": "2026-10-24T18:57:09+00:00",
       "title": "СТТ поставили 63 автобуса «Вектор NEXT» для обновления транспортной системы Каракола",
       "slug": "stt-postavili-63-avtobusa-vektor-next-dlya-obnovleniya-transportnoy-sist-fa457dc9"
+    },
+    "http://gruzovoy.ru/news/industry/3406_za_9_mesyacev_prodaji_pricepov_sokratilis_na_186.html": {
+      "digest_id": "2026-10-26:pm",
+      "post_id": 156,
+      "sent_at": "2026-10-26T12:47:25+00:00",
+      "title": "За 9 месяцев продажи прицепов сократились на 18,6%",
+      "slug": "za-9-mesyatsev-prodazhi-pritsepov-sokratilis-na-18-6-d0c8b4d3"
+    },
+    "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko": {
+      "digest_id": "2026-10-26:pm",
+      "post_id": 156,
+      "sent_at": "2026-10-26T12:47:25+00:00",
+      "title": "«Валдай 45 PRO» доказал расход 24,5 л/100 км в 30‑дневном тесте у «ТРАСКО»",
+      "slug": "valday-45-pro-dokazal-rashod-24-5-l-100-km-v-30dnevnom-teste-u-trasko-d68bdefb"
+    },
+    "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/": {
+      "digest_id": "2026-10-26:pm",
+      "post_id": 156,
+      "sent_at": "2026-10-26T12:47:25+00:00",
+      "title": "SAT545 на выставке Дорожное строительство — 2026 в Минске",
+      "slug": "sat545-na-vystavke-dorozhnoe-stroitelstvo-2026-v-minske-32ea5935"
     }
   },
   "digests": {
@@ -2056,6 +2077,17 @@
         "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
         "https://sdelanounas.ru/blogs/179030/",
         "https://sdelanounas.ru/blogs/179011/"
+      ]
+    },
+    "2026-10-26:pm": {
+      "post_id": 156,
+      "sent_at": "2026-10-26T12:47:25+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3406_za_9_mesyacev_prodaji_pricepov_sokratilis_na_186.html",
+        "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko",
+        "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/"
       ]
     }
   }
