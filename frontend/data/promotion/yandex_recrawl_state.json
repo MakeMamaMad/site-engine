@@ -123,11 +123,19 @@
     }
   },
   "last_run": {
-    "at": "2026-10-10T12:40:45+00:00",
+    "at": "2026-10-26T13:14:27+00:00",
     "sent": [],
-    "failed": [],
-    "left": 0,
-    "quota": null,
+    "failed": [
+      {
+        "url": "https://spec-avtoportal.ru/knowledge/kak-razmestit-gruz-v-evrofure/",
+        "error": "HTTP 504"
+      }
+    ],
+    "left": 1,
+    "quota": {
+      "daily": 150,
+      "remainder_before": 150
+    },
     "sitemaps_added": [],
     "sitemaps": [
       {
