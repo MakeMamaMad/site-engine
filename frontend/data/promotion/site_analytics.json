@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-25T19:49:15+00:00",
+  "updated_at": "2026-10-26T21:43:30+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 66,
-    "users": 61,
+    "visits": 49,
+    "users": 47,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 46,
-        "users": 41,
-        "bounce_rate": 8.7,
-        "page_depth": 1.13
+        "visits": 36,
+        "users": 34,
+        "bounce_rate": 8.3,
+        "page_depth": 1.19
       },
       {
         "id": "referral",
@@ -25,26 +25,18 @@
         "page_depth": 1.0
       },
       {
-        "id": "direct",
-        "name": "Прямые заходы",
-        "visits": 6,
-        "users": 6,
-        "bounce_rate": 50.0,
-        "page_depth": 1.5
-      },
-      {
         "id": "ad",
         "name": "Переходы по рекламе",
-        "visits": 4,
-        "users": 4,
-        "bounce_rate": 75.0,
+        "visits": 3,
+        "users": 3,
+        "bounce_rate": 100.0,
         "page_depth": 1.0
       },
       {
         "id": "internal",
         "name": "Внутренние переходы",
-        "visits": 3,
-        "users": 3,
+        "visits": 2,
+        "users": 2,
         "bounce_rate": 100.0,
         "page_depth": 1.0
       },
@@ -55,14 +47,65 @@
         "users": 1,
         "bounce_rate": 0.0,
         "page_depth": 1.0
+      },
+      {
+        "id": "direct",
+        "name": "Прямые заходы",
+        "visits": 1,
+        "users": 1,
+        "bounce_rate": 0.0,
+        "page_depth": 4.0
       }
     ]
   },
   "webmaster": {
-    "status": "error",
+    "status": "ok",
     "host": "https://spec-avtoportal.ru",
-    "step": "user",
-    "detail": "Вебмастер (user): URLError",
+    "index": {
+      "searchable_pages": 48,
+      "excluded_pages": 147,
+      "sqi": 0,
+      "problems": {
+        "fatal": 0,
+        "critical": 0,
+        "possible": 2,
+        "recommendation": 3
+      }
+    },
+    "search": {
+      "date_from": "2026-10-18",
+      "date_to": "2026-10-24",
+      "shows": 0,
+      "clicks": 0,
+      "top_queries": []
+    },
+    "diagnostics": [
+      {
+        "code": "DOCUMENTS_MISSING_DESCRIPTION",
+        "severity": "POSSIBLE_PROBLEM",
+        "since": "2026-09-30T07:41:45.354+03:00"
+      },
+      {
+        "code": "DUPLICATE_PAGES",
+        "severity": "POSSIBLE_PROBLEM",
+        "since": "2026-09-30T07:41:45.354+03:00"
+      },
+      {
+        "code": "BIG_FAVICON_ABSENT",
+        "severity": "RECOMMENDATION",
+        "since": "2026-10-08T20:26:38.883+03:00"
+      },
+      {
+        "code": "NOT_IN_SPRAV",
+        "severity": "RECOMMENDATION",
+        "since": "2026-09-30T07:41:45.354+03:00"
+      },
+      {
+        "code": "NO_REGIONS",
+        "severity": "RECOMMENDATION",
+        "since": "2026-09-30T07:41:45.354+03:00"
+      }
+    ],
     "token_secret": "YANDEX_WEBMASTER_OAUTH_TOKEN"
   }
 }
