@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-26T21:43:25+00:00",
+  "updated_at": "2026-10-27T21:24:39+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -9,21 +9,21 @@
       "source": "sdelanounas",
       "medium": "editorial",
       "campaign": "industry_promotion",
-      "visits": 7,
-      "users": 7,
-      "bounce_rate": 28.6,
+      "visits": 6,
+      "users": 6,
+      "bounce_rate": 33.3,
       "page_depth": 1.0,
-      "avg_visit_duration_seconds": 17
+      "avg_visit_duration_seconds": 16
     },
     {
       "source": "telegram",
       "medium": "social",
       "campaign": "news",
-      "visits": 1,
-      "users": 1,
+      "visits": 2,
+      "users": 2,
       "bounce_rate": 0.0,
-      "page_depth": 1.0,
-      "avg_visit_duration_seconds": 42
+      "page_depth": 1.5,
+      "avg_visit_duration_seconds": 144
     }
   ],
   "totals": {
