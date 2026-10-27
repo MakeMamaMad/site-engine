@@ -1810,9 +1810,9 @@
       "slug": "sat545-na-vystavke-dorozhnoe-stroitelstvo-2026-v-minske-32ea5935"
     },
     "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko": {
-      "digest_id": "2026-10-26:pm",
-      "message_id": 1657,
-      "sent_at": "2026-10-26T12:47:22+00:00",
+      "digest_id": "2026-10-27:pm",
+      "message_id": 1664,
+      "sent_at": "2026-10-27T12:30:37+00:00",
       "title": "«Валдай 45 PRO» доказал расход 24,5 л/100 км в 30‑дневном тесте у «ТРАСКО»",
       "slug": "valday-45-pro-dokazal-rashod-24-5-l-100-km-v-30dnevnom-teste-u-trasko-d68bdefb"
     },
@@ -1836,20 +1836,23 @@
       "sent_at": "2026-10-27T08:53:30+00:00",
       "title": "Linfox набирает обороты в Азии",
       "slug": "linfox-nabiraet-oboroty-v-azii-5c84f6e8"
+    },
+    "https://www.globaltrailermag.com/c-h-robinson-accelerates-global-freight/": {
+      "digest_id": "2026-10-27:pm",
+      "message_id": 1664,
+      "sent_at": "2026-10-27T12:30:37+00:00",
+      "title": "C.H. Robinson ускоряет международные перевозки грузов",
+      "slug": "c-h-robinson-uskoryaet-mezhdunarodnye-perevozki-gruzov-d7a2f07e"
+    },
+    "https://www.globaltrailermag.com/us-trailer-orders-surge/": {
+      "digest_id": "2026-10-27:pm",
+      "message_id": 1664,
+      "sent_at": "2026-10-27T12:30:37+00:00",
+      "title": "Американские заказы на трейлеры выросли",
+      "slug": "amerikanskie-zakazy-na-treylery-vyrosli-565c0caf"
     }
   },
   "digests": {
-    "2026-10-07:pm": {
-      "message_id": 1558,
-      "sent_at": "2026-10-07T13:40:57+00:00",
-      "slot": "pm",
-      "items": [
-        "https://truckmix.ru/news/kompaniya-gryzovaya-mehanika-na-konkyrse-100-lychshih-tovarov-rossii",
-        "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html",
-        "https://www.globaltrailermag.com/hub-group-overhauls-board/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-08:am": {
       "message_id": 1565,
       "sent_at": "2026-10-08T10:24:17+00:00",
@@ -2166,6 +2169,17 @@
         "https://uralaz.ru/media/news/komanda-ural-motorsport-zavershila-sezon-trak-triala-/",
         "https://www.globaltrailermag.com/fenatran-drives-brazilian-trailer-export-opportunities/",
         "https://www.globaltrailermag.com/linfox-builds-momentum-across-asia/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-27:pm": {
+      "message_id": 1664,
+      "sent_at": "2026-10-27T12:30:37+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/c-h-robinson-accelerates-global-freight/",
+        "https://www.globaltrailermag.com/us-trailer-orders-surge/",
+        "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko"
       ],
       "visual": "visual"
     }
