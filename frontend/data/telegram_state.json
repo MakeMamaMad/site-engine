@@ -1112,6 +1112,33 @@
       "slug": "pochemu-sto-vse-chasche-vybirayut-stm-zapchasti-i-kak-ne-narvatsya-na-ko-519a6973",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3408_kak_yderjat_klienta_kogda_on_yje_ne_obyazan_obslyjivatsya_y_dilera.html": {
+      "message_id": 1668,
+      "sent_at": "2026-10-27T15:18:22+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/kak-uderzhat-klienta-kogda-on-uzhe-ne-obyazan-obsluzhivatsya-u-dilera-39d695d3/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=kak-uderzhat-klienta-kogda-on-uzhe-ne-obyazan-obsluzhivatsya-u-dilera-39d695d3",
+      "title": "Как удержать клиента, когда он уже не обязан обслуживаться у дилера?",
+      "slug": "kak-uderzhat-klienta-kogda-on-uzhe-ne-obyazan-obsluzhivatsya-u-dilera-39d695d3",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3407_kak_organizaciya_servisa_vliyaet_na_prostoi_gryzovikov_opit_trakholding.html": {
+      "message_id": 1669,
+      "sent_at": "2026-10-27T15:18:23+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/kak-organizatsiya-servisa-vliyaet-na-prostoi-gruzovikov-opyt-trakholding-4026f403/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=kak-organizatsiya-servisa-vliyaet-na-prostoi-gruzovikov-opyt-trakholding-4026f403",
+      "title": "Как организация сервиса влияет на простои грузовиков: опыт «ТракХолдинг»",
+      "slug": "kak-organizatsiya-servisa-vliyaet-na-prostoi-gruzovikov-opyt-trakholding-4026f403",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3414_politrans_predstavil_polypricep_9417s_dlya_raboti_na_severe.html": {
+      "message_id": 1670,
+      "sent_at": "2026-10-27T15:18:24+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/politrans-predstavil-polupritsep-9417s-dlya-raboty-na-severe-f01648f1/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=politrans-predstavil-polupritsep-9417s-dlya-raboty-na-severe-f01648f1",
+      "title": "«Политранс» представил полуприцеп 9417S для работы на Севере",
+      "slug": "politrans-predstavil-polupritsep-9417s-dlya-raboty-na-severe-f01648f1",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
