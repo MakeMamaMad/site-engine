@@ -1614,6 +1614,27 @@
       "sent_at": "2026-10-26T12:47:25+00:00",
       "title": "SAT545 на выставке Дорожное строительство — 2026 в Минске",
       "slug": "sat545-na-vystavke-dorozhnoe-stroitelstvo-2026-v-minske-32ea5935"
+    },
+    "https://www.globaltrailermag.com/us-trailer-orders-surge/": {
+      "digest_id": "2026-10-27:am",
+      "post_id": 162,
+      "sent_at": "2026-10-27T08:53:33+00:00",
+      "title": "Американские заказы на трейлеры выросли",
+      "slug": "amerikanskie-zakazy-na-treylery-vyrosli-565c0caf"
+    },
+    "https://www.globaltrailermag.com/linfox-builds-momentum-across-asia/": {
+      "digest_id": "2026-10-27:am",
+      "post_id": 162,
+      "sent_at": "2026-10-27T08:53:33+00:00",
+      "title": "Linfox набирает обороты в Азии",
+      "slug": "linfox-nabiraet-oboroty-v-azii-5c84f6e8"
+    },
+    "https://www.globaltrailermag.com/fenatran-drives-brazilian-trailer-export-opportunities/": {
+      "digest_id": "2026-10-27:am",
+      "post_id": 162,
+      "sent_at": "2026-10-27T08:53:33+00:00",
+      "title": "Fenatran открывает возможности для экспорта бразильских трейлеров",
+      "slug": "fenatran-otkryvaet-vozmozhnosti-dlya-eksporta-brazilskih-treylerov-f8b5a8c5"
     }
   },
   "digests": {
@@ -2128,6 +2149,17 @@
         "http://gruzovoy.ru/news/industry/3406_za_9_mesyacev_prodaji_pricepov_sokratilis_na_186.html",
         "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko",
         "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/"
+      ]
+    },
+    "2026-10-27:am": {
+      "post_id": 162,
+      "sent_at": "2026-10-27T08:53:33+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/us-trailer-orders-surge/",
+        "https://www.globaltrailermag.com/linfox-builds-momentum-across-asia/",
+        "https://www.globaltrailermag.com/fenatran-drives-brazilian-trailer-export-opportunities/"
       ]
     }
   }
