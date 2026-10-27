@@ -1085,6 +1085,33 @@
       "slug": "komanda-ural-motorsport-zavershila-sezon-trak-triala-24a8d81e",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3411_rost_zarplat_ne_ostanovil_ottok_voditelei_kak_reshat_kadrovii_vopros_perevozchikam.html": {
+      "message_id": 1665,
+      "sent_at": "2026-10-27T12:34:22+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/rost-zarplat-ne-ostanovil-ottok-voditeley-kak-reshat-kadrovyy-vopros-per-413c5fb2/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=rost-zarplat-ne-ostanovil-ottok-voditeley-kak-reshat-kadrovyy-vopros-per-413c5fb2",
+      "title": "Рост зарплат не остановил отток водителей: как решать кадровый вопрос перевозчикам",
+      "slug": "rost-zarplat-ne-ostanovil-ottok-voditeley-kak-reshat-kadrovyy-vopros-per-413c5fb2",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3410_ludi_znaniya_i_svoi_brend_zapchastei_kak_tehportavtoservis_boretsya_s_prostoyami_gryzovikov.html": {
+      "message_id": 1666,
+      "sent_at": "2026-10-27T12:34:23+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/lyudi-znaniya-i-svoy-brend-zapchastey-kak-tehportavtoservis-boretsya-s-p-d43e1576/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=lyudi-znaniya-i-svoy-brend-zapchastey-kak-tehportavtoservis-boretsya-s-p-d43e1576",
+      "title": "Люди, знания и свой бренд запчастей: как «ТехПортАвтоСервис» борется с простоями грузовиков",
+      "slug": "lyudi-znaniya-i-svoy-brend-zapchastey-kak-tehportavtoservis-boretsya-s-p-d43e1576",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3409_pochemy_sto_vsyo_chashe_vibiraut_stm_zapchasti_i_kak_ne_narvatsya_na_kontrafakt.html": {
+      "message_id": 1667,
+      "sent_at": "2026-10-27T12:34:24+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/pochemu-sto-vse-chasche-vybirayut-stm-zapchasti-i-kak-ne-narvatsya-na-ko-519a6973/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=pochemu-sto-vse-chasche-vybirayut-stm-zapchasti-i-kak-ne-narvatsya-na-ko-519a6973",
+      "title": "Почему СТО всё чаще выбирают СТМ-запчасти и как не нарваться на контрафакт",
+      "slug": "pochemu-sto-vse-chasche-vybirayut-stm-zapchasti-i-kak-ne-narvatsya-na-ko-519a6973",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
