@@ -1815,20 +1815,30 @@
       "sent_at": "2026-10-26T12:47:22+00:00",
       "title": "«Валдай 45 PRO» доказал расход 24,5 л/100 км в 30‑дневном тесте у «ТРАСКО»",
       "slug": "valday-45-pro-dokazal-rashod-24-5-l-100-km-v-30dnevnom-teste-u-trasko-d68bdefb"
+    },
+    "https://uralaz.ru/media/news/komanda-ural-motorsport-zavershila-sezon-trak-triala-/": {
+      "digest_id": "2026-10-27:am",
+      "message_id": 1663,
+      "sent_at": "2026-10-27T08:53:30+00:00",
+      "title": "Команда URAL MOTORSPORT завершила сезон трак-триала",
+      "slug": "komanda-ural-motorsport-zavershila-sezon-trak-triala-24a8d81e"
+    },
+    "https://www.globaltrailermag.com/fenatran-drives-brazilian-trailer-export-opportunities/": {
+      "digest_id": "2026-10-27:am",
+      "message_id": 1663,
+      "sent_at": "2026-10-27T08:53:30+00:00",
+      "title": "Fenatran открывает возможности для экспорта бразильских трейлеров",
+      "slug": "fenatran-otkryvaet-vozmozhnosti-dlya-eksporta-brazilskih-treylerov-f8b5a8c5"
+    },
+    "https://www.globaltrailermag.com/linfox-builds-momentum-across-asia/": {
+      "digest_id": "2026-10-27:am",
+      "message_id": 1663,
+      "sent_at": "2026-10-27T08:53:30+00:00",
+      "title": "Linfox набирает обороты в Азии",
+      "slug": "linfox-nabiraet-oboroty-v-azii-5c84f6e8"
     }
   },
   "digests": {
-    "2026-10-07:am": {
-      "message_id": 1557,
-      "sent_at": "2026-10-07T10:18:44+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/hub-group-overhauls-board/",
-        "http://gruzovoy.ru/news/industry/3389_kitaiskie_brendi_zanyali_48_sdelok_po_lizingy_gryzovih_avtomobilei.html",
-        "https://sdelanounas.ru/blogs/178679/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-07:pm": {
       "message_id": 1558,
       "sent_at": "2026-10-07T13:40:57+00:00",
@@ -2145,6 +2155,17 @@
         "http://gruzovoy.ru/news/industry/3406_za_9_mesyacev_prodaji_pricepov_sokratilis_na_186.html",
         "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/",
         "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-27:am": {
+      "message_id": 1663,
+      "sent_at": "2026-10-27T08:53:30+00:00",
+      "slot": "am",
+      "items": [
+        "https://uralaz.ru/media/news/komanda-ural-motorsport-zavershila-sezon-trak-triala-/",
+        "https://www.globaltrailermag.com/fenatran-drives-brazilian-trailer-export-opportunities/",
+        "https://www.globaltrailermag.com/linfox-builds-momentum-across-asia/"
       ],
       "visual": "visual"
     }
