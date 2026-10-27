@@ -1659,6 +1659,27 @@
       "sent_at": "2026-10-27T08:53:33+00:00",
       "title": "Fenatran открывает возможности для экспорта бразильских трейлеров",
       "slug": "fenatran-otkryvaet-vozmozhnosti-dlya-eksporta-brazilskih-treylerov-f8b5a8c5"
+    },
+    "http://gruzovoy.ru/news/industry/3410_ludi_znaniya_i_svoi_brend_zapchastei_kak_tehportavtoservis_boretsya_s_prostoyami_gryzovikov.html": {
+      "digest_id": "2026-10-27:pm",
+      "post_id": 166,
+      "sent_at": "2026-10-27T12:36:55+00:00",
+      "title": "Люди, знания и свой бренд запчастей: как «ТехПортАвтоСервис» борется с простоями грузовиков",
+      "slug": "lyudi-znaniya-i-svoy-brend-zapchastey-kak-tehportavtoservis-boretsya-s-p-d43e1576"
+    },
+    "https://uralaz.ru/media/news/komanda-ural-motorsport-zavershila-sezon-trak-triala-/": {
+      "digest_id": "2026-10-27:pm",
+      "post_id": 166,
+      "sent_at": "2026-10-27T12:36:55+00:00",
+      "title": "Команда URAL MOTORSPORT завершила сезон трак-триала",
+      "slug": "komanda-ural-motorsport-zavershila-sezon-trak-triala-24a8d81e"
+    },
+    "https://www.globaltrailermag.com/c-h-robinson-accelerates-global-freight/": {
+      "digest_id": "2026-10-27:pm",
+      "post_id": 166,
+      "sent_at": "2026-10-27T12:36:55+00:00",
+      "title": "C.H. Robinson ускоряет международные перевозки грузов",
+      "slug": "c-h-robinson-uskoryaet-mezhdunarodnye-perevozki-gruzov-d7a2f07e"
     }
   },
   "digests": {
@@ -2184,6 +2205,17 @@
         "https://www.globaltrailermag.com/us-trailer-orders-surge/",
         "https://www.globaltrailermag.com/linfox-builds-momentum-across-asia/",
         "https://www.globaltrailermag.com/fenatran-drives-brazilian-trailer-export-opportunities/"
+      ]
+    },
+    "2026-10-27:pm": {
+      "post_id": 166,
+      "sent_at": "2026-10-27T12:36:55+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3410_ludi_znaniya_i_svoi_brend_zapchastei_kak_tehportavtoservis_boretsya_s_prostoyami_gryzovikov.html",
+        "https://uralaz.ru/media/news/komanda-ural-motorsport-zavershila-sezon-trak-triala-/",
+        "https://www.globaltrailermag.com/c-h-robinson-accelerates-global-freight/"
       ]
     }
   }
