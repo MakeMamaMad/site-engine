@@ -589,6 +589,16 @@
       "site_url": "https://spec-avtoportal.ru/knowledge/kak-razmestit-gruz-v-evrofure/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kak-razmestit-gruz-v-evrofure",
       "created_at": "2026-10-22T11:53:54+00:00",
       "status": "manual_fallback"
+    },
+    {
+      "target_id": "truckmix-publishing",
+      "target_name": "TRUCKmix.ru",
+      "item_key": "knowledge:kreplenie-gruzov",
+      "title": "Крепление грузов в полуприцепе: практический чек-лист",
+      "source_url": "https://spec-avtoportal.ru/knowledge/kreplenie-gruzov/?utm_source=truckmix-publishing&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kreplenie-gruzov",
+      "result_url": "https://truckmix.ru/publication/update/30644",
+      "submitted_at": "2026-10-27T12:33:02+00:00",
+      "status": "verified_in_author_cabinet"
     }
   ]
 }
