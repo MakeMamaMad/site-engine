@@ -1842,7 +1842,7 @@
       "updated_at": "2026-10-26T08:12:32.501063+00:00"
     },
     "d0c8b4d31e7e": {
-      "title": "Продажи прицепов за девять месяцев снизились на 18,6%",
+      "title": "За девять месяцев продажи прицепов сократились на 18,6%",
       "created_at": "2026-10-26T14:34:57.842823+00:00",
       "platforms": {
         "youtube": {
@@ -1856,16 +1856,16 @@
           "platform": "tiktok",
           "status": "error",
           "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-27T08:58:04.154957+00:00"
+          "updated_at": "2026-10-27T13:35:02.807440+00:00"
         },
         "instagram": {
           "platform": "instagram",
           "status": "error",
           "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-27T08:58:04.332472+00:00"
+          "updated_at": "2026-10-27T13:35:02.857424+00:00"
         }
       },
-      "updated_at": "2026-10-27T08:58:04.332469+00:00"
+      "updated_at": "2026-10-27T13:35:02.857420+00:00"
     },
     "guide:vynesennaya-os": {
       "title": "Вынесенная ось: плюс 4 тонны по нормам",
