@@ -543,7 +543,24 @@
       "tracking_url": "https://spec-avtoportal.ru/knowledge/kak-razmestit-gruz-v-evrofure/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kak-razmestit-gruz-v-evrofure",
       "created_at": "2026-10-22T11:53:54+00:00",
       "updated_at": "2026-10-22T11:53:54+00:00"
+    },
+    {
+      "action_id": "editorial:igrader-editorial:rezhim-truda-i-otdyha-voditelya",
+      "channel": "email",
+      "target_id": "igrader-editorial",
+      "target_name": "iGrader / журнал «Грейдер»",
+      "action": "send_editorial_email",
+      "contact": "igrader@pgmedia.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Приказ № 424 больше не действует: новый режим труда и отдыха водителей — готовый разбор для читателей",
+      "message": "Здравствуйте!\n\nС 1 сентября 2026 года режим рабочего времени и времени отдыха водителей определяет новый приказ Минтранса России № 160 от 14.04.2026. Прежний приказ № 424 утратил силу — перевозчикам нужно обновить на него ссылки в графиках работы и локальных документах.\n\nМы подготовили практический разбор: лимиты времени за рулём (9 часов в сутки, 56 в неделю, 90 за две недели), перерывы и отдых, пример рабочего дня водителя, какие машины оснащаются тахографом и штрафы по статье 11.23 КоАП.\n\nПредлагаем «iGrader / журнал «Грейдер»» бесплатно использовать этот материал:\n• опубликовать разбор целиком или в сокращении — пришлём текст в удобном формате и адаптируем под ваш стиль;\n\nЕдинственная просьба — указать источник со ссылкой: https://spec-avtoportal.ru/knowledge/rezhim-truda-i-otdyha-voditelya/?utm_source=igrader-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=rezhim-truda-i-otdyha-voditelya\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/rezhim-truda-i-otdyha-voditelya/?utm_source=igrader-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=rezhim-truda-i-otdyha-voditelya",
+      "created_at": "2026-10-28T12:41:28+00:00",
+      "updated_at": "2026-10-28T12:41:29+00:00",
+      "sent_at": "2026-10-28T12:41:29+00:00",
+      "gmail_message_id": "1a18287a1164af8b"
     }
   ],
-  "updated_at": "2026-10-27T15:53:05+00:00"
+  "updated_at": "2026-10-28T12:41:29+00:00"
 }
