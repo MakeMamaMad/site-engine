@@ -119,6 +119,13 @@ def _tag_site_links(text: str, platform: str) -> str:
     return re.sub(r"https://spec-avtoportal\.ru/[^\s)\]]*", tag, text)
 
 
+def _auth_error(record: dict[str, Any]) -> bool:
+    if record.get("status") != "error":
+        return False
+    text = str(record.get("error") or "")
+    return "HTTP 401" in text or "UNAUTHENTICATED" in text or "Access token is not valid" in text
+
+
 def _with_site_link(text: str, platform: str = "youtube") -> str:
     site_url = os.getenv("SITE_URL", "https://spec-avtoportal.ru/").strip() or "https://spec-avtoportal.ru/"
     clean = text.strip()
@@ -228,7 +235,19 @@ def publish_all(*, dry_run: bool = False) -> dict[str, Any]:
             summary["platforms"][platform] = error_result
 
     final_entry = (state.get("content") or {}).get(content_key) or {}
-    all_done = bool(platforms) and all(_platform_done(final_entry, platform) for platform in platforms)
+    # An expired/revoked Buffer key is not fixed by retrying: every retry
+    # re-rendered the same story and the daily slots stalled (24–27.10.2026).
+    # Such platforms are reported and skipped; YouTube still must succeed.
+    auth_blocked = [
+        platform
+        for platform in platforms
+        if platform != "youtube" and _auth_error((final_entry.get("platforms") or {}).get(platform) or {})
+    ]
+    if auth_blocked:
+        print(f"[social] WARNING Buffer authorization failed for {auth_blocked}: renew BUFFER_API_KEY; skipping them")
+        summary["auth_blocked"] = auth_blocked
+    required = [platform for platform in platforms if platform not in auth_blocked]
+    all_done = bool(required) and all(_platform_done(final_entry, platform) for platform in required)
     if all_done:
         _mark_v2_used(content_key, slug, title)
         print(f"[social] complete: all configured platforms done for {content_key}")
