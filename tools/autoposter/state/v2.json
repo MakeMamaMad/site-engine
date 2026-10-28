@@ -61,7 +61,8 @@
     "sat:sat118-grain",
     "b3f27ea02949",
     "c2637ff863ee",
-    "8fdbb4864d64"
+    "8fdbb4864d64",
+    "f01648f18511"
   ],
   "renders": [
     {
@@ -489,6 +490,13 @@
       "slug": "sinoteh-mashineri-nachala-postavki-v-rossiyu-modernizirovannyh-buldozero-8fdbb486",
       "title": "«Синотех Машинери» начала поставки модернизированных бульдозеров HBXG",
       "created_at": "2026-10-24T08:14:06.780012+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "f01648f18511",
+      "slug": "politrans-predstavil-polupritsep-9417s-dlya-raboty-na-severe-f01648f1",
+      "title": "«Политранс» представил полуприцеп 9417S для Севера",
+      "created_at": "2026-10-28T08:13:03.865892+00:00",
       "format": "social-v2"
     }
   ]
