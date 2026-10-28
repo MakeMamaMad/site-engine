@@ -1175,6 +1175,24 @@
       "slug": "opredelili-luchshie-podrazdeleniya-kvartala-e8f88192",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3417_stt_predstavila_fyrgon_svaiper_na_baze_gazeli_nn.html": {
+      "message_id": 1676,
+      "sent_at": "2026-10-28T15:30:54+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/stt-predstavila-furgon-svayper-na-baze-gazeli-nn-3424c706/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=stt-predstavila-furgon-svayper-na-baze-gazeli-nn-3424c706",
+      "title": "СТТ представила фургон «Свайпер» на базе «Газели NN»",
+      "slug": "stt-predstavila-furgon-svayper-na-baze-gazeli-nn-3424c706",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3416_spros_padaet_no_gryzoperevozki_dorojaut.html": {
+      "message_id": 1677,
+      "sent_at": "2026-10-28T15:30:55+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/spros-padaet-no-gruzoperevozki-dorozhayut-ee925ea0/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=spros-padaet-no-gruzoperevozki-dorozhayut-ee925ea0",
+      "title": "Спрос падает, но грузоперевозки дорожают",
+      "slug": "spros-padaet-no-gruzoperevozki-dorozhayut-ee925ea0",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
