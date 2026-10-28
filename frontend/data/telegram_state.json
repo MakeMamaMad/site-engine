@@ -1940,20 +1940,30 @@
       "sent_at": "2026-10-27T12:30:37+00:00",
       "title": "Американские заказы на трейлеры выросли",
       "slug": "amerikanskie-zakazy-na-treylery-vyrosli-565c0caf"
+    },
+    "http://gruzovoy.ru/news/industry/3414_politrans_predstavil_polypricep_9417s_dlya_raboti_na_severe.html": {
+      "digest_id": "2026-10-28:pm",
+      "message_id": 1675,
+      "sent_at": "2026-10-28T12:39:48+00:00",
+      "title": "«Политранс» представил полуприцеп 9417S для работы на Севере",
+      "slug": "politrans-predstavil-polupritsep-9417s-dlya-raboty-na-severe-f01648f1"
+    },
+    "https://nefaz.ru/news/rukovoditeli-nefaza-proveli-test-drayv": {
+      "digest_id": "2026-10-28:pm",
+      "message_id": 1675,
+      "sent_at": "2026-10-28T12:39:48+00:00",
+      "title": "Руководители «НЕФАЗа» провели тест-драйв",
+      "slug": "rukovoditeli-nefaza-proveli-test-drayv-134fc9c8"
+    },
+    "http://gruzovoy.ru/news/industry/3408_kak_yderjat_klienta_kogda_on_yje_ne_obyazan_obslyjivatsya_y_dilera.html": {
+      "digest_id": "2026-10-28:pm",
+      "message_id": 1675,
+      "sent_at": "2026-10-28T12:39:48+00:00",
+      "title": "Как удержать клиента, когда он уже не обязан обслуживаться у дилера?",
+      "slug": "kak-uderzhat-klienta-kogda-on-uzhe-ne-obyazan-obsluzhivatsya-u-dilera-39d695d3"
     }
   },
   "digests": {
-    "2026-10-08:am": {
-      "message_id": 1565,
-      "sent_at": "2026-10-08T10:24:17+00:00",
-      "slot": "am",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3387_tri_filtra_dlya_perevozchika_kapital_nalogi_effektivnost.html",
-        "https://maz.by/media/news/2026/10/08/maz-sportavto-yedet-na-bakhu-velikaya-step-2026",
-        "https://www.globaltrailermag.com/tii-group-launches-historic-pfedelbach-project/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-08:pm": {
       "message_id": 1566,
       "sent_at": "2026-10-08T13:49:03+00:00",
@@ -2270,6 +2280,17 @@
         "https://www.globaltrailermag.com/c-h-robinson-accelerates-global-freight/",
         "https://www.globaltrailermag.com/us-trailer-orders-surge/",
         "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-28:pm": {
+      "message_id": 1675,
+      "sent_at": "2026-10-28T12:39:48+00:00",
+      "slot": "pm",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3414_politrans_predstavil_polypricep_9417s_dlya_raboti_na_severe.html",
+        "https://nefaz.ru/news/rukovoditeli-nefaza-proveli-test-drayv",
+        "http://gruzovoy.ru/news/industry/3408_kak_yderjat_klienta_kogda_on_yje_ne_obyazan_obslyjivatsya_y_dilera.html"
       ],
       "visual": "visual"
     }
