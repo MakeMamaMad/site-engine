@@ -1752,6 +1752,27 @@
       "sent_at": "2026-10-27T12:36:55+00:00",
       "title": "C.H. Robinson ускоряет международные перевозки грузов",
       "slug": "c-h-robinson-uskoryaet-mezhdunarodnye-perevozki-gruzov-d7a2f07e"
+    },
+    "http://gruzovoy.ru/news/industry/3412_kak_dostich_ktg_bolee_90_keis_tk_arion.html": {
+      "digest_id": "2026-10-28:pm",
+      "post_id": 176,
+      "sent_at": "2026-10-28T12:39:50+00:00",
+      "title": "Как достичь КТГ более 90%: кейс «ТК Арион»",
+      "slug": "kak-dostich-ktg-bolee-90-keys-tk-arion-3ca0bb50"
+    },
+    "http://gruzovoy.ru/news/industry/3414_politrans_predstavil_polypricep_9417s_dlya_raboti_na_severe.html": {
+      "digest_id": "2026-10-28:pm",
+      "post_id": 176,
+      "sent_at": "2026-10-28T12:39:50+00:00",
+      "title": "«Политранс» представил полуприцеп 9417S для работы на Севере",
+      "slug": "politrans-predstavil-polupritsep-9417s-dlya-raboty-na-severe-f01648f1"
+    },
+    "https://nefaz.ru/news/rukovoditeli-nefaza-proveli-test-drayv": {
+      "digest_id": "2026-10-28:pm",
+      "post_id": 176,
+      "sent_at": "2026-10-28T12:39:50+00:00",
+      "title": "Руководители «НЕФАЗа» провели тест-драйв",
+      "slug": "rukovoditeli-nefaza-proveli-test-drayv-134fc9c8"
     }
   },
   "digests": {
@@ -2288,6 +2309,17 @@
         "http://gruzovoy.ru/news/industry/3410_ludi_znaniya_i_svoi_brend_zapchastei_kak_tehportavtoservis_boretsya_s_prostoyami_gryzovikov.html",
         "https://uralaz.ru/media/news/komanda-ural-motorsport-zavershila-sezon-trak-triala-/",
         "https://www.globaltrailermag.com/c-h-robinson-accelerates-global-freight/"
+      ]
+    },
+    "2026-10-28:pm": {
+      "post_id": 176,
+      "sent_at": "2026-10-28T12:39:50+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3412_kak_dostich_ktg_bolee_90_keis_tk_arion.html",
+        "http://gruzovoy.ru/news/industry/3414_politrans_predstavil_polypricep_9417s_dlya_raboti_na_severe.html",
+        "https://nefaz.ru/news/rukovoditeli-nefaza-proveli-test-drayv"
       ]
     }
   }
