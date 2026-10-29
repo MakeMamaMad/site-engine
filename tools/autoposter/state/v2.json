@@ -63,7 +63,8 @@
     "c2637ff863ee",
     "8fdbb4864d64",
     "f01648f18511",
-    "ee925ea0a488"
+    "ee925ea0a488",
+    "fab7eca12f5f"
   ],
   "renders": [
     {
@@ -505,6 +506,13 @@
       "slug": "spros-padaet-no-gruzoperevozki-dorozhayut-ee925ea0",
       "title": "Спрос падает, но грузоперевозки дорожают",
       "created_at": "2026-10-28T16:19:00.512570+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "fab7eca12f5f",
+      "slug": "infinity-dobavila-24-shekelya-k-flotu-fab7eca1",
+      "title": "Infinity добавила 24 шекеля к флоту",
+      "created_at": "2026-10-29T05:45:42.141601+00:00",
       "format": "social-v2"
     }
   ]
