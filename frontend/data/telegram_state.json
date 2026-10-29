@@ -2027,20 +2027,30 @@
       "sent_at": "2026-10-29T09:27:25+00:00",
       "title": "ЕС отложил эффективную схему взимания платы за прицеп",
       "slug": "es-otlozhil-effektivnuyu-shemu-vzimaniya-platy-za-pritsep-c0fec241"
+    },
+    "https://nefaz.ru/news/opredelili-luchshie-podrazdeleniya-kvartala": {
+      "digest_id": "2026-10-29:pm",
+      "message_id": 1682,
+      "sent_at": "2026-10-29T13:26:54+00:00",
+      "title": "Определили лучшие подразделения квартала",
+      "slug": "opredelili-luchshie-podrazdeleniya-kvartala-e8f88192"
+    },
+    "http://gruzovoy.ru/news/industry/3417_stt_predstavila_fyrgon_svaiper_na_baze_gazeli_nn.html": {
+      "digest_id": "2026-10-29:pm",
+      "message_id": 1682,
+      "sent_at": "2026-10-29T13:26:54+00:00",
+      "title": "СТТ представила фургон «Свайпер» на базе «Газели NN»",
+      "slug": "stt-predstavila-furgon-svayper-na-baze-gazeli-nn-3424c706"
+    },
+    "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/": {
+      "digest_id": "2026-10-29:pm",
+      "message_id": 1682,
+      "sent_at": "2026-10-29T13:26:54+00:00",
+      "title": "BPW фокусирует данные о пробеге прицепа",
+      "slug": "bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76"
     }
   },
   "digests": {
-    "2026-10-09:am": {
-      "message_id": 1575,
-      "sent_at": "2026-10-09T10:22:55+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/178717/",
-        "https://sdelanounas.ru/blogs/178714/",
-        "http://gruzovoy.ru/news/industry/3392_maz_mojet_nachat_ystanavlivat_kabini_kamaz_na_svoi_gryzoviki.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-09:pm": {
       "message_id": 1576,
       "sent_at": "2026-10-09T13:33:17+00:00",
@@ -2357,6 +2367,17 @@
         "https://www.globaltrailermag.com/infinity-adds-24-skels-to-fleet/",
         "http://gruzovoy.ru/news/industry/3411_rost_zarplat_ne_ostanovil_ottok_voditelei_kak_reshat_kadrovii_vopros_perevozchikam.html",
         "https://www.globaltrailermag.com/eu-defers-efficient-trailer-toll-scheme/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-29:pm": {
+      "message_id": 1682,
+      "sent_at": "2026-10-29T13:26:54+00:00",
+      "slot": "pm",
+      "items": [
+        "https://nefaz.ru/news/opredelili-luchshie-podrazdeleniya-kvartala",
+        "http://gruzovoy.ru/news/industry/3417_stt_predstavila_fyrgon_svaiper_na_baze_gazeli_nn.html",
+        "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/"
       ],
       "visual": "visual"
     }
