@@ -614,6 +614,28 @@
       "status": "email_sent",
       "sent_at": "2026-10-28T12:41:29+00:00",
       "gmail_message_id": "1a18287a1164af8b"
+    },
+    {
+      "target_id": "mexzona",
+      "target_name": "MEXZONA.RU",
+      "slug": "karta-voditelya-dlya-tahografa",
+      "title": "Карта водителя для тахографа в 2026 году: какая нужна, где получить, что будет без неё",
+      "site_url": "https://spec-avtoportal.ru/knowledge/karta-voditelya-dlya-tahografa/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=karta-voditelya-dlya-tahografa",
+      "created_at": "2026-10-29T16:19:48+00:00",
+      "status": "manual_fallback"
+    },
+    {
+      "target_id": "autotransport-editorial",
+      "target_name": "Журнал «Автомобильный транспорт»",
+      "slug": "kreplenie-gruzov",
+      "title": "Крепление грузов в полуприцепе: практический чек-лист",
+      "site_url": "https://spec-avtoportal.ru/knowledge/kreplenie-gruzov/?utm_source=autotransport-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kreplenie-gruzov",
+      "contact": "at@transport-at.ru",
+      "item_key": "knowledge:kreplenie-gruzov",
+      "created_at": "2026-10-29T16:19:49+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-29T16:19:50+00:00",
+      "gmail_message_id": "1a18875e5f49bc75"
     }
   ]
 }
