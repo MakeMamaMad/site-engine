@@ -54,7 +54,7 @@
   "reel_concepts": [
     {
       "angle": "mechanism",
-      "suggested_hook": "Счётчик записывает пробег прицепа независимо от тягача",
+      "suggested_hook": "Счётчик записывает пробег прицепа независимо от тягача.",
       "core_claim": "Счётчик записывает пробег прицепа независимо от тягача.",
       "caption_draft": "Счётчик записывает пробег прицепа независимо от тягача.\n\nИсточник: SpecAvtoPortal test fixture.",
       "source_evidence": [
@@ -72,7 +72,7 @@
     },
     {
       "angle": "practical",
-      "suggested_hook": "Данные помогают планировать интервалы технического обслуживания и проверку шин",
+      "suggested_hook": "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
       "core_claim": "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
       "caption_draft": "Данные помогают планировать интервалы технического обслуживания и проверку шин.\n\nИсточник: SpecAvtoPortal test fixture.",
       "source_evidence": [
@@ -149,6 +149,7 @@
       "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/"
     }
   ],
+  "hook_rejections": [],
   "warnings": [],
   "limitations": [
     "Every generated claim is traceable to exact imported source text.",

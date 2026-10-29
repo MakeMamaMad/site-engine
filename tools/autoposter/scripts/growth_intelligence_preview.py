@@ -112,8 +112,13 @@ def audit_markdown(report: dict[str, Any]) -> str:
         retention = f"{row['three_second_retention']:.0%}" if row.get("three_second_retention") is not None else "—"
         share_rate = f"{row['shares_per_reach']:.2%}" if row.get("shares_per_reach") is not None else "—"
         lines.append(f"| {row['post_id']} | {row['outlier_multiple']:.2f}x | {row['views']} | {_cell(row['reach'])} | {retention} | {share_rate} |")
-    lines += ["", "## Observed facts", ""]
-    for fact in report["observed_facts"]:
+    lines += ["", "## Observed metrics", ""]
+    lines.append(
+        f"- Imported posts: {report['observed_metrics']['sample_size']}; "
+        f"median views: {report['observed_metrics']['account_median_views']:.0f}."
+    )
+    lines += ["", "## Descriptive patterns — not causal findings", ""]
+    for fact in report["descriptive_patterns"]:
         lines.append(
             f"- {fact['type']} **{fact['value']}**: median {fact['median_outlier_multiple']:.2f}x, n={fact['sample_size']}."
         )
@@ -122,6 +127,15 @@ def audit_markdown(report: dict[str, Any]) -> str:
         lines.extend(f"- {row['hypothesis']} Confidence: {row['confidence']}." for row in report["hypotheses"])
     else:
         lines.append("- None supported by the available fields.")
+    lines += ["", "## Proposed experiments", ""]
+    if report["proposed_experiments"]:
+        for row in report["proposed_experiments"]:
+            lines.append(
+                f"- {row['experiment']} Confidence ceiling: {row['confidence']}; "
+                f"exploratory only: {'yes' if row['exploratory_only'] else 'no'}."
+            )
+    else:
+        lines.append("- None; collect more evidence first.")
     lines += ["", "## Missing/partial data warnings", ""]
     if report["warnings"]:
         lines.extend(f"- `{row['code']}` — {_cell(row.get('metric') or row.get('detail') or row)}" for row in report["warnings"])

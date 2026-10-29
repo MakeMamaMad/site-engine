@@ -77,6 +77,20 @@ class ViralPatternTests(unittest.TestCase):
 
 
 class RepurposeTests(unittest.TestCase):
+    def _assert_long_claim_stays_evidence(self, claim: str) -> None:
+        filler_one = "Подробное описание оборудования содержит дополнительные технические сведения для владельцев коммерческого транспорта и сервисных специалистов отрасли."
+        filler_two = "Редакционный материал также перечисляет контекст эксплуатации автомобиля на разных маршрутах без выводов о будущих результатах использования."
+        package = build_repurposing_package({
+            "title": "Проверка безопасного хука",
+            "source_url": "https://example.com/safety-review",
+            "summary": f"{claim} {filler_one} {filler_two}",
+        })
+        self.assertIn(claim, package["extraction"]["claims"])
+        self.assertEqual(package["reel_concepts"], [])
+        rejected = [row["source_evidence"]["exact_text"] for row in package["hook_rejections"]]
+        self.assertIn(claim, rejected)
+        self.assertIn("no_safe_reel_hook", {row["code"] for row in package["warnings"]})
+
     def test_source_grounded_package_preserves_links_and_specifications(self) -> None:
         _, source, _ = _fixture_data()
         package = build_repurposing_package(source)
@@ -128,6 +142,34 @@ class RepurposeTests(unittest.TestCase):
         self.assertEqual(quotes[0]["attribution_status"], "explicit")
         self.assertTrue(any(row["type"] == "attributed_quote" for row in package["story_concepts"]))
 
+    def test_truncated_conditional_claim_is_not_turned_into_a_hook(self) -> None:
+        self._assert_long_claim_stays_evidence(
+            "Если температура опустится ниже минус двадцати градусов, систему разрешено запускать только после обязательного предпускового прогрева двигателя."
+        )
+
+    def test_truncated_regulatory_claim_is_not_turned_into_a_hook(self) -> None:
+        self._assert_long_claim_stays_evidence(
+            "Согласно проекту регламента, новые требования могут начать действовать после утверждения документа правительством и официального опубликования текста."
+        )
+
+    def test_truncated_causal_claim_is_not_turned_into_a_hook(self) -> None:
+        self._assert_long_claim_stays_evidence(
+            "Расход топлива снизился после изменения маршрута, поскольку водитель исключил длительные остановки с работающим двигателем на загруженных участках дороги."
+        )
+
+    def test_truncated_numerical_claim_is_not_turned_into_a_hook(self) -> None:
+        self._assert_long_claim_stays_evidence(
+            "Допустимая нагрузка составляет 12 тонн только при использовании шин указанного размера и соблюдении рекомендованного производителем давления."
+        )
+
+    def test_final_suggested_hook_is_the_exact_validated_statement(self) -> None:
+        _, source, _ = _fixture_data()
+        package = build_repurposing_package(source)
+        source_text = source["summary"] + " " + source["content"]
+        for concept in package["reel_concepts"]:
+            self.assertTrue(validate_supported_statement(concept["suggested_hook"], source_text)["supported"])
+            self.assertEqual(concept["suggested_hook"], concept["source_evidence"][0]["exact_text"])
+
 
 class AnalyticsAuditTests(unittest.TestCase):
     def test_invalid_csv_values_fail_with_row_and_field(self) -> None:
@@ -169,25 +211,55 @@ class AnalyticsAuditTests(unittest.TestCase):
         self.assertIsNone(by_id["p2"]["shares_per_reach"])
         self.assertIsNone(by_id["p3"]["shares_per_reach"])
 
-    def test_observed_facts_and_hypotheses_are_separate(self) -> None:
+    def test_descriptive_patterns_and_hypotheses_are_separate(self) -> None:
         _, _, rows = _fixture_data()
         report = audit_posts(rows)
-        self.assertTrue(report["observed_facts"])
+        self.assertTrue(report["observed_metrics"])
+        self.assertTrue(report["descriptive_patterns"])
         self.assertTrue(report["hypotheses"])
         self.assertTrue(all(row["not_causal"] for row in report["hypotheses"]))
-        self.assertTrue(all("sample_size" in row for row in report["observed_facts"]))
+        self.assertTrue(all("sample_size" in row for row in report["descriptive_patterns"]))
+
+    def test_small_incomplete_dataset_only_proposes_low_confidence_experiment(self) -> None:
+        _, _, rows = _fixture_data()
+        report = audit_posts(rows)
+        self.assertFalse(report["dataset_quality"]["sample_sufficient"])
+        self.assertFalse(report["dataset_quality"]["optional_metrics_complete"])
+        self.assertEqual(report["dataset_quality"]["confidence_ceiling"], "low")
+        self.assertTrue(report["proposed_experiments"])
+        self.assertTrue(all(row["exploratory_only"] for row in report["proposed_experiments"]))
+        self.assertTrue(all(not row["causal_claim"] for row in report["proposed_experiments"]))
+        self.assertTrue(all(row["automatic_change"] is False for row in report["proposed_experiments"]))
+
+    def test_metrics_patterns_hypotheses_and_experiments_are_separate(self) -> None:
+        _, _, rows = _fixture_data()
+        report = audit_posts(rows)
+        self.assertIn("account_median_views", report["observed_metrics"])
+        self.assertTrue(report["descriptive_patterns"])
+        self.assertTrue(all(row["classification"] == "descriptive_pattern" for row in report["descriptive_patterns"]))
+        self.assertTrue(all(row["not_causal"] for row in report["descriptive_patterns"]))
+        self.assertTrue(all(row["not_causal"] for row in report["hypotheses"]))
+        self.assertTrue(all(row["basis"] == "descriptive_pattern_not_causal" for row in report["proposed_experiments"]))
 
 
 class RecommendationPipelineTests(unittest.TestCase):
     def test_disabled_flag_preserves_existing_behavior_without_running_modules(self) -> None:
         with patch.dict(os.environ, {"GROWTH_INTELLIGENCE_ENABLED": "0"}, clear=False), patch(
             "src.intelligence.pipeline.analyze_viral_patterns"
-        ) as viral:
+        ) as viral, patch(
+            "src.intelligence.pipeline.build_repurposing_package"
+        ) as repurpose, patch(
+            "src.intelligence.pipeline.audit_posts"
+        ) as audit:
             report = build_recommendation_pipeline(viral_rows=[], source={}, audit_rows=[])
         self.assertFalse(report["enabled"])
         self.assertEqual(report["content_plan_suggestions"], [])
         self.assertFalse(report["production_topic_weights_changed"])
+        self.assertFalse(report["publishing_invoked"])
+        self.assertEqual(report["scheduling_effect"], "none")
         viral.assert_not_called()
+        repurpose.assert_not_called()
+        audit.assert_not_called()
 
     def test_feature_flag_defaults_to_disabled(self) -> None:
         with patch.dict(os.environ, {}, clear=True):
@@ -208,6 +280,8 @@ class RecommendationPipelineTests(unittest.TestCase):
         self.assertNotEqual(reel["recommended_hook_formula"], "number_first")
         self.assertEqual(reel["evidence_based_pattern_experiment"]["hook_formula"], "number_first")
         self.assertTrue(reel["evidence_based_pattern_experiment"]["requires_editorial_rewrite"])
+        self.assertEqual(reel["analytics_confidence_ceiling"], "low")
+        self.assertNotEqual(reel["confidence"], "medium")
 
     def test_fixtures_are_never_labeled_as_real_performance(self) -> None:
         viral_rows, source, audit_rows = _fixture_data()

@@ -48,6 +48,59 @@
       "coverage": 0.667
     }
   },
+  "dataset_quality": {
+    "sample_size": 12,
+    "minimum_sample_for_non_exploratory_patterns": 20,
+    "sample_sufficient": false,
+    "optional_metrics_complete": false,
+    "confidence_ceiling": "low",
+    "recommendation_policy": "descriptive_and_experimental_only"
+  },
+  "observed_metrics": {
+    "sample_size": 12,
+    "account_median_views": 12000.0,
+    "date_range": {
+      "start": "2026-09-01",
+      "end": "2026-10-15"
+    },
+    "metric_coverage": {
+      "reach": {
+        "available_posts": 10,
+        "total_posts": 12,
+        "coverage": 0.833
+      },
+      "shares": {
+        "available_posts": 12,
+        "total_posts": 12,
+        "coverage": 1.0
+      },
+      "saves": {
+        "available_posts": 12,
+        "total_posts": 12,
+        "coverage": 1.0
+      },
+      "follows": {
+        "available_posts": 12,
+        "total_posts": 12,
+        "coverage": 1.0
+      },
+      "average_watch_time_seconds": {
+        "available_posts": 9,
+        "total_posts": 12,
+        "coverage": 0.75
+      },
+      "three_second_retention": {
+        "available_posts": 10,
+        "total_posts": 12,
+        "coverage": 0.833
+      },
+      "non_follower_reach": {
+        "available_posts": 8,
+        "total_posts": 12,
+        "coverage": 0.667
+      }
+    }
+  },
   "posts": [
     {
       "post_id": "synthetic-01",
@@ -479,6 +532,9 @@
       "hook_formula": "number_first",
       "sample_size": 4,
       "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
       "median_outlier_multiple": 2.375,
       "median_three_second_retention": 0.69,
       "median_shares_per_reach": 0.00951,
@@ -493,6 +549,9 @@
       "hook_formula": "question",
       "sample_size": 4,
       "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
       "median_outlier_multiple": 1.0,
       "median_three_second_retention": 0.54,
       "median_shares_per_reach": 0.00534,
@@ -507,6 +566,9 @@
       "hook_formula": "negative_command",
       "sample_size": 4,
       "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
       "median_outlier_multiple": 0.412,
       "median_three_second_retention": 0.34,
       "median_shares_per_reach": 0.00278,
@@ -523,6 +585,9 @@
       "content_topic": "регламенты",
       "sample_size": 4,
       "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
       "median_outlier_multiple": 1.208,
       "median_three_second_retention": 0.51,
       "median_shares_per_reach": 0.00582,
@@ -537,6 +602,9 @@
       "content_topic": "рынок",
       "sample_size": 3,
       "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
       "median_outlier_multiple": 1.083,
       "median_three_second_retention": 0.54,
       "median_shares_per_reach": 0.006,
@@ -550,6 +618,9 @@
       "content_topic": "эксплуатация",
       "sample_size": 5,
       "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
       "median_outlier_multiple": 0.75,
       "median_three_second_retention": 0.71,
       "median_shares_per_reach": 0.01037,
@@ -562,7 +633,7 @@
       ]
     }
   ],
-  "observed_facts": [
+  "descriptive_patterns": [
     {
       "type": "hook_formula",
       "value": "number_first",
@@ -573,7 +644,10 @@
         "synthetic-02",
         "synthetic-03",
         "synthetic-04"
-      ]
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
     },
     {
       "type": "hook_formula",
@@ -585,7 +659,10 @@
         "synthetic-06",
         "synthetic-07",
         "synthetic-08"
-      ]
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
     },
     {
       "type": "hook_formula",
@@ -597,7 +674,10 @@
         "synthetic-10",
         "synthetic-11",
         "synthetic-12"
-      ]
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
     },
     {
       "type": "content_topic",
@@ -609,7 +689,10 @@
         "synthetic-04",
         "synthetic-09",
         "synthetic-10"
-      ]
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
     },
     {
       "type": "content_topic",
@@ -620,7 +703,10 @@
         "synthetic-05",
         "synthetic-06",
         "synthetic-07"
-      ]
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
     },
     {
       "type": "content_topic",
@@ -633,7 +719,10 @@
         "synthetic-08",
         "synthetic-11",
         "synthetic-12"
-      ]
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
     }
   ],
   "hypotheses": [
@@ -649,12 +738,24 @@
       "not_causal": true
     }
   ],
+  "proposed_experiments": [
+    {
+      "experiment": "Run an owner-approved comparison using hook formula 'number_first' against the current baseline.",
+      "basis": "descriptive_pattern_not_causal",
+      "sample_size": 4,
+      "median_outlier_multiple": 2.375,
+      "confidence": "low",
+      "exploratory_only": true,
+      "requires_owner_approval": true,
+      "automatic_change": false,
+      "causal_claim": false
+    }
+  ],
   "recommendations": [
     {
-      "action": "Test more posts using hook formula 'number_first', without changing production weights automatically.",
-      "basis": "observed_pattern",
-      "sample_size": 4,
-      "median_outlier_multiple": 2.375
+      "action": "Collect more complete per-post metrics before changing the content plan.",
+      "basis": "insufficient_evidence",
+      "confidence": "high"
     }
   ],
   "warnings": [

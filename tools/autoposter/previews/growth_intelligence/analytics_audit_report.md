@@ -13,7 +13,11 @@ Posts: **12**. Median views: **12000**. Range: 2026-09-01 to 2026-10-15.
 | synthetic-03 | 2.17x | 26000 | 22000.0 | 67% | 0.86% |
 | synthetic-04 | 1.83x | 22000 | 18500.0 | 64% | 0.86% |
 
-## Observed facts
+## Observed metrics
+
+- Imported posts: 12; median views: 12000.
+
+## Descriptive patterns — not causal findings
 
 - hook_formula **number_first**: median 2.38x, n=4.
 - hook_formula **question**: median 1.00x, n=4.
@@ -25,6 +29,10 @@ Posts: **12**. Median views: **12000**. Range: 2026-09-01 to 2026-10-15.
 ## Hypotheses — not causal findings
 
 - Higher three-second retention may be associated with above-median views in this sample. Confidence: low.
+
+## Proposed experiments
+
+- Run an owner-approved comparison using hook formula 'number_first' against the current baseline. Confidence ceiling: low; exploratory only: yes.
 
 ## Missing/partial data warnings
 

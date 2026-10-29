@@ -27,14 +27,19 @@ The upstream `ig-repurpose` skill contributed extraction before format choice:
 claims, numbers, mechanisms, practical points and attributed quotes are found
 before deciding whether the source supports a Reel, carousel or Story. The
 implementation in `src/intelligence/repurpose.py` retains exact evidence and
-source URLs, rejects unsupported numbers, deduplicates angles and returns no
-multi-format package for a thin article.
+source URLs, validates the final suggested hook, never truncates a source
+sentence into a new factual claim, rejects unsupported numbers, deduplicates
+angles and returns no multi-format package for a thin article. Long or
+incomplete hook candidates remain cited evidence with an explicit warning.
 
 The upstream `ig-audit` skill contributed account-median normalization and the
 separation of hook, distribution and conversion metrics. The implementation in
 `src/intelligence/audit.py` calculates only fields present in owner-imported
 CSV/JSON, reports coverage, distinguishes observed facts from noncausal
-hypotheses, and warns when sample sizes are small.
+hypotheses, and warns when sample sizes are small. Its output explicitly
+separates imported metrics, descriptive patterns, noncausal hypotheses and
+owner-approved proposed experiments. Small or incomplete datasets cap
+experiment confidence at low and never change production weights.
 
 These adaptations use the upstream repository under its MIT License
 (copyright 2026 Jake Schincariol). The application implementation and Russian

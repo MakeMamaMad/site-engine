@@ -83,7 +83,7 @@ def _metric_coverage(rows: list[dict[str, Any]], field: str) -> dict[str, Any]:
     return {"available_posts": count, "total_posts": len(rows), "coverage": round(count / len(rows), 3) if rows else 0}
 
 
-def _group_patterns(rows: list[dict[str, Any]], field: str) -> list[dict[str, Any]]:
+def _group_patterns(rows: list[dict[str, Any]], field: str, *, dataset_sample_size: int) -> list[dict[str, Any]]:
     groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for row in rows:
         groups[str(row.get(field) or "unspecified")].append(row)
@@ -96,6 +96,9 @@ def _group_patterns(rows: list[dict[str, Any]], field: str) -> list[dict[str, An
             field: name,
             "sample_size": len(items),
             "adequate_sample": len(items) >= 3,
+            "classification": "descriptive_pattern",
+            "not_causal": True,
+            "confidence": "low" if dataset_sample_size < 20 or len(items) < 5 else "medium",
             "median_outlier_multiple": round(float(median(multiples)), 3) if multiples else None,
             "median_three_second_retention": round(float(median(retention)), 3) if retention else None,
             "median_shares_per_reach": round(float(median(share_rates)), 5) if share_rates else None,
@@ -143,21 +146,36 @@ def audit_posts(rows: list[dict[str, Any]]) -> dict[str, Any]:
     if len(validated) < 20:
         warnings.append({"code": "small_sample", "detail": f"Only {len(validated)} posts; conclusions are directional."})
 
-    hook_patterns = _group_patterns(validated, "hook_formula")
-    topic_patterns = _group_patterns(validated, "content_topic")
-    observed_facts: list[dict[str, Any]] = []
+    sample_sufficient = len(validated) >= 20
+    optional_complete = all(item["coverage"] == 1 for item in coverage.values())
+    confidence_ceiling = "medium" if sample_sufficient and optional_complete else "low"
+    dataset_quality = {
+        "sample_size": len(validated),
+        "minimum_sample_for_non_exploratory_patterns": 20,
+        "sample_sufficient": sample_sufficient,
+        "optional_metrics_complete": optional_complete,
+        "confidence_ceiling": confidence_ceiling,
+        "recommendation_policy": "descriptive_and_experimental_only",
+    }
+
+    hook_patterns = _group_patterns(validated, "hook_formula", dataset_sample_size=len(validated))
+    topic_patterns = _group_patterns(validated, "content_topic", dataset_sample_size=len(validated))
+    descriptive_patterns: list[dict[str, Any]] = []
     for pattern_type, patterns, key in (
         ("hook_formula", hook_patterns, "hook_formula"),
         ("content_topic", topic_patterns, "content_topic"),
     ):
         for pattern in patterns:
             if pattern["adequate_sample"] and pattern["median_outlier_multiple"] is not None:
-                observed_facts.append({
+                descriptive_patterns.append({
                     "type": pattern_type,
                     "value": pattern[key],
                     "sample_size": pattern["sample_size"],
                     "median_outlier_multiple": pattern["median_outlier_multiple"],
                     "post_ids": pattern["post_ids"],
+                    "classification": "descriptive_pattern",
+                    "confidence": pattern["confidence"],
+                    "not_causal": True,
                 })
 
     hypotheses: list[dict[str, Any]] = []
@@ -173,18 +191,28 @@ def audit_posts(rows: list[dict[str, Any]]) -> dict[str, Any]:
                 "not_causal": True,
             })
     best_hook = next((row for row in hook_patterns if row["adequate_sample"] and (row["median_outlier_multiple"] or 0) > 1), None)
-    recommendations: list[dict[str, Any]] = []
+    proposed_experiments: list[dict[str, Any]] = []
     if best_hook:
-        recommendations.append({
-            "action": f"Test more posts using hook formula '{best_hook['hook_formula']}', without changing production weights automatically.",
-            "basis": "observed_pattern",
+        experiment_confidence = (
+            "low" if confidence_ceiling == "low" or best_hook["confidence"] == "low" else "medium"
+        )
+        proposed_experiments.append({
+            "experiment": f"Run an owner-approved comparison using hook formula '{best_hook['hook_formula']}' against the current baseline.",
+            "basis": "descriptive_pattern_not_causal",
             "sample_size": best_hook["sample_size"],
             "median_outlier_multiple": best_hook["median_outlier_multiple"],
+            "confidence": experiment_confidence,
+            "exploratory_only": experiment_confidence == "low",
+            "requires_owner_approval": True,
+            "automatic_change": False,
+            "causal_claim": False,
         })
-    if not recommendations:
+    recommendations: list[dict[str, Any]] = []
+    if not sample_sufficient or not optional_complete:
         recommendations.append({
             "action": "Collect more complete per-post metrics before changing the content plan.",
             "basis": "insufficient_evidence",
+            "confidence": "high",
         })
     labels = sorted({row["dataset_label"] for row in validated})
     return {
@@ -199,13 +227,24 @@ def audit_posts(rows: list[dict[str, Any]]) -> dict[str, Any]:
             "end": max((row["publication_date"] for row in validated if row["publication_date"]), default=""),
         },
         "metric_coverage": coverage,
+        "dataset_quality": dataset_quality,
+        "observed_metrics": {
+            "sample_size": len(validated),
+            "account_median_views": account_median,
+            "date_range": {
+                "start": min((row["publication_date"] for row in validated if row["publication_date"]), default=""),
+                "end": max((row["publication_date"] for row in validated if row["publication_date"]), default=""),
+            },
+            "metric_coverage": coverage,
+        },
         "posts": validated,
         "top_posts": top,
         "bottom_posts": bottom,
         "hook_patterns": hook_patterns,
         "topic_patterns": topic_patterns,
-        "observed_facts": observed_facts,
+        "descriptive_patterns": descriptive_patterns,
         "hypotheses": hypotheses,
+        "proposed_experiments": proposed_experiments,
         "recommendations": recommendations,
         "warnings": warnings,
         "limitations": [

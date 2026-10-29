@@ -64,17 +64,29 @@ def _distinct(values: list[str], threshold: float = 0.82) -> list[str]:
     return result
 
 
-def _short_hook(sentence: str) -> str:
-    text = clean(sentence).rstrip(" .")
-    if len(text) <= 92 and len(text.split()) <= 14:
-        return text
-    words = text.split()
-    candidate = " ".join(words[:14]).rstrip(" ,:;—-")
-    # A hook recommendation must remain a complete source clause. If the
-    # sentence cannot be shortened safely, keep it as evidence, not as a hook.
-    if candidate.endswith(("и", "но", "что", "для", "при", "с", "в", "на")):
-        return ""
-    return candidate if candidate.endswith((".", "!", "?")) else candidate + "."
+def _safe_hook(sentence: str, source_text: str) -> tuple[str, dict[str, Any], str]:
+    """Return an exact, complete source sentence or explain why it is unsafe.
+
+    This intentionally does not summarize or truncate. A deterministic cutter
+    cannot know whether a removed condition, attribution, cause or number
+    changes the claim, so long evidence remains evidence rather than a hook.
+    """
+    candidate = clean(sentence)
+    empty_validation = validate_supported_statement("", source_text)
+    if not candidate:
+        return "", empty_validation, "empty_candidate"
+    if len(candidate) > 92 or len(candidate.split()) > 14:
+        return "", empty_validation, "source_sentence_exceeds_hook_limit"
+    if candidate.endswith((",", ":", ";", "—", "-")):
+        return "", empty_validation, "incomplete_clause"
+    if re.search(r"\b(?:и|но|а|или|что|чтобы|если|когда|поскольку|для|при|с|в|на)$", candidate, re.I):
+        return "", empty_validation, "incomplete_clause"
+    if re.match(r"^(?:если|когда|пока|поскольку|хотя|при условии)\b", candidate, re.I) and "," not in candidate:
+        return "", empty_validation, "incomplete_clause"
+    validation = validate_supported_statement(candidate, source_text)
+    if not validation["supported"]:
+        return "", validation, "final_hook_not_exactly_supported"
+    return candidate, validation, ""
 
 
 def extract_source_material(source: dict[str, Any]) -> dict[str, Any]:
@@ -151,26 +163,27 @@ def build_repurposing_package(source: dict[str, Any]) -> dict[str, Any]:
     candidates = _distinct(extraction["mechanisms"] + extraction["practical_recommendations"] + claims)
     reels: list[dict[str, Any]] = []
     used_evidence: list[str] = []
+    hook_rejections: list[dict[str, Any]] = []
     for sentence in candidates:
         if any(similarity(sentence, previous) >= 0.75 for previous in used_evidence):
             continue
-        hook = _short_hook(sentence)
+        hook, hook_validation, rejection_reason = _safe_hook(sentence, extraction["source_text"])
         if not hook:
+            hook_rejections.append({
+                "reason": rejection_reason,
+                "source_evidence": {"source_url": extraction["source_url"], "exact_text": sentence},
+            })
             continue
-        validation = validate_supported_statement(sentence, extraction["source_text"])
-        if not validation["supported"]:
-            continue
-        reels.append({
-            "angle": "mechanism" if sentence in extraction["mechanisms"] else "practical" if sentence in extraction["practical_recommendations"] else "verified_claim",
-            "suggested_hook": hook,
-            "core_claim": sentence,
-            "caption_draft": f"{sentence}\n\nИсточник: {extraction['source_name'] or extraction['source_url']}.",
-            "source_evidence": [{"source_url": extraction["source_url"], "exact_text": sentence}],
-            "factual_validation": validation,
-        })
+        if len(reels) < 2:
+            reels.append({
+                "angle": "mechanism" if sentence in extraction["mechanisms"] else "practical" if sentence in extraction["practical_recommendations"] else "verified_claim",
+                "suggested_hook": hook,
+                "core_claim": sentence,
+                "caption_draft": f"{sentence}\n\nИсточник: {extraction['source_name'] or extraction['source_url']}.",
+                "source_evidence": [{"source_url": extraction["source_url"], "exact_text": sentence}],
+                "factual_validation": hook_validation,
+            })
         used_evidence.append(sentence)
-        if len(reels) == 2:
-            break
 
     carousels: list[dict[str, Any]] = []
     outline_evidence = _distinct(extraction["numbers_and_specifications"] + extraction["mechanisms"] + extraction["practical_recommendations"])
@@ -205,6 +218,11 @@ def build_repurposing_package(source: dict[str, Any]) -> dict[str, Any]:
         })
     if not reels:
         warnings.append({"code": "no_safe_reel_hook", "detail": "Facts were extracted, but none formed a complete short hook."})
+    if hook_rejections:
+        warnings.append({
+            "code": "unsafe_hook_candidates_rejected",
+            "detail": f"{len(hook_rejections)} source sentences stayed as evidence because no exact, complete short hook was available.",
+        })
     if not carousels:
         warnings.append({"code": "carousel_not_justified", "detail": "Fewer than three distinct mechanisms, specifications or practical points."})
     return {
@@ -218,6 +236,7 @@ def build_repurposing_package(source: dict[str, Any]) -> dict[str, Any]:
         "reel_concepts": reels,
         "carousel_outlines": carousels,
         "story_concepts": stories[:2],
+        "hook_rejections": hook_rejections,
         "warnings": warnings,
         "limitations": [
             "Every generated claim is traceable to exact imported source text.",

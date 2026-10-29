@@ -29,6 +29,8 @@ def build_recommendation_pipeline(
             "enabled": False,
             "status": "disabled",
             "advisory_only": True,
+            "publishing_invoked": False,
+            "scheduling_effect": "none",
             "production_topic_weights_changed": False,
             "content_plan_suggestions": [],
         }
@@ -38,7 +40,9 @@ def build_recommendation_pipeline(
     viral_formulas = [row["hook_formula"] for row in viral["recommendations"]]
     audit_formulas = [
         row["hook_formula"] for row in audit["hook_patterns"]
-        if row["adequate_sample"] and (row["median_outlier_multiple"] or 0) >= 1
+        if audit["dataset_quality"]["sample_sufficient"]
+        and row["adequate_sample"]
+        and (row["median_outlier_multiple"] or 0) >= 1
     ]
     shared = [formula for formula in viral_formulas if formula in audit_formulas]
     preferred = shared or audit_formulas or viral_formulas
@@ -72,6 +76,7 @@ def build_recommendation_pipeline(
                 } if audit_pattern else None),
             },
             "confidence": "medium" if formula in shared else "source_grounded_only",
+            "analytics_confidence_ceiling": audit["dataset_quality"]["confidence_ceiling"],
             "approval_required": True,
         })
     for carousel in repurpose.get("carousel_outlines", []):

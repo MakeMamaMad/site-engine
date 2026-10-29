@@ -20,15 +20,13 @@
     "viral_accounts": 4,
     "audited_posts": 12,
     "source_claims": 6,
-    "shared_supported_formulas": [
-      "number_first"
-    ]
+    "shared_supported_formulas": []
   },
   "content_plan_suggestions": [
     {
       "format": "reel",
       "angle": "mechanism",
-      "suggested_hook": "Счётчик записывает пробег прицепа независимо от тягача",
+      "suggested_hook": "Счётчик записывает пробег прицепа независимо от тягача.",
       "recommended_hook_formula": "source_fact_first",
       "evidence_based_pattern_experiment": {
         "hook_formula": "number_first",
@@ -46,12 +44,13 @@
         "owned_metrics_pattern": null
       },
       "confidence": "source_grounded_only",
+      "analytics_confidence_ceiling": "low",
       "approval_required": true
     },
     {
       "format": "reel",
       "angle": "practical",
-      "suggested_hook": "Данные помогают планировать интервалы технического обслуживания и проверку шин",
+      "suggested_hook": "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
       "recommended_hook_formula": "source_fact_first",
       "evidence_based_pattern_experiment": {
         "hook_formula": "number_first",
@@ -69,6 +68,7 @@
         "owned_metrics_pattern": null
       },
       "confidence": "source_grounded_only",
+      "analytics_confidence_ceiling": "low",
       "approval_required": true
     },
     {
