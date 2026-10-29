@@ -1813,6 +1813,27 @@
       "sent_at": "2026-10-28T12:39:50+00:00",
       "title": "Руководители «НЕФАЗа» провели тест-драйв",
       "slug": "rukovoditeli-nefaza-proveli-test-drayv-134fc9c8"
+    },
+    "http://gruzovoy.ru/news/industry/3408_kak_yderjat_klienta_kogda_on_yje_ne_obyazan_obslyjivatsya_y_dilera.html": {
+      "digest_id": "2026-10-29:am",
+      "post_id": 182,
+      "sent_at": "2026-10-29T09:25:04+00:00",
+      "title": "Как удержать клиента, когда он уже не обязан обслуживаться у дилера?",
+      "slug": "kak-uderzhat-klienta-kogda-on-uzhe-ne-obyazan-obsluzhivatsya-u-dilera-39d695d3"
+    },
+    "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/": {
+      "digest_id": "2026-10-29:am",
+      "post_id": 182,
+      "sent_at": "2026-10-29T09:25:04+00:00",
+      "title": "BPW фокусирует данные о пробеге прицепа",
+      "slug": "bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76"
+    },
+    "http://gruzovoy.ru/news/industry/3417_stt_predstavila_fyrgon_svaiper_na_baze_gazeli_nn.html": {
+      "digest_id": "2026-10-29:am",
+      "post_id": 182,
+      "sent_at": "2026-10-29T09:25:04+00:00",
+      "title": "СТТ представила фургон «Свайпер» на базе «Газели NN»",
+      "slug": "stt-predstavila-furgon-svayper-na-baze-gazeli-nn-3424c706"
     }
   },
   "digests": {
@@ -2360,6 +2381,17 @@
         "http://gruzovoy.ru/news/industry/3412_kak_dostich_ktg_bolee_90_keis_tk_arion.html",
         "http://gruzovoy.ru/news/industry/3414_politrans_predstavil_polypricep_9417s_dlya_raboti_na_severe.html",
         "https://nefaz.ru/news/rukovoditeli-nefaza-proveli-test-drayv"
+      ]
+    },
+    "2026-10-29:am": {
+      "post_id": 182,
+      "sent_at": "2026-10-29T09:25:04+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3408_kak_yderjat_klienta_kogda_on_yje_ne_obyazan_obslyjivatsya_y_dilera.html",
+        "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+        "http://gruzovoy.ru/news/industry/3417_stt_predstavila_fyrgon_svaiper_na_baze_gazeli_nn.html"
       ]
     }
   }
