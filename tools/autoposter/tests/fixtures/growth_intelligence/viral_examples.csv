@@ -1,0 +1,21 @@
+account,source_url,views,account_median_views,hook,length_seconds,cta,hook_formula,dataset_label,captured_at
+@truck_lab,https://example.com/reels/truck-01,72000,10000,12 тонн на ось — где начинается риск штрафа,24,Сохраните памятку,number_first,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@fleet_ops,https://example.com/reels/fleet-01,50400,8000,6x2 — когда эта схема действительно нужна,21,Читайте разбор,number_first,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@logistics_ru,https://example.com/reels/logistics-01,82500,15000,"4,6 процента роста — что стоит проверить перевозчику",25,Поделитесь с коллегой,number_first,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@trailer_pro,https://example.com/reels/trailer-01,28800,6000,52 тонны — какие параметры нельзя пропустить,19,Сохраните,number_first,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@truck_lab,https://example.com/reels/truck-02,45000,10000,3 проверки перед дальним рейсом,18,Сохраните чек-лист,number_first,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@fleet_ops,https://example.com/reels/fleet-02,32000,8000,2 причины проверить нагрузку до выезда,20,Отправьте механику,number_first,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@logistics_ru,https://example.com/reels/logistics-02,39000,15000,Почему ставка растёт при падающем спросе?,28,Читайте источник,question,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@trailer_pro,https://example.com/reels/trailer-02,14400,6000,Как счётчик пробега помогает сервису?,23,Сохраните пример,question,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@truck_lab,https://example.com/reels/truck-03,22000,10000,Зачем проверять давление до рейса?,17,Подпишитесь,question,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@fleet_ops,https://example.com/reels/fleet-03,15200,8000,Что изменится для автопарка в 2028 году?,27,Читайте подробности,question,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@logistics_ru,https://example.com/reels/logistics-03,27000,15000,Не выбирайте шины только по цене,22,Сохраните,negative_command,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@trailer_pro,https://example.com/reels/trailer-03,10200,6000,Не меняйте интервал без данных о пробеге,24,Отправьте механику,negative_command,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@truck_lab,https://example.com/reels/truck-04,16000,10000,Не игнорируйте фактическую нагрузку на ось,20,Читайте разбор,negative_command,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@fleet_ops,https://example.com/reels/fleet-04,12000,8000,Не путайте планируемую норму с действующей,26,Проверьте источник,negative_command,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@logistics_ru,https://example.com/reels/logistics-04,21000,15000,Если пробег не фиксируется обслуживание запаздывает,25,Сохраните,consequence,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@trailer_pro,https://example.com/reels/trailer-04,8100,6000,Что изменится если добавить управляемую ось,22,Читайте подробнее,consequence,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@truck_lab,https://example.com/reels/truck-05,13000,10000,Если давление падает меняется работа шины,18,Отправьте водителю,consequence,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@fleet_ops,https://example.com/reels/fleet-05,9600,8000,Что будет если отложить проверку документов,20,Сохраните список,consequence,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@logistics_ru,https://example.com/reels/logistics-05,16500,15000,Миф о том что длиннее всегда значит грузоподъёмнее,29,Читайте спецификацию,myth_reversal,synthetic_fixture_not_real_competitor_performance,2026-10-20
+@trailer_pro,https://example.com/reels/trailer-05,6300,6000,На самом деле число осей не объясняет всю нагрузку,24,Сохраните,myth_reversal,synthetic_fixture_not_real_competitor_performance,2026-10-20

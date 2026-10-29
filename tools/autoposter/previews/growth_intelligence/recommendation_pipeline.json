@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "status": "advisory_ready",
+  "advisory_only": true,
+  "publishing_invoked": false,
+  "scheduling_effect": "none",
+  "production_topic_weights_changed": false,
+  "data_classification": {
+    "viral": [
+      "synthetic_fixture_not_real_competitor_performance"
+    ],
+    "audit": [
+      "synthetic_fixture_not_real_audience_performance"
+    ],
+    "source": "synthetic_representative_source_fixture"
+  },
+  "evidence_summary": {
+    "viral_examples": 20,
+    "viral_accounts": 4,
+    "audited_posts": 12,
+    "source_claims": 6,
+    "shared_supported_formulas": [
+      "number_first"
+    ]
+  },
+  "content_plan_suggestions": [
+    {
+      "format": "reel",
+      "angle": "mechanism",
+      "suggested_hook": "Счётчик записывает пробег прицепа независимо от тягача",
+      "recommended_hook_formula": "source_fact_first",
+      "evidence_based_pattern_experiment": {
+        "hook_formula": "number_first",
+        "requires_editorial_rewrite": true,
+        "constraint": "Any rewrite must retain the exact source claim and pass factual validation."
+      },
+      "source_evidence": [
+        {
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/",
+          "exact_text": "Счётчик записывает пробег прицепа независимо от тягача."
+        }
+      ],
+      "evidence": {
+        "competitor_fixture_pattern": null,
+        "owned_metrics_pattern": null
+      },
+      "confidence": "source_grounded_only",
+      "approval_required": true
+    },
+    {
+      "format": "reel",
+      "angle": "practical",
+      "suggested_hook": "Данные помогают планировать интервалы технического обслуживания и проверку шин",
+      "recommended_hook_formula": "source_fact_first",
+      "evidence_based_pattern_experiment": {
+        "hook_formula": "number_first",
+        "requires_editorial_rewrite": true,
+        "constraint": "Any rewrite must retain the exact source claim and pass factual validation."
+      },
+      "source_evidence": [
+        {
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/",
+          "exact_text": "Данные помогают планировать интервалы технического обслуживания и проверку шин."
+        }
+      ],
+      "evidence": {
+        "competitor_fixture_pattern": null,
+        "owned_metrics_pattern": null
+      },
+      "confidence": "source_grounded_only",
+      "approval_required": true
+    },
+    {
+      "format": "carousel",
+      "angle": "source_mechanism_or_specifications",
+      "title": "BPW ECO Meter фиксирует пробег прицепа независимо от тягача: подтверждённые детали",
+      "source_evidence": [
+        "Система рассчитана на размеры шин 385/65 R22.5 и нагрузку до 12 тонн.",
+        "Счётчик записывает пробег прицепа независимо от тягача.",
+        "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
+        "Механик может сверить фактический пробег перед плановым обслуживанием."
+      ],
+      "confidence": "source_grounded",
+      "approval_required": true
+    }
+  ],
+  "component_status": {
+    "viral": "ready",
+    "repurpose": "ready",
+    "audit": "ready"
+  },
+  "warnings": {
+    "viral": [],
+    "repurpose": [],
+    "audit": [
+      {
+        "code": "metric_partial",
+        "metric": "non_follower_reach",
+        "coverage": 0.667
+      },
+      {
+        "code": "small_sample",
+        "detail": "Only 12 posts; conclusions are directional."
+      }
+    ]
+  },
+  "owner_approval_required_for": [
+    "using a recommendation in production",
+    "connecting any new analytics source",
+    "changing topic-selection weights",
+    "scheduling or publishing content"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "module": "ig-repurpose-adaptation",
+  "status": "ready",
+  "advisory_only": true,
+  "scheduling_effect": "none",
+  "source": {
+    "title": "BPW ECO Meter фиксирует пробег прицепа независимо от тягача",
+    "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/",
+    "source_name": "SpecAvtoPortal test fixture",
+    "published_at": "2026-10-20",
+    "data_classification": "synthetic_representative_source_fixture"
+  },
+  "extraction": {
+    "title": "BPW ECO Meter фиксирует пробег прицепа независимо от тягача",
+    "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/",
+    "source_name": "SpecAvtoPortal test fixture",
+    "published_at": "2026-10-20",
+    "data_classification": "synthetic_representative_source_fixture",
+    "claims": [
+      "BPW представила систему ECO Meter для прицепов.",
+      "Счётчик записывает пробег прицепа независимо от тягача.",
+      "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
+      "Система рассчитана на размеры шин 385/65 R22.5 и нагрузку до 12 тонн.",
+      "Представитель BPW отметил: «Пробег должен быть виден независимо от смены тягача».",
+      "Механик может сверить фактический пробег перед плановым обслуживанием."
+    ],
+    "numbers_and_specifications": [
+      "Система рассчитана на размеры шин 385/65 R22.5 и нагрузку до 12 тонн."
+    ],
+    "mechanisms": [
+      "Счётчик записывает пробег прицепа независимо от тягача."
+    ],
+    "practical_recommendations": [
+      "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
+      "Механик может сверить фактический пробег перед плановым обслуживанием."
+    ],
+    "quotable_statements": [
+      {
+        "quote": "Пробег должен быть виден независимо от смены тягача",
+        "attribution_context": "Представитель BPW отметил:",
+        "attribution_status": "explicit",
+        "source_sentence": "Представитель BPW отметил: «Пробег должен быть виден независимо от смены тягача»."
+      }
+    ],
+    "counts": {
+      "claims": 6,
+      "numbers_and_specifications": 1,
+      "mechanisms": 1,
+      "practical_recommendations": 2,
+      "quotable_statements": 1
+    }
+  },
+  "reel_concepts": [
+    {
+      "angle": "mechanism",
+      "suggested_hook": "Счётчик записывает пробег прицепа независимо от тягача",
+      "core_claim": "Счётчик записывает пробег прицепа независимо от тягача.",
+      "caption_draft": "Счётчик записывает пробег прицепа независимо от тягача.\n\nИсточник: SpecAvtoPortal test fixture.",
+      "source_evidence": [
+        {
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/",
+          "exact_text": "Счётчик записывает пробег прицепа независимо от тягача."
+        }
+      ],
+      "factual_validation": {
+        "supported": true,
+        "exact_source_sentence": true,
+        "token_overlap": 1.0,
+        "unsupported_numbers": []
+      }
+    },
+    {
+      "angle": "practical",
+      "suggested_hook": "Данные помогают планировать интервалы технического обслуживания и проверку шин",
+      "core_claim": "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
+      "caption_draft": "Данные помогают планировать интервалы технического обслуживания и проверку шин.\n\nИсточник: SpecAvtoPortal test fixture.",
+      "source_evidence": [
+        {
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/",
+          "exact_text": "Данные помогают планировать интервалы технического обслуживания и проверку шин."
+        }
+      ],
+      "factual_validation": {
+        "supported": true,
+        "exact_source_sentence": true,
+        "token_overlap": 1.0,
+        "unsupported_numbers": []
+      }
+    }
+  ],
+  "carousel_outlines": [
+    {
+      "title": "BPW ECO Meter фиксирует пробег прицепа независимо от тягача: подтверждённые детали",
+      "slides": [
+        {
+          "slide": 1,
+          "role": "cover",
+          "text": "BPW ECO Meter фиксирует пробег прицепа независимо от тягача"
+        },
+        {
+          "slide": 2,
+          "role": "evidence",
+          "text": "Система рассчитана на размеры шин 385/65 R22.5 и нагрузку до 12 тонн.",
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/"
+        },
+        {
+          "slide": 3,
+          "role": "evidence",
+          "text": "Счётчик записывает пробег прицепа независимо от тягача.",
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/"
+        },
+        {
+          "slide": 4,
+          "role": "evidence",
+          "text": "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/"
+        },
+        {
+          "slide": 5,
+          "role": "evidence",
+          "text": "Механик может сверить фактический пробег перед плановым обслуживанием.",
+          "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/"
+        },
+        {
+          "slide": 6,
+          "role": "source",
+          "text": "Источник: SpecAvtoPortal test fixture"
+        }
+      ],
+      "source_evidence": [
+        "Система рассчитана на размеры шин 385/65 R22.5 и нагрузку до 12 тонн.",
+        "Счётчик записывает пробег прицепа независимо от тягача.",
+        "Данные помогают планировать интервалы технического обслуживания и проверку шин.",
+        "Механик может сверить фактический пробег перед плановым обслуживанием."
+      ]
+    }
+  ],
+  "story_concepts": [
+    {
+      "type": "attributed_quote",
+      "text": "Пробег должен быть виден независимо от смены тягача",
+      "attribution": "Представитель BPW отметил:",
+      "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/"
+    },
+    {
+      "type": "specification_card",
+      "text": "Система рассчитана на размеры шин 385/65 R22.5 и нагрузку до 12 тонн.",
+      "source_url": "https://spec-avtoportal.ru/news/bpw-eco-meter/"
+    }
+  ],
+  "warnings": [],
+  "limitations": [
+    "Every generated claim is traceable to exact imported source text.",
+    "The package is advisory and does not schedule, publish or multiply a thin source into repetitive posts."
+  ]
+}
