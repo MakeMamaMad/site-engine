@@ -36,6 +36,7 @@ six MP4 files, contact sheets and ffprobe/visual QA reports. The dedicated
 Growth Agent changes trigger an isolated job in the existing full-QA workflow.
 The job runs with Growth Agent, paid AI and state mutation disabled, then
 uploads the review bundle as a build artifact.
+Keep the review pull request in draft until the owner has inspected that bundle.
 
 ## Reference and licensing
 
