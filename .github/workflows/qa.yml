@@ -441,7 +441,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     env:
-      PREVIEW_DIR: ${{ runner.temp }}/growth-agent-review
+      PREVIEW_DIR: /tmp/growth-agent-review
       GROWTH_AGENT_ENABLED: "0"
       AI_SCRIPT: "0"
       AI_IMAGES: "0"
@@ -515,6 +515,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: growth-agent-old-new-${{ github.run_id }}
-          path: ${{ runner.temp }}/growth-agent-review/
+          path: /tmp/growth-agent-review/
           if-no-files-found: error
           retention-days: 14
