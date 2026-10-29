@@ -126,9 +126,15 @@ def _auth_error(record: dict[str, Any]) -> bool:
     return "HTTP 401" in text or "UNAUTHENTICATED" in text or "Access token is not valid" in text
 
 
-def _with_site_link(text: str, platform: str = "youtube") -> str:
+def _with_site_link(text: str, platform: str = "youtube", *, growth_enabled: bool | None = None) -> str:
     site_url = os.getenv("SITE_URL", "https://spec-avtoportal.ru/").strip() or "https://spec-avtoportal.ru/"
     clean = text.strip()
+    if growth_enabled is None:
+        growth_enabled = os.getenv("GROWTH_AGENT_ENABLED", "0").strip().lower() in {"1", "true", "yes", "on"}
+    # Instagram Reel captions do not make URLs clickable.  The optional
+    # quality layer writes a single "link in profile" CTA instead.
+    if platform in {"instagram", "tiktok"} and growth_enabled:
+        return clean
     if site_url.rstrip("/") not in clean:
         clean = (clean + "\n\nПодробнее на сайте: " + site_url) if clean else site_url
     return _tag_site_links(clean, platform)
@@ -153,6 +159,7 @@ def publish_all(*, dry_run: bool = False) -> dict[str, Any]:
     state = _load_social_state()
     entry = (state.get("content") or {}).get(content_key) or {}
     summary: dict[str, Any] = {"content_key": content_key, "title": title, "platforms": {}}
+    growth_enabled = bool((manifest.get("growth_agent") or {}).get("enabled"))
 
     for platform in platforms:
         if _platform_done(entry, platform):
@@ -173,7 +180,9 @@ def publish_all(*, dry_run: bool = False) -> dict[str, Any]:
                     raise RuntimeError("YOUTUBE_TOKEN_FILE missing")
 
                 youtube_title = str(board.get("youtube_title") or title).strip()[:100]
-                description = _with_site_link(_caption(OUT_DIR / "caption_youtube.txt"), "youtube")
+                description = _with_site_link(
+                    _caption(OUT_DIR / "caption_youtube.txt"), "youtube", growth_enabled=growth_enabled
+                )
                 hashtags = board.get("hashtags") if isinstance(board.get("hashtags"), list) else []
                 result_id = upload_video(
                     str(master),
@@ -196,11 +205,15 @@ def publish_all(*, dry_run: bool = False) -> dict[str, Any]:
 
                 if platform == "tiktok":
                     video_url = os.getenv("BUFFER_TIKTOK_VIDEO_URL", "").strip()
-                    caption = _with_site_link(_caption(OUT_DIR / "caption_tiktok.txt"), "tiktok")
+                    caption = _with_site_link(
+                        _caption(OUT_DIR / "caption_tiktok.txt"), "tiktok", growth_enabled=growth_enabled
+                    )
                     preferred_name = os.getenv("BUFFER_TIKTOK_CHANNEL_NAME", "specavtoportal").strip()
                 else:
                     video_url = os.getenv("BUFFER_INSTAGRAM_VIDEO_URL", "").strip()
-                    caption = _with_site_link(_caption(OUT_DIR / "caption_instagram.txt"), "instagram")
+                    caption = _with_site_link(
+                        _caption(OUT_DIR / "caption_instagram.txt"), "instagram", growth_enabled=growth_enabled
+                    )
                     preferred_name = os.getenv("BUFFER_INSTAGRAM_CHANNEL_NAME", "specavtoportal").strip()
 
                 if not video_url:

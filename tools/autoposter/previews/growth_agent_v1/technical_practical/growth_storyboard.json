@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "format": "explainer",
+  "title": "BPW фокусирует данные о пробеге прицепа",
+  "hook": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…",
+  "voiceover": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического… Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача. Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели. Подробности — по ссылке в профиле.",
+  "instagram_caption": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…\n\nНемецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача.\n\nИсточник: Global Trailer — новости индустрии полуприцепов.\n\nПодробности — по ссылке в профиле.\n\n#СпецАвтоПортал #коммерческийтранспорт #полуприцепы #грузовыешины",
+  "tiktok_caption": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…\n\nНемецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача.\n\nИсточник: Global Trailer — новости индустрии полуприцепов.\n\nРазбор — в профиле.\n\n#СпецАвтоПортал #коммерческийтранспорт #полуприцепы #грузовыешины",
+  "youtube_title": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…",
+  "youtube_description": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…\n\nНемецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача.\n\nПодробнее: https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/\n\nПервоисточник: https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/\n\n#СпецАвтоПортал #коммерческийтранспорт #полуприцепы #грузовыешины",
+  "hashtags": [
+    "#СпецАвтоПортал",
+    "#коммерческийтранспорт",
+    "#полуприцепы",
+    "#грузовыешины"
+  ],
+  "source_urls": [
+    "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+    "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "seconds": 2.8,
+      "overlay": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных…",
+      "narration": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: hero shot, immediate factual hook. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    },
+    {
+      "id": "fact",
+      "seconds": 7.0,
+      "overlay": "ФАКТ",
+      "narration": "Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: documentary close-up of the reported event. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    },
+    {
+      "id": "context",
+      "seconds": 6.0,
+      "overlay": "КОНТЕКСТ",
+      "narration": "Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: wide operational context with fleet and logistics. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    },
+    {
+      "id": "cta",
+      "seconds": 4.2,
+      "overlay": "ПОДРОБНЕЕ В ПРОФИЛЕ",
+      "narration": "Подробности — по ссылке в профиле.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: clean closing hero shot with dark negative space. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    }
+  ]
+}

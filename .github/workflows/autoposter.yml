@@ -162,6 +162,7 @@ jobs:
           VOICE: "ru-RU-SvetlanaNeural"
           TTS_RATE: "+5%"
           V2_MARK_USED: "0"
+          GROWTH_AGENT_ENABLED: ${{ vars.GROWTH_AGENT_ENABLED || '0' }}
           V2_MAX_AGE_HOURS: "96"
           SITE_URL: "https://spec-avtoportal.ru/"
           CONTENT_JSON_PATH: ${{ github.workspace }}/frontend/data/news.json

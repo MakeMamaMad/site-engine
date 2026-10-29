@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "mode": "deterministic_fallback",
+  "reason": "offline preview; paid AI disabled",
+  "hook_candidates": [
+    {
+      "text": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…",
+      "score": 78.0
+    },
+    {
+      "text": "BPW фокусирует данные о пробеге прицепа",
+      "score": 74.0
+    },
+    {
+      "text": "Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам…",
+      "score": 74.0
+    }
+  ],
+  "selected_hook": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического…",
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": []
+  },
+  "source_urls": [
+    "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+    "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/"
+  ],
+  "practical_takeaway_supported": true,
+  "scene_diversity": true
+}

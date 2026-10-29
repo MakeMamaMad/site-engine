@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "mode": "deterministic_fallback",
+  "reason": "offline preview; paid AI disabled",
+  "hook_candidates": [
+    {
+      "text": "Закон для беспилотных грузовиков в России подготовят к 2028 году",
+      "score": 84.0
+    },
+    {
+      "text": "В частности, к этому времени планируется сформировать законодательную базу, которая позволит…",
+      "score": 66.0
+    },
+    {
+      "text": "Факт из новости: Закон для беспилотных грузовиков в России подготовят к 2028 году",
+      "score": 54.0
+    }
+  ],
+  "selected_hook": "Закон для беспилотных грузовиков в России подготовят к 2028 году",
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": []
+  },
+  "source_urls": [
+    "https://spec-avtoportal.ru/news/zakon-dlya-bespilotnyh-gruzovikov-v-rossii-podgotovyat-k-2028-godu-125485e0/",
+    "http://gruzovoy.ru/news/industry/3367_zakon_dlya_bespilotnih_gryzovikov_v_rossii_podgotovyat_k_2028_gody.html"
+  ],
+  "practical_takeaway_supported": false,
+  "scene_diversity": true
+}

@@ -25,6 +25,12 @@ on:
         description: "Optional news slug to render"
         required: false
         type: string
+      growth_agent:
+        description: "Enable source-grounded Growth Agent v1"
+        required: true
+        type: choice
+        options: ["0", "1"]
+        default: "0"
   push:
     branches: [main]
     paths:
@@ -71,6 +77,9 @@ jobs:
           cd tools/autoposter
           python -m src.v2_main --self-test
 
+      - name: Run Growth Agent tests
+        run: python -m unittest tools.autoposter.tests.test_growth_agent
+
       - name: Render Short v2 preview
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -84,6 +93,7 @@ jobs:
           OPENAI_TTS_VOICE: "cedar"
           V2_FORCE_SLUG: ${{ github.event_name == 'workflow_dispatch' && inputs.force_slug || '' }}
           V2_MARK_USED: "0"
+          GROWTH_AGENT_ENABLED: ${{ github.event_name == 'workflow_dispatch' && inputs.growth_agent || '0' }}
           SITE_URL: "https://spec-avtoportal.ru/"
           CONTENT_JSON_PATH: ${{ github.workspace }}/frontend/data/news.json
           VOICE: "ru-RU-DmitryNeural"

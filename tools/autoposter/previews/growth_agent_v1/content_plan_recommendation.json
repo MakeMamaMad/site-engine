@@ -1,0 +1,103 @@
+{
+  "scheduling_effect": "none",
+  "items": [
+    {
+      "id": "2612fbfa4b06",
+      "slug": "kak-sdelat-servis-effektivnym-glavnoe-s-konferentsii-realnyy-servis-2026-2612fbfa",
+      "title": "Как сделать сервис эффективным: главное с конференции «Реальный сервис 2026»",
+      "score": 24.0,
+      "reasons": [
+        "regulation",
+        "operations",
+        "technology",
+        "market",
+        "practical_takeaway",
+        "specific_evidence"
+      ]
+    },
+    {
+      "id": "02fab2c4f43f",
+      "slug": "stavka-na-servis-effektivnost-i-lyudey-chto-obsuzhdali-na-konferentsii-r-02fab2c4",
+      "title": "Ставка на сервис, эффективность и людей: что обсуждали на конференции «Реальный комтранс 2026»",
+      "score": 22.5,
+      "reasons": [
+        "regulation",
+        "operations",
+        "technology",
+        "market",
+        "practical_takeaway",
+        "specific_evidence"
+      ]
+    },
+    {
+      "id": "8a7d82d33cb8",
+      "slug": "subsidirovat-lizing-iz-utilsbora-shema-spaseniya-rynka-gruzoperevozok-ot-8a7d82d3",
+      "title": "Субсидировать лизинг из утильсбора: схема спасения рынка грузоперевозок от гендиректора «Левсарс»",
+      "score": 22.0,
+      "reasons": [
+        "regulation",
+        "operations",
+        "technology",
+        "market",
+        "practical_takeaway",
+        "specific_evidence"
+      ]
+    },
+    {
+      "id": "8b65436c68b3",
+      "slug": "anatomiya-rosta-gde-iskat-resursy-kogda-rynok-szhimaetsya-8b65436c",
+      "title": "Анатомия роста: где искать ресурсы, когда рынок сжимается?",
+      "score": 21.5,
+      "reasons": [
+        "regulation",
+        "operations",
+        "technology",
+        "market",
+        "practical_takeaway",
+        "specific_evidence"
+      ]
+    },
+    {
+      "id": "dbc295c49e2b",
+      "slug": "direktor-nemo-raskryl-formulu-pravilnogo-elektrogruzovika-dbc295c4",
+      "title": "Директор NEMO раскрыл формулу правильного электрогрузовика",
+      "score": 21.5,
+      "reasons": [
+        "regulation",
+        "operations",
+        "technology",
+        "market",
+        "practical_takeaway",
+        "specific_evidence"
+      ]
+    },
+    {
+      "id": "413c5fb2d457",
+      "slug": "rost-zarplat-ne-ostanovil-ottok-voditeley-kak-reshat-kadrovyy-vopros-per-413c5fb2",
+      "title": "Рост зарплат не остановил отток водителей: как решать кадровый вопрос перевозчикам",
+      "score": 21.5,
+      "reasons": [
+        "regulation",
+        "operations",
+        "technology",
+        "market",
+        "practical_takeaway",
+        "specific_evidence"
+      ]
+    },
+    {
+      "id": "328af93dba0b",
+      "slug": "tri-filtra-dlya-perevozchika-kapital-nalogi-effektivnost-328af93d",
+      "title": "Три фильтра для перевозчика: капитал, налоги, эффективность",
+      "score": 21.0,
+      "reasons": [
+        "regulation",
+        "operations",
+        "technology",
+        "market",
+        "practical_takeaway",
+        "specific_evidence"
+      ]
+    }
+  ]
+}
