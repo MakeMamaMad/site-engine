@@ -1906,18 +1906,22 @@
         },
         "tiktok": {
           "platform": "tiktok",
-          "status": "error",
-          "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-27T15:20:35.374516+00:00"
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae2df28446afb54e8df953f",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-29T05:54:23.644005+00:00"
         },
         "instagram": {
           "platform": "instagram",
-          "status": "error",
-          "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-27T15:20:35.470494+00:00"
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6ae2df90b432ddead8f868da",
+          "buffer_status": "sending",
+          "updated_at": "2026-10-29T05:56:38.966635+00:00"
         }
       },
-      "updated_at": "2026-10-27T15:20:35.470491+00:00"
+      "updated_at": "2026-10-29T05:56:38.966632+00:00"
     },
     "f01648f18511": {
       "title": "«Политранс» представил полуприцеп 9417S для Севера",

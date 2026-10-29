@@ -64,7 +64,8 @@
     "8fdbb4864d64",
     "f01648f18511",
     "ee925ea0a488",
-    "fab7eca12f5f"
+    "fab7eca12f5f",
+    "testdrive:sat545#1"
   ],
   "renders": [
     {
@@ -513,6 +514,13 @@
       "slug": "infinity-dobavila-24-shekelya-k-flotu-fab7eca1",
       "title": "Infinity добавила 24 шекеля к флоту",
       "created_at": "2026-10-29T05:45:42.141601+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "testdrive:sat545#1",
+      "slug": "",
+      "title": "SAT-545 для сыпучих грузов — тест-драйв",
+      "created_at": "2026-10-29T05:56:38.969045+00:00",
       "format": "social-v2"
     }
   ]
