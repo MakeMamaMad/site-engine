@@ -1842,6 +1842,27 @@
       "sent_at": "2026-10-29T09:25:04+00:00",
       "title": "СТТ представила фургон «Свайпер» на базе «Газели NN»",
       "slug": "stt-predstavila-furgon-svayper-na-baze-gazeli-nn-3424c706"
+    },
+    "https://www.globaltrailermag.com/eu-defers-efficient-trailer-toll-scheme/": {
+      "digest_id": "2026-10-29:pm",
+      "post_id": 184,
+      "sent_at": "2026-10-29T13:37:59+00:00",
+      "title": "ЕС отложил эффективную схему взимания платы за прицеп",
+      "slug": "es-otlozhil-effektivnuyu-shemu-vzimaniya-platy-za-pritsep-c0fec241"
+    },
+    "http://gruzovoy.ru/news/industry/3407_kak_organizaciya_servisa_vliyaet_na_prostoi_gryzovikov_opit_trakholding.html": {
+      "digest_id": "2026-10-29:pm",
+      "post_id": 184,
+      "sent_at": "2026-10-29T13:37:59+00:00",
+      "title": "Как организация сервиса влияет на простои грузовиков: опыт «ТракХолдинг»",
+      "slug": "kak-organizatsiya-servisa-vliyaet-na-prostoi-gruzovikov-opyt-trakholding-4026f403"
+    },
+    "http://gruzovoy.ru/news/industry/3419_v_alabyge_nachali_seriino_vipyskat_tyrbomotor_15_l_dlya_sollers_sf1.html": {
+      "digest_id": "2026-10-29:pm",
+      "post_id": 184,
+      "sent_at": "2026-10-29T13:37:59+00:00",
+      "title": "В «Алабуге» начался серийный выпуск турбомоторов 1,5 л для Sollers SF1",
+      "slug": "v-alabuge-nachalsya-seriynyy-vypusk-turbomotorov-1-5-l-dlya-sollers-sf1-0ebd6c23"
     }
   },
   "digests": {
@@ -2400,6 +2421,17 @@
         "http://gruzovoy.ru/news/industry/3408_kak_yderjat_klienta_kogda_on_yje_ne_obyazan_obslyjivatsya_y_dilera.html",
         "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
         "http://gruzovoy.ru/news/industry/3417_stt_predstavila_fyrgon_svaiper_na_baze_gazeli_nn.html"
+      ]
+    },
+    "2026-10-29:pm": {
+      "post_id": 184,
+      "sent_at": "2026-10-29T13:37:59+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/eu-defers-efficient-trailer-toll-scheme/",
+        "http://gruzovoy.ru/news/industry/3407_kak_organizaciya_servisa_vliyaet_na_prostoi_gryzovikov_opit_trakholding.html",
+        "http://gruzovoy.ru/news/industry/3419_v_alabyge_nachali_seriino_vipyskat_tyrbomotor_15_l_dlya_sollers_sf1.html"
       ]
     }
   }
