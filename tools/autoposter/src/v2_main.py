@@ -14,6 +14,12 @@ from typing import Any
 from dateutil import parser as dtparser
 from PIL import Image
 
+from .ai.growth_agent import (
+    content_intelligence_score,
+    growth_report,
+    is_enabled,
+    is_near_duplicate,
+)
 from .ai.storyboard import fallback_storyboard, generate_storyboard
 from .ai.visuals import generate_scene_visual
 from .render.short_v2 import media_duration, render_scene_frame, render_short
@@ -120,6 +126,11 @@ def pick_item(news: list[dict[str, Any]], state: dict[str, Any]) -> dict[str, An
     now = datetime.now(timezone.utc)
 
     candidates: list[tuple[float, dict[str, Any]]] = []
+    recent_titles = [
+        _clean(row.get("title"))
+        for row in state.get("renders", [])[-20:]
+        if isinstance(row, dict) and _clean(row.get("title"))
+    ]
     for item in news:
         title = _clean(item.get("title") or item.get("headline"))
         slug = _clean(item.get("slug"))
@@ -131,14 +142,27 @@ def pick_item(news: list[dict[str, Any]], state: dict[str, Any]) -> dict[str, An
             continue
         enriched = dict(item)
         enriched["site_url"] = f"{SITE_URL}/news/{slug}/"
-        candidates.append((_score(enriched), enriched))
+        score = _score(enriched)
+        if is_enabled():
+            intelligence_score, reasons = content_intelligence_score(enriched)
+            enriched["_growth_reasons"] = reasons
+            score += intelligence_score
+            if is_near_duplicate(title, recent_titles):
+                score -= 12.0
+                enriched["_growth_near_duplicate"] = True
+        candidates.append((score, enriched))
 
     if not candidates:
         raise RuntimeError("No fresh unused news for Short v2")
 
-    candidates.sort(key=lambda pair: pair[0], reverse=True)
-    picked = candidates[0][1]
-    print(f"[pick] score={candidates[0][0]:.2f} title={_clean(picked.get('title'))[:120]}")
+    preferred = candidates
+    if is_enabled():
+        non_duplicates = [pair for pair in candidates if not pair[1].get("_growth_near_duplicate")]
+        if non_duplicates:
+            preferred = non_duplicates
+    preferred.sort(key=lambda pair: pair[0], reverse=True)
+    picked = preferred[0][1]
+    print(f"[pick] score={preferred[0][0]:.2f} title={_clean(picked.get('title'))[:120]}")
     return picked
 
 
@@ -306,17 +330,26 @@ def _caption_with_site(value: str) -> str:
 
 def write_outputs(board, manifest: dict[str, Any]) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    report = growth_report(board)
+    growth_active = bool(report.get("enabled"))
     (OUT_DIR / "scene_plan.json").write_text(
         json.dumps(board.to_dict(), ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    (OUT_DIR / "caption_instagram.txt").write_text(_caption_with_site(board.instagram_caption) + "\n", encoding="utf-8")
-    (OUT_DIR / "caption_tiktok.txt").write_text(_caption_with_site(board.tiktok_caption) + "\n", encoding="utf-8")
+    instagram_caption = board.instagram_caption if growth_active else _caption_with_site(board.instagram_caption)
+    tiktok_caption = board.tiktok_caption if growth_active else _caption_with_site(board.tiktok_caption)
+    (OUT_DIR / "caption_instagram.txt").write_text(instagram_caption + "\n", encoding="utf-8")
+    (OUT_DIR / "caption_tiktok.txt").write_text(tiktok_caption + "\n", encoding="utf-8")
     (OUT_DIR / "caption_youtube.txt").write_text(_caption_with_site(board.youtube_description) + "\n", encoding="utf-8")
     (OUT_DIR / "manifest.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    if growth_active:
+        (OUT_DIR / "growth_report.json").write_text(
+            json.dumps(report, ensure_ascii=False, indent=2),
+            encoding="utf-8",
+        )
 
 
 def self_test() -> int:
@@ -438,6 +471,9 @@ def main() -> int:
         "ai_script": bool(os.getenv("OPENAI_API_KEY", "").strip()) and os.getenv("AI_SCRIPT", "1") == "1",
         "ai_images": bool(os.getenv("OPENAI_API_KEY", "").strip()) and os.getenv("AI_IMAGES", "1") == "1",
     }
+    report = growth_report(board)
+    if report.get("enabled"):
+        manifest["growth_agent"] = report
     write_outputs(board, manifest)
 
     if os.getenv("V2_MARK_USED", "0").strip() == "1":

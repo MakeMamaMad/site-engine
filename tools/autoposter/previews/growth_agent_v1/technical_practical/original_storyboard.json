@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "format": "breaking",
+  "title": "BPW фокусирует данные о пробеге прицепа",
+  "hook": "BPW фокусирует данные о пробеге прицепа",
+  "voiceover": "BPW фокусирует данные о пробеге прицепа. BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами. Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача. Следим за развитием темы и тем, как она отразится на технике, логистике и стоимости владения. Полная новость — на сайте СпецАвтоПортал. Подписывайтесь, чтобы не пропустить главное.",
+  "instagram_caption": "BPW фокусирует данные о пробеге прицепа\n\nBPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами.\n\nПодробности: https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/\n\n#СпецАвтоПортал #грузовики #полуприцепы #логистика #автоновости",
+  "tiktok_caption": "BPW фокусирует данные о пробеге прицепа — коротко разбираем, что это значит. #СпецАвтоПортал #грузовики #полуприцепы #логистика",
+  "youtube_title": "BPW фокусирует данные о пробеге прицепа",
+  "youtube_description": "BPW фокусирует данные о пробеге прицепа\n\nBPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами.\n\nПодробности: https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/\n\n#СпецАвтоПортал #грузовики #полуприцепы #логистика #автоновости",
+  "hashtags": [
+    "#СпецАвтоПортал",
+    "#грузовики",
+    "#полуприцепы",
+    "#логистика",
+    "#автоновости"
+  ],
+  "source_urls": [
+    "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/"
+  ],
+  "scenes": [
+    {
+      "id": "hook",
+      "seconds": 4.2,
+      "overlay": "BPW фокусирует данные о пробеге прицепа",
+      "narration": "BPW фокусирует данные о пробеге прицепа.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: hero shot, immediate visual hook. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [
+        "BPW"
+      ],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    },
+    {
+      "id": "fact",
+      "seconds": 6.2,
+      "overlay": "ЧТО ПРОИЗОШЛО",
+      "narration": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: documentary detail showing the core event. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    },
+    {
+      "id": "meaning",
+      "seconds": 6.4,
+      "overlay": "ПОЧЕМУ ЭТО ВАЖНО",
+      "narration": "Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: operational context: fleet, logistics, workshop or road transport. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [
+        "важно"
+      ],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    },
+    {
+      "id": "impact",
+      "seconds": 6.0,
+      "overlay": "ДЛЯ РЫНКА",
+      "narration": "Следим за развитием темы и тем, как она отразится на технике, логистике и стоимости владения.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: wide industrial transport scene, analytical mood. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [
+        "рынка"
+      ],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    },
+    {
+      "id": "cta",
+      "seconds": 4.2,
+      "overlay": "ПОДРОБНЕЕ НА САЙТЕ",
+      "narration": "Полная новость — на сайте СпецАвтоПортал. Подписывайтесь, чтобы не пропустить главное.",
+      "visual_prompt": "Cinematic editorial photograph for a premium commercial-transport news reel. Subject: BPW фокусирует данные о пробеге прицепа. Scene: clean closing hero shot with dark negative space. Realistic European heavy truck / semi-trailer industry, physically plausible machinery, charcoal industrial palette with restrained orange light accents, dramatic but credible lighting, high detail, vertical composition, strong depth, clean negative space for editorial overlays. No text, no captions, no logos, no watermarks, no fake brand marks, no readable license plates.",
+      "highlight_words": [
+        "СпецАвтоПортале"
+      ],
+      "source_image_url": "https://www.globaltrailermag.com/wp-content/uploads/2026/10/BPW-1.jpg",
+      "cta_lead": []
+    }
+  ]
+}

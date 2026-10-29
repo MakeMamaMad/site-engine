@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "mode": "deterministic_fallback",
+  "reason": "offline preview; paid AI disabled",
+  "hook_candidates": [
+    {
+      "text": "«Стеллар Мотор Рус» представил на Comtrans новый Foton R 6x2, созданный вместе с российскими…",
+      "score": 64.0
+    },
+    {
+      "text": "Официальный дистрибьютор коммерческой техники Foton в России расширяет линейку крупнотоннажных…",
+      "score": 62.0
+    },
+    {
+      "text": "Она пополнится новой модификацией — шасси Foton R 6x2 полной массой 25 тонн для перевозки…",
+      "score": 44.0
+    }
+  ],
+  "selected_hook": "«Стеллар Мотор Рус» представил на Comtrans новый Foton R 6x2, созданный вместе с российскими…",
+  "validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": []
+  },
+  "source_urls": [
+    "https://spec-avtoportal.ru/news/stellar-motor-rus-predstavil-na-comtrans-novyy-foton-r-6x2-sozdannyy-vme-94802e11/",
+    "https://truckmix.ru/news/stellar-motor-rys-predstavil-na-comtrans-novii-foton-r-6x2-sozdannii-vmeste-s-rossiiskimi-riteilerami"
+  ],
+  "practical_takeaway_supported": false,
+  "scene_diversity": true
+}

@@ -264,8 +264,23 @@ def _validate_ai_storyboard(data: dict[str, Any], item: dict[str, Any]) -> Story
 
 def generate_storyboard(item: dict[str, Any]) -> Storyboard:
     """Build an AI storyboard when configured, otherwise use a deterministic fallback."""
+    from .growth_agent import (
+        build_fallback_storyboard,
+        enhance_storyboard,
+        is_enabled,
+        mark_legacy_fallback,
+        validate_storyboard,
+    )
+
+    growth_enabled = is_enabled()
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
     if not api_key or os.getenv("AI_SCRIPT", "1").strip() != "1":
+        if growth_enabled:
+            try:
+                return build_fallback_storyboard(item, reason="AI script generation is unavailable")
+            except Exception as exc:
+                print(f"[growth] safe fallback unavailable: {exc}")
+                return mark_legacy_fallback(fallback_storyboard(item), str(exc))
         return fallback_storyboard(item)
 
     try:
@@ -277,9 +292,12 @@ def generate_storyboard(item: dict[str, Any]) -> Storyboard:
             "title": _title(item),
             "summary": _summary(item),
             "url": _url(item),
+            "original_url": _clean(item.get("link") or item.get("source_url")),
             "source": _clean(item.get("source") or item.get("domain")),
             "tags": item.get("tags") or [],
         }
+        if growth_enabled:
+            source["content_excerpt"] = _clean(item.get("content"))[:12000]
         system = (
             "You are the short-form video editor for SpecAvtoPortal, a Russian professional media outlet about "
             "commercial trucks, trailers, logistics and regulations. Create factual, compact vertical-video storyboards. "
@@ -292,6 +310,13 @@ def generate_storyboard(item: dict[str, Any]) -> Storyboard:
             "Return ONLY valid JSON with keys: format,title,hook,instagram_caption,tiktok_caption,youtube_title,"
             "youtube_description,hashtags,scenes. Each scene must contain id,seconds,overlay,narration,visual_prompt,highlight_words."
         )
+        if growth_enabled:
+            system += (
+                " Also return hook_candidates as exactly three different Russian hook lines. "
+                "Every hook and every scene claim must be directly supported by the source. "
+                "Reject a dramatic angle if the source does not prove it. Use one CTA only. "
+                "Prefer an operational takeaway only when the source explicitly supports it."
+            )
         user = "Source item:\n" + json.dumps(source, ensure_ascii=False)
         response = client.responses.create(
             model=model,
@@ -303,8 +328,19 @@ def generate_storyboard(item: dict[str, Any]) -> Storyboard:
         )
         data = _extract_json(response.output_text)
         board = _validate_ai_storyboard(data, item)
+        if growth_enabled:
+            raw_validation = validate_storyboard(board, item)
+            if not raw_validation["valid"]:
+                raise ValueError(f"Growth Agent rejected raw AI output: {raw_validation['errors']}")
+            board = enhance_storyboard(board, item, supplied_hooks=data.get("hook_candidates") or [])
         print(f"[AI] storyboard generated with {model}: {len(board.scenes)} scenes")
         return board
     except Exception as exc:
         print(f"[AI] storyboard fallback: {exc}")
+        if growth_enabled:
+            try:
+                return build_fallback_storyboard(item, reason=str(exc)[:800])
+            except Exception as growth_exc:
+                print(f"[growth] safe fallback unavailable: {growth_exc}")
+                return mark_legacy_fallback(fallback_storyboard(item), str(growth_exc))
         return fallback_storyboard(item)
