@@ -511,7 +511,7 @@ jobs:
           test "$(find "$PREVIEW_DIR" -name 'video_qa.json' -type f | wc -l)" -eq 3
 
       - name: Upload owner-review bundle
-        if: steps.changes.outputs.render == 'true'
+        if: always() && steps.changes.outputs.render == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: growth-agent-old-new-${{ github.run_id }}

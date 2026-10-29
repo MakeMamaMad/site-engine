@@ -44,12 +44,22 @@ EMPTY_PROMO = (
     "инновационный прорыв", "меняет правила игры",
 )
 
-WEAK_HOOK_OPENERS = ("она ", "он ", "они ", "это ", "также ", "в частности ", "данный ", "данная ")
+WEAK_HOOK_OPENERS = (
+    "она ", "он ", "они ", "это ", "об этом ", "также ", "в частности ",
+    "данный ", "данная ",
+)
 
 HOOK_DANGLING_ENDINGS = (
     " и", " но", " а", " для", " с", " из", " что", " который", " которая",
     " которые", " потому что", " поскольку", " при", " по данным",
 )
+BAD_HOOK_LEADING_WORDS = {"и", "но", "а", "или", "что", "как", "до", "после", "при", "по", "в", "на"}
+VAGUE_HOOK_SUBJECTS = {"данные", "система", "компания", "операторы", "производитель"}
+VAGUE_HOOK_ENDINGS = {"данные", "важность", "операторам", "показатели", "информация", "решение"}
+CONTEXT_DEPENDENT_VERBS = {
+    "позволяет", "позволяют", "помогает", "помогают", "планирует", "планируют",
+    "может", "могут", "будет", "будут",
+}
 
 PRACTICAL_MARKERS = (
     "позволяет", "поможет", "обслужив", "ремонт", "провер", "следует",
@@ -200,14 +210,60 @@ def _supported_numbers(value: str, evidence: str) -> list[str]:
 
 
 def estimate_spoken_seconds(value: str, words_per_second: float = 2.6) -> float:
-    return len(WORD_RE.findall(value)) / words_per_second
+    words = WORD_RE.findall(value)
+    spoken_characters = sum(len(word) for word in words)
+    return max(len(words) / words_per_second, spoken_characters / 10.0)
+
+
+def _looks_like_verb(word: str) -> bool:
+    low = word.lower()
+    return bool(re.search(
+        r"(?:ал|ала|али|ел|ела|ели|ил|ила|или|ет|ёт|ит|ют|ут|ат|ят|ется|ётся|ются|утся|ится|ятся)$",
+        low,
+    ))
+
+
+def _looks_like_adjective(word: str) -> bool:
+    return bool(re.search(r"(?:ый|ий|ой|ный|ский|цкий|овый|евый|ивый|чивый|ая|яя|ое|ее|ого|его|ому|ему)$", word.lower()))
+
+
+def _compact_source_clause(value: str) -> str:
+    """Build a short grammatical claim using only ordered source tokens."""
+    words = WORD_RE.findall(value)
+    prepositions = {"с", "для", "при", "по", "о", "об", "в", "на", "из", "к", "перед", "до", "после"}
+    for verb_index in range(1, min(4, len(words))):
+        if not _looks_like_verb(words[verb_index]):
+            continue
+        if words[verb_index].lower() in CONTEXT_DEPENDENT_VERBS:
+            continue
+        subject_index = next(
+            (index for index in range(verb_index - 1, -1, -1) if words[index].lower() not in {"не", "ни"} and not _looks_like_adjective(words[index])),
+            None,
+        )
+        if subject_index is None:
+            continue
+        if any(not _looks_like_adjective(word) for word in words[:subject_index]):
+            continue
+        object_index = None
+        for index in range(verb_index + 1, len(words)):
+            if words[index].lower() in prepositions:
+                break
+            is_infinitive = bool(re.search(r"(?:ать|ять|еть|ить|уть|оть)$", words[index].lower()))
+            if not _looks_like_adjective(words[index]) and not is_infinitive:
+                object_index = index
+                break
+        if object_index is None:
+            continue
+        middle = [word for word in words[subject_index + 1:verb_index] if word.lower() in {"не", "ни"}]
+        return " ".join([words[subject_index], *middle, words[verb_index], words[object_index]])
+    return ""
 
 
 def _is_complete_statement(value: str) -> bool:
     text = _clean(value).rstrip()
     low = text.lower().rstrip(".!?")
     words = WORD_RE.findall(text)
-    if not 4 <= len(words) <= 22:
+    if not 3 <= len(words) <= 22:
         return False
     if text.endswith(("...", "…", ",", ";", ":", "—", "-")):
         return False
@@ -215,7 +271,22 @@ def _is_complete_statement(value: str) -> bool:
 
 
 def _hook_complete(value: str) -> bool:
-    return _is_complete_statement(value) and estimate_spoken_seconds(value) <= 3.0
+    text = _clean(value).rstrip()
+    words = WORD_RE.findall(text)
+    short_clause = (
+        len(words) == 2
+        and _looks_like_verb(words[-1])
+        and not text.endswith(("...", "…", ",", ";", ":", "—", "-"))
+    )
+    has_action = any(_looks_like_verb(word) for word in words)
+    good_opening = (
+        bool(words)
+        and words[0].lower() not in (BAD_HOOK_LEADING_WORDS | VAGUE_HOOK_SUBJECTS)
+        and words[-1].lower() not in VAGUE_HOOK_ENDINGS
+        and not _looks_like_verb(words[0])
+        and not any(text.lower().startswith(opener) for opener in WEAK_HOOK_OPENERS)
+    )
+    return good_opening and has_action and (_is_complete_statement(value) or short_clause) and estimate_spoken_seconds(value) <= 2.8
 
 
 def _evidence_sentences(item: dict[str, Any]) -> list[str]:
@@ -477,6 +548,10 @@ def _hook_variants(value: Any) -> list[str]:
         part = part.strip(" .,:;—–-")
         if part and part != text:
             variants.append(part)
+    for part in list(variants):
+        compact = _compact_source_clause(part)
+        if compact and compact != part:
+            variants.append(compact)
     result: list[str] = []
     for candidate in variants:
         if _hook_complete(candidate) and candidate not in result:
@@ -490,6 +565,9 @@ def generate_hook_candidates(item: dict[str, Any], supplied: Iterable[Any] = ())
     summary_sentences = _sentences(item.get("summary") or item.get("description") or item.get("excerpt"))
     raw: list[str] = []
     for value in [*supplied, title, *summary_sentences[:5]]:
+        low = _clean(value).lower()
+        if low.startswith(("пост ", "image:", "изображение:")) or "впервые появ" in low:
+            continue
         raw.extend(_hook_variants(value))
     evidence = " ".join(_source_parts(item))
     candidates: list[str] = []
@@ -526,7 +604,12 @@ def _source_sentences(item: dict[str, Any]) -> list[str]:
         low = value.lower()
         if low.startswith(("image:", "изображение:", "пост ")) or "впервые появ" in low:
             continue
-        if any(marker in low for marker in ("подробности", "по телефону", "звоните", "ссылка в", "подписывайтесь")):
+        if low.startswith(("что ", "кто ", "зачем ")):
+            continue
+        if any(marker in low for marker in (
+            "подробности", "по телефону", "звоните", "ссылка в", "подписывайтесь",
+            "читайте", "смотрите", "главные тезисы", "в нашем обзоре",
+        )):
             continue
         spoken = _spoken_sentence(value)
         if not _is_complete_statement(spoken):

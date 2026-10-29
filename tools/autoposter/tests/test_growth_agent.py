@@ -122,6 +122,7 @@ class GrowthAgentTests(unittest.TestCase):
         self.assertTrue(all(row["score"] > 0 for row in hooks))
         self.assertTrue(all(row["spoken_seconds"] <= 3.0 for row in hooks))
         self.assertTrue(all(not row["text"].endswith(("…", "...", ",", ":", ";")) for row in hooks))
+        self.assertIn("BPW показала счётчик", {row["text"] for row in hooks})
 
     def test_russian_humanizer_preserves_terms_models_and_numbers(self) -> None:
         text = "В этом видео следует отметить, что ECO Meter рассчитан на 12 тонн."
@@ -247,7 +248,7 @@ class GrowthAgentTests(unittest.TestCase):
 
     def test_planned_regulation_cannot_be_reported_as_enacted(self) -> None:
         item = {
-            "title": "Законопроект обсуждают перед введением",
+            "title": "Минтранс обсуждает проект",
             "summary": (
                 "Закон планируют ввести в 2028 году. "
                 "Документ пока обсуждают представители отрасли и перевозчиков. "
