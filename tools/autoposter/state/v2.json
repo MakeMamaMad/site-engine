@@ -65,7 +65,8 @@
     "f01648f18511",
     "ee925ea0a488",
     "fab7eca12f5f",
-    "testdrive:sat545#1"
+    "testdrive:sat545#1",
+    "guide:vynesennaya-os"
   ],
   "renders": [
     {
@@ -521,6 +522,13 @@
       "slug": "",
       "title": "SAT-545 для сыпучих грузов — тест-драйв",
       "created_at": "2026-10-29T05:56:38.969045+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:vynesennaya-os",
+      "slug": "",
+      "title": "Вынесенная ось: плюс 4 тонны по нормам",
+      "created_at": "2026-10-29T06:02:15.819750+00:00",
       "format": "social-v2"
     }
   ]

@@ -1880,18 +1880,22 @@
         },
         "tiktok": {
           "platform": "tiktok",
-          "status": "error",
-          "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-26T16:14:13.301912+00:00"
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae2e09f2467e67f1280827c",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-29T06:00:46.363007+00:00"
         },
         "instagram": {
           "platform": "instagram",
-          "status": "error",
-          "error": "Buffer API HTTP 401: {'errors': [{'message': 'Access token is not valid', 'extensions': {'code': 'UNAUTHENTICATED'}}]}",
-          "updated_at": "2026-10-26T16:14:13.422967+00:00"
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae2e10ff66393dd568e9029",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-29T06:02:15.817323+00:00"
         }
       },
-      "updated_at": "2026-10-26T16:14:13.422966+00:00"
+      "updated_at": "2026-10-29T06:02:15.817321+00:00"
     },
     "testdrive:sat545#1": {
       "title": "SAT-545 для сыпучих грузов — тест-драйв",
