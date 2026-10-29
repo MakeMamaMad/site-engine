@@ -250,6 +250,35 @@ def generate_scene_voice_track(board, work_dir: Path) -> tuple[Path, list[float]
         mode = generate_voice(scene.narration, path)
         duration = media_duration(path)
 
+        # Growth hooks are validated against a three-second opening. TTS
+        # engines vary substantially (especially the network fallback), so
+        # enforce that contract on the actual audio before rendering. Refuse
+        # an unnatural acceleration instead of silently publishing a late hook.
+        if index == 1 and hasattr(board, "_growth_report") and duration > 2.75:
+            speed = duration / 2.70
+            if speed > 1.40:
+                raise RuntimeError(
+                    f"Growth hook audio needs {duration:.2f}s and cannot fit naturally in three seconds"
+                )
+            fitted = scene_audio_dir / "scene_01_hook_fit.mp3"
+            proc = __import__("subprocess").run(
+                [
+                    "ffmpeg", "-y", "-loglevel", "error",
+                    "-i", str(path),
+                    "-af", f"atempo={speed:.4f}",
+                    "-c:a", "libmp3lame", "-q:a", "2",
+                    str(fitted),
+                ],
+                stdout=__import__("subprocess").PIPE,
+                stderr=__import__("subprocess").PIPE,
+            )
+            if proc.returncode != 0 or not fitted.exists() or fitted.stat().st_size == 0:
+                err = (proc.stderr or b"").decode("utf-8", errors="replace")
+                raise RuntimeError(f"Growth hook audio fit failed: {err[-1000:]}")
+            fitted.replace(path)
+            duration = media_duration(path)
+            print(f"[tts] growth hook fitted to {duration:.2f}s at {speed:.2f}x")
+
         # Keep a little visual breathing room after each spoken phrase.
         target = max(2.8, duration + 0.18)
         if target > duration + 0.03:
