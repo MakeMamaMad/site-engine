@@ -33,8 +33,9 @@ The comparison generator never calls a publisher. It writes three old/new
 cases plus an advisory content plan under
 `tools/autoposter/previews/growth_agent_v1/`. With `--render`, it also creates
 six MP4 files, contact sheets and ffprobe/visual QA reports. The dedicated
-`growth_agent_review_preview.yml` workflow runs with Growth Agent, paid AI and
-state mutation disabled, then uploads the review bundle as a build artifact.
+Growth Agent changes trigger an isolated job in the existing full-QA workflow.
+The job runs with Growth Agent, paid AI and state mutation disabled, then
+uploads the review bundle as a build artifact.
 
 ## Reference and licensing
 
