@@ -158,7 +158,7 @@ def integer_to_russian(value: int, *, feminine: bool = False) -> str:
     return " ".join(chunks) or "ноль"
 
 
-def _year_ordinal(value: int, *, genitive: bool = False) -> str:
+def _year_ordinal(value: int, *, grammatical_case: str = "nominative", genitive: bool = False) -> str:
     prefix_value = value - value % 100
     tail = value % 100
     if tail in _ORDINAL_YEARS:
@@ -170,23 +170,27 @@ def _year_ordinal(value: int, *, genitive: bool = False) -> str:
     else:
         result = integer_to_russian(value)
     if genitive:
-        word, _, start = result.rpartition(" ")
-        adjective = start or word
-        prefix = word if start else ""
-        endings = {
-            "первый": "первого", "второй": "второго", "третий": "третьего",
-            "четвёртый": "четвёртого", "пятый": "пятого", "шестой": "шестого",
-            "седьмой": "седьмого", "восьмой": "восьмого", "девятый": "девятого",
-            "десятый": "десятого", "одиннадцатый": "одиннадцатого", "двенадцатый": "двенадцатого",
-            "тринадцатый": "тринадцатого", "четырнадцатый": "четырнадцатого",
-            "пятнадцатый": "пятнадцатого", "шестнадцатый": "шестнадцатого",
-            "семнадцатый": "семнадцатого", "восемнадцатый": "восемнадцатого",
-            "девятнадцатый": "девятнадцатого", "двадцатый": "двадцатого",
-            "тридцатый": "тридцатого", "сороковой": "сорокового", "пятидесятый": "пятидесятого",
-            "шестидесятый": "шестидесятого", "семидесятый": "семидесятого",
-            "восьмидесятый": "восьмидесятого", "девяностый": "девяностого",
+        grammatical_case = "genitive"
+    if grammatical_case != "nominative":
+        prefix, separator, adjective = result.rpartition(" ")
+        if not separator:
+            adjective, prefix = prefix, ""
+        irregular = {
+            ("третий", "genitive"): "третьего",
+            ("третий", "dative"): "третьему",
+            ("третий", "prepositional"): "третьем",
+            ("третий", "instrumental"): "третьим",
         }
-        result = f"{prefix} {endings.get(adjective, adjective)}".strip()
+        declined = irregular.get((adjective, grammatical_case))
+        if not declined and adjective.endswith(("ый", "ой")):
+            stem = adjective[:-2]
+            endings = {"genitive": "ого", "dative": "ому", "prepositional": "ом", "instrumental": "ым"}
+            declined = stem + endings.get(grammatical_case, adjective[-2:])
+        if not declined and adjective.endswith("ий"):
+            stem = adjective[:-2]
+            endings = {"genitive": "его", "dative": "ему", "prepositional": "ем", "instrumental": "им"}
+            declined = stem + endings.get(grammatical_case, adjective[-2:])
+        result = f"{prefix} {declined or adjective}".strip()
     return result
 
 
@@ -224,7 +228,7 @@ def prepare_russian_speech(text: str, dictionary_path: Path = PRONUNCIATION_PATH
             date(year, month, day)
         except ValueError:
             return match.group(0)
-        return f"{_DAY_GENITIVE[day]} {_MONTH_GENITIVE[month]} {_year_ordinal(year, genitive=True)} года"
+        return f"{_DAY_GENITIVE[day]} {_MONTH_GENITIVE[month]} {_year_ordinal(year, grammatical_case='genitive')} года"
     spoken = _record_replace(spoken, date_pattern, date_spoken, "date", records)
 
     spoken = _record_replace(
@@ -249,12 +253,28 @@ def prepare_russian_speech(text: str, dictionary_path: Path = PRONUNCIATION_PATH
         lambda match: f"{integer_to_russian(int(match.group(1)))} процентов",
         "percentage", records,
     )
-    spoken = _record_replace(
-        spoken,
-        re.compile(r"(?<!\d)((?:19|20)\d{2})\s+(год|года|году|годом|годы)\b", re.IGNORECASE),
-        lambda match: f"{_year_ordinal(int(match.group(1)))} {match.group(2).lower()}",
-        "year", records,
+    year_pattern = re.compile(
+        r"(?:(к|в|до|после|с)\s+)?((?:19|20)\d{2})\s+(год|года|году|годом|годы)\b",
+        re.IGNORECASE,
     )
+    def year_spoken(match: re.Match[str]) -> str:
+        preposition = (match.group(1) or "").lower()
+        suffix = match.group(3).lower()
+        if preposition == "к":
+            grammatical_case = "dative"
+        elif preposition == "в":
+            grammatical_case = "prepositional"
+        elif preposition in {"до", "после", "с"} or suffix == "года":
+            grammatical_case = "genitive"
+        elif suffix == "годом":
+            grammatical_case = "instrumental"
+        elif suffix == "году":
+            grammatical_case = "prepositional"
+        else:
+            grammatical_case = "nominative"
+        prefix = f"{match.group(1)} " if match.group(1) else ""
+        return f"{prefix}{_year_ordinal(int(match.group(2)), grammatical_case=grammatical_case)} {suffix}"
+    spoken = _record_replace(spoken, year_pattern, year_spoken, "year", records)
 
     unit_pattern = re.compile(
         r"(?<![\d.,])(\d+)(?:[,.](\d+))?\s*(тонн(?:а|ы|у|ой|ами|ах)?|т|кг|километр(?:а|ов|ы)?|км|литр(?:а|ов|ы)?|л)\b",

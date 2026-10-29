@@ -49,12 +49,17 @@ class RussianSpeechPreparationTests(unittest.TestCase):
         result = prepare_russian_speech(source)
         self.assertEqual(result.original, source)
         for expected in (
-            "Чэмзап", "Фотон", "Би-пи-дабл-ю", "Мишлен", "Ди-эйч-эл", "Даф",
+            "Чэмзап", "Фотон", "Бэ-пэ-вэ", "Мишлен", "Ди-эйч-эл", "Даф",
             "шесть на два", "пятьдесят две тонны",
-            "четыре целых шесть десятых процента", "две тысячи двадцать восьмой год",
+            "четыре целых шесть десятых процента", "к две тысячи двадцать восьмому году",
         ):
             self.assertIn(expected, result.spoken)
         self.assertGreaterEqual(len(result.replacements), 10)
+
+    def test_year_uses_the_case_required_by_its_preposition(self) -> None:
+        result = prepare_russian_speech("Рост ожидают к 2028 году, а проверку проведут в 2029 году.")
+        self.assertIn("к две тысячи двадцать восьмому году", result.spoken)
+        self.assertIn("в две тысячи двадцать девятом году", result.spoken)
 
     def test_date_is_spoken_but_original_caption_value_is_untouched(self) -> None:
         source = "Правило обсуждают до 29.10.2026. Модель X6000 и K5 остаются в тексте."
