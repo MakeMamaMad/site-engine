@@ -267,6 +267,8 @@ def generate(news_path: Path, state_path: Path, output: Path, *, render: bool = 
                 "matching_settings": {
                     "voice": os.getenv("VOICE", "ru-RU-DmitryNeural"),
                     "tts_rate": os.getenv("TTS_RATE", "+8%"),
+                    "natural_voice_enabled": os.getenv("NATURAL_VOICE_ENABLED", "0"),
+                    "natural_voice_profile": os.getenv("NATURAL_VOICE_PROFILE", ""),
                     "ai_images": os.getenv("AI_IMAGES", "0"),
                     "width": 1080,
                     "height": 1920,
@@ -322,6 +324,7 @@ def main() -> int:
     os.environ.setdefault("AI_IMAGES", "0")
     os.environ.setdefault("OPENAI_TTS", "0")
     os.environ.setdefault("TTS_ENGINE", "edge")
+    os.environ.setdefault("ALLOW_PAID_TTS", "0")
     generate(args.news, args.state, args.output, render=args.render)
     print(f"Growth Agent preview written to {args.output}")
     return 0

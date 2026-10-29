@@ -237,7 +237,19 @@ def generate_voice(text: str, output: Path) -> str:
 
 
 def generate_scene_voice_track(board, work_dir: Path) -> tuple[Path, list[float], str]:
-    """Generate each scene separately so slide boundaries follow real speech."""
+    """Generate narration while preserving the exact legacy path by default."""
+    from .voice.natural_ru import generate_natural_voice_track, natural_voice_enabled
+
+    if natural_voice_enabled():
+        output, durations, mode, _report = generate_natural_voice_track(board, work_dir)
+        print(
+            "[tts] continuous scene alignment "
+            + ", ".join(f"{index + 1}:{seconds:.2f}s" for index, seconds in enumerate(durations))
+        )
+        return output, durations, mode
+
+    # Legacy behavior deliberately remains byte-for-byte reachable when the
+    # feature flag is off. This protects SAT, test-drive and guide jobs.
     scene_audio_dir = work_dir / "scene_audio"
     scene_audio_dir.mkdir(parents=True, exist_ok=True)
 
@@ -518,6 +530,9 @@ def main() -> int:
         "ai_script": bool(os.getenv("OPENAI_API_KEY", "").strip()) and os.getenv("AI_SCRIPT", "1") == "1",
         "ai_images": bool(os.getenv("OPENAI_API_KEY", "").strip()) and os.getenv("AI_IMAGES", "1") == "1",
     }
+    voice_report_path = WORK_DIR / "voice_report.json"
+    if voice_report_path.exists():
+        manifest["natural_voice"] = json.loads(voice_report_path.read_text(encoding="utf-8"))
     report = growth_report(board)
     if report.get("enabled"):
         manifest["growth_agent"] = report

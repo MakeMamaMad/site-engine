@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "default": "edge_svetlana_professional",
+  "profiles": {
+    "edge_svetlana_baseline": {
+      "engine": "edge",
+      "voice": "ru-RU-SvetlanaNeural",
+      "rate": "+5%",
+      "style": "current production-shaped per-scene baseline",
+      "continuous": false,
+      "paid": false,
+      "estimated_cost": "0 USD via the current edge-tts endpoint"
+    },
+    "edge_svetlana_professional": {
+      "engine": "edge",
+      "voice": "ru-RU-SvetlanaNeural",
+      "rate": "-2%",
+      "style": "warm professional Russian automotive presenter",
+      "continuous": true,
+      "paid": false,
+      "estimated_cost": "0 USD via the current edge-tts endpoint"
+    },
+    "edge_dmitry_conversational": {
+      "engine": "edge",
+      "voice": "ru-RU-DmitryNeural",
+      "rate": "-4%",
+      "style": "calm conversational Russian automotive presenter",
+      "continuous": true,
+      "paid": false,
+      "estimated_cost": "0 USD via the current edge-tts endpoint"
+    },
+    "edge_svetlana_deliberate": {
+      "engine": "edge",
+      "voice": "ru-RU-SvetlanaNeural",
+      "rate": "-7%",
+      "style": "slower continuous Russian explanatory delivery",
+      "continuous": true,
+      "paid": false,
+      "estimated_cost": "0 USD via the current edge-tts endpoint"
+    },
+    "openai_cedar_professional": {
+      "engine": "openai",
+      "model": "gpt-4o-mini-tts",
+      "voice": "cedar",
+      "speed": 1.0,
+      "style": "warm, native Russian professional narration",
+      "instructions": "Speak native, warm professional Russian for an automotive news reel. Use connected phrasing, restrained natural emotion, clear consonants and short pauses at punctuation. Pronounce the supplied phonetic brand forms exactly. Do not sound theatrical, promotional or robotic.",
+      "continuous": true,
+      "paid": true,
+      "estimated_cost": "OpenAI usage: $0.60/1M input text tokens plus $12/1M output audio tokens; exact charge depends on generated audio"
+    }
+  }
+}
