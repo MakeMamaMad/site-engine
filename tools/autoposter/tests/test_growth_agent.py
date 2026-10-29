@@ -16,6 +16,7 @@ if str(AUTPOSTER_ROOT) not in sys.path:
 
 from src.ai.growth_agent import (  # noqa: E402
     GrowthAgentError,
+    assess_source_quality,
     build_fallback_storyboard,
     content_intelligence_score,
     generate_hook_candidates,
@@ -56,13 +57,16 @@ class GrowthAgentTests(unittest.TestCase):
         self.assertEqual(actual.to_dict(), expected)
         self.assertFalse(growth_report(actual)["enabled"])
 
-    def test_enabled_flag_builds_three_hooks_and_report(self) -> None:
+    def test_enabled_flag_builds_complete_hooks_and_report(self) -> None:
         with patch.dict(os.environ, {"GROWTH_AGENT_ENABLED": "1", "OPENAI_API_KEY": "", "AI_SCRIPT": "0"}, clear=False):
             board = generate_storyboard(SOURCE_ITEM)
         report = growth_report(board)
         self.assertTrue(report["enabled"])
-        self.assertEqual(len(report["hook_candidates"]), 3)
+        self.assertGreaterEqual(len(report["hook_candidates"]), 1)
+        self.assertLessEqual(len(report["hook_candidates"]), 3)
+        self.assertTrue(all(row["spoken_seconds"] <= 3.0 for row in report["hook_candidates"]))
         self.assertLessEqual(board.scenes[0].seconds, 3.0)
+        self.assertEqual(board.scenes[0].overlay, board.hook)
 
     def test_storyboard_schema_is_backward_compatible(self) -> None:
         board = build_fallback_storyboard(SOURCE_ITEM)
@@ -90,23 +94,34 @@ class GrowthAgentTests(unittest.TestCase):
         self.assertFalse(report["valid"])
         self.assertIn("unsupported_sensitive_claim", {row["code"] for row in report["errors"]})
 
+    def test_cta_scene_cannot_hide_an_unsafe_claim(self) -> None:
+        board = build_fallback_storyboard(SOURCE_ITEM)
+        board.scenes[-1].narration = "Федеральный закон вводит штраф 999 рублей."
+        report = validate_storyboard(board, SOURCE_ITEM)
+        self.assertEqual(report["status"], "rejected")
+        self.assertIn("unsupported_number", {row["code"] for row in report["hard_failures"]})
+        self.assertIn("unsupported_sensitive_claim", {row["code"] for row in report["hard_failures"]})
+
     def test_missing_source_details_are_rejected(self) -> None:
         with self.assertRaises(GrowthAgentError):
             build_fallback_storyboard({"title": "Новость", "summary": "Мало данных."})
 
-    def test_missing_source_integration_reports_legacy_fallback(self) -> None:
+    def test_missing_source_integration_fails_closed_with_report(self) -> None:
         with patch.dict(os.environ, {"GROWTH_AGENT_ENABLED": "1", "OPENAI_API_KEY": "", "AI_SCRIPT": "0"}, clear=False):
-            board = generate_storyboard({"title": "Новость", "summary": "Мало данных."})
-        report = growth_report(board)
-        self.assertTrue(report["enabled"])
-        self.assertEqual(report["mode"], "legacy_fallback")
-        self.assertFalse(report["validation"]["valid"])
+            with self.assertRaises(GrowthAgentError) as caught:
+                generate_storyboard({"title": "Новость", "summary": "Мало данных."})
+        self.assertEqual(caught.exception.report["status"], "rejected")
+        self.assertIn("insufficient_source_depth", {
+            row["code"] for row in caught.exception.report["hard_failures"]
+        })
 
-    def test_hook_candidates_are_three_and_grounded(self) -> None:
+    def test_hook_candidates_are_complete_timed_and_grounded(self) -> None:
         hooks = generate_hook_candidates(SOURCE_ITEM)
-        self.assertEqual(len(hooks), 3)
+        self.assertGreaterEqual(len(hooks), 1)
+        self.assertLessEqual(len(hooks), 3)
         self.assertTrue(all(row["score"] > 0 for row in hooks))
-        self.assertTrue(any("12" in row["text"] for row in hooks))
+        self.assertTrue(all(row["spoken_seconds"] <= 3.0 for row in hooks))
+        self.assertTrue(all(not row["text"].endswith(("…", "...", ",", ":", ";")) for row in hooks))
 
     def test_russian_humanizer_preserves_terms_models_and_numbers(self) -> None:
         text = "В этом видео следует отметить, что ECO Meter рассчитан на 12 тонн."
@@ -157,12 +172,139 @@ class GrowthAgentTests(unittest.TestCase):
     def test_picker_avoids_near_duplicate_when_an_alternative_exists(self) -> None:
         news = [
             {"id": "duplicate", "slug": "duplicate", "title": "BPW показала счётчик пробега прицепа", "summary": SOURCE_ITEM["summary"]},
-            {"id": "fresh", "slug": "fresh", "title": "Новые правила весового контроля", "summary": "Перевозчикам следует проверить нагрузку на ось до рейса."},
+            {
+                "id": "fresh",
+                "slug": "fresh",
+                "title": "Новые правила весового контроля",
+                "summary": (
+                    "Перевозчикам следует проверить нагрузку на ось до рейса. "
+                    "Документы на груз нужно подготовить перед выездом. "
+                    "Контроль проводят на стационарных и мобильных пунктах."
+                ),
+            },
         ]
         state = {"used": [], "renders": [{"title": "Новый счётчик пробега прицепа BPW"}]}
         with patch.dict(os.environ, {"GROWTH_AGENT_ENABLED": "1"}, clear=False):
             picked = pick_item(news, state)
         self.assertEqual(picked["id"], "fresh")
+
+    def test_picker_skips_a_high_scoring_but_weak_source(self) -> None:
+        news = [
+            {
+                "id": "weak",
+                "slug": "weak",
+                "title": "Новый федеральный закон меняет штрафы перевозчиков",
+                "summary": "Перевозчикам сообщили об изменениях.",
+            },
+            SOURCE_ITEM,
+        ]
+        with patch.dict(os.environ, {"GROWTH_AGENT_ENABLED": "1"}, clear=False):
+            picked = pick_item(news, {"used": [], "renders": []})
+        self.assertEqual(picked["id"], SOURCE_ITEM["id"])
+
+    def test_inverted_causal_relationship_is_a_hard_failure(self) -> None:
+        item = {
+            "title": "Топливо увеличило затраты перевозчиков",
+            "summary": (
+                "Рост цен на топливо привёл к увеличению затрат перевозчиков. "
+                "Автопарки сократили дальние рейсы после пересмотра бюджетов. "
+                "Компании изменили маршруты и графики доставки."
+            ),
+        }
+        board = build_fallback_storyboard(item)
+        board.scenes[1].narration = "Увеличение затрат перевозчиков привело к росту цен на топливо."
+        report = validate_storyboard(board, item)
+        self.assertEqual(report["status"], "rejected")
+        self.assertIn("inverted_causal_relationship", {row["code"] for row in report["hard_failures"]})
+
+    def test_incorrect_attribution_is_a_hard_failure(self) -> None:
+        item = {
+            "title": "Производители обновили линейку тягачей",
+            "summary": (
+                "КАМАЗ сообщил о выпуске модели K5. "
+                "МАЗ представил тягач X6000 для магистральных перевозок. "
+                "Обе компании готовят машины для дорожных испытаний."
+            ),
+        }
+        board = build_fallback_storyboard(item)
+        board.scenes[1].narration = "МАЗ сообщил о выпуске модели K5."
+        report = validate_storyboard(board, item)
+        self.assertIn("incorrect_attribution", {row["code"] for row in report["hard_failures"]})
+
+    def test_negated_claim_is_a_hard_failure(self) -> None:
+        item = {
+            "title": "Производство модели K5 продолжается",
+            "summary": (
+                "Компания не прекращает выпуск модели K5. "
+                "Производство модели K5 продолжается на основном заводе. "
+                "Поставки модели дилерам запланированы на следующий квартал."
+            ),
+        }
+        board = build_fallback_storyboard(item)
+        board.scenes[1].narration = "Компания прекращает выпуск модели K5."
+        report = validate_storyboard(board, item)
+        self.assertIn("negation_mismatch", {row["code"] for row in report["hard_failures"]})
+
+    def test_planned_regulation_cannot_be_reported_as_enacted(self) -> None:
+        item = {
+            "title": "Законопроект обсуждают перед введением",
+            "summary": (
+                "Закон планируют ввести в 2028 году. "
+                "Документ пока обсуждают представители отрасли и перевозчиков. "
+                "Дата окончательного голосования ещё не определена."
+            ),
+        }
+        board = build_fallback_storyboard(item)
+        board.scenes[1].narration = "Закон вступил в силу в 2028 году."
+        report = validate_storyboard(board, item)
+        self.assertIn("legal_status_mismatch", {row["code"] for row in report["hard_failures"]})
+
+    def test_model_and_manufacturer_mixup_is_a_hard_failure(self) -> None:
+        item = {
+            "title": "Производители обновили линейку тягачей",
+            "summary": (
+                "КАМАЗ сообщил о выпуске модели K5. "
+                "МАЗ представил тягач X6000 для магистральных перевозок. "
+                "Обе компании готовят машины для дорожных испытаний."
+            ),
+        }
+        board = build_fallback_storyboard(item)
+        board.scenes[1].narration = "МАЗ представил модель K5 для магистральных перевозок."
+        report = validate_storyboard(board, item)
+        self.assertIn("manufacturer_model_mixup", {row["code"] for row in report["hard_failures"]})
+
+    def test_nonblocking_source_warning_is_not_silently_promoted(self) -> None:
+        item = {
+            "title": "Автопаркам показали новый сервис учёта",
+            "summary": (
+                "Сервис фиксирует пробег каждого прицепа отдельно. "
+                "Данные помогают планировать интервалы технического обслуживания."
+            ),
+        }
+        quality = assess_source_quality(item)
+        board = build_fallback_storyboard(item)
+        report = validate_storyboard(board, item)
+        self.assertEqual(quality["status"], "approved_with_warnings")
+        self.assertEqual(report["status"], "approved_with_warnings")
+        self.assertTrue(report["valid"])
+        self.assertIn("limited_source_depth", {row["code"] for row in report["warnings"]})
+        self.assertEqual(report["hard_failures"], [])
+
+    def test_long_headline_is_not_copied_or_truncated_into_hook(self) -> None:
+        item = {
+            "title": "Новый российский сервис для крупных автопарков начал автоматически проверять давление во всех шинах грузовых автомобилей",
+            "summary": (
+                "Новый датчик проверяет давление грузовых шин. "
+                "Сервис записывает результаты каждой проверки отдельно. "
+                "Данные доступны механикам перед выездом автомобиля."
+            ),
+        }
+        board = build_fallback_storyboard(item)
+        self.assertNotEqual(board.hook, item["title"])
+        self.assertFalse(board.hook.endswith(("…", "...")))
+        self.assertEqual(board.scenes[0].overlay, board.hook)
+        self.assertLessEqual(board.scenes[0].seconds, 3.0)
+        self.assertEqual(validate_storyboard(board, item)["status"], "approved")
 
     def test_content_intelligence_prefers_practical_regulation(self) -> None:
         useful, reasons = content_intelligence_score({

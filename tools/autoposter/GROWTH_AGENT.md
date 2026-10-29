@@ -13,23 +13,28 @@ factual validation and platform captions. SAT, test-drive and guide modes keep
 their existing hand-authored storyboards. Publication schedules, Buffer and the
 YouTube uploader are unchanged.
 
-When enabled, `out_v2/growth_report.json` records the three hook candidates,
-the selected hook, source URLs and deterministic validation results. If AI
-output contains an unsupported number, quotation or ungrounded scene, it is
+When enabled, `out_v2/growth_report.json` records up to three complete hook
+candidates, the selected hook, source URLs and deterministic validation
+results. Hard factual failures and nonblocking quality warnings are reported
+separately. If AI output contains an unsupported or contradicted claim, it is
 rejected and replaced by the source-only deterministic storyboard. If the
-source itself is insufficient, generation returns to the existing fallback and
-logs the reason.
+source itself cannot support a distinct hook plus at least two factual beats,
+generation stops before rendering or publication and writes a rejected report.
 
 Run the deterministic tests and comparison generator with Python 3.11:
 
 ```text
 py -3.11 -m unittest tools.autoposter.tests.test_growth_agent
 py -3.11 tools/autoposter/scripts/growth_preview.py
+python tools/autoposter/scripts/growth_preview.py --render --output /tmp/growth-agent-review
 ```
 
-The comparison generator never imports publishing modules. It writes three
-old/new cases plus an advisory content plan under
-`tools/autoposter/previews/growth_agent_v1/`.
+The comparison generator never calls a publisher. It writes three old/new
+cases plus an advisory content plan under
+`tools/autoposter/previews/growth_agent_v1/`. With `--render`, it also creates
+six MP4 files, contact sheets and ffprobe/visual QA reports. The dedicated
+`growth_agent_review_preview.yml` workflow runs with Growth Agent, paid AI and
+state mutation disabled, then uploads the review bundle as a build artifact.
 
 ## Reference and licensing
 

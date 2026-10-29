@@ -15,6 +15,8 @@ from dateutil import parser as dtparser
 from PIL import Image
 
 from .ai.growth_agent import (
+    GrowthAgentError,
+    assess_source_quality,
     content_intelligence_score,
     growth_report,
     is_enabled,
@@ -144,9 +146,16 @@ def pick_item(news: list[dict[str, Any]], state: dict[str, Any]) -> dict[str, An
         enriched["site_url"] = f"{SITE_URL}/news/{slug}/"
         score = _score(enriched)
         if is_enabled():
+            source_quality = assess_source_quality(enriched)
+            if source_quality["hard_failures"]:
+                print(f"[growth] skip weak source: {title[:100]} {source_quality['hard_failures']}")
+                continue
             intelligence_score, reasons = content_intelligence_score(enriched)
             enriched["_growth_reasons"] = reasons
-            score += intelligence_score
+            enriched["_growth_source_quality"] = {
+                key: value for key, value in source_quality.items() if key != "facts"
+            }
+            score += intelligence_score + float(source_quality["score"])
             if is_near_duplicate(title, recent_titles):
                 score -= 12.0
                 enriched["_growth_near_duplicate"] = True
@@ -417,7 +426,16 @@ def main() -> int:
             print(f"[{series}] episode {episode['id']}: {episode['title']}")
     if board is None:
         item = pick_item(load_news(), state)
-        board = generate_storyboard(item)
+        try:
+            board = generate_storyboard(item)
+        except GrowthAgentError as exc:
+            OUT_DIR.mkdir(parents=True, exist_ok=True)
+            (OUT_DIR / "growth_report.json").write_text(
+                json.dumps(exc.report, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            print(f"[growth] generation blocked: {exc}")
+            raise
 
     visuals_dir = WORK_DIR / "visuals"
     visual_paths: list[Path] = []

@@ -1,0 +1,84 @@
+name: Video — Growth Agent Review Comparison
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "tools/autoposter/src/ai/**"
+      - "tools/autoposter/src/render/short_v2.py"
+      - "tools/autoposter/src/v2_main.py"
+      - "tools/autoposter/scripts/growth_preview.py"
+      - "tools/autoposter/tests/test_growth_agent.py"
+      - "tools/autoposter/requirements.txt"
+      - ".github/workflows/growth_agent_review_preview.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: growth-agent-review-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      PREVIEW_DIR: ${{ runner.temp }}/growth-agent-review
+      GROWTH_AGENT_ENABLED: "0"
+      AI_SCRIPT: "0"
+      AI_IMAGES: "0"
+      OPENAI_TTS: "0"
+      TTS_ENGINE: "edge"
+      VOICE: "ru-RU-DmitryNeural"
+      TTS_RATE: "+8%"
+      V2_MARK_USED: "0"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: tools/autoposter/requirements.txt
+
+      - name: Install FFmpeg, ffprobe and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Install autoposter dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/autoposter/requirements.txt
+
+      - name: Run factual-safety and legacy tests
+        run: python -m unittest tools.autoposter.tests.test_growth_agent
+
+      - name: Render three isolated old/new comparisons
+        run: |
+          python tools/autoposter/scripts/growth_preview.py \
+            --output "$PREVIEW_DIR" \
+            --render
+
+      - name: Verify six MP4 artifacts with ffprobe
+        run: |
+          test "$(find "$PREVIEW_DIR" -name '*.mp4' -type f | wc -l)" -eq 6
+          while IFS= read -r video; do
+            test -s "$video"
+            ffprobe -v error \
+              -show_entries stream=codec_type,width,height \
+              -show_entries format=duration \
+              -of default=noprint_wrappers=1 "$video"
+          done < <(find "$PREVIEW_DIR" -name '*.mp4' -type f | sort)
+          test "$(find "$PREVIEW_DIR" -name 'video_qa.json' -type f | wc -l)" -eq 3
+
+      - name: Upload owner-review bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: growth-agent-old-new-${{ github.run_id }}
+          path: ${{ runner.temp }}/growth-agent-review/
+          if-no-files-found: error
+          retention-days: 14

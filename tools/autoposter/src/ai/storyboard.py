@@ -265,10 +265,10 @@ def _validate_ai_storyboard(data: dict[str, Any], item: dict[str, Any]) -> Story
 def generate_storyboard(item: dict[str, Any]) -> Storyboard:
     """Build an AI storyboard when configured, otherwise use a deterministic fallback."""
     from .growth_agent import (
+        GrowthAgentError,
         build_fallback_storyboard,
         enhance_storyboard,
         is_enabled,
-        mark_legacy_fallback,
         validate_storyboard,
     )
 
@@ -276,11 +276,7 @@ def generate_storyboard(item: dict[str, Any]) -> Storyboard:
     api_key = os.getenv("OPENAI_API_KEY", "").strip()
     if not api_key or os.getenv("AI_SCRIPT", "1").strip() != "1":
         if growth_enabled:
-            try:
-                return build_fallback_storyboard(item, reason="AI script generation is unavailable")
-            except Exception as exc:
-                print(f"[growth] safe fallback unavailable: {exc}")
-                return mark_legacy_fallback(fallback_storyboard(item), str(exc))
+            return build_fallback_storyboard(item, reason="AI script generation is unavailable")
         return fallback_storyboard(item)
 
     try:
@@ -313,6 +309,7 @@ def generate_storyboard(item: dict[str, Any]) -> Storyboard:
         if growth_enabled:
             system += (
                 " Also return hook_candidates as exactly three different Russian hook lines. "
+                "Each hook must be a complete factual sentence of at most eight spoken words, with no ellipsis. "
                 "Every hook and every scene claim must be directly supported by the source. "
                 "Reject a dramatic angle if the source does not prove it. Use one CTA only. "
                 "Prefer an operational takeaway only when the source explicitly supports it."
@@ -329,9 +326,20 @@ def generate_storyboard(item: dict[str, Any]) -> Storyboard:
         data = _extract_json(response.output_text)
         board = _validate_ai_storyboard(data, item)
         if growth_enabled:
-            raw_validation = validate_storyboard(board, item)
+            raw_validation = validate_storyboard(board, item, check_presentation=False)
             if not raw_validation["valid"]:
-                raise ValueError(f"Growth Agent rejected raw AI output: {raw_validation['errors']}")
+                raise GrowthAgentError(
+                    f"Growth Agent rejected raw AI output: {raw_validation['hard_failures']}",
+                    {
+                        "schema": 2,
+                        "enabled": True,
+                        "status": "rejected",
+                        "mode": "ai_raw_validation",
+                        "validation": raw_validation,
+                        "hard_failures": raw_validation["hard_failures"],
+                        "warnings": raw_validation["warnings"],
+                    },
+                )
             board = enhance_storyboard(board, item, supplied_hooks=data.get("hook_candidates") or [])
         print(f"[AI] storyboard generated with {model}: {len(board.scenes)} scenes")
         return board
@@ -340,7 +348,7 @@ def generate_storyboard(item: dict[str, Any]) -> Storyboard:
         if growth_enabled:
             try:
                 return build_fallback_storyboard(item, reason=str(exc)[:800])
-            except Exception as growth_exc:
-                print(f"[growth] safe fallback unavailable: {growth_exc}")
-                return mark_legacy_fallback(fallback_storyboard(item), str(growth_exc))
+            except GrowthAgentError as growth_exc:
+                print(f"[growth] rejected: {growth_exc}")
+                raise
         return fallback_storyboard(item)

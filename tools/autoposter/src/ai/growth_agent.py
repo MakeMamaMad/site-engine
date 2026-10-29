@@ -46,6 +46,11 @@ EMPTY_PROMO = (
 
 WEAK_HOOK_OPENERS = ("она ", "он ", "они ", "это ", "также ", "в частности ", "данный ", "данная ")
 
+HOOK_DANGLING_ENDINGS = (
+    " и", " но", " а", " для", " с", " из", " что", " который", " которая",
+    " которые", " потому что", " поскольку", " при", " по данным",
+)
+
 PRACTICAL_MARKERS = (
     "позволяет", "поможет", "обслужив", "ремонт", "провер", "следует",
     "рекоменду", "расход", "эконом", "интервал", "нагруз", "шины",
@@ -57,6 +62,31 @@ SENSITIVE_CLAIM_MARKERS = (
     "штраф", "гост", "федеральный закон", "постановлен", "сертифиц",
     "гарантирует", "безопасн", "экономит", "снижает расход", "увеличивает ресурс",
 )
+
+CAUSAL_MARKERS = (
+    "из-за", "потому что", "поскольку", "поэтому", "в результате",
+    "привёл к", "привела к", "привело к", "привели к", "благодаря",
+)
+NEGATION_RE = re.compile(r"\b(?:не|нет|ни|без)\b", re.IGNORECASE)
+PLANNED_LEGAL_MARKERS = (
+    "планирует", "планируют", "планируется", "подготовят", "предложил", "предложила",
+    "предложили", "может быть введ", "намерен", "намерены", "ожидается", "проект закона",
+)
+ENACTED_LEGAL_MARKERS = (
+    "вступил в силу", "вступила в силу", "вступили в силу", "действует", "принят закон",
+    "приняли закон", "утвержден", "утверждён", "утверждена", "введен", "введён", "введена",
+)
+ATTRIBUTION_VERBS = {
+    "заявил": "заяв", "заявила": "заяв", "заявили": "заяв",
+    "сообщил": "сообщ", "сообщила": "сообщ", "сообщили": "сообщ",
+    "считает": "счита", "считают": "счита", "прогнозирует": "прогноз", "прогнозируют": "прогноз",
+    "предложил": "предлож", "предложила": "предлож", "предложили": "предлож",
+    "представил": "представ", "представила": "представ", "представили": "представ",
+    "выпустил": "выпуст", "выпустила": "выпуст", "выпустили": "выпуст",
+}
+NON_MANUFACTURER_ACRONYMS = {
+    "ЕС", "ЕЭК", "ВТО", "ГОСТ", "ФЗ", "РФ", "США", "LCV", "OEM", "ИИ", "API",
+}
 
 RELEVANCE_MARKERS = {
     "regulation": ("закон", "штраф", "регламент", "гост", "постановлен", "правил", "норм"),
@@ -74,10 +104,22 @@ STOPWORDS = {
 NUMBER_RE = re.compile(r"(?<![\w])\d[\d\s.,–—-]*(?:%|‰|км|кг|т|тонн\w*|л|млн|млрд|руб\w*|евро|лет|год\w*)?", re.IGNORECASE)
 QUOTE_RE = re.compile(r"[«\"]([^»\"]{4,})[»\"]")
 WORD_RE = re.compile(r"[A-Za-zА-Яа-яЁё0-9][A-Za-zА-Яа-яЁё0-9-]*")
+MODEL_RE = re.compile(r"\b(?:[A-ZА-ЯЁ]{1,8}[- ]?)?\d[A-Za-zА-Яа-яЁё0-9-]*\b")
+MANUFACTURER_RE = re.compile(r"\b[A-ZА-ЯЁ][A-ZА-ЯЁ0-9-]{2,}\b")
 
 
 class GrowthAgentError(RuntimeError):
     """A growth storyboard could not be proven against the source item."""
+
+    def __init__(self, message: str, report: dict[str, Any] | None = None) -> None:
+        super().__init__(message)
+        self.report = report or {
+            "schema": 2,
+            "enabled": True,
+            "status": "rejected",
+            "hard_failures": [{"code": "growth_agent_error", "detail": message}],
+            "warnings": [],
+        }
 
 
 def is_enabled(value: str | None = None) -> bool:
@@ -157,6 +199,178 @@ def _supported_numbers(value: str, evidence: str) -> list[str]:
     return [x for x in NUMBER_RE.findall(value) if _normal_number(x) not in source_numbers]
 
 
+def estimate_spoken_seconds(value: str, words_per_second: float = 2.6) -> float:
+    return len(WORD_RE.findall(value)) / words_per_second
+
+
+def _is_complete_statement(value: str) -> bool:
+    text = _clean(value).rstrip()
+    low = text.lower().rstrip(".!?")
+    words = WORD_RE.findall(text)
+    if not 4 <= len(words) <= 22:
+        return False
+    if text.endswith(("...", "…", ",", ";", ":", "—", "-")):
+        return False
+    return not any(low.endswith(ending) for ending in HOOK_DANGLING_ENDINGS)
+
+
+def _hook_complete(value: str) -> bool:
+    return _is_complete_statement(value) and estimate_spoken_seconds(value) <= 3.0
+
+
+def _evidence_sentences(item: dict[str, Any]) -> list[str]:
+    result: list[str] = []
+    for part in _source_parts(item)[:3]:
+        for sentence in _sentences(part):
+            sentence = _clean(sentence)
+            if sentence and sentence not in result:
+                result.append(sentence)
+    return result
+
+
+def _best_evidence(claim: str, evidence_sentences: list[str]) -> tuple[str, float]:
+    if not evidence_sentences:
+        return "", 0.0
+    ranked = sorted(
+        ((sentence, _text_similarity(claim, sentence)) for sentence in evidence_sentences),
+        key=lambda pair: pair[1],
+        reverse=True,
+    )
+    return ranked[0]
+
+
+def _legal_status(value: str) -> str:
+    low = value.lower()
+    if any(marker in low for marker in ENACTED_LEGAL_MARKERS):
+        return "enacted"
+    if any(marker in low for marker in PLANNED_LEGAL_MARKERS):
+        return "planned"
+    return "unspecified"
+
+
+def _causal_signature(value: str) -> tuple[str, set[str], set[str]] | None:
+    low = value.lower()
+    for marker in CAUSAL_MARKERS:
+        position = low.find(marker)
+        if position >= 0:
+            return marker, _tokens(value[:position]), _tokens(value[position + len(marker):])
+    return None
+
+
+def _causal_issue(claim: str, evidence_sentences: list[str]) -> dict[str, Any] | None:
+    signature = _causal_signature(claim)
+    if not signature:
+        return None
+    marker, left, right = signature
+    source_signatures = [
+        (sentence, source_signature)
+        for sentence in evidence_sentences
+        if (source_signature := _causal_signature(sentence)) is not None
+    ]
+    if not source_signatures:
+        return {"code": "unsupported_causal_claim", "value": marker}
+    for sentence, (_, source_left, source_right) in source_signatures:
+        direct = _set_overlap(left, source_left) + _set_overlap(right, source_right)
+        inverted = _set_overlap(left, source_right) + _set_overlap(right, source_left)
+        if inverted >= 1.2 and inverted > direct + 0.35:
+            return {"code": "inverted_causal_relationship", "value": marker, "source": sentence}
+        if direct >= 1.0:
+            return None
+    return {"code": "causal_relationship_mismatch", "value": marker}
+
+
+def _set_overlap(left: set[str], right: set[str]) -> float:
+    if not left or not right:
+        return 0.0
+    return len(left & right) / min(len(left), len(right))
+
+
+def _attribution_relations(value: str) -> list[tuple[str, str]]:
+    words = WORD_RE.findall(value)
+    relations: list[tuple[str, str]] = []
+    for index, word in enumerate(words):
+        stem = ATTRIBUTION_VERBS.get(word.lower())
+        if not stem:
+            continue
+        # The nearest noun/name is a safer attribution key than the whole
+        # preceding clause (which often includes unrelated hook wording).
+        actor_words = words[max(0, index - 1):index]
+        actor = " ".join(actor_words).lower()
+        if actor:
+            relations.append((actor, stem))
+    match = re.search(r"\bпо данным\s+([^,.;:]{2,60})", value, flags=re.IGNORECASE)
+    if match:
+        relations.append((_clean(match.group(1)).lower(), "data"))
+    return relations
+
+
+def _attribution_issue(claim: str, evidence_sentences: list[str]) -> dict[str, Any] | None:
+    for actor, stem in _attribution_relations(claim):
+        actor_tokens = _tokens(actor)
+        supported = False
+        for sentence in evidence_sentences:
+            source_low = sentence.lower()
+            actor_supported = (
+                bool(actor_tokens) and _set_overlap(actor_tokens, _tokens(sentence)) >= 0.6
+            ) or bool(re.search(rf"(?<!\w){re.escape(actor)}(?!\w)", source_low))
+            verb_supported = stem == "data" and "по данным" in source_low or stem != "data" and stem in source_low
+            if actor_supported and verb_supported:
+                supported = True
+                break
+        if not supported:
+            return {"code": "incorrect_attribution", "actor": actor, "relation": stem}
+    return None
+
+
+def _entity_model_pairs(value: str) -> set[tuple[str, str]]:
+    manufacturers = {
+        match.group(0).upper()
+        for match in MANUFACTURER_RE.finditer(value)
+        if match.group(0).upper() not in NON_MANUFACTURER_ACRONYMS
+    }
+    models = {match.group(0).upper().replace(" ", "") for match in MODEL_RE.finditer(value)}
+    return {(manufacturer, model) for manufacturer in manufacturers for model in models}
+
+
+def _entity_model_issue(claim: str, evidence_sentences: list[str]) -> dict[str, Any] | None:
+    claim_pairs = _entity_model_pairs(claim)
+    if not claim_pairs:
+        return None
+    source_pairs = set().union(*(_entity_model_pairs(sentence) for sentence in evidence_sentences))
+    all_source = " ".join(evidence_sentences).upper().replace(" ", "")
+    for manufacturer, model in claim_pairs:
+        if (manufacturer, model) not in source_pairs and manufacturer in all_source and model in all_source:
+            return {"code": "manufacturer_model_mixup", "manufacturer": manufacturer, "model": model}
+    return None
+
+
+def _semantic_claim_issues(claim: str, evidence_sentences: list[str]) -> list[dict[str, Any]]:
+    issues: list[dict[str, Any]] = []
+    best, similarity = _best_evidence(claim, evidence_sentences)
+    if best and similarity >= 0.42:
+        claim_negated = bool(NEGATION_RE.search(claim))
+        source_negated = bool(NEGATION_RE.search(best))
+        if claim_negated != source_negated:
+            issues.append({
+                "code": "negation_mismatch",
+                "claim_negated": claim_negated,
+                "source": best,
+            })
+        claim_status, source_status = _legal_status(claim), _legal_status(best)
+        if claim_status != "unspecified" and source_status != "unspecified" and claim_status != source_status:
+            issues.append({
+                "code": "legal_status_mismatch",
+                "claim_status": claim_status,
+                "source_status": source_status,
+                "source": best,
+            })
+    for detector in (_causal_issue, _attribution_issue, _entity_model_issue):
+        issue = detector(claim, evidence_sentences)
+        if issue:
+            issues.append(issue)
+    return issues
+
+
 def normalize_russian_text(value: str) -> tuple[str, list[dict[str, str]]]:
     """Remove common written/AI artefacts without touching names or quantities."""
     original = _clean(value)
@@ -232,15 +446,15 @@ def _candidate_supported(candidate: str, evidence: str) -> bool:
 def score_hook(candidate: str, item: dict[str, Any]) -> float:
     words = WORD_RE.findall(candidate)
     evidence = " ".join(_source_parts(item))
-    if not candidate or not _candidate_supported(candidate, evidence):
+    if not candidate or not _hook_complete(candidate) or not _candidate_supported(candidate, evidence):
         return 0.0
     score = 40.0
-    if 5 <= len(words) <= 13:
+    if 5 <= len(words) <= 8:
         score += 22
-    elif len(words) <= 17:
-        score += 10
+    elif len(words) <= 10:
+        score += 8
     else:
-        score -= min(25, (len(words) - 17) * 2)
+        score -= min(25, (len(words) - 10) * 4)
     if NUMBER_RE.search(candidate):
         score += 14
     if re.search(r"\b[А-ЯЁA-Z][А-ЯЁA-Z0-9-]{2,}\b", candidate):
@@ -256,85 +470,174 @@ def score_hook(candidate: str, item: dict[str, Any]) -> float:
     return max(0.0, min(100.0, score))
 
 
+def _hook_variants(value: Any) -> list[str]:
+    text = _clean(value).strip(" .")
+    variants = [text]
+    for part in re.split(r"\s+[—–-]\s+|:\s+|,\s+", text):
+        part = part.strip(" .,:;—–-")
+        if part and part != text:
+            variants.append(part)
+    result: list[str] = []
+    for candidate in variants:
+        if _hook_complete(candidate) and candidate not in result:
+            result.append(candidate)
+    return result
+
+
 def generate_hook_candidates(item: dict[str, Any], supplied: Iterable[Any] = ()) -> list[dict[str, Any]]:
-    """Return three distinct, source-supported alternatives and their scores."""
+    """Return up to three complete, source-supported hooks that fit three seconds."""
     title = _clean(item.get("title") or item.get("headline") or item.get("name"))
     summary_sentences = _sentences(item.get("summary") or item.get("description") or item.get("excerpt"))
-    raw: list[str] = [_clean(value) for value in supplied if _clean(value)]
-    raw.extend([title, *summary_sentences[:3]])
-    if title:
-        raw.extend((f"Коротко о главном: {title}", f"Что известно: {title}"))
+    raw: list[str] = []
+    for value in [*supplied, title, *summary_sentences[:5]]:
+        raw.extend(_hook_variants(value))
     evidence = " ".join(_source_parts(item))
     candidates: list[str] = []
     for value in raw:
-        candidate = _shorten(value.strip(" ."), 96)
+        candidate = _clean(value).strip(" .")
         if not candidate or not _candidate_supported(candidate, evidence):
             continue
         if any(_text_similarity(candidate, existing) > 0.9 for existing in candidates):
             continue
         candidates.append(candidate)
-    if not candidates and title:
-        candidates.append(_shorten(title, 96))
-    while candidates and len(candidates) < 3:
-        prefix = ("Коротко о главном: ", "Факт из новости: ")[len(candidates) - 1]
-        candidates.append(_shorten(prefix + candidates[0], 96))
-    scored = [{"text": value, "score": score_hook(value, item)} for value in candidates]
-    return sorted(scored, key=lambda row: (-row["score"], len(row["text"])))[:3]
+    scored = [
+        {
+            "text": value,
+            "score": score_hook(value, item),
+            "spoken_seconds": round(estimate_spoken_seconds(value), 2),
+        }
+        for value in candidates
+        if score_hook(value, item) > 0
+    ]
+    return sorted(scored, key=lambda row: (-row["score"], row["spoken_seconds"], len(row["text"])))[:3]
 
 
 def _source_sentences(item: dict[str, Any]) -> list[str]:
     values: list[str] = []
-    for part in _source_parts(item)[:2]:
-        values.extend(_sentences(part))
+    summary = _clean(item.get("summary") or item.get("description") or item.get("excerpt"))
+    if summary:
+        values.extend(_sentences(summary))
+    content = _clean(item.get("content"))
+    if content and len(re.findall(r"[А-Яа-яЁё]", content)) >= len(content) * 0.25:
+        values.extend(_sentences(content[:12_000]))
     result: list[str] = []
     for value in values:
-        value = _shorten(value, 260)
+        value = _clean(value)
         low = value.lower()
         if low.startswith(("image:", "изображение:", "пост ")) or "впервые появ" in low:
             continue
         if any(marker in low for marker in ("подробности", "по телефону", "звоните", "ссылка в", "подписывайтесь")):
             continue
-        if len(_tokens(value)) >= 2 and value not in result:
-            result.append(value)
+        spoken = _spoken_sentence(value)
+        if not _is_complete_statement(spoken):
+            continue
+        if not 6 <= len(WORD_RE.findall(spoken)) <= 22:
+            continue
+        if any(_text_similarity(spoken, previous) > 0.84 for previous in result):
+            continue
+        result.append(spoken)
     return result
 
 
-def validate_storyboard(board: Storyboard, item: dict[str, Any]) -> dict[str, Any]:
+def assess_source_quality(item: dict[str, Any]) -> dict[str, Any]:
+    """Measure whether an item can support a useful source-only short."""
+    facts = _source_sentences(item)
+    hard_failures: list[dict[str, Any]] = []
+    warnings: list[dict[str, Any]] = []
+    if len(facts) < 2:
+        hard_failures.append({
+            "code": "insufficient_source_depth",
+            "detail": f"Need at least two distinct factual beats; found {len(facts)}.",
+        })
+    elif len(facts) == 2:
+        warnings.append({"code": "limited_source_depth", "detail": "Only two distinct factual beats are available."})
+    practical_count = sum(any(marker in fact.lower() for marker in PRACTICAL_MARKERS) for fact in facts)
+    specific_count = sum(bool(NUMBER_RE.search(fact)) for fact in facts)
+    score = len(facts) * 2.0 + practical_count * 1.5 + specific_count * 0.75
+    return {
+        "status": "rejected" if hard_failures else ("approved_with_warnings" if warnings else "approved"),
+        "hard_failures": hard_failures,
+        "warnings": warnings,
+        "facts": facts,
+        "score": score,
+        "practical_facts": practical_count,
+    }
+
+
+def validate_storyboard(
+    board: Storyboard,
+    item: dict[str, Any],
+    *,
+    check_presentation: bool = True,
+) -> dict[str, Any]:
     evidence = " ".join(_source_parts(item))
     evidence_tokens = _tokens(evidence)
-    errors: list[dict[str, Any]] = []
+    evidence_sentences = _evidence_sentences(item)
+    hard_failures: list[dict[str, Any]] = []
     warnings: list[dict[str, Any]] = []
-    if len(WORD_RE.findall(evidence)) < 8:
-        errors.append({"code": "insufficient_source", "detail": "Source has fewer than eight words."})
+    source_quality = assess_source_quality(item)
+    hard_failures.extend(source_quality["hard_failures"])
+    warnings.extend(source_quality["warnings"])
     if not board.scenes:
-        errors.append({"code": "missing_scenes", "detail": "Storyboard has no scenes."})
-    elif board.scenes[0].seconds > 3.0:
-        errors.append({"code": "late_hook", "detail": f"First scene is {board.scenes[0].seconds:.1f}s."})
+        hard_failures.append({"code": "missing_scenes", "detail": "Storyboard has no scenes."})
+    elif check_presentation:
+        first = board.scenes[0]
+        hook_seconds = estimate_spoken_seconds(board.hook)
+        if not _hook_complete(board.hook):
+            hard_failures.append({"code": "incomplete_or_oversized_hook", "detail": board.hook})
+        if first.seconds > 3.0:
+            hard_failures.append({"code": "late_hook", "detail": f"First scene is {first.seconds:.1f}s."})
+        if hook_seconds + 0.15 > first.seconds:
+            hard_failures.append({
+                "code": "hook_timing_overflow",
+                "detail": f"Hook needs about {hook_seconds:.2f}s but scene allows {first.seconds:.2f}s.",
+            })
+        if _text_similarity(first.overlay, board.hook) < 0.8:
+            hard_failures.append({"code": "hook_not_in_first_frame", "detail": first.overlay})
+        if _text_similarity(first.narration, board.hook) < 0.85:
+            hard_failures.append({"code": "hook_narration_mismatch", "detail": first.narration})
+        title = _clean(item.get("title") or item.get("headline"))
+        if len(WORD_RE.findall(title)) > 10 and _text_similarity(board.hook, title) > 0.9:
+            hard_failures.append({"code": "long_headline_used_as_hook", "detail": board.hook})
     seen_narration: set[str] = set()
     for index, scene in enumerate(board.scenes):
-        if scene.id.startswith("cta"):
-            continue
+        is_cta = scene.id.startswith("cta")
         unsupported = _supported_numbers(scene.narration, evidence)
         if unsupported:
-            errors.append({"code": "unsupported_number", "scene": scene.id, "values": unsupported})
+            hard_failures.append({"code": "unsupported_number", "scene": scene.id, "values": unsupported})
         for quote in QUOTE_RE.findall(scene.narration):
             if quote.lower() not in evidence.lower():
-                errors.append({"code": "unsupported_quote", "scene": scene.id, "value": quote})
+                hard_failures.append({"code": "unsupported_quote", "scene": scene.id, "value": quote})
         for marker in SENSITIVE_CLAIM_MARKERS:
             if marker in scene.narration.lower() and marker not in evidence.lower():
-                errors.append({"code": "unsupported_sensitive_claim", "scene": scene.id, "value": marker})
+                hard_failures.append({"code": "unsupported_sensitive_claim", "scene": scene.id, "value": marker})
+        for issue in _semantic_claim_issues(scene.narration, evidence_sentences):
+            hard_failures.append({"scene": scene.id, **issue})
         overlap = _tokens(scene.narration) & evidence_tokens
-        if index > 0 and len(overlap) < 2:
-            errors.append({"code": "ungrounded_scene", "scene": scene.id, "detail": scene.narration})
-        if any(_text_similarity(scene.narration, previous) > 0.9 for previous in seen_narration):
-            errors.append({"code": "repeated_scene", "scene": scene.id})
-        seen_narration.add(scene.narration)
+        if not is_cta and index > 0 and len(overlap) < 2:
+            hard_failures.append({"code": "ungrounded_scene", "scene": scene.id, "detail": scene.narration})
+        if not is_cta and any(_text_similarity(scene.narration, previous) > 0.84 for previous in seen_narration):
+            hard_failures.append({"code": "repeated_scene", "scene": scene.id})
+        if not is_cta:
+            seen_narration.add(scene.narration)
         if len(WORD_RE.findall(scene.narration)) > 22:
             warnings.append({"code": "long_sentence", "scene": scene.id})
+        if len(_tokens(scene.narration)) < 2:
+            warnings.append({"code": "low_information_scene", "scene": scene.id})
     unsupported_hook = _supported_numbers(board.hook, evidence)
     if unsupported_hook:
-        errors.append({"code": "unsupported_hook_number", "values": unsupported_hook})
-    return {"valid": not errors, "errors": errors, "warnings": warnings}
+        hard_failures.append({"code": "unsupported_hook_number", "values": unsupported_hook})
+    status = "rejected" if hard_failures else ("approved_with_warnings" if warnings else "approved")
+    return {
+        "valid": not hard_failures,
+        "status": status,
+        "hard_failures": hard_failures,
+        "errors": hard_failures,
+        "warnings": warnings,
+        "source_quality": {
+            key: value for key, value in source_quality.items() if key != "facts"
+        },
+    }
 
 
 def _caption_data(item: dict[str, Any], hook: str, fact: str, hashtags: list[str]) -> dict[str, str]:
@@ -379,55 +682,69 @@ def _default_hashtags(item: dict[str, Any]) -> list[str]:
 
 def build_fallback_storyboard(item: dict[str, Any], *, reason: str = "deterministic") -> Storyboard:
     """Build a useful storyboard using only Russian source sentences."""
-    facts = _source_sentences(item)
-    if len(WORD_RE.findall(" ".join(facts))) < 8:
-        raise GrowthAgentError("insufficient source details for a grounded storyboard")
+    source_quality = assess_source_quality(item)
+    if source_quality["hard_failures"]:
+        report = {
+            "schema": 2,
+            "enabled": True,
+            "status": "rejected",
+            "mode": "deterministic_fallback",
+            "reason": reason,
+            "hard_failures": source_quality["hard_failures"],
+            "warnings": source_quality["warnings"],
+            "source_quality": {key: value for key, value in source_quality.items() if key != "facts"},
+            "source_urls": source_urls(item),
+        }
+        raise GrowthAgentError("insufficient source depth for a grounded storyboard", report)
+    facts = source_quality["facts"]
     hooks = generate_hook_candidates(item)
     if not hooks:
-        raise GrowthAgentError("no source-supported hook candidate")
-    hook = hooks[0]["text"]
+        raise GrowthAgentError("no complete source-supported hook fits the opening duration")
+    hook_row: dict[str, Any] | None = None
+    fact_sentences: list[str] = []
+    for candidate in hooks:
+        remaining = [fact for fact in facts if _text_similarity(fact, candidate["text"]) < 0.8]
+        if len(remaining) >= 2:
+            hook_row = candidate
+            fact_sentences = remaining[:3]
+            break
+    if hook_row is None:
+        raise GrowthAgentError("source cannot support a distinct hook plus two factual beats")
+    hook = str(hook_row["text"])
     title = _clean(item.get("title") or item.get("headline") or hook)
-    fact_sentences = [
-        sentence for sentence in facts
-        if sentence.lower().rstrip(".") != title.lower().rstrip(".")
-        and _text_similarity(sentence, hook) < 0.88
-    ]
-    if not fact_sentences:
-        fact_sentences = [facts[0]]
-    while len(fact_sentences) < 3:
-        fact_sentences.append(fact_sentences[-1])
-    practical = next(
-        (sentence for sentence in fact_sentences if any(marker in sentence.lower() for marker in PRACTICAL_MARKERS)),
-        "",
-    )
-    selected: list[str] = []
-    for sentence in [*fact_sentences, practical]:
-        if sentence and sentence not in selected:
-            selected.append(sentence)
-    if not selected:
-        raise GrowthAgentError("source does not contain a distinct fact")
-    detail = selected[1] if len(selected) > 1 else ""
-    takeaway = practical if practical and practical not in selected[:2] else (selected[2] if len(selected) > 2 else "")
-    source_name = _clean(item.get("source") or item.get("domain"))
     image = _clean(item.get("image_url") or item.get("image") or item.get("thumbnail"))
-    scenes = [
-        Scene("hook", 2.8, _shorten(hook, 72), _spoken_sentence(hook, 16), _scene_prompt(title, "hero shot, immediate factual hook"), source_image_url=image),
-        Scene("fact", 7.0, "ФАКТ", _spoken_sentence(fact_sentences[0]), _scene_prompt(title, "documentary close-up of the reported event"), source_image_url=image),
-    ]
-    if detail:
-        scenes.append(Scene("context", 6.0, "КОНТЕКСТ", _spoken_sentence(detail), _scene_prompt(title, "wide operational context with fleet and logistics"), source_image_url=image))
-    if takeaway:
-        scenes.append(Scene("takeaway", 6.0, "ПРАКТИЧЕСКИЙ СМЫСЛ", _spoken_sentence(takeaway), _scene_prompt(title, "practical equipment detail, visibly different camera angle"), source_image_url=image))
-    if len(scenes) < 3 and source_name:
-        scenes.append(Scene("source", 7.0, "ИСТОЧНИК", _spoken_sentence(f"Данные опубликованы: {source_name}"), _scene_prompt(title, "editorial newsroom context with industrial subject"), source_image_url=image))
+    hook_seconds = min(3.0, max(2.4, estimate_spoken_seconds(hook) + 0.25))
+    scenes = [Scene(
+        "hook",
+        hook_seconds,
+        hook,
+        _spoken_sentence(hook, 10),
+        _scene_prompt(title, "hero shot, immediate factual hook"),
+        source_image_url=image,
+    )]
+    angles = (
+        "documentary close-up of the reported event",
+        "wide operational context with fleet and logistics",
+        "practical equipment detail, visibly different camera angle",
+    )
+    overlays = ("КЛЮЧЕВОЙ ФАКТ", "ДЕТАЛИ", "ЧТО ЕЩЁ ВАЖНО")
+    for index, fact in enumerate(fact_sentences):
+        practical = any(marker in fact.lower() for marker in PRACTICAL_MARKERS)
+        overlay = "ДЛЯ ЭКСПЛУАТАЦИИ" if practical else overlays[index]
+        scenes.append(Scene(
+            f"fact-{index + 1}",
+            max(5.2, min(7.5, estimate_spoken_seconds(fact) + 0.5)),
+            overlay,
+            fact,
+            _scene_prompt(title, angles[index]),
+            source_image_url=image,
+        ))
     scenes.append(Scene("cta", 4.2, "ПОДРОБНЕЕ В ПРОФИЛЕ", "Подробности — по ссылке в профиле.", _scene_prompt(title, "clean closing hero shot with dark negative space"), source_image_url=image))
-    if len(scenes) < 4:
-        raise GrowthAgentError("source does not support four distinct storyboard beats")
     hashtags = _default_hashtags(item)
     captions = _caption_data(item, hook, fact_sentences[0], hashtags)
     board = Storyboard(
         version=2,
-        format="explainer" if practical else "breaking",
+        format="explainer" if source_quality["practical_facts"] else "breaking",
         title=title,
         hook=hook,
         voiceover=" ".join(scene.narration for scene in scenes),
@@ -441,17 +758,37 @@ def build_fallback_storyboard(item: dict[str, Any], *, reason: str = "determinis
     )
     validation = validate_storyboard(board, item)
     if not validation["valid"]:
-        raise GrowthAgentError(f"deterministic storyboard failed validation: {validation['errors']}")
+        raise GrowthAgentError(
+            f"deterministic storyboard failed validation: {validation['hard_failures']}",
+            {
+                "schema": 2,
+                "enabled": True,
+                "status": "rejected",
+                "mode": "deterministic_fallback",
+                "reason": reason,
+                "hook_candidates": hooks,
+                "selected_hook": hook,
+                "validation": validation,
+                "hard_failures": validation["hard_failures"],
+                "warnings": validation["warnings"],
+                "source_urls": board.source_urls,
+            },
+        )
     board._growth_report = {  # type: ignore[attr-defined]
-        "schema": 1,
+        "schema": 2,
         "enabled": True,
+        "status": validation["status"],
         "mode": "deterministic_fallback",
         "reason": reason,
         "hook_candidates": hooks,
         "selected_hook": hook,
         "validation": validation,
+        "hard_failures": validation["hard_failures"],
+        "warnings": validation["warnings"],
         "source_urls": board.source_urls,
-        "practical_takeaway_supported": bool(practical),
+        "content_beats": len(fact_sentences),
+        "source_quality": {key: value for key, value in source_quality.items() if key != "facts"},
+        "practical_takeaway_supported": bool(source_quality["practical_facts"]),
         "scene_diversity": len({scene.visual_prompt for scene in scenes}) == len(scenes),
     }
     return board
@@ -473,16 +810,18 @@ def enhance_storyboard(
             row for row in hooks
             if all(_text_similarity(row["text"], line) < 0.88 for line in body_lines)
         ),
-        hooks[0],
+        None,
     )
+    if hook_row is None:
+        raise GrowthAgentError("no complete hook remains distinct from the factual beats")
     hook = hook_row["text"]
     humanizer: list[dict[str, Any]] = []
     for scene in board.scenes:
         scene.narration, findings = normalize_russian_text(scene.narration)
         humanizer.extend({"scene": scene.id, **finding} for finding in findings)
-    board.scenes[0].seconds = min(3.0, board.scenes[0].seconds)
-    board.scenes[0].narration = _spoken_sentence(hook, 16)
-    board.scenes[0].overlay = _shorten(hook, 72)
+    board.scenes[0].seconds = min(3.0, max(2.4, estimate_spoken_seconds(hook) + 0.25))
+    board.scenes[0].narration = _spoken_sentence(hook, 10)
+    board.scenes[0].overlay = hook
     board.hook = hook
     board.voiceover = " ".join(scene.narration for scene in board.scenes)
     board.source_urls = source_urls(item)
@@ -507,14 +846,31 @@ def enhance_storyboard(
 
     validation = validate_storyboard(board, item)
     if not validation["valid"]:
-        raise GrowthAgentError(f"AI storyboard failed factual validation: {validation['errors']}")
+        raise GrowthAgentError(
+            f"AI storyboard failed validation: {validation['hard_failures']}",
+            {
+                "schema": 2,
+                "enabled": True,
+                "status": "rejected",
+                "mode": "ai_validated",
+                "hook_candidates": hooks,
+                "selected_hook": hook,
+                "validation": validation,
+                "hard_failures": validation["hard_failures"],
+                "warnings": validation["warnings"],
+                "source_urls": board.source_urls,
+            },
+        )
     board._growth_report = {  # type: ignore[attr-defined]
-        "schema": 1,
+        "schema": 2,
         "enabled": True,
+        "status": validation["status"],
         "mode": "ai_validated",
         "hook_candidates": hooks,
         "selected_hook": hook,
         "validation": validation,
+        "hard_failures": validation["hard_failures"],
+        "warnings": validation["warnings"],
         "humanizer_findings": humanizer,
         "source_urls": board.source_urls,
         "scene_diversity": len({scene.visual_prompt for scene in board.scenes}) == len(board.scenes),
@@ -524,19 +880,6 @@ def enhance_storyboard(
 
 def growth_report(board: Storyboard) -> dict[str, Any]:
     return getattr(board, "_growth_report", {"schema": 1, "enabled": False})
-
-
-def mark_legacy_fallback(board: Storyboard, reason: str) -> Storyboard:
-    """Make a last-resort legacy fallback explicit in artifacts and manifests."""
-    board._growth_report = {  # type: ignore[attr-defined]
-        "schema": 1,
-        "enabled": True,
-        "mode": "legacy_fallback",
-        "reason": reason[:800],
-        "validation": {"valid": False, "errors": [{"code": "growth_fallback_unavailable", "detail": reason[:800]}], "warnings": []},
-        "source_urls": board.source_urls,
-    }
-    return board
 
 
 def content_intelligence_score(item: dict[str, Any]) -> tuple[float, list[str]]:
