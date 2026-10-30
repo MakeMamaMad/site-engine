@@ -1,0 +1,17 @@
+{
+  "data_classification": "synthetic_profile_fixture_not_real_account_state",
+  "handle": "@specavtoportal",
+  "profile_name": "СпецАвтоПортал",
+  "bio": "Новости грузовой техники | рынок | логистика",
+  "website_link": "https://spec-avtoportal.ru/",
+  "highlights": ["Новости", "Архив", "Разное"],
+  "pinned_publications": [
+    {"title": "О проекте", "role": "introduction"},
+    {"title": "Популярный разбор", "role": "proof"}
+  ],
+  "grid_covers": [
+    "Новый тягач", "Рынок полуприцепов", "Что изменит регламент",
+    "Пять фактов о шинах", "Новости недели", "Разбор модели",
+    "Цены на технику", "Логистика сегодня", "Испытание грузовика"
+  ]
+}

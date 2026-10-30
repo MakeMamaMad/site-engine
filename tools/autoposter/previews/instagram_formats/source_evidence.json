@@ -1,0 +1,110 @@
+{
+  "data_classification": "editorially_reviewed_original_source_evidence",
+  "original_source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+  "terminology_reference_url": "https://www.bpw.de/en/products/components-systems/eco-meter",
+  "terminology": {
+    "original": "hub cap",
+    "approved_russian": "крышка ступицы",
+    "rejected_russian": "колпачок концентратора прицепа",
+    "review_note": "BPW calls the component hub cap in English and Radkapsel in German. Russian commercial-parts usage supports крышка ступицы; retain hub cap in the evidence manifest."
+  },
+  "carousel_cover": {
+    "headline": "BPW ECO Meter: пробег прицепа",
+    "body": "Без привязки к конкретному тягачу",
+    "evidence_id": "independent_mileage"
+  },
+  "items": [
+    {
+      "id": "independent_mileage",
+      "original_text": "The German commercial vehicle systems specialist offers its ECO Meter as a way of recording trailer mileage independently of the tractor unit.",
+      "russian_translation": "ECO Meter записывает пробег прицепа независимо от тягача.",
+      "carousel_headline": "Пробег — независимо от тягача",
+      "carousel_body": "ECO Meter хранит фактический пробег самого прицепа.",
+      "story_headline": "Тягач сменился. Пробег — нет.",
+      "story_body": "ECO Meter считает пробег самого прицепа.",
+      "recap_line": "Пробег сохраняется при смене тягача",
+      "protected_terms": [
+        "ECO Meter",
+        "прицеп",
+        "тягач"
+      ]
+    },
+    {
+      "id": "hub_cap",
+      "original_text": "Integrated directly into the trailer hub cap, the ECO Meter allows operators to retain a record of actual trailer mileage even when the asset is used with different prime movers.",
+      "russian_translation": "ECO Meter встроен непосредственно в крышку ступицы прицепа и сохраняет фактический пробег при смене тягачей.",
+      "carousel_headline": "Счётчик — в крышке ступицы",
+      "carousel_body": "ECO Meter встроен в крышку ступицы (hub cap).",
+      "story_headline": "Где хранится пробег?",
+      "story_body": "В ECO Meter, встроенном в крышку ступицы (hub cap).",
+      "recap_line": "Счётчик встроен в крышку ступицы",
+      "protected_terms": [
+        "ECO Meter",
+        "крышк",
+        "ступиц",
+        "hub cap"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "original_text": "According to BPW, the information can help operators determine maintenance intervals, conduct tyre checks and monitor tyre mileage.",
+      "russian_translation": "По данным BPW, информация помогает определять интервалы ТО, проверять шины и контролировать их пробег.",
+      "carousel_headline": "Три задачи для автопарка",
+      "carousel_body": "Интервалы ТО · проверки шин · контроль их пробега",
+      "story_headline": "Зачем это автопарку?",
+      "story_body": "Планировать ТО\nПроверять шины\nКонтролировать их пробег",
+      "recap_line": "Данные помогают планировать ТО и проверки шин",
+      "protected_terms": [
+        "ТО",
+        "шин"
+      ],
+      "qualification": "По данным BPW"
+    },
+    {
+      "id": "capacity",
+      "original_text": "The company said the system is available for common tyre sizes in applications up to 12 tonnes.",
+      "russian_translation": "BPW указывает, что система доступна для распространённых размеров шин в применениях до 12 тонн.",
+      "carousel_headline": "До 12 тонн",
+      "carousel_body": "Для распространённых размеров шин — по данным BPW.",
+      "story_headline": "До 12 тонн — проверить версию",
+      "story_body": "Для распространённых размеров шин в применениях до 12 тонн. Подробнее — в материале.",
+      "recap_line": "Версии рассчитаны на применения до 12 тонн",
+      "protected_terms": [
+        "12 тонн",
+        "шин"
+      ],
+      "qualification": "до"
+    },
+    {
+      "id": "installation",
+      "original_text": "Installation involves replacing the existing hub cap, with the counter incorporated into the cap to protect it from external damage.",
+      "russian_translation": "Для установки заменяют существующую крышку ступицы; счётчик встроен в крышку и защищён от внешних повреждений.",
+      "carousel_headline": "Установка — заменой крышки",
+      "carousel_body": "Счётчик встроен в крышку ступицы и защищён от внешних повреждений.",
+      "story_headline": "Как установить?",
+      "story_body": "Заменить штатную крышку ступицы на версию с ECO Meter.",
+      "recap_line": "Монтаж выполняют заменой крышки ступицы",
+      "protected_terms": [
+        "крышк",
+        "ступиц",
+        "счётчик"
+      ]
+    },
+    {
+      "id": "eco_plus_2",
+      "original_text": "BPW has also optimised the ECO Meter for its ECO Plus 2 axle generation. The design features a bayonet-lock hub cap, while contacts have been relocated inside the housing for greater protection from dirt.",
+      "russian_translation": "Для осей ECO Plus 2 счётчик получил крышку ступицы с байонетным замком, а контакты перенесены внутрь корпуса для защиты от грязи.",
+      "carousel_headline": "ECO Plus 2: защита от грязи",
+      "carousel_body": "Байонетная крышка; контакты перенесены внутрь корпуса.",
+      "story_headline": "Что изменили в ECO Plus 2?",
+      "story_body": "Байонетная крышка и контакты внутри корпуса — для защиты от грязи.",
+      "recap_line": "В ECO Plus 2 контакты защищены внутри корпуса",
+      "protected_terms": [
+        "ECO Plus 2",
+        "байонет",
+        "контакт",
+        "гряз"
+      ]
+    }
+  ]
+}

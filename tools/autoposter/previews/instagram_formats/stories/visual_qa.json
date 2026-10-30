@@ -1,0 +1,64 @@
+{
+  "expected_resolution": [
+    1080,
+    1920
+  ],
+  "file_count": 4,
+  "files": [
+    {
+      "file": "frame_01.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "frame_02.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "frame_03.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 43
+    },
+    {
+      "file": "frame_04.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    }
+  ],
+  "all_resolution_ok": true,
+  "all_text_fits": true,
+  "all_safe_margins_ok": true,
+  "contact_sheet": "contact_sheet.png",
+  "safe_zone": [
+    86,
+    250,
+    994,
+    1600
+  ],
+  "minimum_readable_font_target": 32
+}

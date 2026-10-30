@@ -1,0 +1,114 @@
+{
+  "expected_resolution": [
+    1080,
+    1350
+  ],
+  "file_count": 9,
+  "files": [
+    {
+      "file": "slide_01.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 38
+    },
+    {
+      "file": "slide_02.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "slide_03.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "slide_04.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "slide_05.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "slide_06.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "slide_07.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 52
+    },
+    {
+      "file": "slide_08.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 40
+    },
+    {
+      "file": "slide_09.png",
+      "resolution": [
+        1080,
+        1350
+      ],
+      "resolution_ok": true,
+      "text_overflow": false,
+      "safe_margins_ok": true,
+      "minimum_font_size": 42
+    }
+  ],
+  "all_resolution_ok": true,
+  "all_text_fits": true,
+  "all_safe_margins_ok": true,
+  "contact_sheet": "contact_sheet.png",
+  "minimum_readable_font_target": 30,
+  "grid_safe_margin_pixels": 120
+}

@@ -1,0 +1,15 @@
+{
+  "canonical_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+  "original_source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+  "terminology_reference_url": "https://www.bpw.de/en/products/components-systems/eco-meter",
+  "terminology_review": {
+    "original": "hub cap",
+    "approved_russian": "крышка ступицы",
+    "rejected_russian": "колпачок концентратора прицепа",
+    "review_note": "BPW calls the component hub cap in English and Radkapsel in German. Russian commercial-parts usage supports крышка ступицы; retain hub cap in the evidence manifest."
+  },
+  "source_name": "СпецАвтоПортал",
+  "data_classification": "repository_owned_article_snapshot",
+  "approved_images_used": [],
+  "visual_method": "brand graphics only; no generated or fabricated vehicle photography"
+}
