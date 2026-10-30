@@ -11,7 +11,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import urlsplit, urlunsplit, parse_qs, urlencode
 
 from .analytics import parse_count
 
@@ -58,7 +58,13 @@ def import_posts(platform: str, payload: dict[str, Any], *,
             host = (parts.hostname or "").lower()
             if parts.scheme != "https" or not any(host == h or host.endswith("." + h) for h in allowed):
                 raise ValueError("Unexpected post URL/domain")
-            post_url = urlunsplit((parts.scheme, parts.netloc, parts.path.rstrip("/"), "", ""))
+            canonical_query = ""
+            if platform == "youtube" and host.endswith("youtube.com"):
+                video_ids = parse_qs(parts.query).get("v", [])
+                if not video_ids or not re.fullmatch(r"[a-zA-Z0-9_-]{11}", video_ids[0]):
+                    raise ValueError("YouTube watch URL missing valid video id")
+                canonical_query = urlencode({"v": video_ids[0]})
+            post_url = urlunsplit((parts.scheme, parts.netloc.lower(), parts.path.rstrip("/"), canonical_query, ""))
             if post_url in seen:
                 raise ValueError("Duplicate platform URL")
             seen.add(post_url)
