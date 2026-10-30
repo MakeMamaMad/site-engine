@@ -2,7 +2,7 @@ name: Checks — Full QA
 
 on:
   pull_request:
-    branches: [ main, feat/instagram-growth-intelligence-modules ]
+    branches: [ main, feat/instagram-growth-intelligence-modules, feat/instagram-profile-carousel-stories ]
   push:
     branches: [ redesign-v1, main ]
   workflow_dispatch:
@@ -609,6 +609,54 @@ jobs:
           path: /tmp/growth-intelligence-preview/
           if-no-files-found: error
           retention-days: 14
+
+  instagram-engagement-drafts:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      INSTAGRAM_ENGAGEMENT_ENABLED: "0"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect engagement changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --name-only "${{ github.event.pull_request.base.sha }}...HEAD" | grep -Eq '^tools/autoposter/(src/engagement/|tests/test_instagram_engagement.py|INSTAGRAM_ENGAGEMENT.md|previews/instagram_engagement/)'; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Python
+        if: steps.changes.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run offline engagement tests
+        if: steps.changes.outputs.run == 'true'
+        run: python -m unittest tools.autoposter.tests.test_instagram_engagement
+
+      - name: Verify disabled isolation and no media artifacts
+        if: steps.changes.outputs.run == 'true'
+        shell: bash
+        run: |
+          python - <<'PY'
+          from tools.autoposter.src.engagement.pipeline import build_engagement_drafts, is_enabled
+          assert is_enabled() is False
+          result = build_engagement_drafts(comment_request={}, imported_comments=[], dm_request={})
+          assert result["status"] == "disabled"
+          assert result["network_accessed"] is False
+          assert result["auto_posted"] is False
+          assert result["auto_replied"] is False
+          assert result["dm_sent"] is False
+          PY
+          ! git diff --name-only "${{ github.event.pull_request.base.sha }}...HEAD" | grep -Eiq '\.(mp4|mov|png|jpe?g|webp|gif|mp3|wav)$'
 
   instagram-formats-preview:
     if: github.event_name == 'pull_request'
