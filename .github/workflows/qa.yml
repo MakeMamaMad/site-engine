@@ -2,7 +2,7 @@ name: Checks — Full QA
 
 on:
   pull_request:
-    branches: [ main, feat/instagram-growth-intelligence-modules ]
+    branches: [ main, feat/instagram-growth-intelligence-modules, feat/instagram-profile-carousel-stories ]
   push:
     branches: [ redesign-v1, main ]
   workflow_dispatch:
