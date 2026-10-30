@@ -15,6 +15,8 @@ from dateutil import parser as dtparser
 from PIL import Image
 
 from .ai.growth_agent import (
+    GrowthAgentError,
+    assess_source_quality,
     content_intelligence_score,
     growth_report,
     is_enabled,
@@ -144,9 +146,16 @@ def pick_item(news: list[dict[str, Any]], state: dict[str, Any]) -> dict[str, An
         enriched["site_url"] = f"{SITE_URL}/news/{slug}/"
         score = _score(enriched)
         if is_enabled():
+            source_quality = assess_source_quality(enriched)
+            if source_quality["hard_failures"]:
+                print(f"[growth] skip weak source: {title[:100]} {source_quality['hard_failures']}")
+                continue
             intelligence_score, reasons = content_intelligence_score(enriched)
             enriched["_growth_reasons"] = reasons
-            score += intelligence_score
+            enriched["_growth_source_quality"] = {
+                key: value for key, value in source_quality.items() if key != "facts"
+            }
+            score += intelligence_score + float(source_quality["score"])
             if is_near_duplicate(title, recent_titles):
                 score -= 12.0
                 enriched["_growth_near_duplicate"] = True
@@ -228,7 +237,19 @@ def generate_voice(text: str, output: Path) -> str:
 
 
 def generate_scene_voice_track(board, work_dir: Path) -> tuple[Path, list[float], str]:
-    """Generate each scene separately so slide boundaries follow real speech."""
+    """Generate narration while preserving the exact legacy path by default."""
+    from .voice.natural_ru import generate_natural_voice_track, natural_voice_enabled
+
+    if natural_voice_enabled():
+        output, durations, mode, _report = generate_natural_voice_track(board, work_dir)
+        print(
+            "[tts] continuous scene alignment "
+            + ", ".join(f"{index + 1}:{seconds:.2f}s" for index, seconds in enumerate(durations))
+        )
+        return output, durations, mode
+
+    # Legacy behavior deliberately remains byte-for-byte reachable when the
+    # feature flag is off. This protects SAT, test-drive and guide jobs.
     scene_audio_dir = work_dir / "scene_audio"
     scene_audio_dir.mkdir(parents=True, exist_ok=True)
 
@@ -240,6 +261,35 @@ def generate_scene_voice_track(board, work_dir: Path) -> tuple[Path, list[float]
         path = scene_audio_dir / f"scene_{index:02d}.mp3"
         mode = generate_voice(scene.narration, path)
         duration = media_duration(path)
+
+        # Growth hooks are validated against a three-second opening. TTS
+        # engines vary substantially (especially the network fallback), so
+        # enforce that contract on the actual audio before rendering. Refuse
+        # an unnatural acceleration instead of silently publishing a late hook.
+        if index == 1 and hasattr(board, "_growth_report") and duration > 2.75:
+            speed = duration / 2.70
+            if speed > 1.40:
+                raise RuntimeError(
+                    f"Growth hook audio needs {duration:.2f}s and cannot fit naturally in three seconds"
+                )
+            fitted = scene_audio_dir / "scene_01_hook_fit.mp3"
+            proc = __import__("subprocess").run(
+                [
+                    "ffmpeg", "-y", "-loglevel", "error",
+                    "-i", str(path),
+                    "-af", f"atempo={speed:.4f}",
+                    "-c:a", "libmp3lame", "-q:a", "2",
+                    str(fitted),
+                ],
+                stdout=__import__("subprocess").PIPE,
+                stderr=__import__("subprocess").PIPE,
+            )
+            if proc.returncode != 0 or not fitted.exists() or fitted.stat().st_size == 0:
+                err = (proc.stderr or b"").decode("utf-8", errors="replace")
+                raise RuntimeError(f"Growth hook audio fit failed: {err[-1000:]}")
+            fitted.replace(path)
+            duration = media_duration(path)
+            print(f"[tts] growth hook fitted to {duration:.2f}s at {speed:.2f}x")
 
         # Keep a little visual breathing room after each spoken phrase.
         target = max(2.8, duration + 0.18)
@@ -417,7 +467,16 @@ def main() -> int:
             print(f"[{series}] episode {episode['id']}: {episode['title']}")
     if board is None:
         item = pick_item(load_news(), state)
-        board = generate_storyboard(item)
+        try:
+            board = generate_storyboard(item)
+        except GrowthAgentError as exc:
+            OUT_DIR.mkdir(parents=True, exist_ok=True)
+            (OUT_DIR / "growth_report.json").write_text(
+                json.dumps(exc.report, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            print(f"[growth] generation blocked: {exc}")
+            raise
 
     visuals_dir = WORK_DIR / "visuals"
     visual_paths: list[Path] = []
@@ -471,6 +530,9 @@ def main() -> int:
         "ai_script": bool(os.getenv("OPENAI_API_KEY", "").strip()) and os.getenv("AI_SCRIPT", "1") == "1",
         "ai_images": bool(os.getenv("OPENAI_API_KEY", "").strip()) and os.getenv("AI_IMAGES", "1") == "1",
     }
+    voice_report_path = WORK_DIR / "voice_report.json"
+    if voice_report_path.exists():
+        manifest["natural_voice"] = json.loads(voice_report_path.read_text(encoding="utf-8"))
     report = growth_report(board)
     if report.get("enabled"):
         manifest["growth_agent"] = report

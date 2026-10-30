@@ -435,3 +435,106 @@ jobs:
 
           print(f"QA OK: {len(items)} raw items, {len(indexable_items)} indexable, {len(blocked_items)} noindex, {len(pages)} pages, {linked_news_pages} news pages with knowledge links, {sat_news_pages} contextual SAT news placements, {knowledge_pages_with_news} knowledge pages with news, {len(regulation_items)} regulations, {len(urls)} sitemap URLs")
           PY
+
+  growth-agent-review-preview:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PREVIEW_DIR: /tmp/growth-agent-review
+      GROWTH_AGENT_ENABLED: "0"
+      AI_SCRIPT: "0"
+      AI_IMAGES: "0"
+      OPENAI_TTS: "0"
+      TTS_ENGINE: "edge"
+      VOICE: "ru-RU-SvetlanaNeural"
+      TTS_RATE: "+5%"
+      NATURAL_VOICE_ENABLED: "1"
+      NATURAL_VOICE_PROFILE: "edge_svetlana_professional"
+      ALLOW_PAID_TTS: "0"
+      V2_MARK_USED: "0"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect Growth Agent changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --name-only "${{ github.event.pull_request.base.sha }}...HEAD" | grep -Eq '^tools/autoposter/(config/|src/ai/|src/voice/|src/v2_main.py|src/render/short_v2.py|scripts/(growth|voice)_preview.py|tests/test_(growth_agent|natural_voice).py|requirements.txt|GROWTH_AGENT.md)'; then
+            echo "render=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "render=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Python
+        if: steps.changes.outputs.render == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: tools/autoposter/requirements.txt
+
+      - name: Install FFmpeg, ffprobe and fonts
+        if: steps.changes.outputs.render == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Install autoposter dependencies
+        if: steps.changes.outputs.render == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r tools/autoposter/requirements.txt
+
+      - name: Run factual-safety and legacy tests
+        if: steps.changes.outputs.render == 'true'
+        run: python -m unittest tools.autoposter.tests.test_growth_agent tools.autoposter.tests.test_natural_voice
+
+      - name: Generate three isolated Russian voice samples
+        if: steps.changes.outputs.render == 'true'
+        run: |
+          python tools/autoposter/scripts/voice_preview.py \
+            --output "$PREVIEW_DIR/voice_comparison"
+
+      - name: Render three isolated old/new comparisons
+        if: steps.changes.outputs.render == 'true'
+        run: |
+          python tools/autoposter/scripts/growth_preview.py \
+            --output "$PREVIEW_DIR" \
+            --render
+
+      - name: Verify six MP4 artifacts with ffprobe
+        if: steps.changes.outputs.render == 'true'
+        run: |
+          test "$(find "$PREVIEW_DIR" -name '*.mp4' -type f | wc -l)" -eq 6
+          while IFS= read -r video; do
+            test -s "$video"
+            ffprobe -v error \
+              -show_entries stream=codec_type,width,height \
+              -show_entries format=duration \
+              -of default=noprint_wrappers=1 "$video"
+          done < <(find "$PREVIEW_DIR" -name '*.mp4' -type f | sort)
+          test "$(find "$PREVIEW_DIR" -name 'video_qa.json' -type f | wc -l)" -eq 3
+
+      - name: Verify three 15-25 second audio artifacts
+        if: steps.changes.outputs.render == 'true'
+        run: |
+          test "$(find "$PREVIEW_DIR/voice_comparison" -name '*.mp3' -type f | wc -l)" -eq 3
+          while IFS= read -r audio; do
+            test -s "$audio"
+            duration="$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$audio")"
+            awk -v seconds="$duration" 'BEGIN { exit !(seconds >= 15.0 && seconds <= 25.0) }'
+          done < <(find "$PREVIEW_DIR/voice_comparison" -name '*.mp3' -type f | sort)
+          test -s "$PREVIEW_DIR/voice_comparison/voice_comparison.json"
+
+      - name: Upload owner-review bundle
+        if: always() && steps.changes.outputs.render == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: natural-russian-voice-and-growth-${{ github.run_id }}
+          path: /tmp/growth-agent-review/
+          if-no-files-found: error
+          retention-days: 14

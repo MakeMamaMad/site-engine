@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "description": "Spoken-only Russian substitutions. Storyboards, captions and facts remain unchanged.",
+  "literal": {
+    "ЧМЗАП": "Чэмзап",
+    "Foton": "Фотон",
+    "BPW": "Бэ-пэ-вэ",
+    "Michelin": "Мишлен",
+    "DHL": "Ди-эйч-эл",
+    "DAF": "Даф",
+    "KAMAZ": "Камаз",
+    "MAN": "Ман",
+    "Krone": "Кроне",
+    "Schmitz": "Шмитц"
+  },
+  "regex": [
+    {
+      "pattern": "\\bECO[ -]?Meter\\b",
+      "spoken": "Эко Метр"
+    }
+  ]
+}

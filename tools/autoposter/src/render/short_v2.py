@@ -265,7 +265,10 @@ def _scaled_durations(
     scene_audio_seconds: list[float] | None = None,
 ) -> list[float]:
     if scene_audio_seconds and len(scene_audio_seconds) == len(storyboard.scenes):
-        durations = [max(2.8, float(value)) for value in scene_audio_seconds]
+        # Legacy scene audio is already padded to >=2.8s. Continuous narration
+        # supplies real word-boundary timings and must not be shifted by an
+        # additional visual minimum, otherwise the next frame starts late.
+        durations = [max(0.30, float(value)) for value in scene_audio_seconds]
         # Compensate only for tiny codec/container rounding drift on the final scene.
         drift = max(0.0, audio_seconds - sum(durations))
         if durations and drift > 0:
