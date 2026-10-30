@@ -690,7 +690,7 @@ jobs:
           assert "колпачок концентратора" not in json.dumps(visible_copy, ensure_ascii=False).lower()
           terminology = evidence["terminology"]
           assert terminology["approved_russian"] == "крышка ступицы"
-          assert terminology["original_term"] == "hub cap"
+          assert terminology["original"] == "hub cap"
           assert (root / "before_after_copy.md").is_file()
           assert "synthetic" in profile["data_classification"]
           assert safety["publishing_invoked"] is False
