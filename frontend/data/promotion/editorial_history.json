@@ -636,6 +636,19 @@
       "status": "email_sent",
       "sent_at": "2026-10-29T16:19:50+00:00",
       "gmail_message_id": "1a18875e5f49bc75"
+    },
+    {
+      "target_id": "logirus-editorial",
+      "target_name": "Logirus — новости логистики",
+      "slug": "specrazreshenie-tyazhelovesnoe-ts",
+      "title": "Спецразрешение на тяжеловесный и крупногабаритный транспорт: когда нужно и как получить",
+      "site_url": "https://spec-avtoportal.ru/knowledge/specrazreshenie-tyazhelovesnoe-ts/?utm_source=logirus-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=specrazreshenie-tyazhelovesnoe-ts",
+      "contact": "news@logirus.ru",
+      "item_key": "knowledge:specrazreshenie-tyazhelovesnoe-ts",
+      "created_at": "2026-10-30T09:55:25+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-30T09:55:25+00:00",
+      "gmail_message_id": "1a18c3c507860f68"
     }
   ]
 }
