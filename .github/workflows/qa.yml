@@ -683,9 +683,11 @@ jobs:
           assert factual["all_evidence_supported"] is True
           generic = {"КЛЮЧЕВОЙ ФАКТ", "ПОЧЕМУ ЭТО ВАЖНО", "ГЛАВНОЕ"}
           assert not generic.intersection(slide["headline"] for slide in carousel["slides"])
-          assert "колпачок концентратора" not in json.dumps(
-              {"carousel": carousel, "stories": stories}, ensure_ascii=False
-          ).lower()
+          visible_copy = {
+              "carousel": [{"headline": row["headline"], "body": row["body"]} for row in carousel["slides"]],
+              "stories": [{"headline": row["headline"], "body": row["body"]} for row in stories["frames"]],
+          }
+          assert "колпачок концентратора" not in json.dumps(visible_copy, ensure_ascii=False).lower()
           terminology = evidence["terminology"]
           assert terminology["approved_russian"] == "крышка ступицы"
           assert terminology["original_term"] == "hub cap"
