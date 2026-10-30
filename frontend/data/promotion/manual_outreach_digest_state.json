@@ -1,12 +1,13 @@
 {
   "schema": 1,
-  "date_moscow": "2026-10-28",
-  "sent_at": "2026-10-28T12:39:26+00:00",
-  "task_count": 4,
+  "date_moscow": "2026-10-29",
+  "sent_at": "2026-10-29T17:21:31+00:00",
+  "task_count": 5,
   "action_ids": [
     "editorial:mexzona:gabarity-i-massy",
     "editorial:mexzona:kak-razmestit-gruz-v-evrofure",
     "editorial:mexzona:kak-vybrat-polupricep",
+    "editorial:mexzona:karta-voditelya-dlya-tahografa",
     "editorial:mexzona:tehnicheskoe-obsluzhivanie-polupricepa"
   ]
 }
