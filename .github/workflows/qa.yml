@@ -538,3 +538,74 @@ jobs:
           path: /tmp/growth-agent-review/
           if-no-files-found: error
           retention-days: 14
+  growth-intelligence-preview:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GROWTH_AGENT_ENABLED: "0"
+      NATURAL_VOICE_ENABLED: "0"
+      GROWTH_INTELLIGENCE_ENABLED: "0"
+      OPENAI_TTS: "0"
+      ALLOW_PAID_TTS: "0"
+      V2_MARK_USED: "0"
+      PREVIEW_DIR: /tmp/growth-intelligence-preview
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect Growth Intelligence changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --name-only "${{ github.event.pull_request.base.sha }}...HEAD" | grep -Eq '^tools/autoposter/(src/intelligence/|scripts/growth_intelligence_preview.py|tests/test_growth_intelligence.py|tests/fixtures/growth_intelligence/|GROWTH_INTELLIGENCE.md)'; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Python
+        if: steps.changes.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run deterministic intelligence tests
+        if: steps.changes.outputs.run == 'true'
+        run: python -m unittest tools.autoposter.tests.test_growth_intelligence
+
+      - name: Generate labeled demonstration reports
+        if: steps.changes.outputs.run == 'true'
+        run: |
+          python tools/autoposter/scripts/growth_intelligence_preview.py \
+            --output "$PREVIEW_DIR"
+
+      - name: Verify synthetic labels and read-only output
+        if: steps.changes.outputs.run == 'true'
+        run: |
+          test "$(find "$PREVIEW_DIR" -maxdepth 1 -type f | wc -l)" -eq 8
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("/tmp/growth-intelligence-preview")
+          viral = json.loads((root / "viral_pattern_report.json").read_text(encoding="utf-8"))
+          audit = json.loads((root / "analytics_audit_report.json").read_text(encoding="utf-8"))
+          pipeline = json.loads((root / "recommendation_pipeline.json").read_text(encoding="utf-8"))
+          assert all("synthetic" in label for label in viral["dataset_labels"])
+          assert all("synthetic" in label for label in audit["dataset_labels"])
+          assert pipeline["publishing_invoked"] is False
+          assert pipeline["scheduling_effect"] == "none"
+          assert pipeline["production_topic_weights_changed"] is False
+          PY
+
+      - name: Upload read-only demonstration reports
+        if: always() && steps.changes.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: growth-intelligence-synthetic-demo-${{ github.run_id }}
+          path: /tmp/growth-intelligence-preview/
+          if-no-files-found: error
+          retention-days: 14

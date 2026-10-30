@@ -1,0 +1,777 @@
+{
+  "schema": 1,
+  "module": "ig-audit-adaptation",
+  "analysis_mode": "offline_import_only",
+  "dataset_labels": [
+    "synthetic_fixture_not_real_audience_performance"
+  ],
+  "sample_size": 12,
+  "account_median_views": 12000.0,
+  "date_range": {
+    "start": "2026-09-01",
+    "end": "2026-10-15"
+  },
+  "metric_coverage": {
+    "reach": {
+      "available_posts": 10,
+      "total_posts": 12,
+      "coverage": 0.833
+    },
+    "shares": {
+      "available_posts": 12,
+      "total_posts": 12,
+      "coverage": 1.0
+    },
+    "saves": {
+      "available_posts": 12,
+      "total_posts": 12,
+      "coverage": 1.0
+    },
+    "follows": {
+      "available_posts": 12,
+      "total_posts": 12,
+      "coverage": 1.0
+    },
+    "average_watch_time_seconds": {
+      "available_posts": 9,
+      "total_posts": 12,
+      "coverage": 0.75
+    },
+    "three_second_retention": {
+      "available_posts": 10,
+      "total_posts": 12,
+      "coverage": 0.833
+    },
+    "non_follower_reach": {
+      "available_posts": 8,
+      "total_posts": 12,
+      "coverage": 0.667
+    }
+  },
+  "dataset_quality": {
+    "sample_size": 12,
+    "minimum_sample_for_non_exploratory_patterns": 20,
+    "sample_sufficient": false,
+    "optional_metrics_complete": false,
+    "confidence_ceiling": "low",
+    "recommendation_policy": "descriptive_and_experimental_only"
+  },
+  "observed_metrics": {
+    "sample_size": 12,
+    "account_median_views": 12000.0,
+    "date_range": {
+      "start": "2026-09-01",
+      "end": "2026-10-15"
+    },
+    "metric_coverage": {
+      "reach": {
+        "available_posts": 10,
+        "total_posts": 12,
+        "coverage": 0.833
+      },
+      "shares": {
+        "available_posts": 12,
+        "total_posts": 12,
+        "coverage": 1.0
+      },
+      "saves": {
+        "available_posts": 12,
+        "total_posts": 12,
+        "coverage": 1.0
+      },
+      "follows": {
+        "available_posts": 12,
+        "total_posts": 12,
+        "coverage": 1.0
+      },
+      "average_watch_time_seconds": {
+        "available_posts": 9,
+        "total_posts": 12,
+        "coverage": 0.75
+      },
+      "three_second_retention": {
+        "available_posts": 10,
+        "total_posts": 12,
+        "coverage": 0.833
+      },
+      "non_follower_reach": {
+        "available_posts": 8,
+        "total_posts": 12,
+        "coverage": 0.667
+      }
+    }
+  },
+  "posts": [
+    {
+      "post_id": "synthetic-01",
+      "source_url": "https://example.com/posts/01",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-01",
+      "views": 42000,
+      "content_topic": "эксплуатация",
+      "hook_formula": "number_first",
+      "format": "reel",
+      "reach": 35000.0,
+      "shares": 420.0,
+      "saves": 310.0,
+      "follows": 92.0,
+      "average_watch_time_seconds": 14.2,
+      "three_second_retention": 0.76,
+      "non_follower_reach": 0.68,
+      "outlier_multiple": 3.5,
+      "shares_per_reach": 0.012,
+      "saves_per_reach": 0.008857,
+      "follows_per_reach": 0.002629
+    },
+    {
+      "post_id": "synthetic-02",
+      "source_url": "https://example.com/posts/02",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-05",
+      "views": 31000,
+      "content_topic": "эксплуатация",
+      "hook_formula": "number_first",
+      "format": "reel",
+      "reach": 27000.0,
+      "shares": 280.0,
+      "saves": 230.0,
+      "follows": 66.0,
+      "average_watch_time_seconds": 12.8,
+      "three_second_retention": 0.71,
+      "non_follower_reach": 0.61,
+      "outlier_multiple": 2.583,
+      "shares_per_reach": 0.01037,
+      "saves_per_reach": 0.008519,
+      "follows_per_reach": 0.002444
+    },
+    {
+      "post_id": "synthetic-03",
+      "source_url": "https://example.com/posts/03",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-09",
+      "views": 26000,
+      "content_topic": "регламенты",
+      "hook_formula": "number_first",
+      "format": "reel",
+      "reach": 22000.0,
+      "shares": 190.0,
+      "saves": 205.0,
+      "follows": 48.0,
+      "average_watch_time_seconds": 11.9,
+      "three_second_retention": 0.67,
+      "non_follower_reach": 0.57,
+      "outlier_multiple": 2.167,
+      "shares_per_reach": 0.008636,
+      "saves_per_reach": 0.009318,
+      "follows_per_reach": 0.002182
+    },
+    {
+      "post_id": "synthetic-04",
+      "source_url": "https://example.com/posts/04",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-13",
+      "views": 22000,
+      "content_topic": "регламенты",
+      "hook_formula": "number_first",
+      "format": "carousel",
+      "reach": 18500.0,
+      "shares": 160.0,
+      "saves": 180.0,
+      "follows": 39.0,
+      "average_watch_time_seconds": 10.7,
+      "three_second_retention": 0.64,
+      "non_follower_reach": 0.52,
+      "outlier_multiple": 1.833,
+      "shares_per_reach": 0.008649,
+      "saves_per_reach": 0.00973,
+      "follows_per_reach": 0.002108
+    },
+    {
+      "post_id": "synthetic-05",
+      "source_url": "https://example.com/posts/05",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-17",
+      "views": 15000,
+      "content_topic": "рынок",
+      "hook_formula": "question",
+      "format": "reel",
+      "reach": 12800.0,
+      "shares": 85.0,
+      "saves": 120.0,
+      "follows": 21.0,
+      "average_watch_time_seconds": 9.6,
+      "three_second_retention": 0.58,
+      "non_follower_reach": 0.43,
+      "outlier_multiple": 1.25,
+      "shares_per_reach": 0.006641,
+      "saves_per_reach": 0.009375,
+      "follows_per_reach": 0.001641
+    },
+    {
+      "post_id": "synthetic-06",
+      "source_url": "https://example.com/posts/06",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-21",
+      "views": 13000,
+      "content_topic": "рынок",
+      "hook_formula": "question",
+      "format": "reel",
+      "reach": 11000.0,
+      "shares": 66.0,
+      "saves": 94.0,
+      "follows": 18.0,
+      "average_watch_time_seconds": 8.9,
+      "three_second_retention": 0.54,
+      "non_follower_reach": 0.39,
+      "outlier_multiple": 1.083,
+      "shares_per_reach": 0.006,
+      "saves_per_reach": 0.008545,
+      "follows_per_reach": 0.001636
+    },
+    {
+      "post_id": "synthetic-07",
+      "source_url": "https://example.com/posts/07",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-25",
+      "views": 11000,
+      "content_topic": "рынок",
+      "hook_formula": "question",
+      "format": "reel",
+      "reach": 9400.0,
+      "shares": 44.0,
+      "saves": 71.0,
+      "follows": 14.0,
+      "average_watch_time_seconds": null,
+      "three_second_retention": 0.49,
+      "non_follower_reach": 0.34,
+      "outlier_multiple": 0.917,
+      "shares_per_reach": 0.004681,
+      "saves_per_reach": 0.007553,
+      "follows_per_reach": 0.001489
+    },
+    {
+      "post_id": "synthetic-08",
+      "source_url": "https://example.com/posts/08",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-29",
+      "views": 9000,
+      "content_topic": "эксплуатация",
+      "hook_formula": "question",
+      "format": "carousel",
+      "reach": 7600.0,
+      "shares": 31.0,
+      "saves": 55.0,
+      "follows": 9.0,
+      "average_watch_time_seconds": null,
+      "three_second_retention": null,
+      "non_follower_reach": null,
+      "outlier_multiple": 0.75,
+      "shares_per_reach": 0.004079,
+      "saves_per_reach": 0.007237,
+      "follows_per_reach": 0.001184
+    },
+    {
+      "post_id": "synthetic-09",
+      "source_url": "https://example.com/posts/09",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-03",
+      "views": 7000,
+      "content_topic": "регламенты",
+      "hook_formula": "negative_command",
+      "format": "reel",
+      "reach": 6000.0,
+      "shares": 18.0,
+      "saves": 29.0,
+      "follows": 5.0,
+      "average_watch_time_seconds": 6.2,
+      "three_second_retention": 0.38,
+      "non_follower_reach": 0.22,
+      "outlier_multiple": 0.583,
+      "shares_per_reach": 0.003,
+      "saves_per_reach": 0.004833,
+      "follows_per_reach": 0.000833
+    },
+    {
+      "post_id": "synthetic-10",
+      "source_url": "https://example.com/posts/10",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-07",
+      "views": 5600,
+      "content_topic": "регламенты",
+      "hook_formula": "negative_command",
+      "format": "reel",
+      "reach": 4700.0,
+      "shares": 12.0,
+      "saves": 21.0,
+      "follows": 3.0,
+      "average_watch_time_seconds": 5.8,
+      "three_second_retention": 0.34,
+      "non_follower_reach": null,
+      "outlier_multiple": 0.467,
+      "shares_per_reach": 0.002553,
+      "saves_per_reach": 0.004468,
+      "follows_per_reach": 0.000638
+    },
+    {
+      "post_id": "synthetic-11",
+      "source_url": "https://example.com/posts/11",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-11",
+      "views": 4300,
+      "content_topic": "эксплуатация",
+      "hook_formula": "negative_command",
+      "format": "reel",
+      "reach": null,
+      "shares": 8.0,
+      "saves": 15.0,
+      "follows": 2.0,
+      "average_watch_time_seconds": 5.1,
+      "three_second_retention": 0.31,
+      "non_follower_reach": null,
+      "outlier_multiple": 0.358,
+      "shares_per_reach": null,
+      "saves_per_reach": null,
+      "follows_per_reach": null
+    },
+    {
+      "post_id": "synthetic-12",
+      "source_url": "https://example.com/posts/12",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-15",
+      "views": 3200,
+      "content_topic": "эксплуатация",
+      "hook_formula": "negative_command",
+      "format": "single_image",
+      "reach": null,
+      "shares": 5.0,
+      "saves": 9.0,
+      "follows": 1.0,
+      "average_watch_time_seconds": null,
+      "three_second_retention": null,
+      "non_follower_reach": null,
+      "outlier_multiple": 0.267,
+      "shares_per_reach": null,
+      "saves_per_reach": null,
+      "follows_per_reach": null
+    }
+  ],
+  "top_posts": [
+    {
+      "post_id": "synthetic-01",
+      "source_url": "https://example.com/posts/01",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-01",
+      "views": 42000,
+      "content_topic": "эксплуатация",
+      "hook_formula": "number_first",
+      "format": "reel",
+      "reach": 35000.0,
+      "shares": 420.0,
+      "saves": 310.0,
+      "follows": 92.0,
+      "average_watch_time_seconds": 14.2,
+      "three_second_retention": 0.76,
+      "non_follower_reach": 0.68,
+      "outlier_multiple": 3.5,
+      "shares_per_reach": 0.012,
+      "saves_per_reach": 0.008857,
+      "follows_per_reach": 0.002629
+    },
+    {
+      "post_id": "synthetic-02",
+      "source_url": "https://example.com/posts/02",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-05",
+      "views": 31000,
+      "content_topic": "эксплуатация",
+      "hook_formula": "number_first",
+      "format": "reel",
+      "reach": 27000.0,
+      "shares": 280.0,
+      "saves": 230.0,
+      "follows": 66.0,
+      "average_watch_time_seconds": 12.8,
+      "three_second_retention": 0.71,
+      "non_follower_reach": 0.61,
+      "outlier_multiple": 2.583,
+      "shares_per_reach": 0.01037,
+      "saves_per_reach": 0.008519,
+      "follows_per_reach": 0.002444
+    },
+    {
+      "post_id": "synthetic-03",
+      "source_url": "https://example.com/posts/03",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-09",
+      "views": 26000,
+      "content_topic": "регламенты",
+      "hook_formula": "number_first",
+      "format": "reel",
+      "reach": 22000.0,
+      "shares": 190.0,
+      "saves": 205.0,
+      "follows": 48.0,
+      "average_watch_time_seconds": 11.9,
+      "three_second_retention": 0.67,
+      "non_follower_reach": 0.57,
+      "outlier_multiple": 2.167,
+      "shares_per_reach": 0.008636,
+      "saves_per_reach": 0.009318,
+      "follows_per_reach": 0.002182
+    },
+    {
+      "post_id": "synthetic-04",
+      "source_url": "https://example.com/posts/04",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-09-13",
+      "views": 22000,
+      "content_topic": "регламенты",
+      "hook_formula": "number_first",
+      "format": "carousel",
+      "reach": 18500.0,
+      "shares": 160.0,
+      "saves": 180.0,
+      "follows": 39.0,
+      "average_watch_time_seconds": 10.7,
+      "three_second_retention": 0.64,
+      "non_follower_reach": 0.52,
+      "outlier_multiple": 1.833,
+      "shares_per_reach": 0.008649,
+      "saves_per_reach": 0.00973,
+      "follows_per_reach": 0.002108
+    }
+  ],
+  "bottom_posts": [
+    {
+      "post_id": "synthetic-12",
+      "source_url": "https://example.com/posts/12",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-15",
+      "views": 3200,
+      "content_topic": "эксплуатация",
+      "hook_formula": "negative_command",
+      "format": "single_image",
+      "reach": null,
+      "shares": 5.0,
+      "saves": 9.0,
+      "follows": 1.0,
+      "average_watch_time_seconds": null,
+      "three_second_retention": null,
+      "non_follower_reach": null,
+      "outlier_multiple": 0.267,
+      "shares_per_reach": null,
+      "saves_per_reach": null,
+      "follows_per_reach": null
+    },
+    {
+      "post_id": "synthetic-11",
+      "source_url": "https://example.com/posts/11",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-11",
+      "views": 4300,
+      "content_topic": "эксплуатация",
+      "hook_formula": "negative_command",
+      "format": "reel",
+      "reach": null,
+      "shares": 8.0,
+      "saves": 15.0,
+      "follows": 2.0,
+      "average_watch_time_seconds": 5.1,
+      "three_second_retention": 0.31,
+      "non_follower_reach": null,
+      "outlier_multiple": 0.358,
+      "shares_per_reach": null,
+      "saves_per_reach": null,
+      "follows_per_reach": null
+    },
+    {
+      "post_id": "synthetic-10",
+      "source_url": "https://example.com/posts/10",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-07",
+      "views": 5600,
+      "content_topic": "регламенты",
+      "hook_formula": "negative_command",
+      "format": "reel",
+      "reach": 4700.0,
+      "shares": 12.0,
+      "saves": 21.0,
+      "follows": 3.0,
+      "average_watch_time_seconds": 5.8,
+      "three_second_retention": 0.34,
+      "non_follower_reach": null,
+      "outlier_multiple": 0.467,
+      "shares_per_reach": 0.002553,
+      "saves_per_reach": 0.004468,
+      "follows_per_reach": 0.000638
+    },
+    {
+      "post_id": "synthetic-09",
+      "source_url": "https://example.com/posts/09",
+      "dataset_label": "synthetic_fixture_not_real_audience_performance",
+      "publication_date": "2026-10-03",
+      "views": 7000,
+      "content_topic": "регламенты",
+      "hook_formula": "negative_command",
+      "format": "reel",
+      "reach": 6000.0,
+      "shares": 18.0,
+      "saves": 29.0,
+      "follows": 5.0,
+      "average_watch_time_seconds": 6.2,
+      "three_second_retention": 0.38,
+      "non_follower_reach": 0.22,
+      "outlier_multiple": 0.583,
+      "shares_per_reach": 0.003,
+      "saves_per_reach": 0.004833,
+      "follows_per_reach": 0.000833
+    }
+  ],
+  "hook_patterns": [
+    {
+      "hook_formula": "number_first",
+      "sample_size": 4,
+      "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
+      "median_outlier_multiple": 2.375,
+      "median_three_second_retention": 0.69,
+      "median_shares_per_reach": 0.00951,
+      "post_ids": [
+        "synthetic-01",
+        "synthetic-02",
+        "synthetic-03",
+        "synthetic-04"
+      ]
+    },
+    {
+      "hook_formula": "question",
+      "sample_size": 4,
+      "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
+      "median_outlier_multiple": 1.0,
+      "median_three_second_retention": 0.54,
+      "median_shares_per_reach": 0.00534,
+      "post_ids": [
+        "synthetic-05",
+        "synthetic-06",
+        "synthetic-07",
+        "synthetic-08"
+      ]
+    },
+    {
+      "hook_formula": "negative_command",
+      "sample_size": 4,
+      "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
+      "median_outlier_multiple": 0.412,
+      "median_three_second_retention": 0.34,
+      "median_shares_per_reach": 0.00278,
+      "post_ids": [
+        "synthetic-09",
+        "synthetic-10",
+        "synthetic-11",
+        "synthetic-12"
+      ]
+    }
+  ],
+  "topic_patterns": [
+    {
+      "content_topic": "регламенты",
+      "sample_size": 4,
+      "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
+      "median_outlier_multiple": 1.208,
+      "median_three_second_retention": 0.51,
+      "median_shares_per_reach": 0.00582,
+      "post_ids": [
+        "synthetic-03",
+        "synthetic-04",
+        "synthetic-09",
+        "synthetic-10"
+      ]
+    },
+    {
+      "content_topic": "рынок",
+      "sample_size": 3,
+      "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
+      "median_outlier_multiple": 1.083,
+      "median_three_second_retention": 0.54,
+      "median_shares_per_reach": 0.006,
+      "post_ids": [
+        "synthetic-05",
+        "synthetic-06",
+        "synthetic-07"
+      ]
+    },
+    {
+      "content_topic": "эксплуатация",
+      "sample_size": 5,
+      "adequate_sample": true,
+      "classification": "descriptive_pattern",
+      "not_causal": true,
+      "confidence": "low",
+      "median_outlier_multiple": 0.75,
+      "median_three_second_retention": 0.71,
+      "median_shares_per_reach": 0.01037,
+      "post_ids": [
+        "synthetic-01",
+        "synthetic-02",
+        "synthetic-08",
+        "synthetic-11",
+        "synthetic-12"
+      ]
+    }
+  ],
+  "descriptive_patterns": [
+    {
+      "type": "hook_formula",
+      "value": "number_first",
+      "sample_size": 4,
+      "median_outlier_multiple": 2.375,
+      "post_ids": [
+        "synthetic-01",
+        "synthetic-02",
+        "synthetic-03",
+        "synthetic-04"
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
+    },
+    {
+      "type": "hook_formula",
+      "value": "question",
+      "sample_size": 4,
+      "median_outlier_multiple": 1.0,
+      "post_ids": [
+        "synthetic-05",
+        "synthetic-06",
+        "synthetic-07",
+        "synthetic-08"
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
+    },
+    {
+      "type": "hook_formula",
+      "value": "negative_command",
+      "sample_size": 4,
+      "median_outlier_multiple": 0.412,
+      "post_ids": [
+        "synthetic-09",
+        "synthetic-10",
+        "synthetic-11",
+        "synthetic-12"
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
+    },
+    {
+      "type": "content_topic",
+      "value": "регламенты",
+      "sample_size": 4,
+      "median_outlier_multiple": 1.208,
+      "post_ids": [
+        "synthetic-03",
+        "synthetic-04",
+        "synthetic-09",
+        "synthetic-10"
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
+    },
+    {
+      "type": "content_topic",
+      "value": "рынок",
+      "sample_size": 3,
+      "median_outlier_multiple": 1.083,
+      "post_ids": [
+        "synthetic-05",
+        "synthetic-06",
+        "synthetic-07"
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
+    },
+    {
+      "type": "content_topic",
+      "value": "эксплуатация",
+      "sample_size": 5,
+      "median_outlier_multiple": 0.75,
+      "post_ids": [
+        "synthetic-01",
+        "synthetic-02",
+        "synthetic-08",
+        "synthetic-11",
+        "synthetic-12"
+      ],
+      "classification": "descriptive_pattern",
+      "confidence": "low",
+      "not_causal": true
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "Higher three-second retention may be associated with above-median views in this sample.",
+      "evidence": {
+        "top_median": 0.69,
+        "bottom_median": 0.34,
+        "top_n": 4,
+        "bottom_n": 3
+      },
+      "confidence": "low",
+      "not_causal": true
+    }
+  ],
+  "proposed_experiments": [
+    {
+      "experiment": "Run an owner-approved comparison using hook formula 'number_first' against the current baseline.",
+      "basis": "descriptive_pattern_not_causal",
+      "sample_size": 4,
+      "median_outlier_multiple": 2.375,
+      "confidence": "low",
+      "exploratory_only": true,
+      "requires_owner_approval": true,
+      "automatic_change": false,
+      "causal_claim": false
+    }
+  ],
+  "recommendations": [
+    {
+      "action": "Collect more complete per-post metrics before changing the content plan.",
+      "basis": "insufficient_evidence",
+      "confidence": "high"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metric_partial",
+      "metric": "non_follower_reach",
+      "coverage": 0.667
+    },
+    {
+      "code": "small_sample",
+      "detail": "Only 12 posts; conclusions are directional."
+    }
+  ],
+  "limitations": [
+    "Only imported fields are calculated; missing reach, retention, follows or non-follower data are never inferred.",
+    "The existing Buffer integration exposes publishing/status data, not a documented complete Instagram Insights feed.",
+    "Observed associations are separated from hypotheses and do not prove causation."
+  ]
+}
