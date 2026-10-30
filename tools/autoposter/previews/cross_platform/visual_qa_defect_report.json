@@ -1,0 +1,356 @@
+{
+  "schema": 1,
+  "module": "cross_platform_visual_qa",
+  "input": {
+    "video": "<temporary defect.mp4>",
+    "frames_dir": null,
+    "profile": "short_v2"
+  },
+  "probe": {
+    "ok": true,
+    "error": null,
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "duration": 9.2,
+    "has_audio": false,
+    "size_bytes": 677454
+  },
+  "black_intervals": [
+    {
+      "start": 0.0,
+      "end": 1.233,
+      "duration": 1.233
+    }
+  ],
+  "frames_analysed": 14,
+  "frames": [
+    {
+      "t": 0.0,
+      "file": "frame_t000.000.png",
+      "classification": "near_black",
+      "stats": {
+        "mean_luma": 0.0,
+        "std_luma": 0.0,
+        "p98_luma": 0.0,
+        "entropy": -0.0,
+        "edge_density": 0.0
+      }
+    },
+    {
+      "t": 0.25,
+      "file": "frame_t000.250.png",
+      "classification": "near_black",
+      "stats": {
+        "mean_luma": 0.0,
+        "std_luma": 0.0,
+        "p98_luma": 0.0,
+        "entropy": -0.0,
+        "edge_density": 0.0
+      },
+      "diff_from_previous": 0.0
+    },
+    {
+      "t": 0.5,
+      "file": "frame_t000.500.png",
+      "classification": "near_black",
+      "stats": {
+        "mean_luma": 0.0,
+        "std_luma": 0.0,
+        "p98_luma": 0.0,
+        "entropy": -0.0,
+        "edge_density": 0.0
+      },
+      "diff_from_previous": 0.0
+    },
+    {
+      "t": 1.0,
+      "file": "frame_t001.000.png",
+      "classification": "near_black",
+      "stats": {
+        "mean_luma": 0.0,
+        "std_luma": 0.0,
+        "p98_luma": 0.0,
+        "entropy": -0.0,
+        "edge_density": 0.0
+      },
+      "diff_from_previous": 0.0
+    },
+    {
+      "t": 1.5,
+      "file": "frame_t001.500.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.25,
+        "std_luma": 35.11,
+        "p98_luma": 173.0,
+        "entropy": 3.561,
+        "edge_density": 0.0495
+      },
+      "title_region": {
+        "bright_text_fraction": 0.0589,
+        "dark_background_fraction": 0.9017,
+        "region_mean_luma": 35.67,
+        "title_present": true,
+        "title_readable": true
+      },
+      "margins": {
+        "bright_fraction_in_margins": {
+          "left": 0.0,
+          "right": 0.0
+        },
+        "overflow_suspected": false
+      },
+      "diff_from_previous": 21.25
+    },
+    {
+      "t": 2.0,
+      "file": "frame_t002.000.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.56,
+        "std_luma": 35.4,
+        "p98_luma": 175.0,
+        "entropy": 3.745,
+        "edge_density": 0.0509
+      },
+      "title_region": {
+        "bright_text_fraction": 0.0587,
+        "dark_background_fraction": 0.8967,
+        "region_mean_luma": 36.22,
+        "title_present": true,
+        "title_readable": true
+      },
+      "margins": {
+        "bright_fraction_in_margins": {
+          "left": 0.0,
+          "right": 0.0
+        },
+        "overflow_suspected": false
+      },
+      "diff_from_previous": 4.09
+    },
+    {
+      "t": 2.5,
+      "file": "frame_t002.500.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.68,
+        "std_luma": 35.79,
+        "p98_luma": 177.0,
+        "entropy": 3.832,
+        "edge_density": 0.0515
+      },
+      "diff_from_previous": 3.83
+    },
+    {
+      "t": 3.436,
+      "file": "frame_t003.436.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 22.1,
+        "std_luma": 36.46,
+        "p98_luma": 183.0,
+        "entropy": 3.909,
+        "edge_density": 0.0525
+      },
+      "diff_from_previous": 6.7
+    },
+    {
+      "t": 4.371,
+      "file": "frame_t004.371.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 20.61,
+        "std_luma": 31.14,
+        "p98_luma": 136.0,
+        "entropy": 3.511,
+        "edge_density": 0.0454
+      },
+      "diff_from_previous": 13.92
+    },
+    {
+      "t": 5.307,
+      "file": "frame_t005.307.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.05,
+        "std_luma": 31.61,
+        "p98_luma": 139.0,
+        "entropy": 3.981,
+        "edge_density": 0.0456
+      },
+      "diff_from_previous": 6.1
+    },
+    {
+      "t": 6.243,
+      "file": "frame_t006.243.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.45,
+        "std_luma": 32.17,
+        "p98_luma": 138.0,
+        "entropy": 4.091,
+        "edge_density": 0.0471
+      },
+      "diff_from_previous": 6.25
+    },
+    {
+      "t": 7.179,
+      "file": "frame_t007.179.png",
+      "classification": "near_black",
+      "stats": {
+        "mean_luma": 0.0,
+        "std_luma": 0.0,
+        "p98_luma": 0.0,
+        "entropy": -0.0,
+        "edge_density": 0.0
+      },
+      "diff_from_previous": 21.45
+    },
+    {
+      "t": 8.114,
+      "file": "frame_t008.114.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 23.27,
+        "std_luma": 36.16,
+        "p98_luma": 143.0,
+        "entropy": 3.224,
+        "edge_density": 0.0526
+      },
+      "diff_from_previous": 23.27
+    },
+    {
+      "t": 9.05,
+      "file": "frame_t009.050.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 23.61,
+        "std_luma": 36.68,
+        "p98_luma": 143.0,
+        "entropy": 3.297,
+        "edge_density": 0.0538
+      },
+      "diff_from_previous": 6.59
+    }
+  ],
+  "layout_checks": [
+    {
+      "role": "title",
+      "text": "На М-5 «Урал» асфальтируют эстакаду",
+      "font_size": 72,
+      "max_width_px": 952,
+      "max_lines": 4,
+      "lines": [
+        "НА М-5 «УРАЛ»",
+        "АСФАЛЬТИРУЮТ",
+        "ЭСТАКАДУ"
+      ],
+      "line_widths_px": [
+        635,
+        702,
+        445
+      ],
+      "truncated_by_renderer": false,
+      "lines_exceeding_width": [],
+      "overflow": false
+    },
+    {
+      "role": "title",
+      "text": "1060 метров и 27 пролётов",
+      "font_size": 72,
+      "max_width_px": 952,
+      "max_lines": 4,
+      "lines": [
+        "1060 МЕТРОВ И 27",
+        "ПРОЛЁТОВ"
+      ],
+      "line_widths_px": [
+        775,
+        448
+      ],
+      "truncated_by_renderer": false,
+      "lines_exceeding_width": [],
+      "overflow": false
+    },
+    {
+      "role": "title",
+      "text": "spec-avtoportal.ru",
+      "font_size": 72,
+      "max_width_px": 952,
+      "max_lines": 4,
+      "lines": [
+        "SPEC-AVTOPORTAL.RU"
+      ],
+      "line_widths_px": [
+        908
+      ],
+      "truncated_by_renderer": false,
+      "lines_exceeding_width": [],
+      "overflow": false
+    },
+    {
+      "role": "title",
+      "text": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области в рамках реконструкции и строительства обхода Сима, работы завершат до конца года",
+      "font_size": 61,
+      "max_width_px": 952,
+      "max_lines": 4,
+      "lines": [
+        "НА ТРАССЕ М-5 «УРАЛ»",
+        "НАЧАЛИ",
+        "АСФАЛЬТИРОВАТЬ",
+        "САМУЮ…"
+      ],
+      "line_widths_px": [
+        824,
+        296,
+        668,
+        332
+      ],
+      "truncated_by_renderer": true,
+      "lines_exceeding_width": [],
+      "overflow": true
+    }
+  ],
+  "issues": [
+    {
+      "code": "black_opening",
+      "severity": "error",
+      "detail": "Video opens on a black/blank screen.",
+      "evidence": {
+        "interval": {
+          "start": 0.0,
+          "end": 1.233,
+          "duration": 1.233
+        },
+        "sampled_blank_timestamps": [
+          0.0,
+          0.25,
+          0.5,
+          1.0
+        ]
+      }
+    },
+    {
+      "code": "title_text_overflow",
+      "severity": "warning",
+      "detail": "Overlay text does not fit the renderer's title box and would be truncated.",
+      "evidence": {
+        "text": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области в рамках реконструкции и строительства обхода Сима, работы завершат до конца года",
+        "lines": [
+          "НА ТРАССЕ М-5 «УРАЛ»",
+          "НАЧАЛИ",
+          "АСФАЛЬТИРОВАТЬ",
+          "САМУЮ…"
+        ]
+      }
+    }
+  ],
+  "info": [],
+  "status": "fail",
+  "approved_for_publication": false,
+  "replacement_or_publication_performed": false,
+  "contact_sheet": "contact_sheet_defect.jpg",
+  "data_classification": "synthetic_render_not_a_published_video"
+}

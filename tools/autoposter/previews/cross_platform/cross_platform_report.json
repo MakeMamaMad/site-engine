@@ -1,0 +1,1539 @@
+{
+  "schema": 1,
+  "module": "cross_platform_analytics",
+  "advisory_only": true,
+  "publishing_invoked": false,
+  "production_weights_changed": false,
+  "dataset_labels": [
+    "synthetic_cross_platform_fixture_not_real"
+  ],
+  "dataset_quality": {
+    "input_rows": 62,
+    "accepted_snapshots": 56,
+    "rejected_rows": 3,
+    "exact_duplicates_removed": 1,
+    "conflicts_quarantined": 1,
+    "posts": 21,
+    "content_items": 8,
+    "minimum_baseline_sample": 5
+  },
+  "rejected_rows": [
+    {
+      "row": 60,
+      "errors": [
+        "views: count must be a whole number without abbreviations or separators, got '1.2K'"
+      ],
+      "raw": {
+        "content_id": "art-009",
+        "platform": "youtube",
+        "post_id": "YTs09abcde",
+        "post_url": "",
+        "published_at": "2026-10-20T10:00:00Z",
+        "collected_at": "2026-10-21T10:00:00Z",
+        "views": "1.2K",
+        "engaged_views": "",
+        "reach": "",
+        "watch_time_hours": "",
+        "average_watch_duration_seconds": "",
+        "average_percentage_viewed": "",
+        "completion_rate": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "saves": "",
+        "followers_gained": "",
+        "profile_visits": "",
+        "website_clicks": "",
+        "dataset_label": "synthetic_cross_platform_fixture_not_real"
+      }
+    },
+    {
+      "row": 61,
+      "errors": [
+        "collected_at is earlier than published_at"
+      ],
+      "raw": {
+        "content_id": "art-009",
+        "platform": "instagram",
+        "post_id": "",
+        "post_url": "https://www.instagram.com/reel/IGr09xyz/",
+        "published_at": "2026-10-20T10:00:00Z",
+        "collected_at": "2026-10-19T10:00:00Z",
+        "views": "40",
+        "engaged_views": "",
+        "reach": "",
+        "watch_time_hours": "",
+        "average_watch_duration_seconds": "",
+        "average_percentage_viewed": "",
+        "completion_rate": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "saves": "",
+        "followers_gained": "",
+        "profile_visits": "",
+        "website_clicks": "",
+        "dataset_label": "synthetic_cross_platform_fixture_not_real"
+      }
+    },
+    {
+      "row": 62,
+      "errors": [
+        "published_at: timezone offset required (e.g. +03:00 or Z): '2026-10-20 10:00:00'",
+        "views: cannot be negative, got '-5'"
+      ],
+      "raw": {
+        "content_id": "art-009",
+        "platform": "tiktok",
+        "post_id": "7409000000000000001",
+        "post_url": "",
+        "published_at": "2026-10-20 10:00:00",
+        "collected_at": "2026-10-21T10:00:00Z",
+        "views": "-5",
+        "engaged_views": "",
+        "reach": "",
+        "watch_time_hours": "",
+        "average_watch_duration_seconds": "",
+        "average_percentage_viewed": "",
+        "completion_rate": "",
+        "likes": "",
+        "comments": "",
+        "shares": "",
+        "saves": "",
+        "followers_gained": "",
+        "profile_visits": "",
+        "website_clicks": "",
+        "dataset_label": "synthetic_cross_platform_fixture_not_real"
+      }
+    }
+  ],
+  "duplicates": [
+    {
+      "row": 58,
+      "duplicate_of_row": 1,
+      "post_key": "youtube:YTs01abcde",
+      "collected_at": "2026-10-02T10:00:00Z"
+    }
+  ],
+  "conflicts": [
+    {
+      "code": "conflicting_snapshot",
+      "post_key": "youtube:YTs01abcde",
+      "collected_at": "2026-10-04T10:00:00Z",
+      "rows": [
+        2,
+        59
+      ],
+      "detail": "Same post and collection time with different values; all versions excluded until the owner resolves the export."
+    }
+  ],
+  "per_platform": {
+    "youtube": {
+      "posts": 8,
+      "snapshots": 19,
+      "metric_definition": {
+        "views": "YouTube Shorts views as exported from YouTube Studio. Since 2025 Shorts views count plays/replays; this is not the same definition as Instagram or TikTok views.",
+        "engaged_views": "YouTube-only engaged views. Never compared with Instagram or TikTok views."
+      },
+      "metric_coverage_latest_snapshot": {
+        "engaged_views": {
+          "present": 7,
+          "posts": 8
+        },
+        "reach": {
+          "present": 0,
+          "posts": 8
+        },
+        "likes": {
+          "present": 6,
+          "posts": 8
+        },
+        "comments": {
+          "present": 6,
+          "posts": 8
+        },
+        "shares": {
+          "present": 0,
+          "posts": 8
+        },
+        "saves": {
+          "present": 0,
+          "posts": 8
+        },
+        "followers_gained": {
+          "present": 6,
+          "posts": 8
+        },
+        "profile_visits": {
+          "present": 0,
+          "posts": 8
+        },
+        "website_clicks": {
+          "present": 1,
+          "posts": 8
+        },
+        "watch_time_seconds": {
+          "present": 6,
+          "posts": 8
+        },
+        "average_watch_duration_seconds": {
+          "present": 6,
+          "posts": 8
+        },
+        "average_percentage_viewed": {
+          "present": 6,
+          "posts": 8
+        },
+        "completion_rate": {
+          "present": 0,
+          "posts": 8
+        }
+      },
+      "views_baseline_by_window": {
+        "24h": {
+          "window_hours": 24.0,
+          "tolerance_hours": 3.5999999999999996,
+          "posts": 7,
+          "median_views": 500.0,
+          "sample_sufficient": true
+        },
+        "72h": {
+          "window_hours": 72.0,
+          "tolerance_hours": 10.799999999999999,
+          "posts": 5,
+          "median_views": 977.0,
+          "sample_sufficient": true
+        },
+        "7d": {
+          "window_hours": 168.0,
+          "tolerance_hours": 25.2,
+          "posts": 7,
+          "median_views": 1150.0,
+          "sample_sufficient": true
+        },
+        "28d": {
+          "window_hours": 672.0,
+          "tolerance_hours": 100.8,
+          "posts": 0,
+          "median_views": null,
+          "sample_sufficient": false
+        }
+      },
+      "latest_snapshot_per_post": [
+        {
+          "post_key": "youtube:YTs01abcde",
+          "content_id": "art-001",
+          "age_hours": 169.0,
+          "snapshots": 2,
+          "views": 900,
+          "engaged_views": 558,
+          "like_rate": 0.03,
+          "comment_rate": 0.0,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": 5.556,
+          "average_percentage_viewed": 55.0,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "shares",
+            "saves",
+            "profile_visits",
+            "website_clicks",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "youtube:YTs02abcde",
+          "content_id": "art-002",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 1400,
+          "engaged_views": 868,
+          "like_rate": 0.03,
+          "comment_rate": 0.00071,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": 5.714,
+          "average_percentage_viewed": 58.0,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "shares",
+            "saves",
+            "profile_visits",
+            "website_clicks",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "youtube:YTs03abcde",
+          "content_id": "art-003",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 620,
+          "engaged_views": 384,
+          "like_rate": 0.02903,
+          "comment_rate": 0.00323,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": 4.839,
+          "average_percentage_viewed": 61.0,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "shares",
+            "saves",
+            "profile_visits",
+            "website_clicks",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "youtube:YTs04abcde",
+          "content_id": "art-004",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 2100,
+          "engaged_views": 1302,
+          "like_rate": 0.03,
+          "comment_rate": 0.0,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": 5.714,
+          "average_percentage_viewed": 64.0,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "shares",
+            "saves",
+            "profile_visits",
+            "website_clicks",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "youtube:YTs05abcde",
+          "content_id": "art-005",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 800,
+          "engaged_views": 496,
+          "like_rate": 0.03,
+          "comment_rate": 0.00125,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": 5.0,
+          "average_percentage_viewed": 67.0,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "shares",
+            "saves",
+            "profile_visits",
+            "website_clicks",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "youtube:YTs06abcde",
+          "content_id": "art-006",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 1150,
+          "engaged_views": 713,
+          "like_rate": 0.02957,
+          "comment_rate": 0.00174,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": 5.217,
+          "average_percentage_viewed": 70.0,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "shares",
+            "saves",
+            "profile_visits",
+            "website_clicks",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "youtube:YTs07abcde",
+          "content_id": "art-007",
+          "age_hours": 170.0,
+          "snapshots": 1,
+          "views": 1300,
+          "engaged_views": 700,
+          "like_rate": null,
+          "comment_rate": null,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "likes",
+            "comments",
+            "shares",
+            "saves",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "youtube:YTs08abcde",
+          "content_id": "art-008",
+          "age_hours": 25.0,
+          "snapshots": 1,
+          "views": 500,
+          "engaged_views": null,
+          "like_rate": null,
+          "comment_rate": null,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "engaged_views",
+            "reach",
+            "likes",
+            "comments",
+            "shares",
+            "saves",
+            "followers_gained",
+            "profile_visits",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        }
+      ]
+    },
+    "instagram": {
+      "posts": 6,
+      "snapshots": 18,
+      "metric_definition": {
+        "views": "Instagram Reels views as shown in owner-exported Insights. Definition is Instagram's own and is not equivalent to YouTube or TikTok views."
+      },
+      "metric_coverage_latest_snapshot": {
+        "reach": {
+          "present": 5,
+          "posts": 6
+        },
+        "likes": {
+          "present": 6,
+          "posts": 6
+        },
+        "comments": {
+          "present": 6,
+          "posts": 6
+        },
+        "shares": {
+          "present": 6,
+          "posts": 6
+        },
+        "saves": {
+          "present": 6,
+          "posts": 6
+        },
+        "followers_gained": {
+          "present": 6,
+          "posts": 6
+        },
+        "profile_visits": {
+          "present": 0,
+          "posts": 6
+        },
+        "website_clicks": {
+          "present": 0,
+          "posts": 6
+        },
+        "watch_time_seconds": {
+          "present": 0,
+          "posts": 6
+        },
+        "average_watch_duration_seconds": {
+          "present": 0,
+          "posts": 6
+        },
+        "average_percentage_viewed": {
+          "present": 0,
+          "posts": 6
+        },
+        "completion_rate": {
+          "present": 0,
+          "posts": 6
+        }
+      },
+      "views_baseline_by_window": {
+        "24h": {
+          "window_hours": 24.0,
+          "tolerance_hours": 3.5999999999999996,
+          "posts": 6,
+          "median_views": 32.0,
+          "sample_sufficient": true
+        },
+        "72h": {
+          "window_hours": 72.0,
+          "tolerance_hours": 10.799999999999999,
+          "posts": 6,
+          "median_views": 50.0,
+          "sample_sufficient": true
+        },
+        "7d": {
+          "window_hours": 168.0,
+          "tolerance_hours": 25.2,
+          "posts": 6,
+          "median_views": 59.0,
+          "sample_sufficient": true
+        },
+        "28d": {
+          "window_hours": 672.0,
+          "tolerance_hours": 100.8,
+          "posts": 0,
+          "median_views": null,
+          "sample_sufficient": false
+        }
+      },
+      "latest_snapshot_per_post": [
+        {
+          "post_key": "instagram:IGr01xyz",
+          "content_id": "art-001",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 60,
+          "engaged_views": null,
+          "like_rate": 0.05,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.0,
+          "follows_per_1000_views": 0.0,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "instagram:IGr02xyz",
+          "content_id": "art-002",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 45,
+          "engaged_views": null,
+          "like_rate": 0.04444,
+          "comment_rate": 0.02222,
+          "share_rate": 0.02222,
+          "save_rate": 0.0,
+          "follows_per_1000_views": 0.0,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "instagram:IGr03xyz",
+          "content_id": "art-003",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 140,
+          "engaged_views": null,
+          "like_rate": 0.05,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.00714,
+          "follows_per_1000_views": 7.143,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "instagram:IGr04xyz",
+          "content_id": "art-004",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 70,
+          "engaged_views": null,
+          "like_rate": 0.04286,
+          "comment_rate": 0.01429,
+          "share_rate": 0.01429,
+          "save_rate": 0.01429,
+          "follows_per_1000_views": 0.0,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "instagram:IGr05xyz",
+          "content_id": "art-005",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 52,
+          "engaged_views": null,
+          "like_rate": 0.03846,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.0,
+          "follows_per_1000_views": 0.0,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "instagram:IGr06xyz",
+          "content_id": "art-006",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 58,
+          "engaged_views": null,
+          "like_rate": 0.03448,
+          "comment_rate": 0.01724,
+          "share_rate": 0.01724,
+          "save_rate": 0.0,
+          "follows_per_1000_views": 0.0,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        }
+      ]
+    },
+    "tiktok": {
+      "posts": 7,
+      "snapshots": 19,
+      "metric_definition": {
+        "views": "TikTok video views as shown in owner-exported analytics. Definition is TikTok's own and is not equivalent to YouTube or Instagram views."
+      },
+      "metric_coverage_latest_snapshot": {
+        "reach": {
+          "present": 0,
+          "posts": 7
+        },
+        "likes": {
+          "present": 6,
+          "posts": 7
+        },
+        "comments": {
+          "present": 6,
+          "posts": 7
+        },
+        "shares": {
+          "present": 6,
+          "posts": 7
+        },
+        "saves": {
+          "present": 6,
+          "posts": 7
+        },
+        "followers_gained": {
+          "present": 0,
+          "posts": 7
+        },
+        "profile_visits": {
+          "present": 0,
+          "posts": 7
+        },
+        "website_clicks": {
+          "present": 0,
+          "posts": 7
+        },
+        "watch_time_seconds": {
+          "present": 0,
+          "posts": 7
+        },
+        "average_watch_duration_seconds": {
+          "present": 0,
+          "posts": 7
+        },
+        "average_percentage_viewed": {
+          "present": 0,
+          "posts": 7
+        },
+        "completion_rate": {
+          "present": 3,
+          "posts": 7
+        }
+      },
+      "views_baseline_by_window": {
+        "24h": {
+          "window_hours": 24.0,
+          "tolerance_hours": 3.5999999999999996,
+          "posts": 6,
+          "median_views": 38.5,
+          "sample_sufficient": true
+        },
+        "72h": {
+          "window_hours": 72.0,
+          "tolerance_hours": 10.799999999999999,
+          "posts": 6,
+          "median_views": 59.5,
+          "sample_sufficient": true
+        },
+        "7d": {
+          "window_hours": 168.0,
+          "tolerance_hours": 25.2,
+          "posts": 6,
+          "median_views": 70.5,
+          "sample_sufficient": true
+        },
+        "28d": {
+          "window_hours": 672.0,
+          "tolerance_hours": 100.8,
+          "posts": 0,
+          "median_views": null,
+          "sample_sufficient": false
+        }
+      },
+      "latest_snapshot_per_post": [
+        {
+          "post_key": "tiktok:7401000000000000001",
+          "content_id": "art-001",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 70,
+          "engaged_views": null,
+          "like_rate": 0.02857,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.0,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": 18.0,
+          "missing_metrics": [
+            "reach",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed"
+          ]
+        },
+        {
+          "post_key": "tiktok:7402000000000000001",
+          "content_id": "art-002",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 66,
+          "engaged_views": null,
+          "like_rate": 0.0303,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.0,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "tiktok:7403000000000000001",
+          "content_id": "art-003",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 75,
+          "engaged_views": null,
+          "like_rate": 0.04,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.0,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": 18.0,
+          "missing_metrics": [
+            "reach",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed"
+          ]
+        },
+        {
+          "post_key": "tiktok:7404000000000000001",
+          "content_id": "art-004",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 240,
+          "engaged_views": null,
+          "like_rate": 0.0375,
+          "comment_rate": 0.0,
+          "share_rate": 0.00417,
+          "save_rate": 0.0,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "tiktok:7405000000000000001",
+          "content_id": "art-005",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 68,
+          "engaged_views": null,
+          "like_rate": 0.02941,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.0,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": 18.0,
+          "missing_metrics": [
+            "reach",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed"
+          ]
+        },
+        {
+          "post_key": "tiktok:7406000000000000001",
+          "content_id": "art-006",
+          "age_hours": 169.0,
+          "snapshots": 3,
+          "views": 71,
+          "engaged_views": null,
+          "like_rate": 0.02817,
+          "comment_rate": 0.0,
+          "share_rate": 0.0,
+          "save_rate": 0.0,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        },
+        {
+          "post_key": "tiktok:7407000000000000001",
+          "content_id": "art-007",
+          "age_hours": 20.0,
+          "snapshots": 1,
+          "views": 55,
+          "engaged_views": null,
+          "like_rate": null,
+          "comment_rate": null,
+          "share_rate": null,
+          "save_rate": null,
+          "follows_per_1000_views": null,
+          "average_percentage_viewed": null,
+          "completion_rate": null,
+          "missing_metrics": [
+            "reach",
+            "likes",
+            "comments",
+            "shares",
+            "saves",
+            "followers_gained",
+            "profile_visits",
+            "website_clicks",
+            "watch_time_seconds",
+            "average_watch_duration_seconds",
+            "average_percentage_viewed",
+            "completion_rate"
+          ]
+        }
+      ]
+    }
+  },
+  "content_matching": [
+    {
+      "content_id": "art-001",
+      "match_status": "matched_all_three",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube",
+        "instagram",
+        "tiktok"
+      ],
+      "platforms_missing": [],
+      "post_keys": {
+        "instagram": [
+          "instagram:IGr01xyz"
+        ],
+        "tiktok": [
+          "tiktok:7401000000000000001"
+        ],
+        "youtube": [
+          "youtube:YTs01abcde"
+        ]
+      },
+      "comparison": {
+        "comparable_window": "7d",
+        "window_hours": 168.0,
+        "tolerance_hours": 25.2,
+        "compared_metric": "views relative to each platform's own median",
+        "raw_views_directly_comparable": false,
+        "excluded_metrics": [
+          "engaged_views (YouTube-only)"
+        ],
+        "platforms": {
+          "instagram": {
+            "post_key": "instagram:IGr01xyz",
+            "collected_at": "2026-10-08T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 60,
+            "views_metric_definition": "Instagram Reels views as shown in owner-exported Insights. Definition is Instagram's own and is not equivalent to YouTube or TikTok views.",
+            "platform_median_views_at_window": 59.0,
+            "relative_to_own_platform_median": 1.017,
+            "relative_unavailable_reason": null
+          },
+          "tiktok": {
+            "post_key": "tiktok:7401000000000000001",
+            "collected_at": "2026-10-08T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 70,
+            "views_metric_definition": "TikTok video views as shown in owner-exported analytics. Definition is TikTok's own and is not equivalent to YouTube or Instagram views.",
+            "platform_median_views_at_window": 70.5,
+            "relative_to_own_platform_median": 0.993,
+            "relative_unavailable_reason": null
+          },
+          "youtube": {
+            "post_key": "youtube:YTs01abcde",
+            "collected_at": "2026-10-08T10:00:00Z",
+            "age_hours": 169.0,
+            "views": 900,
+            "views_metric_definition": "YouTube Shorts views as exported from YouTube Studio. Since 2025 Shorts views count plays/replays; this is not the same definition as Instagram or TikTok views.",
+            "platform_median_views_at_window": 1150.0,
+            "relative_to_own_platform_median": 0.783,
+            "relative_unavailable_reason": null
+          }
+        }
+      },
+      "warnings": []
+    },
+    {
+      "content_id": "art-002",
+      "match_status": "matched_all_three",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube",
+        "instagram",
+        "tiktok"
+      ],
+      "platforms_missing": [],
+      "post_keys": {
+        "instagram": [
+          "instagram:IGr02xyz"
+        ],
+        "tiktok": [
+          "tiktok:7402000000000000001"
+        ],
+        "youtube": [
+          "youtube:YTs02abcde"
+        ]
+      },
+      "comparison": {
+        "comparable_window": "7d",
+        "window_hours": 168.0,
+        "tolerance_hours": 25.2,
+        "compared_metric": "views relative to each platform's own median",
+        "raw_views_directly_comparable": false,
+        "excluded_metrics": [
+          "engaged_views (YouTube-only)"
+        ],
+        "platforms": {
+          "instagram": {
+            "post_key": "instagram:IGr02xyz",
+            "collected_at": "2026-10-10T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 45,
+            "views_metric_definition": "Instagram Reels views as shown in owner-exported Insights. Definition is Instagram's own and is not equivalent to YouTube or TikTok views.",
+            "platform_median_views_at_window": 59.0,
+            "relative_to_own_platform_median": 0.763,
+            "relative_unavailable_reason": null
+          },
+          "tiktok": {
+            "post_key": "tiktok:7402000000000000001",
+            "collected_at": "2026-10-10T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 66,
+            "views_metric_definition": "TikTok video views as shown in owner-exported analytics. Definition is TikTok's own and is not equivalent to YouTube or Instagram views.",
+            "platform_median_views_at_window": 70.5,
+            "relative_to_own_platform_median": 0.936,
+            "relative_unavailable_reason": null
+          },
+          "youtube": {
+            "post_key": "youtube:YTs02abcde",
+            "collected_at": "2026-10-10T10:00:00Z",
+            "age_hours": 169.0,
+            "views": 1400,
+            "views_metric_definition": "YouTube Shorts views as exported from YouTube Studio. Since 2025 Shorts views count plays/replays; this is not the same definition as Instagram or TikTok views.",
+            "platform_median_views_at_window": 1150.0,
+            "relative_to_own_platform_median": 1.217,
+            "relative_unavailable_reason": null
+          }
+        }
+      },
+      "warnings": []
+    },
+    {
+      "content_id": "art-003",
+      "match_status": "matched_all_three",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube",
+        "instagram",
+        "tiktok"
+      ],
+      "platforms_missing": [],
+      "post_keys": {
+        "instagram": [
+          "instagram:IGr03xyz"
+        ],
+        "tiktok": [
+          "tiktok:7403000000000000001"
+        ],
+        "youtube": [
+          "youtube:YTs03abcde"
+        ]
+      },
+      "comparison": {
+        "comparable_window": "7d",
+        "window_hours": 168.0,
+        "tolerance_hours": 25.2,
+        "compared_metric": "views relative to each platform's own median",
+        "raw_views_directly_comparable": false,
+        "excluded_metrics": [
+          "engaged_views (YouTube-only)"
+        ],
+        "platforms": {
+          "instagram": {
+            "post_key": "instagram:IGr03xyz",
+            "collected_at": "2026-10-12T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 140,
+            "views_metric_definition": "Instagram Reels views as shown in owner-exported Insights. Definition is Instagram's own and is not equivalent to YouTube or TikTok views.",
+            "platform_median_views_at_window": 59.0,
+            "relative_to_own_platform_median": 2.373,
+            "relative_unavailable_reason": null
+          },
+          "tiktok": {
+            "post_key": "tiktok:7403000000000000001",
+            "collected_at": "2026-10-12T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 75,
+            "views_metric_definition": "TikTok video views as shown in owner-exported analytics. Definition is TikTok's own and is not equivalent to YouTube or Instagram views.",
+            "platform_median_views_at_window": 70.5,
+            "relative_to_own_platform_median": 1.064,
+            "relative_unavailable_reason": null
+          },
+          "youtube": {
+            "post_key": "youtube:YTs03abcde",
+            "collected_at": "2026-10-12T10:00:00Z",
+            "age_hours": 169.0,
+            "views": 620,
+            "views_metric_definition": "YouTube Shorts views as exported from YouTube Studio. Since 2025 Shorts views count plays/replays; this is not the same definition as Instagram or TikTok views.",
+            "platform_median_views_at_window": 1150.0,
+            "relative_to_own_platform_median": 0.539,
+            "relative_unavailable_reason": null
+          }
+        }
+      },
+      "warnings": []
+    },
+    {
+      "content_id": "art-004",
+      "match_status": "matched_all_three",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube",
+        "instagram",
+        "tiktok"
+      ],
+      "platforms_missing": [],
+      "post_keys": {
+        "instagram": [
+          "instagram:IGr04xyz"
+        ],
+        "tiktok": [
+          "tiktok:7404000000000000001"
+        ],
+        "youtube": [
+          "youtube:YTs04abcde"
+        ]
+      },
+      "comparison": {
+        "comparable_window": "7d",
+        "window_hours": 168.0,
+        "tolerance_hours": 25.2,
+        "compared_metric": "views relative to each platform's own median",
+        "raw_views_directly_comparable": false,
+        "excluded_metrics": [
+          "engaged_views (YouTube-only)"
+        ],
+        "platforms": {
+          "instagram": {
+            "post_key": "instagram:IGr04xyz",
+            "collected_at": "2026-10-14T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 70,
+            "views_metric_definition": "Instagram Reels views as shown in owner-exported Insights. Definition is Instagram's own and is not equivalent to YouTube or TikTok views.",
+            "platform_median_views_at_window": 59.0,
+            "relative_to_own_platform_median": 1.186,
+            "relative_unavailable_reason": null
+          },
+          "tiktok": {
+            "post_key": "tiktok:7404000000000000001",
+            "collected_at": "2026-10-14T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 240,
+            "views_metric_definition": "TikTok video views as shown in owner-exported analytics. Definition is TikTok's own and is not equivalent to YouTube or Instagram views.",
+            "platform_median_views_at_window": 70.5,
+            "relative_to_own_platform_median": 3.404,
+            "relative_unavailable_reason": null
+          },
+          "youtube": {
+            "post_key": "youtube:YTs04abcde",
+            "collected_at": "2026-10-14T10:00:00Z",
+            "age_hours": 169.0,
+            "views": 2100,
+            "views_metric_definition": "YouTube Shorts views as exported from YouTube Studio. Since 2025 Shorts views count plays/replays; this is not the same definition as Instagram or TikTok views.",
+            "platform_median_views_at_window": 1150.0,
+            "relative_to_own_platform_median": 1.826,
+            "relative_unavailable_reason": null
+          }
+        }
+      },
+      "warnings": []
+    },
+    {
+      "content_id": "art-005",
+      "match_status": "matched_all_three",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube",
+        "instagram",
+        "tiktok"
+      ],
+      "platforms_missing": [],
+      "post_keys": {
+        "instagram": [
+          "instagram:IGr05xyz"
+        ],
+        "tiktok": [
+          "tiktok:7405000000000000001"
+        ],
+        "youtube": [
+          "youtube:YTs05abcde"
+        ]
+      },
+      "comparison": {
+        "comparable_window": "7d",
+        "window_hours": 168.0,
+        "tolerance_hours": 25.2,
+        "compared_metric": "views relative to each platform's own median",
+        "raw_views_directly_comparable": false,
+        "excluded_metrics": [
+          "engaged_views (YouTube-only)"
+        ],
+        "platforms": {
+          "instagram": {
+            "post_key": "instagram:IGr05xyz",
+            "collected_at": "2026-10-16T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 52,
+            "views_metric_definition": "Instagram Reels views as shown in owner-exported Insights. Definition is Instagram's own and is not equivalent to YouTube or TikTok views.",
+            "platform_median_views_at_window": 59.0,
+            "relative_to_own_platform_median": 0.881,
+            "relative_unavailable_reason": null
+          },
+          "tiktok": {
+            "post_key": "tiktok:7405000000000000001",
+            "collected_at": "2026-10-16T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 68,
+            "views_metric_definition": "TikTok video views as shown in owner-exported analytics. Definition is TikTok's own and is not equivalent to YouTube or Instagram views.",
+            "platform_median_views_at_window": 70.5,
+            "relative_to_own_platform_median": 0.965,
+            "relative_unavailable_reason": null
+          },
+          "youtube": {
+            "post_key": "youtube:YTs05abcde",
+            "collected_at": "2026-10-16T10:00:00Z",
+            "age_hours": 169.0,
+            "views": 800,
+            "views_metric_definition": "YouTube Shorts views as exported from YouTube Studio. Since 2025 Shorts views count plays/replays; this is not the same definition as Instagram or TikTok views.",
+            "platform_median_views_at_window": 1150.0,
+            "relative_to_own_platform_median": 0.696,
+            "relative_unavailable_reason": null
+          }
+        }
+      },
+      "warnings": []
+    },
+    {
+      "content_id": "art-006",
+      "match_status": "matched_all_three",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube",
+        "instagram",
+        "tiktok"
+      ],
+      "platforms_missing": [],
+      "post_keys": {
+        "instagram": [
+          "instagram:IGr06xyz"
+        ],
+        "tiktok": [
+          "tiktok:7406000000000000001"
+        ],
+        "youtube": [
+          "youtube:YTs06abcde"
+        ]
+      },
+      "comparison": {
+        "comparable_window": "7d",
+        "window_hours": 168.0,
+        "tolerance_hours": 25.2,
+        "compared_metric": "views relative to each platform's own median",
+        "raw_views_directly_comparable": false,
+        "excluded_metrics": [
+          "engaged_views (YouTube-only)"
+        ],
+        "platforms": {
+          "instagram": {
+            "post_key": "instagram:IGr06xyz",
+            "collected_at": "2026-10-18T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 58,
+            "views_metric_definition": "Instagram Reels views as shown in owner-exported Insights. Definition is Instagram's own and is not equivalent to YouTube or TikTok views.",
+            "platform_median_views_at_window": 59.0,
+            "relative_to_own_platform_median": 0.983,
+            "relative_unavailable_reason": null
+          },
+          "tiktok": {
+            "post_key": "tiktok:7406000000000000001",
+            "collected_at": "2026-10-18T10:30:00Z",
+            "age_hours": 169.0,
+            "views": 71,
+            "views_metric_definition": "TikTok video views as shown in owner-exported analytics. Definition is TikTok's own and is not equivalent to YouTube or Instagram views.",
+            "platform_median_views_at_window": 70.5,
+            "relative_to_own_platform_median": 1.007,
+            "relative_unavailable_reason": null
+          },
+          "youtube": {
+            "post_key": "youtube:YTs06abcde",
+            "collected_at": "2026-10-18T10:00:00Z",
+            "age_hours": 169.0,
+            "views": 1150,
+            "views_metric_definition": "YouTube Shorts views as exported from YouTube Studio. Since 2025 Shorts views count plays/replays; this is not the same definition as Instagram or TikTok views.",
+            "platform_median_views_at_window": 1150.0,
+            "relative_to_own_platform_median": 1.0,
+            "relative_unavailable_reason": null
+          }
+        }
+      },
+      "warnings": []
+    },
+    {
+      "content_id": "art-007",
+      "match_status": "partial_match",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube",
+        "tiktok"
+      ],
+      "platforms_missing": [
+        "instagram"
+      ],
+      "post_keys": {
+        "tiktok": [
+          "tiktok:7407000000000000001"
+        ],
+        "youtube": [
+          "youtube:YTs07abcde"
+        ]
+      },
+      "comparison": {
+        "comparable_window": null,
+        "raw_views_directly_comparable": false,
+        "latest_snapshots_not_comparable": {
+          "tiktok": {
+            "views": 55,
+            "age_hours": 20.0,
+            "collected_at": "2026-10-17T21:00:00Z"
+          },
+          "youtube": {
+            "views": 1300,
+            "age_hours": 170.0,
+            "collected_at": "2026-10-22T11:00:00Z"
+          }
+        }
+      },
+      "warnings": [
+        {
+          "code": "publication_time_gap",
+          "hours": 40.0,
+          "published_at": {
+            "tiktok": "2026-10-17T01:00:00Z",
+            "youtube": "2026-10-15T09:00:00Z"
+          },
+          "detail": "Platforms published at different times; audience/day effects differ."
+        },
+        {
+          "code": "window_mismatch",
+          "snapshot_ages_hours": {
+            "tiktok": [
+              20.0
+            ],
+            "youtube": [
+              170.0
+            ]
+          },
+          "detail": "No standard window (24h/72h/7d/28d) has a snapshot for every platform; no cross-platform comparison is made."
+        }
+      ]
+    },
+    {
+      "content_id": "art-008",
+      "match_status": "single_platform",
+      "matched_by": "explicit content_id",
+      "platforms_present": [
+        "youtube"
+      ],
+      "platforms_missing": [
+        "instagram",
+        "tiktok"
+      ],
+      "post_keys": {
+        "youtube": [
+          "youtube:YTs08abcde"
+        ]
+      },
+      "comparison": null,
+      "warnings": []
+    }
+  ],
+  "descriptive_observations": [
+    {
+      "type": "descriptive",
+      "platform": "youtube",
+      "statement": "youtube: median views at 24h = 500 across 7 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "youtube",
+      "statement": "youtube: median views at 72h = 977 across 5 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "youtube",
+      "statement": "youtube: median views at 7d = 1150 across 7 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "instagram",
+      "statement": "instagram: median views at 24h = 32 across 6 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "instagram",
+      "statement": "instagram: median views at 72h = 50 across 6 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "instagram",
+      "statement": "instagram: median views at 7d = 59 across 6 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "tiktok",
+      "statement": "tiktok: median views at 24h = 38.5 across 6 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "tiktok",
+      "statement": "tiktok: median views at 72h = 59.5 across 6 posts"
+    },
+    {
+      "type": "descriptive",
+      "platform": "tiktok",
+      "statement": "tiktok: median views at 7d = 70.5 across 6 posts"
+    },
+    {
+      "type": "descriptive",
+      "content_id": "art-001",
+      "statement": "art-001 at 7d: instagram 1.02x own median, tiktok 0.99x own median, youtube 0.78x own median"
+    },
+    {
+      "type": "descriptive",
+      "content_id": "art-002",
+      "statement": "art-002 at 7d: instagram 0.76x own median, tiktok 0.94x own median, youtube 1.22x own median"
+    },
+    {
+      "type": "descriptive",
+      "content_id": "art-003",
+      "statement": "art-003 at 7d: instagram 2.37x own median, tiktok 1.06x own median, youtube 0.54x own median"
+    },
+    {
+      "type": "descriptive",
+      "content_id": "art-004",
+      "statement": "art-004 at 7d: instagram 1.19x own median, tiktok 3.40x own median, youtube 1.83x own median"
+    },
+    {
+      "type": "descriptive",
+      "content_id": "art-005",
+      "statement": "art-005 at 7d: instagram 0.88x own median, tiktok 0.96x own median, youtube 0.70x own median"
+    },
+    {
+      "type": "descriptive",
+      "content_id": "art-006",
+      "statement": "art-006 at 7d: instagram 0.98x own median, tiktok 1.01x own median, youtube 1.00x own median"
+    }
+  ],
+  "noncausal_hypotheses": [
+    {
+      "type": "hypothesis",
+      "not_causal_evidence": true,
+      "content_id": "art-003",
+      "statement": "Packaging or audience fit may differ: instagram outperformed its own median while youtube underperformed. One item cannot establish a cause.",
+      "test_needed": "Repeat with several matched items and alternate hook/caption variants per platform before drawing conclusions.",
+      "confidence": "low"
+    }
+  ],
+  "website_traffic": {
+    "attribution": "not_attributed",
+    "platform_reported_website_clicks_latest": {
+      "youtube": 3,
+      "instagram": null,
+      "tiktok": null
+    },
+    "detail": "Only platform-reported link clicks are listed. Site visits are not attributed to any platform or video."
+  },
+  "owner_baseline_context": {
+    "classification": "manual_owner_snapshot_not_comparable",
+    "supplied_by": "owner (task brief)",
+    "youtube": {
+      "subscribers": 70,
+      "subscribers_gained_28d": 25,
+      "views_28d": 32200
+    },
+    "instagram": {
+      "followers": 4,
+      "posts": 71
+    },
+    "tiktok": {
+      "followers": 1,
+      "recent_visible_video_views_range": [
+        65,
+        79
+      ]
+    },
+    "why_not_comparable": [
+      "Channel-level totals, not per-post observations with publication and collection timestamps.",
+      "Different scopes: YouTube is a 28-day aggregate; Instagram is a lifetime post count; TikTok is a visual range of recent videos.",
+      "No explicit content IDs link these numbers across platforms.",
+      "Instagram/TikTok Insights (reach, watch time, completion) were not supplied and are not inferred."
+    ]
+  },
+  "warnings": [
+    {
+      "code": "publication_time_gap",
+      "hours": 40.0,
+      "published_at": {
+        "tiktok": "2026-10-17T01:00:00Z",
+        "youtube": "2026-10-15T09:00:00Z"
+      },
+      "detail": "Platforms published at different times; audience/day effects differ.",
+      "content_id": "art-007"
+    },
+    {
+      "code": "window_mismatch",
+      "snapshot_ages_hours": {
+        "tiktok": [
+          20.0
+        ],
+        "youtube": [
+          170.0
+        ]
+      },
+      "detail": "No standard window (24h/72h/7d/28d) has a snapshot for every platform; no cross-platform comparison is made.",
+      "content_id": "art-007"
+    }
+  ],
+  "limitations": [
+    "View definitions differ by platform; raw views are never ranked across platforms.",
+    "YouTube engaged views are YouTube-only and are not compared with Instagram or TikTok views.",
+    "Cross-platform statements use each post's ratio to its own platform median at an equal post-age window.",
+    "Metrics absent from the import stay absent; nothing is estimated or inferred.",
+    "Descriptive observations are not causal findings; hypotheses require controlled repeats."
+  ]
+}

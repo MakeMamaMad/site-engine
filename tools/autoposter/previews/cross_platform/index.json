@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "feature_flag": "CROSS_PLATFORM_GROWTH_ENABLED=0 (default)",
+  "data_classification": {
+    "analytics": [
+      "synthetic_cross_platform_fixture_not_real"
+    ],
+    "article": "real_site_article_from_frontend_news_json_2026_10_30",
+    "visual": "synthetic_render_not_a_published_video"
+  },
+  "analytics_quality": {
+    "input_rows": 62,
+    "accepted_snapshots": 56,
+    "rejected_rows": 3,
+    "exact_duplicates_removed": 1,
+    "conflicts_quarantined": 1,
+    "posts": 21,
+    "content_items": 8,
+    "minimum_baseline_sample": 5
+  },
+  "packaging_status": {
+    "youtube": "ready_for_owner_review",
+    "instagram": "ready_for_owner_review",
+    "tiktok": "ready_for_owner_review"
+  },
+  "visual_qa": {
+    "sample_status": "pass",
+    "sample_issues": [],
+    "defect_status": "fail",
+    "defect_issues": [
+      "black_opening",
+      "title_text_overflow"
+    ]
+  },
+  "safety": {
+    "publishing_invoked": false,
+    "scheduling_effect": "none",
+    "production_weights_changed": false,
+    "production_narration_changed": false,
+    "paid_model_calls": 0,
+    "network_calls": 0
+  }
+}

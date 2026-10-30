@@ -1,0 +1,338 @@
+{
+  "schema": 1,
+  "module": "cross_platform_visual_qa",
+  "input": {
+    "video": "<temporary sample.mp4>",
+    "frames_dir": null,
+    "profile": "short_v2"
+  },
+  "probe": {
+    "ok": true,
+    "error": null,
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "duration": 8.010998,
+    "has_audio": true,
+    "size_bytes": 2779383
+  },
+  "black_intervals": [],
+  "frames_analysed": 14,
+  "frames": [
+    {
+      "t": 0.0,
+      "file": "frame_t000.000.png",
+      "classification": "near_black",
+      "stats": {
+        "mean_luma": 0.0,
+        "std_luma": 0.0,
+        "p98_luma": 0.0,
+        "entropy": -0.0,
+        "edge_density": 0.0
+      }
+    },
+    {
+      "t": 0.25,
+      "file": "frame_t000.250.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.28,
+        "std_luma": 35.16,
+        "p98_luma": 170.0,
+        "entropy": 3.842,
+        "edge_density": 0.0507
+      },
+      "diff_from_previous": 21.28
+    },
+    {
+      "t": 0.5,
+      "file": "frame_t000.500.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.34,
+        "std_luma": 35.32,
+        "p98_luma": 173.0,
+        "entropy": 3.824,
+        "edge_density": 0.0517
+      },
+      "title_region": {
+        "bright_text_fraction": 0.0592,
+        "dark_background_fraction": 0.8998,
+        "region_mean_luma": 35.69,
+        "title_present": true,
+        "title_readable": true
+      },
+      "margins": {
+        "bright_fraction_in_margins": {
+          "left": 0.0,
+          "right": 0.0
+        },
+        "overflow_suspected": false
+      },
+      "diff_from_previous": 2.13
+    },
+    {
+      "t": 1.0,
+      "file": "frame_t001.000.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.58,
+        "std_luma": 35.58,
+        "p98_luma": 175.0,
+        "entropy": 3.893,
+        "edge_density": 0.0504
+      },
+      "title_region": {
+        "bright_text_fraction": 0.0608,
+        "dark_background_fraction": 0.8977,
+        "region_mean_luma": 36.13,
+        "title_present": true,
+        "title_readable": true
+      },
+      "margins": {
+        "bright_fraction_in_margins": {
+          "left": 0.0,
+          "right": 0.0
+        },
+        "overflow_suspected": false
+      },
+      "diff_from_previous": 4.21
+    },
+    {
+      "t": 1.5,
+      "file": "frame_t001.500.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.69,
+        "std_luma": 35.94,
+        "p98_luma": 177.0,
+        "entropy": 3.879,
+        "edge_density": 0.0524
+      },
+      "title_region": {
+        "bright_text_fraction": 0.0606,
+        "dark_background_fraction": 0.898,
+        "region_mean_luma": 36.24,
+        "title_present": true,
+        "title_readable": true
+      },
+      "margins": {
+        "bright_fraction_in_margins": {
+          "left": 0.0,
+          "right": 0.0
+        },
+        "overflow_suspected": false
+      },
+      "diff_from_previous": 4.75
+    },
+    {
+      "t": 2.0,
+      "file": "frame_t002.000.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.73,
+        "std_luma": 36.18,
+        "p98_luma": 181.0,
+        "entropy": 3.873,
+        "edge_density": 0.0522
+      },
+      "title_region": {
+        "bright_text_fraction": 0.0624,
+        "dark_background_fraction": 0.8975,
+        "region_mean_luma": 36.27,
+        "title_present": true,
+        "title_readable": true
+      },
+      "margins": {
+        "bright_fraction_in_margins": {
+          "left": 0.0,
+          "right": 0.0
+        },
+        "overflow_suspected": false
+      },
+      "diff_from_previous": 4.13
+    },
+    {
+      "t": 2.5,
+      "file": "frame_t002.500.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 22.08,
+        "std_luma": 36.47,
+        "p98_luma": 187.0,
+        "entropy": 3.907,
+        "edge_density": 0.0535
+      },
+      "diff_from_previous": 4.15
+    },
+    {
+      "t": 3.266,
+      "file": "frame_t003.266.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 20.73,
+        "std_luma": 31.12,
+        "p98_luma": 137.0,
+        "entropy": 3.918,
+        "edge_density": 0.0466
+      },
+      "diff_from_previous": 13.75
+    },
+    {
+      "t": 4.032,
+      "file": "frame_t004.032.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 20.88,
+        "std_luma": 31.51,
+        "p98_luma": 138.0,
+        "entropy": 3.926,
+        "edge_density": 0.0456
+      },
+      "diff_from_previous": 5.29
+    },
+    {
+      "t": 4.798,
+      "file": "frame_t004.798.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 20.88,
+        "std_luma": 31.99,
+        "p98_luma": 141.0,
+        "entropy": 3.936,
+        "edge_density": 0.049
+      },
+      "diff_from_previous": 5.25
+    },
+    {
+      "t": 5.563,
+      "file": "frame_t005.563.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 21.32,
+        "std_luma": 32.28,
+        "p98_luma": 143.0,
+        "entropy": 3.956,
+        "edge_density": 0.0495
+      },
+      "diff_from_previous": 6.11
+    },
+    {
+      "t": 6.329,
+      "file": "frame_t006.329.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 22.82,
+        "std_luma": 35.76,
+        "p98_luma": 141.0,
+        "entropy": 3.564,
+        "edge_density": 0.0567
+      },
+      "diff_from_previous": 17.48
+    },
+    {
+      "t": 7.095,
+      "file": "frame_t007.095.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 23.27,
+        "std_luma": 36.14,
+        "p98_luma": 142.0,
+        "entropy": 3.571,
+        "edge_density": 0.0549
+      },
+      "diff_from_previous": 5.99
+    },
+    {
+      "t": 7.861,
+      "file": "frame_t007.861.png",
+      "classification": "dark_detailed",
+      "stats": {
+        "mean_luma": 23.56,
+        "std_luma": 36.6,
+        "p98_luma": 142.0,
+        "entropy": 3.562,
+        "edge_density": 0.0561
+      },
+      "diff_from_previous": 6.24
+    }
+  ],
+  "layout_checks": [
+    {
+      "role": "title",
+      "text": "На М-5 «Урал» асфальтируют эстакаду",
+      "font_size": 72,
+      "max_width_px": 952,
+      "max_lines": 4,
+      "lines": [
+        "НА М-5 «УРАЛ»",
+        "АСФАЛЬТИРУЮТ",
+        "ЭСТАКАДУ"
+      ],
+      "line_widths_px": [
+        635,
+        702,
+        445
+      ],
+      "truncated_by_renderer": false,
+      "lines_exceeding_width": [],
+      "overflow": false
+    },
+    {
+      "role": "title",
+      "text": "1060 метров и 27 пролётов",
+      "font_size": 72,
+      "max_width_px": 952,
+      "max_lines": 4,
+      "lines": [
+        "1060 МЕТРОВ И 27",
+        "ПРОЛЁТОВ"
+      ],
+      "line_widths_px": [
+        775,
+        448
+      ],
+      "truncated_by_renderer": false,
+      "lines_exceeding_width": [],
+      "overflow": false
+    },
+    {
+      "role": "title",
+      "text": "spec-avtoportal.ru",
+      "font_size": 72,
+      "max_width_px": 952,
+      "max_lines": 4,
+      "lines": [
+        "SPEC-AVTOPORTAL.RU"
+      ],
+      "line_widths_px": [
+        908
+      ],
+      "truncated_by_renderer": false,
+      "lines_exceeding_width": [],
+      "overflow": false
+    }
+  ],
+  "issues": [],
+  "info": [
+    {
+      "code": "fade_in_first_frame",
+      "detail": "First frame is black; consistent with the renderer's 0.18 s fade-in. Use a non-black thumbnail.",
+      "t": 0.0
+    },
+    {
+      "code": "dark_but_detailed_opening",
+      "detail": "Dark opening frames contain detail; not treated as black.",
+      "timestamps": [
+        0.25,
+        0.5,
+        1.0
+      ]
+    }
+  ],
+  "status": "pass",
+  "approved_for_publication": false,
+  "replacement_or_publication_performed": false,
+  "contact_sheet": "contact_sheet.jpg",
+  "data_classification": "synthetic_render_not_a_published_video"
+}
