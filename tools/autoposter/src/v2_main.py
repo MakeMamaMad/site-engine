@@ -396,7 +396,7 @@ def write_outputs(board, manifest: dict[str, Any]) -> None:
         encoding="utf-8",
     )
     try:
-        from .crossplatform.manifest_history import archive_render_manifest
+        from .render.manifest_history import archive_render_manifest
         archive_render_manifest(manifest, OUT_DIR / "manifest_history")
     except (OSError, ValueError) as exc:
         print(f"[manifest_history] archive warning (render retained): {exc}")
