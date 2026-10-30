@@ -66,7 +66,8 @@
     "ee925ea0a488",
     "fab7eca12f5f",
     "testdrive:sat545#1",
-    "guide:vynesennaya-os"
+    "guide:vynesennaya-os",
+    "testdrive:queue#1"
   ],
   "renders": [
     {
@@ -529,6 +530,13 @@
       "slug": "",
       "title": "Вынесенная ось: плюс 4 тонны по нормам",
       "created_at": "2026-10-29T06:02:15.819750+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "testdrive:queue#1",
+      "slug": "",
+      "title": "Электронная очередь на тест-драйв SAT",
+      "created_at": "2026-10-29T16:29:12.801817+00:00",
       "format": "social-v2"
     }
   ]
