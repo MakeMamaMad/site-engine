@@ -1,0 +1,107 @@
+name: Checks — Cross-Platform Growth Preview
+
+# Isolated, read-only preview for Cross-Platform Growth Optimization v1.
+# Synthetic fixtures only: no secrets, no publishing, no paid APIs, no network
+# calls beyond checkout/package installation. The feature flag stays 0.
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "tools/autoposter/src/crossplatform/**"
+      - "tools/autoposter/scripts/cross_platform_preview.py"
+      - "tools/autoposter/tests/test_cross_platform_growth.py"
+      - "tools/autoposter/tests/fixtures/cross_platform/**"
+      - "tools/autoposter/CROSS_PLATFORM_GROWTH.md"
+      - ".github/workflows/cross_platform_growth_preview.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cross-platform-growth-preview-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CROSS_PLATFORM_GROWTH_ENABLED: "0"
+      GROWTH_AGENT_ENABLED: "0"
+      GROWTH_INTELLIGENCE_ENABLED: "0"
+      AI_SCRIPT: "0"
+      AI_IMAGES: "0"
+      OPENAI_TTS: "0"
+      ALLOW_PAID_TTS: "0"
+      V2_MARK_USED: "0"
+      PREVIEW_DIR: /tmp/cross-platform-preview
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install ffmpeg and fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Install minimal dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install Pillow==10.4.0
+
+      - name: Syntax
+        run: |
+          python -m py_compile tools/autoposter/src/crossplatform/*.py tools/autoposter/scripts/cross_platform_preview.py
+
+      - name: Deterministic tests
+        run: python -m unittest -v tools.autoposter.tests.test_cross_platform_growth
+
+      - name: Existing Growth Intelligence tests (shared validator)
+        run: python -m unittest tools.autoposter.tests.test_growth_intelligence
+
+      - name: Generate preview reports
+        run: python tools/autoposter/scripts/cross_platform_preview.py --output "$PREVIEW_DIR"
+
+      - name: Verify labels, safety and artifact size
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("/tmp/cross-platform-preview")
+          index = json.loads((root / "index.json").read_text(encoding="utf-8"))
+          report = json.loads((root / "cross_platform_report.json").read_text(encoding="utf-8"))
+          packages = json.loads((root / "platform_packages.json").read_text(encoding="utf-8"))
+          assert all("synthetic" in label for label in report["dataset_labels"]), report["dataset_labels"]
+          assert report["publishing_invoked"] is False
+          assert report["website_traffic"]["attribution"] == "not_attributed"
+          assert packages["production_effect"] == "none" and packages["paid_model_calls"] == 0
+          assert all(p["approval_status"] == "pending_owner_approval" for p in packages["packages"].values())
+          assert index["visual_qa"]["sample_status"] in {"pass", "warn"}, index["visual_qa"]
+          assert index["visual_qa"]["defect_status"] == "fail", index["visual_qa"]
+          assert "black_opening" in index["visual_qa"]["defect_issues"]
+          for name in ("visual_qa_report.json", "visual_qa_defect_report.json"):
+              data = json.loads((root / name).read_text(encoding="utf-8"))
+              assert data["approved_for_publication"] is False
+              assert data["replacement_or_publication_performed"] is False
+          assert not list(root.glob("*.mp4")), "videos must not be kept"
+          total = sum(p.stat().st_size for p in root.iterdir())
+          assert total < 1_000_000, f"preview too large: {total} bytes"
+          print("Cross-platform preview verified:", total, "bytes")
+          PY
+
+      - name: Upload preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cross-platform-growth-preview-${{ github.run_id }}
+          path: /tmp/cross-platform-preview/
+          if-no-files-found: error
+          retention-days: 14

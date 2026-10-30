@@ -1,0 +1,279 @@
+{
+  "schema": 1,
+  "module": "cross_platform_hooks",
+  "advisory_only": true,
+  "production_effect": "none",
+  "replaces_production_narration": false,
+  "paid_model_calls": 0,
+  "source": {
+    "title": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+    "source_url": "https://sdelanounas.ru/blogs/179124/",
+    "source_name": "Сделано у нас",
+    "published_at": "2026-10-29T18:10:20+00:00",
+    "article_id": "99b27d0762db",
+    "editorial_status": "approved",
+    "data_classification": "real_site_article_from_frontend_news_json_2026_10_30"
+  },
+  "status": "ready_for_owner_review",
+  "verified_facts_used": [
+    {
+      "statement": "Дорожники планируют полностью завершить устройство покрытия до конца года.",
+      "exact_source_text": "Дорожники планируют полностью завершить устройство покрытия до конца года.",
+      "numeric": false,
+      "sensitive_regulatory": false,
+      "emotive_markers": [],
+      "dated_context": false,
+      "hook_rejection": null
+    },
+    {
+      "statement": "Протяжённость эстакады составляет 1060 метров.",
+      "exact_source_text": "Протяжённость эстакады составляет 1060 метров.",
+      "numeric": true,
+      "sensitive_regulatory": false,
+      "emotive_markers": [],
+      "dated_context": false,
+      "hook_rejection": null
+    },
+    {
+      "statement": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+      "exact_source_text": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+      "numeric": true,
+      "sensitive_regulatory": false,
+      "emotive_markers": [],
+      "dated_context": false,
+      "hook_rejection": null
+    },
+    {
+      "statement": "До конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.",
+      "exact_source_text": "До конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.",
+      "numeric": true,
+      "sensitive_regulatory": false,
+      "emotive_markers": [],
+      "dated_context": false,
+      "hook_rejection": null
+    },
+    {
+      "statement": "Летом готовность эстакады оценивали в 85%.",
+      "exact_source_text": "Летом готовность эстакады оценивали в 85% .",
+      "numeric": true,
+      "sensitive_regulatory": false,
+      "emotive_markers": [],
+      "dated_context": true,
+      "hook_rejection": null
+    },
+    {
+      "statement": "Она должна существенно снизить аварийность и повысить комфорт на одном из самых проблемных опасных участков.",
+      "exact_source_text": "Она должна существенно снизить аварийность и повысить комфорт на одном из самых проблемных опасных участков.",
+      "numeric": false,
+      "sensitive_regulatory": false,
+      "emotive_markers": [],
+      "dated_context": false,
+      "hook_rejection": "source_sentence_exceeds_hook_limit"
+    }
+  ],
+  "rejected_facts": [],
+  "packages": {
+    "youtube": {
+      "platform": "youtube",
+      "strategy": "Search-oriented: exact source headline as title, the most specific numeric fact as the opening hook, a fact list with the source link in the description.",
+      "hook": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+      "title": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+      "description": "Протяжённость эстакады составляет 1060 метров.\nСооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.\nДо конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.\n\nИсточник: Сделано у нас — https://sdelanounas.ru/blogs/179124/\n\nПолный разбор и ссылка на источник — на spec-avtoportal.ru. Подписывайтесь на канал, чтобы следить за отраслью.",
+      "cta": "Полный разбор и ссылка на источник — на spec-avtoportal.ru. Подписывайтесь на канал, чтобы следить за отраслью.",
+      "cta_type": "non_factual_template",
+      "source_evidence": [
+        {
+          "role": "hook",
+          "statement": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+          "exact_source_text": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "description_fact",
+          "statement": "Протяжённость эстакады составляет 1060 метров.",
+          "exact_source_text": "Протяжённость эстакады составляет 1060 метров.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "description_fact",
+          "statement": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+          "exact_source_text": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "description_fact",
+          "statement": "До конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.",
+          "exact_source_text": "До конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "title",
+          "statement": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+          "exact_source_text": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        }
+      ],
+      "issues": [],
+      "confidence": "high",
+      "status": "ready_for_owner_review",
+      "approval_status": "pending_owner_approval",
+      "contains_regulatory_or_sensitive_claim": false
+    },
+    "instagram": {
+      "platform": "instagram",
+      "strategy": "Save-oriented explainer: a practical or mechanism fact as the hook, the verified numbers as a scannable list, source line and save CTA.",
+      "hook": "Дорожники планируют полностью завершить устройство покрытия до конца года.",
+      "caption": "Дорожники планируют полностью завершить устройство покрытия до конца года.\n\nЦифры из источника:\n— Протяжённость эстакады составляет 1060 метров.\n— Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.\n— До конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.\n— Летом готовность эстакады оценивали в 85%.\n\nИсточник: Сделано у нас.\n\nСохраните пост, чтобы вернуться к цифрам. Источник — в подписи.\n\n#дороги #М5Урал #СпецАвтоПортал",
+      "cta": "Сохраните пост, чтобы вернуться к цифрам. Источник — в подписи.",
+      "cta_type": "non_factual_template",
+      "source_evidence": [
+        {
+          "role": "hook",
+          "statement": "Дорожники планируют полностью завершить устройство покрытия до конца года.",
+          "exact_source_text": "Дорожники планируют полностью завершить устройство покрытия до конца года.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "caption_fact",
+          "statement": "Протяжённость эстакады составляет 1060 метров.",
+          "exact_source_text": "Протяжённость эстакады составляет 1060 метров.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "caption_fact",
+          "statement": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+          "exact_source_text": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "caption_fact",
+          "statement": "До конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.",
+          "exact_source_text": "До конца года на объекте уложат почти 1,8 тысячи тонн асфальтобетона.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "caption_fact",
+          "statement": "Летом готовность эстакады оценивали в 85%.",
+          "exact_source_text": "Летом готовность эстакады оценивали в 85% .",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        }
+      ],
+      "issues": [],
+      "confidence": "high",
+      "status": "ready_for_owner_review",
+      "approval_status": "pending_owner_approval",
+      "contains_regulatory_or_sensitive_claim": false
+    },
+    "tiktok": {
+      "platform": "tiktok",
+      "strategy": "Conversation-oriented: the shortest current, complete fact as the spoken/on-screen hook; the caption is only the source headline plus a comment prompt, with no site promotion.",
+      "hook": "Протяжённость эстакады составляет 1060 метров.",
+      "caption": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области\nКак это скажется на ваших рейсах? Напишите в комментариях.",
+      "cta": "Как это скажется на ваших рейсах? Напишите в комментариях.",
+      "cta_type": "non_factual_template",
+      "source_evidence": [
+        {
+          "role": "hook",
+          "statement": "Протяжённость эстакады составляет 1060 метров.",
+          "exact_source_text": "Протяжённость эстакады составляет 1060 метров.",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        },
+        {
+          "role": "caption_headline",
+          "statement": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+          "exact_source_text": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+          "source_url": "https://sdelanounas.ru/blogs/179124/",
+          "supported": true
+        }
+      ],
+      "issues": [],
+      "confidence": "high",
+      "status": "ready_for_owner_review",
+      "approval_status": "pending_owner_approval",
+      "contains_regulatory_or_sensitive_claim": false
+    }
+  },
+  "rewrite_suggestions": [
+    {
+      "origin": "storyboard_overlay",
+      "candidate": "Самая длинная эстакада Урала получает асфальт",
+      "status": "editorial_review_required",
+      "reasons": [
+        "not_an_exact_source_statement"
+      ],
+      "unsupported_numbers": [],
+      "emotive_markers": [],
+      "semantic_issues": [],
+      "token_overlap": 0.333,
+      "source_url": "https://sdelanounas.ru/blogs/179124/",
+      "applied_to_package": false
+    },
+    {
+      "origin": "storyboard_overlay",
+      "candidate": "Протяжённость эстакады составляет 1060 метров.",
+      "status": "validated_extractive",
+      "reasons": [],
+      "unsupported_numbers": [],
+      "emotive_markers": [],
+      "semantic_issues": [],
+      "token_overlap": 1.0,
+      "source_url": "https://sdelanounas.ru/blogs/179124/",
+      "applied_to_package": false
+    },
+    {
+      "origin": "editor_rewrite:tiktok",
+      "candidate": "Невероятно: эстакада длиной 2 километра уже в асфальте!",
+      "status": "editorial_review_required",
+      "reasons": [
+        "unsupported_numbers",
+        "not_an_exact_source_statement",
+        "unverified_emotional_language"
+      ],
+      "unsupported_numbers": [
+        "2"
+      ],
+      "emotive_markers": [
+        "невероятн",
+        "!"
+      ],
+      "semantic_issues": [],
+      "token_overlap": 0.333,
+      "source_url": "https://sdelanounas.ru/blogs/179124/",
+      "applied_to_package": false,
+      "platform": "tiktok"
+    },
+    {
+      "origin": "editor_rewrite:instagram",
+      "candidate": "Сооружение включает 27 пролётов, а максимальная высота опор достигает 36,8 метра.",
+      "status": "validated_extractive",
+      "reasons": [],
+      "unsupported_numbers": [],
+      "emotive_markers": [],
+      "semantic_issues": [],
+      "token_overlap": 1.0,
+      "source_url": "https://sdelanounas.ru/blogs/179124/",
+      "applied_to_package": false,
+      "platform": "instagram"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "truncated_source_text_excluded",
+      "excluded": [
+        "Стоимость величественного сооружения в 2..."
+      ],
+      "detail": "Excerpt tails ending in an ellipsis are not used as evidence."
+    }
+  ]
+}
