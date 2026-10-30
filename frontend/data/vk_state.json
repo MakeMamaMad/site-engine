@@ -1964,6 +1964,27 @@
       "sent_at": "2026-10-30T07:11:00+00:00",
       "title": "Как перевозчику снижать стоимость эксплуатации грузового парка за счёт собственного сервиса?",
       "slug": "kak-perevozchiku-snizhat-stoimost-ekspluatatsii-gruzovogo-parka-za-schet-9703470b"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/infinity-marks-10th-anniversary-with-investment-in-24-krone-box-liners/": {
+      "digest_id": "2026-10-30:pm",
+      "post_id": 196,
+      "sent_at": "2026-10-30T13:26:50+00:00",
+      "title": "Infinity отмечает 10-летие с инвестициями в 24 KRONE Box Liners",
+      "slug": "infinity-otmechaet-10-letie-s-investitsiyami-v-24-krone-box-liners-f3740c77"
+    },
+    "https://www.globaltrailermag.com/scan-global-logistics-targets-us-expansion/": {
+      "digest_id": "2026-10-30:pm",
+      "post_id": 196,
+      "sent_at": "2026-10-30T13:26:50+00:00",
+      "title": "Scan Global Logistics нацелена на расширение США",
+      "slug": "scan-global-logistics-natselena-na-rasshirenie-ssha-dba1d394"
+    },
+    "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html": {
+      "digest_id": "2026-10-30:pm",
+      "post_id": 196,
+      "sent_at": "2026-10-30T13:26:50+00:00",
+      "title": "Льготное автокредитование возобновится с 1 декабря",
+      "slug": "lgotnoe-avtokreditovanie-vozobnovitsya-s-1-dekabrya-891d3faa"
     }
   },
   "digests": {
@@ -2544,6 +2565,17 @@
         "https://truckmix.ru/news/projack-podyomnoe-oborydovanie-dlya-skladov-i-proizvodstv",
         "https://sdelanounas.ru/blogs/179118/",
         "http://gruzovoy.ru/news/industry/3420_kak_perevozchiky_snijat_stoimost_eksplyatacii_gryzovogo_parka_za_schyot_sobstvennogo_servisa.html"
+      ]
+    },
+    "2026-10-30:pm": {
+      "post_id": 196,
+      "sent_at": "2026-10-30T13:26:50+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.krone-trailer.com/en/news/detail-1/infinity-marks-10th-anniversary-with-investment-in-24-krone-box-liners/",
+        "https://www.globaltrailermag.com/scan-global-logistics-targets-us-expansion/",
+        "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html"
       ]
     }
   }
