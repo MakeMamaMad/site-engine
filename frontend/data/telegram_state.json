@@ -2159,20 +2159,30 @@
       "sent_at": "2026-10-30T07:10:50+00:00",
       "title": "От «Газели» до грузового вагона: в Иркутске выпускают гидроскобы с усилием до 40 тонн",
       "slug": "ot-gazeli-do-gruzovogo-vagona-v-irkutske-vypuskayut-gidroskoby-s-usiliem-c743a2f6"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/infinity-marks-10th-anniversary-with-investment-in-24-krone-box-liners/": {
+      "digest_id": "2026-10-30:pm",
+      "message_id": 1694,
+      "sent_at": "2026-10-30T13:15:36+00:00",
+      "title": "Infinity отмечает 10-летие с инвестициями в 24 KRONE Box Liners",
+      "slug": "infinity-otmechaet-10-letie-s-investitsiyami-v-24-krone-box-liners-f3740c77"
+    },
+    "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html": {
+      "digest_id": "2026-10-30:pm",
+      "message_id": 1694,
+      "sent_at": "2026-10-30T13:15:36+00:00",
+      "title": "Льготное автокредитование возобновится с 1 декабря",
+      "slug": "lgotnoe-avtokreditovanie-vozobnovitsya-s-1-dekabrya-891d3faa"
+    },
+    "https://sdelanounas.ru/blogs/179118/": {
+      "digest_id": "2026-10-30:pm",
+      "message_id": 1694,
+      "sent_at": "2026-10-30T13:15:36+00:00",
+      "title": "После роста производительности РОКВУЛ масштабировал беспилотные перевозки на три предприятия",
+      "slug": "posle-rosta-proizvoditelnosti-rokvul-masshtabiroval-bespilotnye-perevozk-b42c5f58"
     }
   },
   "digests": {
-    "2026-10-10:am": {
-      "message_id": 1577,
-      "sent_at": "2026-10-10T09:44:34+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/178719/",
-        "http://gruzovoy.ru/news/industry/3393_v_byryatii_nachali_sborky_tyajelih_gryzovikov_novoi_marki.html",
-        "https://sdelanounas.ru/blogs/178720/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-10:pm": {
       "message_id": 1578,
       "sent_at": "2026-10-10T12:48:42+00:00",
@@ -2489,6 +2499,17 @@
         "http://gruzovoy.ru/news/industry/3420_kak_perevozchiky_snijat_stoimost_eksplyatacii_gryzovogo_parka_za_schyot_sobstvennogo_servisa.html",
         "http://gruzovoy.ru/news/industry/3416_spros_padaet_no_gryzoperevozki_dorojaut.html",
         "https://sdelanounas.ru/blogs/179005/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-30:pm": {
+      "message_id": 1694,
+      "sent_at": "2026-10-30T13:15:36+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.krone-trailer.com/en/news/detail-1/infinity-marks-10th-anniversary-with-investment-in-24-krone-box-liners/",
+        "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html",
+        "https://sdelanounas.ru/blogs/179118/"
       ],
       "visual": "visual"
     }
