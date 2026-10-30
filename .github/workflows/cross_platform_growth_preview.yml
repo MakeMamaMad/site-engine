@@ -11,6 +11,10 @@ on:
       - "tools/autoposter/src/crossplatform/**"
       - "tools/autoposter/scripts/cross_platform_preview.py"
       - "tools/autoposter/tests/test_cross_platform_growth.py"
+      - "tools/autoposter/tests/test_metricool_daily.py"
+      - "tools/autoposter/tests/test_metricool_posts.py"
+      - "tools/autoposter/tests/test_publication_receipts.py"
+      - "tools/autoposter/tests/test_manifest_history.py"
       - "tools/autoposter/tests/fixtures/cross_platform/**"
       - "tools/autoposter/CROSS_PLATFORM_GROWTH.md"
       - ".github/workflows/cross_platform_growth_preview.yml"
@@ -62,6 +66,10 @@ jobs:
 
       - name: Deterministic tests
         run: python -m unittest -v tools.autoposter.tests.test_cross_platform_growth
+
+      - name: Metricool and manifest/receipt regression tests
+        run: |
+          python -m unittest -v tools.autoposter.tests.test_metricool_daily tools.autoposter.tests.test_metricool_posts tools.autoposter.tests.test_publication_receipts tools.autoposter.tests.test_manifest_history
 
       - name: Existing Growth Intelligence tests (shared validator)
         run: python -m unittest tools.autoposter.tests.test_growth_intelligence

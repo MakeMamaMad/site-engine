@@ -395,6 +395,11 @@ def write_outputs(board, manifest: dict[str, Any]) -> None:
         json.dumps(manifest, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    try:
+        from .render.manifest_history import archive_render_manifest
+        archive_render_manifest(manifest, OUT_DIR / "manifest_history")
+    except (OSError, ValueError) as exc:
+        print(f"[manifest_history] archive warning (render retained): {exc}")
     if growth_active:
         (OUT_DIR / "growth_report.json").write_text(
             json.dumps(report, ensure_ascii=False, indent=2),
