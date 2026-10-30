@@ -1,0 +1,108 @@
+{
+  "schema": 1,
+  "module": "ig-story-adaptation",
+  "status": "ready_for_editorial_review",
+  "advisory_only": true,
+  "publishing_invoked": false,
+  "messages_sent": false,
+  "source": {
+    "title": "BPW фокусирует данные о пробеге прицепа",
+    "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+    "source_name": "СпецАвтоПортал",
+    "published_at": "2026-10-28T20:53:54+00:00",
+    "data_classification": "repository_owned_article_snapshot"
+  },
+  "editorial_goal": "website_visit",
+  "audience_question": "",
+  "frames": [
+    {
+      "number": 1,
+      "role": "hook",
+      "headline": "ГЛАВНОЕ",
+      "body": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами.",
+      "evidence": [
+        {
+          "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+          "exact_text": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами."
+        }
+      ],
+      "factual_validation": {
+        "supported": true,
+        "exact_source_sentence": true,
+        "token_overlap": 1.0,
+        "unsupported_numbers": []
+      },
+      "counter": "1/4",
+      "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+      "alt_text": "Кадр 1 из 4 Stories СпецАвтоПортала. Заголовок: ГЛАВНОЕ. Текст: BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами."
+    },
+    {
+      "number": 2,
+      "role": "middle",
+      "headline": "КАК ЭТО РАБОТАЕТ",
+      "body": "Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача.",
+      "evidence": [
+        {
+          "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+          "exact_text": "Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача."
+        }
+      ],
+      "factual_validation": {
+        "supported": true,
+        "exact_source_sentence": true,
+        "token_overlap": 1.0,
+        "unsupported_numbers": []
+      },
+      "counter": "2/4",
+      "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+      "alt_text": "Кадр 2 из 4 Stories СпецАвтоПортала. Заголовок: КАК ЭТО РАБОТАЕТ. Текст: Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача."
+    },
+    {
+      "number": 3,
+      "role": "close",
+      "headline": "ЧТО УЧЕСТЬ",
+      "body": "Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели.",
+      "evidence": [
+        {
+          "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+          "exact_text": "Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели."
+        }
+      ],
+      "factual_validation": {
+        "supported": true,
+        "exact_source_sentence": true,
+        "token_overlap": 1.0,
+        "unsupported_numbers": []
+      },
+      "counter": "3/4",
+      "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+      "alt_text": "Кадр 3 из 4 Stories СпецАвтоПортала. Заголовок: ЧТО УЧЕСТЬ. Текст: Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели."
+    },
+    {
+      "number": 4,
+      "role": "interaction",
+      "headline": "ЧИТАТЬ ПОЛНЫЙ МАТЕРИАЛ",
+      "body": "Откройте статью СпецАвтоПортала по ссылке.",
+      "evidence": [],
+      "manual_sticker_instruction": {
+        "sticker": "link",
+        "placement": "Добавить вручную в Instagram по центру ниже основного текста, внутри зоны y=1100–1450.",
+        "destination": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+        "static_preview_notice": "Стикер не изображён на PNG и не является функциональным элементом превью."
+      },
+      "counter": "4/4",
+      "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+      "alt_text": "Кадр 4 из 4 Stories СпецАвтоПортала. Заголовок: ЧИТАТЬ ПОЛНЫЙ МАТЕРИАЛ. Текст: Откройте статью СпецАвтоПортала по ссылке."
+    }
+  ],
+  "attribution_manifest": {
+    "canonical_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+    "original_source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+    "source_name": "СпецАвтоПортал",
+    "data_classification": "repository_owned_article_snapshot",
+    "approved_images_used": [],
+    "visual_method": "brand graphics only; no generated or fabricated vehicle photography"
+  },
+  "warnings": [],
+  "approval_required": true
+}

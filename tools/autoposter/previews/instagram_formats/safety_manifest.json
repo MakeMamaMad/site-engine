@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "advisory_only": true,
+  "publishing_invoked": false,
+  "profile_modified": false,
+  "messages_sent": false,
+  "scheduling_effect": "none",
+  "production_state_changed": false
+}

@@ -2,7 +2,7 @@ name: Checks — Full QA
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ main, feat/instagram-growth-intelligence-modules ]
   push:
     branches: [ redesign-v1, main ]
   workflow_dispatch:
@@ -608,5 +608,89 @@ jobs:
         with:
           name: growth-intelligence-synthetic-demo-${{ github.run_id }}
           path: /tmp/growth-intelligence-preview/
+          if-no-files-found: error
+          retention-days: 14
+
+  instagram-formats-preview:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      INSTAGRAM_FORMATS_ENABLED: "0"
+      GROWTH_AGENT_ENABLED: "0"
+      GROWTH_INTELLIGENCE_ENABLED: "0"
+      AI_SCRIPT: "0"
+      AI_IMAGES: "0"
+      OPENAI_TTS: "0"
+      ALLOW_PAID_TTS: "0"
+      V2_MARK_USED: "0"
+      PREVIEW_DIR: /tmp/instagram-formats-preview
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect Instagram format changes
+        id: changes
+        shell: bash
+        run: |
+          if git diff --name-only "${{ github.event.pull_request.base.sha }}...HEAD" | grep -Eq '^tools/autoposter/(src/formats/|scripts/instagram_formats_preview.py|tests/test_instagram_formats.py|tests/fixtures/instagram_formats/|INSTAGRAM_FORMATS.md)'; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Setup Python
+        if: steps.changes.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install autoposter dependencies
+        if: steps.changes.outputs.run == 'true'
+        run: pip install -r tools/autoposter/requirements.txt
+
+      - name: Run profile, factual, rendering and safety tests
+        if: steps.changes.outputs.run == 'true'
+        run: python -m unittest tools.autoposter.tests.test_instagram_formats
+
+      - name: Generate isolated review previews
+        if: steps.changes.outputs.run == 'true'
+        run: python tools/autoposter/scripts/instagram_formats_preview.py --output "$PREVIEW_DIR"
+
+      - name: Verify dimensions, grounding and zero production effects
+        if: steps.changes.outputs.run == 'true'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+
+          root = Path("/tmp/instagram-formats-preview")
+          slides = sorted((root / "carousel/slides").glob("*.png"))
+          frames = sorted((root / "stories/frames").glob("*.png"))
+          assert 6 <= len(slides) <= 10
+          assert 3 <= len(frames) <= 7
+          assert all(Image.open(path).size == (1080, 1350) for path in slides)
+          assert all(Image.open(path).size == (1080, 1920) for path in frames)
+          factual = json.loads((root / "factual_qa.json").read_text("utf-8"))
+          safety = json.loads((root / "safety_manifest.json").read_text("utf-8"))
+          profile = json.loads((root / "profile_audit.json").read_text("utf-8"))
+          assert factual["all_evidence_supported"] is True
+          assert "synthetic" in profile["data_classification"]
+          assert safety["publishing_invoked"] is False
+          assert safety["profile_modified"] is False
+          assert safety["messages_sent"] is False
+          assert safety["scheduling_effect"] == "none"
+          assert safety["production_state_changed"] is False
+          PY
+
+      - name: Upload review bundle
+        if: always() && steps.changes.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: instagram-profile-carousel-stories-${{ github.run_id }}
+          path: /tmp/instagram-formats-preview/
           if-no-files-found: error
           retention-days: 14
