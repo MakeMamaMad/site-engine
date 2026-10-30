@@ -1935,6 +1935,27 @@
       "sent_at": "2026-10-29T13:37:59+00:00",
       "title": "В «Алабуге» начался серийный выпуск турбомоторов 1,5 л для Sollers SF1",
       "slug": "v-alabuge-nachalsya-seriynyy-vypusk-turbomotorov-1-5-l-dlya-sollers-sf1-0ebd6c23"
+    },
+    "https://truckmix.ru/news/projack-podyomnoe-oborydovanie-dlya-skladov-i-proizvodstv": {
+      "digest_id": "2026-10-30:am",
+      "post_id": 194,
+      "sent_at": "2026-10-30T07:11:00+00:00",
+      "title": "ProJack подъёмное оборудование для складов и производств",
+      "slug": "projack-podemnoe-oborudovanie-dlya-skladov-i-proizvodstv-677fd881"
+    },
+    "https://sdelanounas.ru/blogs/179118/": {
+      "digest_id": "2026-10-30:am",
+      "post_id": 194,
+      "sent_at": "2026-10-30T07:11:00+00:00",
+      "title": "После роста производительности РОКВУЛ масштабировал беспилотные перевозки на три предприятия",
+      "slug": "posle-rosta-proizvoditelnosti-rokvul-masshtabiroval-bespilotnye-perevozk-b42c5f58"
+    },
+    "http://gruzovoy.ru/news/industry/3420_kak_perevozchiky_snijat_stoimost_eksplyatacii_gryzovogo_parka_za_schyot_sobstvennogo_servisa.html": {
+      "digest_id": "2026-10-30:am",
+      "post_id": 194,
+      "sent_at": "2026-10-30T07:11:00+00:00",
+      "title": "Как перевозчику снижать стоимость эксплуатации грузового парка за счёт собственного сервиса?",
+      "slug": "kak-perevozchiku-snizhat-stoimost-ekspluatatsii-gruzovogo-parka-za-schet-9703470b"
     }
   },
   "digests": {
@@ -2504,6 +2525,17 @@
         "https://www.globaltrailermag.com/eu-defers-efficient-trailer-toll-scheme/",
         "http://gruzovoy.ru/news/industry/3407_kak_organizaciya_servisa_vliyaet_na_prostoi_gryzovikov_opit_trakholding.html",
         "http://gruzovoy.ru/news/industry/3419_v_alabyge_nachali_seriino_vipyskat_tyrbomotor_15_l_dlya_sollers_sf1.html"
+      ]
+    },
+    "2026-10-30:am": {
+      "post_id": 194,
+      "sent_at": "2026-10-30T07:11:00+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://truckmix.ru/news/projack-podyomnoe-oborydovanie-dlya-skladov-i-proizvodstv",
+        "https://sdelanounas.ru/blogs/179118/",
+        "http://gruzovoy.ru/news/industry/3420_kak_perevozchiky_snijat_stoimost_eksplyatacii_gryzovogo_parka_za_schyot_sobstvennogo_servisa.html"
       ]
     }
   }
