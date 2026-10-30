@@ -2068,6 +2068,36 @@
         }
       },
       "updated_at": "2026-10-30T08:20:50.067305+00:00"
+    },
+    "32ea59355a9d": {
+      "title": "SAT545 покажут на выставке в Минске",
+      "created_at": "2026-10-30T16:16:23.942323+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "DMNubsZ4h1E",
+          "url": "https://www.youtube.com/shorts/DMNubsZ4h1E",
+          "updated_at": "2026-10-30T16:16:23.942342+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae4c2d9a351214acf97bac9",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-30T16:18:13.367229+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae4c346a351214acf97dc82",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-30T16:19:16.089569+00:00"
+        }
+      },
+      "updated_at": "2026-10-30T16:19:16.089566+00:00"
     }
   }
 }
