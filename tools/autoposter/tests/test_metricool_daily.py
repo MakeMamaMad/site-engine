@@ -33,7 +33,7 @@ class MetricoolDailyTests(unittest.TestCase):
         self.assertIn("no_rows_returned_not_equivalent_to_zero", data["warnings"])
 
     def test_bad_and_duplicate_days_rejected(self):
-        for rows in ([[["12", None, "20260230"]]], [["1", None, "20261030"], ["2", None, "20261030"]]]):
+        for rows in ([["12", None, "20260230"]], [["1", None, "20261030"], ["2", None, "20261030"]]):
             with self.assertRaises(ValueError):
                 ingest("tiktok", rows)
 
