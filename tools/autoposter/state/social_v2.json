@@ -2038,6 +2038,36 @@
         }
       },
       "updated_at": "2026-10-29T16:29:12.800031+00:00"
+    },
+    "9a9a8cf098ba": {
+      "title": "«Политранс» запустил новую линейку полуприцепов",
+      "created_at": "2026-10-30T08:18:05.570628+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "NUSBWwZ2Auc",
+          "url": "https://www.youtube.com/shorts/NUSBWwZ2Auc",
+          "updated_at": "2026-10-30T08:18:05.570677+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae452bec2427e8527c4381f",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-30T08:19:53.243402+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae4532afce1c9356fd005c0",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-30T08:20:50.067309+00:00"
+        }
+      },
+      "updated_at": "2026-10-30T08:20:50.067305+00:00"
     }
   }
 }

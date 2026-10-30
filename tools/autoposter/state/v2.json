@@ -67,7 +67,8 @@
     "fab7eca12f5f",
     "testdrive:sat545#1",
     "guide:vynesennaya-os",
-    "testdrive:queue#1"
+    "testdrive:queue#1",
+    "9a9a8cf098ba"
   ],
   "renders": [
     {
@@ -537,6 +538,13 @@
       "slug": "",
       "title": "Электронная очередь на тест-драйв SAT",
       "created_at": "2026-10-29T16:29:12.801817+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "9a9a8cf098ba",
+      "slug": "politrans-zapustil-novuyu-lineyku-polupritsepov-dlya-raboty-v-ekstremaln-9a9a8cf0",
+      "title": "«Политранс» запустил новую линейку полуприцепов",
+      "created_at": "2026-10-30T08:20:50.070225+00:00",
       "format": "social-v2"
     }
   ]
