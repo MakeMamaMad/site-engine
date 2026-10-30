@@ -6,7 +6,8 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from types import ModuleType
+from unittest.mock import Mock, patch
 
 
 AUTPOSTER_ROOT = Path(__file__).resolve().parents[1]
@@ -22,7 +23,7 @@ from src.intelligence.repurpose import (  # noqa: E402
     validate_supported_statement,
 )
 from src.intelligence.viral import analyze_viral_patterns, load_viral_rows  # noqa: E402
-from src.publish import social_v2  # noqa: E402
+import src.publish as publish_package  # noqa: E402
 
 
 FIXTURES = AUTPOSTER_ROOT / "tests" / "fixtures" / "growth_intelligence"
@@ -295,11 +296,15 @@ class RecommendationPipelineTests(unittest.TestCase):
 
     def test_pipeline_never_calls_existing_publishers(self) -> None:
         viral_rows, source, audit_rows = _fixture_data()
-        with patch.object(social_v2, "publish_all") as publish:
+        publisher = ModuleType("src.publish.social_v2")
+        publisher.publish_all = Mock()  # type: ignore[attr-defined]
+        with patch.object(publish_package, "social_v2", publisher, create=True), patch.dict(
+            sys.modules, {"src.publish.social_v2": publisher}
+        ):
             report = build_recommendation_pipeline(
                 viral_rows=viral_rows, source=source, audit_rows=audit_rows, enabled=True
             )
-        publish.assert_not_called()
+        publisher.publish_all.assert_not_called()  # type: ignore[attr-defined]
         self.assertFalse(report["publishing_invoked"])
 
 
