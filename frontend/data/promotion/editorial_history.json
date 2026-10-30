@@ -80,7 +80,7 @@
       "status": "verified_in_author_cabinet",
       "result_url": "https://truckmix.ru/publication/update/30594",
       "submitted_at": "2026-09-28T08:21:08+00:00",
-      "last_public_check_at": "2026-10-29T09:25:46+00:00",
+      "last_public_check_at": "2026-10-29T15:35:08+00:00",
       "public_status": "pending"
     },
     {
@@ -108,7 +108,7 @@
       "submitted_at": "2026-09-28T10:54:59+00:00",
       "status": "submitted",
       "location": "Казань",
-      "last_public_check_at": "2026-10-29T09:25:54+00:00",
+      "last_public_check_at": "2026-10-29T15:35:20+00:00",
       "public_status": "pending_moderation"
     },
     {
@@ -269,7 +269,7 @@
       "result_url": "https://truckmix.ru/publication/update/30605",
       "submitted_at": "2026-10-05T14:29:31+00:00",
       "status": "verified_in_author_cabinet",
-      "last_public_check_at": "2026-10-29T09:25:46+00:00",
+      "last_public_check_at": "2026-10-29T15:35:08+00:00",
       "public_status": "pending"
     },
     {
@@ -436,7 +436,7 @@
       "result_url": "https://truckmix.ru/publication/update/30627",
       "submitted_at": "2026-10-12T19:13:49+00:00",
       "status": "verified_in_author_cabinet",
-      "last_public_check_at": "2026-10-29T09:25:46+00:00",
+      "last_public_check_at": "2026-10-29T15:35:08+00:00",
       "public_status": "pending"
     },
     {
@@ -563,7 +563,7 @@
       "result_url": "https://truckmix.ru/publication/update/30637",
       "submitted_at": "2026-10-20T11:57:13+00:00",
       "status": "verified_in_author_cabinet",
-      "last_public_check_at": "2026-10-29T09:25:46+00:00",
+      "last_public_check_at": "2026-10-29T15:35:08+00:00",
       "public_status": "pending"
     },
     {
@@ -599,7 +599,7 @@
       "result_url": "https://truckmix.ru/publication/update/30644",
       "submitted_at": "2026-10-27T12:33:02+00:00",
       "status": "verified_in_author_cabinet",
-      "last_public_check_at": "2026-10-29T09:25:46+00:00",
+      "last_public_check_at": "2026-10-29T15:35:08+00:00",
       "public_status": "pending"
     },
     {
@@ -614,6 +614,28 @@
       "status": "email_sent",
       "sent_at": "2026-10-28T12:41:29+00:00",
       "gmail_message_id": "1a18287a1164af8b"
+    },
+    {
+      "target_id": "mexzona",
+      "target_name": "MEXZONA.RU",
+      "slug": "karta-voditelya-dlya-tahografa",
+      "title": "Карта водителя для тахографа в 2026 году: какая нужна, где получить, что будет без неё",
+      "site_url": "https://spec-avtoportal.ru/knowledge/karta-voditelya-dlya-tahografa/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=karta-voditelya-dlya-tahografa",
+      "created_at": "2026-10-29T16:19:48+00:00",
+      "status": "manual_fallback"
+    },
+    {
+      "target_id": "autotransport-editorial",
+      "target_name": "Журнал «Автомобильный транспорт»",
+      "slug": "kreplenie-gruzov",
+      "title": "Крепление грузов в полуприцепе: практический чек-лист",
+      "site_url": "https://spec-avtoportal.ru/knowledge/kreplenie-gruzov/?utm_source=autotransport-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kreplenie-gruzov",
+      "contact": "at@transport-at.ru",
+      "item_key": "knowledge:kreplenie-gruzov",
+      "created_at": "2026-10-29T16:19:49+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-10-29T16:19:50+00:00",
+      "gmail_message_id": "1a18875e5f49bc75"
     }
   ]
 }
