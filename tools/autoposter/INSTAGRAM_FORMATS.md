@@ -49,6 +49,17 @@ images are accepted explicitly and rendered beneath a readability overlay.
 Unconfirmed or unavailable files are rejected. The current demonstration
 deliberately uses brand graphics only and fabricates no vehicle photographs.
 
+Concise visible copy is never produced by cutting a sentence at a word count.
+Each headline, body and recap line must match an explicit editorial mapping to
+an exact original-source excerpt and reviewed Russian translation. Missing
+mappings return `editorial_review_required`; changed numbers, qualifications or
+technical terms fail validation.
+
+For the BPW demonstration, the original article and BPW's official product
+materials identify the component as `hub cap` (German `Radkapsel`). The review
+manifest therefore uses the established Russian parts term `крышка ступицы`,
+retains `hub cap` beside it, and rejects `колпачок концентратора прицепа`.
+
 ## Stories
 
 `src/formats/story.py` uses the same evidence boundary and produces 3–7

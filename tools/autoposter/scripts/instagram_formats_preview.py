@@ -17,6 +17,7 @@ from src.intelligence.common import read_json, write_json  # noqa: E402
 
 
 PROFILE_FIXTURE = AUTPOSTER_ROOT / "tests" / "fixtures" / "instagram_formats" / "profile_fixture.json"
+EDITORIAL_EVIDENCE = AUTPOSTER_ROOT / "tests" / "fixtures" / "instagram_formats" / "bpw_editorial_evidence.json"
 ARTICLE_SNAPSHOT = AUTPOSTER_ROOT / "previews" / "growth_agent_v1" / "technical_practical" / "source_item.json"
 
 
@@ -54,10 +55,34 @@ def _write_text(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
-def generate(profile_path: Path, article_path: Path, output: Path) -> dict[str, Any]:
+def _before_after(carousel: dict[str, Any], stories: dict[str, Any]) -> str:
+    lines = [
+        "# Editorial copy comparison",
+        "",
+        "## Carousel",
+        "",
+        "Before: generic headings such as `ПОЧЕМУ ЭТО ВАЖНО`, `КЛЮЧЕВОЙ ФАКТ` and full source sentences used as body copy.",
+        "",
+        "After:",
+        "",
+    ]
+    lines.extend(f"- **{row['headline']}** — {row['body']}" for row in carousel["slides"])
+    lines += [
+        "", "## Stories", "",
+        "Before: the same source paragraphs and generic labels were reused from the carousel.",
+        "", "After: conversational, independently mapped Story copy:", "",
+    ]
+    lines.extend(f"- **{row['headline']}** — {row['body']}" for row in stories["frames"])
+    lines += ["", "Every shortened factual line is tied to an explicit reviewed mapping and original-source evidence.", ""]
+    return "\n".join(lines)
+
+
+def generate(profile_path: Path, article_path: Path, evidence_path: Path, output: Path) -> dict[str, Any]:
     profile = read_json(profile_path)
     source = read_json(article_path)
+    editorial_evidence = read_json(evidence_path)
     source["data_classification"] = "repository_owned_article_snapshot"
+    source["editorial_evidence"] = editorial_evidence
     report = build_formats_preview(profile=profile, source=source, output_dir=output, enabled=True)
     profile_report = report["profile"]
     carousel = report["carousel"]["package"]
@@ -76,13 +101,14 @@ def generate(profile_path: Path, article_path: Path, output: Path) -> dict[str, 
     factual_checks = []
     for container, items in (("carousel", carousel["slides"]), ("stories", stories["frames"])):
         for item in items:
-            if item.get("evidence"):
+            for evidence in item.get("evidence") or []:
                 factual_checks.append({
                     "format": container,
                     "number": item["number"],
                     "supported": item["factual_validation"]["supported"],
-                    "source_url": item["evidence"][0]["source_url"],
-                    "exact_text": item["evidence"][0]["exact_text"],
+                    "source_url": evidence["source_url"],
+                    "original_text": evidence["original_text"],
+                    "russian_translation": evidence["russian_translation"],
                 })
     write_json(output / "factual_qa.json", {
         "source_classification": source["data_classification"],
@@ -93,6 +119,8 @@ def generate(profile_path: Path, article_path: Path, output: Path) -> dict[str, 
         "manufacturer_model_rewrites_allowed": False,
         "unsupported_facts_added": False,
     })
+    write_json(output / "source_evidence.json", editorial_evidence)
+    _write_text(output / "before_after_copy.md", _before_after(carousel, stories))
     write_json(output / "safety_manifest.json", {
         key: report[key] for key in (
             "enabled", "advisory_only", "publishing_invoked", "profile_modified",
@@ -102,7 +130,8 @@ def generate(profile_path: Path, article_path: Path, output: Path) -> dict[str, 
     _write_text(output / "README.md", (
         "# Instagram formats demonstration\n\n"
         "The profile is an explicitly synthetic fixture. Carousel and Stories copy is extracted from the existing repository-owned BPW article snapshot. "
-        "No external image is used: the previews contain only SpecAvtoPortal brand graphics, exact source-grounded text, and attribution. "
+        "Concise visible copy uses explicit reviewed mappings to original-source evidence; hub cap is retained in the terminology manifest and rendered as крышка ступицы. "
+        "No external image is used: the previews contain only SpecAvtoPortal brand graphics, source-grounded text, and attribution. "
         "The link sticker is a manual placement instruction and is not visually simulated as functional. Nothing was published or changed in production.\n"
     ))
     return report
@@ -112,9 +141,10 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--profile", type=Path, default=PROFILE_FIXTURE)
     parser.add_argument("--article", type=Path, default=ARTICLE_SNAPSHOT)
+    parser.add_argument("--evidence", type=Path, default=EDITORIAL_EVIDENCE)
     parser.add_argument("--output", type=Path, default=AUTPOSTER_ROOT / "previews" / "instagram_formats")
     args = parser.parse_args()
-    generate(args.profile, args.article, args.output)
+    generate(args.profile, args.article, args.evidence, args.output)
     print(f"Instagram format previews written to {args.output}")
     return 0
 

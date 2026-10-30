@@ -15,7 +15,7 @@ AUTPOSTER_ROOT = Path(__file__).resolve().parents[1]
 if str(AUTPOSTER_ROOT) not in sys.path:
     sys.path.insert(0, str(AUTPOSTER_ROOT))
 
-from src.formats.carousel import build_carousel, render_carousel, validate_slide_grounding  # noqa: E402
+from src.formats.carousel import build_carousel, render_carousel, validate_editorial_rewrite, validate_slide_grounding  # noqa: E402
 from src.formats.pipeline import build_formats_preview, is_enabled  # noqa: E402
 from src.formats.profile import BIO_LIMIT, NAME_LIMIT, audit_profile  # noqa: E402
 from src.formats.story import build_story_sequence, render_story_sequence  # noqa: E402
@@ -23,7 +23,6 @@ from src.intelligence.common import read_json  # noqa: E402
 
 
 FORMAT_FIXTURES = AUTPOSTER_ROOT / "tests" / "fixtures" / "instagram_formats"
-INTELLIGENCE_FIXTURES = AUTPOSTER_ROOT / "tests" / "fixtures" / "growth_intelligence"
 
 
 def profile_fixture() -> dict:
@@ -31,7 +30,9 @@ def profile_fixture() -> dict:
 
 
 def article_fixture() -> dict:
-    return read_json(INTELLIGENCE_FIXTURES / "transport_article.json")
+    source = read_json(AUTPOSTER_ROOT / "previews" / "growth_agent_v1" / "technical_practical" / "source_item.json")
+    source["editorial_evidence"] = read_json(FORMAT_FIXTURES / "bpw_editorial_evidence.json")
+    return source
 
 
 class ProfileAuditTests(unittest.TestCase):
@@ -69,12 +70,41 @@ class CarouselTests(unittest.TestCase):
             self.assertEqual(slide["source_url"], package["source"]["source_url"])
             if slide.get("evidence"):
                 self.assertTrue(slide["factual_validation"]["supported"])
-                self.assertEqual(slide["body"], slide["evidence"][0]["exact_text"])
+                self.assertTrue(slide["evidence"][0]["original_text"])
+        generic = {"КЛЮЧЕВОЙ ФАКТ", "ПОЧЕМУ ЭТО ВАЖНО", "ГЛАВНОЕ", "ДЕТАЛЬ"}
+        self.assertFalse(generic & {row["headline"] for row in package["slides"]})
+        self.assertTrue(all(len(row["body"].split()) <= 14 for row in package["slides"] if row["role"] not in {"recap", "cta"}))
 
     def test_incorrect_manufacturer_model_and_numbers_are_rejected(self) -> None:
         source_text = "Компания представила Foton R 6x2. Машина относится к категории N3. Модель показали на выставке."
         self.assertTrue(validate_slide_grounding("Компания представила Foton R 6x2.", source_text))
         self.assertFalse(validate_slide_grounding("Компания представила Foton S 8x4.", source_text))
+
+    def test_misleading_mechanical_terminology_is_rejected(self) -> None:
+        evidence = article_fixture()["editorial_evidence"]
+        item = next(row for row in evidence["items"] if row["id"] == "hub_cap")
+        validation = validate_editorial_rewrite("ECO Meter встроен в колпачок концентратора прицепа.", item, "carousel_body")
+        self.assertFalse(validation["supported"])
+        self.assertIn("колпачок концентратора", validation["misleading_technical_terms"])
+
+    def test_rewritten_technical_number_or_claim_must_match_reviewed_mapping(self) -> None:
+        evidence = article_fixture()["editorial_evidence"]
+        item = next(row for row in evidence["items"] if row["id"] == "capacity")
+        altered = validate_editorial_rewrite("Для распространённых размеров шин — до 20 тонн.", item, "carousel_body")
+        self.assertFalse(altered["supported"])
+        self.assertIn("20 тонн", altered["unsupported_numbers"])
+        omitted_qualification = validate_editorial_rewrite("Система рассчитана на 12 тонн.", item, "carousel_body")
+        self.assertFalse(omitted_qualification["supported"])
+
+    def test_approved_hub_cap_terminology_is_preserved_in_visible_copy_and_manifest(self) -> None:
+        source = article_fixture()
+        package = build_carousel(source)
+        combined = " ".join(f"{row['headline']} {row['body']}" for row in package["slides"])
+        self.assertIn("крышке ступицы", combined)
+        self.assertNotIn("колпачок концентратора", combined)
+        terminology = package["attribution_manifest"]["terminology_review"]
+        self.assertEqual(terminology["original"], "hub cap")
+        self.assertEqual(terminology["approved_russian"], "крышка ступицы")
 
     def test_thin_source_refuses_padded_carousel(self) -> None:
         package = build_carousel({
@@ -117,6 +147,15 @@ class StoryTests(unittest.TestCase):
         self.assertEqual(instruction["sticker"], "link")
         self.assertIn("вручную", instruction["placement"])
         self.assertIn("не изображён", instruction["static_preview_notice"])
+
+    def test_story_copy_is_conversational_and_distinct_from_carousel(self) -> None:
+        source = article_fixture()
+        stories = build_story_sequence(source)
+        carousel = build_carousel(source)
+        carousel_copy = {row["body"] for row in carousel["slides"]}
+        self.assertTrue(all(row["body"] not in carousel_copy for row in stories["frames"]))
+        self.assertEqual(stories["frames"][0]["headline"], "Тягач сменился. Пробег — нет.")
+        self.assertTrue(all(len(row["body"].split()) <= 13 for row in stories["frames"]))
 
     def test_renderer_outputs_1080_by_1920_inside_safe_zone(self) -> None:
         package = build_story_sequence(article_fixture())

@@ -14,7 +14,7 @@
       "resolution_ok": true,
       "text_overflow": false,
       "safe_margins_ok": true,
-      "minimum_font_size": 46
+      "minimum_font_size": 52
     },
     {
       "file": "frame_02.png",
@@ -25,7 +25,7 @@
       "resolution_ok": true,
       "text_overflow": false,
       "safe_margins_ok": true,
-      "minimum_font_size": 46
+      "minimum_font_size": 52
     },
     {
       "file": "frame_03.png",
@@ -36,7 +36,7 @@
       "resolution_ok": true,
       "text_overflow": false,
       "safe_margins_ok": true,
-      "minimum_font_size": 46
+      "minimum_font_size": 43
     },
     {
       "file": "frame_04.png",
@@ -47,7 +47,7 @@
       "resolution_ok": true,
       "text_overflow": false,
       "safe_margins_ok": true,
-      "minimum_font_size": 46
+      "minimum_font_size": 52
     }
   ],
   "all_resolution_ok": true,

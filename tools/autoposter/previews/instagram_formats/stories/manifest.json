@@ -18,72 +18,197 @@
     {
       "number": 1,
       "role": "hook",
-      "headline": "ГЛАВНОЕ",
-      "body": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами.",
+      "layout": "hook",
+      "headline": "Тягач сменился. Пробег — нет.",
+      "body": "ECO Meter считает пробег самого прицепа.",
       "evidence": [
         {
-          "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
-          "exact_text": "BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами."
+          "source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+          "canonical_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+          "original_text": "The German commercial vehicle systems specialist offers its ECO Meter as a way of recording trailer mileage independently of the tractor unit.",
+          "russian_translation": "ECO Meter записывает пробег прицепа независимо от тягача.",
+          "terminology_reference_url": "https://www.bpw.de/en/products/components-systems/eco-meter"
         }
       ],
       "factual_validation": {
-        "supported": true,
-        "exact_source_sentence": true,
-        "token_overlap": 1.0,
-        "unsupported_numbers": []
+        "headline": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "ECO Meter",
+            "прицеп",
+            "тягач"
+          ],
+          "qualification": ""
+        },
+        "body": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "ECO Meter",
+            "прицеп",
+            "тягач"
+          ],
+          "qualification": ""
+        },
+        "supported": true
       },
       "counter": "1/4",
       "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
-      "alt_text": "Кадр 1 из 4 Stories СпецАвтоПортала. Заголовок: ГЛАВНОЕ. Текст: BPW подчеркивает важность точного пробега прицепа и эксплуатационных данных для технического обслуживания и управления шинами."
+      "alt_text": "Кадр 1 из 4 Stories СпецАвтоПортала. Заголовок: Тягач сменился. Пробег — нет.. Текст: ECO Meter считает пробег самого прицепа."
     },
     {
       "number": 2,
       "role": "middle",
-      "headline": "КАК ЭТО РАБОТАЕТ",
-      "body": "Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача.",
+      "layout": "question",
+      "headline": "Где хранится пробег?",
+      "body": "В ECO Meter, встроенном в крышку ступицы (hub cap).",
       "evidence": [
         {
-          "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
-          "exact_text": "Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача."
+          "source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+          "canonical_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+          "original_text": "Integrated directly into the trailer hub cap, the ECO Meter allows operators to retain a record of actual trailer mileage even when the asset is used with different prime movers.",
+          "russian_translation": "ECO Meter встроен непосредственно в крышку ступицы прицепа и сохраняет фактический пробег при смене тягачей.",
+          "terminology_reference_url": "https://www.bpw.de/en/products/components-systems/eco-meter"
         }
       ],
       "factual_validation": {
-        "supported": true,
-        "exact_source_sentence": true,
-        "token_overlap": 1.0,
-        "unsupported_numbers": []
+        "headline": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "ECO Meter",
+            "крышк",
+            "ступиц",
+            "hub cap"
+          ],
+          "qualification": ""
+        },
+        "body": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "ECO Meter",
+            "крышк",
+            "ступиц",
+            "hub cap"
+          ],
+          "qualification": ""
+        },
+        "supported": true
       },
       "counter": "2/4",
       "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
-      "alt_text": "Кадр 2 из 4 Stories СпецАвтоПортала. Заголовок: КАК ЭТО РАБОТАЕТ. Текст: Немецкий специалист по системам коммерческих автомобилей предлагает свой ECO Meter как способ записи пробега прицепа независимо от тягача."
+      "alt_text": "Кадр 2 из 4 Stories СпецАвтоПортала. Заголовок: Где хранится пробег?. Текст: В ECO Meter, встроенном в крышку ступицы (hub cap)."
     },
     {
       "number": 3,
-      "role": "close",
-      "headline": "ЧТО УЧЕСТЬ",
-      "body": "Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели.",
+      "role": "middle",
+      "layout": "practical",
+      "headline": "Зачем это автопарку?",
+      "body": "Планировать ТО\nПроверять шины\nКонтролировать их пробег",
       "evidence": [
         {
-          "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
-          "exact_text": "Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели."
+          "source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+          "canonical_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+          "original_text": "According to BPW, the information can help operators determine maintenance intervals, conduct tyre checks and monitor tyre mileage.",
+          "russian_translation": "По данным BPW, информация помогает определять интервалы ТО, проверять шины и контролировать их пробег.",
+          "terminology_reference_url": "https://www.bpw.de/en/products/components-systems/eco-meter"
         }
       ],
       "factual_validation": {
-        "supported": true,
-        "exact_source_sentence": true,
-        "token_overlap": 1.0,
-        "unsupported_numbers": []
+        "headline": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "ТО",
+            "шин"
+          ],
+          "qualification": "По данным BPW"
+        },
+        "body": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "ТО",
+            "шин"
+          ],
+          "qualification": "По данным BPW"
+        },
+        "supported": true
       },
       "counter": "3/4",
       "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
-      "alt_text": "Кадр 3 из 4 Stories СпецАвтоПортала. Заголовок: ЧТО УЧЕСТЬ. Текст: Встроенный непосредственно в колпачок концентратора прицепа, ECO Meter позволяет операторам сохранять рекордные показатели."
+      "alt_text": "Кадр 3 из 4 Stories СпецАвтоПортала. Заголовок: Зачем это автопарку?. Текст: Планировать ТО\nПроверять шины\nКонтролировать их пробег"
     },
     {
       "number": 4,
       "role": "interaction",
-      "headline": "ЧИТАТЬ ПОЛНЫЙ МАТЕРИАЛ",
-      "body": "Откройте статью СпецАвтоПортала по ссылке.",
-      "evidence": [],
+      "layout": "action",
+      "headline": "До 12 тонн — проверить версию",
+      "body": "Для распространённых размеров шин в применениях до 12 тонн. Подробнее — в материале.",
+      "evidence": [
+        {
+          "source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+          "canonical_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
+          "original_text": "The company said the system is available for common tyre sizes in applications up to 12 tonnes.",
+          "russian_translation": "BPW указывает, что система доступна для распространённых размеров шин в применениях до 12 тонн.",
+          "terminology_reference_url": "https://www.bpw.de/en/products/components-systems/eco-meter"
+        }
+      ],
+      "factual_validation": {
+        "headline": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "12 тонн",
+            "шин"
+          ],
+          "qualification": "до"
+        },
+        "body": {
+          "supported": true,
+          "validation_mode": "explicit_editorial_mapping",
+          "approved_mapping": true,
+          "original_source_present": true,
+          "unsupported_numbers": [],
+          "misleading_technical_terms": [],
+          "protected_terms": [
+            "12 тонн",
+            "шин"
+          ],
+          "qualification": "до"
+        },
+        "supported": true
+      },
       "manual_sticker_instruction": {
         "sticker": "link",
         "placement": "Добавить вручную в Instagram по центру ниже основного текста, внутри зоны y=1100–1450.",
@@ -92,12 +217,19 @@
       },
       "counter": "4/4",
       "source_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
-      "alt_text": "Кадр 4 из 4 Stories СпецАвтоПортала. Заголовок: ЧИТАТЬ ПОЛНЫЙ МАТЕРИАЛ. Текст: Откройте статью СпецАвтоПортала по ссылке."
+      "alt_text": "Кадр 4 из 4 Stories СпецАвтоПортала. Заголовок: До 12 тонн — проверить версию. Текст: Для распространённых размеров шин в применениях до 12 тонн. Подробнее — в материале."
     }
   ],
   "attribution_manifest": {
     "canonical_url": "https://spec-avtoportal.ru/news/bpw-fokusiruet-dannye-o-probege-pritsepa-67cb7a76/",
     "original_source_url": "https://www.globaltrailermag.com/bpw-puts-trailer-mileage-data-in-focus/",
+    "terminology_reference_url": "https://www.bpw.de/en/products/components-systems/eco-meter",
+    "terminology_review": {
+      "original": "hub cap",
+      "approved_russian": "крышка ступицы",
+      "rejected_russian": "колпачок концентратора прицепа",
+      "review_note": "BPW calls the component hub cap in English and Radkapsel in German. Russian commercial-parts usage supports крышка ступицы; retain hub cap in the evidence manifest."
+    },
     "source_name": "СпецАвтоПортал",
     "data_classification": "repository_owned_article_snapshot",
     "approved_images_used": [],

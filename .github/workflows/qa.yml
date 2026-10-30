@@ -677,7 +677,19 @@ jobs:
           factual = json.loads((root / "factual_qa.json").read_text("utf-8"))
           safety = json.loads((root / "safety_manifest.json").read_text("utf-8"))
           profile = json.loads((root / "profile_audit.json").read_text("utf-8"))
+          carousel = json.loads((root / "carousel/manifest.json").read_text("utf-8"))
+          stories = json.loads((root / "stories/manifest.json").read_text("utf-8"))
+          evidence = json.loads((root / "source_evidence.json").read_text("utf-8"))
           assert factual["all_evidence_supported"] is True
+          generic = {"КЛЮЧЕВОЙ ФАКТ", "ПОЧЕМУ ЭТО ВАЖНО", "ГЛАВНОЕ"}
+          assert not generic.intersection(slide["headline"] for slide in carousel["slides"])
+          assert "колпачок концентратора" not in json.dumps(
+              {"carousel": carousel, "stories": stories}, ensure_ascii=False
+          ).lower()
+          terminology = evidence["terminology"]
+          assert terminology["approved_russian"] == "крышка ступицы"
+          assert terminology["original_term"] == "hub cap"
+          assert (root / "before_after_copy.md").is_file()
           assert "synthetic" in profile["data_classification"]
           assert safety["publishing_invoked"] is False
           assert safety["profile_modified"] is False

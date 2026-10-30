@@ -7,8 +7,8 @@ from typing import Any
 from PIL import Image, ImageDraw
 
 from ..intelligence.common import clean
-from ..intelligence.repurpose import build_repurposing_package, validate_supported_statement
-from .carousel import _source_dict, usable_claims
+from ..intelligence.repurpose import build_repurposing_package
+from .carousel import _evidence, _source_dict, usable_claims, validate_editorial_rewrite
 from .design import INK, ORANGE, WHITE, approved_local_images, contact_sheet, draw_text_block, editorial_background, font, verify_images
 
 
@@ -31,34 +31,40 @@ def build_story_sequence(
             "warnings": [{"code": "thin_source", "detail": "At least three distinct exact source sentences are required for a meaningful Story sequence."}],
             "source": repurpose["source"],
         }
+    editorial = adapted.get("editorial_evidence")
+    if not isinstance(editorial, dict) or len(editorial.get("items") or []) < 4:
+        return {
+            "schema": 1, "module": "ig-story-adaptation", "status": "editorial_review_required",
+            "advisory_only": True, "frames": [], "approval_required": True,
+            "warnings": [{"code": "no_validated_shortening_map", "detail": "Conversational Story copy requires explicit editorial mappings to exact evidence."}],
+            "source": repurpose["source"],
+        }
     images, image_warnings = approved_local_images(approved_images)
-    selected = claims[:4]
+    selected = list(editorial["items"][:4])
     frames: list[dict[str, Any]] = []
-    labels = ("ГЛАВНОЕ", "КАК ЭТО РАБОТАЕТ", "ЧТО УЧЕСТЬ", "ЕЩЁ ОДНА ДЕТАЛЬ")
-    for index, claim in enumerate(selected, 1):
-        role = "hook" if index == 1 else "middle" if index < len(selected) else "close"
+    layouts = ("hook", "question", "practical", "action")
+    for index, item in enumerate(selected, 1):
+        role = "hook" if index == 1 else "interaction" if index == len(selected) else "middle"
+        combined_validation = {
+            "headline": validate_editorial_rewrite(item["story_headline"], item, "story_headline"),
+            "body": validate_editorial_rewrite(item["story_body"], item, "story_body"),
+        }
+        combined_validation["supported"] = combined_validation["headline"]["supported"] and combined_validation["body"]["supported"]
         frames.append({
             "number": index,
             "role": role,
-            "headline": labels[index - 1],
-            "body": claim,
-            "evidence": [{"source_url": adapted["source_url"], "exact_text": claim}],
-            "factual_validation": validate_supported_statement(claim, " ".join(claims)),
+            "layout": layouts[index - 1],
+            "headline": item["story_headline"],
+            "body": item["story_body"],
+            "evidence": [_evidence(item, adapted)],
+            "factual_validation": combined_validation,
         })
-    interaction = {
-        "number": len(frames),
-        "role": "interaction",
-        "headline": "ЧИТАТЬ ПОЛНЫЙ МАТЕРИАЛ",
-        "body": "Откройте статью СпецАвтоПортала по ссылке.",
-        "evidence": [],
-        "manual_sticker_instruction": {
-            "sticker": "link",
-            "placement": "Добавить вручную в Instagram по центру ниже основного текста, внутри зоны y=1100–1450.",
-            "destination": adapted["source_url"],
-            "static_preview_notice": "Стикер не изображён на PNG и не является функциональным элементом превью.",
-        },
+    frames[-1]["manual_sticker_instruction"] = {
+        "sticker": "link",
+        "placement": "Добавить вручную в Instagram по центру ниже основного текста, внутри зоны y=1100–1450.",
+        "destination": adapted["source_url"],
+        "static_preview_notice": "Стикер не изображён на PNG и не является функциональным элементом превью.",
     }
-    frames.insert(min(3, len(frames)), interaction)
     for index, frame in enumerate(frames, 1):
         frame["number"] = index
         frame["counter"] = f"{index}/{len(frames)}"
@@ -81,6 +87,8 @@ def build_story_sequence(
         "attribution_manifest": {
             "canonical_url": adapted["source_url"],
             "original_source_url": adapted.get("original_source_url") or "",
+            "terminology_reference_url": editorial["terminology_reference_url"],
+            "terminology_review": editorial["terminology"],
             "source_name": adapted.get("source_name") or "СпецАвтоПортал",
             "data_classification": adapted.get("data_classification") or "owner_supplied_source",
             "approved_images_used": images,
@@ -102,14 +110,34 @@ def _render_frame(frame: dict[str, Any], output: Path, approved_image: str | Non
     counter_width = draw.textbbox((0, 0), frame["counter"], font=font(24, bold=True))[2]
     draw.text((WIDTH - SIDE_MARGIN - counter_width, 290), frame["counter"], font=font(24, bold=True), fill=(167, 174, 183))
     draw.rectangle((SIDE_MARGIN, 425, SIDE_MARGIN + 160, 437), fill=ORANGE)
+    if frame["layout"] == "question":
+        draw.rounded_rectangle((SIDE_MARGIN - 20, 740, WIDTH - SIDE_MARGIN + 20, 1260), radius=36, outline=(64, 72, 84), width=5)
+    elif frame["layout"] == "action":
+        draw.rounded_rectangle((SIDE_MARGIN - 24, 452, WIDTH - SIDE_MARGIN + 24, 1300), radius=44, fill=(35, 41, 49), outline=ORANGE, width=5)
     headline = draw_text_block(
-        draw, frame["headline"], (SIDE_MARGIN, 480, WIDTH - SIDE_MARGIN, 760),
-        max_size=66, min_size=40, bold=True, fill=WHITE,
+        draw, frame["headline"], (SIDE_MARGIN, 500, WIDTH - SIDE_MARGIN, 760),
+        max_size=72 if frame["layout"] == "hook" else 62, min_size=40, bold=True, fill=ORANGE if frame["layout"] == "hook" else WHITE,
     )
-    body = draw_text_block(
-        draw, frame["body"], (SIDE_MARGIN, 800, WIDTH - SIDE_MARGIN, 1320),
-        max_size=46, min_size=32, bold=False, fill=(224, 228, 232), spacing=1.28,
-    )
+    if frame["layout"] == "practical":
+        body_font = font(43)
+        lines = frame["body"].splitlines()
+        y = 820
+        for line in lines:
+            draw.ellipse((SIDE_MARGIN, y + 15, SIDE_MARGIN + 18, y + 33), fill=ORANGE)
+            draw.text((SIDE_MARGIN + 42, y), line, font=body_font, fill=(224, 228, 232))
+            y += 112
+        body = {
+            "box": [SIDE_MARGIN, 820, WIDTH - SIDE_MARGIN, 1280],
+            "font_size": 43,
+            "line_count": len(lines),
+            "overflow": y > 1280,
+            "bottom": y,
+        }
+    else:
+        body = draw_text_block(
+            draw, frame["body"], (SIDE_MARGIN, 820, WIDTH - SIDE_MARGIN, 1280),
+            max_size=52, min_size=34, bold=False, fill=(224, 228, 232), spacing=1.28,
+        )
     if frame["role"] == "interaction":
         draw.text((SIDE_MARGIN, 1390), "Редактор добавляет Link sticker вручную", font=font(27, bold=True), fill=ORANGE)
         draw.text((SIDE_MARGIN, 1435), "Статическое превью не имитирует работающий стикер", font=font(23), fill=(167, 174, 183))
