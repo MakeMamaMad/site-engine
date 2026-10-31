@@ -1833,9 +1833,9 @@
       "slug": "valday-45-pro-dokazal-rashod-24-5-l-100-km-v-30dnevnom-teste-u-trasko-d68bdefb"
     },
     "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/": {
-      "digest_id": "2026-10-26:pm",
-      "post_id": 156,
-      "sent_at": "2026-10-26T12:47:25+00:00",
+      "digest_id": "2026-10-31:pm",
+      "post_id": 198,
+      "sent_at": "2026-10-31T12:59:16+00:00",
       "title": "SAT545 на выставке Дорожное строительство — 2026 в Минске",
       "slug": "sat545-na-vystavke-dorozhnoe-stroitelstvo-2026-v-minske-32ea5935"
     },
@@ -1980,9 +1980,9 @@
       "slug": "scan-global-logistics-natselena-na-rasshirenie-ssha-dba1d394"
     },
     "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html": {
-      "digest_id": "2026-10-30:pm",
-      "post_id": 196,
-      "sent_at": "2026-10-30T13:26:50+00:00",
+      "digest_id": "2026-10-31:pm",
+      "post_id": 198,
+      "sent_at": "2026-10-31T12:59:16+00:00",
       "title": "Льготное автокредитование возобновится с 1 декабря",
       "slug": "lgotnoe-avtokreditovanie-vozobnovitsya-s-1-dekabrya-891d3faa"
     },
@@ -2006,6 +2006,13 @@
       "sent_at": "2026-10-31T09:36:23+00:00",
       "title": "От «Газели» до грузового вагона: в Иркутске выпускают гидроскобы с усилием до 40 тонн",
       "slug": "ot-gazeli-do-gruzovogo-vagona-v-irkutske-vypuskayut-gidroskoby-s-usiliem-c743a2f6"
+    },
+    "https://sdelanounas.ru/blogs/179116/": {
+      "digest_id": "2026-10-31:pm",
+      "post_id": 198,
+      "sent_at": "2026-10-31T12:59:16+00:00",
+      "title": "Политранс запустил новую линейку полуприцепов для работы в экстремальныхусловиях",
+      "slug": "politrans-zapustil-novuyu-lineyku-polupritsepov-dlya-raboty-v-ekstremaln-9a9a8cf0"
     }
   },
   "digests": {
@@ -2608,6 +2615,17 @@
         "https://sdelanounas.ru/blogs/179124/",
         "http://gruzovoy.ru/news/industry/3418_servis_i_prodaji_tehniki_s_probegom_kak_sozdat_edinii_biznes-process_i_ne_progoret.html",
         "https://sdelanounas.ru/blogs/179005/"
+      ]
+    },
+    "2026-10-31:pm": {
+      "post_id": 198,
+      "sent_at": "2026-10-31T12:59:16+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179116/",
+        "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/",
+        "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html"
       ]
     }
   }
