@@ -2168,9 +2168,9 @@
       "slug": "infinity-otmechaet-10-letie-s-investitsiyami-v-24-krone-box-liners-f3740c77"
     },
     "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html": {
-      "digest_id": "2026-10-30:pm",
-      "message_id": 1694,
-      "sent_at": "2026-10-30T13:15:36+00:00",
+      "digest_id": "2026-10-31:pm",
+      "message_id": 1696,
+      "sent_at": "2026-10-31T12:53:27+00:00",
       "title": "Льготное автокредитование возобновится с 1 декабря",
       "slug": "lgotnoe-avtokreditovanie-vozobnovitsya-s-1-dekabrya-891d3faa"
     },
@@ -2201,20 +2201,23 @@
       "sent_at": "2026-10-31T09:38:20+00:00",
       "title": "Сервис и продажи техники с пробегом. Как создать единый бизнес-процесс и не прогореть?",
       "slug": "servis-i-prodazhi-tehniki-s-probegom-kak-sozdat-edinyy-biznes-protsess-i-fb5a9717"
+    },
+    "https://sdelanounas.ru/blogs/179116/": {
+      "digest_id": "2026-10-31:pm",
+      "message_id": 1696,
+      "sent_at": "2026-10-31T12:53:27+00:00",
+      "title": "Политранс запустил новую линейку полуприцепов для работы в экстремальныхусловиях",
+      "slug": "politrans-zapustil-novuyu-lineyku-polupritsepov-dlya-raboty-v-ekstremaln-9a9a8cf0"
+    },
+    "https://www.globaltrailermag.com/scan-global-logistics-targets-us-expansion/": {
+      "digest_id": "2026-10-31:pm",
+      "message_id": 1696,
+      "sent_at": "2026-10-31T12:53:27+00:00",
+      "title": "Scan Global Logistics нацелена на расширение США",
+      "slug": "scan-global-logistics-natselena-na-rasshirenie-ssha-dba1d394"
     }
   },
   "digests": {
-    "2026-10-13:pm": {
-      "message_id": 1582,
-      "sent_at": "2026-10-13T14:31:59+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/rhenus-expands-cambodia-logistics-operations/",
-        "http://gruzovoy.ru/news/news_partners/3391_novaya_ekosistema_vistavki_kommercheskogo_transporta_i_tehnologii_comvex.html",
-        "https://comautotrans.moscow/tpost/l9l5ur9jo1-analiticheskii-tsentr-sigma-expo-group-z"
-      ],
-      "visual": "visual"
-    },
     "2026-10-14:am": {
       "message_id": 1592,
       "sent_at": "2026-10-14T11:20:19+00:00",
@@ -2531,6 +2534,17 @@
         "https://sdelanounas.ru/blogs/179124/",
         "http://gruzovoy.ru/news/industry/3419_v_alabyge_nachali_seriino_vipyskat_tyrbomotor_15_l_dlya_sollers_sf1.html",
         "http://gruzovoy.ru/news/industry/3418_servis_i_prodaji_tehniki_s_probegom_kak_sozdat_edinii_biznes-process_i_ne_progoret.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-31:pm": {
+      "message_id": 1696,
+      "sent_at": "2026-10-31T12:53:27+00:00",
+      "slot": "pm",
+      "items": [
+        "https://sdelanounas.ru/blogs/179116/",
+        "https://www.globaltrailermag.com/scan-global-logistics-targets-us-expansion/",
+        "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html"
       ],
       "visual": "visual"
     }
