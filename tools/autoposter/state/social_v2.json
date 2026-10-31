@@ -2128,6 +2128,36 @@
         }
       },
       "updated_at": "2026-10-31T08:14:19.914813+00:00"
+    },
+    "f3740c776ec8": {
+      "title": "Infinity пополнила парк 24 контейнерными полуприцепами KRONE",
+      "created_at": "2026-10-31T16:11:14.823941+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "JDIhstCMN1c",
+          "url": "https://www.youtube.com/shorts/JDIhstCMN1c",
+          "updated_at": "2026-10-31T16:11:14.823960+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae61323f0984eef331b1e14",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-31T16:13:04.373846+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae6139137c1acd2a0badcef",
+          "buffer_status": "sent",
+          "updated_at": "2026-10-31T16:14:07.601315+00:00"
+        }
+      },
+      "updated_at": "2026-10-31T16:14:07.601312+00:00"
     }
   }
 }

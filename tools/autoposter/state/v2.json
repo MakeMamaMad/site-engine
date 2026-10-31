@@ -70,7 +70,8 @@
     "testdrive:queue#1",
     "9a9a8cf098ba",
     "32ea59355a9d",
-    "c743a2f622d5"
+    "c743a2f622d5",
+    "f3740c776ec8"
   ],
   "renders": [
     {
@@ -561,6 +562,13 @@
       "slug": "ot-gazeli-do-gruzovogo-vagona-v-irkutske-vypuskayut-gidroskoby-s-usiliem-c743a2f6",
       "title": "В Иркутске выпускают гидроскобы с усилием до 40 тонн",
       "created_at": "2026-10-31T08:14:19.917234+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "f3740c776ec8",
+      "slug": "infinity-otmechaet-10-letie-s-investitsiyami-v-24-krone-box-liners-f3740c77",
+      "title": "Infinity пополнила парк 24 контейнерными полуприцепами KRONE",
+      "created_at": "2026-10-31T16:14:07.604628+00:00",
       "format": "social-v2"
     }
   ]
