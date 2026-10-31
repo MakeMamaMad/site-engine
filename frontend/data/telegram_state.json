@@ -2180,20 +2180,30 @@
       "sent_at": "2026-10-30T13:15:36+00:00",
       "title": "После роста производительности РОКВУЛ масштабировал беспилотные перевозки на три предприятия",
       "slug": "posle-rosta-proizvoditelnosti-rokvul-masshtabiroval-bespilotnye-perevozk-b42c5f58"
+    },
+    "https://sdelanounas.ru/blogs/179124/": {
+      "digest_id": "2026-10-31:am",
+      "message_id": 1695,
+      "sent_at": "2026-10-31T09:38:20+00:00",
+      "title": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+      "slug": "na-trasse-m-5-ural-nachali-asfaltirovat-samuyu-dlinnuyu-estakadu-chelyab-99b27d07"
+    },
+    "http://gruzovoy.ru/news/industry/3419_v_alabyge_nachali_seriino_vipyskat_tyrbomotor_15_l_dlya_sollers_sf1.html": {
+      "digest_id": "2026-10-31:am",
+      "message_id": 1695,
+      "sent_at": "2026-10-31T09:38:20+00:00",
+      "title": "В «Алабуге» начался серийный выпуск турбомоторов 1,5 л для Sollers SF1",
+      "slug": "v-alabuge-nachalsya-seriynyy-vypusk-turbomotorov-1-5-l-dlya-sollers-sf1-0ebd6c23"
+    },
+    "http://gruzovoy.ru/news/industry/3418_servis_i_prodaji_tehniki_s_probegom_kak_sozdat_edinii_biznes-process_i_ne_progoret.html": {
+      "digest_id": "2026-10-31:am",
+      "message_id": 1695,
+      "sent_at": "2026-10-31T09:38:20+00:00",
+      "title": "Сервис и продажи техники с пробегом. Как создать единый бизнес-процесс и не прогореть?",
+      "slug": "servis-i-prodazhi-tehniki-s-probegom-kak-sozdat-edinyy-biznes-protsess-i-fb5a9717"
     }
   },
   "digests": {
-    "2026-10-10:pm": {
-      "message_id": 1578,
-      "sent_at": "2026-10-10T12:48:42+00:00",
-      "slot": "pm",
-      "items": [
-        "https://sdelanounas.ru/blogs/178720/",
-        "https://maz.by/media/news/2026/10/09/konstantin-chernetskiy-naznachen-na-dolzhnost-direktora-oao-osipovichskiy-zavod-avtomobilnykh-agregatov",
-        "http://gruzovoy.ru/news/industry/3388_kak_dilery_i_distributory_razvivat_biznes_v_ysloviyah_padaushego_rinka.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-13:pm": {
       "message_id": 1582,
       "sent_at": "2026-10-13T14:31:59+00:00",
@@ -2510,6 +2520,17 @@
         "https://www.krone-trailer.com/en/news/detail-1/infinity-marks-10th-anniversary-with-investment-in-24-krone-box-liners/",
         "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html",
         "https://sdelanounas.ru/blogs/179118/"
+      ],
+      "visual": "visual"
+    },
+    "2026-10-31:am": {
+      "message_id": 1695,
+      "sent_at": "2026-10-31T09:38:20+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/179124/",
+        "http://gruzovoy.ru/news/industry/3419_v_alabyge_nachali_seriino_vipyskat_tyrbomotor_15_l_dlya_sollers_sf1.html",
+        "http://gruzovoy.ru/news/industry/3418_servis_i_prodaji_tehniki_s_probegom_kak_sozdat_edinii_biznes-process_i_ne_progoret.html"
       ],
       "visual": "visual"
     }
