@@ -69,7 +69,8 @@
     "guide:vynesennaya-os",
     "testdrive:queue#1",
     "9a9a8cf098ba",
-    "32ea59355a9d"
+    "32ea59355a9d",
+    "c743a2f622d5"
   ],
   "renders": [
     {
@@ -553,6 +554,13 @@
       "slug": "sat545-na-vystavke-dorozhnoe-stroitelstvo-2026-v-minske-32ea5935",
       "title": "SAT545 покажут на выставке в Минске",
       "created_at": "2026-10-30T16:19:16.092094+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "c743a2f622d5",
+      "slug": "ot-gazeli-do-gruzovogo-vagona-v-irkutske-vypuskayut-gidroskoby-s-usiliem-c743a2f6",
+      "title": "В Иркутске выпускают гидроскобы с усилием до 40 тонн",
+      "created_at": "2026-10-31T08:14:19.917234+00:00",
       "format": "social-v2"
     }
   ]
