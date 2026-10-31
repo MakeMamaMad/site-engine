@@ -1985,6 +1985,27 @@
       "sent_at": "2026-10-30T13:26:50+00:00",
       "title": "Льготное автокредитование возобновится с 1 декабря",
       "slug": "lgotnoe-avtokreditovanie-vozobnovitsya-s-1-dekabrya-891d3faa"
+    },
+    "https://sdelanounas.ru/blogs/179124/": {
+      "digest_id": "2026-10-31:am",
+      "post_id": 197,
+      "sent_at": "2026-10-31T09:36:23+00:00",
+      "title": "На трассе М-5 «Урал» начали асфальтировать самую длинную эстакаду Челябинской области",
+      "slug": "na-trasse-m-5-ural-nachali-asfaltirovat-samuyu-dlinnuyu-estakadu-chelyab-99b27d07"
+    },
+    "http://gruzovoy.ru/news/industry/3418_servis_i_prodaji_tehniki_s_probegom_kak_sozdat_edinii_biznes-process_i_ne_progoret.html": {
+      "digest_id": "2026-10-31:am",
+      "post_id": 197,
+      "sent_at": "2026-10-31T09:36:23+00:00",
+      "title": "Сервис и продажи техники с пробегом. Как создать единый бизнес-процесс и не прогореть?",
+      "slug": "servis-i-prodazhi-tehniki-s-probegom-kak-sozdat-edinyy-biznes-protsess-i-fb5a9717"
+    },
+    "https://sdelanounas.ru/blogs/179005/": {
+      "digest_id": "2026-10-31:am",
+      "post_id": 197,
+      "sent_at": "2026-10-31T09:36:23+00:00",
+      "title": "От «Газели» до грузового вагона: в Иркутске выпускают гидроскобы с усилием до 40 тонн",
+      "slug": "ot-gazeli-do-gruzovogo-vagona-v-irkutske-vypuskayut-gidroskoby-s-usiliem-c743a2f6"
     }
   },
   "digests": {
@@ -2576,6 +2597,17 @@
         "https://www.krone-trailer.com/en/news/detail-1/infinity-marks-10th-anniversary-with-investment-in-24-krone-box-liners/",
         "https://www.globaltrailermag.com/scan-global-logistics-targets-us-expansion/",
         "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html"
+      ]
+    },
+    "2026-10-31:am": {
+      "post_id": 197,
+      "sent_at": "2026-10-31T09:36:23+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179124/",
+        "http://gruzovoy.ru/news/industry/3418_servis_i_prodaji_tehniki_s_probegom_kak_sozdat_edinii_biznes-process_i_ne_progoret.html",
+        "https://sdelanounas.ru/blogs/179005/"
       ]
     }
   }
