@@ -72,7 +72,8 @@
     "32ea59355a9d",
     "c743a2f622d5",
     "f3740c776ec8",
-    "8ec0d56d6377"
+    "8ec0d56d6377",
+    "3a3354429487"
   ],
   "renders": [
     {
@@ -577,6 +578,13 @@
       "slug": "k-dnyu-rozhdeniya-yuriya-pavlovicha-vaynshteyna-8ec0d56d",
       "title": "ТОНАР опубликовал материал ко дню рождения Юрия Вайнштейна",
       "created_at": "2026-11-01T08:11:53.421902+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "3a3354429487",
+      "slug": "zavod-tonar-otgruzil-krupnuyu-partiyu-seriynyh-samosvalov-dlya-pratnerov-3a335442",
+      "title": "«Тонар» отгрузил крупную партию самосвалов 7504",
+      "created_at": "2026-11-01T16:15:26.547566+00:00",
       "format": "social-v2"
     }
   ]
