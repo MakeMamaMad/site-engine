@@ -2158,6 +2158,36 @@
         }
       },
       "updated_at": "2026-10-31T16:14:07.601312+00:00"
+    },
+    "8ec0d56d6377": {
+      "title": "ТОНАР опубликовал материал ко дню рождения Юрия Вайнштейна",
+      "created_at": "2026-11-01T08:10:03.437250+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "SouLNx5CFYk",
+          "url": "https://www.youtube.com/shorts/SouLNx5CFYk",
+          "updated_at": "2026-11-01T08:10:03.437271+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae6f3dc37c1acd2a0f3506c",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-01T08:10:50.919848+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6ae6f40bf0984eef33542991",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-01T08:11:53.418904+00:00"
+        }
+      },
+      "updated_at": "2026-11-01T08:11:53.418902+00:00"
     }
   }
 }
