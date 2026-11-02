@@ -74,7 +74,8 @@
     "f3740c776ec8",
     "8ec0d56d6377",
     "3a3354429487",
-    "04d8543f292e"
+    "04d8543f292e",
+    "guide:stoimost-reysa"
   ],
   "renders": [
     {
@@ -593,6 +594,13 @@
       "slug": "librelato-investiruet-10-9-mln-evro-v-proizvodstvo-treylerov-04d8543f",
       "title": "Librelato вложит €10,9 млн в производство трейлеров",
       "created_at": "2026-11-02T08:16:23.488208+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:stoimost-reysa",
+      "slug": "",
+      "title": "Сколько стоит рейс в 2026 году: «Платон» уже 5,19 ₽/км",
+      "created_at": "2026-11-02T16:21:28.981304+00:00",
       "format": "social-v2"
     }
   ]
