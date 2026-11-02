@@ -2290,20 +2290,30 @@
       "sent_at": "2026-11-02T10:55:23+00:00",
       "title": "Завод \"Тонар\" отгрузил крупную партию серийных самосвалов для партнеров из Кемеровской области",
       "slug": "zavod-tonar-otgruzil-krupnuyu-partiyu-seriynyh-samosvalov-dlya-pratnerov-3a335442"
+    },
+    "https://www.globaltrailermag.com/ata-appoints-ceo/": {
+      "digest_id": "2026-11-02:pm",
+      "message_id": 1704,
+      "sent_at": "2026-11-02T16:22:51+00:00",
+      "title": "ATA назначает CEO",
+      "slug": "ata-naznachaet-ceo-3103c6b2"
+    },
+    "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/": {
+      "digest_id": "2026-11-02:pm",
+      "message_id": 1704,
+      "sent_at": "2026-11-02T16:22:51+00:00",
+      "title": "Индия объединила транспортно-логистическое планирование",
+      "slug": "indiya-obedinila-transportno-logisticheskoe-planirovanie-e132e634"
+    },
+    "https://tonar.info/news/k-dniu-rozdeniia-iuriia-pavlovica-vainsteina": {
+      "digest_id": "2026-11-02:pm",
+      "message_id": 1704,
+      "sent_at": "2026-11-02T16:22:51+00:00",
+      "title": "К дню рождения Юрия Павловича Вайнштейна",
+      "slug": "k-dnyu-rozhdeniya-yuriya-pavlovicha-vaynshteyna-8ec0d56d"
     }
   },
   "digests": {
-    "2026-10-14:pm": {
-      "message_id": 1596,
-      "sent_at": "2026-10-14T12:11:50+00:00",
-      "slot": "pm",
-      "items": [
-        "https://nefaz.ru/news/25-novyh-avtobusov-nefaz-dlya-ufy-i-neftekamska",
-        "http://gruzovoy.ru/news/industry/3398_analiticheskii_centr_sigma_expo_group_zapystil_sobstvennii_sait.html",
-        "http://gruzovoy.ru/news/industry/3399_po_itogam_2026_goda_rinok_gryzovikov_mojet_sokratitsya_na_15_18.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-15:am": {
       "message_id": 1603,
       "sent_at": "2026-10-15T11:19:32+00:00",
@@ -2620,6 +2630,17 @@
         "https://www.globaltrailermag.com/hapag-lloyd-expands-african-logistics-network/",
         "https://www.globaltrailermag.com/librelato-invests-e10-9m-in-trailer-production/",
         "https://sdelanounas.ru/blogs/179161/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-02:pm": {
+      "message_id": 1704,
+      "sent_at": "2026-11-02T16:22:51+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/ata-appoints-ceo/",
+        "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/",
+        "https://tonar.info/news/k-dniu-rozdeniia-iuriia-pavlovica-vainsteina"
       ],
       "visual": "visual"
     }
