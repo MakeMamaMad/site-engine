@@ -2269,20 +2269,30 @@
       "sent_at": "2026-10-31T12:53:27+00:00",
       "title": "Scan Global Logistics нацелена на расширение США",
       "slug": "scan-global-logistics-natselena-na-rasshirenie-ssha-dba1d394"
+    },
+    "https://www.globaltrailermag.com/hapag-lloyd-expands-african-logistics-network/": {
+      "digest_id": "2026-11-02:am",
+      "message_id": 1703,
+      "sent_at": "2026-11-02T10:55:23+00:00",
+      "title": "Hapag-Lloyd расширяет логистическую сеть в Африке",
+      "slug": "hapag-lloyd-rasshiryaet-logisticheskuyu-set-v-afrike-2c0347e4"
+    },
+    "https://www.globaltrailermag.com/librelato-invests-e10-9m-in-trailer-production/": {
+      "digest_id": "2026-11-02:am",
+      "message_id": 1703,
+      "sent_at": "2026-11-02T10:55:23+00:00",
+      "title": "Librelato инвестирует 10,9 млн евро в производство трейлеров",
+      "slug": "librelato-investiruet-10-9-mln-evro-v-proizvodstvo-treylerov-04d8543f"
+    },
+    "https://sdelanounas.ru/blogs/179161/": {
+      "digest_id": "2026-11-02:am",
+      "message_id": 1703,
+      "sent_at": "2026-11-02T10:55:23+00:00",
+      "title": "Завод \"Тонар\" отгрузил крупную партию серийных самосвалов для партнеров из Кемеровской области",
+      "slug": "zavod-tonar-otgruzil-krupnuyu-partiyu-seriynyh-samosvalov-dlya-pratnerov-3a335442"
     }
   },
   "digests": {
-    "2026-10-14:am": {
-      "message_id": 1592,
-      "sent_at": "2026-10-14T11:20:19+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/broshuis-wins-danish-defence-trailer-order/",
-        "https://www.globaltrailermag.com/neom-ceva-to-strengthen-europe-gcc-freight-corridor/",
-        "https://www.globaltrailermag.com/imf-warns-middle-east-tensions-threaten-fuel-costs/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-14:pm": {
       "message_id": 1596,
       "sent_at": "2026-10-14T12:11:50+00:00",
@@ -2599,6 +2609,17 @@
         "https://sdelanounas.ru/blogs/179116/",
         "https://www.globaltrailermag.com/scan-global-logistics-targets-us-expansion/",
         "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-02:am": {
+      "message_id": 1703,
+      "sent_at": "2026-11-02T10:55:23+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/hapag-lloyd-expands-african-logistics-network/",
+        "https://www.globaltrailermag.com/librelato-invests-e10-9m-in-trailer-production/",
+        "https://sdelanounas.ru/blogs/179161/"
       ],
       "visual": "visual"
     }
