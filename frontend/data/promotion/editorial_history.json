@@ -662,6 +662,19 @@
       "status": "email_sent",
       "sent_at": "2026-11-01T13:09:49+00:00",
       "gmail_message_id": "1a1973b03e7b0864"
+    },
+    {
+      "target_id": "rosacademtrans-ati",
+      "target_name": "Агентство транспортной информации (Российская академия транспорта)",
+      "slug": "tehosmotr-polupricepa",
+      "title": "Техосмотр полуприцепа в 2026 году: когда проходить и что проверяют",
+      "site_url": "https://spec-avtoportal.ru/knowledge/tehosmotr-polupricepa/?utm_source=rosacademtrans-ati&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=tehosmotr-polupricepa",
+      "contact": "ati@rosacademtrans.ru",
+      "item_key": "knowledge:tehosmotr-polupricepa",
+      "created_at": "2026-11-02T19:40:10+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-02T19:40:11+00:00",
+      "gmail_message_id": "1a19dc6c27cbf27a"
     }
   ]
 }
