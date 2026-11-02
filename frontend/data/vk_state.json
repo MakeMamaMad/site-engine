@@ -2037,6 +2037,27 @@
       "sent_at": "2026-10-31T12:59:16+00:00",
       "title": "Политранс запустил новую линейку полуприцепов для работы в экстремальныхусловиях",
       "slug": "politrans-zapustil-novuyu-lineyku-polupritsepov-dlya-raboty-v-ekstremaln-9a9a8cf0"
+    },
+    "https://www.globaltrailermag.com/librelato-invests-e10-9m-in-trailer-production/": {
+      "digest_id": "2026-11-02:am",
+      "post_id": 202,
+      "sent_at": "2026-11-02T10:55:29+00:00",
+      "title": "Librelato инвестирует 10,9 млн евро в производство трейлеров",
+      "slug": "librelato-investiruet-10-9-mln-evro-v-proizvodstvo-treylerov-04d8543f"
+    },
+    "https://tonar.info/news/k-dniu-rozdeniia-iuriia-pavlovica-vainsteina": {
+      "digest_id": "2026-11-02:am",
+      "post_id": 202,
+      "sent_at": "2026-11-02T10:55:29+00:00",
+      "title": "К дню рождения Юрия Павловича Вайнштейна",
+      "slug": "k-dnyu-rozhdeniya-yuriya-pavlovicha-vaynshteyna-8ec0d56d"
+    },
+    "https://www.globaltrailermag.com/hapag-lloyd-expands-african-logistics-network/": {
+      "digest_id": "2026-11-02:am",
+      "post_id": 202,
+      "sent_at": "2026-11-02T10:55:29+00:00",
+      "title": "Hapag-Lloyd расширяет логистическую сеть в Африке",
+      "slug": "hapag-lloyd-rasshiryaet-logisticheskuyu-set-v-afrike-2c0347e4"
     }
   },
   "digests": {
@@ -2650,6 +2671,17 @@
         "https://sdelanounas.ru/blogs/179116/",
         "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/",
         "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html"
+      ]
+    },
+    "2026-11-02:am": {
+      "post_id": 202,
+      "sent_at": "2026-11-02T10:55:29+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/librelato-invests-e10-9m-in-trailer-production/",
+        "https://tonar.info/news/k-dniu-rozdeniia-iuriia-pavlovica-vainsteina",
+        "https://www.globaltrailermag.com/hapag-lloyd-expands-african-logistics-network/"
       ]
     }
   }
