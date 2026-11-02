@@ -1364,6 +1364,33 @@
       "slug": "ata-naznachaet-ceo-3103c6b2",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/179182/": {
+      "message_id": 1705,
+      "sent_at": "2026-11-02T16:25:05+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/svarku-kuzovov-avtobusov-na-pavlovskom-zavode-peredali-shesti-robotam-9628a248/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=svarku-kuzovov-avtobusov-na-pavlovskom-zavode-peredali-shesti-robotam-9628a248",
+      "title": "Сварку кузовов автобусов на Павловском заводе передали шести роботам",
+      "slug": "svarku-kuzovov-avtobusov-na-pavlovskom-zavode-peredali-shesti-robotam-9628a248",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3423_chmz_predstavil_toplivozapravshik_na_baze_kamaz_kompas_12.html": {
+      "message_id": 1706,
+      "sent_at": "2026-11-02T16:25:06+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/chmz-predstavil-toplivozapravschik-na-baze-kamaz-kompas-12-a2f49563/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=chmz-predstavil-toplivozapravschik-na-baze-kamaz-kompas-12-a2f49563",
+      "title": "ЧМЗ представил топливозаправщик на базе КАМАЗ «Компас 12»",
+      "slug": "chmz-predstavil-toplivozapravschik-na-baze-kamaz-kompas-12-a2f49563",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/us-imposes-duties-on-chinese-trailers/": {
+      "message_id": 1707,
+      "sent_at": "2026-11-02T16:25:07+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/ssha-vvodyat-poshliny-na-kitayskie-treylery-dcd65a16/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=ssha-vvodyat-poshliny-na-kitayskie-treylery-dcd65a16",
+      "title": "США вводят пошлины на китайские трейлеры",
+      "slug": "ssha-vvodyat-poshliny-na-kitayskie-treylery-dcd65a16",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
