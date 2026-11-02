@@ -2082,6 +2082,27 @@
       "sent_at": "2026-11-02T10:55:29+00:00",
       "title": "Hapag-Lloyd расширяет логистическую сеть в Африке",
       "slug": "hapag-lloyd-rasshiryaet-logisticheskuyu-set-v-afrike-2c0347e4"
+    },
+    "https://sdelanounas.ru/blogs/179161/": {
+      "digest_id": "2026-11-02:pm",
+      "post_id": 206,
+      "sent_at": "2026-11-02T16:29:28+00:00",
+      "title": "Завод \"Тонар\" отгрузил крупную партию серийных самосвалов для партнеров из Кемеровской области",
+      "slug": "zavod-tonar-otgruzil-krupnuyu-partiyu-seriynyh-samosvalov-dlya-pratnerov-3a335442"
+    },
+    "https://www.globaltrailermag.com/ata-appoints-ceo/": {
+      "digest_id": "2026-11-02:pm",
+      "post_id": 206,
+      "sent_at": "2026-11-02T16:29:28+00:00",
+      "title": "ATA назначает CEO",
+      "slug": "ata-naznachaet-ceo-3103c6b2"
+    },
+    "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/": {
+      "digest_id": "2026-11-02:pm",
+      "post_id": 206,
+      "sent_at": "2026-11-02T16:29:28+00:00",
+      "title": "Индия объединила транспортно-логистическое планирование",
+      "slug": "indiya-obedinila-transportno-logisticheskoe-planirovanie-e132e634"
     }
   },
   "digests": {
@@ -2706,6 +2727,17 @@
         "https://www.globaltrailermag.com/librelato-invests-e10-9m-in-trailer-production/",
         "https://tonar.info/news/k-dniu-rozdeniia-iuriia-pavlovica-vainsteina",
         "https://www.globaltrailermag.com/hapag-lloyd-expands-african-logistics-network/"
+      ]
+    },
+    "2026-11-02:pm": {
+      "post_id": 206,
+      "sent_at": "2026-11-02T16:29:28+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179161/",
+        "https://www.globaltrailermag.com/ata-appoints-ceo/",
+        "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/"
       ]
     }
   }
