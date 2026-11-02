@@ -73,7 +73,8 @@
     "c743a2f622d5",
     "f3740c776ec8",
     "8ec0d56d6377",
-    "3a3354429487"
+    "3a3354429487",
+    "04d8543f292e"
   ],
   "renders": [
     {
@@ -585,6 +586,13 @@
       "slug": "zavod-tonar-otgruzil-krupnuyu-partiyu-seriynyh-samosvalov-dlya-pratnerov-3a335442",
       "title": "«Тонар» отгрузил крупную партию самосвалов 7504",
       "created_at": "2026-11-01T16:15:26.547566+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "04d8543f292e",
+      "slug": "librelato-investiruet-10-9-mln-evro-v-proizvodstvo-treylerov-04d8543f",
+      "title": "Librelato вложит €10,9 млн в производство трейлеров",
+      "created_at": "2026-11-02T08:16:23.488208+00:00",
       "format": "social-v2"
     }
   ]
