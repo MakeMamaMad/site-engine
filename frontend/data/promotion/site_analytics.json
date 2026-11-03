@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-02T23:57:12+00:00",
+  "updated_at": "2026-11-03T22:24:52+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 42,
-    "users": 39,
+    "visits": 44,
+    "users": 41,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 26,
-        "users": 26,
-        "bounce_rate": 11.5,
-        "page_depth": 1.46
+        "visits": 29,
+        "users": 29,
+        "bounce_rate": 17.2,
+        "page_depth": 1.38
       },
       {
         "id": "ad",
@@ -27,10 +27,10 @@
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 6,
-        "users": 4,
-        "bounce_rate": 33.3,
-        "page_depth": 1.17
+        "visits": 5,
+        "users": 3,
+        "bounce_rate": 20.0,
+        "page_depth": 1.2
       },
       {
         "id": "internal",
@@ -65,8 +65,8 @@
       }
     },
     "search": {
-      "date_from": "2026-10-25",
-      "date_to": "2026-10-31",
+      "date_from": "2026-10-26",
+      "date_to": "2026-11-01",
       "shows": 0,
       "clicks": 0,
       "top_queries": []
