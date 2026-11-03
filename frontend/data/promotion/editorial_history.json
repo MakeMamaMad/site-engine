@@ -675,6 +675,29 @@
       "status": "email_sent",
       "sent_at": "2026-11-02T19:40:11+00:00",
       "gmail_message_id": "1a19dc6c27cbf27a"
+    },
+    {
+      "target_id": "truckmix-publishing",
+      "target_name": "TRUCKmix.ru",
+      "item_key": "knowledge:nagruzka-na-os",
+      "title": "Нагрузка на ось: как проверить автопоезд перед рейсом",
+      "source_url": "https://spec-avtoportal.ru/knowledge/nagruzka-na-os/?utm_source=truckmix-publishing&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=nagruzka-na-os",
+      "result_url": "https://truckmix.ru/publication/update/30665",
+      "submitted_at": "2026-11-03T14:34:17+00:00",
+      "status": "verified_in_author_cabinet"
+    },
+    {
+      "target_id": "spec-technika-editorial",
+      "target_name": "СпецТехника",
+      "slug": "gabarity-i-massy",
+      "title": "Габариты и массы автопоезда: основные пределы",
+      "site_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=spec-technika-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "contact": "lider@media-l.ru",
+      "item_key": "knowledge:gabarity-i-massy",
+      "created_at": "2026-11-03T14:34:17+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-03T14:34:18+00:00",
+      "gmail_message_id": "1a1a1d514dd9318c"
     }
   ]
 }

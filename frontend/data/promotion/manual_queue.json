@@ -642,7 +642,24 @@
       "updated_at": "2026-11-02T19:40:11+00:00",
       "sent_at": "2026-11-02T19:40:11+00:00",
       "gmail_message_id": "1a19dc6c27cbf27a"
+    },
+    {
+      "action_id": "editorial:spec-technika-editorial:gabarity-i-massy",
+      "channel": "email",
+      "target_id": "spec-technika-editorial",
+      "target_name": "СпецТехника",
+      "action": "send_editorial_email",
+      "contact": "lider@media-l.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для СпецТехника: Габариты и массы автопоезда: основные пределы",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «СпецТехника» рассмотреть оригинальный практический материал: «Габариты и массы автопоезда: основные пределы».\nПеред загрузкой важно проверять четыре параметра: длину, ширину, высоту и массу. Для перевозчика они определяют, проходит ли автопоезд как обычный или уже требует специальных условий движения.\n\nМатериал: https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=spec-technika-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=spec-technika-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "created_at": "2026-11-03T14:34:17+00:00",
+      "updated_at": "2026-11-03T14:34:18+00:00",
+      "sent_at": "2026-11-03T14:34:18+00:00",
+      "gmail_message_id": "1a1a1d514dd9318c"
     }
   ],
-  "updated_at": "2026-11-02T19:40:11+00:00"
+  "updated_at": "2026-11-03T14:34:18+00:00"
 }
