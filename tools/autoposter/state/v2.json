@@ -77,7 +77,8 @@
     "04d8543f292e",
     "guide:stoimost-reysa",
     "testdrive:why#1",
-    "a2f495639977"
+    "a2f495639977",
+    "ac052e9eaa6c"
   ],
   "renders": [
     {
@@ -617,6 +618,13 @@
       "slug": "chmz-predstavil-toplivozapravschik-na-baze-kamaz-kompas-12-a2f49563",
       "title": "ЧМЗ представил топливозаправщик на базе КАМАЗ «Компас 12»",
       "created_at": "2026-11-03T06:33:21.484739+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "ac052e9eaa6c",
+      "slug": "registratsii-kitayskih-gruzovikov-v-rossii-upali-na-28-ac052e9e",
+      "title": "Регистрации китайских грузовиков в России упали на 28%",
+      "created_at": "2026-11-03T21:19:41.711700+00:00",
       "format": "social-v2"
     }
   ]
