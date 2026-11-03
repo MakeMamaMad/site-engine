@@ -2347,20 +2347,30 @@
       "sent_at": "2026-11-02T16:22:51+00:00",
       "title": "К дню рождения Юрия Павловича Вайнштейна",
       "slug": "k-dnyu-rozhdeniya-yuriya-pavlovicha-vaynshteyna-8ec0d56d"
+    },
+    "https://sdelanounas.ru/blogs/179182/": {
+      "digest_id": "2026-11-03:am",
+      "message_id": 1709,
+      "sent_at": "2026-11-03T06:44:44+00:00",
+      "title": "Сварку кузовов автобусов на Павловском заводе передали шести роботам",
+      "slug": "svarku-kuzovov-avtobusov-na-pavlovskom-zavode-peredali-shesti-robotam-9628a248"
+    },
+    "https://trailertechnician.com/2026/11/bendix-unisync-hub-and-rotor-system/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-unisync-hub-and-rotor-system": {
+      "digest_id": "2026-11-03:am",
+      "message_id": 1709,
+      "sent_at": "2026-11-03T06:44:44+00:00",
+      "title": "Bendix UniSyncTM Hub и система роторов",
+      "slug": "bendix-unisynctm-hub-i-sistema-rotorov-79332387"
+    },
+    "https://www.globaltrailermag.com/us-imposes-duties-on-chinese-trailers/": {
+      "digest_id": "2026-11-03:am",
+      "message_id": 1709,
+      "sent_at": "2026-11-03T06:44:44+00:00",
+      "title": "США вводят пошлины на китайские трейлеры",
+      "slug": "ssha-vvodyat-poshliny-na-kitayskie-treylery-dcd65a16"
     }
   },
   "digests": {
-    "2026-10-15:am": {
-      "message_id": 1603,
-      "sent_at": "2026-10-15T11:19:32+00:00",
-      "slot": "am",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3396_prodaji_novih_srednetonnajnih_gryzovikov_v_sentyabre_virosli_na_65.html",
-        "http://gruzovoy.ru/news/industry/3394_direktor_nemo_raskril_formyly_pravilnogo_elektrogryzovika.html",
-        "https://sdelanounas.ru/blogs/178821/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-15:pm": {
       "message_id": 1607,
       "sent_at": "2026-10-15T16:53:34+00:00",
@@ -2677,6 +2687,17 @@
         "https://www.globaltrailermag.com/ata-appoints-ceo/",
         "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/",
         "https://tonar.info/news/k-dniu-rozdeniia-iuriia-pavlovica-vainsteina"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-03:am": {
+      "message_id": 1709,
+      "sent_at": "2026-11-03T06:44:44+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/179182/",
+        "https://trailertechnician.com/2026/11/bendix-unisync-hub-and-rotor-system/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-unisync-hub-and-rotor-system",
+        "https://www.globaltrailermag.com/us-imposes-duties-on-chinese-trailers/"
       ],
       "visual": "visual"
     }
