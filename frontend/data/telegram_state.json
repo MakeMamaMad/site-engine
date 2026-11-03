@@ -2335,9 +2335,9 @@
       "slug": "ata-naznachaet-ceo-3103c6b2"
     },
     "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/": {
-      "digest_id": "2026-11-02:pm",
-      "message_id": 1704,
-      "sent_at": "2026-11-02T16:22:51+00:00",
+      "digest_id": "2026-11-03:pm",
+      "message_id": 1710,
+      "sent_at": "2026-11-03T14:29:55+00:00",
       "title": "Индия объединила транспортно-логистическое планирование",
       "slug": "indiya-obedinila-transportno-logisticheskoe-planirovanie-e132e634"
     },
@@ -2356,9 +2356,9 @@
       "slug": "svarku-kuzovov-avtobusov-na-pavlovskom-zavode-peredali-shesti-robotam-9628a248"
     },
     "https://trailertechnician.com/2026/11/bendix-unisync-hub-and-rotor-system/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-unisync-hub-and-rotor-system": {
-      "digest_id": "2026-11-03:am",
-      "message_id": 1709,
-      "sent_at": "2026-11-03T06:44:44+00:00",
+      "digest_id": "2026-11-03:pm",
+      "message_id": 1710,
+      "sent_at": "2026-11-03T14:29:55+00:00",
       "title": "Bendix UniSyncTM Hub и система роторов",
       "slug": "bendix-unisynctm-hub-i-sistema-rotorov-79332387"
     },
@@ -2368,20 +2368,16 @@
       "sent_at": "2026-11-03T06:44:44+00:00",
       "title": "США вводят пошлины на китайские трейлеры",
       "slug": "ssha-vvodyat-poshliny-na-kitayskie-treylery-dcd65a16"
+    },
+    "http://gruzovoy.ru/news/industry/3423_chmz_predstavil_toplivozapravshik_na_baze_kamaz_kompas_12.html": {
+      "digest_id": "2026-11-03:pm",
+      "message_id": 1710,
+      "sent_at": "2026-11-03T14:29:55+00:00",
+      "title": "ЧМЗ представил топливозаправщик на базе КАМАЗ «Компас 12»",
+      "slug": "chmz-predstavil-toplivozapravschik-na-baze-kamaz-kompas-12-a2f49563"
     }
   },
   "digests": {
-    "2026-10-15:pm": {
-      "message_id": 1607,
-      "sent_at": "2026-10-15T16:53:34+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/peru-advances-e780m-port-development/",
-        "https://uralaz.ru/media/news/ural-motorsport-poboretsya-za-titul-tsar-gory-2026/",
-        "https://www.globaltrailermag.com/qube-bolsters-mining-logistics-footprint-in-australia/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-16:am": {
       "message_id": 1612,
       "sent_at": "2026-10-16T11:14:17+00:00",
@@ -2698,6 +2694,17 @@
         "https://sdelanounas.ru/blogs/179182/",
         "https://trailertechnician.com/2026/11/bendix-unisync-hub-and-rotor-system/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-unisync-hub-and-rotor-system",
         "https://www.globaltrailermag.com/us-imposes-duties-on-chinese-trailers/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-03:pm": {
+      "message_id": 1710,
+      "sent_at": "2026-11-03T14:29:55+00:00",
+      "slot": "pm",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3423_chmz_predstavil_toplivozapravshik_na_baze_kamaz_kompas_12.html",
+        "https://trailertechnician.com/2026/11/bendix-unisync-hub-and-rotor-system/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-unisync-hub-and-rotor-system",
+        "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/"
       ],
       "visual": "visual"
     }
