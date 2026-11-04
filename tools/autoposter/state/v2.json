@@ -78,7 +78,8 @@
     "guide:stoimost-reysa",
     "testdrive:why#1",
     "a2f495639977",
-    "ac052e9eaa6c"
+    "ac052e9eaa6c",
+    "b682f73b24ec"
   ],
   "renders": [
     {
@@ -625,6 +626,13 @@
       "slug": "registratsii-kitayskih-gruzovikov-v-rossii-upali-na-28-ac052e9e",
       "title": "Регистрации китайских грузовиков в России упали на 28%",
       "created_at": "2026-11-03T21:19:41.711700+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "b682f73b24ec",
+      "slug": "dorozhnye-gruzoperevozki-saudovskoy-aravii-ukreplyayut-tsepochki-postavo-b682f73b",
+      "title": "В Саудовской Аравии и странах Персидского залива работают более 500 000 грузовиков",
+      "created_at": "2026-11-04T06:09:04.984973+00:00",
       "format": "social-v2"
     }
   ]
