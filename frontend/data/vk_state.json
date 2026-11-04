@@ -2196,6 +2196,27 @@
       "sent_at": "2026-11-03T14:30:39+00:00",
       "title": "ЧМЗ представил топливозаправщик на базе КАМАЗ «Компас 12»",
       "slug": "chmz-predstavil-toplivozapravschik-na-baze-kamaz-kompas-12-a2f49563"
+    },
+    "https://sdelanounas.ru/blogs/179209/": {
+      "digest_id": "2026-11-04:pm",
+      "post_id": 217,
+      "sent_at": "2026-11-04T14:23:58+00:00",
+      "title": "На \"ИТМ Спецмашина\" создали современный окрасочно-дробеструйный комплекс",
+      "slug": "na-itm-spetsmashina-sozdali-sovremennyy-okrasochno-drobestruynyy-komplek-1806e727"
+    },
+    "http://gruzovoy.ru/news/industry/3424_registracii_kitaiskih_gryzovikov_v_rossii_ypali_na_28.html": {
+      "digest_id": "2026-11-04:pm",
+      "post_id": 217,
+      "sent_at": "2026-11-04T14:23:58+00:00",
+      "title": "Регистрации китайских грузовиков в России упали на 28%",
+      "slug": "registratsii-kitayskih-gruzovikov-v-rossii-upali-na-28-ac052e9e"
+    },
+    "https://www.globaltrailermag.com/saudi-road-freight-strengthens-gulf-supply-chains/": {
+      "digest_id": "2026-11-04:pm",
+      "post_id": 217,
+      "sent_at": "2026-11-04T14:23:58+00:00",
+      "title": "Дорожные грузоперевозки Саудовской Аравии укрепляют цепочки поставок в Персидском заливе",
+      "slug": "dorozhnye-gruzoperevozki-saudovskoy-aravii-ukreplyayut-tsepochki-postavo-b682f73b"
     }
   },
   "digests": {
@@ -2842,6 +2863,17 @@
         "https://sdelanounas.ru/blogs/179182/",
         "https://trailertechnician.com/2026/11/bendix-unisync-hub-and-rotor-system/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-unisync-hub-and-rotor-system",
         "http://gruzovoy.ru/news/industry/3423_chmz_predstavil_toplivozapravshik_na_baze_kamaz_kompas_12.html"
+      ]
+    },
+    "2026-11-04:pm": {
+      "post_id": 217,
+      "sent_at": "2026-11-04T14:23:58+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179209/",
+        "http://gruzovoy.ru/news/industry/3424_registracii_kitaiskih_gryzovikov_v_rossii_ypali_na_28.html",
+        "https://www.globaltrailermag.com/saudi-road-freight-strengthens-gulf-supply-chains/"
       ]
     }
   }
