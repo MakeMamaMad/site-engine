@@ -2398,6 +2398,36 @@
         }
       },
       "updated_at": "2026-11-04T06:09:04.982167+00:00"
+    },
+    "testdrive:compare#1": {
+      "title": "SAT-500 или SAT-545: что выбрать",
+      "created_at": "2026-11-04T21:27:52.111704+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "c1btx9LHWQ0",
+          "url": "https://www.youtube.com/shorts/c1btx9LHWQ0",
+          "updated_at": "2026-11-04T21:27:52.111725+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aeba3590baebf13ccc13b18",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-04T21:28:39.465680+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aeba3883a6057e11e768688",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-04T21:29:36.881851+00:00"
+        }
+      },
+      "updated_at": "2026-11-04T21:29:36.881848+00:00"
     }
   }
 }
