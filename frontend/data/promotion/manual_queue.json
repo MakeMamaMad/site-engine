@@ -659,7 +659,24 @@
       "updated_at": "2026-11-03T14:34:18+00:00",
       "sent_at": "2026-11-03T14:34:18+00:00",
       "gmail_message_id": "1a1a1d514dd9318c"
+    },
+    {
+      "action_id": "editorial:spetstehnika-novosti-editorial:tehnicheskoe-obsluzhivanie-polupricepa",
+      "channel": "email",
+      "target_id": "spetstehnika-novosti-editorial",
+      "target_name": "Вестник Спецтехники",
+      "action": "send_editorial_email",
+      "contact": "redakciya@spetstehnika-novosti.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для Вестник Спецтехники: Техническое обслуживание полуприцепа: рабочий чек-лист",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «Вестник Спецтехники» рассмотреть оригинальный практический материал: «Техническое обслуживание полуприцепа: рабочий чек-лист».\nХороший регламент ТО полуприцепа должен быть привязан не только к пробегу, но и к реальным условиям эксплуатации. Карьер, стройка, зерновые перевозки и магистральная работа дают разную нагрузку на одни и те же узлы.\n\nМатериал: https://spec-avtoportal.ru/knowledge/tehnicheskoe-obsluzhivanie-polupricepa/?utm_source=spetstehnika-novosti-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=tehnicheskoe-obsluzhivanie-polupricepa\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/tehnicheskoe-obsluzhivanie-polupricepa/?utm_source=spetstehnika-novosti-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=tehnicheskoe-obsluzhivanie-polupricepa",
+      "created_at": "2026-11-04T17:26:44+00:00",
+      "updated_at": "2026-11-04T17:26:46+00:00",
+      "sent_at": "2026-11-04T17:26:46+00:00",
+      "gmail_message_id": "1a1a799526290f1f"
     }
   ],
-  "updated_at": "2026-11-04T14:25:59+00:00"
+  "updated_at": "2026-11-04T17:26:46+00:00"
 }
