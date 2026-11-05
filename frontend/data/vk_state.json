@@ -2257,6 +2257,27 @@
       "sent_at": "2026-11-04T14:23:58+00:00",
       "title": "Дорожные грузоперевозки Саудовской Аравии укрепляют цепочки поставок в Персидском заливе",
       "slug": "dorozhnye-gruzoperevozki-saudovskoy-aravii-ukreplyayut-tsepochki-postavo-b682f73b"
+    },
+    "https://www.globaltrailermag.com/gebruder-weiss-marks-50-years-with-rewe/": {
+      "digest_id": "2026-11-05:am",
+      "post_id": 223,
+      "sent_at": "2026-11-05T10:51:18+00:00",
+      "title": "Гебрудер Вайс отмечает 50-летие REWE",
+      "slug": "gebruder-vays-otmechaet-50-letie-rewe-e1f9fa79"
+    },
+    "https://www.globaltrailermag.com/saf-holland-names-apac-president/": {
+      "digest_id": "2026-11-05:am",
+      "post_id": 223,
+      "sent_at": "2026-11-05T10:51:18+00:00",
+      "title": "SAF-Holland назначили президентом APAC",
+      "slug": "saf-holland-naznachili-prezidentom-apac-ecf7cca4"
+    },
+    "https://sdelanounas.ru/blogs/179197/": {
+      "digest_id": "2026-11-05:am",
+      "post_id": 223,
+      "sent_at": "2026-11-05T10:51:18+00:00",
+      "title": "Дистрибьютор ErichKrause переводит логистику на беспилотные грузовики",
+      "slug": "distribyutor-erichkrause-perevodit-logistiku-na-bespilotnye-gruzoviki-d5979d32"
     }
   },
   "digests": {
@@ -2914,6 +2935,17 @@
         "https://sdelanounas.ru/blogs/179209/",
         "http://gruzovoy.ru/news/industry/3424_registracii_kitaiskih_gryzovikov_v_rossii_ypali_na_28.html",
         "https://www.globaltrailermag.com/saudi-road-freight-strengthens-gulf-supply-chains/"
+      ]
+    },
+    "2026-11-05:am": {
+      "post_id": 223,
+      "sent_at": "2026-11-05T10:51:18+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/gebruder-weiss-marks-50-years-with-rewe/",
+        "https://www.globaltrailermag.com/saf-holland-names-apac-president/",
+        "https://sdelanounas.ru/blogs/179197/"
       ]
     }
   }
