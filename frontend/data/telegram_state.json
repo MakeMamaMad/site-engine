@@ -2495,20 +2495,30 @@
       "sent_at": "2026-11-04T14:25:14+00:00",
       "title": "Трансграничная торговля между Камеруном и ЦАР обойдется в 2,68 млн евро",
       "slug": "transgranichnaya-torgovlya-mezhdu-kamerunom-i-tsar-oboydetsya-v-2-68-mln-7d8a0764"
+    },
+    "https://sdelanounas.ru/blogs/179197/": {
+      "digest_id": "2026-11-05:am",
+      "message_id": 1724,
+      "sent_at": "2026-11-05T10:53:17+00:00",
+      "title": "Дистрибьютор ErichKrause переводит логистику на беспилотные грузовики",
+      "slug": "distribyutor-erichkrause-perevodit-logistiku-na-bespilotnye-gruzoviki-d5979d32"
+    },
+    "https://www.globaltrailermag.com/saf-holland-names-apac-president/": {
+      "digest_id": "2026-11-05:am",
+      "message_id": 1724,
+      "sent_at": "2026-11-05T10:53:17+00:00",
+      "title": "SAF-Holland назначили президентом APAC",
+      "slug": "saf-holland-naznachili-prezidentom-apac-ecf7cca4"
+    },
+    "https://www.globaltrailermag.com/gebruder-weiss-marks-50-years-with-rewe/": {
+      "digest_id": "2026-11-05:am",
+      "message_id": 1724,
+      "sent_at": "2026-11-05T10:53:17+00:00",
+      "title": "Гебрудер Вайс отмечает 50-летие REWE",
+      "slug": "gebruder-vays-otmechaet-50-letie-rewe-e1f9fa79"
     }
   },
   "digests": {
-    "2026-10-16:pm": {
-      "message_id": 1613,
-      "sent_at": "2026-10-16T19:39:36+00:00",
-      "slot": "pm",
-      "items": [
-        "https://sdelanounas.ru/blogs/178851/",
-        "https://www.globaltrailermag.com/dp-world-appoints-asia-pacific-ceo/",
-        "https://nefaz.ru/news/kamaz-predstavil-elektrobus-novogo-pokoleniya-a5-na-forume-obschestvennyy-transport-2026"
-      ],
-      "visual": "visual"
-    },
     "2026-10-17:am": {
       "message_id": 1616,
       "sent_at": "2026-10-17T10:33:17+00:00",
@@ -2825,6 +2835,17 @@
         "https://sdelanounas.ru/blogs/179205/",
         "https://sdelanounas.ru/blogs/179209/",
         "https://www.globaltrailermag.com/cameroon-car-cross-border-trade-project-secures-e2-68m/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-05:am": {
+      "message_id": 1724,
+      "sent_at": "2026-11-05T10:53:17+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/179197/",
+        "https://www.globaltrailermag.com/saf-holland-names-apac-president/",
+        "https://www.globaltrailermag.com/gebruder-weiss-marks-50-years-with-rewe/"
       ],
       "visual": "visual"
     }
