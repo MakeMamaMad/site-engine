@@ -2428,6 +2428,36 @@
         }
       },
       "updated_at": "2026-11-04T21:29:36.881848+00:00"
+    },
+    "ecf7cca448a7": {
+      "title": "SAF-Holland назначила президента APAC",
+      "created_at": "2026-11-05T06:28:00.863822+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "GsHfMFMP550",
+          "url": "https://www.youtube.com/shorts/GsHfMFMP550",
+          "updated_at": "2026-11-05T06:28:00.863842+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aec21f13ddb81d2210bd0c8",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-05T06:29:48.356559+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aec225d80f7fd0537f46654",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-05T06:31:05.846028+00:00"
+        }
+      },
+      "updated_at": "2026-11-05T06:31:05.846026+00:00"
     }
   }
 }
