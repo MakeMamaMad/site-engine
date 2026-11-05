@@ -2516,20 +2516,30 @@
       "sent_at": "2026-11-05T10:53:17+00:00",
       "title": "Гебрудер Вайс отмечает 50-летие REWE",
       "slug": "gebruder-vays-otmechaet-50-letie-rewe-e1f9fa79"
+    },
+    "https://www.globaltrailermag.com/saudi-road-freight-strengthens-gulf-supply-chains/": {
+      "digest_id": "2026-11-05:pm",
+      "message_id": 1725,
+      "sent_at": "2026-11-05T14:50:11+00:00",
+      "title": "Дорожные грузоперевозки Саудовской Аравии укрепляют цепочки поставок в Персидском заливе",
+      "slug": "dorozhnye-gruzoperevozki-saudovskoy-aravii-ukreplyayut-tsepochki-postavo-b682f73b"
+    },
+    "https://sdelanounas.ru/blogs/179220/": {
+      "digest_id": "2026-11-05:pm",
+      "message_id": 1725,
+      "sent_at": "2026-11-05T14:50:11+00:00",
+      "title": "Реактор на «Чукотке». Ил-114-300 с декабря. МС-21 только в 2027-м | Итоги октября",
+      "slug": "reaktor-na-chukotke-il-114-300-s-dekabrya-ms-21-tolko-v-2027-m-itogi-okt-48f2ea9b"
+    },
+    "https://www.globaltrailermag.com/tfi-international-trucking-income-nearly-doubles/": {
+      "digest_id": "2026-11-05:pm",
+      "message_id": 1725,
+      "sent_at": "2026-11-05T14:50:11+00:00",
+      "title": "Доходы TFI International почти удвоились",
+      "slug": "dohody-tfi-international-pochti-udvoilis-47903532"
     }
   },
   "digests": {
-    "2026-10-17:am": {
-      "message_id": 1616,
-      "sent_at": "2026-10-17T10:33:17+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/178882/",
-        "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
-        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-17:pm": {
       "message_id": 1618,
       "sent_at": "2026-10-17T18:44:42+00:00",
@@ -2846,6 +2856,17 @@
         "https://sdelanounas.ru/blogs/179197/",
         "https://www.globaltrailermag.com/saf-holland-names-apac-president/",
         "https://www.globaltrailermag.com/gebruder-weiss-marks-50-years-with-rewe/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-05:pm": {
+      "message_id": 1725,
+      "sent_at": "2026-11-05T14:50:11+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/saudi-road-freight-strengthens-gulf-supply-chains/",
+        "https://sdelanounas.ru/blogs/179220/",
+        "https://www.globaltrailermag.com/tfi-international-trucking-income-nearly-doubles/"
       ],
       "visual": "visual"
     }
