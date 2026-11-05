@@ -81,7 +81,8 @@
     "ac052e9eaa6c",
     "b682f73b24ec",
     "testdrive:compare#1",
-    "ecf7cca448a7"
+    "ecf7cca448a7",
+    "b37ce2499c27"
   ],
   "renders": [
     {
@@ -649,6 +650,13 @@
       "slug": "saf-holland-naznachili-prezidentom-apac-ecf7cca4",
       "title": "SAF-Holland назначила президента APAC",
       "created_at": "2026-11-05T06:31:05.849153+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "b37ce2499c27",
+      "slug": "uralspetstrans-vypustil-novyy-polupritsep-maslovoz-b37ce249",
+      "title": "«УралСпецТранс» выпустил новый полуприцеп-масловоз",
+      "created_at": "2026-11-05T21:38:03.347083+00:00",
       "format": "social-v2"
     }
   ]
