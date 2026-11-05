@@ -2278,6 +2278,27 @@
       "sent_at": "2026-11-05T10:51:18+00:00",
       "title": "Дистрибьютор ErichKrause переводит логистику на беспилотные грузовики",
       "slug": "distribyutor-erichkrause-perevodit-logistiku-na-bespilotnye-gruzoviki-d5979d32"
+    },
+    "https://sdelanounas.ru/blogs/179231/": {
+      "digest_id": "2026-11-05:pm",
+      "post_id": 224,
+      "sent_at": "2026-11-05T14:54:47+00:00",
+      "title": "«УралСпецТранс» выпустил новый полуприцеп-масловоз",
+      "slug": "uralspetstrans-vypustil-novyy-polupritsep-maslovoz-b37ce249"
+    },
+    "https://www.globaltrailermag.com/cameroon-car-cross-border-trade-project-secures-e2-68m/": {
+      "digest_id": "2026-11-05:pm",
+      "post_id": 224,
+      "sent_at": "2026-11-05T14:54:47+00:00",
+      "title": "Трансграничная торговля между Камеруном и ЦАР обойдется в 2,68 млн евро",
+      "slug": "transgranichnaya-torgovlya-mezhdu-kamerunom-i-tsar-oboydetsya-v-2-68-mln-7d8a0764"
+    },
+    "https://sdelanounas.ru/blogs/179205/": {
+      "digest_id": "2026-11-05:pm",
+      "post_id": 224,
+      "sent_at": "2026-11-05T14:54:47+00:00",
+      "title": "В «Технополисе Москва» открыли завод электрической коммунальной техники полного цикла",
+      "slug": "v-tehnopolise-moskva-otkryli-zavod-elektricheskoy-kommunalnoy-tehniki-po-1996b972"
     }
   },
   "digests": {
@@ -2946,6 +2967,17 @@
         "https://www.globaltrailermag.com/gebruder-weiss-marks-50-years-with-rewe/",
         "https://www.globaltrailermag.com/saf-holland-names-apac-president/",
         "https://sdelanounas.ru/blogs/179197/"
+      ]
+    },
+    "2026-11-05:pm": {
+      "post_id": 224,
+      "sent_at": "2026-11-05T14:54:47+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179231/",
+        "https://www.globaltrailermag.com/cameroon-car-cross-border-trade-project-secures-e2-68m/",
+        "https://sdelanounas.ru/blogs/179205/"
       ]
     }
   }
