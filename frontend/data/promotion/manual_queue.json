@@ -676,7 +676,24 @@
       "updated_at": "2026-11-04T17:26:46+00:00",
       "sent_at": "2026-11-04T17:26:46+00:00",
       "gmail_message_id": "1a1a799526290f1f"
+    },
+    {
+      "action_id": "editorial:5koleso-avtopark:gabarity-i-massy",
+      "channel": "email",
+      "target_id": "5koleso-avtopark",
+      "target_name": "Журнал «Автопарк» (5 Колесо)",
+      "action": "send_editorial_email",
+      "contact": "m.ozhereliev@5koleso.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для Журнал «Автопарк» (5 Колесо): Габариты и массы автопоезда: основные пределы",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «Журнал «Автопарк» (5 Колесо)» рассмотреть оригинальный практический материал: «Габариты и массы автопоезда: основные пределы».\nПеред загрузкой важно проверять четыре параметра: длину, ширину, высоту и массу. Для перевозчика они определяют, проходит ли автопоезд как обычный или уже требует специальных условий движения.\n\nМатериал: https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=5koleso-avtopark&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=5koleso-avtopark&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "created_at": "2026-11-05T14:55:58+00:00",
+      "updated_at": "2026-11-05T14:55:59+00:00",
+      "sent_at": "2026-11-05T14:55:59+00:00",
+      "gmail_message_id": "1a1ac35a4659d5d5"
     }
   ],
-  "updated_at": "2026-11-04T17:59:11+00:00"
+  "updated_at": "2026-11-05T14:55:59+00:00"
 }

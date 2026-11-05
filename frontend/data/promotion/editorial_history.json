@@ -713,6 +713,19 @@
       "status": "email_sent",
       "sent_at": "2026-11-04T17:26:46+00:00",
       "gmail_message_id": "1a1a799526290f1f"
+    },
+    {
+      "target_id": "5koleso-avtopark",
+      "target_name": "Журнал «Автопарк» (5 Колесо)",
+      "slug": "gabarity-i-massy",
+      "title": "Габариты и массы автопоезда: основные пределы",
+      "site_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=5koleso-avtopark&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "contact": "m.ozhereliev@5koleso.ru",
+      "item_key": "knowledge:gabarity-i-massy",
+      "created_at": "2026-11-05T14:55:58+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-05T14:55:59+00:00",
+      "gmail_message_id": "1a1ac35a4659d5d5"
     }
   ]
 }
