@@ -2573,20 +2573,30 @@
       "sent_at": "2026-11-05T14:50:11+00:00",
       "title": "Доходы TFI International почти удвоились",
       "slug": "dohody-tfi-international-pochti-udvoilis-47903532"
+    },
+    "https://sdelanounas.ru/blogs/179231/": {
+      "digest_id": "2026-11-06:am",
+      "message_id": 1730,
+      "sent_at": "2026-11-06T10:53:31+00:00",
+      "title": "«УралСпецТранс» выпустил новый полуприцеп-масловоз",
+      "slug": "uralspetstrans-vypustil-novyy-polupritsep-maslovoz-b37ce249"
+    },
+    "https://www.globaltrailermag.com/kuehnenagel-appoints-national-managers-in-germany-spain-and-the-us/": {
+      "digest_id": "2026-11-06:am",
+      "message_id": 1730,
+      "sent_at": "2026-11-06T10:53:31+00:00",
+      "title": "Kuehne+Nagel назначает национальных менеджеров в Германии, Испании и США",
+      "slug": "kuehne-nagel-naznachaet-natsionalnyh-menedzherov-v-germanii-ispanii-i-ss-d8882cb5"
+    },
+    "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/": {
+      "digest_id": "2026-11-06:am",
+      "message_id": 1730,
+      "sent_at": "2026-11-06T10:53:31+00:00",
+      "title": "Randon представил более длинный полуприцеп для электронной коммерции",
+      "slug": "randon-predstavil-bolee-dlinnyy-polupritsep-dlya-elektronnoy-kommertsii-1e6d5c98"
     }
   },
   "digests": {
-    "2026-10-17:pm": {
-      "message_id": 1618,
-      "sent_at": "2026-10-17T18:44:42+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/kogel-opens-poland-subsidiary/",
-        "http://gruzovoy.ru/news/industry/3400_v_tatarstane_zapystili_proizvodstvo_komponentov_dlya_gryzovikov_kamaz.html",
-        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-18:am": {
       "message_id": 1620,
       "sent_at": "2026-10-18T10:53:55+00:00",
@@ -2903,6 +2913,17 @@
         "https://www.globaltrailermag.com/saudi-road-freight-strengthens-gulf-supply-chains/",
         "https://sdelanounas.ru/blogs/179220/",
         "https://www.globaltrailermag.com/tfi-international-trucking-income-nearly-doubles/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-06:am": {
+      "message_id": 1730,
+      "sent_at": "2026-11-06T10:53:31+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/179231/",
+        "https://www.globaltrailermag.com/kuehnenagel-appoints-national-managers-in-germany-spain-and-the-us/",
+        "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/"
       ],
       "visual": "visual"
     }
