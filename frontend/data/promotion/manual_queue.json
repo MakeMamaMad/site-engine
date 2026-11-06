@@ -707,7 +707,24 @@
       "tracking_url": "https://spec-avtoportal.ru/knowledge/kreplenie-gruzov/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kreplenie-gruzov",
       "created_at": "2026-11-05T17:32:32+00:00",
       "updated_at": "2026-11-05T17:32:32+00:00"
+    },
+    {
+      "action_id": "editorial:kolesa-news:registraciya-polupricepa",
+      "channel": "email",
+      "target_id": "kolesa-news",
+      "target_name": "Колёса.ру — отдел новостей (раздел «Грузовики и автобусы»)",
+      "action": "send_editorial_email",
+      "contact": "news@kolesa.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для Колёса.ру — отдел новостей (раздел «Грузовики и автобусы»): Регистрация полуприцепа в ГИБДД в 2026 году: сроки, документы, порядок",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «Колёса.ру — отдел новостей (раздел «Грузовики и автобусы»)» рассмотреть оригинальный практический материал: «Регистрация полуприцепа в ГИБДД в 2026 году: сроки, документы, порядок».\nПолуприцеп, как и тягач, подлежит государственной регистрации в ГИБДД. Порядок установлен Правилами государственной регистрации транспортных средств, утверждёнными постановлением Правительства № 1764 от 21.12.2019. Главное — уложиться в 10 дней после покупки и подготовить документы заранее.\n\nМатериал: https://spec-avtoportal.ru/knowledge/registraciya-polupricepa/?utm_source=kolesa-news&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=registraciya-polupricepa\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/registraciya-polupricepa/?utm_source=kolesa-news&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=registraciya-polupricepa",
+      "created_at": "2026-11-06T14:30:59+00:00",
+      "updated_at": "2026-11-06T14:31:00+00:00",
+      "sent_at": "2026-11-06T14:31:00+00:00",
+      "gmail_message_id": "1a1b14522d624077"
     }
   ],
-  "updated_at": "2026-11-05T18:01:36+00:00"
+  "updated_at": "2026-11-06T14:31:00+00:00"
 }
