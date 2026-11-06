@@ -82,7 +82,8 @@
     "b682f73b24ec",
     "testdrive:compare#1",
     "ecf7cca448a7",
-    "b37ce2499c27"
+    "b37ce2499c27",
+    "1e6d5c98ca18"
   ],
   "renders": [
     {
@@ -657,6 +658,13 @@
       "slug": "uralspetstrans-vypustil-novyy-polupritsep-maslovoz-b37ce249",
       "title": "«УралСпецТранс» выпустил новый полуприцеп-масловоз",
       "created_at": "2026-11-05T21:38:03.347083+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "1e6d5c98ca18",
+      "slug": "randon-predstavil-bolee-dlinnyy-polupritsep-dlya-elektronnoy-kommertsii-1e6d5c98",
+      "title": "Randon готовит 16,4-метровый полуприцеп для электронной коммерции",
+      "created_at": "2026-11-06T06:25:07.903709+00:00",
       "format": "social-v2"
     }
   ]
