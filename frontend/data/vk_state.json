@@ -2331,6 +2331,27 @@
       "sent_at": "2026-11-05T14:54:47+00:00",
       "title": "В «Технополисе Москва» открыли завод электрической коммунальной техники полного цикла",
       "slug": "v-tehnopolise-moskva-otkryli-zavod-elektricheskoy-kommunalnoy-tehniki-po-1996b972"
+    },
+    "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/": {
+      "digest_id": "2026-11-06:am",
+      "post_id": 229,
+      "sent_at": "2026-11-06T10:50:13+00:00",
+      "title": "Randon представил более длинный полуприцеп для электронной коммерции",
+      "slug": "randon-predstavil-bolee-dlinnyy-polupritsep-dlya-elektronnoy-kommertsii-1e6d5c98"
+    },
+    "http://gruzovoy.ru/news/industry/3426_pervii_vipysk_novogo_sezona_podkasta_comvex_dialog_85_let_avtozavody_yral.html": {
+      "digest_id": "2026-11-06:am",
+      "post_id": 229,
+      "sent_at": "2026-11-06T10:50:13+00:00",
+      "title": "Первый выпуск нового сезона подкаста «COMvex Диалог»: 85 лет Автозаводу «Урал»",
+      "slug": "pervyy-vypusk-novogo-sezona-podkasta-comvex-dialog-85-let-avtozavodu-ura-4b32c292"
+    },
+    "https://www.globaltrailermag.com/kuehnenagel-appoints-national-managers-in-germany-spain-and-the-us/": {
+      "digest_id": "2026-11-06:am",
+      "post_id": 229,
+      "sent_at": "2026-11-06T10:50:13+00:00",
+      "title": "Kuehne+Nagel назначает национальных менеджеров в Германии, Испании и США",
+      "slug": "kuehne-nagel-naznachaet-natsionalnyh-menedzherov-v-germanii-ispanii-i-ss-d8882cb5"
     }
   },
   "digests": {
@@ -3010,6 +3031,17 @@
         "https://sdelanounas.ru/blogs/179231/",
         "https://www.globaltrailermag.com/cameroon-car-cross-border-trade-project-secures-e2-68m/",
         "https://sdelanounas.ru/blogs/179205/"
+      ]
+    },
+    "2026-11-06:am": {
+      "post_id": 229,
+      "sent_at": "2026-11-06T10:50:13+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/",
+        "http://gruzovoy.ru/news/industry/3426_pervii_vipysk_novogo_sezona_podkasta_comvex_dialog_85_let_avtozavody_yral.html",
+        "https://www.globaltrailermag.com/kuehnenagel-appoints-national-managers-in-germany-spain-and-the-us/"
       ]
     }
   }
