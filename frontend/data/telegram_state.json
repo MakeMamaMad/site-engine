@@ -2575,9 +2575,9 @@
       "slug": "dohody-tfi-international-pochti-udvoilis-47903532"
     },
     "https://sdelanounas.ru/blogs/179231/": {
-      "digest_id": "2026-11-06:am",
-      "message_id": 1730,
-      "sent_at": "2026-11-06T10:53:31+00:00",
+      "digest_id": "2026-11-06:pm",
+      "message_id": 1731,
+      "sent_at": "2026-11-06T14:28:25+00:00",
       "title": "«УралСпецТранс» выпустил новый полуприцеп-масловоз",
       "slug": "uralspetstrans-vypustil-novyy-polupritsep-maslovoz-b37ce249"
     },
@@ -2594,20 +2594,23 @@
       "sent_at": "2026-11-06T10:53:31+00:00",
       "title": "Randon представил более длинный полуприцеп для электронной коммерции",
       "slug": "randon-predstavil-bolee-dlinnyy-polupritsep-dlya-elektronnoy-kommertsii-1e6d5c98"
+    },
+    "http://gruzovoy.ru/news/industry/3426_pervii_vipysk_novogo_sezona_podkasta_comvex_dialog_85_let_avtozavody_yral.html": {
+      "digest_id": "2026-11-06:pm",
+      "message_id": 1731,
+      "sent_at": "2026-11-06T14:28:25+00:00",
+      "title": "Первый выпуск нового сезона подкаста «COMvex Диалог»: 85 лет Автозаводу «Урал»",
+      "slug": "pervyy-vypusk-novogo-sezona-podkasta-comvex-dialog-85-let-avtozavodu-ura-4b32c292"
+    },
+    "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/": {
+      "digest_id": "2026-11-06:pm",
+      "message_id": 1731,
+      "sent_at": "2026-11-06T14:28:25+00:00",
+      "title": "Грузовые полуприцепы в рассрочку",
+      "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55"
     }
   },
   "digests": {
-    "2026-10-18:am": {
-      "message_id": 1620,
-      "sent_at": "2026-10-18T10:53:55+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/178895/",
-        "http://gruzovoy.ru/news/industry/3390_anatomiya_rosta_gde_iskat_resyrsi_kogda_rinok_sjimaetsya.html",
-        "https://sdelanounas.ru/blogs/178882/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-19:pm": {
       "message_id": 1627,
       "sent_at": "2026-10-19T12:55:21+00:00",
@@ -2924,6 +2927,17 @@
         "https://sdelanounas.ru/blogs/179231/",
         "https://www.globaltrailermag.com/kuehnenagel-appoints-national-managers-in-germany-spain-and-the-us/",
         "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-06:pm": {
+      "message_id": 1731,
+      "sent_at": "2026-11-06T14:28:25+00:00",
+      "slot": "pm",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3426_pervii_vipysk_novogo_sezona_podkasta_comvex_dialog_85_let_avtozavody_yral.html",
+        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/",
+        "https://sdelanounas.ru/blogs/179231/"
       ],
       "visual": "visual"
     }
