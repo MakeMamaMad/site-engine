@@ -2352,6 +2352,27 @@
       "sent_at": "2026-11-06T10:50:13+00:00",
       "title": "Kuehne+Nagel назначает национальных менеджеров в Германии, Испании и США",
       "slug": "kuehne-nagel-naznachaet-natsionalnyh-menedzherov-v-germanii-ispanii-i-ss-d8882cb5"
+    },
+    "https://www.globaltrailermag.com/tii-group-appoints-managing-director/": {
+      "digest_id": "2026-11-06:pm",
+      "post_id": 230,
+      "sent_at": "2026-11-06T14:32:44+00:00",
+      "title": "TII Group назначила управляющего директора",
+      "slug": "tii-group-naznachila-upravlyayuschego-direktora-8a0a73d9"
+    },
+    "https://sdelanounas.ru/blogs/179220/": {
+      "digest_id": "2026-11-06:pm",
+      "post_id": 230,
+      "sent_at": "2026-11-06T14:32:44+00:00",
+      "title": "Реактор на «Чукотке». Ил-114-300 с декабря. МС-21 только в 2027-м | Итоги октября",
+      "slug": "reaktor-na-chukotke-il-114-300-s-dekabrya-ms-21-tolko-v-2027-m-itogi-okt-48f2ea9b"
+    },
+    "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/": {
+      "digest_id": "2026-11-06:pm",
+      "post_id": 230,
+      "sent_at": "2026-11-06T14:32:44+00:00",
+      "title": "Грузовые полуприцепы в рассрочку",
+      "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55"
     }
   },
   "digests": {
@@ -3042,6 +3063,17 @@
         "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/",
         "http://gruzovoy.ru/news/industry/3426_pervii_vipysk_novogo_sezona_podkasta_comvex_dialog_85_let_avtozavody_yral.html",
         "https://www.globaltrailermag.com/kuehnenagel-appoints-national-managers-in-germany-spain-and-the-us/"
+      ]
+    },
+    "2026-11-06:pm": {
+      "post_id": 230,
+      "sent_at": "2026-11-06T14:32:44+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
+        "https://sdelanounas.ru/blogs/179220/",
+        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/"
       ]
     }
   }
