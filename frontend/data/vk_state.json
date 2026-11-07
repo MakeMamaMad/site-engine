@@ -2336,9 +2336,9 @@
       "slug": "distribyutor-erichkrause-perevodit-logistiku-na-bespilotnye-gruzoviki-d5979d32"
     },
     "https://sdelanounas.ru/blogs/179231/": {
-      "digest_id": "2026-11-05:pm",
-      "post_id": 224,
-      "sent_at": "2026-11-05T14:54:47+00:00",
+      "digest_id": "2026-11-07:am",
+      "post_id": 234,
+      "sent_at": "2026-11-07T10:03:25+00:00",
       "title": "«УралСпецТранс» выпустил новый полуприцеп-масловоз",
       "slug": "uralspetstrans-vypustil-novyy-polupritsep-maslovoz-b37ce249"
     },
@@ -2378,9 +2378,9 @@
       "slug": "kuehne-nagel-naznachaet-natsionalnyh-menedzherov-v-germanii-ispanii-i-ss-d8882cb5"
     },
     "https://www.globaltrailermag.com/tii-group-appoints-managing-director/": {
-      "digest_id": "2026-11-06:pm",
-      "post_id": 230,
-      "sent_at": "2026-11-06T14:32:44+00:00",
+      "digest_id": "2026-11-07:am",
+      "post_id": 234,
+      "sent_at": "2026-11-07T10:03:25+00:00",
       "title": "TII Group назначила управляющего директора",
       "slug": "tii-group-naznachila-upravlyayuschego-direktora-8a0a73d9"
     },
@@ -2397,6 +2397,13 @@
       "sent_at": "2026-11-06T14:32:44+00:00",
       "title": "Грузовые полуприцепы в рассрочку",
       "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55"
+    },
+    "https://sdelanounas.ru/blogs/179259/": {
+      "digest_id": "2026-11-07:am",
+      "post_id": 234,
+      "sent_at": "2026-11-07T10:03:25+00:00",
+      "title": "Боевой модуль «Цитадели» установили на автомобильное шасси",
+      "slug": "boevoy-modul-tsitadeli-ustanovili-na-avtomobilnoe-shassi-0872e23f"
     }
   },
   "digests": {
@@ -3098,6 +3105,17 @@
         "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
         "https://sdelanounas.ru/blogs/179220/",
         "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/"
+      ]
+    },
+    "2026-11-07:am": {
+      "post_id": 234,
+      "sent_at": "2026-11-07T10:03:25+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179259/",
+        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
+        "https://sdelanounas.ru/blogs/179231/"
       ]
     }
   }
