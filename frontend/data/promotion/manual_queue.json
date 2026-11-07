@@ -724,7 +724,24 @@
       "updated_at": "2026-11-06T14:31:00+00:00",
       "sent_at": "2026-11-06T14:31:00+00:00",
       "gmail_message_id": "1a1b14522d624077"
+    },
+    {
+      "action_id": "editorial:lognews-press:gabarity-i-massy",
+      "channel": "email",
+      "target_id": "lognews-press",
+      "target_name": "Lognews — новости логистики",
+      "action": "send_editorial_email",
+      "contact": "supply.chain@logisticsnews.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для Lognews — новости логистики: Габариты и массы автопоезда: основные пределы",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «Lognews — новости логистики» рассмотреть оригинальный практический материал: «Габариты и массы автопоезда: основные пределы».\nПеред загрузкой важно проверять четыре параметра: длину, ширину, высоту и массу. Для перевозчика они определяют, проходит ли автопоезд как обычный или уже требует специальных условий движения.\n\nМатериал: https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=lognews-press&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=lognews-press&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "created_at": "2026-11-07T12:54:41+00:00",
+      "updated_at": "2026-11-07T12:54:42+00:00",
+      "sent_at": "2026-11-07T12:54:42+00:00",
+      "gmail_message_id": "1a1b613522014afd"
     }
   ],
-  "updated_at": "2026-11-06T17:29:33+00:00"
+  "updated_at": "2026-11-07T12:54:42+00:00"
 }
