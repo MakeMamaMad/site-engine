@@ -2593,9 +2593,9 @@
       "slug": "dohody-tfi-international-pochti-udvoilis-47903532"
     },
     "https://sdelanounas.ru/blogs/179231/": {
-      "digest_id": "2026-11-06:pm",
-      "message_id": 1731,
-      "sent_at": "2026-11-06T14:28:25+00:00",
+      "digest_id": "2026-11-07:am",
+      "message_id": 1734,
+      "sent_at": "2026-11-07T10:05:17+00:00",
       "title": "«УралСпецТранс» выпустил новый полуприцеп-масловоз",
       "slug": "uralspetstrans-vypustil-novyy-polupritsep-maslovoz-b37ce249"
     },
@@ -2626,20 +2626,23 @@
       "sent_at": "2026-11-06T14:28:25+00:00",
       "title": "Грузовые полуприцепы в рассрочку",
       "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55"
+    },
+    "https://www.globaltrailermag.com/tii-group-appoints-managing-director/": {
+      "digest_id": "2026-11-07:am",
+      "message_id": 1734,
+      "sent_at": "2026-11-07T10:05:17+00:00",
+      "title": "TII Group назначила управляющего директора",
+      "slug": "tii-group-naznachila-upravlyayuschego-direktora-8a0a73d9"
+    },
+    "https://sdelanounas.ru/blogs/179259/": {
+      "digest_id": "2026-11-07:am",
+      "message_id": 1734,
+      "sent_at": "2026-11-07T10:05:17+00:00",
+      "title": "Боевой модуль «Цитадели» установили на автомобильное шасси",
+      "slug": "boevoy-modul-tsitadeli-ustanovili-na-avtomobilnoe-shassi-0872e23f"
     }
   },
   "digests": {
-    "2026-10-19:pm": {
-      "message_id": 1627,
-      "sent_at": "2026-10-19T12:55:21+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/port-of-los-angeles-sets-cargo-record/",
-        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-lizing-ot-7-1-promagrolizing4158/",
-        "https://www.globaltrailermag.com/maxiparts-completes-acquisition/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-20:am": {
       "message_id": 1634,
       "sent_at": "2026-10-20T08:25:25+00:00",
@@ -2955,6 +2958,17 @@
       "items": [
         "http://gruzovoy.ru/news/industry/3426_pervii_vipysk_novogo_sezona_podkasta_comvex_dialog_85_let_avtozavody_yral.html",
         "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/",
+        "https://sdelanounas.ru/blogs/179231/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-07:am": {
+      "message_id": 1734,
+      "sent_at": "2026-11-07T10:05:17+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
+        "https://sdelanounas.ru/blogs/179259/",
         "https://sdelanounas.ru/blogs/179231/"
       ],
       "visual": "visual"
