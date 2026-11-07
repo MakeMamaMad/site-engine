@@ -83,7 +83,8 @@
     "testdrive:compare#1",
     "ecf7cca448a7",
     "b37ce2499c27",
-    "1e6d5c98ca18"
+    "1e6d5c98ca18",
+    "637cfe55f4c5"
   ],
   "renders": [
     {
@@ -665,6 +666,13 @@
       "slug": "randon-predstavil-bolee-dlinnyy-polupritsep-dlya-elektronnoy-kommertsii-1e6d5c98",
       "title": "Randon готовит 16,4-метровый полуприцеп для электронной коммерции",
       "created_at": "2026-11-06T06:25:07.903709+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "637cfe55f4c5",
+      "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55",
+      "title": "Грузовые полуприцепы «Спецавтотехники» — в рассрочку на 13 месяцев",
+      "created_at": "2026-11-07T08:13:51.429352+00:00",
       "format": "social-v2"
     }
   ]

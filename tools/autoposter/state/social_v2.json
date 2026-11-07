@@ -2518,6 +2518,36 @@
         }
       },
       "updated_at": "2026-11-06T06:25:07.900777+00:00"
+    },
+    "637cfe55f4c5": {
+      "title": "Грузовые полуприцепы «Спецавтотехники» — в рассрочку на 13 месяцев",
+      "created_at": "2026-11-07T08:10:59.630143+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "mYhM71eHZ3g",
+          "url": "https://www.youtube.com/shorts/mYhM71eHZ3g",
+          "updated_at": "2026-11-07T08:10:59.630164+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aeedd15d6bbae6fa173311c",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-07T08:12:48.113863+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6aeedd82229bf05daf381b30",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-07T08:13:51.425956+00:00"
+        }
+      },
+      "updated_at": "2026-11-07T08:13:51.425953+00:00"
     }
   }
 }
