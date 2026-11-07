@@ -84,7 +84,8 @@
     "ecf7cca448a7",
     "b37ce2499c27",
     "1e6d5c98ca18",
-    "637cfe55f4c5"
+    "637cfe55f4c5",
+    "8a0a73d993fe"
   ],
   "renders": [
     {
@@ -673,6 +674,13 @@
       "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55",
       "title": "Грузовые полуприцепы «Спецавтотехники» — в рассрочку на 13 месяцев",
       "created_at": "2026-11-07T08:13:51.429352+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "8a0a73d993fe",
+      "slug": "tii-group-naznachila-upravlyayuschego-direktora-8a0a73d9",
+      "title": "TII Group назначила Грегора Вича управляющим директором",
+      "created_at": "2026-11-07T16:13:36.007700+00:00",
       "format": "social-v2"
     }
   ]
