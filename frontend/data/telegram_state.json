@@ -2607,9 +2607,9 @@
       "slug": "kuehne-nagel-naznachaet-natsionalnyh-menedzherov-v-germanii-ispanii-i-ss-d8882cb5"
     },
     "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/": {
-      "digest_id": "2026-11-06:am",
-      "message_id": 1730,
-      "sent_at": "2026-11-06T10:53:31+00:00",
+      "digest_id": "2026-11-07:pm",
+      "message_id": 1735,
+      "sent_at": "2026-11-07T13:22:41+00:00",
       "title": "Randon представил более длинный полуприцеп для электронной коммерции",
       "slug": "randon-predstavil-bolee-dlinnyy-polupritsep-dlya-elektronnoy-kommertsii-1e6d5c98"
     },
@@ -2628,32 +2628,21 @@
       "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55"
     },
     "https://www.globaltrailermag.com/tii-group-appoints-managing-director/": {
-      "digest_id": "2026-11-07:am",
-      "message_id": 1734,
-      "sent_at": "2026-11-07T10:05:17+00:00",
+      "digest_id": "2026-11-07:pm",
+      "message_id": 1735,
+      "sent_at": "2026-11-07T13:22:41+00:00",
       "title": "TII Group назначила управляющего директора",
       "slug": "tii-group-naznachila-upravlyayuschego-direktora-8a0a73d9"
     },
     "https://sdelanounas.ru/blogs/179259/": {
-      "digest_id": "2026-11-07:am",
-      "message_id": 1734,
-      "sent_at": "2026-11-07T10:05:17+00:00",
+      "digest_id": "2026-11-07:pm",
+      "message_id": 1735,
+      "sent_at": "2026-11-07T13:22:41+00:00",
       "title": "Боевой модуль «Цитадели» установили на автомобильное шасси",
       "slug": "boevoy-modul-tsitadeli-ustanovili-na-avtomobilnoe-shassi-0872e23f"
     }
   },
   "digests": {
-    "2026-10-20:am": {
-      "message_id": 1634,
-      "sent_at": "2026-10-20T08:25:25+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.krone-trailer.com/en/news/detail-1/broughton-transport-adds-krone-cool-liners-to-temperature-controlled-fleet/",
-        "https://uralaz.ru/media/news/ural-motorsport-finishiroval-v-chisle-shesti-silneyshikh-na-bakhe-velikaya-step/",
-        "http://gruzovoy.ru/news/industry/3401_sybsidirovat_lizing_iz_ytilsbora_shema_spaseniya_rinka_gryzoperevozok_ot_gendirektora_levsars.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-20:pm": {
       "message_id": 1635,
       "sent_at": "2026-10-20T17:03:19+00:00",
@@ -2970,6 +2959,17 @@
         "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
         "https://sdelanounas.ru/blogs/179259/",
         "https://sdelanounas.ru/blogs/179231/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-07:pm": {
+      "message_id": 1735,
+      "sent_at": "2026-11-07T13:22:41+00:00",
+      "slot": "pm",
+      "items": [
+        "https://sdelanounas.ru/blogs/179259/",
+        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
+        "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/"
       ],
       "visual": "visual"
     }
