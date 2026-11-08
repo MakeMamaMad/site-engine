@@ -85,7 +85,8 @@
     "b37ce2499c27",
     "1e6d5c98ca18",
     "637cfe55f4c5",
-    "8a0a73d993fe"
+    "8a0a73d993fe",
+    "0872e23fca0e"
   ],
   "renders": [
     {
@@ -681,6 +682,13 @@
       "slug": "tii-group-naznachila-upravlyayuschego-direktora-8a0a73d9",
       "title": "TII Group назначила Грегора Вича управляющим директором",
       "created_at": "2026-11-07T16:13:36.007700+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "0872e23fca0e",
+      "slug": "boevoy-modul-tsitadeli-ustanovili-na-avtomobilnoe-shassi-0872e23f",
+      "title": "Боевой модуль «Цитадели» установили на автомобильное шасси",
+      "created_at": "2026-11-08T08:15:24.612581+00:00",
       "format": "social-v2"
     }
   ]
