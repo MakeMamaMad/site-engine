@@ -2378,9 +2378,9 @@
       "slug": "kuehne-nagel-naznachaet-natsionalnyh-menedzherov-v-germanii-ispanii-i-ss-d8882cb5"
     },
     "https://www.globaltrailermag.com/tii-group-appoints-managing-director/": {
-      "digest_id": "2026-11-07:pm",
-      "post_id": 235,
-      "sent_at": "2026-11-07T13:28:19+00:00",
+      "digest_id": "2026-11-08:am",
+      "post_id": 236,
+      "sent_at": "2026-11-08T10:09:47+00:00",
       "title": "TII Group назначила управляющего директора",
       "slug": "tii-group-naznachila-upravlyayuschego-direktora-8a0a73d9"
     },
@@ -2392,16 +2392,16 @@
       "slug": "reaktor-na-chukotke-il-114-300-s-dekabrya-ms-21-tolko-v-2027-m-itogi-okt-48f2ea9b"
     },
     "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/": {
-      "digest_id": "2026-11-07:pm",
-      "post_id": 235,
-      "sent_at": "2026-11-07T13:28:19+00:00",
+      "digest_id": "2026-11-08:am",
+      "post_id": 236,
+      "sent_at": "2026-11-08T10:09:47+00:00",
       "title": "Грузовые полуприцепы в рассрочку",
       "slug": "gruzovye-polupritsepy-v-rassrochku-637cfe55"
     },
     "https://sdelanounas.ru/blogs/179259/": {
-      "digest_id": "2026-11-07:pm",
-      "post_id": 235,
-      "sent_at": "2026-11-07T13:28:19+00:00",
+      "digest_id": "2026-11-08:am",
+      "post_id": 236,
+      "sent_at": "2026-11-08T10:09:47+00:00",
       "title": "Боевой модуль «Цитадели» установили на автомобильное шасси",
       "slug": "boevoy-modul-tsitadeli-ustanovili-na-avtomobilnoe-shassi-0872e23f"
     }
@@ -3127,6 +3127,17 @@
         "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
         "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/",
         "https://sdelanounas.ru/blogs/179259/"
+      ]
+    },
+    "2026-11-08:am": {
+      "post_id": 236,
+      "sent_at": "2026-11-08T10:09:47+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/",
+        "https://sdelanounas.ru/blogs/179259/",
+        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/"
       ]
     }
   }
