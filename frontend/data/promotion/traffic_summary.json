@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-07T20:59:45+00:00",
+  "updated_at": "2026-11-08T21:15:45+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -16,6 +16,16 @@
       "avg_visit_duration_seconds": 15
     },
     {
+      "source": "lognews-press",
+      "medium": "editorial",
+      "campaign": "industry_editorial",
+      "visits": 1,
+      "users": 1,
+      "bounce_rate": 0.0,
+      "page_depth": 3.0,
+      "avg_visit_duration_seconds": 1155
+    },
+    {
       "source": "vk",
       "medium": "social",
       "campaign": "news",
@@ -27,8 +37,8 @@
     }
   ],
   "totals": {
-    "visits": 2,
-    "users": 2
+    "visits": 3,
+    "users": 3
   },
   "sampled": false,
   "sample_share": 1.0

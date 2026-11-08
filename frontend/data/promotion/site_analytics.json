@@ -1,36 +1,28 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-07T20:59:50+00:00",
+  "updated_at": "2026-11-08T21:15:55+00:00",
   "counter_id": "106240080",
   "metrika": {
     "status": "ok",
     "period_days": 7,
-    "visits": 58,
-    "users": 55,
+    "visits": 66,
+    "users": 63,
     "sources": [
       {
         "id": "organic",
         "name": "Переходы из поисковых систем",
-        "visits": 45,
-        "users": 42,
-        "bounce_rate": 11.1,
-        "page_depth": 1.22
+        "visits": 43,
+        "users": 40,
+        "bounce_rate": 14.0,
+        "page_depth": 1.21
       },
       {
         "id": "direct",
         "name": "Прямые заходы",
-        "visits": 8,
-        "users": 8,
-        "bounce_rate": 37.5,
-        "page_depth": 1.0
-      },
-      {
-        "id": "ad",
-        "name": "Переходы по рекламе",
-        "visits": 4,
-        "users": 4,
-        "bounce_rate": 50.0,
-        "page_depth": 1.25
+        "visits": 21,
+        "users": 21,
+        "bounce_rate": 57.1,
+        "page_depth": 1.1
       },
       {
         "id": "social",
@@ -39,6 +31,14 @@
         "users": 1,
         "bounce_rate": 0.0,
         "page_depth": 1.0
+      },
+      {
+        "id": "ad",
+        "name": "Переходы по рекламе",
+        "visits": 1,
+        "users": 1,
+        "bounce_rate": 0.0,
+        "page_depth": 2.0
       }
     ]
   },
@@ -57,8 +57,8 @@
       }
     },
     "search": {
-      "date_from": "2026-10-29",
-      "date_to": "2026-11-04",
+      "date_from": "2026-10-31",
+      "date_to": "2026-11-06",
       "shows": 0,
       "clicks": 0,
       "top_queries": []
