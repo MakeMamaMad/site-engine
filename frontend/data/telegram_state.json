@@ -1571,6 +1571,24 @@
       "slug": "maz-pokazal-sedelnyy-tyagach-s-kabinoy-kamaz-k5-4c22975b",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3430_pervii_reis_s_e-cmr_svyazal_rossiu_i_kazahstan.html": {
+      "message_id": 1739,
+      "sent_at": "2026-11-09T15:58:47+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/pervyy-reys-s-e-cmr-svyazal-rossiyu-i-kazahstan-6bb122d7/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=pervyy-reys-s-e-cmr-svyazal-rossiyu-i-kazahstan-6bb122d7",
+      "title": "Первый рейс с e-CMR связал Россию и Казахстан",
+      "slug": "pervyy-reys-s-e-cmr-svyazal-rossiyu-i-kazahstan-6bb122d7",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3429_v_rossii_vvodyat_zapret_na_zakypky_otdelnih_inostrannih_akkymylyatorov.html": {
+      "message_id": 1740,
+      "sent_at": "2026-11-09T15:58:48+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/v-rossii-vvodyat-zapret-na-zakupku-otdelnyh-inostrannyh-akkumulyatorov-19ae0559/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=v-rossii-vvodyat-zapret-na-zakupku-otdelnyh-inostrannyh-akkumulyatorov-19ae0559",
+      "title": "В России вводят запрет на закупку отдельных иностранных аккумуляторов",
+      "slug": "v-rossii-vvodyat-zapret-na-zakupku-otdelnyh-inostrannyh-akkumulyatorov-19ae0559",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
