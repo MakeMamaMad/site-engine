@@ -2428,6 +2428,27 @@
       "sent_at": "2026-11-08T10:09:47+00:00",
       "title": "Боевой модуль «Цитадели» установили на автомобильное шасси",
       "slug": "boevoy-modul-tsitadeli-ustanovili-na-avtomobilnoe-shassi-0872e23f"
+    },
+    "http://gruzovoy.ru/news/industry/3430_pervii_reis_s_e-cmr_svyazal_rossiu_i_kazahstan.html": {
+      "digest_id": "2026-11-09:pm",
+      "post_id": 240,
+      "sent_at": "2026-11-09T16:48:15+00:00",
+      "title": "Первый рейс с e-CMR связал Россию и Казахстан",
+      "slug": "pervyy-reys-s-e-cmr-svyazal-rossiyu-i-kazahstan-6bb122d7"
+    },
+    "http://gruzovoy.ru/news/industry/3428_bespilotnie_gryzoviki_mogyt_viiti_na_marshryti_mejdy_rossiei_i_stranami_eaes.html": {
+      "digest_id": "2026-11-09:pm",
+      "post_id": 240,
+      "sent_at": "2026-11-09T16:48:15+00:00",
+      "title": "Беспилотные грузовики могут выйти на маршруты между Россией и странами ЕАЭС",
+      "slug": "bespilotnye-gruzoviki-mogut-vyyti-na-marshruty-mezhdu-rossiey-i-stranami-070282fe"
+    },
+    "http://gruzovoy.ru/news/industry/3427_maz_pokazal_sedelnii_tyagach_s_kabinoi_kamaz_k5.html": {
+      "digest_id": "2026-11-09:pm",
+      "post_id": 240,
+      "sent_at": "2026-11-09T16:48:15+00:00",
+      "title": "МАЗ показал седельный тягач с кабиной КАМАЗ К5",
+      "slug": "maz-pokazal-sedelnyy-tyagach-s-kabinoy-kamaz-k5-4c22975b"
     }
   },
   "digests": {
@@ -3162,6 +3183,17 @@
         "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/",
         "https://sdelanounas.ru/blogs/179259/",
         "https://www.globaltrailermag.com/tii-group-appoints-managing-director/"
+      ]
+    },
+    "2026-11-09:pm": {
+      "post_id": 240,
+      "sent_at": "2026-11-09T16:48:15+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3430_pervii_reis_s_e-cmr_svyazal_rossiu_i_kazahstan.html",
+        "http://gruzovoy.ru/news/industry/3428_bespilotnie_gryzoviki_mogyt_viiti_na_marshryti_mejdy_rossiei_i_stranami_eaes.html",
+        "http://gruzovoy.ru/news/industry/3427_maz_pokazal_sedelnii_tyagach_s_kabinoi_kamaz_k5.html"
       ]
     }
   }
