@@ -88,7 +88,8 @@
     "8a0a73d993fe",
     "0872e23fca0e",
     "e1f9fa7979d2",
-    "guide:shtraf-calculator"
+    "guide:shtraf-calculator",
+    "4c22975b4cf1"
   ],
   "renders": [
     {
@@ -705,6 +706,13 @@
       "slug": "",
       "title": "Сколько стоит перегруз: считаем штраф за 10 секунд",
       "created_at": "2026-11-09T16:07:30.706334+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "4c22975b4cf1",
+      "slug": "maz-pokazal-sedelnyy-tyagach-s-kabinoy-kamaz-k5-4c22975b",
+      "title": "МАЗ показал тягач с кабиной КАМАЗ К5",
+      "created_at": "2026-11-09T17:52:40.347512+00:00",
       "format": "social-v2"
     }
   ]
