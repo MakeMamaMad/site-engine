@@ -2724,6 +2724,36 @@
         }
       },
       "updated_at": "2026-11-09T17:52:40.344433+00:00"
+    },
+    "testdrive:intro#2": {
+      "title": "Тест-драйв полуприцепов SAT: запись открыта",
+      "created_at": "2026-11-09T23:51:19.742511+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "OHhkuVswLQE",
+          "url": "https://www.youtube.com/shorts/OHhkuVswLQE",
+          "updated_at": "2026-11-09T23:51:19.742531+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af25c78b59b34913a437e37",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-09T23:52:06.623516+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6af25ca7b59b34913a438887",
+          "buffer_status": "sending",
+          "updated_at": "2026-11-09T23:54:20.166084+00:00"
+        }
+      },
+      "updated_at": "2026-11-09T23:54:20.166082+00:00"
     }
   }
 }
