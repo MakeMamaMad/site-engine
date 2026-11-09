@@ -758,7 +758,24 @@
       "updated_at": "2026-11-08T16:09:51+00:00",
       "sent_at": "2026-11-08T16:09:51+00:00",
       "gmail_message_id": "1a1bbec585cfbe30"
+    },
+    {
+      "action_id": "editorial:dortransport-editorial:gabarity-i-massy",
+      "channel": "email",
+      "target_id": "dortransport-editorial",
+      "target_name": "«Дороги и Транспорт» (Транспортный союз России)",
+      "action": "send_editorial_email",
+      "contact": "dortransport@mail.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для «Дороги и Транспорт» (Транспортный союз России): Габариты и массы автопоезда: основные пределы",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции ««Дороги и Транспорт» (Транспортный союз России)» рассмотреть оригинальный практический материал: «Габариты и массы автопоезда: основные пределы».\nПеред загрузкой важно проверять четыре параметра: длину, ширину, высоту и массу. Для перевозчика они определяют, проходит ли автопоезд как обычный или уже требует специальных условий движения.\n\nМатериал: https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=dortransport-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=dortransport-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "created_at": "2026-11-09T16:05:24+00:00",
+      "updated_at": "2026-11-09T16:05:25+00:00",
+      "sent_at": "2026-11-09T16:05:25+00:00",
+      "gmail_message_id": "1a1c10ea4d607872"
     }
   ],
-  "updated_at": "2026-11-08T16:40:02+00:00"
+  "updated_at": "2026-11-09T16:05:25+00:00"
 }
