@@ -87,7 +87,8 @@
     "637cfe55f4c5",
     "8a0a73d993fe",
     "0872e23fca0e",
-    "e1f9fa7979d2"
+    "e1f9fa7979d2",
+    "guide:shtraf-calculator"
   ],
   "renders": [
     {
@@ -697,6 +698,13 @@
       "slug": "gebruder-vays-otmechaet-50-letie-rewe-e1f9fa79",
       "title": "Gebrüder Weiss и REWE отмечают 50 лет партнерства",
       "created_at": "2026-11-08T16:14:02.795565+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:shtraf-calculator",
+      "slug": "",
+      "title": "Сколько стоит перегруз: считаем штраф за 10 секунд",
+      "created_at": "2026-11-09T16:07:30.706334+00:00",
       "format": "social-v2"
     }
   ]
