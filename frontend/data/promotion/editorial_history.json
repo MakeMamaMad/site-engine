@@ -787,6 +787,16 @@
       "status": "email_sent",
       "sent_at": "2026-11-09T16:05:25+00:00",
       "gmail_message_id": "1a1c10ea4d607872"
+    },
+    {
+      "target_id": "truckmix-publishing",
+      "target_name": "TRUCKmix.ru",
+      "item_key": "knowledge:nagruzka-na-osi-evrofury",
+      "title": "Нагрузка на оси еврофуры в 2026 году: сколько можно грузить и как разместить груз",
+      "source_url": "https://spec-avtoportal.ru/knowledge/nagruzka-na-osi-evrofury/?utm_source=truckmix-publishing&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=nagruzka-na-osi-evrofury",
+      "result_url": "https://truckmix.ru/publication/update/30672",
+      "submitted_at": "2026-11-10T17:13:09+00:00",
+      "status": "verified_in_author_cabinet"
     }
   ]
 }
