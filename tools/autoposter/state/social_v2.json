@@ -2754,6 +2754,36 @@
         }
       },
       "updated_at": "2026-11-09T23:54:20.166082+00:00"
+    },
+    "552caae5b316": {
+      "title": "Продажи SAF-Holland превысили 1,36 млрд евро",
+      "created_at": "2026-11-10T08:12:28.317992+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "hnSeV9R96mk",
+          "url": "https://www.youtube.com/shorts/hnSeV9R96mk",
+          "updated_at": "2026-11-10T08:12:28.318011+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af2d1edd35dff5701eacdb3",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-10T08:14:17.867469+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6af2d25bb59b34913a6668c9",
+          "buffer_status": "sending",
+          "updated_at": "2026-11-10T08:16:33.457274+00:00"
+        }
+      },
+      "updated_at": "2026-11-10T08:16:33.457271+00:00"
     }
   }
 }

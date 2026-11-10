@@ -90,7 +90,8 @@
     "e1f9fa7979d2",
     "guide:shtraf-calculator",
     "4c22975b4cf1",
-    "testdrive:intro#2"
+    "testdrive:intro#2",
+    "552caae5b316"
   ],
   "renders": [
     {
@@ -721,6 +722,13 @@
       "slug": "",
       "title": "Тест-драйв полуприцепов SAT: запись открыта",
       "created_at": "2026-11-09T23:54:20.168698+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "552caae5b316",
+      "slug": "prodazhi-saf-holland-prevysili-1-36-mlrd-evro-552caae5",
+      "title": "Продажи SAF-Holland превысили 1,36 млрд евро",
+      "created_at": "2026-11-10T08:16:33.460057+00:00",
       "format": "social-v2"
     }
   ]
