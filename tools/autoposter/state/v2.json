@@ -91,7 +91,8 @@
     "guide:shtraf-calculator",
     "4c22975b4cf1",
     "testdrive:intro#2",
-    "552caae5b316"
+    "552caae5b316",
+    "017c8cfc620c"
   ],
   "renders": [
     {
@@ -729,6 +730,13 @@
       "slug": "prodazhi-saf-holland-prevysili-1-36-mlrd-evro-552caae5",
       "title": "Продажи SAF-Holland превысили 1,36 млрд евро",
       "created_at": "2026-11-10T08:16:33.460057+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "017c8cfc620c",
+      "slug": "kamaz-vnedril-novye-standarty-zaschity-ot-korrozii-017c8cfc",
+      "title": "КАМАЗ внедрил новые стандарты защиты кабин К5 от коррозии",
+      "created_at": "2026-11-10T21:29:51.121605+00:00",
       "format": "social-v2"
     }
   ]
