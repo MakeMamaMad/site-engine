@@ -2678,16 +2678,16 @@
       "slug": "boevoy-modul-tsitadeli-ustanovili-na-avtomobilnoe-shassi-0872e23f"
     },
     "http://gruzovoy.ru/news/industry/3428_bespilotnie_gryzoviki_mogyt_viiti_na_marshryti_mejdy_rossiei_i_stranami_eaes.html": {
-      "digest_id": "2026-11-09:pm",
-      "message_id": 1741,
-      "sent_at": "2026-11-09T16:42:19+00:00",
+      "digest_id": "2026-11-10:am",
+      "message_id": 1742,
+      "sent_at": "2026-11-10T00:22:32+00:00",
       "title": "Беспилотные грузовики могут выйти на маршруты между Россией и странами ЕАЭС",
       "slug": "bespilotnye-gruzoviki-mogut-vyyti-na-marshruty-mezhdu-rossiey-i-stranami-070282fe"
     },
     "http://gruzovoy.ru/news/industry/3427_maz_pokazal_sedelnii_tyagach_s_kabinoi_kamaz_k5.html": {
-      "digest_id": "2026-11-09:pm",
-      "message_id": 1741,
-      "sent_at": "2026-11-09T16:42:19+00:00",
+      "digest_id": "2026-11-10:am",
+      "message_id": 1742,
+      "sent_at": "2026-11-10T00:22:32+00:00",
       "title": "МАЗ показал седельный тягач с кабиной КАМАЗ К5",
       "slug": "maz-pokazal-sedelnyy-tyagach-s-kabinoy-kamaz-k5-4c22975b"
     },
@@ -2697,20 +2697,16 @@
       "sent_at": "2026-11-09T16:42:19+00:00",
       "title": "В России вводят запрет на закупку отдельных иностранных аккумуляторов",
       "slug": "v-rossii-vvodyat-zapret-na-zakupku-otdelnyh-inostrannyh-akkumulyatorov-19ae0559"
+    },
+    "http://gruzovoy.ru/news/industry/3430_pervii_reis_s_e-cmr_svyazal_rossiu_i_kazahstan.html": {
+      "digest_id": "2026-11-10:am",
+      "message_id": 1742,
+      "sent_at": "2026-11-10T00:22:32+00:00",
+      "title": "Первый рейс с e-CMR связал Россию и Казахстан",
+      "slug": "pervyy-reys-s-e-cmr-svyazal-rossiyu-i-kazahstan-6bb122d7"
     }
   },
   "digests": {
-    "2026-10-21:pm": {
-      "message_id": 1639,
-      "sent_at": "2026-10-21T12:08:20+00:00",
-      "slot": "pm",
-      "items": [
-        "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250",
-        "https://www.globaltrailermag.com/aegis-logistics-to-acquire-tristar/",
-        "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-22:am": {
       "message_id": 1643,
       "sent_at": "2026-10-22T11:39:37+00:00",
@@ -3027,6 +3023,17 @@
         "http://gruzovoy.ru/news/industry/3428_bespilotnie_gryzoviki_mogyt_viiti_na_marshryti_mejdy_rossiei_i_stranami_eaes.html",
         "http://gruzovoy.ru/news/industry/3427_maz_pokazal_sedelnii_tyagach_s_kabinoi_kamaz_k5.html",
         "http://gruzovoy.ru/news/industry/3429_v_rossii_vvodyat_zapret_na_zakypky_otdelnih_inostrannih_akkymylyatorov.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-10:am": {
+      "message_id": 1742,
+      "sent_at": "2026-11-10T00:22:32+00:00",
+      "slot": "am",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3430_pervii_reis_s_e-cmr_svyazal_rossiu_i_kazahstan.html",
+        "http://gruzovoy.ru/news/industry/3428_bespilotnie_gryzoviki_mogyt_viiti_na_marshryti_mejdy_rossiei_i_stranami_eaes.html",
+        "http://gruzovoy.ru/news/industry/3427_maz_pokazal_sedelnii_tyagach_s_kabinoi_kamaz_k5.html"
       ],
       "visual": "visual"
     }
