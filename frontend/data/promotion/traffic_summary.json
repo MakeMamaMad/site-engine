@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-08T21:15:45+00:00",
+  "updated_at": "2026-11-10T00:46:08+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
@@ -34,11 +34,21 @@
       "bounce_rate": 0.0,
       "page_depth": 1.0,
       "avg_visit_duration_seconds": 15
+    },
+    {
+      "source": "vk",
+      "medium": "social",
+      "campaign": "pm_digest",
+      "visits": 1,
+      "users": 1,
+      "bounce_rate": 0.0,
+      "page_depth": 1.0,
+      "avg_visit_duration_seconds": 15
     }
   ],
   "totals": {
-    "visits": 3,
-    "users": 3
+    "visits": 4,
+    "users": 4
   },
   "sampled": false,
   "sample_share": 1.0
