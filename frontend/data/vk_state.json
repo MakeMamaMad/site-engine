@@ -2488,6 +2488,27 @@
       "sent_at": "2026-11-10T00:24:57+00:00",
       "title": "В России вводят запрет на закупку отдельных иностранных аккумуляторов",
       "slug": "v-rossii-vvodyat-zapret-na-zakupku-otdelnyh-inostrannyh-akkumulyatorov-19ae0559"
+    },
+    "https://www.globaltrailermag.com/knorr-bremse-truck-business-gains-momentum/": {
+      "digest_id": "2026-11-10:pm",
+      "post_id": 246,
+      "sent_at": "2026-11-10T15:10:47+00:00",
+      "title": "Грузовой бизнес Knorr-Bremse набирает обороты",
+      "slug": "gruzovoy-biznes-knorr-bremse-nabiraet-oboroty-6b017186"
+    },
+    "https://www.globaltrailermag.com/chereau-backs-breast-cancer-campaign/": {
+      "digest_id": "2026-11-10:pm",
+      "post_id": 246,
+      "sent_at": "2026-11-10T15:10:47+00:00",
+      "title": "CHEREAU поддерживает кампанию по борьбе с раком молочной железы",
+      "slug": "chereau-podderzhivaet-kampaniyu-po-borbe-s-rakom-molochnoy-zhelezy-cb17d7f3"
+    },
+    "https://www.globaltrailermag.com/autonomous-electric-freight-platform-secures-e44m/": {
+      "digest_id": "2026-11-10:pm",
+      "post_id": 246,
+      "sent_at": "2026-11-10T15:10:47+00:00",
+      "title": "Автономная грузовая электрическая платформа за 44 млн евро",
+      "slug": "avtonomnaya-gruzovaya-elektricheskaya-platforma-za-44-mln-evro-7700f164"
     }
   },
   "digests": {
@@ -3244,6 +3265,17 @@
         "http://gruzovoy.ru/news/industry/3429_v_rossii_vvodyat_zapret_na_zakypky_otdelnih_inostrannih_akkymylyatorov.html",
         "http://gruzovoy.ru/news/industry/3428_bespilotnie_gryzoviki_mogyt_viiti_na_marshryti_mejdy_rossiei_i_stranami_eaes.html",
         "http://gruzovoy.ru/news/industry/3427_maz_pokazal_sedelnii_tyagach_s_kabinoi_kamaz_k5.html"
+      ]
+    },
+    "2026-11-10:pm": {
+      "post_id": 246,
+      "sent_at": "2026-11-10T15:10:47+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/knorr-bremse-truck-business-gains-momentum/",
+        "https://www.globaltrailermag.com/chereau-backs-breast-cancer-campaign/",
+        "https://www.globaltrailermag.com/autonomous-electric-freight-platform-secures-e44m/"
       ]
     }
   }
