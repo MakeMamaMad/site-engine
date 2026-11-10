@@ -1643,6 +1643,33 @@
       "slug": "gruzovoy-biznes-knorr-bremse-nabiraet-oboroty-6b017186",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/179310/": {
+      "message_id": 1750,
+      "sent_at": "2026-11-10T15:17:04+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/kamaz-vnedril-novye-standarty-zaschity-ot-korrozii-017c8cfc/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=kamaz-vnedril-novye-standarty-zaschity-ot-korrozii-017c8cfc",
+      "title": "КАМАЗ внедрил новые стандарты защиты от коррозии.",
+      "slug": "kamaz-vnedril-novye-standarty-zaschity-ot-korrozii-017c8cfc",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/ceva-logistics-opens-strasbourg-pharma-logistics-hub/": {
+      "message_id": 1751,
+      "sent_at": "2026-11-10T15:17:05+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/ceva-logistics-otkryvaet-logisticheskiy-tsentr-v-strasburge-5592cd91/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=ceva-logistics-otkryvaet-logisticheskiy-tsentr-v-strasburge-5592cd91",
+      "title": "CEVA Logistics открывает логистический центр в Страсбурге",
+      "slug": "ceva-logistics-otkryvaet-logisticheskiy-tsentr-v-strasburge-5592cd91",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/chereau-backs-breast-cancer-campaign/": {
+      "message_id": 1752,
+      "sent_at": "2026-11-10T15:17:06+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/chereau-podderzhivaet-kampaniyu-po-borbe-s-rakom-molochnoy-zhelezy-cb17d7f3/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=chereau-podderzhivaet-kampaniyu-po-borbe-s-rakom-molochnoy-zhelezy-cb17d7f3",
+      "title": "CHEREAU поддерживает кампанию по борьбе с раком молочной железы",
+      "slug": "chereau-podderzhivaet-kampaniyu-po-borbe-s-rakom-molochnoy-zhelezy-cb17d7f3",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
