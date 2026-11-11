@@ -1670,6 +1670,24 @@
       "slug": "chereau-podderzhivaet-kampaniyu-po-borbe-s-rakom-molochnoy-zhelezy-cb17d7f3",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3431_elektrogryzoviki_zanyali_bolee_polovini_rinka_tyajyologo_transporta_v_kitae.html": {
+      "message_id": 1753,
+      "sent_at": "2026-11-11T01:13:51+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/elektrogruzoviki-zanyali-bolee-poloviny-rynka-tyazhelogo-transporta-v-ki-ac61708e/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=elektrogruzoviki-zanyali-bolee-poloviny-rynka-tyazhelogo-transporta-v-ki-ac61708e",
+      "title": "Электрогрузовики заняли более половины рынка тяжёлого транспорта в Китае",
+      "slug": "elektrogruzoviki-zanyali-bolee-poloviny-rynka-tyazhelogo-transporta-v-ki-ac61708e",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/spain-strike-to-disrupt-road-freight/": {
+      "message_id": 1754,
+      "sent_at": "2026-11-11T01:13:52+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/ispaniya-nanosit-udar-po-dorozhnym-gruzoperevozkam-6532f251/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=ispaniya-nanosit-udar-po-dorozhnym-gruzoperevozkam-6532f251",
+      "title": "Испания наносит удар по дорожным грузоперевозкам",
+      "slug": "ispaniya-nanosit-udar-po-dorozhnym-gruzoperevozkam-6532f251",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
