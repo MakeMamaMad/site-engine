@@ -2557,6 +2557,27 @@
       "sent_at": "2026-11-10T15:10:47+00:00",
       "title": "Автономная грузовая электрическая платформа за 44 млн евро",
       "slug": "avtonomnaya-gruzovaya-elektricheskaya-platforma-za-44-mln-evro-7700f164"
+    },
+    "https://www.globaltrailermag.com/spain-strike-to-disrupt-road-freight/": {
+      "digest_id": "2026-11-11:am",
+      "post_id": 253,
+      "sent_at": "2026-11-11T10:43:41+00:00",
+      "title": "Испания наносит удар по дорожным грузоперевозкам",
+      "slug": "ispaniya-nanosit-udar-po-dorozhnym-gruzoperevozkam-6532f251"
+    },
+    "https://truckmix.ru/news/naddips-bet-trevogy-shokovoe-povishenie-ytilsbora-na-ekskavatori-grozit-ydorojaniem-dobichi-poleznih-iskopaemih": {
+      "digest_id": "2026-11-11:am",
+      "post_id": 253,
+      "sent_at": "2026-11-11T10:43:41+00:00",
+      "title": "НАДДиПС бьет тревогу: шоковое повышение утильсбора на экскаваторы грозит удорожанием добычи полезных ископаемых",
+      "slug": "naddips-bet-trevogu-shokovoe-povyshenie-utilsbora-na-ekskavatory-grozit-c5eed815"
+    },
+    "https://sdelanounas.ru/blogs/179331/": {
+      "digest_id": "2026-11-11:am",
+      "post_id": 253,
+      "sent_at": "2026-11-11T10:43:41+00:00",
+      "title": "В ООО \"Газпром трансгаз Саратов\" поступили 6 пригородные автобусы КАМАЗы 5222.",
+      "slug": "v-ooo-gazprom-transgaz-saratov-postupili-6-prigorodnye-avtobusy-kamazy-5-24bfad64"
     }
   },
   "digests": {
@@ -3324,6 +3345,17 @@
         "https://www.globaltrailermag.com/knorr-bremse-truck-business-gains-momentum/",
         "https://www.globaltrailermag.com/chereau-backs-breast-cancer-campaign/",
         "https://www.globaltrailermag.com/autonomous-electric-freight-platform-secures-e44m/"
+      ]
+    },
+    "2026-11-11:am": {
+      "post_id": 253,
+      "sent_at": "2026-11-11T10:43:41+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/spain-strike-to-disrupt-road-freight/",
+        "https://truckmix.ru/news/naddips-bet-trevogy-shokovoe-povishenie-ytilsbora-na-ekskavatori-grozit-ydorojaniem-dobichi-poleznih-iskopaemih",
+        "https://sdelanounas.ru/blogs/179331/"
       ]
     }
   }
