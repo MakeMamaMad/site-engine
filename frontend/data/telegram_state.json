@@ -1724,6 +1724,33 @@
       "slug": "za-pyat-let-v-rossiyu-vvezli-330-tys-gruzovyh-i-legkih-kommercheskih-avt-e7aa5aed",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3435_s_nachala_goda_rosstandart_otozval_bolee_16_tis_gryzovikov.html": {
+      "message_id": 1760,
+      "sent_at": "2026-11-11T14:20:10+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/s-nachala-goda-rosstandart-otozval-bolee-16-tys-gruzovikov-3dd2048a/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=s-nachala-goda-rosstandart-otozval-bolee-16-tys-gruzovikov-3dd2048a",
+      "title": "С начала года Росстандарт отозвал более 16 тыс. грузовиков",
+      "slug": "s-nachala-goda-rosstandart-otozval-bolee-16-tys-gruzovikov-3dd2048a",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3434_rossiya_kazahstan_i_kirgizstan_provedyt_eksperiment_s_navigacionnimi_plombami.html": {
+      "message_id": 1761,
+      "sent_at": "2026-11-11T14:20:11+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/rossiya-kazahstan-i-kyrgyzstan-provedut-eksperiment-s-navigatsionnymi-pl-b6cc4bdd/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=rossiya-kazahstan-i-kyrgyzstan-provedut-eksperiment-s-navigatsionnymi-pl-b6cc4bdd",
+      "title": "Россия, Казахстан и Кыргызстан проведут эксперимент с навигационными пломбами",
+      "slug": "rossiya-kazahstan-i-kyrgyzstan-provedut-eksperiment-s-navigatsionnymi-pl-b6cc4bdd",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://comautotrans.moscow/tpost/p5rjcrsuo1-vasha-vigoda-zdes-spetsialnie-usloviya-u": {
+      "message_id": 1762,
+      "sent_at": "2026-11-11T14:20:16+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/vasha-vygoda-zdes-spetsialnye-usloviya-uchastiya-v-bolshom-test-drayve-c-d8c062ed/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=vasha-vygoda-zdes-spetsialnye-usloviya-uchastiya-v-bolshom-test-drayve-c-d8c062ed",
+      "title": "Ваша выгода здесь — специальные условия участия в Большом тест-драйве ComAutoTrans 2027",
+      "slug": "vasha-vygoda-zdes-spetsialnye-usloviya-uchastiya-v-bolshom-test-drayve-c-d8c062ed",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
