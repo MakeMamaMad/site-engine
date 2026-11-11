@@ -2908,20 +2908,30 @@
       "sent_at": "2026-11-11T10:43:38+00:00",
       "title": "За пять лет в Россию ввезли 330 тыс. грузовых и лёгких коммерческих автомобилей",
       "slug": "za-pyat-let-v-rossiyu-vvezli-330-tys-gruzovyh-i-legkih-kommercheskih-avt-e7aa5aed"
+    },
+    "https://truckmix.ru/news/naddips-bet-trevogy-shokovoe-povishenie-ytilsbora-na-ekskavatori-grozit-ydorojaniem-dobichi-poleznih-iskopaemih": {
+      "digest_id": "2026-11-11:pm",
+      "message_id": 1763,
+      "sent_at": "2026-11-11T14:37:02+00:00",
+      "title": "НАДДиПС бьет тревогу: шоковое повышение утильсбора на экскаваторы грозит удорожанием добычи полезных ископаемых",
+      "slug": "naddips-bet-trevogu-shokovoe-povyshenie-utilsbora-na-ekskavatory-grozit-c5eed815"
+    },
+    "https://www.globaltrailermag.com/l-i-t-moves-to-acquire-duvenbeck-group/": {
+      "digest_id": "2026-11-11:pm",
+      "message_id": 1763,
+      "sent_at": "2026-11-11T14:37:02+00:00",
+      "title": "L.I.T. покупает Duvenbeck Group",
+      "slug": "l-i-t-pokupaet-duvenbeck-group-606fb6e1"
+    },
+    "https://www.globaltrailermag.com/autonomous-electric-freight-platform-secures-e44m/": {
+      "digest_id": "2026-11-11:pm",
+      "message_id": 1763,
+      "sent_at": "2026-11-11T14:37:02+00:00",
+      "title": "Автономная грузовая электрическая платформа за 44 млн евро",
+      "slug": "avtonomnaya-gruzovaya-elektricheskaya-platforma-za-44-mln-evro-7700f164"
     }
   },
   "digests": {
-    "2026-10-23:am": {
-      "message_id": 1648,
-      "sent_at": "2026-10-23T11:29:04+00:00",
-      "slot": "am",
-      "items": [
-        "https://truckmix.ru/news/sinoteh-mashineri-nachala-postavki-v-rossiu-modernizirovannih-byldozerov-hbxg",
-        "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
-        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-23:pm": {
       "message_id": 1649,
       "sent_at": "2026-10-23T16:57:38+00:00",
@@ -3238,6 +3248,17 @@
         "https://sdelanounas.ru/blogs/179331/",
         "https://www.globaltrailermag.com/ceva-logistics-opens-strasbourg-pharma-logistics-hub/",
         "http://gruzovoy.ru/news/industry/3432_za_pyat_let_v_rossiu_vvezli_330_tis_lyogkih_kommercheskih_i_gryzovih_avtomobilei.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-11:pm": {
+      "message_id": 1763,
+      "sent_at": "2026-11-11T14:37:02+00:00",
+      "slot": "pm",
+      "items": [
+        "https://truckmix.ru/news/naddips-bet-trevogy-shokovoe-povishenie-ytilsbora-na-ekskavatori-grozit-ydorojaniem-dobichi-poleznih-iskopaemih",
+        "https://www.globaltrailermag.com/l-i-t-moves-to-acquire-duvenbeck-group/",
+        "https://www.globaltrailermag.com/autonomous-electric-freight-platform-secures-e44m/"
       ],
       "visual": "visual"
     }
