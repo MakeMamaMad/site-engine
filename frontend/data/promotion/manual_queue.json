@@ -775,7 +775,24 @@
       "updated_at": "2026-11-09T16:05:25+00:00",
       "sent_at": "2026-11-09T16:05:25+00:00",
       "gmail_message_id": "1a1c10ea4d607872"
+    },
+    {
+      "action_id": "editorial:infotrans-by:nagruzka-na-os",
+      "channel": "email",
+      "target_id": "infotrans-by",
+      "target_name": "INFOTRANS.by — транспорт и логистика Беларуси",
+      "action": "send_editorial_email",
+      "contact": "info@infotrans.by",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для INFOTRANS.by — транспорт и логистика Беларуси: Нагрузка на ось: как проверить автопоезд перед рейсом",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «INFOTRANS.by — транспорт и логистика Беларуси» рассмотреть оригинальный практический материал: «Нагрузка на ось: как проверить автопоезд перед рейсом».\nДаже если общая масса автопоезда укладывается в предел, перегруз одной оси или тележки всё равно может сделать транспортное средство тяжеловесным. Поэтому контроль начинается не с одной цифры «общая масса», а с распределения веса по осям.\n\nМатериал: https://spec-avtoportal.ru/knowledge/nagruzka-na-os/?utm_source=infotrans-by&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=nagruzka-na-os\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/nagruzka-na-os/?utm_source=infotrans-by&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=nagruzka-na-os",
+      "created_at": "2026-11-11T10:45:23+00:00",
+      "updated_at": "2026-11-11T10:45:24+00:00",
+      "sent_at": "2026-11-11T10:45:24+00:00",
+      "gmail_message_id": "1a1ca3661e5ca6f6"
     }
   ],
-  "updated_at": "2026-11-10T17:50:17+00:00"
+  "updated_at": "2026-11-11T10:45:24+00:00"
 }

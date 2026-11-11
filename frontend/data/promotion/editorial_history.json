@@ -799,6 +799,19 @@
       "status": "verified_in_author_cabinet",
       "last_public_check_at": "2026-11-11T10:44:26+00:00",
       "public_status": "pending"
+    },
+    {
+      "target_id": "infotrans-by",
+      "target_name": "INFOTRANS.by — транспорт и логистика Беларуси",
+      "slug": "nagruzka-na-os",
+      "title": "Нагрузка на ось: как проверить автопоезд перед рейсом",
+      "site_url": "https://spec-avtoportal.ru/knowledge/nagruzka-na-os/?utm_source=infotrans-by&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=nagruzka-na-os",
+      "contact": "info@infotrans.by",
+      "item_key": "knowledge:nagruzka-na-os",
+      "created_at": "2026-11-11T10:45:23+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-11T10:45:24+00:00",
+      "gmail_message_id": "1a1ca3661e5ca6f6"
     }
   ]
 }
