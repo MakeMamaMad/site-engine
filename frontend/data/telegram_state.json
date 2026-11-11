@@ -2860,20 +2860,30 @@
       "sent_at": "2026-11-10T15:05:17+00:00",
       "title": "Грузовой бизнес Knorr-Bremse набирает обороты",
       "slug": "gruzovoy-biznes-knorr-bremse-nabiraet-oboroty-6b017186"
+    },
+    "https://sdelanounas.ru/blogs/179331/": {
+      "digest_id": "2026-11-11:am",
+      "message_id": 1759,
+      "sent_at": "2026-11-11T10:43:38+00:00",
+      "title": "В ООО \"Газпром трансгаз Саратов\" поступили 6 пригородные автобусы КАМАЗы 5222.",
+      "slug": "v-ooo-gazprom-transgaz-saratov-postupili-6-prigorodnye-avtobusy-kamazy-5-24bfad64"
+    },
+    "https://www.globaltrailermag.com/ceva-logistics-opens-strasbourg-pharma-logistics-hub/": {
+      "digest_id": "2026-11-11:am",
+      "message_id": 1759,
+      "sent_at": "2026-11-11T10:43:38+00:00",
+      "title": "CEVA Logistics открывает логистический центр в Страсбурге",
+      "slug": "ceva-logistics-otkryvaet-logisticheskiy-tsentr-v-strasburge-5592cd91"
+    },
+    "http://gruzovoy.ru/news/industry/3432_za_pyat_let_v_rossiu_vvezli_330_tis_lyogkih_kommercheskih_i_gryzovih_avtomobilei.html": {
+      "digest_id": "2026-11-11:am",
+      "message_id": 1759,
+      "sent_at": "2026-11-11T10:43:38+00:00",
+      "title": "За пять лет в Россию ввезли 330 тыс. грузовых и лёгких коммерческих автомобилей",
+      "slug": "za-pyat-let-v-rossiyu-vvezli-330-tys-gruzovyh-i-legkih-kommercheskih-avt-e7aa5aed"
     }
   },
   "digests": {
-    "2026-10-22:pm": {
-      "message_id": 1644,
-      "sent_at": "2026-10-22T12:11:36+00:00",
-      "slot": "pm",
-      "items": [
-        "https://sdelanounas.ru/blogs/178948/",
-        "https://nefaz.ru/news/obnovlenie-zavodskoy-allei-slavy",
-        "https://truckmix.ru/news/umg-zapystila-novoe-pokolenie-tyajyolih-avtogreiderov-ag-250"
-      ],
-      "visual": "visual"
-    },
     "2026-10-23:am": {
       "message_id": 1648,
       "sent_at": "2026-10-23T11:29:04+00:00",
@@ -3190,6 +3200,17 @@
         "https://www.globaltrailermag.com/chereau-backs-breast-cancer-campaign/",
         "https://www.globaltrailermag.com/ryder-acquisition-boosts-fleet-network/",
         "https://www.globaltrailermag.com/knorr-bremse-truck-business-gains-momentum/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-11:am": {
+      "message_id": 1759,
+      "sent_at": "2026-11-11T10:43:38+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/179331/",
+        "https://www.globaltrailermag.com/ceva-logistics-opens-strasbourg-pharma-logistics-hub/",
+        "http://gruzovoy.ru/news/industry/3432_za_pyat_let_v_rossiu_vvezli_330_tis_lyogkih_kommercheskih_i_gryzovih_avtomobilei.html"
       ],
       "visual": "visual"
     }
