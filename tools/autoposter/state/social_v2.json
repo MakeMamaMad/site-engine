@@ -2844,6 +2844,36 @@
         }
       },
       "updated_at": "2026-11-11T08:15:05.936617+00:00"
+    },
+    "testdrive:sat500#2": {
+      "title": "SAT-500: алюминиевый самосвал — запишитесь на тест-драйв",
+      "created_at": "2026-11-11T22:09:47.452437+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "M46d7C8UqcM",
+          "url": "https://www.youtube.com/shorts/M46d7C8UqcM",
+          "updated_at": "2026-11-11T22:09:47.452456+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af4e7ac3d8c751bfdf9a3b6",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-11T22:10:34.353574+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6af4e7dbbc9f3773a1a32676",
+          "buffer_status": "sending",
+          "updated_at": "2026-11-11T22:12:47.488611+00:00"
+        }
+      },
+      "updated_at": "2026-11-11T22:12:47.488608+00:00"
     }
   }
 }

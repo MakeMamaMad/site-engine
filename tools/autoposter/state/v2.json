@@ -93,7 +93,8 @@
     "testdrive:intro#2",
     "552caae5b316",
     "017c8cfc620c",
-    "cb17d7f31261"
+    "cb17d7f31261",
+    "testdrive:sat500#2"
   ],
   "renders": [
     {
@@ -745,6 +746,13 @@
       "slug": "chereau-podderzhivaet-kampaniyu-po-borbe-s-rakom-molochnoy-zhelezy-cb17d7f3",
       "title": "CHEREAU поддержала кампанию против рака молочной железы",
       "created_at": "2026-11-11T08:15:05.939785+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "testdrive:sat500#2",
+      "slug": "",
+      "title": "SAT-500: алюминиевый самосвал — запишитесь на тест-драйв",
+      "created_at": "2026-11-11T22:12:47.493768+00:00",
       "format": "social-v2"
     }
   ]
