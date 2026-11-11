@@ -2578,6 +2578,27 @@
       "sent_at": "2026-11-11T10:43:41+00:00",
       "title": "В ООО \"Газпром трансгаз Саратов\" поступили 6 пригородные автобусы КАМАЗы 5222.",
       "slug": "v-ooo-gazprom-transgaz-saratov-postupili-6-prigorodnye-avtobusy-kamazy-5-24bfad64"
+    },
+    "https://www.globaltrailermag.com/ceva-logistics-opens-strasbourg-pharma-logistics-hub/": {
+      "digest_id": "2026-11-11:pm",
+      "post_id": 257,
+      "sent_at": "2026-11-11T14:40:22+00:00",
+      "title": "CEVA Logistics открывает логистический центр в Страсбурге",
+      "slug": "ceva-logistics-otkryvaet-logisticheskiy-tsentr-v-strasburge-5592cd91"
+    },
+    "https://www.globaltrailermag.com/saf-holland-sales-surpass-e1-36b/": {
+      "digest_id": "2026-11-11:pm",
+      "post_id": 257,
+      "sent_at": "2026-11-11T14:40:22+00:00",
+      "title": "Продажи SAF-Holland превысили 1,36 млрд евро",
+      "slug": "prodazhi-saf-holland-prevysili-1-36-mlrd-evro-552caae5"
+    },
+    "http://gruzovoy.ru/news/industry/3435_s_nachala_goda_rosstandart_otozval_bolee_16_tis_gryzovikov.html": {
+      "digest_id": "2026-11-11:pm",
+      "post_id": 257,
+      "sent_at": "2026-11-11T14:40:22+00:00",
+      "title": "С начала года Росстандарт отозвал более 16 тыс. грузовиков",
+      "slug": "s-nachala-goda-rosstandart-otozval-bolee-16-tys-gruzovikov-3dd2048a"
     }
   },
   "digests": {
@@ -3356,6 +3377,17 @@
         "https://www.globaltrailermag.com/spain-strike-to-disrupt-road-freight/",
         "https://truckmix.ru/news/naddips-bet-trevogy-shokovoe-povishenie-ytilsbora-na-ekskavatori-grozit-ydorojaniem-dobichi-poleznih-iskopaemih",
         "https://sdelanounas.ru/blogs/179331/"
+      ]
+    },
+    "2026-11-11:pm": {
+      "post_id": 257,
+      "sent_at": "2026-11-11T14:40:22+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/ceva-logistics-opens-strasbourg-pharma-logistics-hub/",
+        "https://www.globaltrailermag.com/saf-holland-sales-surpass-e1-36b/",
+        "http://gruzovoy.ru/news/industry/3435_s_nachala_goda_rosstandart_otozval_bolee_16_tis_gryzovikov.html"
       ]
     }
   }
