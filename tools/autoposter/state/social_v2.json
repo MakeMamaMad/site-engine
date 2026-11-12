@@ -2904,6 +2904,36 @@
         }
       },
       "updated_at": "2026-11-12T08:13:45.306530+00:00"
+    },
+    "acfef7817afe": {
+      "title": "Ноябрьские предложения для коммерческого транспорта: скидки, лизинг и акции",
+      "created_at": "2026-11-12T21:57:05.049045+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "-MFxAec2sdk",
+          "url": "https://www.youtube.com/shorts/-MFxAec2sdk",
+          "updated_at": "2026-11-12T21:57:05.049068+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af63632c0cd8f4345d96d8c",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-12T21:58:54.220401+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af6369fc0cd8f4345d986ba",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-12T21:59:57.083391+00:00"
+        }
+      },
+      "updated_at": "2026-11-12T21:59:57.083389+00:00"
     }
   }
 }
