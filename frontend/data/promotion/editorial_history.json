@@ -812,6 +812,28 @@
       "status": "email_sent",
       "sent_at": "2026-11-11T10:45:24+00:00",
       "gmail_message_id": "1a1ca3661e5ca6f6"
+    },
+    {
+      "target_id": "mexzona",
+      "target_name": "MEXZONA.RU",
+      "slug": "nagruzka-na-os",
+      "title": "Нагрузка на ось: как проверить автопоезд перед рейсом",
+      "site_url": "https://spec-avtoportal.ru/knowledge/nagruzka-na-os/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=nagruzka-na-os",
+      "created_at": "2026-11-12T17:42:01+00:00",
+      "status": "manual_fallback"
+    },
+    {
+      "target_id": "logistics360-editorial",
+      "target_name": "Журнал «Логистика 360»",
+      "slug": "gabarity-i-massy",
+      "title": "Габариты и массы автопоезда: основные пределы",
+      "site_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=logistics360-editorial&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "contact": "a.miroshkina@logistics360.ru",
+      "item_key": "knowledge:gabarity-i-massy",
+      "created_at": "2026-11-12T17:42:02+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-12T17:42:03+00:00",
+      "gmail_message_id": "1a1d0da30a50825b"
     }
   ]
 }
