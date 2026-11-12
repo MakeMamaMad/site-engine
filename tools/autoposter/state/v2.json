@@ -94,7 +94,8 @@
     "552caae5b316",
     "017c8cfc620c",
     "cb17d7f31261",
-    "testdrive:sat500#2"
+    "testdrive:sat500#2",
+    "e29f261623d6"
   ],
   "renders": [
     {
@@ -753,6 +754,13 @@
       "slug": "",
       "title": "SAT-500: алюминиевый самосвал — запишитесь на тест-драйв",
       "created_at": "2026-11-11T22:12:47.493768+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "e29f261623d6",
+      "slug": "33-novyh-kamaz-54902-v-put-e29f2616",
+      "title": "33 новых КАМАЗ-54902 — в путь",
+      "created_at": "2026-11-12T08:13:45.309776+00:00",
       "format": "social-v2"
     }
   ]

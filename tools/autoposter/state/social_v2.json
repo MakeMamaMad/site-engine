@@ -2874,6 +2874,36 @@
         }
       },
       "updated_at": "2026-11-11T22:12:47.488608+00:00"
+    },
+    "e29f261623d6": {
+      "title": "33 новых КАМАЗ-54902 — в путь",
+      "created_at": "2026-11-12T08:11:00.614822+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "Fr7vbWJRLbY",
+          "url": "https://www.youtube.com/shorts/Fr7vbWJRLbY",
+          "updated_at": "2026-11-12T08:11:00.614844+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af57495df70eccdaac002fe",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-12T08:12:48.496467+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af57501df70eccdaac023cd",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-12T08:13:45.306532+00:00"
+        }
+      },
+      "updated_at": "2026-11-12T08:13:45.306530+00:00"
     }
   }
 }
