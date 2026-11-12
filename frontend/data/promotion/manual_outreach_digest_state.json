@@ -1,14 +1,15 @@
 {
   "schema": 1,
   "date_moscow": "2026-11-12",
-  "sent_at": "2026-11-12T15:29:21+00:00",
-  "task_count": 6,
+  "sent_at": "2026-11-12T18:45:13+00:00",
+  "task_count": 7,
   "action_ids": [
     "editorial:mexzona:gabarity-i-massy",
     "editorial:mexzona:kak-razmestit-gruz-v-evrofure",
     "editorial:mexzona:kak-vybrat-polupricep",
     "editorial:mexzona:karta-voditelya-dlya-tahografa",
     "editorial:mexzona:kreplenie-gruzov",
+    "editorial:mexzona:nagruzka-na-os",
     "editorial:mexzona:tehnicheskoe-obsluzhivanie-polupricepa"
   ]
 }
