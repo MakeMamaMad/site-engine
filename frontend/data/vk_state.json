@@ -2692,6 +2692,27 @@
       "sent_at": "2026-11-12T07:07:38+00:00",
       "title": "За пять лет в Россию ввезли 330 тыс. грузовых и лёгких коммерческих автомобилей",
       "slug": "za-pyat-let-v-rossiyu-vvezli-330-tys-gruzovyh-i-legkih-kommercheskih-avt-e7aa5aed"
+    },
+    "https://truckmix.ru/news/ctt-expo-2027-vnedryaet-instrymenti-pomogaushie-biznesy-deistvovat-na-operejenie": {
+      "digest_id": "2026-11-12:pm",
+      "post_id": 268,
+      "sent_at": "2026-11-12T15:31:43+00:00",
+      "title": "CTT Expo 2027 внедряет инструменты, помогающие бизнесу действовать на опережение",
+      "slug": "ctt-expo-2027-vnedryaet-instrumenty-pomogayuschie-biznesu-deystvovat-na-1c0e0b3d"
+    },
+    "https://nefaz.ru/news/zaschita-na-kazhdyy-den": {
+      "digest_id": "2026-11-12:pm",
+      "post_id": 268,
+      "sent_at": "2026-11-12T15:31:43+00:00",
+      "title": "Защита на каждый день",
+      "slug": "zaschita-na-kazhdyy-den-a33242da"
+    },
+    "https://nefaz.ru/news/den-ital-yanskoy-kuhni": {
+      "digest_id": "2026-11-12:pm",
+      "post_id": 268,
+      "sent_at": "2026-11-12T15:31:43+00:00",
+      "title": "День итальянской кухни",
+      "slug": "den-italyanskoy-kuhni-141d2bc1"
     }
   },
   "digests": {
@@ -3492,6 +3513,17 @@
         "https://sdelanounas.ru/blogs/179310/",
         "https://comautotrans.moscow/tpost/p5rjcrsuo1-vasha-vigoda-zdes-spetsialnie-usloviya-u",
         "http://gruzovoy.ru/news/industry/3432_za_pyat_let_v_rossiu_vvezli_330_tis_lyogkih_kommercheskih_i_gryzovih_avtomobilei.html"
+      ]
+    },
+    "2026-11-12:pm": {
+      "post_id": 268,
+      "sent_at": "2026-11-12T15:31:43+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://truckmix.ru/news/ctt-expo-2027-vnedryaet-instrymenti-pomogaushie-biznesy-deistvovat-na-operejenie",
+        "https://nefaz.ru/news/zaschita-na-kazhdyy-den",
+        "https://nefaz.ru/news/den-ital-yanskoy-kuhni"
       ]
     }
   }
