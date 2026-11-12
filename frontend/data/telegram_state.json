@@ -2995,20 +2995,30 @@
       "sent_at": "2026-11-12T07:11:39+00:00",
       "title": "Россия, Казахстан и Кыргызстан проведут эксперимент с навигационными пломбами",
       "slug": "rossiya-kazahstan-i-kyrgyzstan-provedut-eksperiment-s-navigatsionnymi-pl-b6cc4bdd"
+    },
+    "http://gruzovoy.ru/news/industry/3431_elektrogryzoviki_zanyali_bolee_polovini_rinka_tyajyologo_transporta_v_kitae.html": {
+      "digest_id": "2026-11-12:pm",
+      "message_id": 1770,
+      "sent_at": "2026-11-12T15:28:40+00:00",
+      "title": "Электрогрузовики заняли более половины рынка тяжёлого транспорта в Китае",
+      "slug": "elektrogruzoviki-zanyali-bolee-poloviny-rynka-tyazhelogo-transporta-v-ki-ac61708e"
+    },
+    "https://www.globaltrailermag.com/spain-strike-to-disrupt-road-freight/": {
+      "digest_id": "2026-11-12:pm",
+      "message_id": 1770,
+      "sent_at": "2026-11-12T15:28:40+00:00",
+      "title": "Испания наносит удар по дорожным грузоперевозкам",
+      "slug": "ispaniya-nanosit-udar-po-dorozhnym-gruzoperevozkam-6532f251"
+    },
+    "http://gruzovoy.ru/news/industry/3433_skidki_akcii_rasprodaji_kommercheskogo_transporta.html": {
+      "digest_id": "2026-11-12:pm",
+      "message_id": 1770,
+      "sent_at": "2026-11-12T15:28:40+00:00",
+      "title": "Скидки, акции, распродажи коммерческого транспорта в ноябре 2026. Выбор Грузового Ру",
+      "slug": "skidki-aktsii-rasprodazhi-kommercheskogo-transporta-v-noyabre-2026-vybor-acfef781"
     }
   },
   "digests": {
-    "2026-10-24:am": {
-      "message_id": 1652,
-      "sent_at": "2026-10-24T10:47:57+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/179011/",
-        "https://sdelanounas.ru/blogs/179030/",
-        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-24:pm": {
       "message_id": 1653,
       "sent_at": "2026-10-24T18:56:29+00:00",
@@ -3325,6 +3335,17 @@
         "https://nefaz.ru/news/zaschita-na-kazhdyy-den",
         "http://gruzovoy.ru/news/industry/3435_s_nachala_goda_rosstandart_otozval_bolee_16_tis_gryzovikov.html",
         "http://gruzovoy.ru/news/industry/3434_rossiya_kazahstan_i_kirgizstan_provedyt_eksperiment_s_navigacionnimi_plombami.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-12:pm": {
+      "message_id": 1770,
+      "sent_at": "2026-11-12T15:28:40+00:00",
+      "slot": "pm",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3431_elektrogryzoviki_zanyali_bolee_polovini_rinka_tyajyologo_transporta_v_kitae.html",
+        "https://www.globaltrailermag.com/spain-strike-to-disrupt-road-freight/",
+        "http://gruzovoy.ru/news/industry/3433_skidki_akcii_rasprodaji_kommercheskogo_transporta.html"
       ],
       "visual": "visual"
     }
