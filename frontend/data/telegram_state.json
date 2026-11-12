@@ -2947,20 +2947,30 @@
       "sent_at": "2026-11-11T14:37:02+00:00",
       "title": "Автономная грузовая электрическая платформа за 44 млн евро",
       "slug": "avtonomnaya-gruzovaya-elektricheskaya-platforma-za-44-mln-evro-7700f164"
+    },
+    "https://nefaz.ru/news/zaschita-na-kazhdyy-den": {
+      "digest_id": "2026-11-12:am",
+      "message_id": 1766,
+      "sent_at": "2026-11-12T07:11:39+00:00",
+      "title": "Защита на каждый день",
+      "slug": "zaschita-na-kazhdyy-den-a33242da"
+    },
+    "http://gruzovoy.ru/news/industry/3435_s_nachala_goda_rosstandart_otozval_bolee_16_tis_gryzovikov.html": {
+      "digest_id": "2026-11-12:am",
+      "message_id": 1766,
+      "sent_at": "2026-11-12T07:11:39+00:00",
+      "title": "С начала года Росстандарт отозвал более 16 тыс. грузовиков",
+      "slug": "s-nachala-goda-rosstandart-otozval-bolee-16-tys-gruzovikov-3dd2048a"
+    },
+    "http://gruzovoy.ru/news/industry/3434_rossiya_kazahstan_i_kirgizstan_provedyt_eksperiment_s_navigacionnimi_plombami.html": {
+      "digest_id": "2026-11-12:am",
+      "message_id": 1766,
+      "sent_at": "2026-11-12T07:11:39+00:00",
+      "title": "Россия, Казахстан и Кыргызстан проведут эксперимент с навигационными пломбами",
+      "slug": "rossiya-kazahstan-i-kyrgyzstan-provedut-eksperiment-s-navigatsionnymi-pl-b6cc4bdd"
     }
   },
   "digests": {
-    "2026-10-23:pm": {
-      "message_id": 1649,
-      "sent_at": "2026-10-23T16:57:38+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/",
-        "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
-        "https://www.globaltrailermag.com/kuehnenagel-turns-over-e8b-for-q3-2026/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-24:am": {
       "message_id": 1652,
       "sent_at": "2026-10-24T10:47:57+00:00",
@@ -3277,6 +3287,17 @@
         "https://truckmix.ru/news/naddips-bet-trevogy-shokovoe-povishenie-ytilsbora-na-ekskavatori-grozit-ydorojaniem-dobichi-poleznih-iskopaemih",
         "https://www.globaltrailermag.com/l-i-t-moves-to-acquire-duvenbeck-group/",
         "https://www.globaltrailermag.com/autonomous-electric-freight-platform-secures-e44m/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-12:am": {
+      "message_id": 1766,
+      "sent_at": "2026-11-12T07:11:39+00:00",
+      "slot": "am",
+      "items": [
+        "https://nefaz.ru/news/zaschita-na-kazhdyy-den",
+        "http://gruzovoy.ru/news/industry/3435_s_nachala_goda_rosstandart_otozval_bolee_16_tis_gryzovikov.html",
+        "http://gruzovoy.ru/news/industry/3434_rossiya_kazahstan_i_kirgizstan_provedyt_eksperiment_s_navigacionnimi_plombami.html"
       ],
       "visual": "visual"
     }
