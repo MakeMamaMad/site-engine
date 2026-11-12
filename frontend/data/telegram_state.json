@@ -1769,6 +1769,33 @@
       "slug": "den-italyanskoy-kuhni-141d2bc1",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3422_dvs_na_kommercheskom_transporte_otremontirovat_ili_zamenit_kriterii_vibora_ot_lonmadi.html": {
+      "message_id": 1767,
+      "sent_at": "2026-11-12T10:53:42+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/dvs-na-kommercheskom-transporte-otremontirovat-ili-zamenit-kriterii-vybo-42fffe91/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=dvs-na-kommercheskom-transporte-otremontirovat-ili-zamenit-kriterii-vybo-42fffe91",
+      "title": "ДВС на коммерческом транспорте: отремонтировать или заменить? Критерии выбора от «Лонмади»",
+      "slug": "dvs-na-kommercheskom-transporte-otremontirovat-ili-zamenit-kriterii-vybo-42fffe91",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://truckmix.ru/news/ctt-expo-2027-vnedryaet-instrymenti-pomogaushie-biznesy-deistvovat-na-operejenie": {
+      "message_id": 1768,
+      "sent_at": "2026-11-12T10:53:43+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/ctt-expo-2027-vnedryaet-instrumenty-pomogayuschie-biznesu-deystvovat-na-1c0e0b3d/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=ctt-expo-2027-vnedryaet-instrumenty-pomogayuschie-biznesu-deystvovat-na-1c0e0b3d",
+      "title": "CTT Expo 2027 внедряет инструменты, помогающие бизнесу действовать на опережение",
+      "slug": "ctt-expo-2027-vnedryaet-instrumenty-pomogayuschie-biznesu-deystvovat-na-1c0e0b3d",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3433_skidki_akcii_rasprodaji_kommercheskogo_transporta.html": {
+      "message_id": 1769,
+      "sent_at": "2026-11-12T10:53:44+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/skidki-aktsii-rasprodazhi-kommercheskogo-transporta-v-noyabre-2026-vybor-acfef781/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=skidki-aktsii-rasprodazhi-kommercheskogo-transporta-v-noyabre-2026-vybor-acfef781",
+      "title": "Скидки, акции, распродажи коммерческого транспорта в ноябре 2026. Выбор Грузового Ру",
+      "slug": "skidki-aktsii-rasprodazhi-kommercheskogo-transporta-v-noyabre-2026-vybor-acfef781",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
