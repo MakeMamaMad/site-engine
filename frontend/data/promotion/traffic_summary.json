@@ -1,20 +1,10 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-11T23:33:29+00:00",
+  "updated_at": "2026-11-12T22:47:55+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
   "sources": [
-    {
-      "source": "5koleso-avtopark",
-      "medium": "editorial",
-      "campaign": "industry_editorial",
-      "visits": 1,
-      "users": 1,
-      "bounce_rate": 0.0,
-      "page_depth": 1.0,
-      "avg_visit_duration_seconds": 15
-    },
     {
       "source": "lognews-press",
       "medium": "editorial",
@@ -47,8 +37,8 @@
     }
   ],
   "totals": {
-    "visits": 4,
-    "users": 4
+    "visits": 3,
+    "users": 3
   },
   "sampled": false,
   "sample_share": 1.0
