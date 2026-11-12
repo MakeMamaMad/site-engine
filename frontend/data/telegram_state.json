@@ -1760,6 +1760,15 @@
       "slug": "33-novyh-kamaz-54902-v-put-e29f2616",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://nefaz.ru/news/den-ital-yanskoy-kuhni": {
+      "message_id": 1765,
+      "sent_at": "2026-11-12T07:11:13+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/den-italyanskoy-kuhni-141d2bc1/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=den-italyanskoy-kuhni-141d2bc1",
+      "title": "День итальянской кухни",
+      "slug": "den-italyanskoy-kuhni-141d2bc1",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
