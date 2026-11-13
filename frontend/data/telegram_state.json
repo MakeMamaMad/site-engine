@@ -1832,6 +1832,33 @@
       "slug": "rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3440_rossiya_narashivaet_perevozki_po_mejdynarodnim_transportnim_koridoram.html": {
+      "message_id": 1776,
+      "sent_at": "2026-11-13T10:50:45+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/rossiya-naraschivaet-perevozki-po-mezhdunarodnym-transportnym-koridoram-403f69c6/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=rossiya-naraschivaet-perevozki-po-mezhdunarodnym-transportnym-koridoram-403f69c6",
+      "title": "Россия наращивает перевозки по международным транспортным коридорам",
+      "slug": "rossiya-naraschivaet-perevozki-po-mezhdunarodnym-transportnym-koridoram-403f69c6",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3439_v_oktyabre_virosli_prodaji_gryzovikov_no_rinok_po-prejnemy_nestabilen.html": {
+      "message_id": 1777,
+      "sent_at": "2026-11-13T10:50:45+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5",
+      "title": "В октябре выросли продажи грузовиков, но рынок по-прежнему нестабилен",
+      "slug": "v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3438_lizingovie_kompanii_povishaut_ceni_na_poderjannie_gryzoviki.html": {
+      "message_id": 1778,
+      "sent_at": "2026-11-13T10:50:46+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/lizingovye-kompanii-povyshayut-tseny-na-poderzhannye-gruzoviki-86fd1add/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=lizingovye-kompanii-povyshayut-tseny-na-poderzhannye-gruzoviki-86fd1add",
+      "title": "Лизинговые компании повышают цены на подержанные грузовики",
+      "slug": "lizingovye-kompanii-povyshayut-tseny-na-poderzhannye-gruzoviki-86fd1add",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
