@@ -2782,6 +2782,27 @@
       "sent_at": "2026-11-13T10:51:25+00:00",
       "title": "Лизинговые компании повышают цены на подержанные грузовики",
       "slug": "lizingovye-kompanii-povyshayut-tseny-na-poderzhannye-gruzoviki-86fd1add"
+    },
+    "http://gruzovoy.ru/news/industry/3422_dvs_na_kommercheskom_transporte_otremontirovat_ili_zamenit_kriterii_vibora_ot_lonmadi.html": {
+      "digest_id": "2026-11-13:pm",
+      "post_id": 276,
+      "sent_at": "2026-11-13T14:51:45+00:00",
+      "title": "ДВС на коммерческом транспорте: отремонтировать или заменить? Критерии выбора от «Лонмади»",
+      "slug": "dvs-na-kommercheskom-transporte-otremontirovat-ili-zamenit-kriterii-vybo-42fffe91"
+    },
+    "http://gruzovoy.ru/news/industry/3440_rossiya_narashivaet_perevozki_po_mejdynarodnim_transportnim_koridoram.html": {
+      "digest_id": "2026-11-13:pm",
+      "post_id": 276,
+      "sent_at": "2026-11-13T14:51:45+00:00",
+      "title": "Россия наращивает перевозки по международным транспортным коридорам",
+      "slug": "rossiya-naraschivaet-perevozki-po-mezhdunarodnym-transportnym-koridoram-403f69c6"
+    },
+    "http://gruzovoy.ru/news/industry/3437_na_gosprogrammi_lgotnogo_avtolizinga_videlyat_dopolnitelnie_sredstva.html": {
+      "digest_id": "2026-11-13:pm",
+      "post_id": 276,
+      "sent_at": "2026-11-13T14:51:45+00:00",
+      "title": "На госпрограммы льготного автолизинга выделят дополнительные средства",
+      "slug": "na-gosprogrammy-lgotnogo-avtolizinga-vydelyat-dopolnitelnye-sredstva-df56e14e"
     }
   },
   "digests": {
@@ -3604,6 +3625,17 @@
         "http://gruzovoy.ru/news/industry/3433_skidki_akcii_rasprodaji_kommercheskogo_transporta.html",
         "https://sdelanounas.ru/blogs/179332/",
         "http://gruzovoy.ru/news/industry/3438_lizingovie_kompanii_povishaut_ceni_na_poderjannie_gryzoviki.html"
+      ]
+    },
+    "2026-11-13:pm": {
+      "post_id": 276,
+      "sent_at": "2026-11-13T14:51:45+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3422_dvs_na_kommercheskom_transporte_otremontirovat_ili_zamenit_kriterii_vibora_ot_lonmadi.html",
+        "http://gruzovoy.ru/news/industry/3440_rossiya_narashivaet_perevozki_po_mejdynarodnim_transportnim_koridoram.html",
+        "http://gruzovoy.ru/news/industry/3437_na_gosprogrammi_lgotnogo_avtolizinga_videlyat_dopolnitelnie_sredstva.html"
       ]
     }
   }
