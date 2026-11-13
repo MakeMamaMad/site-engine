@@ -3100,20 +3100,30 @@
       "sent_at": "2026-11-13T06:43:35+00:00",
       "title": "Минпромторг России унифицирует правовую базу регулирования утильсбора",
       "slug": "minpromtorg-rossii-unifitsiruet-pravovuyu-bazu-regulirovaniya-utilsbora-bc8e8661"
+    },
+    "http://gruzovoy.ru/news/industry/3440_rossiya_narashivaet_perevozki_po_mejdynarodnim_transportnim_koridoram.html": {
+      "digest_id": "2026-11-13:pm",
+      "message_id": 1779,
+      "sent_at": "2026-11-13T14:45:48+00:00",
+      "title": "Россия наращивает перевозки по международным транспортным коридорам",
+      "slug": "rossiya-naraschivaet-perevozki-po-mezhdunarodnym-transportnym-koridoram-403f69c6"
+    },
+    "http://gruzovoy.ru/news/industry/3422_dvs_na_kommercheskom_transporte_otremontirovat_ili_zamenit_kriterii_vibora_ot_lonmadi.html": {
+      "digest_id": "2026-11-13:pm",
+      "message_id": 1779,
+      "sent_at": "2026-11-13T14:45:48+00:00",
+      "title": "ДВС на коммерческом транспорте: отремонтировать или заменить? Критерии выбора от «Лонмади»",
+      "slug": "dvs-na-kommercheskom-transporte-otremontirovat-ili-zamenit-kriterii-vybo-42fffe91"
+    },
+    "https://truckmix.ru/news/ctt-expo-2027-vnedryaet-instrymenti-pomogaushie-biznesy-deistvovat-na-operejenie": {
+      "digest_id": "2026-11-13:pm",
+      "message_id": 1779,
+      "sent_at": "2026-11-13T14:45:48+00:00",
+      "title": "CTT Expo 2027 внедряет инструменты, помогающие бизнесу действовать на опережение",
+      "slug": "ctt-expo-2027-vnedryaet-instrumenty-pomogayuschie-biznesu-deystvovat-na-1c0e0b3d"
     }
   },
   "digests": {
-    "2026-10-26:pm": {
-      "message_id": 1657,
-      "sent_at": "2026-10-26T12:47:22+00:00",
-      "slot": "pm",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3406_za_9_mesyacev_prodaji_pricepov_sokratilis_na_186.html",
-        "https://www.satpricep.by/o-zavode/news/polupritsep-sat545-na-vystavke-dorozhnoe-stroitelstvo-2026/",
-        "https://truckmix.ru/news/valdai-45-pro-dokazal-rashod-24-5-l-100-km-v-30-dnevnom-teste-y-trasko"
-      ],
-      "visual": "visual"
-    },
     "2026-10-27:am": {
       "message_id": 1663,
       "sent_at": "2026-10-27T08:53:30+00:00",
@@ -3430,6 +3440,17 @@
         "https://sdelanounas.ru/blogs/179332/",
         "https://nefaz.ru/news/den-ital-yanskoy-kuhni",
         "http://gruzovoy.ru/news/industry/3436_minpromtorg_rossii_ynificiryet_pravovyu_bazy_regylirovaniya_ytilsbora.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-13:pm": {
+      "message_id": 1779,
+      "sent_at": "2026-11-13T14:45:48+00:00",
+      "slot": "pm",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3440_rossiya_narashivaet_perevozki_po_mejdynarodnim_transportnim_koridoram.html",
+        "http://gruzovoy.ru/news/industry/3422_dvs_na_kommercheskom_transporte_otremontirovat_ili_zamenit_kriterii_vibora_ot_lonmadi.html",
+        "https://truckmix.ru/news/ctt-expo-2027-vnedryaet-instrymenti-pomogaushie-biznesy-deistvovat-na-operejenie"
       ],
       "visual": "visual"
     }
