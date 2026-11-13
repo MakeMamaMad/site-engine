@@ -3052,20 +3052,30 @@
       "sent_at": "2026-11-12T15:28:40+00:00",
       "title": "Скидки, акции, распродажи коммерческого транспорта в ноябре 2026. Выбор Грузового Ру",
       "slug": "skidki-aktsii-rasprodazhi-kommercheskogo-transporta-v-noyabre-2026-vybor-acfef781"
+    },
+    "https://sdelanounas.ru/blogs/179332/": {
+      "digest_id": "2026-11-13:am",
+      "message_id": 1775,
+      "sent_at": "2026-11-13T06:43:35+00:00",
+      "title": "33 новых КАМАЗ-54902 – в путь!",
+      "slug": "33-novyh-kamaz-54902-v-put-e29f2616"
+    },
+    "https://nefaz.ru/news/den-ital-yanskoy-kuhni": {
+      "digest_id": "2026-11-13:am",
+      "message_id": 1775,
+      "sent_at": "2026-11-13T06:43:35+00:00",
+      "title": "День итальянской кухни",
+      "slug": "den-italyanskoy-kuhni-141d2bc1"
+    },
+    "http://gruzovoy.ru/news/industry/3436_minpromtorg_rossii_ynificiryet_pravovyu_bazy_regylirovaniya_ytilsbora.html": {
+      "digest_id": "2026-11-13:am",
+      "message_id": 1775,
+      "sent_at": "2026-11-13T06:43:35+00:00",
+      "title": "Минпромторг России унифицирует правовую базу регулирования утильсбора",
+      "slug": "minpromtorg-rossii-unifitsiruet-pravovuyu-bazu-regulirovaniya-utilsbora-bc8e8661"
     }
   },
   "digests": {
-    "2026-10-24:pm": {
-      "message_id": 1653,
-      "sent_at": "2026-10-24T18:56:29+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.satpricep.by/o-zavode/news/specavtotekhnika-kazagrofarm-2026-sat500-sat47k/",
-        "https://www.globaltrailermag.com/dsv-recovers-after-schenker-disruption/",
-        "https://www.globaltrailermag.com/hyundai-translead-boosts-illinois-investment-to-e536m/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-26:pm": {
       "message_id": 1657,
       "sent_at": "2026-10-26T12:47:22+00:00",
@@ -3382,6 +3392,17 @@
         "http://gruzovoy.ru/news/industry/3431_elektrogryzoviki_zanyali_bolee_polovini_rinka_tyajyologo_transporta_v_kitae.html",
         "https://www.globaltrailermag.com/spain-strike-to-disrupt-road-freight/",
         "http://gruzovoy.ru/news/industry/3433_skidki_akcii_rasprodaji_kommercheskogo_transporta.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-13:am": {
+      "message_id": 1775,
+      "sent_at": "2026-11-13T06:43:35+00:00",
+      "slot": "am",
+      "items": [
+        "https://sdelanounas.ru/blogs/179332/",
+        "https://nefaz.ru/news/den-ital-yanskoy-kuhni",
+        "http://gruzovoy.ru/news/industry/3436_minpromtorg_rossii_ynificiryet_pravovyu_bazy_regylirovaniya_ytilsbora.html"
       ],
       "visual": "visual"
     }
