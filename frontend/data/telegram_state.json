@@ -1805,6 +1805,33 @@
       "slug": "minpromtorg-rossii-unifitsiruet-pravovuyu-bazu-regulirovaniya-utilsbora-bc8e8661",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://uralaz.ru/media/news/avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevykh-uzlov-ot-fundamenta-do-opytnykh-obrazts/": {
+      "message_id": 1772,
+      "sent_at": "2026-11-13T06:43:10+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevyh-uzlov-ot-fu-4a3c46b0/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevyh-uzlov-ot-fu-4a3c46b0",
+      "title": "Автомобильный завод «УРАЛ»: новый этап в производстве ключевых узлов — от фундамента до опытных образцов",
+      "slug": "avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevyh-uzlov-ot-fu-4a3c46b0",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3437_na_gosprogrammi_lgotnogo_avtolizinga_videlyat_dopolnitelnie_sredstva.html": {
+      "message_id": 1773,
+      "sent_at": "2026-11-13T06:43:11+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/na-gosprogrammy-lgotnogo-avtolizinga-vydelyat-dopolnitelnye-sredstva-df56e14e/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=na-gosprogrammy-lgotnogo-avtolizinga-vydelyat-dopolnitelnye-sredstva-df56e14e",
+      "title": "На госпрограммы льготного автолизинга выделят дополнительные средства",
+      "slug": "na-gosprogrammy-lgotnogo-avtolizinga-vydelyat-dopolnitelnye-sredstva-df56e14e",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://sdelanounas.ru/blogs/179359/": {
+      "message_id": 1774,
+      "sent_at": "2026-11-13T06:43:12+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555",
+      "title": "Российская компания запустила разработку смазочных материалов для изделий из армированных композитов",
+      "slug": "rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
