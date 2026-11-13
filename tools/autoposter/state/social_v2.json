@@ -2964,6 +2964,36 @@
         }
       },
       "updated_at": "2026-11-13T08:13:24.103147+00:00"
+    },
+    "1e932cd5e1ab": {
+      "title": "Продажи грузовиков выросли, но рынок остается нестабильным",
+      "created_at": "2026-11-13T21:34:14.063492+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "uKUV70wLycQ",
+          "url": "https://www.youtube.com/shorts/uKUV70wLycQ",
+          "updated_at": "2026-11-13T21:34:14.063510+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af7825778196a0a97211795",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-13T21:36:04.015032+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af782c59257ce3398118cdb",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-13T21:37:07.077434+00:00"
+        }
+      },
+      "updated_at": "2026-11-13T21:37:07.077411+00:00"
     }
   }
 }

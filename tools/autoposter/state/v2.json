@@ -97,7 +97,8 @@
     "testdrive:sat500#2",
     "e29f261623d6",
     "acfef7817afe",
-    "4a3c46b09f65"
+    "4a3c46b09f65",
+    "1e932cd5e1ab"
   ],
   "renders": [
     {
@@ -777,6 +778,13 @@
       "slug": "avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevyh-uzlov-ot-fu-4a3c46b0",
       "title": "«Урал» создаёт производство ведущих мостов и передних осей",
       "created_at": "2026-11-13T08:13:24.106579+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "1e932cd5e1ab",
+      "slug": "v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5",
+      "title": "Продажи грузовиков выросли, но рынок остается нестабильным",
+      "created_at": "2026-11-13T21:37:07.080248+00:00",
       "format": "social-v2"
     }
   ]
