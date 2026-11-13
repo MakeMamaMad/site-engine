@@ -834,6 +834,19 @@
       "status": "email_sent",
       "sent_at": "2026-11-12T17:42:03+00:00",
       "gmail_message_id": "1a1d0da30a50825b"
+    },
+    {
+      "target_id": "naprus-assoc",
+      "target_name": "Национальная ассоциация перевозчиков (НАП)",
+      "slug": "gabarity-i-massy",
+      "title": "Габариты и массы автопоезда: основные пределы",
+      "site_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=naprus-assoc&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "contact": "info@naprus.ru",
+      "item_key": "knowledge:gabarity-i-massy",
+      "created_at": "2026-11-13T17:19:10+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-13T17:19:11+00:00",
+      "gmail_message_id": "1a1d5eb9feb8810f"
     }
   ]
 }

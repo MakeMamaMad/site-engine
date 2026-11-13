@@ -823,7 +823,24 @@
       "updated_at": "2026-11-12T17:42:03+00:00",
       "sent_at": "2026-11-12T17:42:03+00:00",
       "gmail_message_id": "1a1d0da30a50825b"
+    },
+    {
+      "action_id": "editorial:naprus-assoc:gabarity-i-massy",
+      "channel": "email",
+      "target_id": "naprus-assoc",
+      "target_name": "Национальная ассоциация перевозчиков (НАП)",
+      "action": "send_editorial_email",
+      "contact": "info@naprus.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для Национальная ассоциация перевозчиков (НАП): Габариты и массы автопоезда: основные пределы",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «Национальная ассоциация перевозчиков (НАП)» рассмотреть оригинальный практический материал: «Габариты и массы автопоезда: основные пределы».\nПеред загрузкой важно проверять четыре параметра: длину, ширину, высоту и массу. Для перевозчика они определяют, проходит ли автопоезд как обычный или уже требует специальных условий движения.\n\nМатериал: https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=naprus-assoc&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=naprus-assoc&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "created_at": "2026-11-13T17:19:10+00:00",
+      "updated_at": "2026-11-13T17:19:11+00:00",
+      "sent_at": "2026-11-13T17:19:11+00:00",
+      "gmail_message_id": "1a1d5eb9feb8810f"
     }
   ],
-  "updated_at": "2026-11-13T14:46:29+00:00"
+  "updated_at": "2026-11-13T17:19:11+00:00"
 }
