@@ -2737,6 +2737,27 @@
       "sent_at": "2026-11-12T15:31:43+00:00",
       "title": "День итальянской кухни",
       "slug": "den-italyanskoy-kuhni-141d2bc1"
+    },
+    "http://gruzovoy.ru/news/industry/3433_skidki_akcii_rasprodaji_kommercheskogo_transporta.html": {
+      "digest_id": "2026-11-13:am",
+      "post_id": 272,
+      "sent_at": "2026-11-13T10:51:25+00:00",
+      "title": "Скидки, акции, распродажи коммерческого транспорта в ноябре 2026. Выбор Грузового Ру",
+      "slug": "skidki-aktsii-rasprodazhi-kommercheskogo-transporta-v-noyabre-2026-vybor-acfef781"
+    },
+    "https://sdelanounas.ru/blogs/179332/": {
+      "digest_id": "2026-11-13:am",
+      "post_id": 272,
+      "sent_at": "2026-11-13T10:51:25+00:00",
+      "title": "33 новых КАМАЗ-54902 – в путь!",
+      "slug": "33-novyh-kamaz-54902-v-put-e29f2616"
+    },
+    "http://gruzovoy.ru/news/industry/3438_lizingovie_kompanii_povishaut_ceni_na_poderjannie_gryzoviki.html": {
+      "digest_id": "2026-11-13:am",
+      "post_id": 272,
+      "sent_at": "2026-11-13T10:51:25+00:00",
+      "title": "Лизинговые компании повышают цены на подержанные грузовики",
+      "slug": "lizingovye-kompanii-povyshayut-tseny-na-poderzhannye-gruzoviki-86fd1add"
     }
   },
   "digests": {
@@ -3548,6 +3569,17 @@
         "https://truckmix.ru/news/ctt-expo-2027-vnedryaet-instrymenti-pomogaushie-biznesy-deistvovat-na-operejenie",
         "https://nefaz.ru/news/zaschita-na-kazhdyy-den",
         "https://nefaz.ru/news/den-ital-yanskoy-kuhni"
+      ]
+    },
+    "2026-11-13:am": {
+      "post_id": 272,
+      "sent_at": "2026-11-13T10:51:25+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3433_skidki_akcii_rasprodaji_kommercheskogo_transporta.html",
+        "https://sdelanounas.ru/blogs/179332/",
+        "http://gruzovoy.ru/news/industry/3438_lizingovie_kompanii_povishaut_ceni_na_poderjannie_gryzoviki.html"
       ]
     }
   }
