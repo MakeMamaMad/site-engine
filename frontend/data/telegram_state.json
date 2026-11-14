@@ -3130,20 +3130,30 @@
       "sent_at": "2026-11-13T14:45:48+00:00",
       "title": "CTT Expo 2027 внедряет инструменты, помогающие бизнесу действовать на опережение",
       "slug": "ctt-expo-2027-vnedryaet-instrumenty-pomogayuschie-biznesu-deystvovat-na-1c0e0b3d"
+    },
+    "http://gruzovoy.ru/news/industry/3438_lizingovie_kompanii_povishaut_ceni_na_poderjannie_gryzoviki.html": {
+      "digest_id": "2026-11-14:am",
+      "message_id": 1781,
+      "sent_at": "2026-11-14T10:05:07+00:00",
+      "title": "Лизинговые компании повышают цены на подержанные грузовики",
+      "slug": "lizingovye-kompanii-povyshayut-tseny-na-poderzhannye-gruzoviki-86fd1add"
+    },
+    "https://sdelanounas.ru/blogs/179359/": {
+      "digest_id": "2026-11-14:am",
+      "message_id": 1781,
+      "sent_at": "2026-11-14T10:05:07+00:00",
+      "title": "Российская компания запустила разработку смазочных материалов для изделий из армированных композитов",
+      "slug": "rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555"
+    },
+    "https://nefaz.ru/news/na-nefaze-proshli-ucheniya-po-evakuatsii-personala": {
+      "digest_id": "2026-11-14:am",
+      "message_id": 1781,
+      "sent_at": "2026-11-14T10:05:07+00:00",
+      "title": "На «НЕФАЗе» прошли учения по эвакуации персонала",
+      "slug": "na-nefaze-proshli-ucheniya-po-evakuatsii-personala-28362cca"
     }
   },
   "digests": {
-    "2026-10-27:am": {
-      "message_id": 1663,
-      "sent_at": "2026-10-27T08:53:30+00:00",
-      "slot": "am",
-      "items": [
-        "https://uralaz.ru/media/news/komanda-ural-motorsport-zavershila-sezon-trak-triala-/",
-        "https://www.globaltrailermag.com/fenatran-drives-brazilian-trailer-export-opportunities/",
-        "https://www.globaltrailermag.com/linfox-builds-momentum-across-asia/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-27:pm": {
       "message_id": 1664,
       "sent_at": "2026-10-27T12:30:37+00:00",
@@ -3460,6 +3470,17 @@
         "http://gruzovoy.ru/news/industry/3440_rossiya_narashivaet_perevozki_po_mejdynarodnim_transportnim_koridoram.html",
         "http://gruzovoy.ru/news/industry/3422_dvs_na_kommercheskom_transporte_otremontirovat_ili_zamenit_kriterii_vibora_ot_lonmadi.html",
         "https://truckmix.ru/news/ctt-expo-2027-vnedryaet-instrymenti-pomogaushie-biznesy-deistvovat-na-operejenie"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-14:am": {
+      "message_id": 1781,
+      "sent_at": "2026-11-14T10:05:07+00:00",
+      "slot": "am",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3438_lizingovie_kompanii_povishaut_ceni_na_poderjannie_gryzoviki.html",
+        "https://sdelanounas.ru/blogs/179359/",
+        "https://nefaz.ru/news/na-nefaze-proshli-ucheniya-po-evakuatsii-personala"
       ],
       "visual": "visual"
     }
