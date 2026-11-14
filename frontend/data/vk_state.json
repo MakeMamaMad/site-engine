@@ -2830,9 +2830,9 @@
       "slug": "rossiya-naraschivaet-perevozki-po-mezhdunarodnym-transportnym-koridoram-403f69c6"
     },
     "http://gruzovoy.ru/news/industry/3437_na_gosprogrammi_lgotnogo_avtolizinga_videlyat_dopolnitelnie_sredstva.html": {
-      "digest_id": "2026-11-13:pm",
-      "post_id": 276,
-      "sent_at": "2026-11-13T14:51:45+00:00",
+      "digest_id": "2026-11-14:pm",
+      "post_id": 282,
+      "sent_at": "2026-11-14T13:45:27+00:00",
       "title": "На госпрограммы льготного автолизинга выделят дополнительные средства",
       "slug": "na-gosprogrammy-lgotnogo-avtolizinga-vydelyat-dopolnitelnye-sredstva-df56e14e"
     },
@@ -2856,6 +2856,20 @@
       "sent_at": "2026-11-14T10:05:02+00:00",
       "title": "На «НЕФАЗе» прошли учения по эвакуации персонала",
       "slug": "na-nefaze-proshli-ucheniya-po-evakuatsii-personala-28362cca"
+    },
+    "https://uralaz.ru/media/news/avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevykh-uzlov-ot-fundamenta-do-opytnykh-obrazts/": {
+      "digest_id": "2026-11-14:pm",
+      "post_id": 282,
+      "sent_at": "2026-11-14T13:45:27+00:00",
+      "title": "Автомобильный завод «УРАЛ»: новый этап в производстве ключевых узлов — от фундамента до опытных образцов",
+      "slug": "avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevyh-uzlov-ot-fu-4a3c46b0"
+    },
+    "http://gruzovoy.ru/news/industry/3439_v_oktyabre_virosli_prodaji_gryzovikov_no_rinok_po-prejnemy_nestabilen.html": {
+      "digest_id": "2026-11-14:pm",
+      "post_id": 282,
+      "sent_at": "2026-11-14T13:45:27+00:00",
+      "title": "В октябре выросли продажи грузовиков, но рынок по-прежнему нестабилен",
+      "slug": "v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5"
     }
   },
   "digests": {
@@ -3700,6 +3714,17 @@
         "https://sdelanounas.ru/blogs/179359/",
         "http://gruzovoy.ru/news/industry/3436_minpromtorg_rossii_ynificiryet_pravovyu_bazy_regylirovaniya_ytilsbora.html",
         "https://nefaz.ru/news/na-nefaze-proshli-ucheniya-po-evakuatsii-personala"
+      ]
+    },
+    "2026-11-14:pm": {
+      "post_id": 282,
+      "sent_at": "2026-11-14T13:45:27+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://uralaz.ru/media/news/avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevykh-uzlov-ot-fundamenta-do-opytnykh-obrazts/",
+        "http://gruzovoy.ru/news/industry/3439_v_oktyabre_virosli_prodaji_gryzovikov_no_rinok_po-prejnemy_nestabilen.html",
+        "http://gruzovoy.ru/news/industry/3437_na_gosprogrammi_lgotnogo_avtolizinga_videlyat_dopolnitelnie_sredstva.html"
       ]
     }
   }
