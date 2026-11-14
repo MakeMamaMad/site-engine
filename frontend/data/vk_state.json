@@ -2835,6 +2835,27 @@
       "sent_at": "2026-11-13T14:51:45+00:00",
       "title": "На госпрограммы льготного автолизинга выделят дополнительные средства",
       "slug": "na-gosprogrammy-lgotnogo-avtolizinga-vydelyat-dopolnitelnye-sredstva-df56e14e"
+    },
+    "https://sdelanounas.ru/blogs/179359/": {
+      "digest_id": "2026-11-14:am",
+      "post_id": 281,
+      "sent_at": "2026-11-14T10:05:02+00:00",
+      "title": "Российская компания запустила разработку смазочных материалов для изделий из армированных композитов",
+      "slug": "rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555"
+    },
+    "http://gruzovoy.ru/news/industry/3436_minpromtorg_rossii_ynificiryet_pravovyu_bazy_regylirovaniya_ytilsbora.html": {
+      "digest_id": "2026-11-14:am",
+      "post_id": 281,
+      "sent_at": "2026-11-14T10:05:02+00:00",
+      "title": "Минпромторг России унифицирует правовую базу регулирования утильсбора",
+      "slug": "minpromtorg-rossii-unifitsiruet-pravovuyu-bazu-regulirovaniya-utilsbora-bc8e8661"
+    },
+    "https://nefaz.ru/news/na-nefaze-proshli-ucheniya-po-evakuatsii-personala": {
+      "digest_id": "2026-11-14:am",
+      "post_id": 281,
+      "sent_at": "2026-11-14T10:05:02+00:00",
+      "title": "На «НЕФАЗе» прошли учения по эвакуации персонала",
+      "slug": "na-nefaze-proshli-ucheniya-po-evakuatsii-personala-28362cca"
     }
   },
   "digests": {
@@ -3668,6 +3689,17 @@
         "http://gruzovoy.ru/news/industry/3422_dvs_na_kommercheskom_transporte_otremontirovat_ili_zamenit_kriterii_vibora_ot_lonmadi.html",
         "http://gruzovoy.ru/news/industry/3440_rossiya_narashivaet_perevozki_po_mejdynarodnim_transportnim_koridoram.html",
         "http://gruzovoy.ru/news/industry/3437_na_gosprogrammi_lgotnogo_avtolizinga_videlyat_dopolnitelnie_sredstva.html"
+      ]
+    },
+    "2026-11-14:am": {
+      "post_id": 281,
+      "sent_at": "2026-11-14T10:05:02+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://sdelanounas.ru/blogs/179359/",
+        "http://gruzovoy.ru/news/industry/3436_minpromtorg_rossii_ynificiryet_pravovyu_bazy_regylirovaniya_ytilsbora.html",
+        "https://nefaz.ru/news/na-nefaze-proshli-ucheniya-po-evakuatsii-personala"
       ]
     }
   }
