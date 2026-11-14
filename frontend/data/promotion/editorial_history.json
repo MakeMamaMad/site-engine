@@ -847,6 +847,19 @@
       "status": "email_sent",
       "sent_at": "2026-11-13T17:19:11+00:00",
       "gmail_message_id": "1a1d5eb9feb8810f"
+    },
+    {
+      "target_id": "neg-by",
+      "target_name": "«Экономическая газета» (Беларусь), рубрика «Транспорт»",
+      "slug": "gabarity-i-massy",
+      "title": "Габариты и массы автопоезда: основные пределы",
+      "site_url": "https://spec-avtoportal.ru/knowledge/gabarity-i-massy/?utm_source=neg-by&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=gabarity-i-massy",
+      "contact": "info@neg.by",
+      "item_key": "knowledge:gabarity-i-massy",
+      "created_at": "2026-11-14T15:56:04+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-14T15:56:04+00:00",
+      "gmail_message_id": "1a1dac5e594a0691"
     }
   ]
 }
