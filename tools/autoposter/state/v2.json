@@ -98,7 +98,8 @@
     "e29f261623d6",
     "acfef7817afe",
     "4a3c46b09f65",
-    "1e932cd5e1ab"
+    "1e932cd5e1ab",
+    "b18d2555b95c"
   ],
   "renders": [
     {
@@ -785,6 +786,13 @@
       "slug": "v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5",
       "title": "Продажи грузовиков выросли, но рынок остается нестабильным",
       "created_at": "2026-11-13T21:37:07.080248+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "b18d2555b95c",
+      "slug": "rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555",
+      "title": "Российская компания начала разработку смазочных материалов для армированных композитов",
+      "created_at": "2026-11-14T08:14:49.967116+00:00",
       "format": "social-v2"
     }
   ]
