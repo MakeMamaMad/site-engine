@@ -857,7 +857,24 @@
       "updated_at": "2026-11-14T15:56:04+00:00",
       "sent_at": "2026-11-14T15:56:04+00:00",
       "gmail_message_id": "1a1dac5e594a0691"
+    },
+    {
+      "action_id": "editorial:tahograf-center:karta-voditelya-dlya-tahografa",
+      "channel": "email",
+      "target_id": "tahograf-center",
+      "target_name": "Ассоциация «Тахографический центр»",
+      "action": "send_editorial_email",
+      "contact": "info@tahograf.online",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для Ассоциация «Тахографический центр»: Карта водителя для тахографа в 2026 году: какая нужна, где получить, что будет без неё",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «Ассоциация «Тахографический центр»» рассмотреть оригинальный практический материал: «Карта водителя для тахографа в 2026 году: какая нужна, где получить, что будет без неё».\nБез карты водителя тахограф не записывает, кто был за рулём, — а ездить с тахографом без карты правила прямо запрещают. Разбираем, какая карта нужна для внутренних и международных рейсов, где её оформить, как ею пользоваться и какие штрафы грозят водителю и перевозчику.\n\nМатериал: https://spec-avtoportal.ru/knowledge/karta-voditelya-dlya-tahografa/?utm_source=tahograf-center&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=karta-voditelya-dlya-tahografa\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/karta-voditelya-dlya-tahografa/?utm_source=tahograf-center&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=karta-voditelya-dlya-tahografa",
+      "created_at": "2026-11-15T14:13:19+00:00",
+      "updated_at": "2026-11-15T14:13:19+00:00",
+      "sent_at": "2026-11-15T14:13:19+00:00",
+      "gmail_message_id": "1a1df8e2ec00cc91"
     }
   ],
-  "updated_at": "2026-11-14T16:36:35+00:00"
+  "updated_at": "2026-11-15T14:13:19+00:00"
 }
