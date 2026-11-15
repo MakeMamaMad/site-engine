@@ -3024,6 +3024,36 @@
         }
       },
       "updated_at": "2026-11-14T08:14:49.964252+00:00"
+    },
+    "86fd1adde3dc": {
+      "title": "Лизинговые компании повышают цены на подержанные грузовики",
+      "created_at": "2026-11-15T06:09:16.890783+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "TZ9asxqCRzI",
+          "url": "https://www.youtube.com/shorts/TZ9asxqCRzI",
+          "updated_at": "2026-11-15T06:09:16.890806+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af94c8e918fe79d2ec60ce0",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-15T06:11:06.708536+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6af94cfbe5a113497acce9ef",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-15T06:12:04.498900+00:00"
+        }
+      },
+      "updated_at": "2026-11-15T06:12:04.498898+00:00"
     }
   }
 }

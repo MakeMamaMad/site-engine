@@ -99,7 +99,8 @@
     "acfef7817afe",
     "4a3c46b09f65",
     "1e932cd5e1ab",
-    "b18d2555b95c"
+    "b18d2555b95c",
+    "86fd1adde3dc"
   ],
   "renders": [
     {
@@ -793,6 +794,13 @@
       "slug": "rossiyskaya-kompaniya-zapustila-razrabotku-smazochnyh-materialov-dlya-iz-b18d2555",
       "title": "Российская компания начала разработку смазочных материалов для армированных композитов",
       "created_at": "2026-11-14T08:14:49.967116+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "86fd1adde3dc",
+      "slug": "lizingovye-kompanii-povyshayut-tseny-na-poderzhannye-gruzoviki-86fd1add",
+      "title": "Лизинговые компании повышают цены на подержанные грузовики",
+      "created_at": "2026-11-15T06:12:04.501176+00:00",
       "format": "social-v2"
     }
   ]
