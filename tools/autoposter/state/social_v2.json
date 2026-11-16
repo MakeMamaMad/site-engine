@@ -3114,6 +3114,36 @@
         }
       },
       "updated_at": "2026-11-16T06:13:21.536558+00:00"
+    },
+    "guide:rezhim-truda-i-otdyha": {
+      "title": "Приказ 424 больше не действует: новые нормы для водителей",
+      "created_at": "2026-11-16T16:15:16.426614+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "tF5RmH3JhHo",
+          "url": "https://www.youtube.com/shorts/tF5RmH3JhHo",
+          "updated_at": "2026-11-16T16:15:16.426633+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6afb2c15d256d7c2468d5b62",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-16T16:17:06.193510+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6afb2c83b34088cbfd8395c9",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-16T16:18:09.310049+00:00"
+        }
+      },
+      "updated_at": "2026-11-16T16:18:09.310047+00:00"
     }
   }
 }

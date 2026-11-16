@@ -102,7 +102,8 @@
     "b18d2555b95c",
     "86fd1adde3dc",
     "403f69c601e6",
-    "18ed0519bbaa"
+    "18ed0519bbaa",
+    "guide:rezhim-truda-i-otdyha"
   ],
   "renders": [
     {
@@ -817,6 +818,13 @@
       "slug": "arabskie-strany-soglasovali-pravila-perevozki-dg-18ed0519",
       "title": "Арабские страны согласовали правила перевозки опасных грузов",
       "created_at": "2026-11-16T06:13:21.538984+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:rezhim-truda-i-otdyha",
+      "slug": "",
+      "title": "Приказ 424 больше не действует: новые нормы для водителей",
+      "created_at": "2026-11-16T16:18:09.312865+00:00",
       "format": "social-v2"
     }
   ]
