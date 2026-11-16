@@ -80,6 +80,9 @@ jobs:
       - name: Generate preview reports
         run: python tools/autoposter/scripts/cross_platform_preview.py --output "$PREVIEW_DIR"
 
+      - name: Generate calculator campaign preview (offline)
+        run: python -m tools.autoposter.scripts.calculator_campaign_preview --target axis_distribution --content-id axis_loading_01 --output "$PREVIEW_DIR/calculator_campaign_preview.json"
+
       - name: Verify labels, safety and artifact size
         run: |
           python - <<'PY'
@@ -87,6 +90,9 @@ jobs:
           from pathlib import Path
 
           root = Path("/tmp/cross-platform-preview")
+          campaign = json.loads((root / "calculator_campaign_preview.json").read_text(encoding="utf-8"))
+          assert campaign["production_effect"] == "none" and campaign["publish_called"] is False
+          assert campaign["links"]["youtube"].startswith("https://spec-avtoportal.ru/tools/raspredelenie-gruza-po-osyam/")
           index = json.loads((root / "index.json").read_text(encoding="utf-8"))
           report = json.loads((root / "cross_platform_report.json").read_text(encoding="utf-8"))
           packages = json.loads((root / "platform_packages.json").read_text(encoding="utf-8"))
