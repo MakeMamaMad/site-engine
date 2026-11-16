@@ -3199,20 +3199,30 @@
       "sent_at": "2026-11-14T13:41:59+00:00",
       "title": "В октябре выросли продажи грузовиков, но рынок по-прежнему нестабилен",
       "slug": "v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5"
+    },
+    "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/": {
+      "digest_id": "2026-11-16:pm",
+      "message_id": 1786,
+      "sent_at": "2026-11-16T16:12:54+00:00",
+      "title": "Арабские страны согласовали правила перевозки DG",
+      "slug": "arabskie-strany-soglasovali-pravila-perevozki-dg-18ed0519"
+    },
+    "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/": {
+      "digest_id": "2026-11-16:pm",
+      "message_id": 1786,
+      "sent_at": "2026-11-16T16:12:54+00:00",
+      "title": "Европейские тарифы на грузоперевозки достигли рекордных значений",
+      "slug": "evropeyskie-tarify-na-gruzoperevozki-dostigli-rekordnyh-znacheniy-01bc2591"
+    },
+    "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha": {
+      "digest_id": "2026-11-16:pm",
+      "message_id": 1786,
+      "sent_at": "2026-11-16T16:12:54+00:00",
+      "title": "Автопарк «НЕФАЗа» пополнили два новых тягача",
+      "slug": "avtopark-nefaza-popolnili-dva-novyh-tyagacha-730dbf96"
     }
   },
   "digests": {
-    "2026-10-28:pm": {
-      "message_id": 1675,
-      "sent_at": "2026-10-28T12:39:48+00:00",
-      "slot": "pm",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3414_politrans_predstavil_polypricep_9417s_dlya_raboti_na_severe.html",
-        "https://nefaz.ru/news/rukovoditeli-nefaza-proveli-test-drayv",
-        "http://gruzovoy.ru/news/industry/3408_kak_yderjat_klienta_kogda_on_yje_ne_obyazan_obslyjivatsya_y_dilera.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-29:am": {
       "message_id": 1681,
       "sent_at": "2026-10-29T09:27:25+00:00",
@@ -3529,6 +3539,17 @@
         "https://uralaz.ru/media/news/avtomobilnyy-zavod-ural-novyy-etap-v-proizvodstve-klyuchevykh-uzlov-ot-fundamenta-do-opytnykh-obrazts/",
         "http://gruzovoy.ru/news/industry/3437_na_gosprogrammi_lgotnogo_avtolizinga_videlyat_dopolnitelnie_sredstva.html",
         "http://gruzovoy.ru/news/industry/3439_v_oktyabre_virosli_prodaji_gryzovikov_no_rinok_po-prejnemy_nestabilen.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-16:pm": {
+      "message_id": 1786,
+      "sent_at": "2026-11-16T16:12:54+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/",
+        "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/",
+        "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha"
       ],
       "visual": "visual"
     }
