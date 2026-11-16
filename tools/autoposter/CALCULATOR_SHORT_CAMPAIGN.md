@@ -19,7 +19,7 @@ conversion from rollup metrics.
 Run from the repository root:
 
 ```bash
-python tools/autoposter/scripts/calculator_campaign_preview.py --target axis_distribution --content-id axis_loading_01
+python -m tools.autoposter.scripts.calculator_campaign_preview --target axis_distribution --content-id axis_loading_01
 python -m unittest tools.autoposter.tests.test_calculator_campaign
 ```
 
