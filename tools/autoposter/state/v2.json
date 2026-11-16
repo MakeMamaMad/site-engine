@@ -101,7 +101,8 @@
     "1e932cd5e1ab",
     "b18d2555b95c",
     "86fd1adde3dc",
-    "403f69c601e6"
+    "403f69c601e6",
+    "18ed0519bbaa"
   ],
   "renders": [
     {
@@ -809,6 +810,13 @@
       "slug": "rossiya-naraschivaet-perevozki-po-mezhdunarodnym-transportnym-koridoram-403f69c6",
       "title": "Россия наращивает перевозки по международным транспортным коридорам",
       "created_at": "2026-11-15T16:15:20.674333+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "18ed0519bbaa",
+      "slug": "arabskie-strany-soglasovali-pravila-perevozki-dg-18ed0519",
+      "title": "Арабские страны согласовали правила перевозки опасных грузов",
+      "created_at": "2026-11-16T06:13:21.538984+00:00",
       "format": "social-v2"
     }
   ]
