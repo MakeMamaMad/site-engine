@@ -3144,6 +3144,36 @@
         }
       },
       "updated_at": "2026-11-16T16:18:09.310047+00:00"
+    },
+    "testdrive:sat545#2": {
+      "title": "SAT-545 для сыпучих грузов — тест-драйв",
+      "created_at": "2026-11-16T23:50:03.331385+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "V-EHcXnKu9A",
+          "url": "https://www.youtube.com/shorts/V-EHcXnKu9A",
+          "updated_at": "2026-11-16T23:50:03.331404+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6afb96ac4b26315855aa8b5c",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-16T23:50:50.492478+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "submitted",
+          "provider": "buffer",
+          "post_id": "6afb96dbf83aaca8f396e4ea",
+          "buffer_status": "sending",
+          "updated_at": "2026-11-16T23:53:04.041279+00:00"
+        }
+      },
+      "updated_at": "2026-11-16T23:53:04.041277+00:00"
     }
   }
 }

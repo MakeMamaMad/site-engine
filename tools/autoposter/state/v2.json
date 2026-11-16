@@ -103,7 +103,8 @@
     "86fd1adde3dc",
     "403f69c601e6",
     "18ed0519bbaa",
-    "guide:rezhim-truda-i-otdyha"
+    "guide:rezhim-truda-i-otdyha",
+    "testdrive:sat545#2"
   ],
   "renders": [
     {
@@ -825,6 +826,13 @@
       "slug": "",
       "title": "Приказ 424 больше не действует: новые нормы для водителей",
       "created_at": "2026-11-16T16:18:09.312865+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "testdrive:sat545#2",
+      "slug": "",
+      "title": "SAT-545 для сыпучих грузов — тест-драйв",
+      "created_at": "2026-11-16T23:53:04.044135+00:00",
       "format": "social-v2"
     }
   ]
