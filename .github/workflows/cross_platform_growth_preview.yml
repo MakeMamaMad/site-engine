@@ -15,6 +15,9 @@ on:
       - "tools/autoposter/tests/test_metricool_posts.py"
       - "tools/autoposter/tests/test_publication_receipts.py"
       - "tools/autoposter/tests/test_manifest_history.py"
+      - "tools/autoposter/tests/test_calculator_campaign.py"
+      - "tools/autoposter/scripts/calculator_campaign_preview.py"
+      - "tools/autoposter/CALCULATOR_SHORT_CAMPAIGN.md"
       - "tools/autoposter/tests/fixtures/cross_platform/**"
       - "tools/autoposter/CROSS_PLATFORM_GROWTH.md"
       - ".github/workflows/cross_platform_growth_preview.yml"
@@ -62,20 +65,23 @@ jobs:
 
       - name: Syntax
         run: |
-          python -m py_compile tools/autoposter/src/crossplatform/*.py tools/autoposter/scripts/cross_platform_preview.py
+          python -m py_compile tools/autoposter/src/crossplatform/*.py tools/autoposter/scripts/cross_platform_preview.py tools/autoposter/scripts/calculator_campaign_preview.py
 
       - name: Deterministic tests
         run: python -m unittest -v tools.autoposter.tests.test_cross_platform_growth
 
       - name: Metricool and manifest/receipt regression tests
         run: |
-          python -m unittest -v tools.autoposter.tests.test_metricool_daily tools.autoposter.tests.test_metricool_posts tools.autoposter.tests.test_publication_receipts tools.autoposter.tests.test_manifest_history
+          python -m unittest -v tools.autoposter.tests.test_metricool_daily tools.autoposter.tests.test_metricool_posts tools.autoposter.tests.test_publication_receipts tools.autoposter.tests.test_manifest_history tools.autoposter.tests.test_calculator_campaign
 
       - name: Existing Growth Intelligence tests (shared validator)
         run: python -m unittest tools.autoposter.tests.test_growth_intelligence
 
       - name: Generate preview reports
         run: python tools/autoposter/scripts/cross_platform_preview.py --output "$PREVIEW_DIR"
+
+      - name: Generate calculator campaign preview (offline)
+        run: python -m tools.autoposter.scripts.calculator_campaign_preview --target axis_distribution --content-id axis_loading_01 --output "$PREVIEW_DIR/calculator_campaign_preview.json"
 
       - name: Verify labels, safety and artifact size
         run: |
@@ -84,6 +90,9 @@ jobs:
           from pathlib import Path
 
           root = Path("/tmp/cross-platform-preview")
+          campaign = json.loads((root / "calculator_campaign_preview.json").read_text(encoding="utf-8"))
+          assert campaign["production_effect"] == "none" and campaign["publish_called"] is False
+          assert campaign["links"]["youtube"].startswith("https://spec-avtoportal.ru/tools/raspredelenie-gruza-po-osyam/")
           index = json.loads((root / "index.json").read_text(encoding="utf-8"))
           report = json.loads((root / "cross_platform_report.json").read_text(encoding="utf-8"))
           packages = json.loads((root / "platform_packages.json").read_text(encoding="utf-8"))
