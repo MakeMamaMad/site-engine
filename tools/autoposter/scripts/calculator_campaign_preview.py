@@ -1,7 +1,7 @@
 """Generate an offline, owner-reviewable platform link bundle.
 
 Example:
-python tools/autoposter/scripts/calculator_campaign_preview.py --target axis_distribution --content-id axis_loading_01 --output /tmp/calculator_links.json
+python -m tools.autoposter.scripts.calculator_campaign_preview --target axis_distribution --content-id axis_loading_01 --output /tmp/calculator_links.json
 """
 from __future__ import annotations
 import argparse
