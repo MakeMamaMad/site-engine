@@ -3201,39 +3201,28 @@
       "slug": "v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5"
     },
     "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/": {
-      "digest_id": "2026-11-16:pm",
-      "message_id": 1786,
-      "sent_at": "2026-11-16T16:12:54+00:00",
+      "digest_id": "2026-11-17:am",
+      "message_id": 1787,
+      "sent_at": "2026-11-17T00:25:05+00:00",
       "title": "Арабские страны согласовали правила перевозки DG",
       "slug": "arabskie-strany-soglasovali-pravila-perevozki-dg-18ed0519"
     },
     "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/": {
-      "digest_id": "2026-11-16:pm",
-      "message_id": 1786,
-      "sent_at": "2026-11-16T16:12:54+00:00",
+      "digest_id": "2026-11-17:am",
+      "message_id": 1787,
+      "sent_at": "2026-11-17T00:25:05+00:00",
       "title": "Европейские тарифы на грузоперевозки достигли рекордных значений",
       "slug": "evropeyskie-tarify-na-gruzoperevozki-dostigli-rekordnyh-znacheniy-01bc2591"
     },
     "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha": {
-      "digest_id": "2026-11-16:pm",
-      "message_id": 1786,
-      "sent_at": "2026-11-16T16:12:54+00:00",
+      "digest_id": "2026-11-17:am",
+      "message_id": 1787,
+      "sent_at": "2026-11-17T00:25:05+00:00",
       "title": "Автопарк «НЕФАЗа» пополнили два новых тягача",
       "slug": "avtopark-nefaza-popolnili-dva-novyh-tyagacha-730dbf96"
     }
   },
   "digests": {
-    "2026-10-29:am": {
-      "message_id": 1681,
-      "sent_at": "2026-10-29T09:27:25+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/infinity-adds-24-skels-to-fleet/",
-        "http://gruzovoy.ru/news/industry/3411_rost_zarplat_ne_ostanovil_ottok_voditelei_kak_reshat_kadrovii_vopros_perevozchikam.html",
-        "https://www.globaltrailermag.com/eu-defers-efficient-trailer-toll-scheme/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-29:pm": {
       "message_id": 1682,
       "sent_at": "2026-10-29T13:26:54+00:00",
@@ -3550,6 +3539,17 @@
         "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/",
         "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/",
         "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-17:am": {
+      "message_id": 1787,
+      "sent_at": "2026-11-17T00:25:05+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/",
+        "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha",
+        "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/"
       ],
       "visual": "visual"
     }
