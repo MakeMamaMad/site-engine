@@ -891,7 +891,24 @@
       "updated_at": "2026-11-16T16:16:43+00:00",
       "sent_at": "2026-11-16T16:16:43+00:00",
       "gmail_message_id": "1a1e5258241ea12c"
+    },
+    {
+      "action_id": "editorial:tks-ru:kreplenie-gruzov",
+      "channel": "email",
+      "target_id": "tks-ru",
+      "target_name": "TKS.ru — ВЭД и транспорт",
+      "action": "send_editorial_email",
+      "contact": "editor@tks.ru",
+      "status": "completed",
+      "reason": "Нужно отправить подготовленное редакционное предложение по email.",
+      "email_subject": "Материал для TKS.ru — ВЭД и транспорт: Крепление грузов в полуприцепе: практический чек-лист",
+      "message": "Здравствуйте!\n\nМы развиваем СпецАвтоПортал — отраслевое медиа о грузовой и прицепной технике, эксплуатации, рынке и нормативных требованиях.\n\nПредлагаем редакции «TKS.ru — ВЭД и транспорт» рассмотреть оригинальный практический материал: «Крепление грузов в полуприцепе: практический чек-лист».\nХорошее крепление груза — это не просто «достаточно ремней». Надёжная схема учитывает массу и форму груза, направление возможного смещения, характеристики ремней, прочность точек крепления и саму структуру кузова.\n\nМатериал: https://spec-avtoportal.ru/knowledge/kreplenie-gruzov/?utm_source=tks-ru&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kreplenie-gruzov\n\nЕсли тема подходит вашей аудитории, готовы предоставить текст целиком и адаптировать его под требования редакции. Просим сохранить ссылку на СпецАвтоПортал как на источник материала.\n\nС уважением,\nРедакция SpecAvtoPortal\nОтраслевое медиа о грузовой и прицепной технике\nhttps://spec-avtoportal.ru/ · https://t.me/specavtoportal",
+      "tracking_url": "https://spec-avtoportal.ru/knowledge/kreplenie-gruzov/?utm_source=tks-ru&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=kreplenie-gruzov",
+      "created_at": "2026-11-17T15:55:37+00:00",
+      "updated_at": "2026-11-17T15:55:38+00:00",
+      "sent_at": "2026-11-17T15:55:38+00:00",
+      "gmail_message_id": "1a1ea3893c5e6550"
     }
   ],
-  "updated_at": "2026-11-16T20:29:02+00:00"
+  "updated_at": "2026-11-17T15:55:38+00:00"
 }
