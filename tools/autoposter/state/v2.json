@@ -104,7 +104,8 @@
     "403f69c601e6",
     "18ed0519bbaa",
     "guide:rezhim-truda-i-otdyha",
-    "testdrive:sat545#2"
+    "testdrive:sat545#2",
+    "730dbf96c23d"
   ],
   "renders": [
     {
@@ -833,6 +834,13 @@
       "slug": "",
       "title": "SAT-545 для сыпучих грузов — тест-драйв",
       "created_at": "2026-11-16T23:53:04.044135+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "730dbf96c23d",
+      "slug": "avtopark-nefaza-popolnili-dva-novyh-tyagacha-730dbf96",
+      "title": "Автопарк «НЕФАЗа» пополнили два новых тягача",
+      "created_at": "2026-11-17T08:14:53.504183+00:00",
       "format": "social-v2"
     }
   ]
