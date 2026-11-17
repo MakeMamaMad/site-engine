@@ -899,6 +899,16 @@
       "status": "email_sent",
       "sent_at": "2026-11-17T15:55:38+00:00",
       "gmail_message_id": "1a1ea3893c5e6550"
+    },
+    {
+      "target_id": "truckmix-publishing",
+      "target_name": "TRUCKmix.ru",
+      "item_key": "knowledge:pereregistraciya-polupricepa",
+      "title": "Перерегистрация полуприцепа при покупке б/у в 2026 году: документы, пошлины, порядок",
+      "source_url": "https://spec-avtoportal.ru/knowledge/pereregistraciya-polupricepa/?utm_source=truckmix-publishing&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=pereregistraciya-polupricepa",
+      "result_url": "https://truckmix.ru/publication/update/30683",
+      "submitted_at": "2026-11-17T18:42:59+00:00",
+      "status": "verified_in_author_cabinet"
     }
   ]
 }
