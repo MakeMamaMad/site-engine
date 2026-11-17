@@ -2896,23 +2896,23 @@
       "slug": "v-oktyabre-vyrosli-prodazhi-gruzovikov-no-rynok-po-prezhnemu-nestabilen-1e932cd5"
     },
     "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha": {
-      "digest_id": "2026-11-16:pm",
-      "post_id": 285,
-      "sent_at": "2026-11-16T16:20:30+00:00",
+      "digest_id": "2026-11-17:am",
+      "post_id": 287,
+      "sent_at": "2026-11-17T00:28:40+00:00",
       "title": "Автопарк «НЕФАЗа» пополнили два новых тягача",
       "slug": "avtopark-nefaza-popolnili-dva-novyh-tyagacha-730dbf96"
     },
     "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/": {
-      "digest_id": "2026-11-16:pm",
-      "post_id": 285,
-      "sent_at": "2026-11-16T16:20:30+00:00",
+      "digest_id": "2026-11-17:am",
+      "post_id": 287,
+      "sent_at": "2026-11-17T00:28:40+00:00",
       "title": "Арабские страны согласовали правила перевозки DG",
       "slug": "arabskie-strany-soglasovali-pravila-perevozki-dg-18ed0519"
     },
     "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/": {
-      "digest_id": "2026-11-16:pm",
-      "post_id": 285,
-      "sent_at": "2026-11-16T16:20:30+00:00",
+      "digest_id": "2026-11-17:am",
+      "post_id": 287,
+      "sent_at": "2026-11-17T00:28:40+00:00",
       "title": "Европейские тарифы на грузоперевозки достигли рекордных значений",
       "slug": "evropeyskie-tarify-na-gruzoperevozki-dostigli-rekordnyh-znacheniy-01bc2591"
     }
@@ -3781,6 +3781,17 @@
         "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha",
         "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/",
         "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/"
+      ]
+    },
+    "2026-11-17:am": {
+      "post_id": 287,
+      "sent_at": "2026-11-17T00:28:40+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/",
+        "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/",
+        "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha"
       ]
     }
   }
