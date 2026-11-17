@@ -105,7 +105,8 @@
     "18ed0519bbaa",
     "guide:rezhim-truda-i-otdyha",
     "testdrive:sat545#2",
-    "730dbf96c23d"
+    "730dbf96c23d",
+    "4868c10bba15"
   ],
   "renders": [
     {
@@ -841,6 +842,13 @@
       "slug": "avtopark-nefaza-popolnili-dva-novyh-tyagacha-730dbf96",
       "title": "Автопарк «НЕФАЗа» пополнили два новых тягача",
       "created_at": "2026-11-17T08:14:53.504183+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "4868c10bba15",
+      "slug": "roadpol-natselen-na-gruzoviki-v-evrope-4868c10b",
+      "title": "ROADPOL усиливает проверки грузовиков в Европе",
+      "created_at": "2026-11-17T23:11:11.746143+00:00",
       "format": "social-v2"
     }
   ]
