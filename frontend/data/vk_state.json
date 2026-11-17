@@ -2939,6 +2939,27 @@
       "sent_at": "2026-11-17T00:28:40+00:00",
       "title": "Европейские тарифы на грузоперевозки достигли рекордных значений",
       "slug": "evropeyskie-tarify-na-gruzoperevozki-dostigli-rekordnyh-znacheniy-01bc2591"
+    },
+    "https://www.globaltrailermag.com/roadpol-targets-trucks-in-europe-wide-crackdown/": {
+      "digest_id": "2026-11-17:pm",
+      "post_id": 291,
+      "sent_at": "2026-11-17T16:25:49+00:00",
+      "title": "ROADPOL нацелен на грузовики в Европе",
+      "slug": "roadpol-natselen-na-gruzoviki-v-evrope-4868c10b"
+    },
+    "https://nefaz.ru/news/vkus-masterstva": {
+      "digest_id": "2026-11-17:pm",
+      "post_id": 291,
+      "sent_at": "2026-11-17T16:25:49+00:00",
+      "title": "Вкус мастерства",
+      "slug": "vkus-masterstva-147d1899"
+    },
+    "https://www.globaltrailermag.com/hamburg-port-throughput-stabilises-in-third-quarter/": {
+      "digest_id": "2026-11-17:pm",
+      "post_id": 291,
+      "sent_at": "2026-11-17T16:25:49+00:00",
+      "title": "Пропускная способность порта Гамбурга стабилизируется в третьем квартале",
+      "slug": "propusknaya-sposobnost-porta-gamburga-stabiliziruetsya-v-tretem-kvartale-035a0e91"
     }
   },
   "digests": {
@@ -3816,6 +3837,17 @@
         "https://www.globaltrailermag.com/european-freight-rates-reach-record-highs/",
         "https://www.globaltrailermag.com/arab-states-align-dg-transport-rules/",
         "https://nefaz.ru/news/avtopark-nefaza-popolnili-dva-novyh-tyagacha"
+      ]
+    },
+    "2026-11-17:pm": {
+      "post_id": 291,
+      "sent_at": "2026-11-17T16:25:49+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/roadpol-targets-trucks-in-europe-wide-crackdown/",
+        "https://nefaz.ru/news/vkus-masterstva",
+        "https://www.globaltrailermag.com/hamburg-port-throughput-stabilises-in-third-quarter/"
       ]
     }
   }
