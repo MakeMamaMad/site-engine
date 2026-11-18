@@ -107,7 +107,8 @@
     "testdrive:sat545#2",
     "730dbf96c23d",
     "4868c10bba15",
-    "147d189938f3"
+    "147d189938f3",
+    "testdrive:queue#2"
   ],
   "renders": [
     {
@@ -857,6 +858,13 @@
       "slug": "vkus-masterstva-147d1899",
       "title": "Повара НЕФАЗа победили в конкурсе «Мастера Башкортостана»",
       "created_at": "2026-11-18T08:14:34.222793+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "testdrive:queue#2",
+      "slug": "",
+      "title": "Электронная очередь на тест-драйв SAT",
+      "created_at": "2026-11-18T22:43:59.529202+00:00",
       "format": "social-v2"
     }
   ]
