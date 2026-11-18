@@ -3005,6 +3005,27 @@
       "sent_at": "2026-11-18T11:31:06+00:00",
       "title": "Критическая масса",
       "slug": "kriticheskaya-massa-73baaa6a"
+    },
+    "https://truckmix.ru/news/zavod-kdm-yvelichil-prodaji-mysorovozov-i-kombinirovannih-dorojnih-mashin": {
+      "digest_id": "2026-11-18:pm",
+      "post_id": 296,
+      "sent_at": "2026-11-18T15:56:30+00:00",
+      "title": "«Завод КДМ» увеличил продажи мусоровозов и комбинированных дорожных машин",
+      "slug": "zavod-kdm-uvelichil-prodazhi-musorovozov-i-kombinirovannyh-dorozhnyh-mas-6f1a58b9"
+    },
+    "https://www.globaltrailermag.com/practical-progress/": {
+      "digest_id": "2026-11-18:pm",
+      "post_id": 296,
+      "sent_at": "2026-11-18T15:56:30+00:00",
+      "title": "Практический прогресс",
+      "slug": "prakticheskiy-progress-c07a735a"
+    },
+    "https://www.globaltrailermag.com/the-data-advantage/": {
+      "digest_id": "2026-11-18:pm",
+      "post_id": 296,
+      "sent_at": "2026-11-18T15:56:30+00:00",
+      "title": "Преимущество данных",
+      "slug": "preimuschestvo-dannyh-2299569b"
     }
   },
   "digests": {
@@ -3904,6 +3925,17 @@
         "http://gruzovoy.ru/news/industry/3441_valdai_45_pro_vpervie_stal_liderom_rossiiskogo_rinka_gryzovikov.html",
         "https://www.globaltrailermag.com/easy-loading/",
         "https://www.globaltrailermag.com/critical-mass/"
+      ]
+    },
+    "2026-11-18:pm": {
+      "post_id": 296,
+      "sent_at": "2026-11-18T15:56:30+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://truckmix.ru/news/zavod-kdm-yvelichil-prodaji-mysorovozov-i-kombinirovannih-dorojnih-mashin",
+        "https://www.globaltrailermag.com/practical-progress/",
+        "https://www.globaltrailermag.com/the-data-advantage/"
       ]
     }
   }
