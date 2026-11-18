@@ -1949,6 +1949,33 @@
       "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3444_top-5_brendov_po_chisly_dilerov_gryzovih_avtomobilei_v_rf_zametno_izmenilsya.html": {
+      "message_id": 1798,
+      "sent_at": "2026-11-18T15:57:10+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/top-5-brendov-po-chislu-dilerov-gruzovyh-avtomobiley-v-rf-zametno-izmeni-b40117ec/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=top-5-brendov-po-chislu-dilerov-gruzovyh-avtomobiley-v-rf-zametno-izmeni-b40117ec",
+      "title": "Топ-5 брендов по числу дилеров грузовых автомобилей в РФ заметно изменился",
+      "slug": "top-5-brendov-po-chislu-dilerov-gruzovyh-avtomobiley-v-rf-zametno-izmeni-b40117ec",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3443_sotrans_zapystil_seriinoe_proizvodstvo_samosvalnih_polypricepov.html": {
+      "message_id": 1799,
+      "sent_at": "2026-11-18T15:57:11+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/sotrans-zapustil-seriynoe-proizvodstvo-novoy-modeli-samosvalnyh-poluprit-2b855059/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=sotrans-zapustil-seriynoe-proizvodstvo-novoy-modeli-samosvalnyh-poluprit-2b855059",
+      "title": "«СОТРАНС» запустил серийное производство новой модели самосвальных полуприцепов",
+      "slug": "sotrans-zapustil-seriynoe-proizvodstvo-novoy-modeli-samosvalnyh-poluprit-2b855059",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3441_valdai_45_pro_vpervie_stal_liderom_rossiiskogo_rinka_gryzovikov.html": {
+      "message_id": 1800,
+      "sent_at": "2026-11-18T15:57:11+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/valday-45-pro-vpervye-stal-liderom-rossiyskogo-rynka-gruzovikov-2b276eac/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=valday-45-pro-vpervye-stal-liderom-rossiyskogo-rynka-gruzovikov-2b276eac",
+      "title": "«Валдай 45 PRO» впервые стал лидером российского рынка грузовиков",
+      "slug": "valday-45-pro-vpervye-stal-liderom-rossiyskogo-rynka-gruzovikov-2b276eac",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
