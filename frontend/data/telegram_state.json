@@ -2012,6 +2012,33 @@
       "slug": "legkaya-zagruzka-f335dec2",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/": {
+      "message_id": 1805,
+      "sent_at": "2026-11-18T23:06:47+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/fenatran-prodal-12-000-treylerov-02ee51c0/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=fenatran-prodal-12-000-treylerov-02ee51c0",
+      "title": "Fenatran продал 12 000 трейлеров",
+      "slug": "fenatran-prodal-12-000-treylerov-02ee51c0",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/": {
+      "message_id": 1806,
+      "sent_at": "2026-11-18T23:06:48+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/einride-sokratila-vyruchku-na-76-2b3a7825/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=einride-sokratila-vyruchku-na-76-2b3a7825",
+      "title": "Einride сократила выручку на 76%",
+      "slug": "einride-sokratila-vyruchku-na-76-2b3a7825",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/": {
+      "message_id": 1807,
+      "sent_at": "2026-11-18T23:06:49+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/kinaxia-management-vykup-razblokiruet-investitsii-v-flot-623eafe5/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=kinaxia-management-vykup-razblokiruet-investitsii-v-flot-623eafe5",
+      "title": "Kinaxia Management выкуп разблокирует инвестиции в флот",
+      "slug": "kinaxia-management-vykup-razblokiruet-investitsii-v-flot-623eafe5",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
