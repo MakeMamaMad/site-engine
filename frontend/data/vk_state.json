@@ -2960,6 +2960,27 @@
       "sent_at": "2026-11-17T16:25:49+00:00",
       "title": "Пропускная способность порта Гамбурга стабилизируется в третьем квартале",
       "slug": "propusknaya-sposobnost-porta-gamburga-stabiliziruetsya-v-tretem-kvartale-035a0e91"
+    },
+    "http://gruzovoy.ru/news/industry/3441_valdai_45_pro_vpervie_stal_liderom_rossiiskogo_rinka_gryzovikov.html": {
+      "digest_id": "2026-11-18:am",
+      "post_id": 292,
+      "sent_at": "2026-11-18T11:31:06+00:00",
+      "title": "«Валдай 45 PRO» впервые стал лидером российского рынка грузовиков",
+      "slug": "valday-45-pro-vpervye-stal-liderom-rossiyskogo-rynka-gruzovikov-2b276eac"
+    },
+    "https://www.globaltrailermag.com/easy-loading/": {
+      "digest_id": "2026-11-18:am",
+      "post_id": 292,
+      "sent_at": "2026-11-18T11:31:06+00:00",
+      "title": "Легкая загрузка",
+      "slug": "legkaya-zagruzka-f335dec2"
+    },
+    "https://www.globaltrailermag.com/critical-mass/": {
+      "digest_id": "2026-11-18:am",
+      "post_id": 292,
+      "sent_at": "2026-11-18T11:31:06+00:00",
+      "title": "Критическая масса",
+      "slug": "kriticheskaya-massa-73baaa6a"
     }
   },
   "digests": {
@@ -3848,6 +3869,17 @@
         "https://www.globaltrailermag.com/roadpol-targets-trucks-in-europe-wide-crackdown/",
         "https://nefaz.ru/news/vkus-masterstva",
         "https://www.globaltrailermag.com/hamburg-port-throughput-stabilises-in-third-quarter/"
+      ]
+    },
+    "2026-11-18:am": {
+      "post_id": 292,
+      "sent_at": "2026-11-18T11:31:06+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3441_valdai_45_pro_vpervie_stal_liderom_rossiiskogo_rinka_gryzovikov.html",
+        "https://www.globaltrailermag.com/easy-loading/",
+        "https://www.globaltrailermag.com/critical-mass/"
       ]
     }
   }
