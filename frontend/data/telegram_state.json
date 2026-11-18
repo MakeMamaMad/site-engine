@@ -3316,20 +3316,30 @@
       "sent_at": "2026-11-18T11:38:27+00:00",
       "title": "Легкая загрузка",
       "slug": "legkaya-zagruzka-f335dec2"
+    },
+    "https://truckmix.ru/news/zavod-kdm-yvelichil-prodaji-mysorovozov-i-kombinirovannih-dorojnih-mashin": {
+      "digest_id": "2026-11-18:pm",
+      "message_id": 1797,
+      "sent_at": "2026-11-18T15:52:49+00:00",
+      "title": "«Завод КДМ» увеличил продажи мусоровозов и комбинированных дорожных машин",
+      "slug": "zavod-kdm-uvelichil-prodazhi-musorovozov-i-kombinirovannyh-dorozhnyh-mas-6f1a58b9"
+    },
+    "https://www.globaltrailermag.com/critical-mass/": {
+      "digest_id": "2026-11-18:pm",
+      "message_id": 1797,
+      "sent_at": "2026-11-18T15:52:49+00:00",
+      "title": "Критическая масса",
+      "slug": "kriticheskaya-massa-73baaa6a"
+    },
+    "https://nefaz.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabil-nost-i-rost-proizvodstva": {
+      "digest_id": "2026-11-18:pm",
+      "message_id": 1797,
+      "sent_at": "2026-11-18T15:52:49+00:00",
+      "title": "Обучение линейных руководителей: инвестиции в стабильность и рост производства",
+      "slug": "obuchenie-lineynyh-rukovoditeley-investitsii-v-stabilnost-i-rost-proizvo-fa9794c6"
     }
   },
   "digests": {
-    "2026-10-30:pm": {
-      "message_id": 1694,
-      "sent_at": "2026-10-30T13:15:36+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.krone-trailer.com/en/news/detail-1/infinity-marks-10th-anniversary-with-investment-in-24-krone-box-liners/",
-        "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html",
-        "https://sdelanounas.ru/blogs/179118/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-31:am": {
       "message_id": 1695,
       "sent_at": "2026-10-31T09:38:20+00:00",
@@ -3646,6 +3656,17 @@
         "https://www.globaltrailermag.com/practical-progress/",
         "https://www.globaltrailermag.com/the-data-advantage/",
         "https://www.globaltrailermag.com/easy-loading/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-18:pm": {
+      "message_id": 1797,
+      "sent_at": "2026-11-18T15:52:49+00:00",
+      "slot": "pm",
+      "items": [
+        "https://truckmix.ru/news/zavod-kdm-yvelichil-prodaji-mysorovozov-i-kombinirovannih-dorojnih-mashin",
+        "https://www.globaltrailermag.com/critical-mass/",
+        "https://nefaz.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabil-nost-i-rost-proizvodstva"
       ],
       "visual": "visual"
     }
