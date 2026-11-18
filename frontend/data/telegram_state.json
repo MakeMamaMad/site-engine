@@ -3295,20 +3295,30 @@
       "sent_at": "2026-11-17T16:19:32+00:00",
       "title": "ROADPOL нацелен на грузовики в Европе",
       "slug": "roadpol-natselen-na-gruzoviki-v-evrope-4868c10b"
+    },
+    "https://www.globaltrailermag.com/practical-progress/": {
+      "digest_id": "2026-11-18:am",
+      "message_id": 1795,
+      "sent_at": "2026-11-18T11:38:27+00:00",
+      "title": "Практический прогресс",
+      "slug": "prakticheskiy-progress-c07a735a"
+    },
+    "https://www.globaltrailermag.com/the-data-advantage/": {
+      "digest_id": "2026-11-18:am",
+      "message_id": 1795,
+      "sent_at": "2026-11-18T11:38:27+00:00",
+      "title": "Преимущество данных",
+      "slug": "preimuschestvo-dannyh-2299569b"
+    },
+    "https://www.globaltrailermag.com/easy-loading/": {
+      "digest_id": "2026-11-18:am",
+      "message_id": 1795,
+      "sent_at": "2026-11-18T11:38:27+00:00",
+      "title": "Легкая загрузка",
+      "slug": "legkaya-zagruzka-f335dec2"
     }
   },
   "digests": {
-    "2026-10-30:am": {
-      "message_id": 1692,
-      "sent_at": "2026-10-30T07:10:50+00:00",
-      "slot": "am",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3420_kak_perevozchiky_snijat_stoimost_eksplyatacii_gryzovogo_parka_za_schyot_sobstvennogo_servisa.html",
-        "http://gruzovoy.ru/news/industry/3416_spros_padaet_no_gryzoperevozki_dorojaut.html",
-        "https://sdelanounas.ru/blogs/179005/"
-      ],
-      "visual": "visual"
-    },
     "2026-10-30:pm": {
       "message_id": 1694,
       "sent_at": "2026-10-30T13:15:36+00:00",
@@ -3625,6 +3635,17 @@
         "https://nefaz.ru/news/vkus-masterstva",
         "https://www.globaltrailermag.com/hamburg-port-throughput-stabilises-in-third-quarter/",
         "https://www.globaltrailermag.com/roadpol-targets-trucks-in-europe-wide-crackdown/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-18:am": {
+      "message_id": 1795,
+      "sent_at": "2026-11-18T11:38:27+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/practical-progress/",
+        "https://www.globaltrailermag.com/the-data-advantage/",
+        "https://www.globaltrailermag.com/easy-loading/"
       ],
       "visual": "visual"
     }
