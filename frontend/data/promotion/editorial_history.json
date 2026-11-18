@@ -911,6 +911,19 @@
       "status": "verified_in_author_cabinet",
       "last_public_check_at": "2026-11-18T17:35:46+00:00",
       "public_status": "pending"
+    },
+    {
+      "target_id": "trans-ru",
+      "target_name": "Trans.ru — портал перевозок",
+      "slug": "karta-voditelya-dlya-tahografa",
+      "title": "Карта водителя для тахографа в 2026 году: какая нужна, где получить, что будет без неё",
+      "site_url": "https://spec-avtoportal.ru/knowledge/karta-voditelya-dlya-tahografa/?utm_source=trans-ru&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=karta-voditelya-dlya-tahografa",
+      "contact": "info@trans.ru",
+      "item_key": "knowledge:karta-voditelya-dlya-tahografa",
+      "created_at": "2026-11-18T18:17:05+00:00",
+      "status": "email_sent",
+      "sent_at": "2026-11-18T18:17:06+00:00",
+      "gmail_message_id": "1a1efe0708af017c"
     }
   ]
 }
