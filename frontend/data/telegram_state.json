@@ -1922,6 +1922,33 @@
       "slug": "vkus-masterstva-147d1899",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://truckmix.ru/news/zavod-kdm-yvelichil-prodaji-mysorovozov-i-kombinirovannih-dorojnih-mashin": {
+      "message_id": 1792,
+      "sent_at": "2026-11-18T11:29:53+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/zavod-kdm-uvelichil-prodazhi-musorovozov-i-kombinirovannyh-dorozhnyh-mas-6f1a58b9/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=zavod-kdm-uvelichil-prodazhi-musorovozov-i-kombinirovannyh-dorozhnyh-mas-6f1a58b9",
+      "title": "«Завод КДМ» увеличил продажи мусоровозов и комбинированных дорожных машин",
+      "slug": "zavod-kdm-uvelichil-prodazhi-musorovozov-i-kombinirovannyh-dorozhnyh-mas-6f1a58b9",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://nefaz.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabil-nost-i-rost-proizvodstva": {
+      "message_id": 1793,
+      "sent_at": "2026-11-18T11:29:53+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabilnost-i-rost-proizvo-fa9794c6/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=obuchenie-lineynyh-rukovoditeley-investitsii-v-stabilnost-i-rost-proizvo-fa9794c6",
+      "title": "Обучение линейных руководителей: инвестиции в стабильность и рост производства",
+      "slug": "obuchenie-lineynyh-rukovoditeley-investitsii-v-stabilnost-i-rost-proizvo-fa9794c6",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3442_rossiya_zanyala_15-e_mesto_v_reitinge_gotovnosti_k_vnedreniu_bespilotnogo_transporta.html": {
+      "message_id": 1794,
+      "sent_at": "2026-11-18T11:29:54+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502",
+      "title": "Россия заняла 15-е место в рейтинге готовности к внедрению беспилотного транспорта",
+      "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
