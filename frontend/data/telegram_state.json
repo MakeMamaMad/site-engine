@@ -1976,6 +1976,33 @@
       "slug": "valday-45-pro-vpervye-stal-liderom-rossiyskogo-rynka-gruzovikov-2b276eac",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/critical-mass/": {
+      "message_id": 1801,
+      "sent_at": "2026-11-18T18:19:29+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/kriticheskaya-massa-73baaa6a/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=kriticheskaya-massa-73baaa6a",
+      "title": "Критическая масса",
+      "slug": "kriticheskaya-massa-73baaa6a",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/practical-progress/": {
+      "message_id": 1802,
+      "sent_at": "2026-11-18T18:19:30+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/prakticheskiy-progress-c07a735a/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=prakticheskiy-progress-c07a735a",
+      "title": "Практический прогресс",
+      "slug": "prakticheskiy-progress-c07a735a",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/the-data-advantage/": {
+      "message_id": 1803,
+      "sent_at": "2026-11-18T18:19:31+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/preimuschestvo-dannyh-2299569b/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=preimuschestvo-dannyh-2299569b",
+      "title": "Преимущество данных",
+      "slug": "preimuschestvo-dannyh-2299569b",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
