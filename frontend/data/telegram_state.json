@@ -3457,20 +3457,30 @@
       "sent_at": "2026-11-19T11:28:20+00:00",
       "title": "Brown & Hurley покупает компанию Schmitz Cargobull",
       "slug": "brown-hurley-pokupaet-kompaniyu-schmitz-cargobull-ce0c249c"
+    },
+    "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/": {
+      "digest_id": "2026-11-19:pm",
+      "message_id": 1810,
+      "sent_at": "2026-11-19T15:56:36+00:00",
+      "title": "Fenatran продал 12 000 трейлеров",
+      "slug": "fenatran-prodal-12-000-treylerov-02ee51c0"
+    },
+    "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/": {
+      "digest_id": "2026-11-19:pm",
+      "message_id": 1810,
+      "sent_at": "2026-11-19T15:56:36+00:00",
+      "title": "Einride сократила выручку на 76%",
+      "slug": "einride-sokratila-vyruchku-na-76-2b3a7825"
+    },
+    "http://gruzovoy.ru/news/industry/3442_rossiya_zanyala_15-e_mesto_v_reitinge_gotovnosti_k_vnedreniu_bespilotnogo_transporta.html": {
+      "digest_id": "2026-11-19:pm",
+      "message_id": 1810,
+      "sent_at": "2026-11-19T15:56:36+00:00",
+      "title": "Россия заняла 15-е место в рейтинге готовности к внедрению беспилотного транспорта",
+      "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502"
     }
   },
   "digests": {
-    "2026-10-31:pm": {
-      "message_id": 1696,
-      "sent_at": "2026-10-31T12:53:27+00:00",
-      "slot": "pm",
-      "items": [
-        "https://sdelanounas.ru/blogs/179116/",
-        "https://www.globaltrailermag.com/scan-global-logistics-targets-us-expansion/",
-        "http://gruzovoy.ru/news/industry/3421_lgotnoe_avtokreditovanie_vozobnovitsya_s_1_dekabrya.html"
-      ],
-      "visual": "visual"
-    },
     "2026-11-02:am": {
       "message_id": 1703,
       "sent_at": "2026-11-02T10:55:23+00:00",
@@ -3787,6 +3797,17 @@
         "http://gruzovoy.ru/news/industry/3443_sotrans_zapystil_seriinoe_proizvodstvo_samosvalnih_polypricepov.html",
         "http://gruzovoy.ru/news/industry/3441_valdai_45_pro_vpervie_stal_liderom_rossiiskogo_rinka_gryzovikov.html",
         "https://www.globaltrailermag.com/brown-hurley-buys-into-schmitz-cargobull-partnership/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-19:pm": {
+      "message_id": 1810,
+      "sent_at": "2026-11-19T15:56:36+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/",
+        "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/",
+        "http://gruzovoy.ru/news/industry/3442_rossiya_zanyala_15-e_mesto_v_reitinge_gotovnosti_k_vnedreniu_bespilotnogo_transporta.html"
       ],
       "visual": "visual"
     }
