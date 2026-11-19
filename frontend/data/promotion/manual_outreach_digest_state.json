@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "date_moscow": "2026-11-19",
-  "sent_at": "2026-11-19T11:27:36+00:00",
-  "task_count": 7,
+  "sent_at": "2026-11-19T19:26:01+00:00",
+  "task_count": 8,
   "action_ids": [
     "editorial:mexzona:gabarity-i-massy",
     "editorial:mexzona:kak-razmestit-gruz-v-evrofure",
@@ -10,6 +10,7 @@
     "editorial:mexzona:karta-voditelya-dlya-tahografa",
     "editorial:mexzona:kreplenie-gruzov",
     "editorial:mexzona:nagruzka-na-os",
+    "editorial:mexzona:nagruzka-na-osi-evrofury",
     "editorial:mexzona:tehnicheskoe-obsluzhivanie-polupricepa"
   ]
 }
