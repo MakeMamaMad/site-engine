@@ -3074,6 +3074,27 @@
       "sent_at": "2026-11-18T15:56:30+00:00",
       "title": "Преимущество данных",
       "slug": "preimuschestvo-dannyh-2299569b"
+    },
+    "https://www.globaltrailermag.com/brown-hurley-buys-into-schmitz-cargobull-partnership/": {
+      "digest_id": "2026-11-19:am",
+      "post_id": 303,
+      "sent_at": "2026-11-19T11:28:40+00:00",
+      "title": "Brown & Hurley покупает компанию Schmitz Cargobull",
+      "slug": "brown-hurley-pokupaet-kompaniyu-schmitz-cargobull-ce0c249c"
+    },
+    "https://nefaz.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabil-nost-i-rost-proizvodstva": {
+      "digest_id": "2026-11-19:am",
+      "post_id": 303,
+      "sent_at": "2026-11-19T11:28:40+00:00",
+      "title": "Обучение линейных руководителей: инвестиции в стабильность и рост производства",
+      "slug": "obuchenie-lineynyh-rukovoditeley-investitsii-v-stabilnost-i-rost-proizvo-fa9794c6"
+    },
+    "http://gruzovoy.ru/news/industry/3442_rossiya_zanyala_15-e_mesto_v_reitinge_gotovnosti_k_vnedreniu_bespilotnogo_transporta.html": {
+      "digest_id": "2026-11-19:am",
+      "post_id": 303,
+      "sent_at": "2026-11-19T11:28:40+00:00",
+      "title": "Россия заняла 15-е место в рейтинге готовности к внедрению беспилотного транспорта",
+      "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502"
     }
   },
   "digests": {
@@ -3984,6 +4005,17 @@
         "https://truckmix.ru/news/zavod-kdm-yvelichil-prodaji-mysorovozov-i-kombinirovannih-dorojnih-mashin",
         "https://www.globaltrailermag.com/practical-progress/",
         "https://www.globaltrailermag.com/the-data-advantage/"
+      ]
+    },
+    "2026-11-19:am": {
+      "post_id": 303,
+      "sent_at": "2026-11-19T11:28:40+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/brown-hurley-buys-into-schmitz-cargobull-partnership/",
+        "https://nefaz.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabil-nost-i-rost-proizvodstva",
+        "http://gruzovoy.ru/news/industry/3442_rossiya_zanyala_15-e_mesto_v_reitinge_gotovnosti_k_vnedreniu_bespilotnogo_transporta.html"
       ]
     }
   }
