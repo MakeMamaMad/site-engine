@@ -3119,6 +3119,27 @@
       "sent_at": "2026-11-19T11:28:40+00:00",
       "title": "Россия заняла 15-е место в рейтинге готовности к внедрению беспилотного транспорта",
       "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502"
+    },
+    "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/": {
+      "digest_id": "2026-11-19:pm",
+      "post_id": 307,
+      "sent_at": "2026-11-19T16:00:18+00:00",
+      "title": "Kinaxia Management выкуп разблокирует инвестиции в флот",
+      "slug": "kinaxia-management-vykup-razblokiruet-investitsii-v-flot-623eafe5"
+    },
+    "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/": {
+      "digest_id": "2026-11-19:pm",
+      "post_id": 307,
+      "sent_at": "2026-11-19T16:00:18+00:00",
+      "title": "Fenatran продал 12 000 трейлеров",
+      "slug": "fenatran-prodal-12-000-treylerov-02ee51c0"
+    },
+    "http://gruzovoy.ru/news/industry/3443_sotrans_zapystil_seriinoe_proizvodstvo_samosvalnih_polypricepov.html": {
+      "digest_id": "2026-11-19:pm",
+      "post_id": 307,
+      "sent_at": "2026-11-19T16:00:18+00:00",
+      "title": "«СОТРАНС» запустил серийное производство новой модели самосвальных полуприцепов",
+      "slug": "sotrans-zapustil-seriynoe-proizvodstvo-novoy-modeli-samosvalnyh-poluprit-2b855059"
     }
   },
   "digests": {
@@ -4040,6 +4061,17 @@
         "https://www.globaltrailermag.com/brown-hurley-buys-into-schmitz-cargobull-partnership/",
         "https://nefaz.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabil-nost-i-rost-proizvodstva",
         "http://gruzovoy.ru/news/industry/3442_rossiya_zanyala_15-e_mesto_v_reitinge_gotovnosti_k_vnedreniu_bespilotnogo_transporta.html"
+      ]
+    },
+    "2026-11-19:pm": {
+      "post_id": 307,
+      "sent_at": "2026-11-19T16:00:18+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/",
+        "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/",
+        "http://gruzovoy.ru/news/industry/3443_sotrans_zapystil_seriinoe_proizvodstvo_samosvalnih_polypricepov.html"
       ]
     }
   }
