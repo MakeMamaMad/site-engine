@@ -123,7 +123,7 @@
     }
   },
   "last_run": {
-    "at": "2026-11-18T15:46:56+00:00",
+    "at": "2026-11-19T15:52:06+00:00",
     "sent": [],
     "failed": [
       {
@@ -133,8 +133,8 @@
     ],
     "left": 1,
     "quota": {
-      "daily": 150,
-      "remainder_before": 150
+      "daily": 10,
+      "remainder_before": 10
     },
     "sitemaps_added": [],
     "sitemaps": [
