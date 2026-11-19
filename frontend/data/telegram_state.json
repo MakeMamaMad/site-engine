@@ -3436,20 +3436,30 @@
       "sent_at": "2026-11-18T15:52:49+00:00",
       "title": "Обучение линейных руководителей: инвестиции в стабильность и рост производства",
       "slug": "obuchenie-lineynyh-rukovoditeley-investitsii-v-stabilnost-i-rost-proizvo-fa9794c6"
+    },
+    "http://gruzovoy.ru/news/industry/3443_sotrans_zapystil_seriinoe_proizvodstvo_samosvalnih_polypricepov.html": {
+      "digest_id": "2026-11-19:am",
+      "message_id": 1809,
+      "sent_at": "2026-11-19T11:28:20+00:00",
+      "title": "«СОТРАНС» запустил серийное производство новой модели самосвальных полуприцепов",
+      "slug": "sotrans-zapustil-seriynoe-proizvodstvo-novoy-modeli-samosvalnyh-poluprit-2b855059"
+    },
+    "http://gruzovoy.ru/news/industry/3441_valdai_45_pro_vpervie_stal_liderom_rossiiskogo_rinka_gryzovikov.html": {
+      "digest_id": "2026-11-19:am",
+      "message_id": 1809,
+      "sent_at": "2026-11-19T11:28:20+00:00",
+      "title": "«Валдай 45 PRO» впервые стал лидером российского рынка грузовиков",
+      "slug": "valday-45-pro-vpervye-stal-liderom-rossiyskogo-rynka-gruzovikov-2b276eac"
+    },
+    "https://www.globaltrailermag.com/brown-hurley-buys-into-schmitz-cargobull-partnership/": {
+      "digest_id": "2026-11-19:am",
+      "message_id": 1809,
+      "sent_at": "2026-11-19T11:28:20+00:00",
+      "title": "Brown & Hurley покупает компанию Schmitz Cargobull",
+      "slug": "brown-hurley-pokupaet-kompaniyu-schmitz-cargobull-ce0c249c"
     }
   },
   "digests": {
-    "2026-10-31:am": {
-      "message_id": 1695,
-      "sent_at": "2026-10-31T09:38:20+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/179124/",
-        "http://gruzovoy.ru/news/industry/3419_v_alabyge_nachali_seriino_vipyskat_tyrbomotor_15_l_dlya_sollers_sf1.html",
-        "http://gruzovoy.ru/news/industry/3418_servis_i_prodaji_tehniki_s_probegom_kak_sozdat_edinii_biznes-process_i_ne_progoret.html"
-      ],
-      "visual": "visual"
-    },
     "2026-10-31:pm": {
       "message_id": 1696,
       "sent_at": "2026-10-31T12:53:27+00:00",
@@ -3766,6 +3776,17 @@
         "https://truckmix.ru/news/zavod-kdm-yvelichil-prodaji-mysorovozov-i-kombinirovannih-dorojnih-mashin",
         "https://www.globaltrailermag.com/critical-mass/",
         "https://nefaz.ru/news/obuchenie-lineynyh-rukovoditeley-investitsii-v-stabil-nost-i-rost-proizvodstva"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-19:am": {
+      "message_id": 1809,
+      "sent_at": "2026-11-19T11:28:20+00:00",
+      "slot": "am",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3443_sotrans_zapystil_seriinoe_proizvodstvo_samosvalnih_polypricepov.html",
+        "http://gruzovoy.ru/news/industry/3441_valdai_45_pro_vpervie_stal_liderom_rossiiskogo_rinka_gryzovikov.html",
+        "https://www.globaltrailermag.com/brown-hurley-buys-into-schmitz-cargobull-partnership/"
       ],
       "visual": "visual"
     }
