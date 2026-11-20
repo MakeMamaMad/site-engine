@@ -1,20 +1,10 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-19T23:39:45+00:00",
+  "updated_at": "2026-11-20T23:13:06+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
   "sources": [
-    {
-      "source": "logistics360-editorial",
-      "medium": "editorial",
-      "campaign": "industry_editorial",
-      "visits": 1,
-      "users": 1,
-      "bounce_rate": 0.0,
-      "page_depth": 2.0,
-      "avg_visit_duration_seconds": 39
-    },
     {
       "source": "trans-ru",
       "medium": "editorial",
@@ -27,8 +17,8 @@
     }
   ],
   "totals": {
-    "visits": 2,
-    "users": 2
+    "visits": 1,
+    "users": 1
   },
   "sampled": false,
   "sample_share": 1.0
