@@ -3475,9 +3475,9 @@
       "slug": "fenatran-prodal-12-000-treylerov-02ee51c0"
     },
     "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/": {
-      "digest_id": "2026-11-19:pm",
-      "message_id": 1810,
-      "sent_at": "2026-11-19T15:56:36+00:00",
+      "digest_id": "2026-11-20:pm",
+      "message_id": 1813,
+      "sent_at": "2026-11-20T15:40:16+00:00",
       "title": "Einride сократила выручку на 76%",
       "slug": "einride-sokratila-vyruchku-na-76-2b3a7825"
     },
@@ -3489,16 +3489,16 @@
       "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502"
     },
     "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta": {
-      "digest_id": "2026-11-20:am",
-      "message_id": 1812,
-      "sent_at": "2026-11-20T11:17:56+00:00",
+      "digest_id": "2026-11-20:pm",
+      "message_id": 1813,
+      "sent_at": "2026-11-20T15:40:16+00:00",
       "title": "С Днём работника транспорта",
       "slug": "s-dnem-rabotnika-transporta-88a00c69"
     },
     "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/": {
-      "digest_id": "2026-11-20:am",
-      "message_id": 1812,
-      "sent_at": "2026-11-20T11:17:56+00:00",
+      "digest_id": "2026-11-20:pm",
+      "message_id": 1813,
+      "sent_at": "2026-11-20T15:40:16+00:00",
       "title": "Kinaxia Management выкуп разблокирует инвестиции в флот",
       "slug": "kinaxia-management-vykup-razblokiruet-investitsii-v-flot-623eafe5"
     },
@@ -3511,17 +3511,6 @@
     }
   },
   "digests": {
-    "2026-11-02:pm": {
-      "message_id": 1704,
-      "sent_at": "2026-11-02T16:22:51+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/ata-appoints-ceo/",
-        "https://www.globaltrailermag.com/india-unifies-transport-and-logistics-planning/",
-        "https://tonar.info/news/k-dniu-rozdeniia-iuriia-pavlovica-vainsteina"
-      ],
-      "visual": "visual"
-    },
     "2026-11-03:am": {
       "message_id": 1709,
       "sent_at": "2026-11-03T06:44:44+00:00",
@@ -3838,6 +3827,17 @@
         "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta",
         "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/",
         "http://gruzovoy.ru/news/industry/3444_top-5_brendov_po_chisly_dilerov_gryzovih_avtomobilei_v_rf_zametno_izmenilsya.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-20:pm": {
+      "message_id": 1813,
+      "sent_at": "2026-11-20T15:40:16+00:00",
+      "slot": "pm",
+      "items": [
+        "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta",
+        "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/",
+        "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/"
       ],
       "visual": "visual"
     }
