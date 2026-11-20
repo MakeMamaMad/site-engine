@@ -3156,6 +3156,27 @@
       "sent_at": "2026-11-19T16:00:18+00:00",
       "title": "«СОТРАНС» запустил серийное производство новой модели самосвальных полуприцепов",
       "slug": "sotrans-zapustil-seriynoe-proizvodstvo-novoy-modeli-samosvalnyh-poluprit-2b855059"
+    },
+    "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/": {
+      "digest_id": "2026-11-20:am",
+      "post_id": 310,
+      "sent_at": "2026-11-20T11:17:58+00:00",
+      "title": "Einride сократила выручку на 76%",
+      "slug": "einride-sokratila-vyruchku-na-76-2b3a7825"
+    },
+    "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta": {
+      "digest_id": "2026-11-20:am",
+      "post_id": 310,
+      "sent_at": "2026-11-20T11:17:58+00:00",
+      "title": "С Днём работника транспорта",
+      "slug": "s-dnem-rabotnika-transporta-88a00c69"
+    },
+    "http://gruzovoy.ru/news/industry/3444_top-5_brendov_po_chisly_dilerov_gryzovih_avtomobilei_v_rf_zametno_izmenilsya.html": {
+      "digest_id": "2026-11-20:am",
+      "post_id": 310,
+      "sent_at": "2026-11-20T11:17:58+00:00",
+      "title": "Топ-5 брендов по числу дилеров грузовых автомобилей в РФ заметно изменился",
+      "slug": "top-5-brendov-po-chislu-dilerov-gruzovyh-avtomobiley-v-rf-zametno-izmeni-b40117ec"
     }
   },
   "digests": {
@@ -4088,6 +4109,17 @@
         "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/",
         "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/",
         "http://gruzovoy.ru/news/industry/3443_sotrans_zapystil_seriinoe_proizvodstvo_samosvalnih_polypricepov.html"
+      ]
+    },
+    "2026-11-20:am": {
+      "post_id": 310,
+      "sent_at": "2026-11-20T11:17:58+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/",
+        "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta",
+        "http://gruzovoy.ru/news/industry/3444_top-5_brendov_po_chisly_dilerov_gryzovih_avtomobilei_v_rf_zametno_izmenilsya.html"
       ]
     }
   }
