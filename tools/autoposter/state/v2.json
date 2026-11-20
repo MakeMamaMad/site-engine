@@ -110,7 +110,8 @@
     "147d189938f3",
     "testdrive:queue#2",
     "02ee51c0073d",
-    "2b276eacd167"
+    "2b276eacd167",
+    "2b855059f797"
   ],
   "renders": [
     {
@@ -881,6 +882,13 @@
       "slug": "valday-45-pro-vpervye-stal-liderom-rossiyskogo-rynka-gruzovikov-2b276eac",
       "title": "«Валдай 45 PRO» впервые стал лидером российского рынка грузовиков",
       "created_at": "2026-11-19T22:51:07.762314+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "2b855059f797",
+      "slug": "sotrans-zapustil-seriynoe-proizvodstvo-novoy-modeli-samosvalnyh-poluprit-2b855059",
+      "title": "«СОТРАНС» запустил серийное производство новой модели самосвальных полуприцепов",
+      "created_at": "2026-11-20T08:15:32.409901+00:00",
       "format": "social-v2"
     }
   ]
