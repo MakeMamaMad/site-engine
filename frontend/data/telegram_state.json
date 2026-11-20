@@ -3487,20 +3487,30 @@
       "sent_at": "2026-11-19T15:56:36+00:00",
       "title": "Россия заняла 15-е место в рейтинге готовности к внедрению беспилотного транспорта",
       "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502"
+    },
+    "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta": {
+      "digest_id": "2026-11-20:am",
+      "message_id": 1812,
+      "sent_at": "2026-11-20T11:17:56+00:00",
+      "title": "С Днём работника транспорта",
+      "slug": "s-dnem-rabotnika-transporta-88a00c69"
+    },
+    "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/": {
+      "digest_id": "2026-11-20:am",
+      "message_id": 1812,
+      "sent_at": "2026-11-20T11:17:56+00:00",
+      "title": "Kinaxia Management выкуп разблокирует инвестиции в флот",
+      "slug": "kinaxia-management-vykup-razblokiruet-investitsii-v-flot-623eafe5"
+    },
+    "http://gruzovoy.ru/news/industry/3444_top-5_brendov_po_chisly_dilerov_gryzovih_avtomobilei_v_rf_zametno_izmenilsya.html": {
+      "digest_id": "2026-11-20:am",
+      "message_id": 1812,
+      "sent_at": "2026-11-20T11:17:56+00:00",
+      "title": "Топ-5 брендов по числу дилеров грузовых автомобилей в РФ заметно изменился",
+      "slug": "top-5-brendov-po-chislu-dilerov-gruzovyh-avtomobiley-v-rf-zametno-izmeni-b40117ec"
     }
   },
   "digests": {
-    "2026-11-02:am": {
-      "message_id": 1703,
-      "sent_at": "2026-11-02T10:55:23+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/hapag-lloyd-expands-african-logistics-network/",
-        "https://www.globaltrailermag.com/librelato-invests-e10-9m-in-trailer-production/",
-        "https://sdelanounas.ru/blogs/179161/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-02:pm": {
       "message_id": 1704,
       "sent_at": "2026-11-02T16:22:51+00:00",
@@ -3817,6 +3827,17 @@
         "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/",
         "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/",
         "http://gruzovoy.ru/news/industry/3442_rossiya_zanyala_15-e_mesto_v_reitinge_gotovnosti_k_vnedreniu_bespilotnogo_transporta.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-20:am": {
+      "message_id": 1812,
+      "sent_at": "2026-11-20T11:17:56+00:00",
+      "slot": "am",
+      "items": [
+        "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta",
+        "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/",
+        "http://gruzovoy.ru/news/industry/3444_top-5_brendov_po_chisly_dilerov_gryzovih_avtomobilei_v_rf_zametno_izmenilsya.html"
       ],
       "visual": "visual"
     }
