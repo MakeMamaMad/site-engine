@@ -3414,6 +3414,36 @@
         }
       },
       "updated_at": "2026-11-20T22:25:06.348406+00:00"
+    },
+    "c323eb8032b4": {
+      "title": "Пятый форум НАДДиПС объединит рынок спецтехники онлайн и офлайн",
+      "created_at": "2026-11-21T08:10:41.207105+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "galLrx2wQyk",
+          "url": "https://www.youtube.com/shorts/galLrx2wQyk",
+          "updated_at": "2026-11-21T08:10:41.207123+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b0152025e993799d86112f4",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-21T08:12:28.920602+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b01526d9ffbc8503c0bca8e",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-21T08:13:30.887825+00:00"
+        }
+      },
+      "updated_at": "2026-11-21T08:13:30.887823+00:00"
     }
   }
 }
