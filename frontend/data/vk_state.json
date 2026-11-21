@@ -3189,9 +3189,9 @@
       "slug": "einride-sokratila-vyruchku-na-76-2b3a7825"
     },
     "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta": {
-      "digest_id": "2026-11-20:pm",
-      "post_id": 312,
-      "sent_at": "2026-11-20T15:43:29+00:00",
+      "digest_id": "2026-11-21:am",
+      "post_id": 315,
+      "sent_at": "2026-11-21T10:55:29+00:00",
       "title": "С Днём работника транспорта",
       "slug": "s-dnem-rabotnika-transporta-88a00c69"
     },
@@ -3201,6 +3201,20 @@
       "sent_at": "2026-11-20T11:17:58+00:00",
       "title": "Топ-5 брендов по числу дилеров грузовых автомобилей в РФ заметно изменился",
       "slug": "top-5-brendov-po-chislu-dilerov-gruzovyh-avtomobiley-v-rf-zametno-izmeni-b40117ec"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/fly-by-nite-expands-specialist-transport-fleet-with-26-krone-trailers/": {
+      "digest_id": "2026-11-21:am",
+      "post_id": 315,
+      "sent_at": "2026-11-21T10:55:29+00:00",
+      "title": "Fly By Nite расширяет специализированный транспортный парк с 26 прицепами Krone",
+      "slug": "fly-by-nite-rasshiryaet-spetsializirovannyy-transportnyy-park-s-26-prits-84b602dc"
+    },
+    "https://truckmix.ru/news/pyatii-forym-naddips-vpervie-obedinit-predstavitelei-rinka-spectehniki-v-oflain--i-onlain--formatah": {
+      "digest_id": "2026-11-21:am",
+      "post_id": 315,
+      "sent_at": "2026-11-21T10:55:29+00:00",
+      "title": "Пятый форум НАДДиПС впервые объединит представителей рынка спецтехники в офлайн- и онлайн- форматах",
+      "slug": "pyatyy-forum-naddips-vpervye-obedinit-predstaviteley-rynka-spetstehniki-c323eb80"
     }
   },
   "digests": {
@@ -4154,6 +4168,17 @@
       "items": [
         "https://www.globaltrailermag.com/fenatran-drives-12000-trailer-sales/",
         "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/",
+        "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta"
+      ]
+    },
+    "2026-11-21:am": {
+      "post_id": 315,
+      "sent_at": "2026-11-21T10:55:29+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "https://www.krone-trailer.com/en/news/detail-1/fly-by-nite-expands-specialist-transport-fleet-with-26-krone-trailers/",
+        "https://truckmix.ru/news/pyatii-forym-naddips-vpervie-obedinit-predstavitelei-rinka-spectehniki-v-oflain--i-onlain--formatah",
         "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta"
       ]
     }
