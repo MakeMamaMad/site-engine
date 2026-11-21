@@ -3507,9 +3507,9 @@
       "slug": "rossiya-zanyala-15-e-mesto-v-reytinge-gotovnosti-k-vnedreniyu-bespilotno-acbe2502"
     },
     "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta": {
-      "digest_id": "2026-11-20:pm",
-      "message_id": 1813,
-      "sent_at": "2026-11-20T15:40:16+00:00",
+      "digest_id": "2026-11-21:am",
+      "message_id": 1816,
+      "sent_at": "2026-11-21T10:55:33+00:00",
       "title": "С Днём работника транспорта",
       "slug": "s-dnem-rabotnika-transporta-88a00c69"
     },
@@ -3526,20 +3526,23 @@
       "sent_at": "2026-11-20T11:17:56+00:00",
       "title": "Топ-5 брендов по числу дилеров грузовых автомобилей в РФ заметно изменился",
       "slug": "top-5-brendov-po-chislu-dilerov-gruzovyh-avtomobiley-v-rf-zametno-izmeni-b40117ec"
+    },
+    "https://truckmix.ru/news/pyatii-forym-naddips-vpervie-obedinit-predstavitelei-rinka-spectehniki-v-oflain--i-onlain--formatah": {
+      "digest_id": "2026-11-21:am",
+      "message_id": 1816,
+      "sent_at": "2026-11-21T10:55:33+00:00",
+      "title": "Пятый форум НАДДиПС впервые объединит представителей рынка спецтехники в офлайн- и онлайн- форматах",
+      "slug": "pyatyy-forum-naddips-vpervye-obedinit-predstaviteley-rynka-spetstehniki-c323eb80"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/fly-by-nite-expands-specialist-transport-fleet-with-26-krone-trailers/": {
+      "digest_id": "2026-11-21:am",
+      "message_id": 1816,
+      "sent_at": "2026-11-21T10:55:33+00:00",
+      "title": "Fly By Nite расширяет специализированный транспортный парк с 26 прицепами Krone",
+      "slug": "fly-by-nite-rasshiryaet-spetsializirovannyy-transportnyy-park-s-26-prits-84b602dc"
     }
   },
   "digests": {
-    "2026-11-03:am": {
-      "message_id": 1709,
-      "sent_at": "2026-11-03T06:44:44+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/179182/",
-        "https://trailertechnician.com/2026/11/bendix-unisync-hub-and-rotor-system/?utm_source=rss&utm_medium=rss&utm_campaign=bendix-unisync-hub-and-rotor-system",
-        "https://www.globaltrailermag.com/us-imposes-duties-on-chinese-trailers/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-03:pm": {
       "message_id": 1710,
       "sent_at": "2026-11-03T14:29:55+00:00",
@@ -3856,6 +3859,17 @@
         "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta",
         "https://www.globaltrailermag.com/kinaxia-management-buyout-unlocks-fleet-investment/",
         "https://www.globaltrailermag.com/einride-contracted-revenue-surges-76-per-cent/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-21:am": {
+      "message_id": 1816,
+      "sent_at": "2026-11-21T10:55:33+00:00",
+      "slot": "am",
+      "items": [
+        "https://truckmix.ru/news/pyatii-forym-naddips-vpervie-obedinit-predstavitelei-rinka-spectehniki-v-oflain--i-onlain--formatah",
+        "https://www.krone-trailer.com/en/news/detail-1/fly-by-nite-expands-specialist-transport-fleet-with-26-krone-trailers/",
+        "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta"
       ],
       "visual": "visual"
     }
