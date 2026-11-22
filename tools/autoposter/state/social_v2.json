@@ -3474,6 +3474,36 @@
         }
       },
       "updated_at": "2026-11-22T08:13:32.116038+00:00"
+    },
+    "ce0c249c2d8c": {
+      "title": "Brown & Hurley приобрела 25% в структуре Schmitz Cargobull",
+      "created_at": "2026-11-22T16:12:10.294956+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "J1i463Uw-jQ",
+          "url": "https://www.youtube.com/shorts/J1i463Uw-jQ",
+          "updated_at": "2026-11-22T16:12:10.294975+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b03145bc72676f5e940d1c6",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-22T16:14:00.144027+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b0314c9d864a01105d8e094",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-22T16:15:02.941716+00:00"
+        }
+      },
+      "updated_at": "2026-11-22T16:15:02.941713+00:00"
     }
   }
 }

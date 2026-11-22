@@ -114,7 +114,8 @@
     "2b855059f797",
     "84b602dc12d5",
     "c323eb8032b4",
-    "88a00c69eb3b"
+    "88a00c69eb3b",
+    "ce0c249c2d8c"
   ],
   "renders": [
     {
@@ -913,6 +914,13 @@
       "slug": "s-dnem-rabotnika-transporta-88a00c69",
       "title": "С Днём работника транспорта",
       "created_at": "2026-11-22T08:13:32.119583+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "ce0c249c2d8c",
+      "slug": "brown-hurley-pokupaet-kompaniyu-schmitz-cargobull-ce0c249c",
+      "title": "Brown & Hurley приобрела 25% в структуре Schmitz Cargobull",
+      "created_at": "2026-11-22T16:15:02.944423+00:00",
       "format": "social-v2"
     }
   ]
