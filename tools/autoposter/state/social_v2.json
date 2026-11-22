@@ -3504,6 +3504,36 @@
         }
       },
       "updated_at": "2026-11-22T16:15:02.941713+00:00"
+    },
+    "guide:rto-calculator": {
+      "title": "Сколько ехать с перерывами и отдыхом: калькулятор",
+      "created_at": "2026-11-22T21:13:57.900105+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "W04PaKyi63A",
+          "url": "https://www.youtube.com/shorts/W04PaKyi63A",
+          "updated_at": "2026-11-22T21:13:57.900124+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b035b17d5eabfb8ccde2b07",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-22T21:15:47.569530+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b035b84c72676f5e95f3c3c",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-22T21:16:50.538431+00:00"
+        }
+      },
+      "updated_at": "2026-11-22T21:16:50.538429+00:00"
     }
   }
 }

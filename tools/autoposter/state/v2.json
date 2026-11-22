@@ -115,7 +115,8 @@
     "84b602dc12d5",
     "c323eb8032b4",
     "88a00c69eb3b",
-    "ce0c249c2d8c"
+    "ce0c249c2d8c",
+    "guide:rto-calculator"
   ],
   "renders": [
     {
@@ -921,6 +922,13 @@
       "slug": "brown-hurley-pokupaet-kompaniyu-schmitz-cargobull-ce0c249c",
       "title": "Brown & Hurley приобрела 25% в структуре Schmitz Cargobull",
       "created_at": "2026-11-22T16:15:02.944423+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "guide:rto-calculator",
+      "slug": "",
+      "title": "Сколько ехать с перерывами и отдыхом: калькулятор",
+      "created_at": "2026-11-22T21:16:50.542012+00:00",
       "format": "social-v2"
     }
   ]
