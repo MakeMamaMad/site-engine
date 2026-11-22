@@ -3444,6 +3444,36 @@
         }
       },
       "updated_at": "2026-11-21T08:13:30.887823+00:00"
+    },
+    "88a00c69eb3b": {
+      "title": "С Днём работника транспорта",
+      "created_at": "2026-11-22T08:10:44.961272+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "EyDvwkFI0ho",
+          "url": "https://www.youtube.com/shorts/EyDvwkFI0ho",
+          "updated_at": "2026-11-22T08:10:44.961294+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b02a386d864a01105a97dbb",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-22T08:12:29.306933+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "published",
+          "provider": "buffer",
+          "post_id": "6b02a3eed864a01105a99599",
+          "buffer_status": "sent",
+          "updated_at": "2026-11-22T08:13:32.116041+00:00"
+        }
+      },
+      "updated_at": "2026-11-22T08:13:32.116038+00:00"
     }
   }
 }
