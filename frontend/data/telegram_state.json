@@ -2084,6 +2084,33 @@
       "slug": "fly-by-nite-vypustil-26-treylerov-krone-b6c02d4c",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://nefaz.ru/news/avtobus-nefaz-v-chisle-luchshih-tovarov-rossii": {
+      "message_id": 1819,
+      "sent_at": "2026-11-23T12:12:04+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/avtobus-nefaz-v-chisle-luchshih-tovarov-rossii-76c4f382/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=avtobus-nefaz-v-chisle-luchshih-tovarov-rossii-76c4f382",
+      "title": "Автобус НЕФАЗ – в числе лучших товаров России",
+      "slug": "avtobus-nefaz-v-chisle-luchshih-tovarov-rossii-76c4f382",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/dhl-contracts-set-to-exceed-e8b/": {
+      "message_id": 1820,
+      "sent_at": "2026-11-23T12:12:05+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/kontrakty-dhl-prevysyat-8-mlrd-evro-4921b1a4/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=kontrakty-dhl-prevysyat-8-mlrd-evro-4921b1a4",
+      "title": "Контракты DHL превысят 8 млрд евро",
+      "slug": "kontrakty-dhl-prevysyat-8-mlrd-evro-4921b1a4",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://www.globaltrailermag.com/fedex-backs-inpost-expansion-across-europe/": {
+      "message_id": 1821,
+      "sent_at": "2026-11-23T12:12:05+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/fedex-podderzhivaet-rasshirenie-inpost-po-vsey-evrope-1c746d6f/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=fedex-podderzhivaet-rasshirenie-inpost-po-vsey-evrope-1c746d6f",
+      "title": "FedEx поддерживает расширение InPost по всей Европе",
+      "slug": "fedex-podderzhivaet-rasshirenie-inpost-po-vsey-evrope-1c746d6f",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
