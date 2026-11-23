@@ -3576,20 +3576,30 @@
       "sent_at": "2026-11-21T14:50:29+00:00",
       "title": "Fly By Nite расширяет специализированный транспортный парк с 26 прицепами Krone",
       "slug": "fly-by-nite-rasshiryaet-spetsializirovannyy-transportnyy-park-s-26-prits-84b602dc"
+    },
+    "https://www.globaltrailermag.com/fly-by-nite-adds-26-krone-trailers/": {
+      "digest_id": "2026-11-23:pm",
+      "message_id": 1822,
+      "sent_at": "2026-11-23T12:13:15+00:00",
+      "title": "Fly By Nite выпустил 26 трейлеров KRONE",
+      "slug": "fly-by-nite-vypustil-26-treylerov-krone-b6c02d4c"
+    },
+    "https://www.globaltrailermag.com/dhl-contracts-set-to-exceed-e8b/": {
+      "digest_id": "2026-11-23:pm",
+      "message_id": 1822,
+      "sent_at": "2026-11-23T12:13:15+00:00",
+      "title": "Контракты DHL превысят 8 млрд евро",
+      "slug": "kontrakty-dhl-prevysyat-8-mlrd-evro-4921b1a4"
+    },
+    "https://nefaz.ru/news/avtobus-nefaz-v-chisle-luchshih-tovarov-rossii": {
+      "digest_id": "2026-11-23:pm",
+      "message_id": 1822,
+      "sent_at": "2026-11-23T12:13:15+00:00",
+      "title": "Автобус НЕФАЗ – в числе лучших товаров России",
+      "slug": "avtobus-nefaz-v-chisle-luchshih-tovarov-rossii-76c4f382"
     }
   },
   "digests": {
-    "2026-11-04:pm": {
-      "message_id": 1719,
-      "sent_at": "2026-11-04T14:25:14+00:00",
-      "slot": "pm",
-      "items": [
-        "https://sdelanounas.ru/blogs/179205/",
-        "https://sdelanounas.ru/blogs/179209/",
-        "https://www.globaltrailermag.com/cameroon-car-cross-border-trade-project-secures-e2-68m/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-05:am": {
       "message_id": 1724,
       "sent_at": "2026-11-05T10:53:17+00:00",
@@ -3906,6 +3916,17 @@
         "https://truckmix.ru/news/pyatii-forym-naddips-vpervie-obedinit-predstavitelei-rinka-spectehniki-v-oflain--i-onlain--formatah",
         "https://www.krone-trailer.com/en/news/detail-1/fly-by-nite-expands-specialist-transport-fleet-with-26-krone-trailers/",
         "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-23:pm": {
+      "message_id": 1822,
+      "sent_at": "2026-11-23T12:13:15+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/fly-by-nite-adds-26-krone-trailers/",
+        "https://www.globaltrailermag.com/dhl-contracts-set-to-exceed-e8b/",
+        "https://nefaz.ru/news/avtobus-nefaz-v-chisle-luchshih-tovarov-rossii"
       ],
       "visual": "visual"
     }
