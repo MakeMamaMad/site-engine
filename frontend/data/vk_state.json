@@ -3223,6 +3223,27 @@
       "sent_at": "2026-11-21T14:54:34+00:00",
       "title": "Пятый форум НАДДиПС впервые объединит представителей рынка спецтехники в офлайн- и онлайн- форматах",
       "slug": "pyatyy-forum-naddips-vpervye-obedinit-predstaviteley-rynka-spetstehniki-c323eb80"
+    },
+    "https://nefaz.ru/news/avtobus-nefaz-v-chisle-luchshih-tovarov-rossii": {
+      "digest_id": "2026-11-23:pm",
+      "post_id": 318,
+      "sent_at": "2026-11-23T12:13:09+00:00",
+      "title": "Автобус НЕФАЗ – в числе лучших товаров России",
+      "slug": "avtobus-nefaz-v-chisle-luchshih-tovarov-rossii-76c4f382"
+    },
+    "https://www.globaltrailermag.com/fedex-backs-inpost-expansion-across-europe/": {
+      "digest_id": "2026-11-23:pm",
+      "post_id": 318,
+      "sent_at": "2026-11-23T12:13:09+00:00",
+      "title": "FedEx поддерживает расширение InPost по всей Европе",
+      "slug": "fedex-podderzhivaet-rasshirenie-inpost-po-vsey-evrope-1c746d6f"
+    },
+    "https://www.globaltrailermag.com/dhl-contracts-set-to-exceed-e8b/": {
+      "digest_id": "2026-11-23:pm",
+      "post_id": 318,
+      "sent_at": "2026-11-23T12:13:09+00:00",
+      "title": "Контракты DHL превысят 8 млрд евро",
+      "slug": "kontrakty-dhl-prevysyat-8-mlrd-evro-4921b1a4"
     }
   },
   "digests": {
@@ -4199,6 +4220,17 @@
         "https://www.krone-trailer.com/en/news/detail-1/fly-by-nite-expands-specialist-transport-fleet-with-26-krone-trailers/",
         "https://comautotrans.moscow/tpost/5sflijim51-s-dnyom-rabotnika-transporta",
         "https://truckmix.ru/news/pyatii-forym-naddips-vpervie-obedinit-predstavitelei-rinka-spectehniki-v-oflain--i-onlain--formatah"
+      ]
+    },
+    "2026-11-23:pm": {
+      "post_id": 318,
+      "sent_at": "2026-11-23T12:13:09+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://nefaz.ru/news/avtobus-nefaz-v-chisle-luchshih-tovarov-rossii",
+        "https://www.globaltrailermag.com/fedex-backs-inpost-expansion-across-europe/",
+        "https://www.globaltrailermag.com/dhl-contracts-set-to-exceed-e8b/"
       ]
     }
   }
