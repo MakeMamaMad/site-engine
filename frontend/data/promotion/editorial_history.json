@@ -933,6 +933,16 @@
       "site_url": "https://spec-avtoportal.ru/knowledge/nagruzka-na-osi-evrofury/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=nagruzka-na-osi-evrofury",
       "created_at": "2026-11-19T18:28:25+00:00",
       "status": "manual_fallback"
+    },
+    {
+      "target_id": "truckmix-publishing",
+      "target_name": "TRUCKmix.ru",
+      "item_key": "knowledge:platon-2026",
+      "title": "«Платон» в 2026 году: тариф 5,19 ₽/км, кто платит и какие штрафы",
+      "source_url": "https://spec-avtoportal.ru/knowledge/platon-2026/?utm_source=truckmix-publishing&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=platon-2026",
+      "result_url": "https://truckmix.ru/publication/update/30699",
+      "submitted_at": "2026-11-24T20:18:10+00:00",
+      "status": "verified_in_author_cabinet"
     }
   ]
 }
