@@ -3337,6 +3337,27 @@
       "sent_at": "2026-11-24T03:02:23+00:00",
       "title": "АВИМАШ представил комбинированную машину на КАМАЗ-6520",
       "slug": "avimash-predstavil-kombinirovannuyu-mashinu-na-kamaz-6520-2c50108c"
+    },
+    "https://truckmix.ru/news/delegaciya-soveta-federacii-rossii-i-gybernator-bryanskoi-oblasti-e-v-kovalchyk-posetili-bryanskie-predpriyatiya-gryppi-umg": {
+      "digest_id": "2026-11-24:pm",
+      "post_id": 329,
+      "sent_at": "2026-11-24T18:02:47+00:00",
+      "title": "Делегация Совета Федерации России и губернатор Брянской области Е.В. Ковальчук посетили брянские предприятия группы  UMG",
+      "slug": "delegatsiya-soveta-federatsii-rossii-i-gubernator-bryanskoy-oblasti-e-v-65e655b2"
+    },
+    "https://www.globaltrailermag.com/us-trailer-backlog-grows-as-orders-rise/": {
+      "digest_id": "2026-11-24:pm",
+      "post_id": 329,
+      "sent_at": "2026-11-24T18:02:47+00:00",
+      "title": "Отставание от американского трейлера растет по мере роста заказов",
+      "slug": "otstavanie-ot-amerikanskogo-treylera-rastet-po-mere-rosta-zakazov-386d4d4a"
+    },
+    "https://www.globaltrailermag.com/lightweight-trailer-targets-electric-truck-payloads/": {
+      "digest_id": "2026-11-24:pm",
+      "post_id": 329,
+      "sent_at": "2026-11-24T18:02:47+00:00",
+      "title": "Легкий трейлер нацелен на электрические грузовые автомобили",
+      "slug": "legkiy-treyler-natselen-na-elektricheskie-gruzovye-avtomobili-2a761257"
     }
   },
   "digests": {
@@ -4335,6 +4356,17 @@
         "http://gruzovoy.ru/news/industry/3447_eksport_kitaiskih_gryzovikov_v_rossiu_v_oktyabre_sokratilsya_na_225.html",
         "https://www.globaltrailermag.com/fly-by-nite-adds-26-krone-trailers/",
         "https://sdelanounas.ru/blogs/179587/"
+      ]
+    },
+    "2026-11-24:pm": {
+      "post_id": 329,
+      "sent_at": "2026-11-24T18:02:47+00:00",
+      "slot": "pm",
+      "visual": "link_preview",
+      "items": [
+        "https://truckmix.ru/news/delegaciya-soveta-federacii-rossii-i-gybernator-bryanskoi-oblasti-e-v-kovalchyk-posetili-bryanskie-predpriyatiya-gryppi-umg",
+        "https://www.globaltrailermag.com/us-trailer-backlog-grows-as-orders-rise/",
+        "https://www.globaltrailermag.com/lightweight-trailer-targets-electric-truck-payloads/"
       ]
     }
   }
