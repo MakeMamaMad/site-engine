@@ -3580,16 +3580,16 @@
           "platform": "tiktok",
           "status": "error",
           "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
-          "updated_at": "2026-11-24T18:51:56.860065+00:00"
+          "updated_at": "2026-11-25T23:46:33.422493+00:00"
         },
         "instagram": {
           "platform": "instagram",
           "status": "error",
           "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
-          "updated_at": "2026-11-24T18:51:56.960678+00:00"
+          "updated_at": "2026-11-25T23:46:33.545770+00:00"
         }
       },
-      "updated_at": "2026-11-24T18:51:56.960675+00:00"
+      "updated_at": "2026-11-25T23:46:33.545768+00:00"
     },
     "2a761257c9d1": {
       "title": "Лёгкий полуприцеп для электрических грузовиков",
