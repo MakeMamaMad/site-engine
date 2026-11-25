@@ -3759,20 +3759,30 @@
       "sent_at": "2026-11-25T01:00:20+00:00",
       "title": "Отставание от американского трейлера растет по мере роста заказов",
       "slug": "otstavanie-ot-amerikanskogo-treylera-rastet-po-mere-rosta-zakazov-386d4d4a"
+    },
+    "https://www.globaltrailermag.com/customer-first/": {
+      "digest_id": "2026-11-25:pm",
+      "message_id": 1837,
+      "sent_at": "2026-11-25T17:28:47+00:00",
+      "title": "Сначала клиент",
+      "slug": "snachala-klient-16395d9c"
+    },
+    "https://www.globaltrailermag.com/building-energy-ecosystems/": {
+      "digest_id": "2026-11-25:pm",
+      "message_id": 1837,
+      "sent_at": "2026-11-25T17:28:47+00:00",
+      "title": "Создание энергетических экосистем",
+      "slug": "sozdanie-energeticheskih-ekosistem-cccd5c14"
+    },
+    "https://www.globaltrailermag.com/meiller-expands-insulated-tipper-range/": {
+      "digest_id": "2026-11-25:pm",
+      "message_id": 1837,
+      "sent_at": "2026-11-25T17:28:47+00:00",
+      "title": "MEILLER расширяет изолированный диапазон наконечников",
+      "slug": "meiller-rasshiryaet-izolirovannyy-diapazon-nakonechnikov-86b1d95a"
     }
   },
   "digests": {
-    "2026-11-06:pm": {
-      "message_id": 1731,
-      "sent_at": "2026-11-06T14:28:25+00:00",
-      "slot": "pm",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3426_pervii_vipysk_novogo_sezona_podkasta_comvex_dialog_85_let_avtozavody_yral.html",
-        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/",
-        "https://sdelanounas.ru/blogs/179231/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-07:am": {
       "message_id": 1734,
       "sent_at": "2026-11-07T10:05:17+00:00",
@@ -4089,6 +4099,17 @@
         "https://www.globaltrailermag.com/nvo-transport-adds-10-trailers/",
         "https://www.globaltrailermag.com/lightweight-trailer-targets-electric-truck-payloads/",
         "https://www.globaltrailermag.com/us-trailer-backlog-grows-as-orders-rise/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-25:pm": {
+      "message_id": 1837,
+      "sent_at": "2026-11-25T17:28:47+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/customer-first/",
+        "https://www.globaltrailermag.com/building-energy-ecosystems/",
+        "https://www.globaltrailermag.com/meiller-expands-insulated-tipper-range/"
       ],
       "visual": "visual"
     }
