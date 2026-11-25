@@ -1,8 +1,8 @@
 {
   "schema": 2,
-  "date_moscow": "2026-11-24",
+  "date_moscow": "2026-11-25",
   "status": "queue_exhausted",
   "attempts": [],
   "detail": "No unused automatic catalog targets remain.",
-  "updated_at": "2026-11-24T18:52:45+00:00"
+  "updated_at": "2026-11-25T08:11:29+00:00"
 }
