@@ -2210,6 +2210,33 @@
       "slug": "snachala-klient-16395d9c",
       "kind": "news",
       "visual": "visual"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/auf-den-spuren-des-eigenen-trailers/": {
+      "message_id": 1838,
+      "sent_at": "2026-11-25T17:32:46+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/v-trekah-sobstvennogo-treylera-aed01ccd/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=v-trekah-sobstvennogo-treylera-aed01ccd",
+      "title": "В треках собственного трейлера",
+      "slug": "v-trekah-sobstvennogo-treylera-aed01ccd",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3450_yralspectrans_predstavil_novii_polypricep-cisterny_dlya_perevozki_emylsii.html": {
+      "message_id": 1839,
+      "sent_at": "2026-11-25T17:32:47+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/uralspetstrans-predstavil-novyy-polupritsep-tsisternu-dlya-perevozki-emu-8c848a81/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=uralspetstrans-predstavil-novyy-polupritsep-tsisternu-dlya-perevozki-emu-8c848a81",
+      "title": "«УралСпецТранс» представил новый полуприцеп-цистерну для перевозки эмульсии",
+      "slug": "uralspetstrans-predstavil-novyy-polupritsep-tsisternu-dlya-perevozki-emu-8c848a81",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3449_k_2050_gody_do_polovini_transporta_v_rossii_mojet_stat_bespilotnim.html": {
+      "message_id": 1840,
+      "sent_at": "2026-11-25T17:32:48+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/k-2050-godu-do-poloviny-transporta-v-rossii-mozhet-stat-bespilotnym-b9d0c5fa/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=k-2050-godu-do-poloviny-transporta-v-rossii-mozhet-stat-bespilotnym-b9d0c5fa",
+      "title": "К 2050 году до половины транспорта в России может стать беспилотным",
+      "slug": "k-2050-godu-do-poloviny-transporta-v-rossii-mozhet-stat-bespilotnym-b9d0c5fa",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
