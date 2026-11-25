@@ -3382,6 +3382,27 @@
       "sent_at": "2026-11-24T18:02:47+00:00",
       "title": "Легкий трейлер нацелен на электрические грузовые автомобили",
       "slug": "legkiy-treyler-natselen-na-elektricheskie-gruzovye-avtomobili-2a761257"
+    },
+    "http://gruzovoy.ru/news/industry/3448_bespilotnie_gryzoviki_mogyt_zapystit_po_m-12_do_tumeni_v_2027_gody.html": {
+      "digest_id": "2026-11-25:am",
+      "post_id": 333,
+      "sent_at": "2026-11-25T01:04:07+00:00",
+      "title": "Беспилотные грузовики могут запустить по М-12 до Тюмени в 2027 году",
+      "slug": "bespilotnye-gruzoviki-mogut-zapustit-po-m-12-do-tyumeni-v-2027-godu-eb880028"
+    },
+    "https://www.globaltrailermag.com/meiller-expands-insulated-tipper-range/": {
+      "digest_id": "2026-11-25:am",
+      "post_id": 333,
+      "sent_at": "2026-11-25T01:04:07+00:00",
+      "title": "MEILLER расширяет изолированный диапазон наконечников",
+      "slug": "meiller-rasshiryaet-izolirovannyy-diapazon-nakonechnikov-86b1d95a"
+    },
+    "https://truckmix.ru/news/sinotruk-obyavil-ob-obnovleniyah-na-avtomobilyah-howo-t5g-2026-goda-vipyska": {
+      "digest_id": "2026-11-25:am",
+      "post_id": 333,
+      "sent_at": "2026-11-25T01:04:07+00:00",
+      "title": "SINOTRUK объявил об обновлениях на автомобилях HOWO T5G 2026 года выпуска",
+      "slug": "sinotruk-obyavil-ob-obnovleniyah-na-avtomobilyah-howo-t5g-2026-goda-vypu-c3372408"
     }
   },
   "digests": {
@@ -4391,6 +4412,17 @@
         "https://truckmix.ru/news/delegaciya-soveta-federacii-rossii-i-gybernator-bryanskoi-oblasti-e-v-kovalchyk-posetili-bryanskie-predpriyatiya-gryppi-umg",
         "https://www.globaltrailermag.com/us-trailer-backlog-grows-as-orders-rise/",
         "https://www.globaltrailermag.com/lightweight-trailer-targets-electric-truck-payloads/"
+      ]
+    },
+    "2026-11-25:am": {
+      "post_id": 333,
+      "sent_at": "2026-11-25T01:04:07+00:00",
+      "slot": "am",
+      "visual": "link_preview",
+      "items": [
+        "http://gruzovoy.ru/news/industry/3448_bespilotnie_gryzoviki_mogyt_zapystit_po_m-12_do_tumeni_v_2027_gody.html",
+        "https://www.globaltrailermag.com/meiller-expands-insulated-tipper-range/",
+        "https://truckmix.ru/news/sinotruk-obyavil-ob-obnovleniyah-na-avtomobilyah-howo-t5g-2026-goda-vipyska"
       ]
     }
   }
