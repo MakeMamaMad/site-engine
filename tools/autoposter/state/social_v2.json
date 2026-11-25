@@ -3658,16 +3658,16 @@
           "platform": "tiktok",
           "status": "error",
           "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
-          "updated_at": "2026-11-25T08:15:39.154165+00:00"
+          "updated_at": "2026-11-25T18:01:05.428638+00:00"
         },
         "instagram": {
           "platform": "instagram",
           "status": "error",
           "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
-          "updated_at": "2026-11-25T08:15:39.202089+00:00"
+          "updated_at": "2026-11-25T18:01:05.576502+00:00"
         }
       },
-      "updated_at": "2026-11-25T08:15:39.202087+00:00"
+      "updated_at": "2026-11-25T18:01:05.576500+00:00"
     }
   }
 }
