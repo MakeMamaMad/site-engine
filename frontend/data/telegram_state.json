@@ -3720,20 +3720,30 @@
       "sent_at": "2026-11-24T18:01:33+00:00",
       "title": "SINOTRUK объявил об обновлениях на автомобилях HOWO T5G 2026 года выпуска",
       "slug": "sinotruk-obyavil-ob-obnovleniyah-na-avtomobilyah-howo-t5g-2026-goda-vypu-c3372408"
+    },
+    "https://www.globaltrailermag.com/nvo-transport-adds-10-trailers/": {
+      "digest_id": "2026-11-25:am",
+      "message_id": 1834,
+      "sent_at": "2026-11-25T01:00:20+00:00",
+      "title": "NVO Transport добавляет 10 трейлеров",
+      "slug": "nvo-transport-dobavlyaet-10-treylerov-df4fdca5"
+    },
+    "https://www.globaltrailermag.com/lightweight-trailer-targets-electric-truck-payloads/": {
+      "digest_id": "2026-11-25:am",
+      "message_id": 1834,
+      "sent_at": "2026-11-25T01:00:20+00:00",
+      "title": "Легкий трейлер нацелен на электрические грузовые автомобили",
+      "slug": "legkiy-treyler-natselen-na-elektricheskie-gruzovye-avtomobili-2a761257"
+    },
+    "https://www.globaltrailermag.com/us-trailer-backlog-grows-as-orders-rise/": {
+      "digest_id": "2026-11-25:am",
+      "message_id": 1834,
+      "sent_at": "2026-11-25T01:00:20+00:00",
+      "title": "Отставание от американского трейлера растет по мере роста заказов",
+      "slug": "otstavanie-ot-amerikanskogo-treylera-rastet-po-mere-rosta-zakazov-386d4d4a"
     }
   },
   "digests": {
-    "2026-11-06:am": {
-      "message_id": 1730,
-      "sent_at": "2026-11-06T10:53:31+00:00",
-      "slot": "am",
-      "items": [
-        "https://sdelanounas.ru/blogs/179231/",
-        "https://www.globaltrailermag.com/kuehnenagel-appoints-national-managers-in-germany-spain-and-the-us/",
-        "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-06:pm": {
       "message_id": 1731,
       "sent_at": "2026-11-06T14:28:25+00:00",
@@ -4050,6 +4060,17 @@
         "https://sdelanounas.ru/blogs/179587/",
         "https://truckmix.ru/news/delegaciya-soveta-federacii-rossii-i-gybernator-bryanskoi-oblasti-e-v-kovalchyk-posetili-bryanskie-predpriyatiya-gryppi-umg",
         "https://truckmix.ru/news/sinotruk-obyavil-ob-obnovleniyah-na-avtomobilyah-howo-t5g-2026-goda-vipyska"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-25:am": {
+      "message_id": 1834,
+      "sent_at": "2026-11-25T01:00:20+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.globaltrailermag.com/nvo-transport-adds-10-trailers/",
+        "https://www.globaltrailermag.com/lightweight-trailer-targets-electric-truck-payloads/",
+        "https://www.globaltrailermag.com/us-trailer-backlog-grows-as-orders-rise/"
       ],
       "visual": "visual"
     }
