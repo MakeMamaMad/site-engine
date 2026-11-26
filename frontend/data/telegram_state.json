@@ -3873,20 +3873,30 @@
       "sent_at": "2026-11-26T00:37:18+00:00",
       "title": "К 2050 году до половины транспорта в России может стать беспилотным",
       "slug": "k-2050-godu-do-poloviny-transporta-v-rossii-mozhet-stat-bespilotnym-b9d0c5fa"
+    },
+    "https://www.globaltrailermag.com/trailer-led-electrification/": {
+      "digest_id": "2026-11-26:pm",
+      "message_id": 1847,
+      "sent_at": "2026-11-26T16:48:38+00:00",
+      "title": "Электрификация под руководством трейлера",
+      "slug": "elektrifikatsiya-pod-rukovodstvom-treylera-f81b2000"
+    },
+    "https://www.globaltrailermag.com/msc-expands-saudi-road-logistics-network/": {
+      "digest_id": "2026-11-26:pm",
+      "message_id": 1847,
+      "sent_at": "2026-11-26T16:48:38+00:00",
+      "title": "MSC расширяет сеть дорожной логистики Саудовской Аравии",
+      "slug": "msc-rasshiryaet-set-dorozhnoy-logistiki-saudovskoy-aravii-38038c17"
+    },
+    "http://gruzovoy.ru/news/industry/3451_v_rossii_razrabotali_ynikalnii_germetik_dlya_avtomobilnoi_promishlennosti.html": {
+      "digest_id": "2026-11-26:pm",
+      "message_id": 1847,
+      "sent_at": "2026-11-26T16:48:38+00:00",
+      "title": "В России разработали новый герметик для автомобильной промышленности",
+      "slug": "v-rossii-razrabotali-novyy-germetik-dlya-avtomobilnoy-promyshlennosti-4afa82ae"
     }
   },
   "digests": {
-    "2026-11-07:pm": {
-      "message_id": 1735,
-      "sent_at": "2026-11-07T13:22:41+00:00",
-      "slot": "pm",
-      "items": [
-        "https://sdelanounas.ru/blogs/179259/",
-        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
-        "https://www.globaltrailermag.com/randon-unveils-longer-e-commerce-semi-trailer/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-08:am": {
       "message_id": 1736,
       "sent_at": "2026-11-08T10:09:44+00:00",
@@ -4203,6 +4213,17 @@
         "https://www.krone-trailer.com/en/news/detail-1/auf-den-spuren-des-eigenen-trailers/",
         "http://gruzovoy.ru/news/industry/3450_yralspectrans_predstavil_novii_polypricep-cisterny_dlya_perevozki_emylsii.html",
         "http://gruzovoy.ru/news/industry/3449_k_2050_gody_do_polovini_transporta_v_rossii_mojet_stat_bespilotnim.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-26:pm": {
+      "message_id": 1847,
+      "sent_at": "2026-11-26T16:48:38+00:00",
+      "slot": "pm",
+      "items": [
+        "https://www.globaltrailermag.com/trailer-led-electrification/",
+        "https://www.globaltrailermag.com/msc-expands-saudi-road-logistics-network/",
+        "http://gruzovoy.ru/news/industry/3451_v_rossii_razrabotali_ynikalnii_germetik_dlya_avtomobilnoi_promishlennosti.html"
       ],
       "visual": "visual"
     }
