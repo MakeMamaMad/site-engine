@@ -3668,6 +3668,32 @@
         }
       },
       "updated_at": "2026-11-25T19:14:11.054702+00:00"
+    },
+    "f81b200099ac": {
+      "title": "Электрификация под руководством трейлера",
+      "created_at": "2026-11-26T08:11:52.227783+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "--YCtEqmeH0",
+          "url": "https://www.youtube.com/shorts/--YCtEqmeH0",
+          "updated_at": "2026-11-26T08:11:52.227802+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "error",
+          "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
+          "updated_at": "2026-11-26T08:11:52.429685+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "error",
+          "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
+          "updated_at": "2026-11-26T08:11:52.551512+00:00"
+        }
+      },
+      "updated_at": "2026-11-26T08:11:52.551509+00:00"
     }
   }
 }
