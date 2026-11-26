@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "date_moscow": "2026-11-26",
-  "sent_at": "2026-11-26T16:47:57+00:00",
-  "task_count": 8,
+  "sent_at": "2026-11-26T20:01:50+00:00",
+  "task_count": 9,
   "action_ids": [
     "editorial:mexzona:gabarity-i-massy",
     "editorial:mexzona:kak-razmestit-gruz-v-evrofure",
@@ -11,6 +11,7 @@
     "editorial:mexzona:kreplenie-gruzov",
     "editorial:mexzona:nagruzka-na-os",
     "editorial:mexzona:nagruzka-na-osi-evrofury",
+    "editorial:mexzona:pereregistraciya-polupricepa",
     "editorial:mexzona:tehnicheskoe-obsluzhivanie-polupricepa"
   ]
 }
