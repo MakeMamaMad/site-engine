@@ -3807,20 +3807,30 @@
       "sent_at": "2026-11-25T17:28:47+00:00",
       "title": "MEILLER расширяет изолированный диапазон наконечников",
       "slug": "meiller-rasshiryaet-izolirovannyy-diapazon-nakonechnikov-86b1d95a"
+    },
+    "https://www.krone-trailer.com/en/news/detail-1/auf-den-spuren-des-eigenen-trailers/": {
+      "digest_id": "2026-11-26:am",
+      "message_id": 1841,
+      "sent_at": "2026-11-26T00:37:18+00:00",
+      "title": "В треках собственного трейлера",
+      "slug": "v-trekah-sobstvennogo-treylera-aed01ccd"
+    },
+    "http://gruzovoy.ru/news/industry/3450_yralspectrans_predstavil_novii_polypricep-cisterny_dlya_perevozki_emylsii.html": {
+      "digest_id": "2026-11-26:am",
+      "message_id": 1841,
+      "sent_at": "2026-11-26T00:37:18+00:00",
+      "title": "«УралСпецТранс» представил новый полуприцеп-цистерну для перевозки эмульсии",
+      "slug": "uralspetstrans-predstavil-novyy-polupritsep-tsisternu-dlya-perevozki-emu-8c848a81"
+    },
+    "http://gruzovoy.ru/news/industry/3449_k_2050_gody_do_polovini_transporta_v_rossii_mojet_stat_bespilotnim.html": {
+      "digest_id": "2026-11-26:am",
+      "message_id": 1841,
+      "sent_at": "2026-11-26T00:37:18+00:00",
+      "title": "К 2050 году до половины транспорта в России может стать беспилотным",
+      "slug": "k-2050-godu-do-poloviny-transporta-v-rossii-mozhet-stat-bespilotnym-b9d0c5fa"
     }
   },
   "digests": {
-    "2026-11-07:am": {
-      "message_id": 1734,
-      "sent_at": "2026-11-07T10:05:17+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
-        "https://sdelanounas.ru/blogs/179259/",
-        "https://sdelanounas.ru/blogs/179231/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-07:pm": {
       "message_id": 1735,
       "sent_at": "2026-11-07T13:22:41+00:00",
@@ -4137,6 +4147,17 @@
         "https://www.globaltrailermag.com/customer-first/",
         "https://www.globaltrailermag.com/building-energy-ecosystems/",
         "https://www.globaltrailermag.com/meiller-expands-insulated-tipper-range/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-26:am": {
+      "message_id": 1841,
+      "sent_at": "2026-11-26T00:37:18+00:00",
+      "slot": "am",
+      "items": [
+        "https://www.krone-trailer.com/en/news/detail-1/auf-den-spuren-des-eigenen-trailers/",
+        "http://gruzovoy.ru/news/industry/3450_yralspectrans_predstavil_novii_polypricep-cisterny_dlya_perevozki_emylsii.html",
+        "http://gruzovoy.ru/news/industry/3449_k_2050_gody_do_polovini_transporta_v_rossii_mojet_stat_bespilotnim.html"
       ],
       "visual": "visual"
     }
