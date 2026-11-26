@@ -3670,7 +3670,7 @@
       "updated_at": "2026-11-25T19:14:11.054702+00:00"
     },
     "f81b200099ac": {
-      "title": "Электрификация под руководством трейлера",
+      "title": "EV-RT: когда электрификацию ведёт прицеп",
       "created_at": "2026-11-26T08:11:52.227783+00:00",
       "platforms": {
         "youtube": {
@@ -3684,16 +3684,16 @@
           "platform": "tiktok",
           "status": "error",
           "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
-          "updated_at": "2026-11-26T08:11:52.429685+00:00"
+          "updated_at": "2026-11-26T17:56:53.663458+00:00"
         },
         "instagram": {
           "platform": "instagram",
           "status": "error",
           "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
-          "updated_at": "2026-11-26T08:11:52.551512+00:00"
+          "updated_at": "2026-11-26T17:56:53.715399+00:00"
         }
       },
-      "updated_at": "2026-11-26T08:11:52.551509+00:00"
+      "updated_at": "2026-11-26T17:56:53.715395+00:00"
     }
   }
 }
