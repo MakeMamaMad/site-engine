@@ -945,6 +945,15 @@
       "status": "verified_in_author_cabinet",
       "last_public_check_at": "2026-11-26T18:39:20+00:00",
       "public_status": "pending"
+    },
+    {
+      "target_id": "mexzona",
+      "target_name": "MEXZONA.RU",
+      "slug": "pereregistraciya-polupricepa",
+      "title": "Перерегистрация полуприцепа при покупке б/у в 2026 году: документы, пошлины, порядок",
+      "site_url": "https://spec-avtoportal.ru/knowledge/pereregistraciya-polupricepa/?utm_source=mexzona&utm_medium=editorial&utm_campaign=industry_editorial&utm_content=pereregistraciya-polupricepa",
+      "created_at": "2026-11-26T19:13:59+00:00",
+      "status": "manual_fallback"
     }
   ]
 }
