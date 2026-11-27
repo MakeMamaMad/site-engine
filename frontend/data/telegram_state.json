@@ -2309,6 +2309,24 @@
       "slug": "mintrans-sozdast-sistemu-vesogabaritnogo-kontrolya-s-raspoznavaniem-skry-09377b0b",
       "kind": "news",
       "visual": "visual"
+    },
+    "http://gruzovoy.ru/news/industry/3454_kitaiskie_proizvoditeli_ysilivaut_pozicii_na_rinke_inostrannih_avtobysov_v_rossii.html": {
+      "message_id": 1852,
+      "sent_at": "2026-11-27T12:01:34+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/kitayskie-proizvoditeli-usilivayut-pozitsii-na-rynke-inostrannyh-avtobus-c50ff181/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=kitayskie-proizvoditeli-usilivayut-pozitsii-na-rynke-inostrannyh-avtobus-c50ff181",
+      "title": "Китайские производители усиливают позиции на рынке иностранных автобусов в России",
+      "slug": "kitayskie-proizvoditeli-usilivayut-pozitsii-na-rynke-inostrannyh-avtobus-c50ff181",
+      "kind": "news",
+      "visual": "visual"
+    },
+    "https://truckmix.ru/news/trasko-obnovlyaet-avtopark-v-kompaniu-postypili-25-novih-tyagachei-i-25-polypricepov": {
+      "message_id": 1853,
+      "sent_at": "2026-11-27T12:01:35+00:00",
+      "site_url": "https://spec-avtoportal.ru/news/trasko-obnovlyaet-avtopark-v-kompaniyu-postupili-25-novyh-tyagachey-i-25-9ea53e55/?utm_source=telegram&utm_medium=social&utm_campaign=news&utm_content=trasko-obnovlyaet-avtopark-v-kompaniyu-postupili-25-novyh-tyagachey-i-25-9ea53e55",
+      "title": "«ТРАСКО» обновляет автопарк: в компанию поступили 25 новых тягачей и 25 полуприцепов",
+      "slug": "trasko-obnovlyaet-avtopark-v-kompaniyu-postupili-25-novyh-tyagachey-i-25-9ea53e55",
+      "kind": "news",
+      "visual": "visual"
     }
   },
   "digested": {
