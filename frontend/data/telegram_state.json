@@ -3960,20 +3960,30 @@
       "sent_at": "2026-11-27T00:45:12+00:00",
       "title": "ECOOLTEC назначает генерального директора",
       "slug": "ecooltec-naznachaet-generalnogo-direktora-29b0c0a1"
+    },
+    "https://truckmix.ru/news/trasko-obnovlyaet-avtopark-v-kompaniu-postypili-25-novih-tyagachei-i-25-polypricepov": {
+      "digest_id": "2026-11-27:pm",
+      "message_id": 1854,
+      "sent_at": "2026-11-27T16:52:59+00:00",
+      "title": "«ТРАСКО» обновляет автопарк: в компанию поступили 25 новых тягачей и 25 полуприцепов",
+      "slug": "trasko-obnovlyaet-avtopark-v-kompaniyu-postupili-25-novyh-tyagachey-i-25-9ea53e55"
+    },
+    "http://gruzovoy.ru/news/industry/3454_kitaiskie_proizvoditeli_ysilivaut_pozicii_na_rinke_inostrannih_avtobysov_v_rossii.html": {
+      "digest_id": "2026-11-27:pm",
+      "message_id": 1854,
+      "sent_at": "2026-11-27T16:52:59+00:00",
+      "title": "Китайские производители усиливают позиции на рынке иностранных автобусов в России",
+      "slug": "kitayskie-proizvoditeli-usilivayut-pozitsii-na-rynke-inostrannyh-avtobus-c50ff181"
+    },
+    "https://truckmix.ru/news/sinotruk-stal-liderom-po-prodajam-tyajelih-gryzovikov-2026-goda-vipyska-v-rossii-sredi-kitaiskih-proizvoditelei": {
+      "digest_id": "2026-11-27:pm",
+      "message_id": 1854,
+      "sent_at": "2026-11-27T16:52:59+00:00",
+      "title": "SINOTRUK стал лидером по продажам тяжелых грузовиков 2026 года выпуска в  России среди китайских производителей",
+      "slug": "sinotruk-stal-liderom-po-prodazham-tyazhelyh-gruzovikov-2026-goda-vypusk-a10f5d86"
     }
   },
   "digests": {
-    "2026-11-09:pm": {
-      "message_id": 1741,
-      "sent_at": "2026-11-09T16:42:19+00:00",
-      "slot": "pm",
-      "items": [
-        "http://gruzovoy.ru/news/industry/3428_bespilotnie_gryzoviki_mogyt_viiti_na_marshryti_mejdy_rossiei_i_stranami_eaes.html",
-        "http://gruzovoy.ru/news/industry/3427_maz_pokazal_sedelnii_tyagach_s_kabinoi_kamaz_k5.html",
-        "http://gruzovoy.ru/news/industry/3429_v_rossii_vvodyat_zapret_na_zakypky_otdelnih_inostrannih_akkymylyatorov.html"
-      ],
-      "visual": "visual"
-    },
     "2026-11-10:am": {
       "message_id": 1742,
       "sent_at": "2026-11-10T00:22:32+00:00",
@@ -4290,6 +4300,17 @@
         "https://truckmix.ru/news/sintec-luxe-g12-stal-samim-prodavaemim-antifrizom-na-rossiiskom-rinke",
         "https://www.globaltrailermag.com/bendix-acquired-in-takeover/",
         "https://www.globaltrailermag.com/ecooltec-appoints-ceo/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-27:pm": {
+      "message_id": 1854,
+      "sent_at": "2026-11-27T16:52:59+00:00",
+      "slot": "pm",
+      "items": [
+        "https://truckmix.ru/news/trasko-obnovlyaet-avtopark-v-kompaniu-postypili-25-novih-tyagachei-i-25-polypricepov",
+        "http://gruzovoy.ru/news/industry/3454_kitaiskie_proizvoditeli_ysilivaut_pozicii_na_rinke_inostrannih_avtobysov_v_rossii.html",
+        "https://truckmix.ru/news/sinotruk-stal-liderom-po-prodajam-tyajelih-gryzovikov-2026-goda-vipyska-v-rossii-sredi-kitaiskih-proizvoditelei"
       ],
       "visual": "visual"
     }
