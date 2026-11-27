@@ -3903,20 +3903,30 @@
       "sent_at": "2026-11-26T16:48:38+00:00",
       "title": "В России разработали новый герметик для автомобильной промышленности",
       "slug": "v-rossii-razrabotali-novyy-germetik-dlya-avtomobilnoy-promyshlennosti-4afa82ae"
+    },
+    "https://truckmix.ru/news/sintec-luxe-g12-stal-samim-prodavaemim-antifrizom-na-rossiiskom-rinke": {
+      "digest_id": "2026-11-27:am",
+      "message_id": 1849,
+      "sent_at": "2026-11-27T00:45:12+00:00",
+      "title": "Sintec Luxe G12+ стал самым продаваемым антифризом на российском рынке",
+      "slug": "sintec-luxe-g12-stal-samym-prodavaemym-antifrizom-na-rossiyskom-rynke-2a7dc042"
+    },
+    "https://www.globaltrailermag.com/bendix-acquired-in-takeover/": {
+      "digest_id": "2026-11-27:am",
+      "message_id": 1849,
+      "sent_at": "2026-11-27T00:45:12+00:00",
+      "title": "Bendix приобрела компанию",
+      "slug": "bendix-priobrela-kompaniyu-96812cd8"
+    },
+    "https://www.globaltrailermag.com/ecooltec-appoints-ceo/": {
+      "digest_id": "2026-11-27:am",
+      "message_id": 1849,
+      "sent_at": "2026-11-27T00:45:12+00:00",
+      "title": "ECOOLTEC назначает генерального директора",
+      "slug": "ecooltec-naznachaet-generalnogo-direktora-29b0c0a1"
     }
   },
   "digests": {
-    "2026-11-08:am": {
-      "message_id": 1736,
-      "sent_at": "2026-11-08T10:09:44+00:00",
-      "slot": "am",
-      "items": [
-        "https://www.globaltrailermag.com/tii-group-appoints-managing-director/",
-        "https://www.satpricep.by/o-zavode/news/polupritsepy-spetsavtotekhnika-v-rassrochku-na-13-mesyatsev/",
-        "https://sdelanounas.ru/blogs/179259/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-09:pm": {
       "message_id": 1741,
       "sent_at": "2026-11-09T16:42:19+00:00",
@@ -4233,6 +4243,17 @@
         "https://www.globaltrailermag.com/trailer-led-electrification/",
         "https://www.globaltrailermag.com/msc-expands-saudi-road-logistics-network/",
         "http://gruzovoy.ru/news/industry/3451_v_rossii_razrabotali_ynikalnii_germetik_dlya_avtomobilnoi_promishlennosti.html"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-27:am": {
+      "message_id": 1849,
+      "sent_at": "2026-11-27T00:45:12+00:00",
+      "slot": "am",
+      "items": [
+        "https://truckmix.ru/news/sintec-luxe-g12-stal-samim-prodavaemim-antifrizom-na-rossiiskom-rinke",
+        "https://www.globaltrailermag.com/bendix-acquired-in-takeover/",
+        "https://www.globaltrailermag.com/ecooltec-appoints-ceo/"
       ],
       "visual": "visual"
     }
