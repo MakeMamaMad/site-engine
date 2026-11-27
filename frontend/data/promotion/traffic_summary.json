@@ -1,24 +1,13 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T01:03:34+00:00",
+  "updated_at": "2026-11-27T01:04:21+00:00",
   "counter_id": "106240080",
   "period": "7daysAgo..today",
   "status": "ok",
-  "sources": [
-    {
-      "source": "trans-ru",
-      "medium": "editorial",
-      "campaign": "industry_editorial",
-      "visits": 1,
-      "users": 1,
-      "bounce_rate": 0.0,
-      "page_depth": 2.0,
-      "avg_visit_duration_seconds": 20
-    }
-  ],
+  "sources": [],
   "totals": {
-    "visits": 1,
-    "users": 1
+    "visits": 0,
+    "users": 0
   },
   "sampled": false,
   "sample_share": 1.0
