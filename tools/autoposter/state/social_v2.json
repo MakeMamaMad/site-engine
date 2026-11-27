@@ -3694,6 +3694,32 @@
         }
       },
       "updated_at": "2026-11-27T08:11:08.697886+00:00"
+    },
+    "9ea53e552d42": {
+      "title": "«ТРАСКО» получила 25 новых тягачей и 25 полуприцепов",
+      "created_at": "2026-11-27T16:12:03.703300+00:00",
+      "platforms": {
+        "youtube": {
+          "platform": "youtube",
+          "status": "published",
+          "video_id": "af2e-Ehfa3g",
+          "url": "https://www.youtube.com/shorts/af2e-Ehfa3g",
+          "updated_at": "2026-11-27T16:12:03.703319+00:00"
+        },
+        "tiktok": {
+          "platform": "tiktok",
+          "status": "error",
+          "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
+          "updated_at": "2026-11-27T16:12:03.911311+00:00"
+        },
+        "instagram": {
+          "platform": "instagram",
+          "status": "error",
+          "error": "Buffer API HTTP 429: {'errors': [{'message': 'Too many requests from this client. Please try again later. You can raise your Buffer API limit: https://publish.buffer.com/settings/api?cta=publicApi-rateLimit-hint-upgrade-1&upgradePathName=apiRateLimit-upgrade', 'extensions': {'code': 'RATE_LIMIT_EXCEEDED', 'window': '30d'}}]}",
+          "updated_at": "2026-11-27T16:12:04.052503+00:00"
+        }
+      },
+      "updated_at": "2026-11-27T16:12:04.052501+00:00"
     }
   }
 }
