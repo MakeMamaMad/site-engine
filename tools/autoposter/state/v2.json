@@ -118,7 +118,8 @@
     "ce0c249c2d8c",
     "guide:rto-calculator",
     "b6c02d4c5b25",
-    "9ea53e552d42"
+    "9ea53e552d42",
+    "a10f5d8676cb"
   ],
   "renders": [
     {
@@ -945,6 +946,13 @@
       "slug": "trasko-obnovlyaet-avtopark-v-kompaniyu-postupili-25-novyh-tyagachey-i-25-9ea53e55",
       "title": "«ТРАСКО» получила 25 новых тягачей и 25 полуприцепов",
       "created_at": "2026-11-28T07:36:19.621333+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "a10f5d8676cb",
+      "slug": "sinotruk-stal-liderom-po-prodazham-tyazhelyh-gruzovikov-2026-goda-vypusk-a10f5d86",
+      "title": "SINOTRUK лидирует по продажам тяжелых грузовиков 2026 года выпуска",
+      "created_at": "2026-11-28T16:11:31.882154+00:00",
       "format": "social-v2"
     }
   ]
