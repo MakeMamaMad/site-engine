@@ -117,7 +117,8 @@
     "88a00c69eb3b",
     "ce0c249c2d8c",
     "guide:rto-calculator",
-    "b6c02d4c5b25"
+    "b6c02d4c5b25",
+    "9ea53e552d42"
   ],
   "renders": [
     {
@@ -937,6 +938,13 @@
       "slug": "fly-by-nite-vypustil-26-treylerov-krone-b6c02d4c",
       "title": "Fly By Nite инвестировала в 26 трейлеров KRONE",
       "created_at": "2026-11-23T08:15:46.679374+00:00",
+      "format": "social-v2"
+    },
+    {
+      "content_key": "9ea53e552d42",
+      "slug": "trasko-obnovlyaet-avtopark-v-kompaniyu-postupili-25-novyh-tyagachey-i-25-9ea53e55",
+      "title": "«ТРАСКО» получила 25 новых тягачей и 25 полуприцепов",
+      "created_at": "2026-11-28T07:36:19.621333+00:00",
       "format": "social-v2"
     }
   ]
