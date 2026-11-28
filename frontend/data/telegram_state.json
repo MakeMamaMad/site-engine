@@ -3978,16 +3978,16 @@
       "slug": "trasko-obnovlyaet-avtopark-v-kompaniyu-postupili-25-novyh-tyagachey-i-25-9ea53e55"
     },
     "http://gruzovoy.ru/news/industry/3454_kitaiskie_proizvoditeli_ysilivaut_pozicii_na_rinke_inostrannih_avtobysov_v_rossii.html": {
-      "digest_id": "2026-11-27:pm",
-      "message_id": 1854,
-      "sent_at": "2026-11-27T16:52:59+00:00",
+      "digest_id": "2026-11-28:pm",
+      "message_id": 1857,
+      "sent_at": "2026-11-28T15:44:21+00:00",
       "title": "Китайские производители усиливают позиции на рынке иностранных автобусов в России",
       "slug": "kitayskie-proizvoditeli-usilivayut-pozitsii-na-rynke-inostrannyh-avtobus-c50ff181"
     },
     "https://truckmix.ru/news/sinotruk-stal-liderom-po-prodajam-tyajelih-gryzovikov-2026-goda-vipyska-v-rossii-sredi-kitaiskih-proizvoditelei": {
-      "digest_id": "2026-11-27:pm",
-      "message_id": 1854,
-      "sent_at": "2026-11-27T16:52:59+00:00",
+      "digest_id": "2026-11-28:pm",
+      "message_id": 1857,
+      "sent_at": "2026-11-28T15:44:21+00:00",
       "title": "SINOTRUK стал лидером по продажам тяжелых грузовиков 2026 года выпуска в  России среди китайских производителей",
       "slug": "sinotruk-stal-liderom-po-prodazham-tyazhelyh-gruzovikov-2026-goda-vypusk-a10f5d86"
     },
@@ -3999,25 +3999,14 @@
       "slug": "mintrans-sozdast-sistemu-vesogabaritnogo-kontrolya-s-raspoznavaniem-skry-09377b0b"
     },
     "http://gruzovoy.ru/news/industry/3456_v_regionah_sozdadyt_centri_ypravleniya_dorojnim_dvijeniem_i_obshestvennim_transportom.html": {
-      "digest_id": "2026-11-28:am",
-      "message_id": 1856,
-      "sent_at": "2026-11-28T00:11:46+00:00",
+      "digest_id": "2026-11-28:pm",
+      "message_id": 1857,
+      "sent_at": "2026-11-28T15:44:21+00:00",
       "title": "В регионах создадут центры управления дорожным движением и общественным транспортом",
       "slug": "v-regionah-sozdadut-tsentry-upravleniya-dorozhnym-dvizheniem-i-obschestv-49b955ae"
     }
   },
   "digests": {
-    "2026-11-10:pm": {
-      "message_id": 1749,
-      "sent_at": "2026-11-10T15:05:17+00:00",
-      "slot": "pm",
-      "items": [
-        "https://www.globaltrailermag.com/chereau-backs-breast-cancer-campaign/",
-        "https://www.globaltrailermag.com/ryder-acquisition-boosts-fleet-network/",
-        "https://www.globaltrailermag.com/knorr-bremse-truck-business-gains-momentum/"
-      ],
-      "visual": "visual"
-    },
     "2026-11-11:am": {
       "message_id": 1759,
       "sent_at": "2026-11-11T10:43:38+00:00",
@@ -4334,6 +4323,17 @@
         "http://gruzovoy.ru/news/industry/3452_mintrans_sozdast_sistemy_vesogabaritnogo_kontrolya_s_raspoznavaniem_skritih_nomerov.html",
         "http://gruzovoy.ru/news/industry/3456_v_regionah_sozdadyt_centri_ypravleniya_dorojnim_dvijeniem_i_obshestvennim_transportom.html",
         "https://www.globaltrailermag.com/ecooltec-appoints-ceo/"
+      ],
+      "visual": "visual"
+    },
+    "2026-11-28:pm": {
+      "message_id": 1857,
+      "sent_at": "2026-11-28T15:44:21+00:00",
+      "slot": "pm",
+      "items": [
+        "https://truckmix.ru/news/sinotruk-stal-liderom-po-prodajam-tyajelih-gryzovikov-2026-goda-vipyska-v-rossii-sredi-kitaiskih-proizvoditelei",
+        "http://gruzovoy.ru/news/industry/3456_v_regionah_sozdadyt_centri_ypravleniya_dorojnim_dvijeniem_i_obshestvennim_transportom.html",
+        "http://gruzovoy.ru/news/industry/3454_kitaiskie_proizvoditeli_ysilivaut_pozicii_na_rinke_inostrannih_avtobysov_v_rossii.html"
       ],
       "visual": "visual"
     }
