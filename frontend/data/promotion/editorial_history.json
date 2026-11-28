@@ -967,6 +967,19 @@
       "status": "email_sent",
       "sent_at": "2026-11-27T16:54:32+00:00",
       "gmail_message_id": "1a21dee19ea025ac"
+    },
+    {
+      "target_id": "sdelanounas",
+      "target_name": "Сделано у нас",
+      "item_key": "news:a10f5d8676cb",
+      "title": "SINOTRUK стал лидером по продажам тяжелых грузовиков 2026 года выпуска в России среди китайских производителей",
+      "source_url": "https://spec-avtoportal.ru/news/sinotruk-stal-liderom-po-prodazham-tyazhelyh-gruzovikov-2026-goda-vypusk-a10f5d86/?utm_source=sdelanounas&utm_medium=editorial&utm_campaign=industry_promotion&utm_content=sinotruk-stal-liderom-po-prodazham-tyazhelyh-gruzovikov-2026-goda-vypusk-a10f5d86",
+      "result_url": "https://sdelanounas.ru/blogs/add/?BlogAdd=2053606866",
+      "category_id": "149",
+      "submitted_at": "2026-11-28T17:35:19+00:00",
+      "status": "published",
+      "public_url": "https://sdelanounas.ru/blogs/add/?BlogAdd=2053606866",
+      "published_at": "2026-11-28T17:35:19+00:00"
     }
   ]
 }
